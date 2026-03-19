@@ -9,10 +9,13 @@ if (!filePath || !to) {
 }
 
 const cfg = JSON.parse(fs.readFileSync(path.join(process.env.HOME, '.openclaw', 'openclaw.json'), 'utf8'));
-const appId = cfg?.channels?.feishu?.appId;
-const appSecret = cfg?.channels?.feishu?.appSecret;
+const feishuCfg = cfg?.channels?.feishu ?? {};
+const defaultAccountId = feishuCfg?.defaultAccount || 'default';
+const defaultAccount = feishuCfg?.accounts?.[defaultAccountId] ?? feishuCfg?.accounts?.default ?? null;
+const appId = process.env.FEISHU_APP_ID || feishuCfg?.appId || defaultAccount?.appId;
+const appSecret = process.env.FEISHU_APP_SECRET || feishuCfg?.appSecret || defaultAccount?.appSecret;
 if (!appId || !appSecret) {
-  console.error('Missing Feishu app credentials in ~/.openclaw/openclaw.json');
+  console.error('Missing Feishu app credentials in ~/.openclaw/openclaw.json (top-level or channels.feishu.accounts.<id>)');
   process.exit(1);
 }
 

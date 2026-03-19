@@ -3,10 +3,10 @@
 _Learn about the person you're helping. Update this as you go._
 
 - **Name:**
-- **What to call them:**
+- **What to call them:** 同学
 - **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+- **Timezone:** Asia/Shanghai
+- **Notes:** 偏好冷静直接的交流风格。
 
 ## Context
 

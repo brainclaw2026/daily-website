@@ -8,20 +8,37 @@ import os
 import sys
 from pathlib import Path
 from datetime import datetime
-import markdown
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.lib import colors
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 
 def convert_markdown_to_pdf(md_content, output_pdf):
     """将Markdown内容转换为PDF"""
     print(f"生成PDF: {output_pdf}")
+
+    # 注册中文宋体优先，失败则回退黑体
+    font_name = 'STSongti'
+    font_candidates = [
+        ('STSongti', '/System/Library/Fonts/Supplemental/Songti.ttc'),
+        ('STHeitiLight', '/System/Library/Fonts/STHeiti Light.ttc'),
+        ('STHeitiMedium', '/System/Library/Fonts/STHeiti Medium.ttc'),
+    ]
+    for candidate_name, candidate_path in font_candidates:
+        if Path(candidate_path).exists():
+            try:
+                pdfmetrics.registerFont(TTFont(candidate_name, candidate_path))
+                font_name = candidate_name
+                break
+            except Exception:
+                pass
     
     # 创建PDF文档
     doc = SimpleDocTemplate(
-        output_pdf,
+        str(output_pdf),
         pagesize=letter,
         rightMargin=72,
         leftMargin=72,
@@ -36,7 +53,9 @@ def convert_markdown_to_pdf(md_content, output_pdf):
     title_style = ParagraphStyle(
         'CustomTitle',
         parent=styles['Heading1'],
+        fontName=font_name,
         fontSize=16,
+        leading=22,
         spaceAfter=12,
         textColor=colors.HexColor('#2c3e50')
     )
@@ -44,7 +63,9 @@ def convert_markdown_to_pdf(md_content, output_pdf):
     heading1_style = ParagraphStyle(
         'CustomHeading1',
         parent=styles['Heading2'],
+        fontName=font_name,
         fontSize=14,
+        leading=20,
         spaceAfter=8,
         textColor=colors.HexColor('#34495e')
     )
@@ -52,7 +73,9 @@ def convert_markdown_to_pdf(md_content, output_pdf):
     heading2_style = ParagraphStyle(
         'CustomHeading2', 
         parent=styles['Heading3'],
+        fontName=font_name,
         fontSize=12,
+        leading=18,
         spaceAfter=6,
         textColor=colors.HexColor('#7f8c8d')
     )
@@ -60,7 +83,9 @@ def convert_markdown_to_pdf(md_content, output_pdf):
     normal_style = ParagraphStyle(
         'CustomNormal',
         parent=styles['Normal'],
+        fontName=font_name,
         fontSize=10,
+        leading=16,
         spaceAfter=6,
         textColor=colors.HexColor('#2c3e50')
     )

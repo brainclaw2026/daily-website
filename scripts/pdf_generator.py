@@ -15,26 +15,36 @@ from reportlab.lib.units import inch
 from reportlab.lib import colors
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.pdfbase.cidfonts import UnicodeCIDFont
 
 def convert_markdown_to_pdf(md_content, output_pdf):
     """将Markdown内容转换为PDF"""
     print(f"生成PDF: {output_pdf}")
 
-    # 注册中文宋体优先，失败则回退黑体
-    font_name = 'STSongti'
+    # 优先使用工作区内嵌入的思源宋体，其次回退系统中文字体
+    font_name = 'SourceHanSerifSC'
     font_candidates = [
+        ('SourceHanSerifSC', '/Users/brain/.openclaw/workspace/fonts/SourceHanSerifSC-Regular.otf'),
         ('STSongti', '/System/Library/Fonts/Supplemental/Songti.ttc'),
         ('STHeitiLight', '/System/Library/Fonts/STHeiti Light.ttc'),
         ('STHeitiMedium', '/System/Library/Fonts/STHeiti Medium.ttc'),
     ]
+    registered = False
     for candidate_name, candidate_path in font_candidates:
         if Path(candidate_path).exists():
             try:
                 pdfmetrics.registerFont(TTFont(candidate_name, candidate_path))
                 font_name = candidate_name
+                registered = True
                 break
             except Exception:
                 pass
+    if not registered:
+        try:
+            pdfmetrics.registerFont(UnicodeCIDFont('STSong-Light'))
+            font_name = 'STSong-Light'
+        except Exception:
+            pass
     
     # 创建PDF文档
     doc = SimpleDocTemplate(

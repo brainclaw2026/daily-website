@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck && npm run build",
     "ingest": "tsx scripts/run-ingest.ts",
+    "prune": "tsx scripts/prune-content.ts",
     "seed": "tsx scripts/seed.ts"
   },
   "dependencies": {

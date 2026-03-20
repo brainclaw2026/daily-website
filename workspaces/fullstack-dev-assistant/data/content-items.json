@@ -1,311 +1,193 @@
 [
   {
-    "externalId": "1129291519",
-    "title": "kEnder242/HomeLabAI",
-    "summary": "A distributed, voice-native AI ecosystem that acts as a proactive partner in the Home Lab. Like the Jarvis system in \"Iron Man\", it lives in the background, handles complex tasks across machines (Windows/Linux/Cloud), and leverages personal knowledge to accelerate work.",
+    "externalId": "milpdio/ablation_lora_5",
+    "title": "milpdio/ablation_lora_5",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
     "summaryZh": "",
-    "publishedAt": "2026-03-20T07:21:29Z",
-    "sourceType": "github",
-    "primaryUrl": "https://github.com/kEnder242/HomeLabAI",
+    "publishedAt": "2026-03-20T08:02:13.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/milpdio/ablation_lora_5",
     "sourceLinks": [
       {
-        "label": "GitHub Repository",
-        "url": "https://github.com/kEnder242/HomeLabAI",
-        "sourceType": "github"
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/milpdio/ablation_lora_5",
+        "sourceType": "huggingface"
       }
     ],
-    "authors": [
-      "kEnder242"
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "peft",
+      "safetensors",
+      "base_model:adapter:lerobot/smolvla_base",
+      "lora",
+      "arxiv:1910.09700",
+      "region:us"
     ],
-    "category": "code",
-    "keywords": [],
     "tags": [
       "学术动态"
     ],
-    "relevanceScore": 0.35,
-    "trustScore": 0.76,
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
     "raw": {
-      "id": 1129291519,
-      "node_id": "R_kgDOQ0-e_w",
-      "name": "HomeLabAI",
-      "full_name": "kEnder242/HomeLabAI",
+      "_id": "69bcfefec63d077227ba66bc",
+      "id": "milpdio/ablation_lora_5",
+      "author": "milpdio",
+      "gated": false,
+      "lastModified": "2026-03-20T08:02:13.000Z",
+      "likes": 0,
       "private": false,
-      "owner": {
-        "login": "kEnder242",
-        "id": 62508839,
-        "node_id": "MDQ6VXNlcjYyNTA4ODM5",
-        "avatar_url": "https://avatars.githubusercontent.com/u/62508839?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/kEnder242",
-        "html_url": "https://github.com/kEnder242",
-        "followers_url": "https://api.github.com/users/kEnder242/followers",
-        "following_url": "https://api.github.com/users/kEnder242/following{/other_user}",
-        "gists_url": "https://api.github.com/users/kEnder242/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/kEnder242/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/kEnder242/subscriptions",
-        "organizations_url": "https://api.github.com/users/kEnder242/orgs",
-        "repos_url": "https://api.github.com/users/kEnder242/repos",
-        "events_url": "https://api.github.com/users/kEnder242/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/kEnder242/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/kEnder242/HomeLabAI",
-      "description": "A distributed, voice-native AI ecosystem that acts as a proactive partner in the Home Lab. Like the Jarvis system in \"Iron Man\", it lives in the background, handles complex tasks across machines (Windows/Linux/Cloud), and leverages personal knowledge to accelerate work.",
-      "fork": false,
-      "url": "https://api.github.com/repos/kEnder242/HomeLabAI",
-      "forks_url": "https://api.github.com/repos/kEnder242/HomeLabAI/forks",
-      "keys_url": "https://api.github.com/repos/kEnder242/HomeLabAI/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/kEnder242/HomeLabAI/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/kEnder242/HomeLabAI/teams",
-      "hooks_url": "https://api.github.com/repos/kEnder242/HomeLabAI/hooks",
-      "issue_events_url": "https://api.github.com/repos/kEnder242/HomeLabAI/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/kEnder242/HomeLabAI/events",
-      "assignees_url": "https://api.github.com/repos/kEnder242/HomeLabAI/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/kEnder242/HomeLabAI/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/kEnder242/HomeLabAI/tags",
-      "blobs_url": "https://api.github.com/repos/kEnder242/HomeLabAI/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/kEnder242/HomeLabAI/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/kEnder242/HomeLabAI/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/kEnder242/HomeLabAI/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/kEnder242/HomeLabAI/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/kEnder242/HomeLabAI/languages",
-      "stargazers_url": "https://api.github.com/repos/kEnder242/HomeLabAI/stargazers",
-      "contributors_url": "https://api.github.com/repos/kEnder242/HomeLabAI/contributors",
-      "subscribers_url": "https://api.github.com/repos/kEnder242/HomeLabAI/subscribers",
-      "subscription_url": "https://api.github.com/repos/kEnder242/HomeLabAI/subscription",
-      "commits_url": "https://api.github.com/repos/kEnder242/HomeLabAI/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/kEnder242/HomeLabAI/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/kEnder242/HomeLabAI/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/kEnder242/HomeLabAI/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/kEnder242/HomeLabAI/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/kEnder242/HomeLabAI/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/kEnder242/HomeLabAI/merges",
-      "archive_url": "https://api.github.com/repos/kEnder242/HomeLabAI/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/kEnder242/HomeLabAI/downloads",
-      "issues_url": "https://api.github.com/repos/kEnder242/HomeLabAI/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/kEnder242/HomeLabAI/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/kEnder242/HomeLabAI/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/kEnder242/HomeLabAI/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/kEnder242/HomeLabAI/labels{/name}",
-      "releases_url": "https://api.github.com/repos/kEnder242/HomeLabAI/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/kEnder242/HomeLabAI/deployments",
-      "created_at": "2026-01-06T22:10:52Z",
-      "updated_at": "2026-03-20T07:21:29Z",
-      "pushed_at": "2026-03-20T07:21:26Z",
-      "git_url": "git://github.com/kEnder242/HomeLabAI.git",
-      "ssh_url": "git@github.com:kEnder242/HomeLabAI.git",
-      "clone_url": "https://github.com/kEnder242/HomeLabAI.git",
-      "svn_url": "https://github.com/kEnder242/HomeLabAI",
-      "homepage": null,
-      "size": 1992,
-      "stargazers_count": 1,
-      "watchers_count": 1,
-      "language": "Python",
-      "has_issues": true,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": false,
-      "has_discussions": false,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 0,
-      "license": null,
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [],
-      "visibility": "public",
-      "forks": 0,
-      "open_issues": 0,
-      "watchers": 1,
-      "default_branch": "main",
-      "score": 1
+      "sha": "af8dc9a1e8b2da12c67e2f21baac6e6403f36a60",
+      "downloads": 0,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:lerobot/smolvla_base",
+        "lora",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "library_name": "peft",
+      "createdAt": "2026-03-20T08:02:06.000Z",
+      "modelId": "milpdio/ablation_lora_5",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "adapter_config.json"
+        },
+        {
+          "rfilename": "adapter_model.safetensors"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_5_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
     },
-    "slug": "kender242homelabai",
-    "dedupeKey": "ef3f82f548ff51ed6c7780afac02fbf38e02cfdae15e83a8f46f7b9b32496e2b",
+    "slug": "milpdioablationlora5",
+    "dedupeKey": "8d5ca64a2c8843772c9044a92d074a7d7d83b87da47503647e56397793358b61",
     "mergedSourceTypes": [
-      "github"
-    ]
+      "huggingface"
+    ],
+    "id": "8d5ca64a2c8843772c9044a92d074a7d7d83b87da47503647e56397793358b61",
+    "createdAt": "2026-03-20T08:02:13.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
-    "externalId": "797996048",
-    "title": "fuckwave/querylab",
-    "summary": "🎓 Learn SQL effortlessly in your browser with QueryLab, featuring AI support and a zero-install PostgreSQL platform for all skill levels.",
+    "externalId": "HGLLL/act-bimanual-yam-test",
+    "title": "HGLLL/act-bimanual-yam-test",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
     "summaryZh": "",
-    "publishedAt": "2026-03-20T07:21:28Z",
-    "sourceType": "github",
-    "primaryUrl": "https://github.com/fuckwave/querylab",
+    "publishedAt": "2026-03-20T07:56:28.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/HGLLL/act-bimanual-yam-test",
     "sourceLinks": [
       {
-        "label": "GitHub Repository",
-        "url": "https://github.com/fuckwave/querylab",
-        "sourceType": "github"
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/HGLLL/act-bimanual-yam-test",
+        "sourceType": "huggingface"
       }
     ],
-    "authors": [
-      "fuckwave"
-    ],
-    "category": "code",
+    "authors": [],
+    "category": "project",
     "keywords": [
-      "ai-sql",
-      "cloudflare-workers",
-      "database-learning",
-      "educational",
-      "javascript",
-      "knexjs",
-      "monaco-editor",
-      "pglite-nextjs",
-      "postgresql",
-      "react",
-      "sql-editor",
-      "sql-learning",
-      "systematic-reviews",
-      "typescript",
-      "typescript-hono"
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "act",
+      "dataset:HGLLL/bimanual-yam-0318",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
     ],
     "tags": [
       "学术动态"
     ],
-    "relevanceScore": 1,
-    "trustScore": 0.76,
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
     "raw": {
-      "id": 797996048,
-      "node_id": "R_kgDOL5B0EA",
-      "name": "querylab",
-      "full_name": "fuckwave/querylab",
+      "_id": "69bcfd9f3ecb4b2b8201e6f3",
+      "id": "HGLLL/act-bimanual-yam-test",
+      "author": "HGLLL",
+      "gated": false,
+      "lastModified": "2026-03-20T07:56:28.000Z",
+      "likes": 0,
       "private": false,
-      "owner": {
-        "login": "fuckwave",
-        "id": 169312489,
-        "node_id": "U_kgDOCheA6Q",
-        "avatar_url": "https://avatars.githubusercontent.com/u/169312489?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/fuckwave",
-        "html_url": "https://github.com/fuckwave",
-        "followers_url": "https://api.github.com/users/fuckwave/followers",
-        "following_url": "https://api.github.com/users/fuckwave/following{/other_user}",
-        "gists_url": "https://api.github.com/users/fuckwave/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/fuckwave/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/fuckwave/subscriptions",
-        "organizations_url": "https://api.github.com/users/fuckwave/orgs",
-        "repos_url": "https://api.github.com/users/fuckwave/repos",
-        "events_url": "https://api.github.com/users/fuckwave/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/fuckwave/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/fuckwave/querylab",
-      "description": "🎓 Learn SQL effortlessly in your browser with QueryLab, featuring AI support and a zero-install PostgreSQL platform for all skill levels.",
-      "fork": false,
-      "url": "https://api.github.com/repos/fuckwave/querylab",
-      "forks_url": "https://api.github.com/repos/fuckwave/querylab/forks",
-      "keys_url": "https://api.github.com/repos/fuckwave/querylab/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/fuckwave/querylab/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/fuckwave/querylab/teams",
-      "hooks_url": "https://api.github.com/repos/fuckwave/querylab/hooks",
-      "issue_events_url": "https://api.github.com/repos/fuckwave/querylab/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/fuckwave/querylab/events",
-      "assignees_url": "https://api.github.com/repos/fuckwave/querylab/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/fuckwave/querylab/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/fuckwave/querylab/tags",
-      "blobs_url": "https://api.github.com/repos/fuckwave/querylab/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/fuckwave/querylab/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/fuckwave/querylab/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/fuckwave/querylab/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/fuckwave/querylab/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/fuckwave/querylab/languages",
-      "stargazers_url": "https://api.github.com/repos/fuckwave/querylab/stargazers",
-      "contributors_url": "https://api.github.com/repos/fuckwave/querylab/contributors",
-      "subscribers_url": "https://api.github.com/repos/fuckwave/querylab/subscribers",
-      "subscription_url": "https://api.github.com/repos/fuckwave/querylab/subscription",
-      "commits_url": "https://api.github.com/repos/fuckwave/querylab/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/fuckwave/querylab/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/fuckwave/querylab/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/fuckwave/querylab/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/fuckwave/querylab/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/fuckwave/querylab/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/fuckwave/querylab/merges",
-      "archive_url": "https://api.github.com/repos/fuckwave/querylab/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/fuckwave/querylab/downloads",
-      "issues_url": "https://api.github.com/repos/fuckwave/querylab/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/fuckwave/querylab/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/fuckwave/querylab/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/fuckwave/querylab/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/fuckwave/querylab/labels{/name}",
-      "releases_url": "https://api.github.com/repos/fuckwave/querylab/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/fuckwave/querylab/deployments",
-      "created_at": "2024-05-08T22:16:58Z",
-      "updated_at": "2026-03-20T07:21:28Z",
-      "pushed_at": "2026-03-20T07:21:25Z",
-      "git_url": "git://github.com/fuckwave/querylab.git",
-      "ssh_url": "git@github.com:fuckwave/querylab.git",
-      "clone_url": "https://github.com/fuckwave/querylab.git",
-      "svn_url": "https://github.com/fuckwave/querylab",
-      "homepage": null,
-      "size": 2191,
-      "stargazers_count": 0,
-      "watchers_count": 0,
-      "language": "TypeScript",
-      "has_issues": false,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": false,
-      "has_discussions": false,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 0,
-      "license": {
-        "key": "mit",
-        "name": "MIT License",
-        "spdx_id": "MIT",
-        "url": "https://api.github.com/licenses/mit",
-        "node_id": "MDc6TGljZW5zZTEz"
-      },
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [
-        "ai-sql",
-        "cloudflare-workers",
-        "database-learning",
-        "educational",
-        "javascript",
-        "knexjs",
-        "monaco-editor",
-        "pglite-nextjs",
-        "postgresql",
-        "react",
-        "sql-editor",
-        "sql-learning",
-        "systematic-reviews",
-        "typescript",
-        "typescript-hono"
+      "sha": "e911788eca8527f92c13dcbb68bdee748bf65dd0",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "act",
+        "dataset:HGLLL/bimanual-yam-0318",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
       ],
-      "visibility": "public",
-      "forks": 0,
-      "open_issues": 0,
-      "watchers": 0,
-      "default_branch": "main",
-      "score": 1
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-20T07:56:15.000Z",
+      "modelId": "HGLLL/act-bimanual-yam-test",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
     },
-    "slug": "fuckwavequerylab",
-    "dedupeKey": "370b9bd3d3eaf0ade6d331bcfc5361690bc121b6d94d5247648d4b3b90b31432",
+    "slug": "hglllact-bimanual-yam-test",
+    "dedupeKey": "eb5ed5bfe32ff7e0354d2a9ca1a2910ab22103f47d3531aa2b1334f7e7b3c921",
     "mergedSourceTypes": [
-      "github"
-    ]
+      "huggingface"
+    ],
+    "id": "eb5ed5bfe32ff7e0354d2a9ca1a2910ab22103f47d3531aa2b1334f7e7b3c921",
+    "createdAt": "2026-03-20T07:56:28.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "928821065",
@@ -450,148 +332,11 @@
     "dedupeKey": "b20dc98cbcaad813a02ee2ac473b2e53e47f2553890cb93caa772466f8065327",
     "mergedSourceTypes": [
       "github"
-    ]
-  },
-  {
-    "externalId": "1175724179",
-    "title": "priceflex/ztlp",
-    "summary": "ZTLP (Zero Trust Layer Protocol) is an experimental identity-first networking protocol that only allows authenticated sessions to transmit traffic, reducing attack surfaces and improving security over the existing Internet.",
-    "summaryZh": "",
-    "publishedAt": "2026-03-20T07:21:26Z",
-    "sourceType": "github",
-    "primaryUrl": "https://github.com/priceflex/ztlp",
-    "sourceLinks": [
-      {
-        "label": "GitHub Repository",
-        "url": "https://github.com/priceflex/ztlp",
-        "sourceType": "github"
-      }
     ],
-    "authors": [
-      "priceflex"
-    ],
-    "category": "code",
-    "keywords": [],
-    "tags": [
-      "学术动态"
-    ],
-    "relevanceScore": 0.35,
-    "trustScore": 0.76,
-    "raw": {
-      "id": 1175724179,
-      "node_id": "R_kgDORhQgkw",
-      "name": "ztlp",
-      "full_name": "priceflex/ztlp",
-      "private": false,
-      "owner": {
-        "login": "priceflex",
-        "id": 87045,
-        "node_id": "MDQ6VXNlcjg3MDQ1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/87045?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/priceflex",
-        "html_url": "https://github.com/priceflex",
-        "followers_url": "https://api.github.com/users/priceflex/followers",
-        "following_url": "https://api.github.com/users/priceflex/following{/other_user}",
-        "gists_url": "https://api.github.com/users/priceflex/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/priceflex/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/priceflex/subscriptions",
-        "organizations_url": "https://api.github.com/users/priceflex/orgs",
-        "repos_url": "https://api.github.com/users/priceflex/repos",
-        "events_url": "https://api.github.com/users/priceflex/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/priceflex/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/priceflex/ztlp",
-      "description": "ZTLP (Zero Trust Layer Protocol) is an experimental identity-first networking protocol that only allows authenticated sessions to transmit traffic, reducing attack surfaces and improving security over the existing Internet.",
-      "fork": false,
-      "url": "https://api.github.com/repos/priceflex/ztlp",
-      "forks_url": "https://api.github.com/repos/priceflex/ztlp/forks",
-      "keys_url": "https://api.github.com/repos/priceflex/ztlp/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/priceflex/ztlp/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/priceflex/ztlp/teams",
-      "hooks_url": "https://api.github.com/repos/priceflex/ztlp/hooks",
-      "issue_events_url": "https://api.github.com/repos/priceflex/ztlp/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/priceflex/ztlp/events",
-      "assignees_url": "https://api.github.com/repos/priceflex/ztlp/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/priceflex/ztlp/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/priceflex/ztlp/tags",
-      "blobs_url": "https://api.github.com/repos/priceflex/ztlp/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/priceflex/ztlp/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/priceflex/ztlp/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/priceflex/ztlp/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/priceflex/ztlp/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/priceflex/ztlp/languages",
-      "stargazers_url": "https://api.github.com/repos/priceflex/ztlp/stargazers",
-      "contributors_url": "https://api.github.com/repos/priceflex/ztlp/contributors",
-      "subscribers_url": "https://api.github.com/repos/priceflex/ztlp/subscribers",
-      "subscription_url": "https://api.github.com/repos/priceflex/ztlp/subscription",
-      "commits_url": "https://api.github.com/repos/priceflex/ztlp/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/priceflex/ztlp/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/priceflex/ztlp/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/priceflex/ztlp/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/priceflex/ztlp/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/priceflex/ztlp/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/priceflex/ztlp/merges",
-      "archive_url": "https://api.github.com/repos/priceflex/ztlp/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/priceflex/ztlp/downloads",
-      "issues_url": "https://api.github.com/repos/priceflex/ztlp/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/priceflex/ztlp/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/priceflex/ztlp/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/priceflex/ztlp/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/priceflex/ztlp/labels{/name}",
-      "releases_url": "https://api.github.com/repos/priceflex/ztlp/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/priceflex/ztlp/deployments",
-      "created_at": "2026-03-08T04:35:48Z",
-      "updated_at": "2026-03-20T07:21:26Z",
-      "pushed_at": "2026-03-20T07:21:22Z",
-      "git_url": "git://github.com/priceflex/ztlp.git",
-      "ssh_url": "git@github.com:priceflex/ztlp.git",
-      "clone_url": "https://github.com/priceflex/ztlp.git",
-      "svn_url": "https://github.com/priceflex/ztlp",
-      "homepage": "http://ztlp.org/",
-      "size": 5094,
-      "stargazers_count": 2,
-      "watchers_count": 2,
-      "language": "Rust",
-      "has_issues": true,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": true,
-      "has_discussions": false,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 1,
-      "license": {
-        "key": "apache-2.0",
-        "name": "Apache License 2.0",
-        "spdx_id": "Apache-2.0",
-        "url": "https://api.github.com/licenses/apache-2.0",
-        "node_id": "MDc6TGljZW5zZTI="
-      },
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [],
-      "visibility": "public",
-      "forks": 0,
-      "open_issues": 1,
-      "watchers": 2,
-      "default_branch": "main",
-      "score": 1
-    },
-    "slug": "priceflexztlp",
-    "dedupeKey": "2bef92623b14fc154484c7a1faf5cb99861264d9662aceb11e638f1dbec90f8e",
-    "mergedSourceTypes": [
-      "github"
-    ]
+    "id": "b20dc98cbcaad813a02ee2ac473b2e53e47f2553890cb93caa772466f8065327",
+    "createdAt": "2026-03-20T07:21:26Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "984143507",
@@ -730,7 +475,11 @@
     "dedupeKey": "c4db4cd26ed91a5b00b44437a89304113ba5e1679928c1cad5e62785e5a08eda",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "c4db4cd26ed91a5b00b44437a89304113ba5e1679928c1cad5e62785e5a08eda",
+    "createdAt": "2026-03-20T07:21:23Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1101729669",
@@ -875,7 +624,11 @@
     "dedupeKey": "346cb7c26652cc4561ddeca330769324c250627993a7dd0b14fee696cfe993e9",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "346cb7c26652cc4561ddeca330769324c250627993a7dd0b14fee696cfe993e9",
+    "createdAt": "2026-03-20T07:21:23Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1039239107",
@@ -1048,148 +801,11 @@
     "dedupeKey": "5a2c41c936715c589b47414cf4c80c4bc3e4641fb79d23c51325ea4d7fe56c2f",
     "mergedSourceTypes": [
       "github"
-    ]
-  },
-  {
-    "externalId": "1186283000",
-    "title": "Balavignesh2007/Trailz--Devtrails-26",
-    "summary": "Git hub repository from  Team mebers :- P.Harsha datta,A.Naga koushtub,B.Balavignesh, Ananya Kavuri, K. Sahithi Reddy",
-    "summaryZh": "",
-    "publishedAt": "2026-03-20T07:21:16Z",
-    "sourceType": "github",
-    "primaryUrl": "https://github.com/Balavignesh2007/Trailz--Devtrails-26",
-    "sourceLinks": [
-      {
-        "label": "GitHub Repository",
-        "url": "https://github.com/Balavignesh2007/Trailz--Devtrails-26",
-        "sourceType": "github"
-      }
     ],
-    "authors": [
-      "Balavignesh2007"
-    ],
-    "category": "code",
-    "keywords": [],
-    "tags": [
-      "学术动态"
-    ],
-    "relevanceScore": 0.35,
-    "trustScore": 0.76,
-    "raw": {
-      "id": 1186283000,
-      "node_id": "R_kgDORrU9-A",
-      "name": "Trailz--Devtrails-26",
-      "full_name": "Balavignesh2007/Trailz--Devtrails-26",
-      "private": false,
-      "owner": {
-        "login": "Balavignesh2007",
-        "id": 183925082,
-        "node_id": "U_kgDOCvZ5Wg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/183925082?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/Balavignesh2007",
-        "html_url": "https://github.com/Balavignesh2007",
-        "followers_url": "https://api.github.com/users/Balavignesh2007/followers",
-        "following_url": "https://api.github.com/users/Balavignesh2007/following{/other_user}",
-        "gists_url": "https://api.github.com/users/Balavignesh2007/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/Balavignesh2007/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/Balavignesh2007/subscriptions",
-        "organizations_url": "https://api.github.com/users/Balavignesh2007/orgs",
-        "repos_url": "https://api.github.com/users/Balavignesh2007/repos",
-        "events_url": "https://api.github.com/users/Balavignesh2007/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/Balavignesh2007/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/Balavignesh2007/Trailz--Devtrails-26",
-      "description": "Git hub repository from  Team mebers :- P.Harsha datta,A.Naga koushtub,B.Balavignesh, Ananya Kavuri, K. Sahithi Reddy",
-      "fork": false,
-      "url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26",
-      "forks_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/forks",
-      "keys_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/teams",
-      "hooks_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/hooks",
-      "issue_events_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/events",
-      "assignees_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/tags",
-      "blobs_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/languages",
-      "stargazers_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/stargazers",
-      "contributors_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/contributors",
-      "subscribers_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/subscribers",
-      "subscription_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/subscription",
-      "commits_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/merges",
-      "archive_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/downloads",
-      "issues_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/labels{/name}",
-      "releases_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/Balavignesh2007/Trailz--Devtrails-26/deployments",
-      "created_at": "2026-03-19T13:15:05Z",
-      "updated_at": "2026-03-20T07:21:16Z",
-      "pushed_at": "2026-03-20T07:21:13Z",
-      "git_url": "git://github.com/Balavignesh2007/Trailz--Devtrails-26.git",
-      "ssh_url": "git@github.com:Balavignesh2007/Trailz--Devtrails-26.git",
-      "clone_url": "https://github.com/Balavignesh2007/Trailz--Devtrails-26.git",
-      "svn_url": "https://github.com/Balavignesh2007/Trailz--Devtrails-26",
-      "homepage": null,
-      "size": 84,
-      "stargazers_count": 0,
-      "watchers_count": 0,
-      "language": null,
-      "has_issues": true,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": false,
-      "has_discussions": false,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 0,
-      "license": {
-        "key": "mit",
-        "name": "MIT License",
-        "spdx_id": "MIT",
-        "url": "https://api.github.com/licenses/mit",
-        "node_id": "MDc6TGljZW5zZTEz"
-      },
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [],
-      "visibility": "public",
-      "forks": 0,
-      "open_issues": 0,
-      "watchers": 0,
-      "default_branch": "main",
-      "score": 1
-    },
-    "slug": "balavignesh2007trailz-devtrails-26",
-    "dedupeKey": "ca70957b4b966d62301605f8f818d4afd9a2a6c02170318a057241c0356fd332",
-    "mergedSourceTypes": [
-      "github"
-    ]
+    "id": "5a2c41c936715c589b47414cf4c80c4bc3e4641fb79d23c51325ea4d7fe56c2f",
+    "createdAt": "2026-03-20T07:21:17Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1154213946",
@@ -1340,363 +956,11 @@
     "dedupeKey": "ceaf073825e194cd6a039689cfb3f723fac15c6cf4ff60da65fb22dc64975238",
     "mergedSourceTypes": [
       "github"
-    ]
-  },
-  {
-    "externalId": "1035386722",
-    "title": "crisss234/Mouli",
-    "summary": "📊 Explore data insights with Mouli, a project focused on learning and applying SQL, Python, Pandas, and visualization tools for effective data analysis.",
-    "summaryZh": "",
-    "publishedAt": "2026-03-20T07:21:14Z",
-    "sourceType": "github",
-    "primaryUrl": "https://github.com/crisss234/Mouli",
-    "sourceLinks": [
-      {
-        "label": "GitHub Repository",
-        "url": "https://github.com/crisss234/Mouli",
-        "sourceType": "github"
-      }
     ],
-    "authors": [
-      "crisss234"
-    ],
-    "category": "code",
-    "keywords": [
-      "arduino-uno",
-      "asm",
-      "assemblyx86",
-      "c",
-      "dm-tools",
-      "epitech",
-      "epitech-intra",
-      "epitech-project",
-      "haskell",
-      "mathematics",
-      "moulinette",
-      "petsc",
-      "python",
-      "redis",
-      "stability-analysis",
-      "tdd",
-      "tiles",
-      "yunohost"
-    ],
-    "tags": [
-      "学术动态"
-    ],
-    "relevanceScore": 1,
-    "trustScore": 0.76,
-    "raw": {
-      "id": 1035386722,
-      "node_id": "R_kgDOPba_Yg",
-      "name": "Mouli",
-      "full_name": "crisss234/Mouli",
-      "private": false,
-      "owner": {
-        "login": "crisss234",
-        "id": 223377441,
-        "node_id": "U_kgDODVB4IQ",
-        "avatar_url": "https://avatars.githubusercontent.com/u/223377441?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/crisss234",
-        "html_url": "https://github.com/crisss234",
-        "followers_url": "https://api.github.com/users/crisss234/followers",
-        "following_url": "https://api.github.com/users/crisss234/following{/other_user}",
-        "gists_url": "https://api.github.com/users/crisss234/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/crisss234/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/crisss234/subscriptions",
-        "organizations_url": "https://api.github.com/users/crisss234/orgs",
-        "repos_url": "https://api.github.com/users/crisss234/repos",
-        "events_url": "https://api.github.com/users/crisss234/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/crisss234/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/crisss234/Mouli",
-      "description": "📊 Explore data insights with Mouli, a project focused on learning and applying SQL, Python, Pandas, and visualization tools for effective data analysis.",
-      "fork": false,
-      "url": "https://api.github.com/repos/crisss234/Mouli",
-      "forks_url": "https://api.github.com/repos/crisss234/Mouli/forks",
-      "keys_url": "https://api.github.com/repos/crisss234/Mouli/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/crisss234/Mouli/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/crisss234/Mouli/teams",
-      "hooks_url": "https://api.github.com/repos/crisss234/Mouli/hooks",
-      "issue_events_url": "https://api.github.com/repos/crisss234/Mouli/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/crisss234/Mouli/events",
-      "assignees_url": "https://api.github.com/repos/crisss234/Mouli/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/crisss234/Mouli/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/crisss234/Mouli/tags",
-      "blobs_url": "https://api.github.com/repos/crisss234/Mouli/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/crisss234/Mouli/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/crisss234/Mouli/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/crisss234/Mouli/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/crisss234/Mouli/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/crisss234/Mouli/languages",
-      "stargazers_url": "https://api.github.com/repos/crisss234/Mouli/stargazers",
-      "contributors_url": "https://api.github.com/repos/crisss234/Mouli/contributors",
-      "subscribers_url": "https://api.github.com/repos/crisss234/Mouli/subscribers",
-      "subscription_url": "https://api.github.com/repos/crisss234/Mouli/subscription",
-      "commits_url": "https://api.github.com/repos/crisss234/Mouli/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/crisss234/Mouli/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/crisss234/Mouli/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/crisss234/Mouli/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/crisss234/Mouli/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/crisss234/Mouli/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/crisss234/Mouli/merges",
-      "archive_url": "https://api.github.com/repos/crisss234/Mouli/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/crisss234/Mouli/downloads",
-      "issues_url": "https://api.github.com/repos/crisss234/Mouli/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/crisss234/Mouli/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/crisss234/Mouli/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/crisss234/Mouli/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/crisss234/Mouli/labels{/name}",
-      "releases_url": "https://api.github.com/repos/crisss234/Mouli/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/crisss234/Mouli/deployments",
-      "created_at": "2025-08-10T09:38:03Z",
-      "updated_at": "2026-03-20T07:21:14Z",
-      "pushed_at": "2026-03-20T07:21:10Z",
-      "git_url": "git://github.com/crisss234/Mouli.git",
-      "ssh_url": "git@github.com:crisss234/Mouli.git",
-      "clone_url": "https://github.com/crisss234/Mouli.git",
-      "svn_url": "https://github.com/crisss234/Mouli",
-      "homepage": "https://github.com",
-      "size": 1941,
-      "stargazers_count": 0,
-      "watchers_count": 0,
-      "language": null,
-      "has_issues": false,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": true,
-      "has_discussions": false,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 0,
-      "license": null,
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [
-        "arduino-uno",
-        "asm",
-        "assemblyx86",
-        "c",
-        "dm-tools",
-        "epitech",
-        "epitech-intra",
-        "epitech-project",
-        "haskell",
-        "mathematics",
-        "moulinette",
-        "petsc",
-        "python",
-        "redis",
-        "stability-analysis",
-        "tdd",
-        "tiles",
-        "yunohost"
-      ],
-      "visibility": "public",
-      "forks": 0,
-      "open_issues": 0,
-      "watchers": 0,
-      "default_branch": "main",
-      "score": 1
-    },
-    "slug": "crisss234mouli",
-    "dedupeKey": "13233a1d50cc3a77f55abe51a8ba40f5a6bd31b1d14b837b290375c1d6a23684",
-    "mergedSourceTypes": [
-      "github"
-    ]
-  },
-  {
-    "externalId": "576895240",
-    "title": "mthcht/awesome-lists",
-    "summary": "Awesome Security lists for SOC/CERT/CTI",
-    "summaryZh": "",
-    "publishedAt": "2026-03-20T07:21:13Z",
-    "sourceType": "github",
-    "primaryUrl": "https://github.com/mthcht/awesome-lists",
-    "sourceLinks": [
-      {
-        "label": "GitHub Repository",
-        "url": "https://github.com/mthcht/awesome-lists",
-        "sourceType": "github"
-      }
-    ],
-    "authors": [
-      "mthcht"
-    ],
-    "category": "code",
-    "keywords": [
-      "awesome-list",
-      "blueteam",
-      "blueteam-tools",
-      "cti",
-      "detection",
-      "detection-engineering",
-      "dfir",
-      "hacktools",
-      "incident-response",
-      "ioc",
-      "iocs",
-      "ir",
-      "ransomware",
-      "redteam",
-      "rmm",
-      "security",
-      "siem",
-      "soc",
-      "threat-hunting",
-      "threat-intelligence"
-    ],
-    "tags": [
-      "学术动态"
-    ],
-    "relevanceScore": 1,
-    "trustScore": 0.76,
-    "raw": {
-      "id": 576895240,
-      "node_id": "R_kgDOImK5CA",
-      "name": "awesome-lists",
-      "full_name": "mthcht/awesome-lists",
-      "private": false,
-      "owner": {
-        "login": "mthcht",
-        "id": 75267080,
-        "node_id": "MDQ6VXNlcjc1MjY3MDgw",
-        "avatar_url": "https://avatars.githubusercontent.com/u/75267080?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/mthcht",
-        "html_url": "https://github.com/mthcht",
-        "followers_url": "https://api.github.com/users/mthcht/followers",
-        "following_url": "https://api.github.com/users/mthcht/following{/other_user}",
-        "gists_url": "https://api.github.com/users/mthcht/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/mthcht/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/mthcht/subscriptions",
-        "organizations_url": "https://api.github.com/users/mthcht/orgs",
-        "repos_url": "https://api.github.com/users/mthcht/repos",
-        "events_url": "https://api.github.com/users/mthcht/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/mthcht/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/mthcht/awesome-lists",
-      "description": "Awesome Security lists for SOC/CERT/CTI",
-      "fork": false,
-      "url": "https://api.github.com/repos/mthcht/awesome-lists",
-      "forks_url": "https://api.github.com/repos/mthcht/awesome-lists/forks",
-      "keys_url": "https://api.github.com/repos/mthcht/awesome-lists/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/mthcht/awesome-lists/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/mthcht/awesome-lists/teams",
-      "hooks_url": "https://api.github.com/repos/mthcht/awesome-lists/hooks",
-      "issue_events_url": "https://api.github.com/repos/mthcht/awesome-lists/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/mthcht/awesome-lists/events",
-      "assignees_url": "https://api.github.com/repos/mthcht/awesome-lists/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/mthcht/awesome-lists/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/mthcht/awesome-lists/tags",
-      "blobs_url": "https://api.github.com/repos/mthcht/awesome-lists/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/mthcht/awesome-lists/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/mthcht/awesome-lists/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/mthcht/awesome-lists/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/mthcht/awesome-lists/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/mthcht/awesome-lists/languages",
-      "stargazers_url": "https://api.github.com/repos/mthcht/awesome-lists/stargazers",
-      "contributors_url": "https://api.github.com/repos/mthcht/awesome-lists/contributors",
-      "subscribers_url": "https://api.github.com/repos/mthcht/awesome-lists/subscribers",
-      "subscription_url": "https://api.github.com/repos/mthcht/awesome-lists/subscription",
-      "commits_url": "https://api.github.com/repos/mthcht/awesome-lists/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/mthcht/awesome-lists/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/mthcht/awesome-lists/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/mthcht/awesome-lists/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/mthcht/awesome-lists/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/mthcht/awesome-lists/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/mthcht/awesome-lists/merges",
-      "archive_url": "https://api.github.com/repos/mthcht/awesome-lists/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/mthcht/awesome-lists/downloads",
-      "issues_url": "https://api.github.com/repos/mthcht/awesome-lists/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/mthcht/awesome-lists/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/mthcht/awesome-lists/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/mthcht/awesome-lists/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/mthcht/awesome-lists/labels{/name}",
-      "releases_url": "https://api.github.com/repos/mthcht/awesome-lists/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/mthcht/awesome-lists/deployments",
-      "created_at": "2022-12-11T10:45:11Z",
-      "updated_at": "2026-03-20T07:21:13Z",
-      "pushed_at": "2026-03-20T07:21:09Z",
-      "git_url": "git://github.com/mthcht/awesome-lists.git",
-      "ssh_url": "git@github.com:mthcht/awesome-lists.git",
-      "clone_url": "https://github.com/mthcht/awesome-lists.git",
-      "svn_url": "https://github.com/mthcht/awesome-lists",
-      "homepage": "",
-      "size": 44353806,
-      "stargazers_count": 1285,
-      "watchers_count": 1285,
-      "language": "YARA",
-      "has_issues": true,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": false,
-      "has_discussions": true,
-      "forks_count": 159,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 21,
-      "license": {
-        "key": "mit",
-        "name": "MIT License",
-        "spdx_id": "MIT",
-        "url": "https://api.github.com/licenses/mit",
-        "node_id": "MDc6TGljZW5zZTEz"
-      },
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [
-        "awesome-list",
-        "blueteam",
-        "blueteam-tools",
-        "cti",
-        "detection",
-        "detection-engineering",
-        "dfir",
-        "hacktools",
-        "incident-response",
-        "ioc",
-        "iocs",
-        "ir",
-        "ransomware",
-        "redteam",
-        "rmm",
-        "security",
-        "siem",
-        "soc",
-        "threat-hunting",
-        "threat-intelligence"
-      ],
-      "visibility": "public",
-      "forks": 159,
-      "open_issues": 21,
-      "watchers": 1285,
-      "default_branch": "main",
-      "score": 1
-    },
-    "slug": "mthchtawesome-lists",
-    "dedupeKey": "05830fbb3db90d3b17074baf31522773e0ce7053c10896d29a7d112a910ccf1a",
-    "mergedSourceTypes": [
-      "github"
-    ]
+    "id": "ceaf073825e194cd6a039689cfb3f723fac15c6cf4ff60da65fb22dc64975238",
+    "createdAt": "2026-03-20T07:21:15Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1176923122",
@@ -1833,148 +1097,11 @@
     "dedupeKey": "3ee752acb2d09b9d145ecc8cce1510dd739a61900885b8ad502961a666b3058e",
     "mergedSourceTypes": [
       "github"
-    ]
-  },
-  {
-    "externalId": "1133263863",
-    "title": "matthewjberger/nightshade-examples",
-    "summary": "Official examples for the nightshade game engine",
-    "summaryZh": "",
-    "publishedAt": "2026-03-20T07:21:11Z",
-    "sourceType": "github",
-    "primaryUrl": "https://github.com/matthewjberger/nightshade-examples",
-    "sourceLinks": [
-      {
-        "label": "GitHub Repository",
-        "url": "https://github.com/matthewjberger/nightshade-examples",
-        "sourceType": "github"
-      }
     ],
-    "authors": [
-      "matthewjberger"
-    ],
-    "category": "code",
-    "keywords": [],
-    "tags": [
-      "学术动态"
-    ],
-    "relevanceScore": 0.35,
-    "trustScore": 0.76,
-    "raw": {
-      "id": 1133263863,
-      "node_id": "R_kgDOQ4w79w",
-      "name": "nightshade-examples",
-      "full_name": "matthewjberger/nightshade-examples",
-      "private": false,
-      "owner": {
-        "login": "matthewjberger",
-        "id": 7131091,
-        "node_id": "MDQ6VXNlcjcxMzEwOTE=",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7131091?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/matthewjberger",
-        "html_url": "https://github.com/matthewjberger",
-        "followers_url": "https://api.github.com/users/matthewjberger/followers",
-        "following_url": "https://api.github.com/users/matthewjberger/following{/other_user}",
-        "gists_url": "https://api.github.com/users/matthewjberger/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/matthewjberger/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/matthewjberger/subscriptions",
-        "organizations_url": "https://api.github.com/users/matthewjberger/orgs",
-        "repos_url": "https://api.github.com/users/matthewjberger/repos",
-        "events_url": "https://api.github.com/users/matthewjberger/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/matthewjberger/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/matthewjberger/nightshade-examples",
-      "description": "Official examples for the nightshade game engine",
-      "fork": false,
-      "url": "https://api.github.com/repos/matthewjberger/nightshade-examples",
-      "forks_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/forks",
-      "keys_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/teams",
-      "hooks_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/hooks",
-      "issue_events_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/events",
-      "assignees_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/tags",
-      "blobs_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/languages",
-      "stargazers_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/stargazers",
-      "contributors_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/contributors",
-      "subscribers_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/subscribers",
-      "subscription_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/subscription",
-      "commits_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/merges",
-      "archive_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/downloads",
-      "issues_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/labels{/name}",
-      "releases_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/matthewjberger/nightshade-examples/deployments",
-      "created_at": "2026-01-13T05:31:03Z",
-      "updated_at": "2026-03-20T07:21:11Z",
-      "pushed_at": "2026-03-20T07:21:08Z",
-      "git_url": "git://github.com/matthewjberger/nightshade-examples.git",
-      "ssh_url": "git@github.com:matthewjberger/nightshade-examples.git",
-      "clone_url": "https://github.com/matthewjberger/nightshade-examples.git",
-      "svn_url": "https://github.com/matthewjberger/nightshade-examples",
-      "homepage": "https://matthewberger.dev/nightshade",
-      "size": 213571,
-      "stargazers_count": 2,
-      "watchers_count": 2,
-      "language": "Rust",
-      "has_issues": false,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": false,
-      "has_pages": false,
-      "has_discussions": false,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 0,
-      "license": {
-        "key": "apache-2.0",
-        "name": "Apache License 2.0",
-        "spdx_id": "Apache-2.0",
-        "url": "https://api.github.com/licenses/apache-2.0",
-        "node_id": "MDc6TGljZW5zZTI="
-      },
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [],
-      "visibility": "public",
-      "forks": 0,
-      "open_issues": 0,
-      "watchers": 2,
-      "default_branch": "main",
-      "score": 1
-    },
-    "slug": "matthewjbergernightshade-examples",
-    "dedupeKey": "2e5cd095cab8ed0e667040672562ec6145cea623b89e063e2713f8d218dca6fd",
-    "mergedSourceTypes": [
-      "github"
-    ]
+    "id": "3ee752acb2d09b9d145ecc8cce1510dd739a61900885b8ad502961a666b3058e",
+    "createdAt": "2026-03-20T07:21:11Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1170186892",
@@ -2113,7 +1240,11 @@
     "dedupeKey": "bcbd8a770108f7e1bdb1fe06c7a92e77149c2a1a2371d9570211131b53a1ba7b",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "bcbd8a770108f7e1bdb1fe06c7a92e77149c2a1a2371d9570211131b53a1ba7b",
+    "createdAt": "2026-03-20T07:21:11Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1185350808",
@@ -2252,168 +1383,11 @@
     "dedupeKey": "c70920f9b3dc0ba578f7f8863c8c7923086456f76c731d5aaf216064509865b1",
     "mergedSourceTypes": [
       "github"
-    ]
-  },
-  {
-    "externalId": "1058781939",
-    "title": "ksbisht941/ai-engineer",
-    "summary": "A complete AI & ML Engineering lab: Python foundations, NumPy, Pandas, Computer Vision (OpenCV), NLP, and Generative AI (RAG, LLM chat models, embeddings). Includes practical machine learning projects and statistical analysis.",
-    "summaryZh": "",
-    "publishedAt": "2026-03-20T07:21:10Z",
-    "sourceType": "github",
-    "primaryUrl": "https://github.com/ksbisht941/ai-engineer",
-    "sourceLinks": [
-      {
-        "label": "GitHub Repository",
-        "url": "https://github.com/ksbisht941/ai-engineer",
-        "sourceType": "github"
-      }
     ],
-    "authors": [
-      "ksbisht941"
-    ],
-    "category": "code",
-    "keywords": [
-      "artificial-intelligence",
-      "computervision",
-      "data-science",
-      "generative-ai",
-      "jupyter-notebook",
-      "llm",
-      "machine-learning",
-      "nlp",
-      "opencv",
-      "python",
-      "rag",
-      "scikit-learn"
-    ],
-    "tags": [
-      "学术动态"
-    ],
-    "relevanceScore": 1,
-    "trustScore": 0.76,
-    "raw": {
-      "id": 1058781939,
-      "node_id": "R_kgDOPxu68w",
-      "name": "ai-engineer",
-      "full_name": "ksbisht941/ai-engineer",
-      "private": false,
-      "owner": {
-        "login": "ksbisht941",
-        "id": 46643116,
-        "node_id": "MDQ6VXNlcjQ2NjQzMTE2",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46643116?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/ksbisht941",
-        "html_url": "https://github.com/ksbisht941",
-        "followers_url": "https://api.github.com/users/ksbisht941/followers",
-        "following_url": "https://api.github.com/users/ksbisht941/following{/other_user}",
-        "gists_url": "https://api.github.com/users/ksbisht941/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/ksbisht941/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/ksbisht941/subscriptions",
-        "organizations_url": "https://api.github.com/users/ksbisht941/orgs",
-        "repos_url": "https://api.github.com/users/ksbisht941/repos",
-        "events_url": "https://api.github.com/users/ksbisht941/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/ksbisht941/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/ksbisht941/ai-engineer",
-      "description": "A complete AI & ML Engineering lab: Python foundations, NumPy, Pandas, Computer Vision (OpenCV), NLP, and Generative AI (RAG, LLM chat models, embeddings). Includes practical machine learning projects and statistical analysis.",
-      "fork": false,
-      "url": "https://api.github.com/repos/ksbisht941/ai-engineer",
-      "forks_url": "https://api.github.com/repos/ksbisht941/ai-engineer/forks",
-      "keys_url": "https://api.github.com/repos/ksbisht941/ai-engineer/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/ksbisht941/ai-engineer/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/ksbisht941/ai-engineer/teams",
-      "hooks_url": "https://api.github.com/repos/ksbisht941/ai-engineer/hooks",
-      "issue_events_url": "https://api.github.com/repos/ksbisht941/ai-engineer/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/ksbisht941/ai-engineer/events",
-      "assignees_url": "https://api.github.com/repos/ksbisht941/ai-engineer/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/ksbisht941/ai-engineer/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/ksbisht941/ai-engineer/tags",
-      "blobs_url": "https://api.github.com/repos/ksbisht941/ai-engineer/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/ksbisht941/ai-engineer/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/ksbisht941/ai-engineer/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/ksbisht941/ai-engineer/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/ksbisht941/ai-engineer/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/ksbisht941/ai-engineer/languages",
-      "stargazers_url": "https://api.github.com/repos/ksbisht941/ai-engineer/stargazers",
-      "contributors_url": "https://api.github.com/repos/ksbisht941/ai-engineer/contributors",
-      "subscribers_url": "https://api.github.com/repos/ksbisht941/ai-engineer/subscribers",
-      "subscription_url": "https://api.github.com/repos/ksbisht941/ai-engineer/subscription",
-      "commits_url": "https://api.github.com/repos/ksbisht941/ai-engineer/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/ksbisht941/ai-engineer/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/ksbisht941/ai-engineer/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/ksbisht941/ai-engineer/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/ksbisht941/ai-engineer/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/ksbisht941/ai-engineer/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/ksbisht941/ai-engineer/merges",
-      "archive_url": "https://api.github.com/repos/ksbisht941/ai-engineer/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/ksbisht941/ai-engineer/downloads",
-      "issues_url": "https://api.github.com/repos/ksbisht941/ai-engineer/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/ksbisht941/ai-engineer/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/ksbisht941/ai-engineer/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/ksbisht941/ai-engineer/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/ksbisht941/ai-engineer/labels{/name}",
-      "releases_url": "https://api.github.com/repos/ksbisht941/ai-engineer/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/ksbisht941/ai-engineer/deployments",
-      "created_at": "2025-09-17T14:39:50Z",
-      "updated_at": "2026-03-20T07:21:10Z",
-      "pushed_at": "2026-03-20T07:21:06Z",
-      "git_url": "git://github.com/ksbisht941/ai-engineer.git",
-      "ssh_url": "git@github.com:ksbisht941/ai-engineer.git",
-      "clone_url": "https://github.com/ksbisht941/ai-engineer.git",
-      "svn_url": "https://github.com/ksbisht941/ai-engineer",
-      "homepage": "",
-      "size": 34331,
-      "stargazers_count": 0,
-      "watchers_count": 0,
-      "language": "Jupyter Notebook",
-      "has_issues": true,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": false,
-      "has_pages": false,
-      "has_discussions": false,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 0,
-      "license": null,
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [
-        "artificial-intelligence",
-        "computervision",
-        "data-science",
-        "generative-ai",
-        "jupyter-notebook",
-        "llm",
-        "machine-learning",
-        "nlp",
-        "opencv",
-        "python",
-        "rag",
-        "scikit-learn"
-      ],
-      "visibility": "public",
-      "forks": 0,
-      "open_issues": 0,
-      "watchers": 0,
-      "default_branch": "main",
-      "score": 1
-    },
-    "slug": "ksbisht941ai-engineer",
-    "dedupeKey": "7f260559e49f10d3e8c2180e4e1e3e707f37cb9452172449f03d19f853f13795",
-    "mergedSourceTypes": [
-      "github"
-    ]
+    "id": "c70920f9b3dc0ba578f7f8863c8c7923086456f76c731d5aaf216064509865b1",
+    "createdAt": "2026-03-20T07:21:10Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1179100353",
@@ -2552,148 +1526,11 @@
     "dedupeKey": "f6d19af7e7b3cfd7fd144f535beb88fb6c3ccbc1c1b26284c64e7fc2bc15dcba",
     "mergedSourceTypes": [
       "github"
-    ]
-  },
-  {
-    "externalId": "1116523511",
-    "title": "CoralShades/acm-ai",
-    "summary": "Intelligent Asbestos Compliance Management powered by AI - Built on Open Notebook",
-    "summaryZh": "",
-    "publishedAt": "2026-03-20T07:21:09Z",
-    "sourceType": "github",
-    "primaryUrl": "https://github.com/CoralShades/acm-ai",
-    "sourceLinks": [
-      {
-        "label": "GitHub Repository",
-        "url": "https://github.com/CoralShades/acm-ai",
-        "sourceType": "github"
-      }
     ],
-    "authors": [
-      "CoralShades"
-    ],
-    "category": "code",
-    "keywords": [],
-    "tags": [
-      "学术动态"
-    ],
-    "relevanceScore": 0.35,
-    "trustScore": 0.76,
-    "raw": {
-      "id": 1116523511,
-      "node_id": "R_kgDOQozL9w",
-      "name": "acm-ai",
-      "full_name": "CoralShades/acm-ai",
-      "private": false,
-      "owner": {
-        "login": "CoralShades",
-        "id": 220297585,
-        "node_id": "O_kgDODSF5cQ",
-        "avatar_url": "https://avatars.githubusercontent.com/u/220297585?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/CoralShades",
-        "html_url": "https://github.com/CoralShades",
-        "followers_url": "https://api.github.com/users/CoralShades/followers",
-        "following_url": "https://api.github.com/users/CoralShades/following{/other_user}",
-        "gists_url": "https://api.github.com/users/CoralShades/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/CoralShades/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/CoralShades/subscriptions",
-        "organizations_url": "https://api.github.com/users/CoralShades/orgs",
-        "repos_url": "https://api.github.com/users/CoralShades/repos",
-        "events_url": "https://api.github.com/users/CoralShades/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/CoralShades/received_events",
-        "type": "Organization",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/CoralShades/acm-ai",
-      "description": "Intelligent Asbestos Compliance Management powered by AI - Built on Open Notebook",
-      "fork": false,
-      "url": "https://api.github.com/repos/CoralShades/acm-ai",
-      "forks_url": "https://api.github.com/repos/CoralShades/acm-ai/forks",
-      "keys_url": "https://api.github.com/repos/CoralShades/acm-ai/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/CoralShades/acm-ai/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/CoralShades/acm-ai/teams",
-      "hooks_url": "https://api.github.com/repos/CoralShades/acm-ai/hooks",
-      "issue_events_url": "https://api.github.com/repos/CoralShades/acm-ai/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/CoralShades/acm-ai/events",
-      "assignees_url": "https://api.github.com/repos/CoralShades/acm-ai/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/CoralShades/acm-ai/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/CoralShades/acm-ai/tags",
-      "blobs_url": "https://api.github.com/repos/CoralShades/acm-ai/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/CoralShades/acm-ai/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/CoralShades/acm-ai/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/CoralShades/acm-ai/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/CoralShades/acm-ai/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/CoralShades/acm-ai/languages",
-      "stargazers_url": "https://api.github.com/repos/CoralShades/acm-ai/stargazers",
-      "contributors_url": "https://api.github.com/repos/CoralShades/acm-ai/contributors",
-      "subscribers_url": "https://api.github.com/repos/CoralShades/acm-ai/subscribers",
-      "subscription_url": "https://api.github.com/repos/CoralShades/acm-ai/subscription",
-      "commits_url": "https://api.github.com/repos/CoralShades/acm-ai/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/CoralShades/acm-ai/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/CoralShades/acm-ai/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/CoralShades/acm-ai/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/CoralShades/acm-ai/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/CoralShades/acm-ai/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/CoralShades/acm-ai/merges",
-      "archive_url": "https://api.github.com/repos/CoralShades/acm-ai/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/CoralShades/acm-ai/downloads",
-      "issues_url": "https://api.github.com/repos/CoralShades/acm-ai/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/CoralShades/acm-ai/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/CoralShades/acm-ai/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/CoralShades/acm-ai/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/CoralShades/acm-ai/labels{/name}",
-      "releases_url": "https://api.github.com/repos/CoralShades/acm-ai/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/CoralShades/acm-ai/deployments",
-      "created_at": "2025-12-15T02:09:35Z",
-      "updated_at": "2026-03-20T07:21:09Z",
-      "pushed_at": "2026-03-20T07:21:04Z",
-      "git_url": "git://github.com/CoralShades/acm-ai.git",
-      "ssh_url": "git@github.com:CoralShades/acm-ai.git",
-      "clone_url": "https://github.com/CoralShades/acm-ai.git",
-      "svn_url": "https://github.com/CoralShades/acm-ai",
-      "homepage": null,
-      "size": 88941,
-      "stargazers_count": 0,
-      "watchers_count": 0,
-      "language": "Python",
-      "has_issues": true,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": false,
-      "has_discussions": false,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "disabled": false,
-      "open_issues_count": 17,
-      "license": {
-        "key": "mit",
-        "name": "MIT License",
-        "spdx_id": "MIT",
-        "url": "https://api.github.com/licenses/mit",
-        "node_id": "MDc6TGljZW5zZTEz"
-      },
-      "allow_forking": true,
-      "is_template": false,
-      "web_commit_signoff_required": false,
-      "has_pull_requests": true,
-      "pull_request_creation_policy": "all",
-      "topics": [],
-      "visibility": "public",
-      "forks": 0,
-      "open_issues": 17,
-      "watchers": 0,
-      "default_branch": "main",
-      "score": 1
-    },
-    "slug": "coralshadesacm-ai",
-    "dedupeKey": "d46da561eb957dcd24d35aa3d8fe83345362a51919b5f4cdfd11b029231a9249",
-    "mergedSourceTypes": [
-      "github"
-    ]
+    "id": "f6d19af7e7b3cfd7fd144f535beb88fb6c3ccbc1c1b26284c64e7fc2bc15dcba",
+    "createdAt": "2026-03-20T07:21:09Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1162251791",
@@ -2832,7 +1669,11 @@
     "dedupeKey": "6d8b4ee2c2fb118f8619a4630d6fd2fd14e5313e10f381d6286bd97b2b004633",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "6d8b4ee2c2fb118f8619a4630d6fd2fd14e5313e10f381d6286bd97b2b004633",
+    "createdAt": "2026-03-20T07:21:08Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1159543720",
@@ -2971,7 +1812,11 @@
     "dedupeKey": "7689e6c049aab387fd92734c2d21eb189629a0b38143cfca54d5dbb252a1ae32",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "7689e6c049aab387fd92734c2d21eb189629a0b38143cfca54d5dbb252a1ae32",
+    "createdAt": "2026-03-20T07:21:07Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "sample-world-model-robotics",
@@ -3015,7 +1860,7 @@
     ],
     "id": "f1b576fca4bab68f9fc954a6f99d95d522b65258d78490d32a2ac8e9e5a8b134",
     "createdAt": "2026-03-20T06:23:50.494Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -3060,7 +1905,7 @@
     ],
     "id": "a2da35d10b3870a1966b6ea938a97d0eb92f84052aae7a2fc4f4a4775554b967",
     "createdAt": "2026-03-19T18:23:50.495Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -3141,7 +1986,11 @@
     "dedupeKey": "96bd0256f1f9cbfb70bb2297dc3d7862caa33d06582034b6bb5d3a66e3af2bd8",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "96bd0256f1f9cbfb70bb2297dc3d7862caa33d06582034b6bb5d3a66e3af2bd8",
+    "createdAt": "2026-03-19T17:59:55Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19231v1",
@@ -3227,7 +2076,11 @@
     "dedupeKey": "b184812e8b9bf12f7e77230905c5310aa2f56e5597b8f379f3e3f7713eac89b9",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "b184812e8b9bf12f7e77230905c5310aa2f56e5597b8f379f3e3f7713eac89b9",
+    "createdAt": "2026-03-19T17:59:52Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19219v1",
@@ -3325,7 +2178,11 @@
     "dedupeKey": "47471adf05f8f3ff0bc16eab30f6d705c49b4ccb98e35961f39fb213d434d149",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "47471adf05f8f3ff0bc16eab30f6d705c49b4ccb98e35961f39fb213d434d149",
+    "createdAt": "2026-03-19T17:58:22Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19201v1",
@@ -3451,7 +2308,11 @@
     "dedupeKey": "7e24bf91cc573eb0400a171bc4643b8a2368c26af72fca4bf8eaf0065df73a2a",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "7e24bf91cc573eb0400a171bc4643b8a2368c26af72fca4bf8eaf0065df73a2a",
+    "createdAt": "2026-03-19T17:52:42Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19199v1",
@@ -3552,7 +2413,11 @@
     "dedupeKey": "3f7a3b3a2dbb11f88f1c2e8f6d845da50e682babb30848be8b1bf4a57104cfa0",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "3f7a3b3a2dbb11f88f1c2e8f6d845da50e682babb30848be8b1bf4a57104cfa0",
+    "createdAt": "2026-03-19T17:51:37Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19183v1",
@@ -3639,7 +2504,11 @@
     "dedupeKey": "abac9cf49e5b0407c321f93db902b73dc9815e26ab324aab67f6050b84298eb2",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "abac9cf49e5b0407c321f93db902b73dc9815e26ab324aab67f6050b84298eb2",
+    "createdAt": "2026-03-19T17:42:05Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19131v1",
@@ -3742,7 +2611,11 @@
     "dedupeKey": "4794bf373f79d536400e79f36f827d5555b5d9f0117d90e15eb06a365cc6eef7",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "4794bf373f79d536400e79f36f827d5555b5d9f0117d90e15eb06a365cc6eef7",
+    "createdAt": "2026-03-19T16:49:28Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19078v1",
@@ -3823,7 +2696,11 @@
     "dedupeKey": "ed5e3f30cdb5b78a8e7c5a92c7acf0f956e2cb90b8805ff35d78effd9c30a827",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "ed5e3f30cdb5b78a8e7c5a92c7acf0f956e2cb90b8805ff35d78effd9c30a827",
+    "createdAt": "2026-03-19T16:06:49Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18912v1",
@@ -3915,7 +2792,11 @@
     "dedupeKey": "b116043973aa7572f241ab9b993f349063af41a53d2f156f4688226ce39c64dd",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "b116043973aa7572f241ab9b993f349063af41a53d2f156f4688226ce39c64dd",
+    "createdAt": "2026-03-19T13:50:19Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18892v1",
@@ -4013,7 +2894,11 @@
     "dedupeKey": "8e14c38991022ad3014ed1de2a5ec3d9342ab0725904423afba34dffc0e42c17",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "8e14c38991022ad3014ed1de2a5ec3d9342ab0725904423afba34dffc0e42c17",
+    "createdAt": "2026-03-19T13:33:26Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18771v1",
@@ -4093,7 +2978,11 @@
     "dedupeKey": "3baf6e060890976aeb69ec11d57d13033ccc9b5eace285cdc88b7e31d5c25d6b",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "3baf6e060890976aeb69ec11d57d13033ccc9b5eace285cdc88b7e31d5c25d6b",
+    "createdAt": "2026-03-19T11:26:04Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18532v1",
@@ -4187,7 +3076,11 @@
     "dedupeKey": "c0f6d5f871090bb5ec051b276ab731d37847a034c009b04ffb9d67d23111fe84",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "c0f6d5f871090bb5ec051b276ab731d37847a034c009b04ffb9d67d23111fe84",
+    "createdAt": "2026-03-19T06:22:11Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18496v1",
@@ -4289,7 +3182,11 @@
     "dedupeKey": "95d9757496de2675871a85e814ae50d933fccac5a65b14089f3bca6abd809132",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "95d9757496de2675871a85e814ae50d933fccac5a65b14089f3bca6abd809132",
+    "createdAt": "2026-03-19T05:05:18Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18494v1",
@@ -4364,7 +3261,11 @@
     "dedupeKey": "01fc3f2661787e209e334125de34a5e687edb09346ac082e523ed02d6c852edf",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "01fc3f2661787e209e334125de34a5e687edb09346ac082e523ed02d6c852edf",
+    "createdAt": "2026-03-19T05:02:43Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18464v1",
@@ -4464,7 +3365,11 @@
     "dedupeKey": "4c8554a19b0237d423fbfa4d7d3b7779afb6fd20e95137269e482a9555477c20",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "4c8554a19b0237d423fbfa4d7d3b7779afb6fd20e95137269e482a9555477c20",
+    "createdAt": "2026-03-19T03:50:45Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18370v1",
@@ -4551,7 +3456,11 @@
     "dedupeKey": "3c01aa6df4c897a4b84266e375006b02698791b4890de2345144013920b932b7",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "3c01aa6df4c897a4b84266e375006b02698791b4890de2345144013920b932b7",
+    "createdAt": "2026-03-19T00:12:27Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18342v1",
@@ -4647,7 +3556,11 @@
     "dedupeKey": "646c395e8a43fe946b1960329635d0993e6a84de7c0fd75daaaa5a371fb3ab21",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "646c395e8a43fe946b1960329635d0993e6a84de7c0fd75daaaa5a371fb3ab21",
+    "createdAt": "2026-03-18T22:52:03Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18336v1",
@@ -4729,7 +3642,11 @@
     "dedupeKey": "420b3f6270686b0f4e1d6061a17373d6169dd4c0ca3b1d5b6176cb1494ff31d9",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "420b3f6270686b0f4e1d6061a17373d6169dd4c0ca3b1d5b6176cb1494ff31d9",
+    "createdAt": "2026-03-18T22:46:46Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.18284v1",
@@ -4833,7 +3750,11 @@
     "dedupeKey": "953b9e3853a95a603bc7304af0973f6084ced80eff2283bbc246510ebfcf05ec",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "953b9e3853a95a603bc7304af0973f6084ced80eff2283bbc246510ebfcf05ec",
+    "createdAt": "2026-03-18T21:05:40Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.17927v2",
@@ -4925,6 +3846,10 @@
     "dedupeKey": "2cb4ced05bb5e49aa0e5a4698010c9e3bdcb1b4a19956dc7f3df09ff1dd3e3a8",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "2cb4ced05bb5e49aa0e5a4698010c9e3bdcb1b4a19956dc7f3df09ff1dd3e3a8",
+    "createdAt": "2026-03-18T17:02:56Z",
+    "isFeatured": false,
+    "sourceCount": 1
   }
 ]

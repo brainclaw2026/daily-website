@@ -1,0 +1,541 @@
+
+===== PAGE 1 =====
+Kinema4D: Kinematic 4D World Modeling for
+Spatiotemporal Embodied Simulation
+Mutian Xu1Tianbao Zhang2
+Tianqi Liu1Zhaoxi Chen1Xiaoguang Han2Ziwei Liu1†
+1S-Lab, Nanyang Technological University
+2SSE, CUHKSZ
+mutianxu.github.io/Kinema4D-project-page
+Canonical initialworld image𝒙,𝒚,𝜽End-effector poseJoint angles𝒒𝟏,𝒒𝟐,	…
+ForwardInverse𝒙,𝒚,𝜽End-effector pose
+The open of a door to a new worldThe drag of a deformable object
+The long-horizonpick&place of small objects
+Our Kinema4D
+Generate future  robot-world interactions in 4D space Robotaction sequence
+Diverse physically-plausible effect, geometrically-consistent space, diverse objects, action effects. 
+The tool-use to sweep crowded tiny objects
+Fig.1:WeproposeKinema4D,anewaction-conditioned 4D generative embodied sim-
+ulator. Given an initial world image with a robot at a canonical setup space, and an
+action sequence, our method generates future robot-world interactions in 4D space. It
+simulates physically plausible and geometrically consistent interactions between com-
+plex robot actions and diverse objects across various spatial constraints, providing a
+new foundation for advancing next-generation embodied simulation.
+Abstract.Simulating robot-world interactions is a cornerstone of Em-
+bodied AI. Recently, a few works have shown promise in leveraging video
+generations to transcend the rigid visual/physical constraints of tradi-
+tional simulators. However, they primarily operate in 2D space or are
+guided by static environmental cues, ignoring the fundamental reality
+that robot-world interactions areinherently 4D spatiotemporal events
+that requirepreciseinteractive modeling. To restore this 4D essence
+while ensuring the precise robot control, we introduce Kinema4D, a
+new action-conditioned 4D generative robotic simulator that disentan-
+gles the robot-world interaction into: i)Precise4D representation of
+†Corresponding author.arXiv:2603.16669v1  [cs.RO]  17 Mar 2026
+
+===== PAGE 2 =====
+2 Xu et al.
+robot controls: we drive a URDF-based 3D robot via kinematics, pro-
+ducing a precise 4D robot control trajectory. ii)Generative4D modeling
+ofenvironmental reactions: we project the 4D robot trajectory into a
+pointmap as a spatiotemporal visual signal, controlling the generative
+model to synthesize complex environments’ reactive dynamics into syn-
+chronized RGB/pointmap sequences. To facilitate training, we curated a
+large-scale dataset called Robo4D-200k, comprising 201,426 robot inter-
+action episodes with high-quality 4D annotations. Extensive experiments
+demonstrate that our method effectively simulates physically-plausible,
+geometry-consistent, and embodiment-agnostic interactions that faith-
+fully mirror diverse real-world dynamics. For the first time, it shows po-
+tentialzero-shottransfer capability, providing a high-fidelity foundation
+for advancing next-generation embodied simulation.
+Keywords:Embodied simulation·4D generative world model·
+Spatiotemporal-aware·Precise control·Large-scale 4D robotic data
+1 Introduction
+In the field of Embodied AI, the ability to roll out robot trajectories within a
+world environment is pivotal for scaling up robot demonstrations [54], policy
+evaluation [41,66], and reinforcement learning [18]. Nevertheless, executing ac-
+tions in the real world is prohibitively costly, potentially unsafe, and necessitates
+constant expert maintenance [7,38]. Consequently, robotic simulation in virtual
+environments has emerged as a vital surrogate for real-world deployment.
+While significant efforts have been dedicated to developing robust physi-
+cal simulators [16,51,52,74], these platforms often lack visual realism and rely
+on hand-crafted and pre-defined physical properties/rules. Such dependencies
+create a significant scalability bottleneck, particularly when attempting to syn-
+thesize new environments. Very recently, to circumvent these limitations, re-
+searchers have begun leveraging the intrinsic world dynamics captured by video
+generative models to synthesize robot-environment interactions across diverse
+scenes [2,91]. By casting robot actions as conditional prompts for video synthe-
+sis, these methods directly simulate the visual outcome of adding robot controls
+to an environment, bypassing the need for predefined physical modeling required
+for traditional simulation. However, a critical gap remains. Current models pri-
+marily operate within a 2D pixel space [2,91], whereas robot-world interactions
+areinherently 4D spatiotemporal events. Without 4D constraints, physical inter-
+action loses its most fundamental grounding. Although a few latest works [48,89]
+explored 4D simulation, they primarily rely on high-level linguistic instructions
+to represent robot control. Such semantic representations, while intuitive,lack
+the precise guidanceessentialforhigh-fidelity4Dworldmodeling.Asaresult,ex-
+isting methods struggle to simulate precise interactive effects—such as material
+deformations or occluded object dynamics (see Figs. 4 and 5).
+To bridge this gap and advance this problem, we propose Kinema4D, a new
+action-conditioned 4D generative robotic simulator. Our core motivation is to
+
+===== PAGE 3 =====
+Kinema4D 3
+restore robot-world interactions to their4D spatiotemporal essence, while ensur-
+ingprecise robot control. This motivation is further grounded in two synergetic
+insights that support our design philosophy—disentangling the simulation into
+robot controland theirresultant environmental changes:
+i)Precise4D representation of robot actions via kinematic control:
+We recognize the fact that robot action is aprecise physical certainty in 4D space
+and should not be “guessed” by a generative model. A joint-angle sequence or an
+end-effector pose is merely an abstract vector until it is mapped onto a physical
+structure. Reflecting on this, our framework enables a bridge that is otherwise
+impossible in 2D: we drive a 3D-reconstructed, URDF-based robot model via
+explicit kinematics to produce a continuous 4D robot trajectory that is guaran-
+teed to be kinematically correct, providing the high-granularity spatiotemporal
+information that serves as thecausal driverfor any interaction.ii)Generative
+4D modeling of environmental reactions via controllable generation:
+While robot controls are deterministic, we argue that complex environments’
+dynamics require aflexible generative modeling. To this end, we project the
+previously derived 4D robot trajectory into a pointmap sequence—serving as
+a spatiotemporal visual signal, which controls the generative model to offload
+the burden of kinematic modeling and focus exclusively on synthesizing the envi-
+ronment’sreactive dynamics. Moreover, our architecture simultaneously predicts
+synchronized RGB and pointmap sequences, effectively transforming the genera-
+tion into a spatiotemporal reasoning task within a unified 4D space. This makes
+the result not only visually realistic but also geometrically consistent. In this
+paradigm, spatiotemporal awareness is enforced not merely as a control signal
+but as an intrinsic constraint throughout the generative process. This fosters a
+symbiosis betweenprecise controlandflexible synthesis.
+To facilitate the training of our framework, we curated a large-scale dataset
+called Robo4D-200k, comprising 201,426 real-world and synthetic demonstra-
+tions with high-quality 4D annotations. We extensively benchmark our method
+using both video and geometric metrics, as well as policy evaluation. Exper-
+iments show that our Kinema4D generalizes to simulate physically-plausible
+robot-world interactions that closely mirror diverse real-world dynamics, and
+for the first time, shows potential zero-shot OOD transfer capability.
+Our contributions are summarized as:
+–Kinema4D, a new action-conditioned 4D generative robotic simulator that
+enjoys both spatiotemporal rigor and generative flexibility.
+–Robo4D-200k, to our knowledge, the largest-scale 4D robotic dataset com-
+prising 201,426 demonstrations with high-quality 4D annotations.
+–A comprehensive evaluation scheme demonstrating that our method mirrors
+real-world dynamics, providing a new foundation for embodied simulation.
+–Our code, dataset, and checkpoints will all be public upon acceptance.
+
+===== PAGE 4 =====
+4 Xu et al.
+2 Related Work
+We review the evolution of embodied simulation, tracing its trajectory from
+classical physics engines to the recent emergence of generative world models.
+Physical simulation.Classical robotic simulation methods rely on physics en-
+gines, such as MuJoCo, IssacSim, SAPIEN [19,51–53,67,74]. They simulate
+interactions based on rigid-body dynamics, requiring meticulously hand-crafted
+meshes, precise physical properties (e.g., friction, mass), and pre-defined rules.
+Recentreal-to-simadvancementsfurtherleverage3DGaussianSplatting(3DGS)
+with continuum mechanics or rigid-body solvers to reconstruct digital twins di-
+rectly from real-world captures [1,25,36,40,55]. A few methods also focus on
+simulating realistic depth [46,76]. Nevertheless, they rely on explicit physical
+solvers and predefined laws, which struggle to generalize to complex environ-
+mental responses, limiting their scalability across unstructured environments.
+Learning world models.World Models [3,24] aim to internalize the underlying
+dynamics of the environment, allowing agents to “dream” and plan within a
+learned latent space. With the advent of diffusion models [27,56,63] and large-
+scale video pre-training [8,28,69,85], video generative models have demonstrated
+anextraordinaryabilitytocapturecomplexvisualdynamics[4,12].Furthermore,
+interactivevideo generation has advanced through the integration of various
+conditioning mechanisms [87] designed to represent diverse control signals. Early
+efforts in this direction have focused on injecting viewpoint trajectories [22,43,
+59,82,83] to synthesize immersive, navigable environments.
+Embodied video-generation models.Recently, research has pivoted toward using
+embodied actions as controls for interactive video generation, aiming to synthe-
+size robot-world interactions with both visual and physical fidelity. Based on the
+representationofembodiedactionsattheinputlevel,thisresearchstreamcanbe
+categorized into four sub-groups. 1) Text: A main-stream works [13,20,77,78,90]
+generate visual outcomes from high-level text instructions, which lack the fine-
+grained precision required for low-level manipulations. 2) Latent embedding:
+Another type of works [2,9,10,21,23,35,44,50,73,84,91] such as IRASim [91]
+and Ctrl-World [23] typically encode 7-DoF end-effector poses into compressed
+embeddings. This forces the generative model to infer or ‘guess’ the underlying
+robot kinematics, often resulting in physically implausible failures. 3) Seman-
+tics: ORV [80] introduces 3D semantic occupancy of static environments; how-
+ever, it needs an off-the-shelf occupancy-prediction model to acquire and lacks
+temporal dynamics, still requiring action encodings or text to provide dynamic
+information. 4) 2D visual prompt: EVAC [37], AnchorDream [81], and VAP [71]
+represent embodied actions using 2D prompts like angle arrows, 2D renders, and
+skeletons. A concurrent work, BridgeV2W [14], utilizes URDF to drive robots
+but merely renders the resulting trajectory into 2D binary masks. Such 2D-based
+signals lack spatiotemporal constraints and struggle to provide precise control
+guidance. Commonly, as for the output, all aforementioned methods use video
+
+===== PAGE 5 =====
+Kinema4D 5
+generations to predict 2D (i.e., RGB) frames, treating the robot/environment
+as a monolithic pixel stream. Due to the lack of spatiotemporal awareness, they
+struggle to simulate complex physical interactions.
+Summary: Whether evaluated by action conditioning or output modality,
+the aforementioned methods fail to resolve thechallenging trilemmaofdy-
+namics, precisionandspatiotemporal awareness—the three pillars of reliable
+embodied simulation. To overcome this, our Kinema4D learns intricate dynam-
+ics through a 4D generative model, where abstract action controls are grounded
+via kinematics, securing precision and spatiotemporal awareness, which in turn
+anchors the generative model to synthesize complex dynamics.
+3D/4D world models.Several recent works have been able to output 3D/4D
+worlds. First, ParticleFormer [33] and PointWorld [34] directly utilize simple
+transformers to predict the trajectories of pre-defined 3D particles for both
+robotsandenvironments.However,theylackthegenerativeflexibilityrequiredto
+synthesize new geometry that depicts emergent world dynamics beyond the ini-
+tial3Dinput.Ontheotherhand,4D-nativegenerativemodelsthataimtogener-
+atefullspatio-temporalsequenceshavegainedsignificantattention.Forinstance,
+Aether [65] unifies geometry-aware reasoning by jointly optimizing 4D dynamic
+reconstruction and goal-conditioned video prediction, while 4DNex [15] enables
+4D world generation in a single feed-forward pass. Although recent advance-
+ments such as TesserAct [89], GWM [49], iMoWM [84], and Robo4DGen [48]
+demonstrate the ability to synthesize 4D embodied worlds at the output stage,
+they remain constrained by a critical design bottleneck: they solely injectstatic
+guidance (e.g., depth maps, surface normals, or Gaussian splats) from the initial
+world environment, whichlacks temporal dynamics. Consequently, these models
+still rely on text instructions or latent tokens to inject robot actions, whichlack
+the granularityrequired for fine-grained interactions. In contrast, by transform-
+ing abstract robot actions into 4D pointmaps, our Kinema4D acceptsprecise
+robot controls withboth spatial and temporal cues. To fully utilize such controls,
+we apply a 4D-native generative model with spatiotemporal reasoning abilities,
+allowing the model to not only understand robot movement but also to flexibly
+predict its physical effects on the environment for high-fidelity simulation.
+3 Our Approach
+Fig. 2 illustrates our architecture, composed of two components: Kinematic Con-
+trol (Sec. 3.1) and 4D Generative Modeling (Sec. 3.2).
+3.1 Kinematics Control
+The core of our framework lies in transforming abstract robot actions into a
+precise 4D representation, via a progressive process.
+
+===== PAGE 6 =====
+6 Xu et al.
+(Canonical camera space)
+<robot name="my_robot">  <link name="base_link">...</link>  <link name="caster_wheel">...</link>  <joint name="base_to_wheel" type="fixed">    <parent link="base_link"/>    <child link="caster_wheel"/>    <origin xyz="0 0 0"/>  </joint></robot>Robot URDF
+Actiondrive 3D(Reconstruction space)Cameraprojection…
+4D robot sequence3D robot reconstruction
+Initial main-view world rgb…
+Robot pointmap sequenceKinematics	Control4D	Generative	ModelingRobot action asspatial	visual	signal
+Robot action sequenceJoint angles𝒒𝟏,𝒒𝟐,	…
+ForwardInverse𝒙,𝒚,𝜽End-effector pose
+(Robot space)
+000000011100001
+001000000100001
+000110110100001VAE En
+Noise4DGen-DiT BlocksRobot mask mapC
+LoRA
+VAE En
+VAE De
+VAE De
+Full world pointmap sequence
+Full world rgb sequenceFull 4D World
+Canonical initial world setup
+(Canonical camera space)Robot rgb sequence (Optional) 
+Initial main-view camera
++0-padOR
+Fig.2: Overview of ourKinema4D.1) Kinematics Control: Given a 3D robot
+with its URDF at initial canonical setup space, and an action sequence, we drive the
+3D robot via kinematics to produce a 4D robot trajectory, which is then projected
+into a pointmap sequence. This process re-represents raw actions as a spatiotemporal
+visual signal.2) 4D Generative Modeling: This signal and the initial main-view
+world image are sent to a shared VAE encoder, then fused with an occupancy-aligned
+robot mask and noise, which are denoised by a Diffusion Transformer [56] to generate
+a full future 4D (pointmap+RGB) world sequence.
+3D robot asset acquisition.To ground the robot in 4D space, we first establish its
+geometric entity. For standardized robots, we utilize factory-provided 3D CAD
+meshes. For unknown platforms, we implement a reconstruction pipeline:
+We first capture orbital videos of the robot and sample representative frames,
+then employ Grounded-SAM2 [47,58] to segment the robot in the initial frame
+usingarobustprompt(e.g.,“the robot arm”),followedbySAM2[58]topropa-
+gate masks across the sequence via video tracking. Next, given the masked multi-
+view images, we leverage ReconViaGen [11] to recover a high-quality textured
+robot meshC reconin under one minute. This pipeline facilitates the efficient
+acquisition of our 3D asset library for diverse robotic configurations. To enable
+articulation, we establish a digital twin alignment: the joint anchor points from
+the robot’s URDF modelMare mapped to their corresponding coordinates of
+Creconwithinthecanonicalreconstructionspace.Thisensuresthattheanalytical
+kinematic chain can directly drive the reconstructed mesh segments.
+Kinematics-driven 4D robot trajectory expansion.Given the aligned robot model
+MwithinC recon, we transform input actionsa 1:Tinto full-body 4D trajectories.
+Our framework handles two primary control modalities:
+–End-effector control.WhenactionsareprovidedasCartesianposes{T ee,t}T
+t=1,
+weemployanInverseKinematics(IK)solvertoresolvethejointconfigurations
+at timet:q t=IK(T ee,t,qt−1,M), where the previous stateq t−1serves as
+the seed to ensure temporal smoothness and prevent joint-space flipping.
+–Joint-space control. When actions are directly provided as joint angles or ve-
+locities,q tis obtained via direct mapping or integration.
+For each timet, we perform Forward Kinematics (FK) to compute the 6-DoF
+poses for allKlinks within the reconstruction space:{Trecon
+k,t}K
+k=1=FK(q t,M).
+Spatial-visual projection.We select a primary viewpoint—typically a medial-
+frontal perspective—for projection and later generation, as single-view robot
+demonstration data is extensively accessible to ensure training scalability and
+
+===== PAGE 7 =====
+Kinema4D 7
+diversity. To place the articulated robot within the initial main-view world im-
+ageI 0, we utilize the extrinsic camera transformationTcam
+recon∈SE(3)of the se-
+lected main view, which is derived during the previous 3D robot reconstruction
+phase [11]. With the camera transformationTcam
+reconand the previously com-
+puted link poses{Trecon
+k,t}within the reconstruction space, the full-body tra-
+jectory is projected onto the image plane to generate the 4D robot pointmap
+M1:T∈RH×W×3. For any pointxon the surface of linkk, its projected pixel
+coordinates(u, v)and depthzare determined by:
+
+u·z
+v·z
+z
+=K·Tcam
+recon·Trecon
+k,t·x, (1)
+whereKis the camera intrinsic matrix. The resulting pointmapM 1:Tis pixel-
+aligned with the RGB grid, while its pixel values store the camera-space(x, y, z)
+coordinates. This transformation precisely maps the 4D robot trajectory from
+the canonical reconstruction space into the target camera coordinate system,
+ensuring that the robot occupancy is spatially consistent with the environmental
+background. Optionally, we project the textured trajectory to RGB sequence.
+Tab. 4 ablates the robustness to the noisy pointmap. More details of our
+reconstruction and projection are provided in the supplementary material.
+3.2 4D Generative Modeling
+Next, we utilize a 4D diffusion model to focus on synthesizing the environment’s
+reactive dynamics in response to the robot control signal.
+Preliminary: Latent Video Diffusion.We build our framework upon Latent Dif-
+fusion Models (LDM) [60], extending them to the 4D spatiotemporal domain.
+Instead of pixel-space denoising, the model operates on a compressed latent
+spaceZprovided by a pre-trained VAE. A video sequenceV 1:Tis encoded into
+a latent tensorz 0∈RT×C×H×W. The diffusion process learns to generate this
+latent sequence by optimizing a conditional denoising objective:
+Lvid=Ez0,ϵ,τ,ch
+∥ϵ−ϵ θ(zτ, τ,c)∥2i
+, (2)
+wherez τis the noisy latent at diffusion stepτ, andϵ θis typically a Spatio-
+Temporal Transformer (e.g., DiT [56]) that models dependencies across both
+frames and pixels. The conditioncguides the denoising process to ensure the
+generated video adheres to specific inputs.
+Multi-modal latent construction.To prepare the multi-modal input for our gen-
+erative backbone, we first align the temporal dimensions of the initially captured
+RGB world imageI 0and the robotic control signals. Specifically,I 0is extended
+along the temporal axis via zero-padding or by concatenating the previously
+robotRGBsequence.Next,followingthedataformattingstrategyin4DNex[15],
+weconcatenatethisinputwiththepreviouslyproducedrobotpointmapsequence
+Mrobot
+1:Talongthewidthdimension.Thisunifiedspatiotemporalsignalisthenpro-
+cessed by a shared VAE to obtain input latents, which maps the heterogeneous
+inputs—RGB and pointmap—into a synchronized latent representation.
+
+===== PAGE 8 =====
+8 Xu et al.
+To further enforce pixel-level control, we introduce a guided maskm∈
+{0,1}T×H×W, wherem t,i,j= 1indicates the spatial occupancy of the robot
+(derived fromMrobot
+1:T) and0indicates the area to be generated. In practice,
+rather than employing a binary hard-mask, we implement a soft strategy by
+setting the value of 10% occupied regions to0.5(ablated in Tab. 4). This design
+choiceensuresthatthegenerativemodelretainsthecapacitytorefinetherobot’s
+visual signal. By doing so, we mitigate the impact of noise introduced during
+the previous phase, enhancing the structural robustness and visual coherence.
+We concatenate input latents, noisy latents, and robot masks channel-wise.
+Thisfusedinputensuresthatthegenerativemodelfocusesexclusivelyonsynthe-
+sizing the environment’s reactive dynamics whilestrictly adhering to the robot’s
+trajectory.
+4D-aware joint modeling.Our backbone is a Diffusion Transformer [56] that pre-
+dicts synchronized RGB and pointmap sequences. To preserve pixel-wise align-
+ment across these modalities, we adopt a shared Rotary Positional Encoding
+(RoPE) [64] across both RGB and pointmap latents. Additionally, following
+4DNex [15], we distinguish these domains using learnable domain embeddings.
+These embeddings act as modality-specific signatures, allowing the Transformer
+to perform cross-modal reasoning—effectively using the robot pointmap as geo-
+metric anchors to guide the synthesis of the RGB environmental response.
+4D sequence synthesis.The denoised latents are processed by the shared VAE
+Decoder to reconstruct the full-world pointmap/RGB sequence. By predicting
+the environment’s pointmapMworld
+1:T, the model produces a simulation that is
+not only visually realistic but also geometrically rigorous, ultimately yielding a
+4D world where every pixel’s depth and motion are grounded in 3D space.
+Underlying insight.By jointly modeling RGB and pointmap latents, the genera-
+tive process is transformed into a spatiotemporal reasoning task. The model does
+not merely “draw” pixels; it must resolve the 3D occupancy and deformations of
+the world that are consistent with the robot’s movement.
+3.3 Robo4D-200k: A Large-Scale 4D Robotic Dataset
+Data preparation.To facilitate the training of Kinema4D, a large-scale dataset is
+a prerequisite. To begin with, we aggregate 2D RGB video streams from leading
+real-worldroboticdemonstrationrepositories,includingDROID[38],Bridge[68],
+and RT-1 [6]. We further incorporate the LIBERO [45] platform to synthesize
+an extensive array of both successful executions and critical failure modes.
+4D annotation.Asignificantchallengeliesinliftingtheraw2DRGBvideosfrom
+real-world datasets into the 4D metric space required for our joint generative
+modeling. We extensively tried several state-of-the-art 3D/4D reconstruction
+frameworks, including MonST3R [86], MegaSaM [42], VGGT/VGGT4D [31,70],
+ViPE [32], and ST-V2 [75]. ST-V2 [75] yields the most robust and temporally
+
+===== PAGE 9 =====
+Kinema4D 9
+DROID (96,236)
+Bridge (44,916)
+RT-1 (19,794)
+Robo4D-200k
+LIBERO (40480)
+Fig.3: Samples from ourRobo4D-200kdataset. Our dataset provides a compre-
+hensive data foundation by aggregating diverse real-world demonstrations, including
+DROID [38], Bridge [68], and RT-1 [6]. We further incorporate the LIBERO [45] to
+synthesize a vast array of successful/failure cases. Each episode captures acomplete
+robot-world interaction (e.g., pick-and-place)—providing the continuous information
+necessary for robust reasoning. The 4D point clouds viewed from various camera frus-
+tums are shown here, demonstrating the spatial precision of our pseudo-annotations.
+consistent pointmap sequences, particularly for robot manipulations involving
+rapid motion. It is used to reconstruct high-quality, pixel-aligned 4D trajectories
+for real datasets. For synthetic data from LIBERO, we directly leverage the
+native, noise-free depth parameters to ensure absolute ground-truth precision.
+Dataset curation.To ensure the quality of the generative simulation, we per-
+formed a rigorous data curation process. We applied a manual verification to
+prune low-quality captures and reconstruction artifacts. For very-long demon-
+strations, we applied uniform temporal downsampling to yield 49-frame se-
+quences per episode; this ensures consistent motion frequencies across the
+dataset. Each curated episode captures a complete/contiguous spatiotemporal
+interaction (e.g., a full pick-and-place cycle), providing the long-term dependen-
+cies necessary for robust physical reasoning. Following this pipeline, we estab-
+lishedRobo4D-200k, which—to our knowledge—represents the largest-scale 4D
+robot-interaction dataset. Comprising 201,426 high-fidelity episodes, Robo4D-
+200k provides the unprecedented data volume and interaction diversity required
+to train foundation models with spatiotemporal and physical awareness. More
+details of our dataset can be found in the supplementary material.
+4 Experiments
+4.1 Setting
+Implementation Details.We build our framework upon the WAN 2.1 [69] base
+model (14B parameters), utilizing the 4D-aware pre-trained weights from 4DNex
+[15]. Given the substantial scale of the backbone, we employ Low-Rank Adap-
+tation (LoRA) [30] for parameter-efficient fine-tuning. This allows us to inject
+domain-specific robotic dynamics into the Diffusion Transformer [56] while pre-
+servingthepowerfulgenerativepriorsofthebasemodel.WhiletheoriginalWAN
+2.1 includes a text encoder, we intentionally replace the text embedding with
+
+===== PAGE 10 =====
+10 Xu et al.
+Table 1: Quantitative comparison of video generation metrics.↑and↓respec-
+tively indicates higher and lower is better.xxxdenotes the best and xxx indicates the
+2nd-best. “Action” means the representation of robot controls, where “Emb.” is token
+embedding. “Output” represents the modality of generation output.
+Method Action Output PSNR↑SSIM↑L2 latent↓FID↓FVD↓LPIPS↓
+UniSim [ICLR’24] [78] Text RGB 19.32 0.681 0.2120 32.3 153.2 0.175
+IRA-Sim [ICCV’25] [91] Emb. RGB 20.21 0.813 0.1722 25.2 126.0 0.135
+Cosmos [arXiv’25] [2] Emb. RGB 20.39 0.787 0.1935 27.1 113.4 0.110
+EVAC [arXiv’25] [37] Emb.+2D RGB 20.88 0.832 0.1896 29.3 122.0 0.150
+ORV [CVPR’26] [80] Emb.+3D RGB 19.45 0.790 0.2002 30.1 130.1 0.143
+Ctrl-World [ICLR’26] [23] Emb. RGB 21.03 0.803 0.1533 24.9112.8 0.122
+TesserAct [ICCV’25] [89] Text 4D 19.35 0.766 0.1911 29.5 120.3 0.158
+Ours 4D 4D 22.50 0.864 0.138025.2 98.50.105
+Table 2: Quantitative comparison of geometric metrics. “(temp)” denotes the
+self-temporal consistency across frames. The threshold of F-Score is set to @0.01.
+Method CD-L 1↓CD-L 1(temp)↓ CD-L 2↓CD-L 2(temp)↓ F-Score↑F-Score (temp)↑
+TesserAct [ICCV’25] [89] 0.08360.0067 0.0130 0.0008 0.2896 0.9523
+Ours 0.04790.0074 0.0077 0.0002 0.4733 0.9686
+the VAE latents of robot sequences. By omitting high-level instructions, we force
+the network to decouple visual synthesis from semantic ambiguity and focus on
+the precise execution of action controls. For all other configurations, we follow
+the protocol established in the official 4DNex implementation.
+We curated a stratified benchmark suite comprising 2% of our Robo4D-200k
+dataset for the validation. More implementation details, ablations of text em-
+beddings, and benchmark details are provided in the supplementary material.
+Baselines.We benchmark our method against a diverse set of state-of-the-art
+generative embodied simulators with different action-conditioning strategies and
+output modalities. UniSim [78] pioneered the generative simulator by synthesiz-
+ing visual outcomes from text instructions. IRASim [91], Cosmos [2], and Ctrl-
+World [23] utilize adaptive layers to inject robot-specific action embeddings.
+EVAC [37] and ORV [80] introduce auxiliary cues, such as 2D angle arrows and
+3D environmental occupancy grids. While most predecessors generate pure RGB
+video, TesserAct [89] represents the current frontier by outputting 4D signals
+(RGB, depth, and surface normals), though it remains limited by its reliance
+on coarse language instructions. As the field in its infancy, we prioritize models
+with open-sourced implementations to ensure a fair comparison.
+Metrics.To compare with the methods that output RGB videos, we use two
+types of metrics: computation-based (PSNR [29], SSIM [72]) and model-based
+(Latent L2 loss, FID [26], FVD [57] and LPIPS [88]). As both TesserAct and our
+method output 4D videos, we additionally measure geometric metrics, including
+Chamfer Distance and F-Score@0.01, considering both the accuracy with the
+Ground Truth and the temporal consistency across frames (indicated by “temp”).
+4.2 Main Results
+Quantitative results.The quantitative evaluation of video synthesis quality is
+summarized in Tab. 1. Our Kinema4D is uniquely characterized by its ability to
+
+===== PAGE 11 =====
+Kinema4D 11
+Ctrl-World[ICLR 2026](different outcome with GT: door not opened)GroundTruthOurs
+(similar outcome with GT: door opened)
+(wrong action and outcome)(correct action and outcome)
+(wrong action and outcome)(correct action and outcome)
+Fig.4: Qualitative comparison of 2D video synthesisbetween our Kinema4D
+and Ctrl-World [23]. Our method achieves superior fidelity. In contrast, Ctrl-World
+exhibits distorted actions and unrealistic environmental transitions.
+GroundTruthOursTesserAct [ICCV 2025]
+(Ours and GT all failed to grasp the object)
+(Tesseract still successfully grasp the object)
+TesserAct [ICCV 2025]
+(Tesseract generate new/non-existing object)
+(No contact but manipulate; wrong outcome)
+(Our and GT contact and manipulate same object; similar outcome)
+GroundTruth
+Ours
+Fig.5: 4D qualitative comparison between our Kinema4D and TesserAct
+[89]. Unlike TesserAct that hallucinate outcomes, our Kinema4D precisely reflects
+Ground-Truth executions, including “near-miss” failure cases. For example, in the bot-
+tom left corner example, our modelcorrectly interprets the spatial gapbetween the
+gripper and the plant,even when theirRGB textures overlap in 2D views.
+precisely represent actions and synthesize outcomes within a unified 4D space.
+This advantage allows our framework to achieve either the leading or second-
+best performance across all metrics. The geometric fidelity of the generated 4D
+sequences is detailed in Tab. 2. While TesserAct [89] exhibits slightly better
+performance in temporal CD-L 1, our approach outperforms TesserAct across all
+other metrics. When evaluated against absolute ground-truth rather than mere
+self-consistency, our method shows a significant margin of superiority.
+
+===== PAGE 12 =====
+12 Xu et al.
+Qualitative results.We compare our method with the best baseline that output
+2D videos (i.e., Ctrl-World [23]), focusing on the qualitative results under 2D
+video modality. As shown in Fig. 4, our Kinema4D demonstrates a superior
+ability to synthesize high-fidelity sequences that strictly adhere to input action
+trajectories while generating physically consistent environmental responses that
+are highly similar to the ground truth. In contrast, as Ctrl-World is limited to
+2D video synthesis and relies on implicit robot embeddings, it often produces
+distorted robot kinematics and unrealistic environmental changes.
+In Fig. 5, we present a 4D qualitative comparison between our framework
+and TesserAct [89]. As TesserAct relies on text instructions, it struggles to align
+withtheactualrobotactions,andoftenyieldsincorrectenvironmentaloutcomes.
+Instead, by utilizing precise 4D controls, our Kinema4D demonstrates the ability
+to simulateboth successfulrollouts andsubtle execution failures.Most
+notably, even when the RGB textures of the gripper and the object appear to
+“contact” from a 2D perspective, our 4D-aware framework correctly interprets
+the spatial gap and simulates a ‘near-miss’ or a failed grasp. More animated
+results are presented in the supplementary material.
+4.3 Policy Evaluation
+We investigate the utility of our Kinema4D as a high-fidelity tool for evaluating
+robotic policies—if the simulator can accurately simulating realistic outcomes of
+executing a policy’s rollout. We deploy our evaluation across both standardized
+simulationplatforms(noise-free)andreal-world(complexphysics)environments.
+Setup and implementations.In the simulation platform, we execute a Diffusion
+Policy [17] within the LIBERO [45] to generate a sequence of action rollouts,
+then synthesize the environmental outcomes using our Kinema4D. Since the
+robot mesh and camera rendering are integrated within the platform, we can
+easily get the robot pointmap without any reconstruction or calibration, showing
+the simplicity of deploying our Kinematic Control in the simulation platform.
+By leveraging native simulation parameters, this evaluation protocol isolates
+external noise and establishes a standard setup, ensuring that the benchmarking
+of future methods is conducted under a strictly equitable framework.
+As for real-world evaluation, we deploy a physical robot setup in a labora-
+tory environment to evaluate the zero-shot generalization of our framework. We
+execute a Diffusion Policy [17] on the hardware to provide rollouts. Next, we fol-
+low the reconstruction pipeline described in Sec. 3.1 to get the robot pointmap
+and then synthesize the resulting world transitions. Notably, our experiments
+are conductedwithoutany fine-tuning on real-world data; the physical environ-
+ment remainsentirelyout-of-distribution(OOD). Unlike existing simulators
+rely on real-world finetuning [91], or use the real-world setup same with train-
+ing data [23], we represent thefirst-timeevaluation of a embodied world model
+under rigorous OOD conditions. We omit qualitative comparisons with baselines
+here, as their performance degrades significantly. For both the simulation and
+real-world evaluation, we set 3 different evaluation scenarios with 50 runs each.

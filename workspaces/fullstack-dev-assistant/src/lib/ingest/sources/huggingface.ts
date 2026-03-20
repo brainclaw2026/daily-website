@@ -11,13 +11,15 @@ interface HfModel {
   tags?: string[];
 }
 
+const mustMatch = ['robot', 'robotics', 'embodied', 'humanoid', 'manipulation', 'grasp', 'vla', 'vision-language-action'];
+const bannedTerms = ['sdxl', 'flux', 'image-generation', 'text-to-image', 'llm', 'roleplay'];
+
 export const huggingFaceSource: SourceAdapter = {
   sourceType: 'huggingface',
   async fetchItems() {
     const env = getEnv();
-    const limit = Math.min(Math.max(env.ingestMaxItemsPerSource, 1), 50);
-    const search = encodeURIComponent('robotics embodied humanoid vision-language-action');
-    const url = `https://huggingface.co/api/models?search=${search}&sort=lastModified&direction=-1&limit=${limit}`;
+    const limit = Math.min(Math.max(env.ingestMaxItemsPerSource * 4, 20), 100);
+    const url = `https://huggingface.co/api/models?sort=lastModified&direction=-1&limit=${limit}&full=true`;
     const response = await fetch(url, {
       headers: {
         'User-Agent': 'embodied-ai-daily/0.1 (+local ingest)',
@@ -35,10 +37,22 @@ export const huggingFaceSource: SourceAdapter = {
     return json
       .filter((model) => model.lastModified)
       .filter((model) => new Date(model.lastModified as string) >= lookbackFrom)
-      .map((model) => ({
+      .map((model) => {
+        const haystack = [model.id, model.pipeline_tag ?? '', ...(model.tags ?? [])].join(' ').toLowerCase();
+        const hitCount = mustMatch.filter((term) => haystack.includes(term)).length;
+        const banned = bannedTerms.some((term) => haystack.includes(term));
+        return { model, hitCount, banned };
+      })
+      .filter(({ hitCount, banned }) => !banned && hitCount >= 1)
+      .sort((a, b) => {
+        if (b.hitCount !== a.hitCount) return b.hitCount - a.hitCount;
+        return (b.model.likes ?? 0) - (a.model.likes ?? 0);
+      })
+      .slice(0, env.ingestMaxItemsPerSource)
+      .map(({ model, hitCount }) => ({
         externalId: model.id,
         title: model.id,
-        summary: `Hugging Face model relevant to embodied AI. Pipeline: ${model.pipeline_tag || 'unknown'}. Downloads: ${model.downloads ?? 0}. Likes: ${model.likes ?? 0}.`,
+        summary: `Hugging Face 模型，方向与具身智能相关。Pipeline: ${model.pipeline_tag || 'unknown'}；Downloads: ${model.downloads ?? 0}；Likes: ${model.likes ?? 0}。`,
         summaryZh: '',
         publishedAt: model.lastModified as string,
         sourceType: 'huggingface' as const,
@@ -54,8 +68,8 @@ export const huggingFaceSource: SourceAdapter = {
         category: 'project' as const,
         keywords: model.tags ?? [],
         tags: [],
-        relevanceScore: 0,
-        trustScore: 0,
+        relevanceScore: Math.min(0.95, 0.5 + hitCount * 0.12),
+        trustScore: 0.8,
         raw: model as unknown as Record<string, unknown>,
       }));
   },

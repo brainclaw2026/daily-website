@@ -1,11 +1,8 @@
-const required = ['NEXT_PUBLIC_SITE_URL', 'SUPABASE_URL', 'SUPABASE_SERVICE_ROLE_KEY'] as const;
+const required = ['NEXT_PUBLIC_SITE_URL'] as const;
 
 export function getEnv() {
   return {
     siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
-    supabaseUrl: process.env.SUPABASE_URL || '',
-    supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY || '',
-    supabaseAnonKey: process.env.SUPABASE_ANON_KEY || '',
     cronSecret: process.env.CRON_SECRET || '',
     openRouterApiKey: process.env.OPENROUTER_API_KEY || '',
     openRouterModel: process.env.OPENROUTER_MODEL || 'openrouter/auto',

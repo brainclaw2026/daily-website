@@ -1,0 +1,84 @@
+[
+  {
+    "externalId": "sample-world-model-robotics",
+    "title": "World Models for Embodied Robotics: A Practical Weekly Roundup",
+    "summary": "A curated roundup of recent embodied AI work across world models, manipulation, humanoids, and vision-language-action systems.",
+    "summaryZh": "围绕世界模型、机械臂操作、人形机器人与视觉语言动作系统的一周具身智能动态整理。",
+    "publishedAt": "2026-03-20T06:23:50.494Z",
+    "sourceType": "other",
+    "primaryUrl": "https://example.com/embodied-ai-roundup",
+    "sourceLinks": [
+      {
+        "label": "Weekly Roundup",
+        "url": "https://example.com/embodied-ai-roundup",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "OpenClaw"
+    ],
+    "category": "project",
+    "keywords": [
+      "embodied ai",
+      "world model",
+      "vision-language-action"
+    ],
+    "tags": [
+      "具身智能",
+      "世界模型",
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.92,
+    "trustScore": 0.72,
+    "raw": {
+      "collectedAt": "2026-03-20T06:23:50.495Z",
+      "lookbackFrom": "2026-03-13T06:23:50.495Z"
+    },
+    "slug": "world-models-for-embodied-robotics-a-practical-weekly-roundup",
+    "dedupeKey": "f1b576fca4bab68f9fc954a6f99d95d522b65258d78490d32a2ac8e9e5a8b134",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "sample-humanoid-policy",
+    "title": "Humanoid Policy Learning Stack Reaches Sim-to-Real Milestone",
+    "summary": "This update highlights a humanoid training stack that combines large-scale simulation, policy distillation, and dexterous control.",
+    "summaryZh": "一项人形机器人训练方案展示了结合大规模仿真、策略蒸馏与灵巧控制的 sim-to-real 进展。",
+    "publishedAt": "2026-03-19T18:23:50.495Z",
+    "sourceType": "other",
+    "primaryUrl": "https://example.com/humanoid-policy",
+    "sourceLinks": [
+      {
+        "label": "Milestone Note",
+        "url": "https://example.com/humanoid-policy",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "OpenClaw"
+    ],
+    "category": "paper",
+    "keywords": [
+      "humanoid",
+      "policy learning",
+      "sim2real"
+    ],
+    "tags": [
+      "人形机器人",
+      "机器人学习",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.9,
+    "trustScore": 0.7,
+    "raw": {
+      "collectedAt": "2026-03-20T06:23:50.495Z",
+      "lookbackFrom": "2026-03-13T06:23:50.495Z"
+    },
+    "slug": "humanoid-policy-learning-stack-reaches-sim-to-real-milestone",
+    "dedupeKey": "a2da35d10b3870a1966b6ea938a97d0eb92f84052aae7a2fc4f4a4775554b967",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  }
+]

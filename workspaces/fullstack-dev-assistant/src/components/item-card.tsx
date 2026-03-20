@@ -26,9 +26,12 @@ export function ItemCard({ item }: ItemCardProps) {
         ))}
       </div>
       <div className="mt-4 flex items-center justify-between text-sm">
-        <a href={item.primaryUrl} target="_blank" rel="noreferrer" className="text-sky-600 hover:text-sky-500 dark:text-sky-400">
-          查看来源
-        </a>
+        <div className="flex flex-wrap items-center gap-3">
+          <a href={item.primaryUrl} target="_blank" rel="noreferrer" className="text-sky-600 hover:text-sky-500 dark:text-sky-400">
+            查看来源
+          </a>
+          <span className="text-xs text-slate-400">来源数 {item.sourceCount}</span>
+        </div>
         <Link href={`/items/${item.slug}`} className="text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-100">
           查看详情 →
         </Link>

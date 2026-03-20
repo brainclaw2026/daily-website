@@ -32,7 +32,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         <p className="text-sm uppercase tracking-[0.3em] text-sky-300">Embodied AI Daily</p>
         <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-5xl">具身智能前沿信息追踪</h1>
         <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300 md:text-base">
-          聚合具身智能、机器人学习、人形机器人、视觉语言动作与世界模型方向的每日内容。先把采集链路、展示页和定时触发跑通，再逐步替换成真实数据源。
+          聚合具身智能、机器人学习、人形机器人、视觉语言动作与世界模型方向的每日内容。当前会优先抓取 arXiv、GitHub、Hugging Face，并保留少量本地兜底样例避免空列表。
         </p>
         <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-200">
           <span className="rounded-full border border-white/10 px-3 py-1">总条目 {allItems.length}</span>

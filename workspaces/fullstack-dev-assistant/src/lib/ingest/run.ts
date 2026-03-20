@@ -1,5 +1,8 @@
 import { normalizeItem, mergeItems } from '@/lib/ingest/normalize';
 import type { IngestResult } from '@/lib/ingest/types';
+import { arxivSource } from '@/lib/ingest/sources/arxiv';
+import { githubSource } from '@/lib/ingest/sources/github';
+import { huggingFaceSource } from '@/lib/ingest/sources/huggingface';
 import { sampleSource } from '@/lib/ingest/sources/sample';
 import { readStoredItems, writeStoredItems } from '@/lib/content/store';
 import type { NormalizedItem } from '@/types/content';
@@ -14,7 +17,7 @@ export interface RunIngestSummary {
 }
 
 export async function runIngest(): Promise<RunIngestSummary> {
-  const adapters = [sampleSource];
+  const adapters = [arxivSource, githubSource, huggingFaceSource, sampleSource];
   const existingFeed = await readStoredItems();
   const itemMap = new Map<string, NormalizedItem>(existingFeed.map((item) => [item.dedupeKey, item]));
   const results: IngestResult[] = [];

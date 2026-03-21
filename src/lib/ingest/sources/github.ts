@@ -60,7 +60,7 @@ export const githubSource: SourceAdapter = {
     const perPage = Math.min(Math.max(env.ingestMaxItemsPerSource * 3, 20), 100);
     const updatedAfter = sevenDaysAgo().slice(0, 10);
     const query = [
-      '(robotics OR robot OR humanoid OR manipulation OR grasp OR sim2real OR embodied OR vla OR vlm)',
+      '(robotics OR robot OR humanoid OR embodied)',
       'in:name,description,readme',
       `pushed:>=${updatedAfter}`,
       'archived:false',

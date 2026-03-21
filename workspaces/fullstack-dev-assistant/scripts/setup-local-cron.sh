@@ -20,7 +20,7 @@ cat > "$PLIST" <<PLIST
       <string>cd '$WORKDIR' && npm run ingest >> '$LOGDIR/ingest.log' 2>&1</string>
     </array>
     <key>StartInterval</key>
-    <integer>3600</integer>
+    <integer>86400</integer>
     <key>WorkingDirectory</key>
     <string>$WORKDIR</string>
     <key>RunAtLoad</key>

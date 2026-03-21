@@ -13,6 +13,10 @@ function sourceLabel(sourceType: string) {
   return '动态';
 }
 
+function formatScore(value: number) {
+  return value.toFixed(2);
+}
+
 export function ItemCard({ item }: ItemCardProps) {
   return (
     <article className="group flex h-full flex-col rounded-3xl border border-slate-200/80 bg-white/90 p-5 shadow-sm ring-1 ring-white/60 backdrop-blur transition duration-200 hover:-translate-y-0.5 hover:shadow-lg">
@@ -39,11 +43,11 @@ export function ItemCard({ item }: ItemCardProps) {
       <div className="mt-5 grid grid-cols-3 gap-2 rounded-2xl bg-slate-50 p-3 text-center text-xs text-slate-500">
         <div>
           <div className="text-[11px] uppercase tracking-wide text-slate-400">相关性</div>
-          <div className="mt-1 font-semibold text-slate-800">{item.relevanceScore}</div>
+          <div className="mt-1 font-semibold text-slate-800">{formatScore(item.relevanceScore)}</div>
         </div>
         <div>
           <div className="text-[11px] uppercase tracking-wide text-slate-400">可信度</div>
-          <div className="mt-1 font-semibold text-slate-800">{item.trustScore}</div>
+          <div className="mt-1 font-semibold text-slate-800">{formatScore(item.trustScore)}</div>
         </div>
         <div>
           <div className="text-[11px] uppercase tracking-wide text-slate-400">来源数</div>

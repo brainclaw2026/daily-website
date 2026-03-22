@@ -1,5 +1,781 @@
 [
   {
+    "externalId": "1188464946",
+    "title": "sourabh-devrukhkar/ros-robot-navigator",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-22T05:33:58Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/sourabh-devrukhkar/ros-robot-navigator",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/sourabh-devrukhkar/ros-robot-navigator",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "sourabh-devrukhkar"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1188464946,
+      "node_id": "R_kgDORtaJMg",
+      "name": "ros-robot-navigator",
+      "full_name": "sourabh-devrukhkar/ros-robot-navigator",
+      "private": false,
+      "owner": {
+        "login": "sourabh-devrukhkar",
+        "id": 174582211,
+        "node_id": "U_kgDOCmfpww",
+        "avatar_url": "https://avatars.githubusercontent.com/u/174582211?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sourabh-devrukhkar",
+        "html_url": "https://github.com/sourabh-devrukhkar",
+        "followers_url": "https://api.github.com/users/sourabh-devrukhkar/followers",
+        "following_url": "https://api.github.com/users/sourabh-devrukhkar/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sourabh-devrukhkar/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sourabh-devrukhkar/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sourabh-devrukhkar/subscriptions",
+        "organizations_url": "https://api.github.com/users/sourabh-devrukhkar/orgs",
+        "repos_url": "https://api.github.com/users/sourabh-devrukhkar/repos",
+        "events_url": "https://api.github.com/users/sourabh-devrukhkar/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sourabh-devrukhkar/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/sourabh-devrukhkar/ros-robot-navigator",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator",
+      "forks_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/forks",
+      "keys_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/teams",
+      "hooks_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/hooks",
+      "issue_events_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/events",
+      "assignees_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/tags",
+      "blobs_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/languages",
+      "stargazers_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/stargazers",
+      "contributors_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/contributors",
+      "subscribers_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/subscribers",
+      "subscription_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/subscription",
+      "commits_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/merges",
+      "archive_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/downloads",
+      "issues_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/labels{/name}",
+      "releases_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/sourabh-devrukhkar/ros-robot-navigator/deployments",
+      "created_at": "2026-03-22T05:32:26Z",
+      "updated_at": "2026-03-22T05:33:58Z",
+      "pushed_at": "2026-03-22T05:33:54Z",
+      "git_url": "git://github.com/sourabh-devrukhkar/ros-robot-navigator.git",
+      "ssh_url": "git@github.com:sourabh-devrukhkar/ros-robot-navigator.git",
+      "clone_url": "https://github.com/sourabh-devrukhkar/ros-robot-navigator.git",
+      "svn_url": "https://github.com/sourabh-devrukhkar/ros-robot-navigator",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "sourabh-devrukhkarros-robot-navigator",
+    "dedupeKey": "d3fa6186193c6154e2fb2155eaae735deb543281935058d3012b82639021040e",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "901671590",
+    "title": "v1ct0r136/Portafolio",
+    "summary": "I am Victor Manuel Valencia Londoño. I like everything that has to do with technology and robotics. I am new to this world and I hope to achieve great goals...",
+    "summaryZh": "",
+    "publishedAt": "2026-03-22T05:33:32Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/v1ct0r136/Portafolio",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/v1ct0r136/Portafolio",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "v1ct0r136"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 901671590,
+      "node_id": "R_kgDONb5qpg",
+      "name": "Portafolio",
+      "full_name": "v1ct0r136/Portafolio",
+      "private": false,
+      "owner": {
+        "login": "v1ct0r136",
+        "id": 81436929,
+        "node_id": "MDQ6VXNlcjgxNDM2OTI5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81436929?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/v1ct0r136",
+        "html_url": "https://github.com/v1ct0r136",
+        "followers_url": "https://api.github.com/users/v1ct0r136/followers",
+        "following_url": "https://api.github.com/users/v1ct0r136/following{/other_user}",
+        "gists_url": "https://api.github.com/users/v1ct0r136/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/v1ct0r136/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/v1ct0r136/subscriptions",
+        "organizations_url": "https://api.github.com/users/v1ct0r136/orgs",
+        "repos_url": "https://api.github.com/users/v1ct0r136/repos",
+        "events_url": "https://api.github.com/users/v1ct0r136/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/v1ct0r136/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/v1ct0r136/Portafolio",
+      "description": "I am Victor Manuel Valencia Londoño. I like everything that has to do with technology and robotics. I am new to this world and I hope to achieve great goals...",
+      "fork": false,
+      "url": "https://api.github.com/repos/v1ct0r136/Portafolio",
+      "forks_url": "https://api.github.com/repos/v1ct0r136/Portafolio/forks",
+      "keys_url": "https://api.github.com/repos/v1ct0r136/Portafolio/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/v1ct0r136/Portafolio/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/v1ct0r136/Portafolio/teams",
+      "hooks_url": "https://api.github.com/repos/v1ct0r136/Portafolio/hooks",
+      "issue_events_url": "https://api.github.com/repos/v1ct0r136/Portafolio/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/v1ct0r136/Portafolio/events",
+      "assignees_url": "https://api.github.com/repos/v1ct0r136/Portafolio/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/v1ct0r136/Portafolio/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/v1ct0r136/Portafolio/tags",
+      "blobs_url": "https://api.github.com/repos/v1ct0r136/Portafolio/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/v1ct0r136/Portafolio/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/v1ct0r136/Portafolio/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/v1ct0r136/Portafolio/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/v1ct0r136/Portafolio/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/v1ct0r136/Portafolio/languages",
+      "stargazers_url": "https://api.github.com/repos/v1ct0r136/Portafolio/stargazers",
+      "contributors_url": "https://api.github.com/repos/v1ct0r136/Portafolio/contributors",
+      "subscribers_url": "https://api.github.com/repos/v1ct0r136/Portafolio/subscribers",
+      "subscription_url": "https://api.github.com/repos/v1ct0r136/Portafolio/subscription",
+      "commits_url": "https://api.github.com/repos/v1ct0r136/Portafolio/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/v1ct0r136/Portafolio/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/v1ct0r136/Portafolio/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/v1ct0r136/Portafolio/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/v1ct0r136/Portafolio/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/v1ct0r136/Portafolio/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/v1ct0r136/Portafolio/merges",
+      "archive_url": "https://api.github.com/repos/v1ct0r136/Portafolio/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/v1ct0r136/Portafolio/downloads",
+      "issues_url": "https://api.github.com/repos/v1ct0r136/Portafolio/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/v1ct0r136/Portafolio/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/v1ct0r136/Portafolio/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/v1ct0r136/Portafolio/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/v1ct0r136/Portafolio/labels{/name}",
+      "releases_url": "https://api.github.com/repos/v1ct0r136/Portafolio/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/v1ct0r136/Portafolio/deployments",
+      "created_at": "2024-12-11T05:15:29Z",
+      "updated_at": "2026-03-22T05:33:32Z",
+      "pushed_at": "2026-03-22T05:33:28Z",
+      "git_url": "git://github.com/v1ct0r136/Portafolio.git",
+      "ssh_url": "git@github.com:v1ct0r136/Portafolio.git",
+      "clone_url": "https://github.com/v1ct0r136/Portafolio.git",
+      "svn_url": "https://github.com/v1ct0r136/Portafolio",
+      "homepage": null,
+      "size": 150,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "HTML",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "v1ct0r136portafolio",
+    "dedupeKey": "2fdc21a2a6c64251302da2f6b3414acde7171b002d148587ec1bdd0d13321519",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "wdtw/gr00t-2cam-grasp",
+    "title": "wdtw/gr00t-2cam-grasp",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-22T05:33:10.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/wdtw/gr00t-2cam-grasp",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/wdtw/gr00t-2cam-grasp",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "机械臂操作"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69bf7f165fdb012816e3db30",
+      "id": "wdtw/gr00t-2cam-grasp",
+      "author": "wdtw",
+      "gated": false,
+      "lastModified": "2026-03-22T05:33:10.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "2454c02e26d041c1ad13810f3e10246f0df94de8",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-22T05:33:10.000Z",
+      "modelId": "wdtw/gr00t-2cam-grasp",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        }
+      ]
+    },
+    "slug": "wdtwgr00t-2cam-grasp",
+    "dedupeKey": "9612a7260e9065f2e3f3eae41788df647f27280c58a1f3f270352ad5638eedee",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "1075557893",
+    "title": "truwen/Vex-robotics",
+    "summary": "Sharing files for vex - classroom",
+    "summaryZh": "",
+    "publishedAt": "2026-03-22T05:32:03Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/truwen/Vex-robotics",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/truwen/Vex-robotics",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "truwen"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1075557893,
+      "node_id": "R_kgDOQBu2BQ",
+      "name": "Vex-robotics",
+      "full_name": "truwen/Vex-robotics",
+      "private": false,
+      "owner": {
+        "login": "truwen",
+        "id": 40321854,
+        "node_id": "MDQ6VXNlcjQwMzIxODU0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40321854?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/truwen",
+        "html_url": "https://github.com/truwen",
+        "followers_url": "https://api.github.com/users/truwen/followers",
+        "following_url": "https://api.github.com/users/truwen/following{/other_user}",
+        "gists_url": "https://api.github.com/users/truwen/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/truwen/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/truwen/subscriptions",
+        "organizations_url": "https://api.github.com/users/truwen/orgs",
+        "repos_url": "https://api.github.com/users/truwen/repos",
+        "events_url": "https://api.github.com/users/truwen/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/truwen/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/truwen/Vex-robotics",
+      "description": "Sharing files for vex - classroom",
+      "fork": false,
+      "url": "https://api.github.com/repos/truwen/Vex-robotics",
+      "forks_url": "https://api.github.com/repos/truwen/Vex-robotics/forks",
+      "keys_url": "https://api.github.com/repos/truwen/Vex-robotics/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/truwen/Vex-robotics/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/truwen/Vex-robotics/teams",
+      "hooks_url": "https://api.github.com/repos/truwen/Vex-robotics/hooks",
+      "issue_events_url": "https://api.github.com/repos/truwen/Vex-robotics/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/truwen/Vex-robotics/events",
+      "assignees_url": "https://api.github.com/repos/truwen/Vex-robotics/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/truwen/Vex-robotics/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/truwen/Vex-robotics/tags",
+      "blobs_url": "https://api.github.com/repos/truwen/Vex-robotics/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/truwen/Vex-robotics/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/truwen/Vex-robotics/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/truwen/Vex-robotics/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/truwen/Vex-robotics/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/truwen/Vex-robotics/languages",
+      "stargazers_url": "https://api.github.com/repos/truwen/Vex-robotics/stargazers",
+      "contributors_url": "https://api.github.com/repos/truwen/Vex-robotics/contributors",
+      "subscribers_url": "https://api.github.com/repos/truwen/Vex-robotics/subscribers",
+      "subscription_url": "https://api.github.com/repos/truwen/Vex-robotics/subscription",
+      "commits_url": "https://api.github.com/repos/truwen/Vex-robotics/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/truwen/Vex-robotics/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/truwen/Vex-robotics/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/truwen/Vex-robotics/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/truwen/Vex-robotics/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/truwen/Vex-robotics/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/truwen/Vex-robotics/merges",
+      "archive_url": "https://api.github.com/repos/truwen/Vex-robotics/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/truwen/Vex-robotics/downloads",
+      "issues_url": "https://api.github.com/repos/truwen/Vex-robotics/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/truwen/Vex-robotics/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/truwen/Vex-robotics/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/truwen/Vex-robotics/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/truwen/Vex-robotics/labels{/name}",
+      "releases_url": "https://api.github.com/repos/truwen/Vex-robotics/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/truwen/Vex-robotics/deployments",
+      "created_at": "2025-10-13T17:02:42Z",
+      "updated_at": "2026-03-22T05:32:03Z",
+      "pushed_at": "2026-03-22T05:32:00Z",
+      "git_url": "git://github.com/truwen/Vex-robotics.git",
+      "ssh_url": "git@github.com:truwen/Vex-robotics.git",
+      "clone_url": "https://github.com/truwen/Vex-robotics.git",
+      "svn_url": "https://github.com/truwen/Vex-robotics",
+      "homepage": null,
+      "size": 370,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 2,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 2,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "truwenvex-robotics",
+    "dedupeKey": "5ca205e7532ccc229537ff5e5d294e7378e1eb18b2beec68ae33da8d6103db3c",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1173503298",
+    "title": "loongclaw-ai/loongclaw",
+    "summary": "Lightweight, clear, and fully extensible AI agent infrastructure — learn easily, customize anything 🐉",
+    "summaryZh": "",
+    "publishedAt": "2026-03-22T05:31:55Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/loongclaw-ai/loongclaw",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/loongclaw-ai/loongclaw",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "loongclaw-ai"
+    ],
+    "category": "code",
+    "keywords": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "assistant",
+      "framework",
+      "loongclaw",
+      "openclaw",
+      "rust",
+      "rust-lang"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1173503298,
+      "node_id": "R_kgDORfI9Qg",
+      "name": "loongclaw",
+      "full_name": "loongclaw-ai/loongclaw",
+      "private": false,
+      "owner": {
+        "login": "loongclaw-ai",
+        "id": 265799221,
+        "node_id": "O_kgDOD9fGNQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/265799221?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/loongclaw-ai",
+        "html_url": "https://github.com/loongclaw-ai",
+        "followers_url": "https://api.github.com/users/loongclaw-ai/followers",
+        "following_url": "https://api.github.com/users/loongclaw-ai/following{/other_user}",
+        "gists_url": "https://api.github.com/users/loongclaw-ai/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/loongclaw-ai/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/loongclaw-ai/subscriptions",
+        "organizations_url": "https://api.github.com/users/loongclaw-ai/orgs",
+        "repos_url": "https://api.github.com/users/loongclaw-ai/repos",
+        "events_url": "https://api.github.com/users/loongclaw-ai/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/loongclaw-ai/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/loongclaw-ai/loongclaw",
+      "description": "Lightweight, clear, and fully extensible AI agent infrastructure — learn easily, customize anything 🐉",
+      "fork": false,
+      "url": "https://api.github.com/repos/loongclaw-ai/loongclaw",
+      "forks_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/forks",
+      "keys_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/teams",
+      "hooks_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/hooks",
+      "issue_events_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/events",
+      "assignees_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/tags",
+      "blobs_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/languages",
+      "stargazers_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/stargazers",
+      "contributors_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/contributors",
+      "subscribers_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/subscribers",
+      "subscription_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/subscription",
+      "commits_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/merges",
+      "archive_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/downloads",
+      "issues_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/labels{/name}",
+      "releases_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/loongclaw-ai/loongclaw/deployments",
+      "created_at": "2026-03-05T12:45:59Z",
+      "updated_at": "2026-03-22T05:31:55Z",
+      "pushed_at": "2026-03-22T05:31:51Z",
+      "git_url": "git://github.com/loongclaw-ai/loongclaw.git",
+      "ssh_url": "git@github.com:loongclaw-ai/loongclaw.git",
+      "clone_url": "https://github.com/loongclaw-ai/loongclaw.git",
+      "svn_url": "https://github.com/loongclaw-ai/loongclaw",
+      "homepage": "https://loongclaw.ai",
+      "size": 6858,
+      "stargazers_count": 326,
+      "watchers_count": 326,
+      "language": "Rust",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": true,
+      "forks_count": 43,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 58,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agents",
+        "ai",
+        "assistant",
+        "framework",
+        "loongclaw",
+        "openclaw",
+        "rust",
+        "rust-lang"
+      ],
+      "visibility": "public",
+      "forks": 43,
+      "open_issues": 58,
+      "watchers": 326,
+      "default_branch": "dev",
+      "score": 1
+    },
+    "slug": "loongclaw-ailoongclaw",
+    "dedupeKey": "6a397c7d7d2bc2f1b6a9b43fd1e7e5568675cac3429a130a172eaea1800531a5",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "JasonYang66/0129_robotwin_clean_50_qwen3OFT_clean",
+    "title": "JasonYang66/0129_robotwin_clean_50_qwen3OFT_clean",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-22T05:31:50.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/JasonYang66/0129_robotwin_clean_50_qwen3OFT_clean",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/JasonYang66/0129_robotwin_clean_50_qwen3OFT_clean",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69bf7ec65fdb012816e3d5e3",
+      "id": "JasonYang66/0129_robotwin_clean_50_qwen3OFT_clean",
+      "author": "JasonYang66",
+      "gated": false,
+      "lastModified": "2026-03-22T05:31:50.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "e21bf812ddeb46f3932af7f163fc4e15e4d95914",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-22T05:31:50.000Z",
+      "modelId": "JasonYang66/0129_robotwin_clean_50_qwen3OFT_clean",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        }
+      ]
+    },
+    "slug": "jasonyang660129robotwinclean50qwen3oftclean",
+    "dedupeKey": "2a89c80147c4f245b58e2402cff9cd9af5c649b0091b1504bed08b8d36dc603f",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "continuallearning/dit_posttrainv2_union_norm_seqlora_dit_encoder_real_0_put_bowl_filtered_seed1000",
+    "title": "continuallearning/dit_posttrainv2_union_norm_seqlora_dit_encoder_real_0_put_bowl_filtered_seed1000",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-22T05:30:34.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/continuallearning/dit_posttrainv2_union_norm_seqlora_dit_encoder_real_0_put_bowl_filtered_seed1000",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/continuallearning/dit_posttrainv2_union_norm_seqlora_dit_encoder_real_0_put_bowl_filtered_seed1000",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "dit",
+      "dataset:continuallearning/real_0_put_bowl_filtered",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69bf7e6905a4f1fa943d463e",
+      "id": "continuallearning/dit_posttrainv2_union_norm_seqlora_dit_encoder_real_0_put_bowl_filtered_seed1000",
+      "author": "continuallearning",
+      "gated": false,
+      "lastModified": "2026-03-22T05:30:34.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "9cad6c3edd504a9a68b12b49fd9c55532ac33442",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "dit",
+        "dataset:continuallearning/real_0_put_bowl_filtered",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-22T05:30:17.000Z",
+      "modelId": "continuallearning/dit_posttrainv2_union_norm_seqlora_dit_encoder_real_0_put_bowl_filtered_seed1000",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "continuallearningditposttrainv2unionnormseqloraditencoderreal0putbowlfilteredsee",
+    "dedupeKey": "e8e0a82c63b0f6dfaaf79a45242317a36552522484f1da8125b57686f5dfc87e",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
     "externalId": "1183946067",
     "title": "1Mr-Robot/FindIt",
     "summary": "Este es el proyecto final del equipo 2 de la materia de administración de proyectos de software, grupo 005.",
@@ -144,7 +920,11 @@
     "dedupeKey": "2d810df6d85359ed13638a603c39099a66d31fa930b48f73a0045ea3bb924d7b",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "2d810df6d85359ed13638a603c39099a66d31fa930b48f73a0045ea3bb924d7b",
+    "createdAt": "2026-03-21T04:22:32Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1185752443",
@@ -285,7 +1065,11 @@
     "dedupeKey": "90404ae26eeffe7d7742246464ed33cfcf0ca4119b854f3253f4405071e46d35",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "90404ae26eeffe7d7742246464ed33cfcf0ca4119b854f3253f4405071e46d35",
+    "createdAt": "2026-03-21T04:22:11Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1187687528",
@@ -426,7 +1210,11 @@
     "dedupeKey": "4c5ed0847b302ecfd1e5563796f3d9480c3f0c0569b1ff86beb44284af36694c",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "4c5ed0847b302ecfd1e5563796f3d9480c3f0c0569b1ff86beb44284af36694c",
+    "createdAt": "2026-03-21T04:22:04Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1187710123",
@@ -569,7 +1357,11 @@
     "dedupeKey": "43b25c5df1ee5e64c5686dbba49bbc851c069ecf33608f03d317cfcbf3155f25",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "43b25c5df1ee5e64c5686dbba49bbc851c069ecf33608f03d317cfcbf3155f25",
+    "createdAt": "2026-03-21T04:20:15Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1122769927",
@@ -734,7 +1526,11 @@
     "dedupeKey": "efb2a5c1e57c74351dc56f2edf885d09c1bc2cdba64aed3499a499b3d9f789f3",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "efb2a5c1e57c74351dc56f2edf885d09c1bc2cdba64aed3499a499b3d9f789f3",
+    "createdAt": "2026-03-21T04:19:55Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1066807453",
@@ -875,7 +1671,11 @@
     "dedupeKey": "61d1ad1f0c597619346f8020b4985f75ecbbc8d7996d7eabe8d35550a0784149",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "61d1ad1f0c597619346f8020b4985f75ecbbc8d7996d7eabe8d35550a0784149",
+    "createdAt": "2026-03-21T04:19:53Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1122747553",
@@ -1042,7 +1842,11 @@
     "dedupeKey": "61f810c0ab406aa2dda0eb7146f1df480d7e221bcab2f6604749402141cf0c0d",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "61f810c0ab406aa2dda0eb7146f1df480d7e221bcab2f6604749402141cf0c0d",
+    "createdAt": "2026-03-21T04:19:47Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "747192557",
@@ -1180,7 +1984,7 @@
     ],
     "id": "b114a22d41d9e9475c48646a032ce1f211bf42288f154a976fba4f6079b3c2b4",
     "createdAt": "2026-03-21T04:19:43Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1323,7 +2127,7 @@
     ],
     "id": "70d1e05f572c4e05a21c93fe10e5ad190688e498070d47b483d49adf36f54146",
     "createdAt": "2026-03-21T04:19:25Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1484,7 +2288,7 @@
     ],
     "id": "fd346c0868339acd8b9a20883ac5b4b84f7049e5c714be6d7054e1b38b5579c7",
     "createdAt": "2026-03-21T04:19:01Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {

@@ -1,5 +1,1702 @@
 [
   {
+    "externalId": "1189189147",
+    "title": "laithmf/visual-verifier",
+    "summary": "FANUC robotics iRVision project — object detection & 2D house drawing verification",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:22:20Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/laithmf/visual-verifier",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/laithmf/visual-verifier",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "laithmf"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189189147,
+      "node_id": "R_kgDORuGWGw",
+      "name": "visual-verifier",
+      "full_name": "laithmf/visual-verifier",
+      "private": false,
+      "owner": {
+        "login": "laithmf",
+        "id": 91713414,
+        "node_id": "U_kgDOBXdvhg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/91713414?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/laithmf",
+        "html_url": "https://github.com/laithmf",
+        "followers_url": "https://api.github.com/users/laithmf/followers",
+        "following_url": "https://api.github.com/users/laithmf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/laithmf/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/laithmf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/laithmf/subscriptions",
+        "organizations_url": "https://api.github.com/users/laithmf/orgs",
+        "repos_url": "https://api.github.com/users/laithmf/repos",
+        "events_url": "https://api.github.com/users/laithmf/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/laithmf/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/laithmf/visual-verifier",
+      "description": "FANUC robotics iRVision project — object detection & 2D house drawing verification",
+      "fork": false,
+      "url": "https://api.github.com/repos/laithmf/visual-verifier",
+      "forks_url": "https://api.github.com/repos/laithmf/visual-verifier/forks",
+      "keys_url": "https://api.github.com/repos/laithmf/visual-verifier/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/laithmf/visual-verifier/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/laithmf/visual-verifier/teams",
+      "hooks_url": "https://api.github.com/repos/laithmf/visual-verifier/hooks",
+      "issue_events_url": "https://api.github.com/repos/laithmf/visual-verifier/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/laithmf/visual-verifier/events",
+      "assignees_url": "https://api.github.com/repos/laithmf/visual-verifier/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/laithmf/visual-verifier/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/laithmf/visual-verifier/tags",
+      "blobs_url": "https://api.github.com/repos/laithmf/visual-verifier/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/laithmf/visual-verifier/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/laithmf/visual-verifier/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/laithmf/visual-verifier/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/laithmf/visual-verifier/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/laithmf/visual-verifier/languages",
+      "stargazers_url": "https://api.github.com/repos/laithmf/visual-verifier/stargazers",
+      "contributors_url": "https://api.github.com/repos/laithmf/visual-verifier/contributors",
+      "subscribers_url": "https://api.github.com/repos/laithmf/visual-verifier/subscribers",
+      "subscription_url": "https://api.github.com/repos/laithmf/visual-verifier/subscription",
+      "commits_url": "https://api.github.com/repos/laithmf/visual-verifier/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/laithmf/visual-verifier/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/laithmf/visual-verifier/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/laithmf/visual-verifier/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/laithmf/visual-verifier/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/laithmf/visual-verifier/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/laithmf/visual-verifier/merges",
+      "archive_url": "https://api.github.com/repos/laithmf/visual-verifier/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/laithmf/visual-verifier/downloads",
+      "issues_url": "https://api.github.com/repos/laithmf/visual-verifier/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/laithmf/visual-verifier/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/laithmf/visual-verifier/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/laithmf/visual-verifier/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/laithmf/visual-verifier/labels{/name}",
+      "releases_url": "https://api.github.com/repos/laithmf/visual-verifier/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/laithmf/visual-verifier/deployments",
+      "created_at": "2026-03-23T04:12:53Z",
+      "updated_at": "2026-03-23T04:22:20Z",
+      "pushed_at": "2026-03-23T04:22:17Z",
+      "git_url": "git://github.com/laithmf/visual-verifier.git",
+      "ssh_url": "git@github.com:laithmf/visual-verifier.git",
+      "clone_url": "https://github.com/laithmf/visual-verifier.git",
+      "svn_url": "https://github.com/laithmf/visual-verifier",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "laithmfvisual-verifier",
+    "dedupeKey": "ef08713cd46273866559a7f75d29fb02c8e5d1fce53dd457f3c17c3bf3d671d1",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1183062333",
+    "title": "shawxavier/ENGG1500-Robot",
+    "summary": "UON ENGG1500 Robot Project - Semi-Autonomous Vehicle",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:21:42Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/shawxavier/ENGG1500-Robot",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/shawxavier/ENGG1500-Robot",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "shawxavier"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1183062333,
+      "node_id": "R_kgDORoQZPQ",
+      "name": "ENGG1500-Robot",
+      "full_name": "shawxavier/ENGG1500-Robot",
+      "private": false,
+      "owner": {
+        "login": "shawxavier",
+        "id": 265273689,
+        "node_id": "U_kgDOD8_BWQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/265273689?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/shawxavier",
+        "html_url": "https://github.com/shawxavier",
+        "followers_url": "https://api.github.com/users/shawxavier/followers",
+        "following_url": "https://api.github.com/users/shawxavier/following{/other_user}",
+        "gists_url": "https://api.github.com/users/shawxavier/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/shawxavier/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/shawxavier/subscriptions",
+        "organizations_url": "https://api.github.com/users/shawxavier/orgs",
+        "repos_url": "https://api.github.com/users/shawxavier/repos",
+        "events_url": "https://api.github.com/users/shawxavier/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/shawxavier/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/shawxavier/ENGG1500-Robot",
+      "description": "UON ENGG1500 Robot Project - Semi-Autonomous Vehicle",
+      "fork": false,
+      "url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot",
+      "forks_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/forks",
+      "keys_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/teams",
+      "hooks_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/hooks",
+      "issue_events_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/events",
+      "assignees_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/tags",
+      "blobs_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/languages",
+      "stargazers_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/stargazers",
+      "contributors_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/contributors",
+      "subscribers_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/subscribers",
+      "subscription_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/subscription",
+      "commits_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/merges",
+      "archive_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/downloads",
+      "issues_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/labels{/name}",
+      "releases_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/shawxavier/ENGG1500-Robot/deployments",
+      "created_at": "2026-03-16T08:31:32Z",
+      "updated_at": "2026-03-23T04:21:42Z",
+      "pushed_at": "2026-03-23T04:21:39Z",
+      "git_url": "git://github.com/shawxavier/ENGG1500-Robot.git",
+      "ssh_url": "git@github.com:shawxavier/ENGG1500-Robot.git",
+      "clone_url": "https://github.com/shawxavier/ENGG1500-Robot.git",
+      "svn_url": "https://github.com/shawxavier/ENGG1500-Robot",
+      "homepage": null,
+      "size": 150,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "master",
+      "score": 1
+    },
+    "slug": "shawxavierengg1500-robot",
+    "dedupeKey": "a517bd4c3261f289ff4bc7b542a619c9b16665a8c961071c65564e4349ea8b03",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "875378461",
+    "title": "dimensionalOS/dimos",
+    "summary": "Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators).",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:21:15Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/dimensionalOS/dimos",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/dimensionalOS/dimos",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "dimensionalOS"
+    ],
+    "category": "code",
+    "keywords": [
+      "humanoid"
+    ],
+    "tags": [
+      "人形机器人"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 875378461,
+      "node_id": "R_kgDONC03HQ",
+      "name": "dimos",
+      "full_name": "dimensionalOS/dimos",
+      "private": false,
+      "owner": {
+        "login": "dimensionalOS",
+        "id": 178742426,
+        "node_id": "O_kgDOCqdkmg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/178742426?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dimensionalOS",
+        "html_url": "https://github.com/dimensionalOS",
+        "followers_url": "https://api.github.com/users/dimensionalOS/followers",
+        "following_url": "https://api.github.com/users/dimensionalOS/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dimensionalOS/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dimensionalOS/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dimensionalOS/subscriptions",
+        "organizations_url": "https://api.github.com/users/dimensionalOS/orgs",
+        "repos_url": "https://api.github.com/users/dimensionalOS/repos",
+        "events_url": "https://api.github.com/users/dimensionalOS/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dimensionalOS/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/dimensionalOS/dimos",
+      "description": "Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators).",
+      "fork": false,
+      "url": "https://api.github.com/repos/dimensionalOS/dimos",
+      "forks_url": "https://api.github.com/repos/dimensionalOS/dimos/forks",
+      "keys_url": "https://api.github.com/repos/dimensionalOS/dimos/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/dimensionalOS/dimos/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/dimensionalOS/dimos/teams",
+      "hooks_url": "https://api.github.com/repos/dimensionalOS/dimos/hooks",
+      "issue_events_url": "https://api.github.com/repos/dimensionalOS/dimos/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/dimensionalOS/dimos/events",
+      "assignees_url": "https://api.github.com/repos/dimensionalOS/dimos/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/dimensionalOS/dimos/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/dimensionalOS/dimos/tags",
+      "blobs_url": "https://api.github.com/repos/dimensionalOS/dimos/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/dimensionalOS/dimos/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/dimensionalOS/dimos/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/dimensionalOS/dimos/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/dimensionalOS/dimos/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/dimensionalOS/dimos/languages",
+      "stargazers_url": "https://api.github.com/repos/dimensionalOS/dimos/stargazers",
+      "contributors_url": "https://api.github.com/repos/dimensionalOS/dimos/contributors",
+      "subscribers_url": "https://api.github.com/repos/dimensionalOS/dimos/subscribers",
+      "subscription_url": "https://api.github.com/repos/dimensionalOS/dimos/subscription",
+      "commits_url": "https://api.github.com/repos/dimensionalOS/dimos/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/dimensionalOS/dimos/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/dimensionalOS/dimos/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/dimensionalOS/dimos/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/dimensionalOS/dimos/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/dimensionalOS/dimos/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/dimensionalOS/dimos/merges",
+      "archive_url": "https://api.github.com/repos/dimensionalOS/dimos/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/dimensionalOS/dimos/downloads",
+      "issues_url": "https://api.github.com/repos/dimensionalOS/dimos/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/dimensionalOS/dimos/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/dimensionalOS/dimos/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/dimensionalOS/dimos/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/dimensionalOS/dimos/labels{/name}",
+      "releases_url": "https://api.github.com/repos/dimensionalOS/dimos/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/dimensionalOS/dimos/deployments",
+      "created_at": "2024-10-19T20:13:16Z",
+      "updated_at": "2026-03-23T04:21:15Z",
+      "pushed_at": "2026-03-23T04:21:42Z",
+      "git_url": "git://github.com/dimensionalOS/dimos.git",
+      "ssh_url": "git@github.com:dimensionalOS/dimos.git",
+      "clone_url": "https://github.com/dimensionalOS/dimos.git",
+      "svn_url": "https://github.com/dimensionalOS/dimos",
+      "homepage": "https://dimensionalos.com/",
+      "size": 72447,
+      "stargazers_count": 2108,
+      "watchers_count": 2108,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": true,
+      "forks_count": 321,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 214,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 321,
+      "open_issues": 214,
+      "watchers": 2108,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "dimensionalosdimos",
+    "dedupeKey": "d617024c01ccec47cf1fed374cff69d60a6fed1121a87ddbd8a1a4fa681ad03f",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1189193225",
+    "title": "infinitycloud-ch/monocli",
+    "summary": "A persistent brain for robots. Python CLI + Swift app with YAML Playbooks, Jedi Rank certification, Knowledge Base with continuous learning, and Groq VLM perception. 99.8% test pass rate.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:21:08Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/infinitycloud-ch/monocli",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/infinitycloud-ch/monocli",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "infinitycloud-ch"
+    ],
+    "category": "code",
+    "keywords": [
+      "ai-agents",
+      "groq",
+      "knowledge-base",
+      "persistent-memory",
+      "python",
+      "robotics",
+      "swiftui",
+      "unitree-go2",
+      "yaml-playbooks"
+    ],
+    "tags": [
+      "机器人视觉语言模型"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189193225,
+      "node_id": "R_kgDORuGmCQ",
+      "name": "monocli",
+      "full_name": "infinitycloud-ch/monocli",
+      "private": false,
+      "owner": {
+        "login": "infinitycloud-ch",
+        "id": 130920063,
+        "node_id": "U_kgDOB82ufw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/130920063?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/infinitycloud-ch",
+        "html_url": "https://github.com/infinitycloud-ch",
+        "followers_url": "https://api.github.com/users/infinitycloud-ch/followers",
+        "following_url": "https://api.github.com/users/infinitycloud-ch/following{/other_user}",
+        "gists_url": "https://api.github.com/users/infinitycloud-ch/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/infinitycloud-ch/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/infinitycloud-ch/subscriptions",
+        "organizations_url": "https://api.github.com/users/infinitycloud-ch/orgs",
+        "repos_url": "https://api.github.com/users/infinitycloud-ch/repos",
+        "events_url": "https://api.github.com/users/infinitycloud-ch/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/infinitycloud-ch/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/infinitycloud-ch/monocli",
+      "description": "A persistent brain for robots. Python CLI + Swift app with YAML Playbooks, Jedi Rank certification, Knowledge Base with continuous learning, and Groq VLM perception. 99.8% test pass rate.",
+      "fork": false,
+      "url": "https://api.github.com/repos/infinitycloud-ch/monocli",
+      "forks_url": "https://api.github.com/repos/infinitycloud-ch/monocli/forks",
+      "keys_url": "https://api.github.com/repos/infinitycloud-ch/monocli/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/infinitycloud-ch/monocli/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/infinitycloud-ch/monocli/teams",
+      "hooks_url": "https://api.github.com/repos/infinitycloud-ch/monocli/hooks",
+      "issue_events_url": "https://api.github.com/repos/infinitycloud-ch/monocli/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/infinitycloud-ch/monocli/events",
+      "assignees_url": "https://api.github.com/repos/infinitycloud-ch/monocli/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/infinitycloud-ch/monocli/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/infinitycloud-ch/monocli/tags",
+      "blobs_url": "https://api.github.com/repos/infinitycloud-ch/monocli/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/infinitycloud-ch/monocli/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/infinitycloud-ch/monocli/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/infinitycloud-ch/monocli/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/infinitycloud-ch/monocli/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/infinitycloud-ch/monocli/languages",
+      "stargazers_url": "https://api.github.com/repos/infinitycloud-ch/monocli/stargazers",
+      "contributors_url": "https://api.github.com/repos/infinitycloud-ch/monocli/contributors",
+      "subscribers_url": "https://api.github.com/repos/infinitycloud-ch/monocli/subscribers",
+      "subscription_url": "https://api.github.com/repos/infinitycloud-ch/monocli/subscription",
+      "commits_url": "https://api.github.com/repos/infinitycloud-ch/monocli/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/infinitycloud-ch/monocli/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/infinitycloud-ch/monocli/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/infinitycloud-ch/monocli/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/infinitycloud-ch/monocli/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/infinitycloud-ch/monocli/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/infinitycloud-ch/monocli/merges",
+      "archive_url": "https://api.github.com/repos/infinitycloud-ch/monocli/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/infinitycloud-ch/monocli/downloads",
+      "issues_url": "https://api.github.com/repos/infinitycloud-ch/monocli/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/infinitycloud-ch/monocli/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/infinitycloud-ch/monocli/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/infinitycloud-ch/monocli/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/infinitycloud-ch/monocli/labels{/name}",
+      "releases_url": "https://api.github.com/repos/infinitycloud-ch/monocli/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/infinitycloud-ch/monocli/deployments",
+      "created_at": "2026-03-23T04:21:01Z",
+      "updated_at": "2026-03-23T04:21:08Z",
+      "pushed_at": "2026-03-23T04:21:03Z",
+      "git_url": "git://github.com/infinitycloud-ch/monocli.git",
+      "ssh_url": "git@github.com:infinitycloud-ch/monocli.git",
+      "clone_url": "https://github.com/infinitycloud-ch/monocli.git",
+      "svn_url": "https://github.com/infinitycloud-ch/monocli",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "ai-agents",
+        "groq",
+        "knowledge-base",
+        "persistent-memory",
+        "python",
+        "robotics",
+        "swiftui",
+        "unitree-go2",
+        "yaml-playbooks"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "infinitycloud-chmonocli",
+    "dedupeKey": "27a37141d4d85200f0dc00564bb2cd20c933b216764333dade741303e8e738d2",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1182262319",
+    "title": "hanku-git/hye",
+    "summary": "robot",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:21:02Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/hanku-git/hye",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/hanku-git/hye",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "hanku-git"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1182262319,
+      "node_id": "R_kgDORnfkLw",
+      "name": "hye",
+      "full_name": "hanku-git/hye",
+      "private": false,
+      "owner": {
+        "login": "hanku-git",
+        "id": 268334599,
+        "node_id": "U_kgDOD_52Bw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/268334599?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hanku-git",
+        "html_url": "https://github.com/hanku-git",
+        "followers_url": "https://api.github.com/users/hanku-git/followers",
+        "following_url": "https://api.github.com/users/hanku-git/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hanku-git/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hanku-git/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hanku-git/subscriptions",
+        "organizations_url": "https://api.github.com/users/hanku-git/orgs",
+        "repos_url": "https://api.github.com/users/hanku-git/repos",
+        "events_url": "https://api.github.com/users/hanku-git/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hanku-git/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/hanku-git/hye",
+      "description": "robot",
+      "fork": false,
+      "url": "https://api.github.com/repos/hanku-git/hye",
+      "forks_url": "https://api.github.com/repos/hanku-git/hye/forks",
+      "keys_url": "https://api.github.com/repos/hanku-git/hye/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/hanku-git/hye/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/hanku-git/hye/teams",
+      "hooks_url": "https://api.github.com/repos/hanku-git/hye/hooks",
+      "issue_events_url": "https://api.github.com/repos/hanku-git/hye/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/hanku-git/hye/events",
+      "assignees_url": "https://api.github.com/repos/hanku-git/hye/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/hanku-git/hye/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/hanku-git/hye/tags",
+      "blobs_url": "https://api.github.com/repos/hanku-git/hye/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/hanku-git/hye/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/hanku-git/hye/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/hanku-git/hye/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/hanku-git/hye/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/hanku-git/hye/languages",
+      "stargazers_url": "https://api.github.com/repos/hanku-git/hye/stargazers",
+      "contributors_url": "https://api.github.com/repos/hanku-git/hye/contributors",
+      "subscribers_url": "https://api.github.com/repos/hanku-git/hye/subscribers",
+      "subscription_url": "https://api.github.com/repos/hanku-git/hye/subscription",
+      "commits_url": "https://api.github.com/repos/hanku-git/hye/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/hanku-git/hye/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/hanku-git/hye/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/hanku-git/hye/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/hanku-git/hye/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/hanku-git/hye/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/hanku-git/hye/merges",
+      "archive_url": "https://api.github.com/repos/hanku-git/hye/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/hanku-git/hye/downloads",
+      "issues_url": "https://api.github.com/repos/hanku-git/hye/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/hanku-git/hye/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/hanku-git/hye/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/hanku-git/hye/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/hanku-git/hye/labels{/name}",
+      "releases_url": "https://api.github.com/repos/hanku-git/hye/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/hanku-git/hye/deployments",
+      "created_at": "2026-03-15T09:17:46Z",
+      "updated_at": "2026-03-23T04:21:02Z",
+      "pushed_at": "2026-03-23T04:20:49Z",
+      "git_url": "git://github.com/hanku-git/hye.git",
+      "ssh_url": "git@github.com:hanku-git/hye.git",
+      "clone_url": "https://github.com/hanku-git/hye.git",
+      "svn_url": "https://github.com/hanku-git/hye",
+      "homepage": null,
+      "size": 314621,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "C++",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "hanku-githye",
+    "dedupeKey": "66e44a6685d3dbfbd4a406441d0bfb9ea9eb6f68e8aa9da9a725c95daf950720",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1189193032",
+    "title": "md-jawad-117/2D-Balance-Robot-Simulator",
+    "summary": "Control-focused 2D balancing robot simulator in Python with disturbance testing, animated plots, and configurable PID, LQR, and swing-up+LQR strategies for learning and experimentation.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:20:42Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/md-jawad-117/2D-Balance-Robot-Simulator",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/md-jawad-117/2D-Balance-Robot-Simulator",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "md-jawad-117"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189193032,
+      "node_id": "R_kgDORuGlSA",
+      "name": "2D-Balance-Robot-Simulator",
+      "full_name": "md-jawad-117/2D-Balance-Robot-Simulator",
+      "private": false,
+      "owner": {
+        "login": "md-jawad-117",
+        "id": 155421052,
+        "node_id": "U_kgDOCUOJfA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155421052?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/md-jawad-117",
+        "html_url": "https://github.com/md-jawad-117",
+        "followers_url": "https://api.github.com/users/md-jawad-117/followers",
+        "following_url": "https://api.github.com/users/md-jawad-117/following{/other_user}",
+        "gists_url": "https://api.github.com/users/md-jawad-117/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/md-jawad-117/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/md-jawad-117/subscriptions",
+        "organizations_url": "https://api.github.com/users/md-jawad-117/orgs",
+        "repos_url": "https://api.github.com/users/md-jawad-117/repos",
+        "events_url": "https://api.github.com/users/md-jawad-117/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/md-jawad-117/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/md-jawad-117/2D-Balance-Robot-Simulator",
+      "description": "Control-focused 2D balancing robot simulator in Python with disturbance testing, animated plots, and configurable PID, LQR, and swing-up+LQR strategies for learning and experimentation.",
+      "fork": false,
+      "url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator",
+      "forks_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/forks",
+      "keys_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/teams",
+      "hooks_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/hooks",
+      "issue_events_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/events",
+      "assignees_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/tags",
+      "blobs_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/languages",
+      "stargazers_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/stargazers",
+      "contributors_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/contributors",
+      "subscribers_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/subscribers",
+      "subscription_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/subscription",
+      "commits_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/merges",
+      "archive_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/downloads",
+      "issues_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/labels{/name}",
+      "releases_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/md-jawad-117/2D-Balance-Robot-Simulator/deployments",
+      "created_at": "2026-03-23T04:20:39Z",
+      "updated_at": "2026-03-23T04:20:42Z",
+      "pushed_at": "2026-03-23T04:20:39Z",
+      "git_url": "git://github.com/md-jawad-117/2D-Balance-Robot-Simulator.git",
+      "ssh_url": "git@github.com:md-jawad-117/2D-Balance-Robot-Simulator.git",
+      "clone_url": "https://github.com/md-jawad-117/2D-Balance-Robot-Simulator.git",
+      "svn_url": "https://github.com/md-jawad-117/2D-Balance-Robot-Simulator",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "md-jawad-1172d-balance-robot-simulator",
+    "dedupeKey": "1dbfffe3149c544ee44bcf4a8e26b20b483033c99103e1fdfbb60bc65d0d8fb0",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1189192926",
+    "title": "infinitycloud-ch/roboticprogramai",
+    "summary": "Cognitive robotics: Unitree Go2 + Isaac Sim 5.1.0 + ROS2 on DGX Spark (Blackwell 128GB). 3-layer architecture with persistent AI brain, RL PPO locomotion, and measurable cognitive evolution. Built by autonomous AI agents.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:20:33Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/infinitycloud-ch/roboticprogramai",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/infinitycloud-ch/roboticprogramai",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "infinitycloud-ch"
+    ],
+    "category": "code",
+    "keywords": [
+      "ai-agents",
+      "dgx-spark",
+      "isaac-sim",
+      "nvidia",
+      "reinforcement-learning",
+      "robotics",
+      "ros2",
+      "unitree-go2"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189192926,
+      "node_id": "R_kgDORuGk3g",
+      "name": "roboticprogramai",
+      "full_name": "infinitycloud-ch/roboticprogramai",
+      "private": false,
+      "owner": {
+        "login": "infinitycloud-ch",
+        "id": 130920063,
+        "node_id": "U_kgDOB82ufw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/130920063?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/infinitycloud-ch",
+        "html_url": "https://github.com/infinitycloud-ch",
+        "followers_url": "https://api.github.com/users/infinitycloud-ch/followers",
+        "following_url": "https://api.github.com/users/infinitycloud-ch/following{/other_user}",
+        "gists_url": "https://api.github.com/users/infinitycloud-ch/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/infinitycloud-ch/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/infinitycloud-ch/subscriptions",
+        "organizations_url": "https://api.github.com/users/infinitycloud-ch/orgs",
+        "repos_url": "https://api.github.com/users/infinitycloud-ch/repos",
+        "events_url": "https://api.github.com/users/infinitycloud-ch/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/infinitycloud-ch/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/infinitycloud-ch/roboticprogramai",
+      "description": "Cognitive robotics: Unitree Go2 + Isaac Sim 5.1.0 + ROS2 on DGX Spark (Blackwell 128GB). 3-layer architecture with persistent AI brain, RL PPO locomotion, and measurable cognitive evolution. Built by autonomous AI agents.",
+      "fork": false,
+      "url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai",
+      "forks_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/forks",
+      "keys_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/teams",
+      "hooks_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/hooks",
+      "issue_events_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/events",
+      "assignees_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/tags",
+      "blobs_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/languages",
+      "stargazers_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/stargazers",
+      "contributors_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/contributors",
+      "subscribers_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/subscribers",
+      "subscription_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/subscription",
+      "commits_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/merges",
+      "archive_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/downloads",
+      "issues_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/labels{/name}",
+      "releases_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/infinitycloud-ch/roboticprogramai/deployments",
+      "created_at": "2026-03-23T04:20:25Z",
+      "updated_at": "2026-03-23T04:20:33Z",
+      "pushed_at": "2026-03-23T04:20:27Z",
+      "git_url": "git://github.com/infinitycloud-ch/roboticprogramai.git",
+      "ssh_url": "git@github.com:infinitycloud-ch/roboticprogramai.git",
+      "clone_url": "https://github.com/infinitycloud-ch/roboticprogramai.git",
+      "svn_url": "https://github.com/infinitycloud-ch/roboticprogramai",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "ai-agents",
+        "dgx-spark",
+        "isaac-sim",
+        "nvidia",
+        "reinforcement-learning",
+        "robotics",
+        "ros2",
+        "unitree-go2"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "infinitycloud-chroboticprogramai",
+    "dedupeKey": "c2983c4e594682c50fb793ffc8020228ab0d8f65f6cd553b2e097ecbffce9071",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "easyminnn/alinvla_v131_tactile_60000",
+    "title": "easyminnn/alinvla_v131_tactile_60000",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:20:23.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/easyminnn/alinvla_v131_tactile_60000",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/easyminnn/alinvla_v131_tactile_60000",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "safetensors",
+      "AlinVLAv0",
+      "region:us"
+    ],
+    "tags": [
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c0bf46f363f84d8f2b7ac3",
+      "id": "easyminnn/alinvla_v131_tactile_60000",
+      "author": "easyminnn",
+      "gated": false,
+      "lastModified": "2026-03-23T04:20:23.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "6961c454842346fa3352dabfc116cff503eada41",
+      "downloads": 0,
+      "tags": [
+        "safetensors",
+        "AlinVLAv0",
+        "region:us"
+      ],
+      "createdAt": "2026-03-23T04:19:18.000Z",
+      "modelId": "easyminnn/alinvla_v131_tactile_60000",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "embodiment_id.json"
+        },
+        {
+          "rfilename": "experiment_cfg/conf.yaml"
+        },
+        {
+          "rfilename": "experiment_cfg/config.yaml"
+        },
+        {
+          "rfilename": "experiment_cfg/dataset_statistics.json"
+        },
+        {
+          "rfilename": "experiment_cfg/final_model_config.json"
+        },
+        {
+          "rfilename": "experiment_cfg/final_processor_config.json"
+        },
+        {
+          "rfilename": "latest"
+        },
+        {
+          "rfilename": "model-00001-of-00004.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00004.safetensors"
+        },
+        {
+          "rfilename": "model-00003-of-00004.safetensors"
+        },
+        {
+          "rfilename": "model-00004-of-00004.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "rng_state_0.pth"
+        },
+        {
+          "rfilename": "rng_state_1.pth"
+        },
+        {
+          "rfilename": "rng_state_2.pth"
+        },
+        {
+          "rfilename": "rng_state_3.pth"
+        },
+        {
+          "rfilename": "scheduler.pt"
+        },
+        {
+          "rfilename": "statistics.json"
+        },
+        {
+          "rfilename": "trainer_state.json"
+        },
+        {
+          "rfilename": "training_args.bin"
+        },
+        {
+          "rfilename": "zero_to_fp32.py"
+        }
+      ]
+    },
+    "slug": "easyminnnalinvlav131tactile60000",
+    "dedupeKey": "ecc96e7b3ed045ac5bd1f10c4a3223135b850e5b80d723a2bcc1f0f57d70d0ac",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "StrongRoboticsLab/pi05-so100-diverse",
+    "title": "StrongRoboticsLab/pi05-so100-diverse",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:20:20.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/StrongRoboticsLab/pi05-so100-diverse",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/StrongRoboticsLab/pi05-so100-diverse",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "arxiv:2512.11921",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69bc6a590eab63d5be42c3cf",
+      "id": "StrongRoboticsLab/pi05-so100-diverse",
+      "author": "StrongRoboticsLab",
+      "gated": false,
+      "lastModified": "2026-03-23T04:20:20.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "8ac83b2a8d1589268004bca4868b57f29484e688",
+      "downloads": 0,
+      "tags": [
+        "arxiv:2512.11921",
+        "region:us"
+      ],
+      "createdAt": "2026-03-19T21:27:53.000Z",
+      "modelId": "StrongRoboticsLab/pi05-so100-diverse",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": ".gitignore"
+        },
+        {
+          "rfilename": "Dockerfile"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "bootstrap.sh"
+        },
+        {
+          "rfilename": "build_index.py"
+        },
+        {
+          "rfilename": "compute_stats.py"
+        },
+        {
+          "rfilename": "download_subset.py"
+        },
+        {
+          "rfilename": "eval_kitchen.py"
+        },
+        {
+          "rfilename": "eval_sim.py"
+        },
+        {
+          "rfilename": "filtered_index.json"
+        },
+        {
+          "rfilename": "infer_so101.py"
+        },
+        {
+          "rfilename": "lerobot_patches/apply.sh"
+        },
+        {
+          "rfilename": "lerobot_patches/src/lerobot/configs/train.py"
+        },
+        {
+          "rfilename": "lerobot_patches/src/lerobot/datasets/factory.py"
+        },
+        {
+          "rfilename": "lerobot_patches/src/lerobot/robots/so_follower/so_follower.py"
+        },
+        {
+          "rfilename": "lerobot_patches/src/lerobot/scripts/lerobot_record.py"
+        },
+        {
+          "rfilename": "lerobot_patches/src/lerobot/scripts/lerobot_train.py"
+        },
+        {
+          "rfilename": "logs/training_20260321_050335.log"
+        },
+        {
+          "rfilename": "logs/training_20260323_013455.log"
+        },
+        {
+          "rfilename": "logs/training_20260323_013534.log"
+        },
+        {
+          "rfilename": "norm_stats.json"
+        },
+        {
+          "rfilename": "preflight.sh"
+        },
+        {
+          "rfilename": "prep_dataset.sh"
+        },
+        {
+          "rfilename": "setup_cloud.sh"
+        },
+        {
+          "rfilename": "so100_dataset.py"
+        },
+        {
+          "rfilename": "train_cloud.sh"
+        }
+      ]
+    },
+    "slug": "strongroboticslabpi05-so100-diverse",
+    "dedupeKey": "365092aecca670533f4d9e3db4ef8fec7cd698f537ef8a6962b158c6581b751c",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "1168064429",
+    "title": "VarunChauhan2/Robot_Code",
+    "summary": "Very cool robot computer vision and controls",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:20:01Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/VarunChauhan2/Robot_Code",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/VarunChauhan2/Robot_Code",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "VarunChauhan2"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.8500000000000001,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1168064429,
+      "node_id": "R_kgDORZ8_rQ",
+      "name": "Robot_Code",
+      "full_name": "VarunChauhan2/Robot_Code",
+      "private": false,
+      "owner": {
+        "login": "VarunChauhan2",
+        "id": 108598742,
+        "node_id": "U_kgDOBnkV1g",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108598742?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/VarunChauhan2",
+        "html_url": "https://github.com/VarunChauhan2",
+        "followers_url": "https://api.github.com/users/VarunChauhan2/followers",
+        "following_url": "https://api.github.com/users/VarunChauhan2/following{/other_user}",
+        "gists_url": "https://api.github.com/users/VarunChauhan2/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/VarunChauhan2/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/VarunChauhan2/subscriptions",
+        "organizations_url": "https://api.github.com/users/VarunChauhan2/orgs",
+        "repos_url": "https://api.github.com/users/VarunChauhan2/repos",
+        "events_url": "https://api.github.com/users/VarunChauhan2/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/VarunChauhan2/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/VarunChauhan2/Robot_Code",
+      "description": "Very cool robot computer vision and controls",
+      "fork": false,
+      "url": "https://api.github.com/repos/VarunChauhan2/Robot_Code",
+      "forks_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/forks",
+      "keys_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/teams",
+      "hooks_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/hooks",
+      "issue_events_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/events",
+      "assignees_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/tags",
+      "blobs_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/languages",
+      "stargazers_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/stargazers",
+      "contributors_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/contributors",
+      "subscribers_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/subscribers",
+      "subscription_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/subscription",
+      "commits_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/merges",
+      "archive_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/downloads",
+      "issues_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/labels{/name}",
+      "releases_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/VarunChauhan2/Robot_Code/deployments",
+      "created_at": "2026-02-27T01:17:00Z",
+      "updated_at": "2026-03-23T04:20:01Z",
+      "pushed_at": "2026-03-23T04:19:58Z",
+      "git_url": "git://github.com/VarunChauhan2/Robot_Code.git",
+      "ssh_url": "git@github.com:VarunChauhan2/Robot_Code.git",
+      "clone_url": "https://github.com/VarunChauhan2/Robot_Code.git",
+      "svn_url": "https://github.com/VarunChauhan2/Robot_Code",
+      "homepage": null,
+      "size": 28123,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "varunchauhan2robotcode",
+    "dedupeKey": "eccfdabd65c52d029112353538b8d6a6a54f17e9c5e95e8da91f371719031ca6",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "Huhahahula/your_repo_id",
+    "title": "Huhahahula/your_repo_id",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 201；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:12:51.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/Huhahahula/your_repo_id",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/Huhahahula/your_repo_id",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "smolvla",
+      "robotics",
+      "dataset:your_dataset",
+      "arxiv:2506.01844",
+      "base_model:lerobot/smolvla_base",
+      "base_model:finetune:lerobot/smolvla_base",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.86,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69b2a3857228f17eede10103",
+      "id": "Huhahahula/your_repo_id",
+      "author": "Huhahahula",
+      "gated": false,
+      "lastModified": "2026-03-23T04:12:51.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "d71310fc96a23c2d1eb98655ba96c59fdecf0770",
+      "downloads": 201,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "smolvla",
+        "robotics",
+        "dataset:your_dataset",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-12T11:29:09.000Z",
+      "modelId": "Huhahahula/your_repo_id",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "adapter_config.json"
+        },
+        {
+          "rfilename": "adapter_model.safetensors"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_5_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "huhahahulayourrepoid",
+    "dedupeKey": "13c71bb1c979593ac1cf6836e2299855b1b022c4892a5e22bbafb3acd35b58cf",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "dkhanh/pi05-fyp-3",
+    "title": "dkhanh/pi05-fyp-3",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 18；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:10:59.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/dkhanh/pi05-fyp-3",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/dkhanh/pi05-fyp-3",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "pi05",
+      "dataset:dkhanh/fyp-data",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69bd1ec20eab63d5be520a46",
+      "id": "dkhanh/pi05-fyp-3",
+      "author": "dkhanh",
+      "gated": false,
+      "lastModified": "2026-03-23T04:10:59.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "9062c82516957be1b6cecb42a8938ea10370c3dd",
+      "downloads": 18,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "pi05",
+        "dataset:dkhanh/fyp-data",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-20T10:17:38.000Z",
+      "modelId": "dkhanh/pi05-fyp-3",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_2_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "dkhanhpi05-fyp-3",
+    "dedupeKey": "e26b83d7c616464225ab0b88f14f741db8e1992a7be1f1bbb1bf034af232b9af",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "taetae77/smolvla-so101-finetuned",
+    "title": "taetae77/smolvla-so101-finetuned",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T04:06:46.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/taetae77/smolvla-so101-finetuned",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/taetae77/smolvla-so101-finetuned",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "smolvla",
+      "dataset:taetae77/lerobot-dataset_320",
+      "arxiv:2506.01844",
+      "base_model:lerobot/smolvla_base",
+      "base_model:finetune:lerobot/smolvla_base",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.86,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c0bc3d05a4f1fa94566326",
+      "id": "taetae77/smolvla-so101-finetuned",
+      "author": "taetae77",
+      "gated": false,
+      "lastModified": "2026-03-23T04:06:46.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "9157f13b80c7627ffbbac43bc05a22ee6ea23a3d",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "smolvla",
+        "dataset:taetae77/lerobot-dataset_320",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-23T04:06:21.000Z",
+      "modelId": "taetae77/smolvla-so101-finetuned",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_5_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "taetae77smolvla-so101-finetuned",
+    "dedupeKey": "86d382372d4f0f97d593b6a863c6abcbe307f5494f24b21f8110c322e5ed2d4b",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
     "externalId": "668872180",
     "title": "riverlan20/T-1337-Robot",
     "summary": "🤖 Create and control autonomous robots with T-1337-Robot, an easy-to-use framework for building intelligent robotic applications.",
@@ -158,7 +1855,11 @@
     "dedupeKey": "e1e9fbd1265262c17b7816874ac4c5fff2bdc3911c5e35443691136341b40b1e",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "e1e9fbd1265262c17b7816874ac4c5fff2bdc3911c5e35443691136341b40b1e",
+    "createdAt": "2026-03-22T04:22:04Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1174840150",
@@ -295,7 +1996,11 @@
     "dedupeKey": "ab32e07af70a9bbe236b12bf5281845ddb47657af090295c9e4f3b57898c1573",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "ab32e07af70a9bbe236b12bf5281845ddb47657af090295c9e4f3b57898c1573",
+    "createdAt": "2026-03-22T04:21:44Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1180810910",
@@ -436,7 +2141,11 @@
     "dedupeKey": "71122fb141472dc7be41d47082f7af19cb3fe1f2b868c71a7b42f27ec1a3fd1d",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "71122fb141472dc7be41d47082f7af19cb3fe1f2b868c71a7b42f27ec1a3fd1d",
+    "createdAt": "2026-03-22T04:21:19Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1188349479",
@@ -571,7 +2280,11 @@
     "dedupeKey": "668d4b7793ac0106243a8e9ee522d19b0f9f73ce59bb10ef5b3b351ce7879f16",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "668d4b7793ac0106243a8e9ee522d19b0f9f73ce59bb10ef5b3b351ce7879f16",
+    "createdAt": "2026-03-22T04:21:15Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1165472686",
@@ -710,7 +2423,11 @@
     "dedupeKey": "8c33d72c348d89e134adee2a16253cf43271682a99f76f0a5d8c7487a872fe24",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "8c33d72c348d89e134adee2a16253cf43271682a99f76f0a5d8c7487a872fe24",
+    "createdAt": "2026-03-22T04:20:47Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "164218887",
@@ -867,7 +2584,11 @@
     "dedupeKey": "ac76979f59ecc4ea83c93370bc2f85b2e47ac93ce0375059adba80277ecc60fb",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "ac76979f59ecc4ea83c93370bc2f85b2e47ac93ce0375059adba80277ecc60fb",
+    "createdAt": "2026-03-22T04:20:38Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1187715728",
@@ -1004,7 +2725,11 @@
     "dedupeKey": "11f9b9c90cd49f31805a1eb601c261e6fe13cd9d8330ef94abfb8473253cf8f6",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "11f9b9c90cd49f31805a1eb601c261e6fe13cd9d8330ef94abfb8473253cf8f6",
+    "createdAt": "2026-03-22T04:20:07Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1130201309",
@@ -1175,7 +2900,11 @@
     "dedupeKey": "3065bc88554f9adea6f099f292d5eacb77f6988fdb405e84bdbee6cfb0631632",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "3065bc88554f9adea6f099f292d5eacb77f6988fdb405e84bdbee6cfb0631632",
+    "createdAt": "2026-03-22T04:20:01Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1181265007",
@@ -1310,7 +3039,11 @@
     "dedupeKey": "442eed3c42b86b7faf786ea3b8d4659556cd750cd44b937d205ff196094cb9de",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "442eed3c42b86b7faf786ea3b8d4659556cd750cd44b937d205ff196094cb9de",
+    "createdAt": "2026-03-22T04:19:59Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1181707542",
@@ -1449,7 +3182,11 @@
     "dedupeKey": "eeb8ec8d1a01360918f96936855f5c66a8ff617af8ba7b39eb457ff17d1074f4",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "eeb8ec8d1a01360918f96936855f5c66a8ff617af8ba7b39eb457ff17d1074f4",
+    "createdAt": "2026-03-22T04:19:56Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Hoshipu/xvla-v5-checkpoints",
@@ -1566,7 +3303,11 @@
     "dedupeKey": "042bf2cb880a7a2f0e64391f149d3571a2f9fcbb915e86f818aec0e2013c38b7",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "042bf2cb880a7a2f0e64391f149d3571a2f9fcbb915e86f818aec0e2013c38b7",
+    "createdAt": "2026-03-22T04:09:15.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1183946067",
@@ -1716,7 +3457,7 @@
     ],
     "id": "2d810df6d85359ed13638a603c39099a66d31fa930b48f73a0045ea3bb924d7b",
     "createdAt": "2026-03-21T04:22:32Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1861,7 +3602,7 @@
     ],
     "id": "90404ae26eeffe7d7742246464ed33cfcf0ca4119b854f3253f4405071e46d35",
     "createdAt": "2026-03-21T04:22:11Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2006,7 +3747,7 @@
     ],
     "id": "4c5ed0847b302ecfd1e5563796f3d9480c3f0c0569b1ff86beb44284af36694c",
     "createdAt": "2026-03-21T04:22:04Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -4533,6 +6274,341 @@
     "sourceCount": 1
   },
   {
+    "externalId": "http://arxiv.org/abs/2603.19979v1",
+    "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving",
+    "summary": "Scalable and reliable evaluation is increasingly critical in the end-to-end era of autonomous driving, where vision--language--action (VLA) policies directly map raw sensor streams to driving actions. Yet, current evaluation pipelines still rely heavily on real-world road testing, which is costly, biased toward limited scenario coverage, and difficult to reproduce. These challenges motivate a real-world simulator that can generate realistic future observations under proposed actions, while remaining controllable and stable over long horizons. We present X-World, an action-conditioned multi-camera generative world model that simulates future observations directly in video space. Given synchronized multi-view camera history and a future action sequence, X-World generates future multi-camera video streams that follow the commanded actions. To ensure reproducible and editable scene rollouts, X-World further supports optional controls over dynamic traffic agents and static road elements, and retains a text-prompt interface for appearance-level control (e.g., weather and time of day). Beyond world simulation, X-World also enables video style transfer by conditioning on appearance prompts while preserving the underlying action and scene dynamics. At the core of X-World is a multi-view latent video generator designed to explicitly encourage cross-view geometric consistency and temporal coherence under diverse control signals. Experiments show that X-World achieves high-quality multi-view video generation with (i) strong view consistency across cameras, (ii) stable temporal dynamics over long rollouts, and (iii) high controllability with strict action following and faithful adherence to optional scene controls. These properties make X-World a practical foundation for scalable and reproducible evaluation.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T14:23:32Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19979v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19979v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Chaoda Zheng",
+      "Sean Li",
+      "Jinhao Deng",
+      "Zhennan Wang",
+      "Shijia Chen",
+      "Liqiang Xiao",
+      "Ziheng Chi",
+      "Hongbin Lin",
+      "Kangjie Chen",
+      "Boyang Wang",
+      "Yu Zhang",
+      "Xianming Liu"
+    ],
+    "category": "paper",
+    "keywords": [
+      "world model",
+      "vla"
+    ],
+    "tags": [
+      "世界模型",
+      "视觉语言动作",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.63,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19979v1",
+      "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving",
+      "updated": "2026-03-20T14:23:32Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19979v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19979v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Scalable and reliable evaluation is increasingly critical in the end-to-end era of autonomous driving, where vision--language--action (VLA) policies directly map raw sensor streams to driving actions. Yet, current evaluation pipelines still rely heavily on real-world road testing, which is costly, biased toward limited scenario coverage, and difficult to reproduce. These challenges motivate a real-world simulator that can generate realistic future observations under proposed actions, while remaining controllable and stable over long horizons. We present X-World, an action-conditioned multi-camera generative world model that simulates future observations directly in video space. Given synchronized multi-view camera history and a future action sequence, X-World generates future multi-camera video streams that follow the commanded actions. To ensure reproducible and editable scene rollouts, X-World further supports optional controls over dynamic traffic agents and static road elements, and retains a text-prompt interface for appearance-level control (e.g., weather and time of day). Beyond world simulation, X-World also enables video style transfer by conditioning on appearance prompts while preserving the underlying action and scene dynamics. At the core of X-World is a multi-view latent video generator designed to explicitly encourage cross-view geometric consistency and temporal coherence under diverse control signals. Experiments show that X-World achieves high-quality multi-view video generation with (i) strong view consistency across cameras, (ii) stable temporal dynamics over long rollouts, and (iii) high controllability with strict action following and faithful adherence to optional scene controls. These properties make X-World a practical foundation for scalable and reproducible evaluation.",
+      "category": [
+        {
+          "@_term": "cs.CV",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "cs.AI",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-20T14:23:32Z",
+      "arxiv:comment": "Technical Report",
+      "arxiv:primary_category": {
+        "@_term": "cs.CV"
+      },
+      "author": [
+        {
+          "name": "Chaoda Zheng"
+        },
+        {
+          "name": "Sean Li"
+        },
+        {
+          "name": "Jinhao Deng"
+        },
+        {
+          "name": "Zhennan Wang"
+        },
+        {
+          "name": "Shijia Chen"
+        },
+        {
+          "name": "Liqiang Xiao"
+        },
+        {
+          "name": "Ziheng Chi"
+        },
+        {
+          "name": "Hongbin Lin"
+        },
+        {
+          "name": "Kangjie Chen"
+        },
+        {
+          "name": "Boyang Wang"
+        },
+        {
+          "name": "Yu Zhang"
+        },
+        {
+          "name": "Xianming Liu"
+        }
+      ]
+    },
+    "slug": "x-world-controllable-ego-centric-multi-camera-world-models-for-scalable-end-to-e",
+    "dedupeKey": "4d926a6bc0cc14e354b4268ec3adbe37e8483cfb2506ca1b74422c48fdd00ff5",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19822v1",
+    "title": "HUGE-Bench: A Benchmark for High-Level UAV Vision-Language-Action Tasks",
+    "summary": "Existing UAV vision-language navigation (VLN) benchmarks have enabled language-guided flight, but they largely focus on long, step-wise route descriptions with goal-centric evaluation, making them less diagnostic for real operations where brief, high-level commands must be grounded into safe multi-stage behaviors. We present HUGE-Bench, a benchmark for High-Level UAV Vision-Language-Action (HL-VLA) tasks that tests whether an agent can interpret concise language and execute complex, process-oriented trajectories with safety awareness. HUGE-Bench comprises 4 real-world digital twin scenes, 8 high-level tasks, and 2.56M meters of trajectories, and is built on an aligned 3D Gaussian Splatting (3DGS)-Mesh representation that combines photorealistic rendering with collision-capable geometry for scalable generation and collision-aware evaluation. We introduce process-oriented and collision-aware metrics to assess process fidelity, terminal accuracy, and safety. Experiments on representative state-of-the-art VLA models reveal significant gaps in high-level semantic completion and safe execution, highlighting HUGE-Bench as a diagnostic testbed for high-level UAV autonomy.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T10:08:42Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19822v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19822v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Jingyu Guo",
+      "Ziye Chen",
+      "Ziwen Li",
+      "Zhengqing Gao",
+      "Jiaxin Huang",
+      "Hanlue Zhang",
+      "Fengming Huang",
+      "Yu Yao",
+      "Tongliang Liu",
+      "Mingming Gong"
+    ],
+    "category": "paper",
+    "keywords": [
+      "vla",
+      "vision-language-action"
+    ],
+    "tags": [
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.55,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19822v1",
+      "title": "HUGE-Bench: A Benchmark for High-Level UAV Vision-Language-Action Tasks",
+      "updated": "2026-03-20T10:08:42Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19822v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19822v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Existing UAV vision-language navigation (VLN) benchmarks have enabled language-guided flight, but they largely focus on long, step-wise route descriptions with goal-centric evaluation, making them less diagnostic for real operations where brief, high-level commands must be grounded into safe multi-stage behaviors. We present HUGE-Bench, a benchmark for High-Level UAV Vision-Language-Action (HL-VLA) tasks that tests whether an agent can interpret concise language and execute complex, process-oriented trajectories with safety awareness. HUGE-Bench comprises 4 real-world digital twin scenes, 8 high-level tasks, and 2.56M meters of trajectories, and is built on an aligned 3D Gaussian Splatting (3DGS)-Mesh representation that combines photorealistic rendering with collision-capable geometry for scalable generation and collision-aware evaluation. We introduce process-oriented and collision-aware metrics to assess process fidelity, terminal accuracy, and safety. Experiments on representative state-of-the-art VLA models reveal significant gaps in high-level semantic completion and safe execution, highlighting HUGE-Bench as a diagnostic testbed for high-level UAV autonomy.",
+      "category": {
+        "@_term": "cs.CV",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-20T10:08:42Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.CV"
+      },
+      "author": [
+        {
+          "name": "Jingyu Guo"
+        },
+        {
+          "name": "Ziye Chen"
+        },
+        {
+          "name": "Ziwen Li"
+        },
+        {
+          "name": "Zhengqing Gao"
+        },
+        {
+          "name": "Jiaxin Huang"
+        },
+        {
+          "name": "Hanlue Zhang"
+        },
+        {
+          "name": "Fengming Huang"
+        },
+        {
+          "name": "Yu Yao"
+        },
+        {
+          "name": "Tongliang Liu"
+        },
+        {
+          "name": "Mingming Gong"
+        }
+      ]
+    },
+    "slug": "huge-bench-a-benchmark-for-high-level-uav-vision-language-action-tasks",
+    "dedupeKey": "0be9d272fb0eab3355c887ad86875cdd7b275e7679dd41ea1c7272ae6d0b0039",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19782v1",
+    "title": "Embodied Science: Closing the Discovery Loop with Agentic Embodied AI",
+    "summary": "Artificial intelligence has demonstrated remarkable capability in predicting scientific properties, yet scientific discovery remains an inherently physical, long-horizon pursuit governed by experimental cycles. Most current computational approaches are misaligned with this reality, framing discovery as isolated, task-specific predictions rather than continuous interaction with the physical world. Here, we argue for embodied science, a paradigm that reframes scientific discovery as a closed loop tightly coupling agentic reasoning with physical execution. We propose a unified Perception-Language-Action-Discovery (PLAD) framework, wherein embodied agents perceive experimental environments, reason over scientific knowledge, execute physical interventions, and internalize outcomes to drive subsequent exploration. By grounding computational reasoning in robust physical feedback, this approach bridges the gap between digital prediction and empirical validation, offering a roadmap for autonomous discovery systems in the life and chemical sciences.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T09:20:12Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19782v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19782v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Xiang Zhuang",
+      "Chenyi Zhou",
+      "Kehua Feng",
+      "Zhihui Zhu",
+      "Yunfan Gao",
+      "Yijie Zhong",
+      "Yichi Zhang",
+      "Junjie Huang",
+      "Keyan Ding",
+      "Lei Bai",
+      "Haofen Wang",
+      "Qiang Zhang",
+      "Huajun Chen"
+    ],
+    "category": "paper",
+    "keywords": [
+      "embodied ai"
+    ],
+    "tags": [
+      "具身智能"
+    ],
+    "relevanceScore": 0.49,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19782v1",
+      "title": "Embodied Science: Closing the Discovery Loop with Agentic Embodied AI",
+      "updated": "2026-03-20T09:20:12Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19782v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19782v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Artificial intelligence has demonstrated remarkable capability in predicting scientific properties, yet scientific discovery remains an inherently physical, long-horizon pursuit governed by experimental cycles. Most current computational approaches are misaligned with this reality, framing discovery as isolated, task-specific predictions rather than continuous interaction with the physical world. Here, we argue for embodied science, a paradigm that reframes scientific discovery as a closed loop tightly coupling agentic reasoning with physical execution. We propose a unified Perception-Language-Action-Discovery (PLAD) framework, wherein embodied agents perceive experimental environments, reason over scientific knowledge, execute physical interventions, and internalize outcomes to drive subsequent exploration. By grounding computational reasoning in robust physical feedback, this approach bridges the gap between digital prediction and empirical validation, offering a roadmap for autonomous discovery systems in the life and chemical sciences.",
+      "category": {
+        "@_term": "cs.AI",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-20T09:20:12Z",
+      "arxiv:comment": "Work in progress",
+      "arxiv:primary_category": {
+        "@_term": "cs.AI"
+      },
+      "author": [
+        {
+          "name": "Xiang Zhuang"
+        },
+        {
+          "name": "Chenyi Zhou"
+        },
+        {
+          "name": "Kehua Feng"
+        },
+        {
+          "name": "Zhihui Zhu"
+        },
+        {
+          "name": "Yunfan Gao"
+        },
+        {
+          "name": "Yijie Zhong"
+        },
+        {
+          "name": "Yichi Zhang"
+        },
+        {
+          "name": "Junjie Huang"
+        },
+        {
+          "name": "Keyan Ding"
+        },
+        {
+          "name": "Lei Bai"
+        },
+        {
+          "name": "Haofen Wang"
+        },
+        {
+          "name": "Qiang Zhang"
+        },
+        {
+          "name": "Huajun Chen"
+        }
+      ]
+    },
+    "slug": "embodied-science-closing-the-discovery-loop-with-agentic-embodied-ai",
+    "dedupeKey": "49bbb1ddbaa829d844c4701ba36517d88dd03053537715215f8e2bda9b9ff5c6",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
     "externalId": "milpdio/ablation_lora_5",
     "title": "milpdio/ablation_lora_5",
     "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
@@ -4721,6 +6797,128 @@
     "createdAt": "2026-03-20T07:56:28.000Z",
     "isFeatured": false,
     "sourceCount": 1
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19709v1",
+    "title": "Morphology-Consistent Humanoid Interaction through Robot-Centric Video Synthesis",
+    "summary": "Equipping humanoid robots with versatile interaction skills typically requires either extensive policy training or explicit human-to-robot motion retargeting. However, learning-based policies face prohibitive data collection costs. Meanwhile, retargeting relies on human-centric pose estimation (e.g., SMPL), introducing a morphology gap. Skeletal scale mismatches result in severe spatial misalignments when mapped to robots, compromising interaction success. In this work, we propose Dream2Act, a robot-centric framework enabling zero-shot interaction through generative video synthesis. Given a third-person image of the robot and target object, our framework leverages video generation models to envision the robot completing the task with morphology-consistent motion. We employ a high-fidelity pose extraction system to recover physically feasible, robot-native joint trajectories from these synthesized dreams, subsequently executed via a general-purpose whole-body controller. Operating strictly within the robot-native coordinate space, Dream2Act avoids retargeting errors and eliminates task-specific policy training. We evaluate Dream2Act on the Unitree G1 across four whole-body mobile interaction tasks: ball kicking, sofa sitting, bag punching, and box hugging. Dream2Act achieves a 37.5% overall success rate, compared to 0% for conventional retargeting. While retargeting fails to establish correct physical contacts due to the morphology gap (with errors compounded during locomotion), Dream2Act maintains robot-consistent spatial alignment, enabling reliable contact formation and substantially higher task completion.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T07:27:09Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19709v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19709v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Weisheng Xu",
+      "Jian Li",
+      "Yi Gu",
+      "Bin Yang",
+      "Haodong Chen",
+      "Shuyi Lin",
+      "Mingqian Zhou",
+      "Jing Tan",
+      "Qiwei Wu",
+      "Xiangrui Jiang",
+      "Taowen Wang",
+      "Jiawen Wen",
+      "Qiwei Liang",
+      "Jiaxi Zhang",
+      "Renjing Xu"
+    ],
+    "category": "paper",
+    "keywords": [
+      "humanoid"
+    ],
+    "tags": [
+      "机器人学习",
+      "人形机器人"
+    ],
+    "relevanceScore": 0.57,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19709v1",
+      "title": "Morphology-Consistent Humanoid Interaction through Robot-Centric Video Synthesis",
+      "updated": "2026-03-20T07:27:09Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19709v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19709v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Equipping humanoid robots with versatile interaction skills typically requires either extensive policy training or explicit human-to-robot motion retargeting. However, learning-based policies face prohibitive data collection costs. Meanwhile, retargeting relies on human-centric pose estimation (e.g., SMPL), introducing a morphology gap. Skeletal scale mismatches result in severe spatial misalignments when mapped to robots, compromising interaction success. In this work, we propose Dream2Act, a robot-centric framework enabling zero-shot interaction through generative video synthesis. Given a third-person image of the robot and target object, our framework leverages video generation models to envision the robot completing the task with morphology-consistent motion. We employ a high-fidelity pose extraction system to recover physically feasible, robot-native joint trajectories from these synthesized dreams, subsequently executed via a general-purpose whole-body controller. Operating strictly within the robot-native coordinate space, Dream2Act avoids retargeting errors and eliminates task-specific policy training. We evaluate Dream2Act on the Unitree G1 across four whole-body mobile interaction tasks: ball kicking, sofa sitting, bag punching, and box hugging. Dream2Act achieves a 37.5% overall success rate, compared to 0% for conventional retargeting. While retargeting fails to establish correct physical contacts due to the morphology gap (with errors compounded during locomotion), Dream2Act maintains robot-consistent spatial alignment, enabling reliable contact formation and substantially higher task completion.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-20T07:27:09Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Weisheng Xu"
+        },
+        {
+          "name": "Jian Li"
+        },
+        {
+          "name": "Yi Gu"
+        },
+        {
+          "name": "Bin Yang"
+        },
+        {
+          "name": "Haodong Chen"
+        },
+        {
+          "name": "Shuyi Lin"
+        },
+        {
+          "name": "Mingqian Zhou"
+        },
+        {
+          "name": "Jing Tan"
+        },
+        {
+          "name": "Qiwei Wu"
+        },
+        {
+          "name": "Xiangrui Jiang"
+        },
+        {
+          "name": "Taowen Wang"
+        },
+        {
+          "name": "Jiawen Wen"
+        },
+        {
+          "name": "Qiwei Liang"
+        },
+        {
+          "name": "Jiaxi Zhang"
+        },
+        {
+          "name": "Renjing Xu"
+        }
+      ]
+    },
+    "slug": "morphology-consistent-humanoid-interaction-through-robot-centric-video-synthesis",
+    "dedupeKey": "828640061cb4658e416334eac0f95719122cc507ee2454e97412f693992bacf1",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
   },
   {
     "externalId": "928821065",
@@ -6397,6 +8595,196 @@
     "sourceCount": 1
   },
   {
+    "externalId": "http://arxiv.org/abs/2603.19607v1",
+    "title": "Physion-Eval: Evaluating Physical Realism in Generated Video via Human Reasoning",
+    "summary": "Video generation models are increasingly used as world simulators for storytelling, simulation, and embodied AI. As these models advance, a key question arises: do generated videos obey the physical laws of the real world? Existing evaluations largely rely on automated metrics or coarse human judgments such as preferences or rubric-based checks. While useful for assessing perceptual quality, these methods provide limited insight into when and why generated dynamics violate real-world physical constraints. We introduce Physion-Eval, a large-scale benchmark of expert human reasoning for diagnosing physical realism failures in videos generated by five state-of-the-art models across egocentric and exocentric views, containing 10,990 expert reasoning traces spanning 22 fine-grained physical categories. Each generated video is derived from a corresponding real-world reference video depicting a clear physical process, and annotated with temporally localized glitches, structured failure categories, and natural-language explanations of the violated physical behavior. Using this dataset, we reveal a striking limitation of current video generation models: in physics-critical scenarios, 83.3% of exocentric and 93.5% of egocentric generated videos exhibit at least one human-identifiable physical glitch. We hope Physion-Eval will set a new standard for physical realism evaluation and guide the development of physics-grounded video generation. The benchmark is publicly available at https://huggingface.co/datasets/PhysionLabs/Physion-Eval.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T03:25:41Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19607v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19607v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Qin Zhang",
+      "Peiyu Jing",
+      "Hong-Xing Yu",
+      "Fangqiang Ding",
+      "Fan Nie",
+      "Weimin Wang",
+      "Yilun Du",
+      "James Zou",
+      "Jiajun Wu",
+      "Bing Shuai"
+    ],
+    "category": "paper",
+    "keywords": [
+      "embodied ai"
+    ],
+    "tags": [
+      "具身智能",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.49,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19607v1",
+      "title": "Physion-Eval: Evaluating Physical Realism in Generated Video via Human Reasoning",
+      "updated": "2026-03-20T03:25:41Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19607v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19607v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Video generation models are increasingly used as world simulators for storytelling, simulation, and embodied AI. As these models advance, a key question arises: do generated videos obey the physical laws of the real world? Existing evaluations largely rely on automated metrics or coarse human judgments such as preferences or rubric-based checks. While useful for assessing perceptual quality, these methods provide limited insight into when and why generated dynamics violate real-world physical constraints. We introduce Physion-Eval, a large-scale benchmark of expert human reasoning for diagnosing physical realism failures in videos generated by five state-of-the-art models across egocentric and exocentric views, containing 10,990 expert reasoning traces spanning 22 fine-grained physical categories. Each generated video is derived from a corresponding real-world reference video depicting a clear physical process, and annotated with temporally localized glitches, structured failure categories, and natural-language explanations of the violated physical behavior. Using this dataset, we reveal a striking limitation of current video generation models: in physics-critical scenarios, 83.3% of exocentric and 93.5% of egocentric generated videos exhibit at least one human-identifiable physical glitch. We hope Physion-Eval will set a new standard for physical realism evaluation and guide the development of physics-grounded video generation. The benchmark is publicly available at https://huggingface.co/datasets/PhysionLabs/Physion-Eval.",
+      "category": {
+        "@_term": "cs.CV",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-20T03:25:41Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.CV"
+      },
+      "author": [
+        {
+          "name": "Qin Zhang"
+        },
+        {
+          "name": "Peiyu Jing"
+        },
+        {
+          "name": "Hong-Xing Yu"
+        },
+        {
+          "name": "Fangqiang Ding"
+        },
+        {
+          "name": "Fan Nie"
+        },
+        {
+          "name": "Weimin Wang"
+        },
+        {
+          "name": "Yilun Du"
+        },
+        {
+          "name": "James Zou"
+        },
+        {
+          "name": "Jiajun Wu"
+        },
+        {
+          "name": "Bing Shuai"
+        }
+      ]
+    },
+    "slug": "physion-eval-evaluating-physical-realism-in-generated-video-via-human-reasoning",
+    "dedupeKey": "875954d86d6e1993177531e3d048baa4604018360535adf4f25b1758e33a5b11",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19418v1",
+    "title": "Speculative Policy Orchestration: A Latency-Resilient Framework for Cloud-Robotic Manipulation",
+    "summary": "Cloud robotics enables robots to offload high-dimensional motion planning and reasoning to remote servers. However, for continuous manipulation tasks requiring high-frequency control, network latency and jitter can severely destabilize the system, causing command starvation and unsafe physical execution. To address this, we propose Speculative Policy Orchestration (SPO), a latency-resilient cloud-edge framework. SPO utilizes a cloud-hosted world model to pre-compute and stream future kinematic waypoints to a local edge buffer, decoupling execution frequency from network round-trip time. To mitigate unsafe execution caused by predictive drift, the edge node employs an $ε$-tube verifier that strictly bounds kinematic execution errors. The framework is coupled with an Adaptive Horizon Scaling mechanism that dynamically expands or shrinks the speculative pre-fetch depth based on real-time tracking error. We evaluate SPO on continuous RLBench manipulation tasks under emulated network delays. Results show that even when deployed with learned models of modest accuracy, SPO reduces network-induced idle time by over 60% compared to blocking remote inference. Furthermore, SPO discards approximately 60% fewer cloud predictions than static caching baselines. Ultimately, SPO enables fluid, real-time cloud-robotic control while maintaining bounded physical safety.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-19T19:24:14Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19418v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19418v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Chanh Nguyen",
+      "Shutong Jin",
+      "Florian T. Pokorny",
+      "Erik Elmroth"
+    ],
+    "category": "paper",
+    "keywords": [
+      "robotics",
+      "manipulation",
+      "world model"
+    ],
+    "tags": [
+      "机器人学习",
+      "机械臂操作",
+      "世界模型"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19418v1",
+      "title": "Speculative Policy Orchestration: A Latency-Resilient Framework for Cloud-Robotic Manipulation",
+      "updated": "2026-03-19T19:24:14Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19418v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19418v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Cloud robotics enables robots to offload high-dimensional motion planning and reasoning to remote servers. However, for continuous manipulation tasks requiring high-frequency control, network latency and jitter can severely destabilize the system, causing command starvation and unsafe physical execution.\n  To address this, we propose Speculative Policy Orchestration (SPO), a latency-resilient cloud-edge framework. SPO utilizes a cloud-hosted world model to pre-compute and stream future kinematic waypoints to a local edge buffer, decoupling execution frequency from network round-trip time. To mitigate unsafe execution caused by predictive drift, the edge node employs an $ε$-tube verifier that strictly bounds kinematic execution errors. The framework is coupled with an Adaptive Horizon Scaling mechanism that dynamically expands or shrinks the speculative pre-fetch depth based on real-time tracking error.\n  We evaluate SPO on continuous RLBench manipulation tasks under emulated network delays. Results show that even when deployed with learned models of modest accuracy, SPO reduces network-induced idle time by over 60% compared to blocking remote inference. Furthermore, SPO discards approximately 60% fewer cloud predictions than static caching baselines. Ultimately, SPO enables fluid, real-time cloud-robotic control while maintaining bounded physical safety.",
+      "category": [
+        {
+          "@_term": "cs.RO",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "cs.DC",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-19T19:24:14Z",
+      "arxiv:comment": "9 pages, 7 figures, conference submission",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Chanh Nguyen"
+        },
+        {
+          "name": "Shutong Jin"
+        },
+        {
+          "name": "Florian T. Pokorny"
+        },
+        {
+          "name": "Erik Elmroth"
+        }
+      ]
+    },
+    "slug": "speculative-policy-orchestration-a-latency-resilient-framework-for-cloud-robotic",
+    "dedupeKey": "9e461f4f2746160bede85bd5514c154addea0b6318923e55bd2ba6aa6a1cc7b0",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
     "externalId": "sample-humanoid-policy",
     "title": "Humanoid Policy Learning Stack Reaches Sim-to-Real Milestone",
     "summary": "This update highlights a humanoid training stack that combines large-scale simulation, policy distillation, and dexterous control.",
@@ -6440,6 +8828,230 @@
     "createdAt": "2026-03-19T18:23:50.495Z",
     "isFeatured": false,
     "sourceCount": 1
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19384v1",
+    "title": "SOFTMAP: Sim2Real Soft Robot Forward Modeling via Topological Mesh Alignment and Physics Prior",
+    "summary": "While soft robot manipulators offer compelling advantages over rigid counterparts, including inherent compliance, safe human-robot interaction, and the ability to conform to complex geometries, accurate forward modeling from low-dimensional actuation commands remains an open challenge due to nonlinear material phenomena such as hysteresis and manufacturing variability. We present SOFTMAP, a sim-to-real learning framework for real-time 3D forward modeling of tendon-actuated soft finger manipulators. SOFTMAP combines four components: (1) As-Rigid-As-Possible (ARAP)-based topological alignment that projects simulated and real point clouds into a shared, topologically consistent vertex space; (2) a lightweight MLP forward model pretrained on simulation data to map servo commands to full 3D finger geometry; (3) a residual correction network trained on a small set of real observations to predict per-vertex displacement fields that compensate for sim-to-real discrepancies; and (4) a closed-form linear actuation calibration layer enabling real-time inference at 30 FPS. We evaluate SOFTMAP on both simulated and physical hardware, achieving state-of-the-art shape prediction accuracy with a Chamfer distance of 0.389 mm in simulation and 3.786 mm on hardware, millimeter-level fingertip trajectory tracking across multiple target paths, and a 36.5% improvement in teleoperation task success over the baseline. Our results show that SOFTMAP provides a data-efficient approach for 3D forward modeling and control of soft manipulators.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-19T18:21:44Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19384v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19384v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Ziyong Ma",
+      "Uksang Yoo",
+      "Jonathan Francis",
+      "Weiming Zhi",
+      "Jeffrey Ichnowski",
+      "Jean Oh"
+    ],
+    "category": "paper",
+    "keywords": [
+      "sim2real"
+    ],
+    "tags": [
+      "仿真训练"
+    ],
+    "relevanceScore": 0.49,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19384v1",
+      "title": "SOFTMAP: Sim2Real Soft Robot Forward Modeling via Topological Mesh Alignment and Physics Prior",
+      "updated": "2026-03-19T18:21:44Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19384v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19384v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "While soft robot manipulators offer compelling advantages over rigid counterparts, including inherent compliance, safe human-robot interaction, and the ability to conform to complex geometries, accurate forward modeling from low-dimensional actuation commands remains an open challenge due to nonlinear material phenomena such as hysteresis and manufacturing variability. We present SOFTMAP, a sim-to-real learning framework for real-time 3D forward modeling of tendon-actuated soft finger manipulators. SOFTMAP combines four components: (1) As-Rigid-As-Possible (ARAP)-based topological alignment that projects simulated and real point clouds into a shared, topologically consistent vertex space; (2) a lightweight MLP forward model pretrained on simulation data to map servo commands to full 3D finger geometry; (3) a residual correction network trained on a small set of real observations to predict per-vertex displacement fields that compensate for sim-to-real discrepancies; and (4) a closed-form linear actuation calibration layer enabling real-time inference at 30 FPS. We evaluate SOFTMAP on both simulated and physical hardware, achieving state-of-the-art shape prediction accuracy with a Chamfer distance of 0.389 mm in simulation and 3.786 mm on hardware, millimeter-level fingertip trajectory tracking across multiple target paths, and a 36.5% improvement in teleoperation task success over the baseline. Our results show that SOFTMAP provides a data-efficient approach for 3D forward modeling and control of soft manipulators.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-19T18:21:44Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Ziyong Ma"
+        },
+        {
+          "name": "Uksang Yoo"
+        },
+        {
+          "name": "Jonathan Francis"
+        },
+        {
+          "name": "Weiming Zhi"
+        },
+        {
+          "name": "Jeffrey Ichnowski"
+        },
+        {
+          "name": "Jean Oh"
+        }
+      ]
+    },
+    "slug": "softmap-sim2real-soft-robot-forward-modeling-via-topological-mesh-alignment-and-",
+    "dedupeKey": "39d5bb2ac4f7cce77ab4d18ba74069223a2f8b28b0c8b38b753865dd988a4c02",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19370v1",
+    "title": "VAMPO: Policy Optimization for Improving Visual Dynamics in Video Action Models",
+    "summary": "Video action models are an appealing foundation for Vision--Language--Action systems because they can learn visual dynamics from large-scale video data and transfer this knowledge to downstream robot control. Yet current diffusion-based video predictors are trained with likelihood-surrogate objectives, which encourage globally plausible predictions without explicitly optimizing the precision-critical visual dynamics needed for manipulation. This objective mismatch often leads to subtle errors in object pose, spatial relations, and contact timing that can be amplified by downstream policies. We propose VAMPO, a post-training framework that directly improves visual dynamics in video action models through policy optimization. Our key idea is to formulate multi-step denoising as a sequential decision process and optimize the denoising policy with rewards defined over expert visual dynamics in latent space. To make this optimization practical, we introduce an Euler Hybrid sampler that injects stochasticity only at the first denoising step, enabling tractable low-variance policy-gradient estimation while preserving the coherence of the remaining denoising trajectory. We further combine this design with GRPO and a verifiable non-adversarial reward. Across diverse simulated and real-world manipulation tasks, VAMPO improves task-relevant visual dynamics, leading to better downstream action generation and stronger generalization. The homepage is https://vampo-robot.github.io/VAMPO/.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-19T18:04:03Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19370v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19370v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Zirui Ge",
+      "Pengxiang Ding",
+      "Baohua Yin",
+      "Qishen Wang",
+      "Zhiyong Xie",
+      "Yemin Wang",
+      "Jinbo Wang",
+      "Hengtao Li",
+      "Runze Suo",
+      "Wenxuan Song",
+      "Han Zhao",
+      "Shangke Lyu",
+      "Zhaoxin Fan",
+      "Haoang Li",
+      "Ran Cheng",
+      "Cheng Chi",
+      "Huibin Ge",
+      "Yaozhi Luo",
+      "Donglin Wang"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation"
+    ],
+    "tags": [
+      "机器人学习",
+      "机械臂操作",
+      "开源发布"
+    ],
+    "relevanceScore": 0.57,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19370v1",
+      "title": "VAMPO: Policy Optimization for Improving Visual Dynamics in Video Action Models",
+      "updated": "2026-03-19T18:04:03Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19370v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19370v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Video action models are an appealing foundation for Vision--Language--Action systems because they can learn visual dynamics from large-scale video data and transfer this knowledge to downstream robot control. Yet current diffusion-based video predictors are trained with likelihood-surrogate objectives, which encourage globally plausible predictions without explicitly optimizing the precision-critical visual dynamics needed for manipulation. This objective mismatch often leads to subtle errors in object pose, spatial relations, and contact timing that can be amplified by downstream policies. We propose VAMPO, a post-training framework that directly improves visual dynamics in video action models through policy optimization. Our key idea is to formulate multi-step denoising as a sequential decision process and optimize the denoising policy with rewards defined over expert visual dynamics in latent space. To make this optimization practical, we introduce an Euler Hybrid sampler that injects stochasticity only at the first denoising step, enabling tractable low-variance policy-gradient estimation while preserving the coherence of the remaining denoising trajectory. We further combine this design with GRPO and a verifiable non-adversarial reward. Across diverse simulated and real-world manipulation tasks, VAMPO improves task-relevant visual dynamics, leading to better downstream action generation and stronger generalization. The homepage is https://vampo-robot.github.io/VAMPO/.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-19T18:04:03Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Zirui Ge"
+        },
+        {
+          "name": "Pengxiang Ding"
+        },
+        {
+          "name": "Baohua Yin"
+        },
+        {
+          "name": "Qishen Wang"
+        },
+        {
+          "name": "Zhiyong Xie"
+        },
+        {
+          "name": "Yemin Wang"
+        },
+        {
+          "name": "Jinbo Wang"
+        },
+        {
+          "name": "Hengtao Li"
+        },
+        {
+          "name": "Runze Suo"
+        },
+        {
+          "name": "Wenxuan Song"
+        },
+        {
+          "name": "Han Zhao"
+        },
+        {
+          "name": "Shangke Lyu"
+        },
+        {
+          "name": "Zhaoxin Fan"
+        },
+        {
+          "name": "Haoang Li"
+        },
+        {
+          "name": "Ran Cheng"
+        },
+        {
+          "name": "Cheng Chi"
+        },
+        {
+          "name": "Huibin Ge"
+        },
+        {
+          "name": "Yaozhi Luo"
+        },
+        {
+          "name": "Donglin Wang"
+        }
+      ]
+    },
+    "slug": "vampo-policy-optimization-for-improving-visual-dynamics-in-video-action-models",
+    "dedupeKey": "93ebce52a375c514c5ba4b101dcc3ba01c50526310f1cd5e1f9441f199918eed",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19233v1",

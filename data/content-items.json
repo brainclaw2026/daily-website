@@ -1,5 +1,2582 @@
 [
   {
+    "externalId": "1189246624",
+    "title": "ZoreAnuj/ur5-pickplace-sac",
+    "summary": "A custom PyBullet environment for UR5 pick-and-place task. Trained using the SAC algorithm from Stable-Baselines3 for continuous control and robotic manipulation.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:56:28Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/ZoreAnuj/ur5-pickplace-sac",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/ZoreAnuj/ur5-pickplace-sac",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "ZoreAnuj"
+    ],
+    "category": "code",
+    "keywords": [
+      "manipulation"
+    ],
+    "tags": [
+      "机械臂操作"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189246624,
+      "node_id": "R_kgDORuJ2oA",
+      "name": "ur5-pickplace-sac",
+      "full_name": "ZoreAnuj/ur5-pickplace-sac",
+      "private": false,
+      "owner": {
+        "login": "ZoreAnuj",
+        "id": 95142805,
+        "node_id": "U_kgDOBavDlQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95142805?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZoreAnuj",
+        "html_url": "https://github.com/ZoreAnuj",
+        "followers_url": "https://api.github.com/users/ZoreAnuj/followers",
+        "following_url": "https://api.github.com/users/ZoreAnuj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZoreAnuj/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZoreAnuj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZoreAnuj/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZoreAnuj/orgs",
+        "repos_url": "https://api.github.com/users/ZoreAnuj/repos",
+        "events_url": "https://api.github.com/users/ZoreAnuj/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZoreAnuj/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/ZoreAnuj/ur5-pickplace-sac",
+      "description": "A custom PyBullet environment for UR5 pick-and-place task. Trained using the SAC algorithm from Stable-Baselines3 for continuous control and robotic manipulation.",
+      "fork": false,
+      "url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac",
+      "forks_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/forks",
+      "keys_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/teams",
+      "hooks_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/hooks",
+      "issue_events_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/events",
+      "assignees_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/tags",
+      "blobs_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/languages",
+      "stargazers_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/stargazers",
+      "contributors_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/contributors",
+      "subscribers_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/subscribers",
+      "subscription_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/subscription",
+      "commits_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/merges",
+      "archive_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/downloads",
+      "issues_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/labels{/name}",
+      "releases_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/ZoreAnuj/ur5-pickplace-sac/deployments",
+      "created_at": "2026-03-23T05:55:09Z",
+      "updated_at": "2026-03-23T05:56:28Z",
+      "pushed_at": "2026-03-23T05:56:24Z",
+      "git_url": "git://github.com/ZoreAnuj/ur5-pickplace-sac.git",
+      "ssh_url": "git@github.com:ZoreAnuj/ur5-pickplace-sac.git",
+      "clone_url": "https://github.com/ZoreAnuj/ur5-pickplace-sac.git",
+      "svn_url": "https://github.com/ZoreAnuj/ur5-pickplace-sac",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "zoreanujur5-pickplace-sac",
+    "dedupeKey": "445037f382d2cffef8a6860423a01cb065593fd03d61e2d58952231d4fcb6f5b",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "continuallearning/dit_posttrainv2_union_norm_largerlr_seqfft_real_2_put_moka_pot_filtered_seed1000",
+    "title": "continuallearning/dit_posttrainv2_union_norm_largerlr_seqfft_real_2_put_moka_pot_filtered_seed1000",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:56:14.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/continuallearning/dit_posttrainv2_union_norm_largerlr_seqfft_real_2_put_moka_pot_filtered_seed1000",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/continuallearning/dit_posttrainv2_union_norm_largerlr_seqfft_real_2_put_moka_pot_filtered_seed1000",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "dit",
+      "robotics",
+      "dataset:continuallearning/real_2_put_moka_pot_filtered",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c0d5e48ef670b5bf6d611b",
+      "id": "continuallearning/dit_posttrainv2_union_norm_largerlr_seqfft_real_2_put_moka_pot_filtered_seed1000",
+      "author": "continuallearning",
+      "gated": false,
+      "lastModified": "2026-03-23T05:56:14.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "e97c68a19e4fb3e0fb144f4dcba021f637ec8959",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "dit",
+        "robotics",
+        "dataset:continuallearning/real_2_put_moka_pot_filtered",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-23T05:55:48.000Z",
+      "modelId": "continuallearning/dit_posttrainv2_union_norm_largerlr_seqfft_real_2_put_moka_pot_filtered_seed1000",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "continuallearningditposttrainv2unionnormlargerlrseqfftreal2putmokapotfilteredsee",
+    "dedupeKey": "15183e7486bd6c32753f51a65c806658867742c96dcc85f09601a95437279673",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "1189207539",
+    "title": "ZoreAnuj/autonomous-locomotion-rl",
+    "summary": "Open-source research platform for dinosaur biomechanics and robotic locomotion using reinforcement learning. MuJoCo-based Gymnasium environments with curriculum learning, W&B experiment tracking, and ",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:56:13Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/ZoreAnuj/autonomous-locomotion-rl",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/ZoreAnuj/autonomous-locomotion-rl",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "ZoreAnuj"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "开源发布"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189207539,
+      "node_id": "R_kgDORuHd8w",
+      "name": "autonomous-locomotion-rl",
+      "full_name": "ZoreAnuj/autonomous-locomotion-rl",
+      "private": false,
+      "owner": {
+        "login": "ZoreAnuj",
+        "id": 95142805,
+        "node_id": "U_kgDOBavDlQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95142805?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZoreAnuj",
+        "html_url": "https://github.com/ZoreAnuj",
+        "followers_url": "https://api.github.com/users/ZoreAnuj/followers",
+        "following_url": "https://api.github.com/users/ZoreAnuj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZoreAnuj/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZoreAnuj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZoreAnuj/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZoreAnuj/orgs",
+        "repos_url": "https://api.github.com/users/ZoreAnuj/repos",
+        "events_url": "https://api.github.com/users/ZoreAnuj/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZoreAnuj/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/ZoreAnuj/autonomous-locomotion-rl",
+      "description": "Open-source research platform for dinosaur biomechanics and robotic locomotion using reinforcement learning. MuJoCo-based Gymnasium environments with curriculum learning, W&B experiment tracking, and ",
+      "fork": false,
+      "url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl",
+      "forks_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/forks",
+      "keys_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/teams",
+      "hooks_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/hooks",
+      "issue_events_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/events",
+      "assignees_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/tags",
+      "blobs_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/languages",
+      "stargazers_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/stargazers",
+      "contributors_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/contributors",
+      "subscribers_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/subscribers",
+      "subscription_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/subscription",
+      "commits_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/merges",
+      "archive_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/downloads",
+      "issues_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/labels{/name}",
+      "releases_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/ZoreAnuj/autonomous-locomotion-rl/deployments",
+      "created_at": "2026-03-23T04:48:38Z",
+      "updated_at": "2026-03-23T05:56:13Z",
+      "pushed_at": "2026-03-23T05:56:10Z",
+      "git_url": "git://github.com/ZoreAnuj/autonomous-locomotion-rl.git",
+      "ssh_url": "git@github.com:ZoreAnuj/autonomous-locomotion-rl.git",
+      "clone_url": "https://github.com/ZoreAnuj/autonomous-locomotion-rl.git",
+      "svn_url": "https://github.com/ZoreAnuj/autonomous-locomotion-rl",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "zoreanujautonomous-locomotion-rl",
+    "dedupeKey": "8cdd0039536ba981d4b993c0e23f316740760d4c16ff04793a589d17daf607c1",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1189246607",
+    "title": "ZoreAnuj/SurgicalGym",
+    "summary": "High-performance GPU-based simulation platform for reinforcement learning with surgical robot learning",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:56:13Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/ZoreAnuj/SurgicalGym",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/ZoreAnuj/SurgicalGym",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "ZoreAnuj"
+    ],
+    "category": "code",
+    "keywords": [
+      "robot learning"
+    ],
+    "tags": [
+      "机器人学习",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189246607,
+      "node_id": "R_kgDORuJ2jw",
+      "name": "SurgicalGym",
+      "full_name": "ZoreAnuj/SurgicalGym",
+      "private": false,
+      "owner": {
+        "login": "ZoreAnuj",
+        "id": 95142805,
+        "node_id": "U_kgDOBavDlQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95142805?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZoreAnuj",
+        "html_url": "https://github.com/ZoreAnuj",
+        "followers_url": "https://api.github.com/users/ZoreAnuj/followers",
+        "following_url": "https://api.github.com/users/ZoreAnuj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZoreAnuj/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZoreAnuj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZoreAnuj/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZoreAnuj/orgs",
+        "repos_url": "https://api.github.com/users/ZoreAnuj/repos",
+        "events_url": "https://api.github.com/users/ZoreAnuj/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZoreAnuj/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/ZoreAnuj/SurgicalGym",
+      "description": "High-performance GPU-based simulation platform for reinforcement learning with surgical robot learning",
+      "fork": false,
+      "url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym",
+      "forks_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/forks",
+      "keys_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/teams",
+      "hooks_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/hooks",
+      "issue_events_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/events",
+      "assignees_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/tags",
+      "blobs_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/languages",
+      "stargazers_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/stargazers",
+      "contributors_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/contributors",
+      "subscribers_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/subscribers",
+      "subscription_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/subscription",
+      "commits_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/merges",
+      "archive_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/downloads",
+      "issues_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/labels{/name}",
+      "releases_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/ZoreAnuj/SurgicalGym/deployments",
+      "created_at": "2026-03-23T05:55:08Z",
+      "updated_at": "2026-03-23T05:56:13Z",
+      "pushed_at": "2026-03-23T05:56:10Z",
+      "git_url": "git://github.com/ZoreAnuj/SurgicalGym.git",
+      "ssh_url": "git@github.com:ZoreAnuj/SurgicalGym.git",
+      "clone_url": "https://github.com/ZoreAnuj/SurgicalGym.git",
+      "svn_url": "https://github.com/ZoreAnuj/SurgicalGym",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "zoreanujsurgicalgym",
+    "dedupeKey": "ee21e86d2abd776b9f649e032fc52be02466b4a4d3d95370ab9225f8d5578a7c",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1104804402",
+    "title": "Dicklesworthstone/beads_viewer",
+    "summary": "Graph-aware TUI for the Beads issue tracker: PageRank, critical path, kanban, dependency DAG visualization, and robot-mode JSON API",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:56:13Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Dicklesworthstone/beads_viewer",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Dicklesworthstone/beads_viewer",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Dicklesworthstone"
+    ],
+    "category": "code",
+    "keywords": [
+      "developer-tools",
+      "go",
+      "graph-analysis",
+      "issue-tracker",
+      "tui"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.8500000000000001,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1104804402,
+      "node_id": "R_kgDOQdn6Mg",
+      "name": "beads_viewer",
+      "full_name": "Dicklesworthstone/beads_viewer",
+      "private": false,
+      "owner": {
+        "login": "Dicklesworthstone",
+        "id": 35050222,
+        "node_id": "MDQ6VXNlcjM1MDUwMjIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Dicklesworthstone",
+        "html_url": "https://github.com/Dicklesworthstone",
+        "followers_url": "https://api.github.com/users/Dicklesworthstone/followers",
+        "following_url": "https://api.github.com/users/Dicklesworthstone/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Dicklesworthstone/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Dicklesworthstone/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Dicklesworthstone/subscriptions",
+        "organizations_url": "https://api.github.com/users/Dicklesworthstone/orgs",
+        "repos_url": "https://api.github.com/users/Dicklesworthstone/repos",
+        "events_url": "https://api.github.com/users/Dicklesworthstone/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Dicklesworthstone/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Dicklesworthstone/beads_viewer",
+      "description": "Graph-aware TUI for the Beads issue tracker: PageRank, critical path, kanban, dependency DAG visualization, and robot-mode JSON API",
+      "fork": false,
+      "url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer",
+      "forks_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/forks",
+      "keys_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/teams",
+      "hooks_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/hooks",
+      "issue_events_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/events",
+      "assignees_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/tags",
+      "blobs_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/languages",
+      "stargazers_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/stargazers",
+      "contributors_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/contributors",
+      "subscribers_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/subscribers",
+      "subscription_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/subscription",
+      "commits_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/merges",
+      "archive_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/downloads",
+      "issues_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Dicklesworthstone/beads_viewer/deployments",
+      "created_at": "2025-11-26T17:59:09Z",
+      "updated_at": "2026-03-23T05:56:13Z",
+      "pushed_at": "2026-03-23T05:56:10Z",
+      "git_url": "git://github.com/Dicklesworthstone/beads_viewer.git",
+      "ssh_url": "git@github.com:Dicklesworthstone/beads_viewer.git",
+      "clone_url": "https://github.com/Dicklesworthstone/beads_viewer.git",
+      "svn_url": "https://github.com/Dicklesworthstone/beads_viewer",
+      "homepage": null,
+      "size": 191178,
+      "stargazers_count": 1413,
+      "watchers_count": 1413,
+      "language": "Go",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 114,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "developer-tools",
+        "go",
+        "graph-analysis",
+        "issue-tracker",
+        "tui"
+      ],
+      "visibility": "public",
+      "forks": 114,
+      "open_issues": 0,
+      "watchers": 1413,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "dicklesworthstonebeadsviewer",
+    "dedupeKey": "39b1526f0ee593a6b9c77cbea80de4d0cc5143bb899ec15d7c99817251e9df65",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1189211625",
+    "title": "ZoreAnuj/robotis_lab",
+    "summary": "This repository provides tutorials for reinforcement learning and imitation learning using ROBOTIS robots, and supports Sim2Real functionality for deploying the learned policies on real robots.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:55:56Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/ZoreAnuj/robotis_lab",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/ZoreAnuj/robotis_lab",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "ZoreAnuj"
+    ],
+    "category": "code",
+    "keywords": [
+      "imitation learning",
+      "sim2real"
+    ],
+    "tags": [
+      "模仿学习",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189211625,
+      "node_id": "R_kgDORuHt6Q",
+      "name": "robotis_lab",
+      "full_name": "ZoreAnuj/robotis_lab",
+      "private": false,
+      "owner": {
+        "login": "ZoreAnuj",
+        "id": 95142805,
+        "node_id": "U_kgDOBavDlQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95142805?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZoreAnuj",
+        "html_url": "https://github.com/ZoreAnuj",
+        "followers_url": "https://api.github.com/users/ZoreAnuj/followers",
+        "following_url": "https://api.github.com/users/ZoreAnuj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZoreAnuj/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZoreAnuj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZoreAnuj/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZoreAnuj/orgs",
+        "repos_url": "https://api.github.com/users/ZoreAnuj/repos",
+        "events_url": "https://api.github.com/users/ZoreAnuj/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZoreAnuj/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/ZoreAnuj/robotis_lab",
+      "description": "This repository provides tutorials for reinforcement learning and imitation learning using ROBOTIS robots, and supports Sim2Real functionality for deploying the learned policies on real robots.",
+      "fork": false,
+      "url": "https://api.github.com/repos/ZoreAnuj/robotis_lab",
+      "forks_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/forks",
+      "keys_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/teams",
+      "hooks_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/hooks",
+      "issue_events_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/events",
+      "assignees_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/tags",
+      "blobs_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/languages",
+      "stargazers_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/stargazers",
+      "contributors_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/contributors",
+      "subscribers_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/subscribers",
+      "subscription_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/subscription",
+      "commits_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/merges",
+      "archive_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/downloads",
+      "issues_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/labels{/name}",
+      "releases_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/ZoreAnuj/robotis_lab/deployments",
+      "created_at": "2026-03-23T04:55:51Z",
+      "updated_at": "2026-03-23T05:55:56Z",
+      "pushed_at": "2026-03-23T05:55:53Z",
+      "git_url": "git://github.com/ZoreAnuj/robotis_lab.git",
+      "ssh_url": "git@github.com:ZoreAnuj/robotis_lab.git",
+      "clone_url": "https://github.com/ZoreAnuj/robotis_lab.git",
+      "svn_url": "https://github.com/ZoreAnuj/robotis_lab",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "zoreanujrobotislab",
+    "dedupeKey": "52c78e14e32da26b3942d2ae04d4bbc3786a10d9736c06ac80385c9d44a92611",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1179642529",
+    "title": "phsnt16-coder/robotarm",
+    "summary": "2026 융합종합설계",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:55:39Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/phsnt16-coder/robotarm",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/phsnt16-coder/robotarm",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "phsnt16-coder"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1179642529,
+      "node_id": "R_kgDORk_qoQ",
+      "name": "robotarm",
+      "full_name": "phsnt16-coder/robotarm",
+      "private": false,
+      "owner": {
+        "login": "phsnt16-coder",
+        "id": 226063627,
+        "node_id": "U_kgDODXl1Cw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/226063627?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/phsnt16-coder",
+        "html_url": "https://github.com/phsnt16-coder",
+        "followers_url": "https://api.github.com/users/phsnt16-coder/followers",
+        "following_url": "https://api.github.com/users/phsnt16-coder/following{/other_user}",
+        "gists_url": "https://api.github.com/users/phsnt16-coder/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/phsnt16-coder/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/phsnt16-coder/subscriptions",
+        "organizations_url": "https://api.github.com/users/phsnt16-coder/orgs",
+        "repos_url": "https://api.github.com/users/phsnt16-coder/repos",
+        "events_url": "https://api.github.com/users/phsnt16-coder/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/phsnt16-coder/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/phsnt16-coder/robotarm",
+      "description": "2026 융합종합설계",
+      "fork": false,
+      "url": "https://api.github.com/repos/phsnt16-coder/robotarm",
+      "forks_url": "https://api.github.com/repos/phsnt16-coder/robotarm/forks",
+      "keys_url": "https://api.github.com/repos/phsnt16-coder/robotarm/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/phsnt16-coder/robotarm/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/phsnt16-coder/robotarm/teams",
+      "hooks_url": "https://api.github.com/repos/phsnt16-coder/robotarm/hooks",
+      "issue_events_url": "https://api.github.com/repos/phsnt16-coder/robotarm/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/phsnt16-coder/robotarm/events",
+      "assignees_url": "https://api.github.com/repos/phsnt16-coder/robotarm/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/phsnt16-coder/robotarm/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/phsnt16-coder/robotarm/tags",
+      "blobs_url": "https://api.github.com/repos/phsnt16-coder/robotarm/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/phsnt16-coder/robotarm/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/phsnt16-coder/robotarm/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/phsnt16-coder/robotarm/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/phsnt16-coder/robotarm/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/phsnt16-coder/robotarm/languages",
+      "stargazers_url": "https://api.github.com/repos/phsnt16-coder/robotarm/stargazers",
+      "contributors_url": "https://api.github.com/repos/phsnt16-coder/robotarm/contributors",
+      "subscribers_url": "https://api.github.com/repos/phsnt16-coder/robotarm/subscribers",
+      "subscription_url": "https://api.github.com/repos/phsnt16-coder/robotarm/subscription",
+      "commits_url": "https://api.github.com/repos/phsnt16-coder/robotarm/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/phsnt16-coder/robotarm/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/phsnt16-coder/robotarm/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/phsnt16-coder/robotarm/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/phsnt16-coder/robotarm/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/phsnt16-coder/robotarm/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/phsnt16-coder/robotarm/merges",
+      "archive_url": "https://api.github.com/repos/phsnt16-coder/robotarm/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/phsnt16-coder/robotarm/downloads",
+      "issues_url": "https://api.github.com/repos/phsnt16-coder/robotarm/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/phsnt16-coder/robotarm/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/phsnt16-coder/robotarm/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/phsnt16-coder/robotarm/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/phsnt16-coder/robotarm/labels{/name}",
+      "releases_url": "https://api.github.com/repos/phsnt16-coder/robotarm/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/phsnt16-coder/robotarm/deployments",
+      "created_at": "2026-03-12T08:27:11Z",
+      "updated_at": "2026-03-23T05:55:39Z",
+      "pushed_at": "2026-03-23T05:55:35Z",
+      "git_url": "git://github.com/phsnt16-coder/robotarm.git",
+      "ssh_url": "git@github.com:phsnt16-coder/robotarm.git",
+      "clone_url": "https://github.com/phsnt16-coder/robotarm.git",
+      "svn_url": "https://github.com/phsnt16-coder/robotarm",
+      "homepage": null,
+      "size": 16,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "phsnt16-coderrobotarm",
+    "dedupeKey": "4b2281025515e9b64d31f93cb1339117f829ab82e7bf3d4f3ea519efbd585fcc",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1189243470",
+    "title": "ZoreAnuj/dexterous-manipulation-sim",
+    "summary": "Official code for \"DexRepNet++: Learning Dexterous Robotic Manipulation With Geometric and Spatial Hand-Object Representations\" (T-RO 2026)",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:55:25Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/ZoreAnuj/dexterous-manipulation-sim",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/ZoreAnuj/dexterous-manipulation-sim",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "ZoreAnuj"
+    ],
+    "category": "code",
+    "keywords": [
+      "manipulation",
+      "dexterous"
+    ],
+    "tags": [
+      "机械臂操作"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189243470,
+      "node_id": "R_kgDORuJqTg",
+      "name": "dexterous-manipulation-sim",
+      "full_name": "ZoreAnuj/dexterous-manipulation-sim",
+      "private": false,
+      "owner": {
+        "login": "ZoreAnuj",
+        "id": 95142805,
+        "node_id": "U_kgDOBavDlQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95142805?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZoreAnuj",
+        "html_url": "https://github.com/ZoreAnuj",
+        "followers_url": "https://api.github.com/users/ZoreAnuj/followers",
+        "following_url": "https://api.github.com/users/ZoreAnuj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZoreAnuj/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZoreAnuj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZoreAnuj/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZoreAnuj/orgs",
+        "repos_url": "https://api.github.com/users/ZoreAnuj/repos",
+        "events_url": "https://api.github.com/users/ZoreAnuj/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZoreAnuj/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/ZoreAnuj/dexterous-manipulation-sim",
+      "description": "Official code for \"DexRepNet++: Learning Dexterous Robotic Manipulation With Geometric and Spatial Hand-Object Representations\" (T-RO 2026)",
+      "fork": false,
+      "url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim",
+      "forks_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/forks",
+      "keys_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/teams",
+      "hooks_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/hooks",
+      "issue_events_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/events",
+      "assignees_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/tags",
+      "blobs_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/languages",
+      "stargazers_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/stargazers",
+      "contributors_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/contributors",
+      "subscribers_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/subscribers",
+      "subscription_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/subscription",
+      "commits_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/merges",
+      "archive_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/downloads",
+      "issues_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/labels{/name}",
+      "releases_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/ZoreAnuj/dexterous-manipulation-sim/deployments",
+      "created_at": "2026-03-23T05:49:52Z",
+      "updated_at": "2026-03-23T05:55:25Z",
+      "pushed_at": "2026-03-23T05:55:21Z",
+      "git_url": "git://github.com/ZoreAnuj/dexterous-manipulation-sim.git",
+      "ssh_url": "git@github.com:ZoreAnuj/dexterous-manipulation-sim.git",
+      "clone_url": "https://github.com/ZoreAnuj/dexterous-manipulation-sim.git",
+      "svn_url": "https://github.com/ZoreAnuj/dexterous-manipulation-sim",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "zoreanujdexterous-manipulation-sim",
+    "dedupeKey": "561eb22e1d57745080ddc268d71b3a2ae09cbcbb1c905f25476378661fe900e1",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1189244143",
+    "title": "ZoreAnuj/surgical-robot-simulator",
+    "summary": "High-performance GPU-based simulation platform for reinforcement learning with surgical robot learning",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:55:24Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/ZoreAnuj/surgical-robot-simulator",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/ZoreAnuj/surgical-robot-simulator",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "ZoreAnuj"
+    ],
+    "category": "code",
+    "keywords": [
+      "robot learning"
+    ],
+    "tags": [
+      "机器人学习",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189244143,
+      "node_id": "R_kgDORuJs7w",
+      "name": "surgical-robot-simulator",
+      "full_name": "ZoreAnuj/surgical-robot-simulator",
+      "private": false,
+      "owner": {
+        "login": "ZoreAnuj",
+        "id": 95142805,
+        "node_id": "U_kgDOBavDlQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95142805?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZoreAnuj",
+        "html_url": "https://github.com/ZoreAnuj",
+        "followers_url": "https://api.github.com/users/ZoreAnuj/followers",
+        "following_url": "https://api.github.com/users/ZoreAnuj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZoreAnuj/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZoreAnuj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZoreAnuj/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZoreAnuj/orgs",
+        "repos_url": "https://api.github.com/users/ZoreAnuj/repos",
+        "events_url": "https://api.github.com/users/ZoreAnuj/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZoreAnuj/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/ZoreAnuj/surgical-robot-simulator",
+      "description": "High-performance GPU-based simulation platform for reinforcement learning with surgical robot learning",
+      "fork": false,
+      "url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator",
+      "forks_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/forks",
+      "keys_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/teams",
+      "hooks_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/hooks",
+      "issue_events_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/events",
+      "assignees_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/tags",
+      "blobs_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/languages",
+      "stargazers_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/stargazers",
+      "contributors_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/contributors",
+      "subscribers_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/subscribers",
+      "subscription_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/subscription",
+      "commits_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/merges",
+      "archive_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/downloads",
+      "issues_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/labels{/name}",
+      "releases_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/ZoreAnuj/surgical-robot-simulator/deployments",
+      "created_at": "2026-03-23T05:51:00Z",
+      "updated_at": "2026-03-23T05:55:24Z",
+      "pushed_at": "2026-03-23T05:55:21Z",
+      "git_url": "git://github.com/ZoreAnuj/surgical-robot-simulator.git",
+      "ssh_url": "git@github.com:ZoreAnuj/surgical-robot-simulator.git",
+      "clone_url": "https://github.com/ZoreAnuj/surgical-robot-simulator.git",
+      "svn_url": "https://github.com/ZoreAnuj/surgical-robot-simulator",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "zoreanujsurgical-robot-simulator",
+    "dedupeKey": "7de49ecabd4842077a032d00d86835841522e72eb7c7d875c8b42e8cf2dfea66",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1189246632",
+    "title": "ZoreAnuj/sophus-rs",
+    "summary": "2d and 3d geometry for Computer Vision and Robotics ",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:55:24Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/ZoreAnuj/sophus-rs",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/ZoreAnuj/sophus-rs",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "ZoreAnuj"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189246632,
+      "node_id": "R_kgDORuJ2qA",
+      "name": "sophus-rs",
+      "full_name": "ZoreAnuj/sophus-rs",
+      "private": false,
+      "owner": {
+        "login": "ZoreAnuj",
+        "id": 95142805,
+        "node_id": "U_kgDOBavDlQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95142805?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZoreAnuj",
+        "html_url": "https://github.com/ZoreAnuj",
+        "followers_url": "https://api.github.com/users/ZoreAnuj/followers",
+        "following_url": "https://api.github.com/users/ZoreAnuj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZoreAnuj/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZoreAnuj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZoreAnuj/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZoreAnuj/orgs",
+        "repos_url": "https://api.github.com/users/ZoreAnuj/repos",
+        "events_url": "https://api.github.com/users/ZoreAnuj/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZoreAnuj/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/ZoreAnuj/sophus-rs",
+      "description": "2d and 3d geometry for Computer Vision and Robotics ",
+      "fork": false,
+      "url": "https://api.github.com/repos/ZoreAnuj/sophus-rs",
+      "forks_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/forks",
+      "keys_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/teams",
+      "hooks_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/hooks",
+      "issue_events_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/events",
+      "assignees_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/tags",
+      "blobs_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/languages",
+      "stargazers_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/stargazers",
+      "contributors_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/contributors",
+      "subscribers_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/subscribers",
+      "subscription_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/subscription",
+      "commits_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/merges",
+      "archive_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/downloads",
+      "issues_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/labels{/name}",
+      "releases_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/ZoreAnuj/sophus-rs/deployments",
+      "created_at": "2026-03-23T05:55:09Z",
+      "updated_at": "2026-03-23T05:55:24Z",
+      "pushed_at": "2026-03-23T05:55:20Z",
+      "git_url": "git://github.com/ZoreAnuj/sophus-rs.git",
+      "ssh_url": "git@github.com:ZoreAnuj/sophus-rs.git",
+      "clone_url": "https://github.com/ZoreAnuj/sophus-rs.git",
+      "svn_url": "https://github.com/ZoreAnuj/sophus-rs",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Rust",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "zoreanujsophus-rs",
+    "dedupeKey": "1503b850c43ab68c6537e07e5667a0e4e64da4055fbef36d6645c452c3a9231c",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "899857580",
+    "title": "aldidan/asimov-v0",
+    "summary": "🤖 Build advanced bipedal legs for humanoid robots using off-the-shelf components, designed for low-volume manufacturing and high mobility.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:55:08Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/aldidan/asimov-v0",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/aldidan/asimov-v0",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "aldidan"
+    ],
+    "category": "code",
+    "keywords": [
+      "asimov",
+      "audiobooks",
+      "compiler",
+      "earth",
+      "fiction",
+      "homebrew",
+      "humanoid",
+      "humanoid-robots",
+      "humanoid-walking",
+      "isaac",
+      "itch",
+      "listen",
+      "macos",
+      "programming-language",
+      "read",
+      "sci-fi",
+      "science",
+      "strategy-game",
+      "text-editor",
+      "time-machine"
+    ],
+    "tags": [
+      "人形机器人"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 899857580,
+      "node_id": "R_kgDONaK8rA",
+      "name": "asimov-v0",
+      "full_name": "aldidan/asimov-v0",
+      "private": false,
+      "owner": {
+        "login": "aldidan",
+        "id": 178147524,
+        "node_id": "U_kgDOCp5QxA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/178147524?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/aldidan",
+        "html_url": "https://github.com/aldidan",
+        "followers_url": "https://api.github.com/users/aldidan/followers",
+        "following_url": "https://api.github.com/users/aldidan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/aldidan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/aldidan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/aldidan/subscriptions",
+        "organizations_url": "https://api.github.com/users/aldidan/orgs",
+        "repos_url": "https://api.github.com/users/aldidan/repos",
+        "events_url": "https://api.github.com/users/aldidan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/aldidan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/aldidan/asimov-v0",
+      "description": "🤖 Build advanced bipedal legs for humanoid robots using off-the-shelf components, designed for low-volume manufacturing and high mobility.",
+      "fork": false,
+      "url": "https://api.github.com/repos/aldidan/asimov-v0",
+      "forks_url": "https://api.github.com/repos/aldidan/asimov-v0/forks",
+      "keys_url": "https://api.github.com/repos/aldidan/asimov-v0/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/aldidan/asimov-v0/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/aldidan/asimov-v0/teams",
+      "hooks_url": "https://api.github.com/repos/aldidan/asimov-v0/hooks",
+      "issue_events_url": "https://api.github.com/repos/aldidan/asimov-v0/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/aldidan/asimov-v0/events",
+      "assignees_url": "https://api.github.com/repos/aldidan/asimov-v0/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/aldidan/asimov-v0/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/aldidan/asimov-v0/tags",
+      "blobs_url": "https://api.github.com/repos/aldidan/asimov-v0/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/aldidan/asimov-v0/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/aldidan/asimov-v0/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/aldidan/asimov-v0/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/aldidan/asimov-v0/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/aldidan/asimov-v0/languages",
+      "stargazers_url": "https://api.github.com/repos/aldidan/asimov-v0/stargazers",
+      "contributors_url": "https://api.github.com/repos/aldidan/asimov-v0/contributors",
+      "subscribers_url": "https://api.github.com/repos/aldidan/asimov-v0/subscribers",
+      "subscription_url": "https://api.github.com/repos/aldidan/asimov-v0/subscription",
+      "commits_url": "https://api.github.com/repos/aldidan/asimov-v0/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/aldidan/asimov-v0/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/aldidan/asimov-v0/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/aldidan/asimov-v0/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/aldidan/asimov-v0/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/aldidan/asimov-v0/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/aldidan/asimov-v0/merges",
+      "archive_url": "https://api.github.com/repos/aldidan/asimov-v0/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/aldidan/asimov-v0/downloads",
+      "issues_url": "https://api.github.com/repos/aldidan/asimov-v0/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/aldidan/asimov-v0/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/aldidan/asimov-v0/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/aldidan/asimov-v0/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/aldidan/asimov-v0/labels{/name}",
+      "releases_url": "https://api.github.com/repos/aldidan/asimov-v0/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/aldidan/asimov-v0/deployments",
+      "created_at": "2024-12-07T07:40:41Z",
+      "updated_at": "2026-03-23T05:55:08Z",
+      "pushed_at": "2026-03-23T05:55:04Z",
+      "git_url": "git://github.com/aldidan/asimov-v0.git",
+      "ssh_url": "git@github.com:aldidan/asimov-v0.git",
+      "clone_url": "https://github.com/aldidan/asimov-v0.git",
+      "svn_url": "https://github.com/aldidan/asimov-v0",
+      "homepage": "https://aldidan.github.io",
+      "size": 20408,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "cern-ohl-s-2.0",
+        "name": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
+        "spdx_id": "CERN-OHL-S-2.0",
+        "url": "https://api.github.com/licenses/cern-ohl-s-2.0",
+        "node_id": "L_kgCuY2Vybi1vaGwtcy0yLjA"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "asimov",
+        "audiobooks",
+        "compiler",
+        "earth",
+        "fiction",
+        "homebrew",
+        "humanoid",
+        "humanoid-robots",
+        "humanoid-walking",
+        "isaac",
+        "itch",
+        "listen",
+        "macos",
+        "programming-language",
+        "read",
+        "sci-fi",
+        "science",
+        "strategy-game",
+        "text-editor",
+        "time-machine"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "aldidanasimov-v0",
+    "dedupeKey": "90d76926a4b597ea7a18821fdbe71f9f4435458a7e7479850efa31c0bae5e59e",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "445477262",
+    "title": "erlep/ppBB",
+    "summary": "Python Project Benzin Brno - Python & Streamlit application to monitor petrol prices in Brno city. The web scraping robot runs in the AWS Cloud.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:55:04Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/erlep/ppBB",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/erlep/ppBB",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "erlep"
+    ],
+    "category": "code",
+    "keywords": [
+      "python",
+      "streamlit-webapp"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 445477262,
+      "node_id": "R_kgDOGo1xjg",
+      "name": "ppBB",
+      "full_name": "erlep/ppBB",
+      "private": false,
+      "owner": {
+        "login": "erlep",
+        "id": 13781079,
+        "node_id": "MDQ6VXNlcjEzNzgxMDc5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13781079?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/erlep",
+        "html_url": "https://github.com/erlep",
+        "followers_url": "https://api.github.com/users/erlep/followers",
+        "following_url": "https://api.github.com/users/erlep/following{/other_user}",
+        "gists_url": "https://api.github.com/users/erlep/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/erlep/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/erlep/subscriptions",
+        "organizations_url": "https://api.github.com/users/erlep/orgs",
+        "repos_url": "https://api.github.com/users/erlep/repos",
+        "events_url": "https://api.github.com/users/erlep/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/erlep/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/erlep/ppBB",
+      "description": "Python Project Benzin Brno - Python & Streamlit application to monitor petrol prices in Brno city. The web scraping robot runs in the AWS Cloud.",
+      "fork": false,
+      "url": "https://api.github.com/repos/erlep/ppBB",
+      "forks_url": "https://api.github.com/repos/erlep/ppBB/forks",
+      "keys_url": "https://api.github.com/repos/erlep/ppBB/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/erlep/ppBB/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/erlep/ppBB/teams",
+      "hooks_url": "https://api.github.com/repos/erlep/ppBB/hooks",
+      "issue_events_url": "https://api.github.com/repos/erlep/ppBB/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/erlep/ppBB/events",
+      "assignees_url": "https://api.github.com/repos/erlep/ppBB/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/erlep/ppBB/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/erlep/ppBB/tags",
+      "blobs_url": "https://api.github.com/repos/erlep/ppBB/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/erlep/ppBB/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/erlep/ppBB/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/erlep/ppBB/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/erlep/ppBB/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/erlep/ppBB/languages",
+      "stargazers_url": "https://api.github.com/repos/erlep/ppBB/stargazers",
+      "contributors_url": "https://api.github.com/repos/erlep/ppBB/contributors",
+      "subscribers_url": "https://api.github.com/repos/erlep/ppBB/subscribers",
+      "subscription_url": "https://api.github.com/repos/erlep/ppBB/subscription",
+      "commits_url": "https://api.github.com/repos/erlep/ppBB/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/erlep/ppBB/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/erlep/ppBB/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/erlep/ppBB/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/erlep/ppBB/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/erlep/ppBB/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/erlep/ppBB/merges",
+      "archive_url": "https://api.github.com/repos/erlep/ppBB/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/erlep/ppBB/downloads",
+      "issues_url": "https://api.github.com/repos/erlep/ppBB/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/erlep/ppBB/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/erlep/ppBB/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/erlep/ppBB/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/erlep/ppBB/labels{/name}",
+      "releases_url": "https://api.github.com/repos/erlep/ppBB/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/erlep/ppBB/deployments",
+      "created_at": "2022-01-07T10:07:38Z",
+      "updated_at": "2026-03-23T05:55:04Z",
+      "pushed_at": "2026-03-23T05:55:00Z",
+      "git_url": "git://github.com/erlep/ppBB.git",
+      "ssh_url": "git@github.com:erlep/ppBB.git",
+      "clone_url": "https://github.com/erlep/ppBB.git",
+      "svn_url": "https://github.com/erlep/ppBB",
+      "homepage": "https://erlep.github.io/ppBB",
+      "size": 2285053,
+      "stargazers_count": 6,
+      "watchers_count": 6,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 2,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "python",
+        "streamlit-webapp"
+      ],
+      "visibility": "public",
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 6,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "erlepppbb",
+    "dedupeKey": "99f6e7b452a35d6a88544eeaf46cbce759f432ec6770d5a83db678ecb5334e6f",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1189245314",
+    "title": "Sandesh567/arduino-lab",
+    "summary": "Arduino basic projects and robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:54:57Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Sandesh567/arduino-lab",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Sandesh567/arduino-lab",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Sandesh567"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189245314,
+      "node_id": "R_kgDORuJxgg",
+      "name": "arduino-lab",
+      "full_name": "Sandesh567/arduino-lab",
+      "private": false,
+      "owner": {
+        "login": "Sandesh567",
+        "id": 106328473,
+        "node_id": "U_kgDOBlZxmQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/106328473?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Sandesh567",
+        "html_url": "https://github.com/Sandesh567",
+        "followers_url": "https://api.github.com/users/Sandesh567/followers",
+        "following_url": "https://api.github.com/users/Sandesh567/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Sandesh567/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Sandesh567/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Sandesh567/subscriptions",
+        "organizations_url": "https://api.github.com/users/Sandesh567/orgs",
+        "repos_url": "https://api.github.com/users/Sandesh567/repos",
+        "events_url": "https://api.github.com/users/Sandesh567/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Sandesh567/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Sandesh567/arduino-lab",
+      "description": "Arduino basic projects and robotics.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Sandesh567/arduino-lab",
+      "forks_url": "https://api.github.com/repos/Sandesh567/arduino-lab/forks",
+      "keys_url": "https://api.github.com/repos/Sandesh567/arduino-lab/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Sandesh567/arduino-lab/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Sandesh567/arduino-lab/teams",
+      "hooks_url": "https://api.github.com/repos/Sandesh567/arduino-lab/hooks",
+      "issue_events_url": "https://api.github.com/repos/Sandesh567/arduino-lab/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Sandesh567/arduino-lab/events",
+      "assignees_url": "https://api.github.com/repos/Sandesh567/arduino-lab/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Sandesh567/arduino-lab/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Sandesh567/arduino-lab/tags",
+      "blobs_url": "https://api.github.com/repos/Sandesh567/arduino-lab/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Sandesh567/arduino-lab/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Sandesh567/arduino-lab/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Sandesh567/arduino-lab/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Sandesh567/arduino-lab/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Sandesh567/arduino-lab/languages",
+      "stargazers_url": "https://api.github.com/repos/Sandesh567/arduino-lab/stargazers",
+      "contributors_url": "https://api.github.com/repos/Sandesh567/arduino-lab/contributors",
+      "subscribers_url": "https://api.github.com/repos/Sandesh567/arduino-lab/subscribers",
+      "subscription_url": "https://api.github.com/repos/Sandesh567/arduino-lab/subscription",
+      "commits_url": "https://api.github.com/repos/Sandesh567/arduino-lab/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Sandesh567/arduino-lab/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Sandesh567/arduino-lab/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Sandesh567/arduino-lab/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Sandesh567/arduino-lab/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Sandesh567/arduino-lab/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Sandesh567/arduino-lab/merges",
+      "archive_url": "https://api.github.com/repos/Sandesh567/arduino-lab/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Sandesh567/arduino-lab/downloads",
+      "issues_url": "https://api.github.com/repos/Sandesh567/arduino-lab/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Sandesh567/arduino-lab/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Sandesh567/arduino-lab/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Sandesh567/arduino-lab/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Sandesh567/arduino-lab/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Sandesh567/arduino-lab/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Sandesh567/arduino-lab/deployments",
+      "created_at": "2026-03-23T05:52:55Z",
+      "updated_at": "2026-03-23T05:54:57Z",
+      "pushed_at": "2026-03-23T05:54:53Z",
+      "git_url": "git://github.com/Sandesh567/arduino-lab.git",
+      "ssh_url": "git@github.com:Sandesh567/arduino-lab.git",
+      "clone_url": "https://github.com/Sandesh567/arduino-lab.git",
+      "svn_url": "https://github.com/Sandesh567/arduino-lab",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "C++",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "sandesh567arduino-lab",
+    "dedupeKey": "fb7d5ca76578f51e68a3aa9cace4ef0296d76222e495404ea05feb0c8ec5d254",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1183055959",
+    "title": "solankivasu004/ai-warehouse-routing",
+    "summary": "AI Warehouse Routing System using Weighted A* algorithm with traffic-aware heuristic and adaptive robot path planning.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:54:56Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/solankivasu004/ai-warehouse-routing",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/solankivasu004/ai-warehouse-routing",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "solankivasu004"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1183055959,
+      "node_id": "R_kgDORoQAVw",
+      "name": "ai-warehouse-routing",
+      "full_name": "solankivasu004/ai-warehouse-routing",
+      "private": false,
+      "owner": {
+        "login": "solankivasu004",
+        "id": 181324505,
+        "node_id": "U_kgDOCs7K2Q",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181324505?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/solankivasu004",
+        "html_url": "https://github.com/solankivasu004",
+        "followers_url": "https://api.github.com/users/solankivasu004/followers",
+        "following_url": "https://api.github.com/users/solankivasu004/following{/other_user}",
+        "gists_url": "https://api.github.com/users/solankivasu004/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/solankivasu004/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/solankivasu004/subscriptions",
+        "organizations_url": "https://api.github.com/users/solankivasu004/orgs",
+        "repos_url": "https://api.github.com/users/solankivasu004/repos",
+        "events_url": "https://api.github.com/users/solankivasu004/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/solankivasu004/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/solankivasu004/ai-warehouse-routing",
+      "description": "AI Warehouse Routing System using Weighted A* algorithm with traffic-aware heuristic and adaptive robot path planning.",
+      "fork": false,
+      "url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing",
+      "forks_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/forks",
+      "keys_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/teams",
+      "hooks_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/hooks",
+      "issue_events_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/events",
+      "assignees_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/tags",
+      "blobs_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/languages",
+      "stargazers_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/stargazers",
+      "contributors_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/contributors",
+      "subscribers_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/subscribers",
+      "subscription_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/subscription",
+      "commits_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/merges",
+      "archive_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/downloads",
+      "issues_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/labels{/name}",
+      "releases_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/solankivasu004/ai-warehouse-routing/deployments",
+      "created_at": "2026-03-16T08:22:59Z",
+      "updated_at": "2026-03-23T05:54:56Z",
+      "pushed_at": "2026-03-23T05:54:53Z",
+      "git_url": "git://github.com/solankivasu004/ai-warehouse-routing.git",
+      "ssh_url": "git@github.com:solankivasu004/ai-warehouse-routing.git",
+      "clone_url": "https://github.com/solankivasu004/ai-warehouse-routing.git",
+      "svn_url": "https://github.com/solankivasu004/ai-warehouse-routing",
+      "homepage": null,
+      "size": 30,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "solankivasu004ai-warehouse-routing",
+    "dedupeKey": "ada708ca350ea50276c6aadec3ea8c8e915435c209088948236de59fd69789de",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "943395828",
+    "title": "open-edge-platform/edge-ai-suites",
+    "summary": "Curated collections of sample applications designed to help you develop optimized AI solutions. Tailored to specific use cases, covering retail, manufacturing, metro, and media & entertainment.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:54:55Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/open-edge-platform/edge-ai-suites",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/open-edge-platform/edge-ai-suites",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "open-edge-platform"
+    ],
+    "category": "code",
+    "keywords": [
+      "manufacturing-ai-suite",
+      "media-and-entertainment-ai-suite",
+      "metro-ai-suite",
+      "retail-ai-suite",
+      "robotics-ai-suite"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 943395828,
+      "node_id": "R_kgDOODsT9A",
+      "name": "edge-ai-suites",
+      "full_name": "open-edge-platform/edge-ai-suites",
+      "private": false,
+      "owner": {
+        "login": "open-edge-platform",
+        "id": 198827667,
+        "node_id": "O_kgDOC9nekw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/198827667?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/open-edge-platform",
+        "html_url": "https://github.com/open-edge-platform",
+        "followers_url": "https://api.github.com/users/open-edge-platform/followers",
+        "following_url": "https://api.github.com/users/open-edge-platform/following{/other_user}",
+        "gists_url": "https://api.github.com/users/open-edge-platform/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/open-edge-platform/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/open-edge-platform/subscriptions",
+        "organizations_url": "https://api.github.com/users/open-edge-platform/orgs",
+        "repos_url": "https://api.github.com/users/open-edge-platform/repos",
+        "events_url": "https://api.github.com/users/open-edge-platform/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/open-edge-platform/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/open-edge-platform/edge-ai-suites",
+      "description": "Curated collections of sample applications designed to help you develop optimized AI solutions. Tailored to specific use cases, covering retail, manufacturing, metro, and media & entertainment.",
+      "fork": false,
+      "url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites",
+      "forks_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/forks",
+      "keys_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/teams",
+      "hooks_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/hooks",
+      "issue_events_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/events",
+      "assignees_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/tags",
+      "blobs_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/languages",
+      "stargazers_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/stargazers",
+      "contributors_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/contributors",
+      "subscribers_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/subscribers",
+      "subscription_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/subscription",
+      "commits_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/merges",
+      "archive_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/downloads",
+      "issues_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/labels{/name}",
+      "releases_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/open-edge-platform/edge-ai-suites/deployments",
+      "created_at": "2025-03-05T16:32:38Z",
+      "updated_at": "2026-03-23T05:54:55Z",
+      "pushed_at": "2026-03-23T05:54:53Z",
+      "git_url": "git://github.com/open-edge-platform/edge-ai-suites.git",
+      "ssh_url": "git@github.com:open-edge-platform/edge-ai-suites.git",
+      "clone_url": "https://github.com/open-edge-platform/edge-ai-suites.git",
+      "svn_url": "https://github.com/open-edge-platform/edge-ai-suites",
+      "homepage": "",
+      "size": 1201089,
+      "stargazers_count": 94,
+      "watchers_count": 94,
+      "language": "Jupyter Notebook",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": true,
+      "forks_count": 99,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 127,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "manufacturing-ai-suite",
+        "media-and-entertainment-ai-suite",
+        "metro-ai-suite",
+        "retail-ai-suite",
+        "robotics-ai-suite"
+      ],
+      "visibility": "public",
+      "forks": 99,
+      "open_issues": 127,
+      "watchers": 94,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "open-edge-platformedge-ai-suites",
+    "dedupeKey": "24cb00e067a1e17ac23f1977595b817f68c63fcae62e449b049b7aa70b948ec1",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1168248532",
+    "title": "HuaHungy/RoboTwin_to_CoRobot",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:54:45Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/HuaHungy/RoboTwin_to_CoRobot",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/HuaHungy/RoboTwin_to_CoRobot",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "HuaHungy"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1168248532,
+      "node_id": "R_kgDORaIO1A",
+      "name": "RoboTwin_to_CoRobot",
+      "full_name": "HuaHungy/RoboTwin_to_CoRobot",
+      "private": false,
+      "owner": {
+        "login": "HuaHungy",
+        "id": 208362964,
+        "node_id": "U_kgDODGtd1A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/208362964?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/HuaHungy",
+        "html_url": "https://github.com/HuaHungy",
+        "followers_url": "https://api.github.com/users/HuaHungy/followers",
+        "following_url": "https://api.github.com/users/HuaHungy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/HuaHungy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/HuaHungy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/HuaHungy/subscriptions",
+        "organizations_url": "https://api.github.com/users/HuaHungy/orgs",
+        "repos_url": "https://api.github.com/users/HuaHungy/repos",
+        "events_url": "https://api.github.com/users/HuaHungy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/HuaHungy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/HuaHungy/RoboTwin_to_CoRobot",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot",
+      "forks_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/forks",
+      "keys_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/teams",
+      "hooks_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/hooks",
+      "issue_events_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/events",
+      "assignees_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/tags",
+      "blobs_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/languages",
+      "stargazers_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/stargazers",
+      "contributors_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/contributors",
+      "subscribers_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/subscribers",
+      "subscription_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/subscription",
+      "commits_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/merges",
+      "archive_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/downloads",
+      "issues_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/labels{/name}",
+      "releases_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/HuaHungy/RoboTwin_to_CoRobot/deployments",
+      "created_at": "2026-02-27T07:03:22Z",
+      "updated_at": "2026-03-23T05:54:45Z",
+      "pushed_at": "2026-03-23T05:54:40Z",
+      "git_url": "git://github.com/HuaHungy/RoboTwin_to_CoRobot.git",
+      "ssh_url": "git@github.com:HuaHungy/RoboTwin_to_CoRobot.git",
+      "clone_url": "https://github.com/HuaHungy/RoboTwin_to_CoRobot.git",
+      "svn_url": "https://github.com/HuaHungy/RoboTwin_to_CoRobot",
+      "homepage": null,
+      "size": 78,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 1,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "huahungyrobotwintocorobot",
+    "dedupeKey": "3bc1047290beae522dd43a3923ff25abde4c40d770d195d4251c13d1719afe04",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1128958975",
+    "title": "MARS-PESU/MAR_course-_labs",
+    "summary": "Course labs for Mobile and autonomous robotics course",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:54:38Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/MARS-PESU/MAR_course-_labs",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/MARS-PESU/MAR_course-_labs",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "MARS-PESU"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1128958975,
+      "node_id": "R_kgDOQ0qL_w",
+      "name": "MAR_course-_labs",
+      "full_name": "MARS-PESU/MAR_course-_labs",
+      "private": false,
+      "owner": {
+        "login": "MARS-PESU",
+        "id": 219545056,
+        "node_id": "U_kgDODRX94A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/219545056?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MARS-PESU",
+        "html_url": "https://github.com/MARS-PESU",
+        "followers_url": "https://api.github.com/users/MARS-PESU/followers",
+        "following_url": "https://api.github.com/users/MARS-PESU/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MARS-PESU/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MARS-PESU/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MARS-PESU/subscriptions",
+        "organizations_url": "https://api.github.com/users/MARS-PESU/orgs",
+        "repos_url": "https://api.github.com/users/MARS-PESU/repos",
+        "events_url": "https://api.github.com/users/MARS-PESU/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MARS-PESU/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/MARS-PESU/MAR_course-_labs",
+      "description": "Course labs for Mobile and autonomous robotics course",
+      "fork": false,
+      "url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs",
+      "forks_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/forks",
+      "keys_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/teams",
+      "hooks_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/hooks",
+      "issue_events_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/events",
+      "assignees_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/tags",
+      "blobs_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/languages",
+      "stargazers_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/stargazers",
+      "contributors_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/contributors",
+      "subscribers_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/subscribers",
+      "subscription_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/subscription",
+      "commits_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/merges",
+      "archive_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/downloads",
+      "issues_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/labels{/name}",
+      "releases_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/MARS-PESU/MAR_course-_labs/deployments",
+      "created_at": "2026-01-06T11:56:59Z",
+      "updated_at": "2026-03-23T05:54:38Z",
+      "pushed_at": "2026-03-23T05:54:35Z",
+      "git_url": "git://github.com/MARS-PESU/MAR_course-_labs.git",
+      "ssh_url": "git@github.com:MARS-PESU/MAR_course-_labs.git",
+      "clone_url": "https://github.com/MARS-PESU/MAR_course-_labs.git",
+      "svn_url": "https://github.com/MARS-PESU/MAR_course-_labs",
+      "homepage": null,
+      "size": 107,
+      "stargazers_count": 15,
+      "watchers_count": 15,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 2,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 15,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "mars-pesumarcourse-labs",
+    "dedupeKey": "6cd6ad8e02cfd8c9ff371bd44ad2917ab119838a3f4f122670c930ee1b118f37",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "Kota4631/pick_place_plate_groot",
+    "title": "Kota4631/pick_place_plate_groot",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:48:54.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/Kota4631/pick_place_plate_groot",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/Kota4631/pick_place_plate_groot",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "groot",
+      "robotics",
+      "dataset:Kota4631/record_pick_place_plate_single",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c0d37ff363f84d8f2dd5f2",
+      "id": "Kota4631/pick_place_plate_groot",
+      "author": "Kota4631",
+      "gated": false,
+      "lastModified": "2026-03-23T05:48:54.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "2158ef45b6f9198336bb785a33a508c6d6cfcf06",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "groot",
+        "robotics",
+        "dataset:Kota4631/record_pick_place_plate_single",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-23T05:45:35.000Z",
+      "modelId": "Kota4631/pick_place_plate_groot",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_groot_action_unpack_unnormalize_v1.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_2_groot_pack_inputs_v3.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "kota4631pickplaceplategroot",
+    "dedupeKey": "cf8a0f7fefd71e97bf6a77d7019f2fbe1c034970e80bea1781795021efd583f2",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "assistjapan/act_record-test",
+    "title": "assistjapan/act_record-test",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 27；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T05:39:16.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/assistjapan/act_record-test",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/assistjapan/act_record-test",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "act",
+      "dataset:assistjapan/record-test",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69bcb7977121690053dbf590",
+      "id": "assistjapan/act_record-test",
+      "author": "assistjapan",
+      "gated": false,
+      "lastModified": "2026-03-23T05:39:16.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "a23af1fa7f106b18cffdac73270aae5a1155b11e",
+      "downloads": 27,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "act",
+        "dataset:assistjapan/record-test",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-20T02:57:27.000Z",
+      "modelId": "assistjapan/act_record-test",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "assistjapanactrecord-test",
+    "dedupeKey": "32863944a2717be1d7cd992d3057d5a88737b4f9f117da273ba2d45a5e9152a9",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
     "externalId": "1188464946",
     "title": "sourabh-devrukhkar/ros-robot-navigator",
     "summary": "GitHub repository related to embodied AI or robotics.",
@@ -142,7 +2719,11 @@
     "dedupeKey": "d3fa6186193c6154e2fb2155eaae735deb543281935058d3012b82639021040e",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "d3fa6186193c6154e2fb2155eaae735deb543281935058d3012b82639021040e",
+    "createdAt": "2026-03-22T05:33:58Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "901671590",
@@ -279,7 +2860,11 @@
     "dedupeKey": "2fdc21a2a6c64251302da2f6b3414acde7171b002d148587ec1bdd0d13321519",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "2fdc21a2a6c64251302da2f6b3414acde7171b002d148587ec1bdd0d13321519",
+    "createdAt": "2026-03-22T05:33:32Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "wdtw/gr00t-2cam-grasp",
@@ -331,7 +2916,11 @@
     "dedupeKey": "9612a7260e9065f2e3f3eae41788df647f27280c58a1f3f270352ad5638eedee",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "9612a7260e9065f2e3f3eae41788df647f27280c58a1f3f270352ad5638eedee",
+    "createdAt": "2026-03-22T05:33:10.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1075557893",
@@ -468,7 +3057,11 @@
     "dedupeKey": "5ca205e7532ccc229537ff5e5d294e7378e1eb18b2beec68ae33da8d6103db3c",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "5ca205e7532ccc229537ff5e5d294e7378e1eb18b2beec68ae33da8d6103db3c",
+    "createdAt": "2026-03-22T05:32:03Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1173503298",
@@ -631,7 +3224,11 @@
     "dedupeKey": "6a397c7d7d2bc2f1b6a9b43fd1e7e5568675cac3429a130a172eaea1800531a5",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "6a397c7d7d2bc2f1b6a9b43fd1e7e5568675cac3429a130a172eaea1800531a5",
+    "createdAt": "2026-03-22T05:31:55Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "JasonYang66/0129_robotwin_clean_50_qwen3OFT_clean",
@@ -683,7 +3280,11 @@
     "dedupeKey": "2a89c80147c4f245b58e2402cff9cd9af5c649b0091b1504bed08b8d36dc603f",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "2a89c80147c4f245b58e2402cff9cd9af5c649b0091b1504bed08b8d36dc603f",
+    "createdAt": "2026-03-22T05:31:50.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "continuallearning/dit_posttrainv2_union_norm_seqlora_dit_encoder_real_0_put_bowl_filtered_seed1000",
@@ -773,7 +3374,11 @@
     "dedupeKey": "e8e0a82c63b0f6dfaaf79a45242317a36552522484f1da8125b57686f5dfc87e",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "e8e0a82c63b0f6dfaaf79a45242317a36552522484f1da8125b57686f5dfc87e",
+    "createdAt": "2026-03-22T05:30:34.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1183946067",
@@ -923,7 +3528,7 @@
     ],
     "id": "2d810df6d85359ed13638a603c39099a66d31fa930b48f73a0045ea3bb924d7b",
     "createdAt": "2026-03-21T04:22:32Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1068,7 +3673,7 @@
     ],
     "id": "90404ae26eeffe7d7742246464ed33cfcf0ca4119b854f3253f4405071e46d35",
     "createdAt": "2026-03-21T04:22:11Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1213,7 +3818,7 @@
     ],
     "id": "4c5ed0847b302ecfd1e5563796f3d9480c3f0c0569b1ff86beb44284af36694c",
     "createdAt": "2026-03-21T04:22:04Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -3740,6 +6345,341 @@
     "sourceCount": 1
   },
   {
+    "externalId": "http://arxiv.org/abs/2603.19979v1",
+    "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving",
+    "summary": "Scalable and reliable evaluation is increasingly critical in the end-to-end era of autonomous driving, where vision--language--action (VLA) policies directly map raw sensor streams to driving actions. Yet, current evaluation pipelines still rely heavily on real-world road testing, which is costly, biased toward limited scenario coverage, and difficult to reproduce. These challenges motivate a real-world simulator that can generate realistic future observations under proposed actions, while remaining controllable and stable over long horizons. We present X-World, an action-conditioned multi-camera generative world model that simulates future observations directly in video space. Given synchronized multi-view camera history and a future action sequence, X-World generates future multi-camera video streams that follow the commanded actions. To ensure reproducible and editable scene rollouts, X-World further supports optional controls over dynamic traffic agents and static road elements, and retains a text-prompt interface for appearance-level control (e.g., weather and time of day). Beyond world simulation, X-World also enables video style transfer by conditioning on appearance prompts while preserving the underlying action and scene dynamics. At the core of X-World is a multi-view latent video generator designed to explicitly encourage cross-view geometric consistency and temporal coherence under diverse control signals. Experiments show that X-World achieves high-quality multi-view video generation with (i) strong view consistency across cameras, (ii) stable temporal dynamics over long rollouts, and (iii) high controllability with strict action following and faithful adherence to optional scene controls. These properties make X-World a practical foundation for scalable and reproducible evaluation.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T14:23:32Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19979v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19979v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Chaoda Zheng",
+      "Sean Li",
+      "Jinhao Deng",
+      "Zhennan Wang",
+      "Shijia Chen",
+      "Liqiang Xiao",
+      "Ziheng Chi",
+      "Hongbin Lin",
+      "Kangjie Chen",
+      "Boyang Wang",
+      "Yu Zhang",
+      "Xianming Liu"
+    ],
+    "category": "paper",
+    "keywords": [
+      "world model",
+      "vla"
+    ],
+    "tags": [
+      "世界模型",
+      "视觉语言动作",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.63,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19979v1",
+      "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving",
+      "updated": "2026-03-20T14:23:32Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19979v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19979v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Scalable and reliable evaluation is increasingly critical in the end-to-end era of autonomous driving, where vision--language--action (VLA) policies directly map raw sensor streams to driving actions. Yet, current evaluation pipelines still rely heavily on real-world road testing, which is costly, biased toward limited scenario coverage, and difficult to reproduce. These challenges motivate a real-world simulator that can generate realistic future observations under proposed actions, while remaining controllable and stable over long horizons. We present X-World, an action-conditioned multi-camera generative world model that simulates future observations directly in video space. Given synchronized multi-view camera history and a future action sequence, X-World generates future multi-camera video streams that follow the commanded actions. To ensure reproducible and editable scene rollouts, X-World further supports optional controls over dynamic traffic agents and static road elements, and retains a text-prompt interface for appearance-level control (e.g., weather and time of day). Beyond world simulation, X-World also enables video style transfer by conditioning on appearance prompts while preserving the underlying action and scene dynamics. At the core of X-World is a multi-view latent video generator designed to explicitly encourage cross-view geometric consistency and temporal coherence under diverse control signals. Experiments show that X-World achieves high-quality multi-view video generation with (i) strong view consistency across cameras, (ii) stable temporal dynamics over long rollouts, and (iii) high controllability with strict action following and faithful adherence to optional scene controls. These properties make X-World a practical foundation for scalable and reproducible evaluation.",
+      "category": [
+        {
+          "@_term": "cs.CV",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "cs.AI",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-20T14:23:32Z",
+      "arxiv:comment": "Technical Report",
+      "arxiv:primary_category": {
+        "@_term": "cs.CV"
+      },
+      "author": [
+        {
+          "name": "Chaoda Zheng"
+        },
+        {
+          "name": "Sean Li"
+        },
+        {
+          "name": "Jinhao Deng"
+        },
+        {
+          "name": "Zhennan Wang"
+        },
+        {
+          "name": "Shijia Chen"
+        },
+        {
+          "name": "Liqiang Xiao"
+        },
+        {
+          "name": "Ziheng Chi"
+        },
+        {
+          "name": "Hongbin Lin"
+        },
+        {
+          "name": "Kangjie Chen"
+        },
+        {
+          "name": "Boyang Wang"
+        },
+        {
+          "name": "Yu Zhang"
+        },
+        {
+          "name": "Xianming Liu"
+        }
+      ]
+    },
+    "slug": "x-world-controllable-ego-centric-multi-camera-world-models-for-scalable-end-to-e",
+    "dedupeKey": "4d926a6bc0cc14e354b4268ec3adbe37e8483cfb2506ca1b74422c48fdd00ff5",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19822v1",
+    "title": "HUGE-Bench: A Benchmark for High-Level UAV Vision-Language-Action Tasks",
+    "summary": "Existing UAV vision-language navigation (VLN) benchmarks have enabled language-guided flight, but they largely focus on long, step-wise route descriptions with goal-centric evaluation, making them less diagnostic for real operations where brief, high-level commands must be grounded into safe multi-stage behaviors. We present HUGE-Bench, a benchmark for High-Level UAV Vision-Language-Action (HL-VLA) tasks that tests whether an agent can interpret concise language and execute complex, process-oriented trajectories with safety awareness. HUGE-Bench comprises 4 real-world digital twin scenes, 8 high-level tasks, and 2.56M meters of trajectories, and is built on an aligned 3D Gaussian Splatting (3DGS)-Mesh representation that combines photorealistic rendering with collision-capable geometry for scalable generation and collision-aware evaluation. We introduce process-oriented and collision-aware metrics to assess process fidelity, terminal accuracy, and safety. Experiments on representative state-of-the-art VLA models reveal significant gaps in high-level semantic completion and safe execution, highlighting HUGE-Bench as a diagnostic testbed for high-level UAV autonomy.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T10:08:42Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19822v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19822v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Jingyu Guo",
+      "Ziye Chen",
+      "Ziwen Li",
+      "Zhengqing Gao",
+      "Jiaxin Huang",
+      "Hanlue Zhang",
+      "Fengming Huang",
+      "Yu Yao",
+      "Tongliang Liu",
+      "Mingming Gong"
+    ],
+    "category": "paper",
+    "keywords": [
+      "vla",
+      "vision-language-action"
+    ],
+    "tags": [
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.55,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19822v1",
+      "title": "HUGE-Bench: A Benchmark for High-Level UAV Vision-Language-Action Tasks",
+      "updated": "2026-03-20T10:08:42Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19822v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19822v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Existing UAV vision-language navigation (VLN) benchmarks have enabled language-guided flight, but they largely focus on long, step-wise route descriptions with goal-centric evaluation, making them less diagnostic for real operations where brief, high-level commands must be grounded into safe multi-stage behaviors. We present HUGE-Bench, a benchmark for High-Level UAV Vision-Language-Action (HL-VLA) tasks that tests whether an agent can interpret concise language and execute complex, process-oriented trajectories with safety awareness. HUGE-Bench comprises 4 real-world digital twin scenes, 8 high-level tasks, and 2.56M meters of trajectories, and is built on an aligned 3D Gaussian Splatting (3DGS)-Mesh representation that combines photorealistic rendering with collision-capable geometry for scalable generation and collision-aware evaluation. We introduce process-oriented and collision-aware metrics to assess process fidelity, terminal accuracy, and safety. Experiments on representative state-of-the-art VLA models reveal significant gaps in high-level semantic completion and safe execution, highlighting HUGE-Bench as a diagnostic testbed for high-level UAV autonomy.",
+      "category": {
+        "@_term": "cs.CV",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-20T10:08:42Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.CV"
+      },
+      "author": [
+        {
+          "name": "Jingyu Guo"
+        },
+        {
+          "name": "Ziye Chen"
+        },
+        {
+          "name": "Ziwen Li"
+        },
+        {
+          "name": "Zhengqing Gao"
+        },
+        {
+          "name": "Jiaxin Huang"
+        },
+        {
+          "name": "Hanlue Zhang"
+        },
+        {
+          "name": "Fengming Huang"
+        },
+        {
+          "name": "Yu Yao"
+        },
+        {
+          "name": "Tongliang Liu"
+        },
+        {
+          "name": "Mingming Gong"
+        }
+      ]
+    },
+    "slug": "huge-bench-a-benchmark-for-high-level-uav-vision-language-action-tasks",
+    "dedupeKey": "0be9d272fb0eab3355c887ad86875cdd7b275e7679dd41ea1c7272ae6d0b0039",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19782v1",
+    "title": "Embodied Science: Closing the Discovery Loop with Agentic Embodied AI",
+    "summary": "Artificial intelligence has demonstrated remarkable capability in predicting scientific properties, yet scientific discovery remains an inherently physical, long-horizon pursuit governed by experimental cycles. Most current computational approaches are misaligned with this reality, framing discovery as isolated, task-specific predictions rather than continuous interaction with the physical world. Here, we argue for embodied science, a paradigm that reframes scientific discovery as a closed loop tightly coupling agentic reasoning with physical execution. We propose a unified Perception-Language-Action-Discovery (PLAD) framework, wherein embodied agents perceive experimental environments, reason over scientific knowledge, execute physical interventions, and internalize outcomes to drive subsequent exploration. By grounding computational reasoning in robust physical feedback, this approach bridges the gap between digital prediction and empirical validation, offering a roadmap for autonomous discovery systems in the life and chemical sciences.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T09:20:12Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19782v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19782v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Xiang Zhuang",
+      "Chenyi Zhou",
+      "Kehua Feng",
+      "Zhihui Zhu",
+      "Yunfan Gao",
+      "Yijie Zhong",
+      "Yichi Zhang",
+      "Junjie Huang",
+      "Keyan Ding",
+      "Lei Bai",
+      "Haofen Wang",
+      "Qiang Zhang",
+      "Huajun Chen"
+    ],
+    "category": "paper",
+    "keywords": [
+      "embodied ai"
+    ],
+    "tags": [
+      "具身智能"
+    ],
+    "relevanceScore": 0.49,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19782v1",
+      "title": "Embodied Science: Closing the Discovery Loop with Agentic Embodied AI",
+      "updated": "2026-03-20T09:20:12Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19782v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19782v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Artificial intelligence has demonstrated remarkable capability in predicting scientific properties, yet scientific discovery remains an inherently physical, long-horizon pursuit governed by experimental cycles. Most current computational approaches are misaligned with this reality, framing discovery as isolated, task-specific predictions rather than continuous interaction with the physical world. Here, we argue for embodied science, a paradigm that reframes scientific discovery as a closed loop tightly coupling agentic reasoning with physical execution. We propose a unified Perception-Language-Action-Discovery (PLAD) framework, wherein embodied agents perceive experimental environments, reason over scientific knowledge, execute physical interventions, and internalize outcomes to drive subsequent exploration. By grounding computational reasoning in robust physical feedback, this approach bridges the gap between digital prediction and empirical validation, offering a roadmap for autonomous discovery systems in the life and chemical sciences.",
+      "category": {
+        "@_term": "cs.AI",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-20T09:20:12Z",
+      "arxiv:comment": "Work in progress",
+      "arxiv:primary_category": {
+        "@_term": "cs.AI"
+      },
+      "author": [
+        {
+          "name": "Xiang Zhuang"
+        },
+        {
+          "name": "Chenyi Zhou"
+        },
+        {
+          "name": "Kehua Feng"
+        },
+        {
+          "name": "Zhihui Zhu"
+        },
+        {
+          "name": "Yunfan Gao"
+        },
+        {
+          "name": "Yijie Zhong"
+        },
+        {
+          "name": "Yichi Zhang"
+        },
+        {
+          "name": "Junjie Huang"
+        },
+        {
+          "name": "Keyan Ding"
+        },
+        {
+          "name": "Lei Bai"
+        },
+        {
+          "name": "Haofen Wang"
+        },
+        {
+          "name": "Qiang Zhang"
+        },
+        {
+          "name": "Huajun Chen"
+        }
+      ]
+    },
+    "slug": "embodied-science-closing-the-discovery-loop-with-agentic-embodied-ai",
+    "dedupeKey": "49bbb1ddbaa829d844c4701ba36517d88dd03053537715215f8e2bda9b9ff5c6",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
     "externalId": "milpdio/ablation_lora_5",
     "title": "milpdio/ablation_lora_5",
     "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
@@ -3928,6 +6868,128 @@
     "createdAt": "2026-03-20T07:56:28.000Z",
     "isFeatured": false,
     "sourceCount": 1
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19709v1",
+    "title": "Morphology-Consistent Humanoid Interaction through Robot-Centric Video Synthesis",
+    "summary": "Equipping humanoid robots with versatile interaction skills typically requires either extensive policy training or explicit human-to-robot motion retargeting. However, learning-based policies face prohibitive data collection costs. Meanwhile, retargeting relies on human-centric pose estimation (e.g., SMPL), introducing a morphology gap. Skeletal scale mismatches result in severe spatial misalignments when mapped to robots, compromising interaction success. In this work, we propose Dream2Act, a robot-centric framework enabling zero-shot interaction through generative video synthesis. Given a third-person image of the robot and target object, our framework leverages video generation models to envision the robot completing the task with morphology-consistent motion. We employ a high-fidelity pose extraction system to recover physically feasible, robot-native joint trajectories from these synthesized dreams, subsequently executed via a general-purpose whole-body controller. Operating strictly within the robot-native coordinate space, Dream2Act avoids retargeting errors and eliminates task-specific policy training. We evaluate Dream2Act on the Unitree G1 across four whole-body mobile interaction tasks: ball kicking, sofa sitting, bag punching, and box hugging. Dream2Act achieves a 37.5% overall success rate, compared to 0% for conventional retargeting. While retargeting fails to establish correct physical contacts due to the morphology gap (with errors compounded during locomotion), Dream2Act maintains robot-consistent spatial alignment, enabling reliable contact formation and substantially higher task completion.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T07:27:09Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19709v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19709v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Weisheng Xu",
+      "Jian Li",
+      "Yi Gu",
+      "Bin Yang",
+      "Haodong Chen",
+      "Shuyi Lin",
+      "Mingqian Zhou",
+      "Jing Tan",
+      "Qiwei Wu",
+      "Xiangrui Jiang",
+      "Taowen Wang",
+      "Jiawen Wen",
+      "Qiwei Liang",
+      "Jiaxi Zhang",
+      "Renjing Xu"
+    ],
+    "category": "paper",
+    "keywords": [
+      "humanoid"
+    ],
+    "tags": [
+      "机器人学习",
+      "人形机器人"
+    ],
+    "relevanceScore": 0.57,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19709v1",
+      "title": "Morphology-Consistent Humanoid Interaction through Robot-Centric Video Synthesis",
+      "updated": "2026-03-20T07:27:09Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19709v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19709v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Equipping humanoid robots with versatile interaction skills typically requires either extensive policy training or explicit human-to-robot motion retargeting. However, learning-based policies face prohibitive data collection costs. Meanwhile, retargeting relies on human-centric pose estimation (e.g., SMPL), introducing a morphology gap. Skeletal scale mismatches result in severe spatial misalignments when mapped to robots, compromising interaction success. In this work, we propose Dream2Act, a robot-centric framework enabling zero-shot interaction through generative video synthesis. Given a third-person image of the robot and target object, our framework leverages video generation models to envision the robot completing the task with morphology-consistent motion. We employ a high-fidelity pose extraction system to recover physically feasible, robot-native joint trajectories from these synthesized dreams, subsequently executed via a general-purpose whole-body controller. Operating strictly within the robot-native coordinate space, Dream2Act avoids retargeting errors and eliminates task-specific policy training. We evaluate Dream2Act on the Unitree G1 across four whole-body mobile interaction tasks: ball kicking, sofa sitting, bag punching, and box hugging. Dream2Act achieves a 37.5% overall success rate, compared to 0% for conventional retargeting. While retargeting fails to establish correct physical contacts due to the morphology gap (with errors compounded during locomotion), Dream2Act maintains robot-consistent spatial alignment, enabling reliable contact formation and substantially higher task completion.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-20T07:27:09Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Weisheng Xu"
+        },
+        {
+          "name": "Jian Li"
+        },
+        {
+          "name": "Yi Gu"
+        },
+        {
+          "name": "Bin Yang"
+        },
+        {
+          "name": "Haodong Chen"
+        },
+        {
+          "name": "Shuyi Lin"
+        },
+        {
+          "name": "Mingqian Zhou"
+        },
+        {
+          "name": "Jing Tan"
+        },
+        {
+          "name": "Qiwei Wu"
+        },
+        {
+          "name": "Xiangrui Jiang"
+        },
+        {
+          "name": "Taowen Wang"
+        },
+        {
+          "name": "Jiawen Wen"
+        },
+        {
+          "name": "Qiwei Liang"
+        },
+        {
+          "name": "Jiaxi Zhang"
+        },
+        {
+          "name": "Renjing Xu"
+        }
+      ]
+    },
+    "slug": "morphology-consistent-humanoid-interaction-through-robot-centric-video-synthesis",
+    "dedupeKey": "828640061cb4658e416334eac0f95719122cc507ee2454e97412f693992bacf1",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
   },
   {
     "externalId": "928821065",
@@ -5604,6 +8666,196 @@
     "sourceCount": 1
   },
   {
+    "externalId": "http://arxiv.org/abs/2603.19607v1",
+    "title": "Physion-Eval: Evaluating Physical Realism in Generated Video via Human Reasoning",
+    "summary": "Video generation models are increasingly used as world simulators for storytelling, simulation, and embodied AI. As these models advance, a key question arises: do generated videos obey the physical laws of the real world? Existing evaluations largely rely on automated metrics or coarse human judgments such as preferences or rubric-based checks. While useful for assessing perceptual quality, these methods provide limited insight into when and why generated dynamics violate real-world physical constraints. We introduce Physion-Eval, a large-scale benchmark of expert human reasoning for diagnosing physical realism failures in videos generated by five state-of-the-art models across egocentric and exocentric views, containing 10,990 expert reasoning traces spanning 22 fine-grained physical categories. Each generated video is derived from a corresponding real-world reference video depicting a clear physical process, and annotated with temporally localized glitches, structured failure categories, and natural-language explanations of the violated physical behavior. Using this dataset, we reveal a striking limitation of current video generation models: in physics-critical scenarios, 83.3% of exocentric and 93.5% of egocentric generated videos exhibit at least one human-identifiable physical glitch. We hope Physion-Eval will set a new standard for physical realism evaluation and guide the development of physics-grounded video generation. The benchmark is publicly available at https://huggingface.co/datasets/PhysionLabs/Physion-Eval.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T03:25:41Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19607v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19607v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Qin Zhang",
+      "Peiyu Jing",
+      "Hong-Xing Yu",
+      "Fangqiang Ding",
+      "Fan Nie",
+      "Weimin Wang",
+      "Yilun Du",
+      "James Zou",
+      "Jiajun Wu",
+      "Bing Shuai"
+    ],
+    "category": "paper",
+    "keywords": [
+      "embodied ai"
+    ],
+    "tags": [
+      "具身智能",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.49,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19607v1",
+      "title": "Physion-Eval: Evaluating Physical Realism in Generated Video via Human Reasoning",
+      "updated": "2026-03-20T03:25:41Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19607v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19607v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Video generation models are increasingly used as world simulators for storytelling, simulation, and embodied AI. As these models advance, a key question arises: do generated videos obey the physical laws of the real world? Existing evaluations largely rely on automated metrics or coarse human judgments such as preferences or rubric-based checks. While useful for assessing perceptual quality, these methods provide limited insight into when and why generated dynamics violate real-world physical constraints. We introduce Physion-Eval, a large-scale benchmark of expert human reasoning for diagnosing physical realism failures in videos generated by five state-of-the-art models across egocentric and exocentric views, containing 10,990 expert reasoning traces spanning 22 fine-grained physical categories. Each generated video is derived from a corresponding real-world reference video depicting a clear physical process, and annotated with temporally localized glitches, structured failure categories, and natural-language explanations of the violated physical behavior. Using this dataset, we reveal a striking limitation of current video generation models: in physics-critical scenarios, 83.3% of exocentric and 93.5% of egocentric generated videos exhibit at least one human-identifiable physical glitch. We hope Physion-Eval will set a new standard for physical realism evaluation and guide the development of physics-grounded video generation. The benchmark is publicly available at https://huggingface.co/datasets/PhysionLabs/Physion-Eval.",
+      "category": {
+        "@_term": "cs.CV",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-20T03:25:41Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.CV"
+      },
+      "author": [
+        {
+          "name": "Qin Zhang"
+        },
+        {
+          "name": "Peiyu Jing"
+        },
+        {
+          "name": "Hong-Xing Yu"
+        },
+        {
+          "name": "Fangqiang Ding"
+        },
+        {
+          "name": "Fan Nie"
+        },
+        {
+          "name": "Weimin Wang"
+        },
+        {
+          "name": "Yilun Du"
+        },
+        {
+          "name": "James Zou"
+        },
+        {
+          "name": "Jiajun Wu"
+        },
+        {
+          "name": "Bing Shuai"
+        }
+      ]
+    },
+    "slug": "physion-eval-evaluating-physical-realism-in-generated-video-via-human-reasoning",
+    "dedupeKey": "875954d86d6e1993177531e3d048baa4604018360535adf4f25b1758e33a5b11",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19418v1",
+    "title": "Speculative Policy Orchestration: A Latency-Resilient Framework for Cloud-Robotic Manipulation",
+    "summary": "Cloud robotics enables robots to offload high-dimensional motion planning and reasoning to remote servers. However, for continuous manipulation tasks requiring high-frequency control, network latency and jitter can severely destabilize the system, causing command starvation and unsafe physical execution. To address this, we propose Speculative Policy Orchestration (SPO), a latency-resilient cloud-edge framework. SPO utilizes a cloud-hosted world model to pre-compute and stream future kinematic waypoints to a local edge buffer, decoupling execution frequency from network round-trip time. To mitigate unsafe execution caused by predictive drift, the edge node employs an $ε$-tube verifier that strictly bounds kinematic execution errors. The framework is coupled with an Adaptive Horizon Scaling mechanism that dynamically expands or shrinks the speculative pre-fetch depth based on real-time tracking error. We evaluate SPO on continuous RLBench manipulation tasks under emulated network delays. Results show that even when deployed with learned models of modest accuracy, SPO reduces network-induced idle time by over 60% compared to blocking remote inference. Furthermore, SPO discards approximately 60% fewer cloud predictions than static caching baselines. Ultimately, SPO enables fluid, real-time cloud-robotic control while maintaining bounded physical safety.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-19T19:24:14Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19418v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19418v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Chanh Nguyen",
+      "Shutong Jin",
+      "Florian T. Pokorny",
+      "Erik Elmroth"
+    ],
+    "category": "paper",
+    "keywords": [
+      "robotics",
+      "manipulation",
+      "world model"
+    ],
+    "tags": [
+      "机器人学习",
+      "机械臂操作",
+      "世界模型"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19418v1",
+      "title": "Speculative Policy Orchestration: A Latency-Resilient Framework for Cloud-Robotic Manipulation",
+      "updated": "2026-03-19T19:24:14Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19418v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19418v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Cloud robotics enables robots to offload high-dimensional motion planning and reasoning to remote servers. However, for continuous manipulation tasks requiring high-frequency control, network latency and jitter can severely destabilize the system, causing command starvation and unsafe physical execution.\n  To address this, we propose Speculative Policy Orchestration (SPO), a latency-resilient cloud-edge framework. SPO utilizes a cloud-hosted world model to pre-compute and stream future kinematic waypoints to a local edge buffer, decoupling execution frequency from network round-trip time. To mitigate unsafe execution caused by predictive drift, the edge node employs an $ε$-tube verifier that strictly bounds kinematic execution errors. The framework is coupled with an Adaptive Horizon Scaling mechanism that dynamically expands or shrinks the speculative pre-fetch depth based on real-time tracking error.\n  We evaluate SPO on continuous RLBench manipulation tasks under emulated network delays. Results show that even when deployed with learned models of modest accuracy, SPO reduces network-induced idle time by over 60% compared to blocking remote inference. Furthermore, SPO discards approximately 60% fewer cloud predictions than static caching baselines. Ultimately, SPO enables fluid, real-time cloud-robotic control while maintaining bounded physical safety.",
+      "category": [
+        {
+          "@_term": "cs.RO",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "cs.DC",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-19T19:24:14Z",
+      "arxiv:comment": "9 pages, 7 figures, conference submission",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Chanh Nguyen"
+        },
+        {
+          "name": "Shutong Jin"
+        },
+        {
+          "name": "Florian T. Pokorny"
+        },
+        {
+          "name": "Erik Elmroth"
+        }
+      ]
+    },
+    "slug": "speculative-policy-orchestration-a-latency-resilient-framework-for-cloud-robotic",
+    "dedupeKey": "9e461f4f2746160bede85bd5514c154addea0b6318923e55bd2ba6aa6a1cc7b0",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
     "externalId": "sample-humanoid-policy",
     "title": "Humanoid Policy Learning Stack Reaches Sim-to-Real Milestone",
     "summary": "This update highlights a humanoid training stack that combines large-scale simulation, policy distillation, and dexterous control.",
@@ -5647,6 +8899,230 @@
     "createdAt": "2026-03-19T18:23:50.495Z",
     "isFeatured": false,
     "sourceCount": 1
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19384v1",
+    "title": "SOFTMAP: Sim2Real Soft Robot Forward Modeling via Topological Mesh Alignment and Physics Prior",
+    "summary": "While soft robot manipulators offer compelling advantages over rigid counterparts, including inherent compliance, safe human-robot interaction, and the ability to conform to complex geometries, accurate forward modeling from low-dimensional actuation commands remains an open challenge due to nonlinear material phenomena such as hysteresis and manufacturing variability. We present SOFTMAP, a sim-to-real learning framework for real-time 3D forward modeling of tendon-actuated soft finger manipulators. SOFTMAP combines four components: (1) As-Rigid-As-Possible (ARAP)-based topological alignment that projects simulated and real point clouds into a shared, topologically consistent vertex space; (2) a lightweight MLP forward model pretrained on simulation data to map servo commands to full 3D finger geometry; (3) a residual correction network trained on a small set of real observations to predict per-vertex displacement fields that compensate for sim-to-real discrepancies; and (4) a closed-form linear actuation calibration layer enabling real-time inference at 30 FPS. We evaluate SOFTMAP on both simulated and physical hardware, achieving state-of-the-art shape prediction accuracy with a Chamfer distance of 0.389 mm in simulation and 3.786 mm on hardware, millimeter-level fingertip trajectory tracking across multiple target paths, and a 36.5% improvement in teleoperation task success over the baseline. Our results show that SOFTMAP provides a data-efficient approach for 3D forward modeling and control of soft manipulators.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-19T18:21:44Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19384v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19384v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Ziyong Ma",
+      "Uksang Yoo",
+      "Jonathan Francis",
+      "Weiming Zhi",
+      "Jeffrey Ichnowski",
+      "Jean Oh"
+    ],
+    "category": "paper",
+    "keywords": [
+      "sim2real"
+    ],
+    "tags": [
+      "仿真训练"
+    ],
+    "relevanceScore": 0.49,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19384v1",
+      "title": "SOFTMAP: Sim2Real Soft Robot Forward Modeling via Topological Mesh Alignment and Physics Prior",
+      "updated": "2026-03-19T18:21:44Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19384v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19384v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "While soft robot manipulators offer compelling advantages over rigid counterparts, including inherent compliance, safe human-robot interaction, and the ability to conform to complex geometries, accurate forward modeling from low-dimensional actuation commands remains an open challenge due to nonlinear material phenomena such as hysteresis and manufacturing variability. We present SOFTMAP, a sim-to-real learning framework for real-time 3D forward modeling of tendon-actuated soft finger manipulators. SOFTMAP combines four components: (1) As-Rigid-As-Possible (ARAP)-based topological alignment that projects simulated and real point clouds into a shared, topologically consistent vertex space; (2) a lightweight MLP forward model pretrained on simulation data to map servo commands to full 3D finger geometry; (3) a residual correction network trained on a small set of real observations to predict per-vertex displacement fields that compensate for sim-to-real discrepancies; and (4) a closed-form linear actuation calibration layer enabling real-time inference at 30 FPS. We evaluate SOFTMAP on both simulated and physical hardware, achieving state-of-the-art shape prediction accuracy with a Chamfer distance of 0.389 mm in simulation and 3.786 mm on hardware, millimeter-level fingertip trajectory tracking across multiple target paths, and a 36.5% improvement in teleoperation task success over the baseline. Our results show that SOFTMAP provides a data-efficient approach for 3D forward modeling and control of soft manipulators.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-19T18:21:44Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Ziyong Ma"
+        },
+        {
+          "name": "Uksang Yoo"
+        },
+        {
+          "name": "Jonathan Francis"
+        },
+        {
+          "name": "Weiming Zhi"
+        },
+        {
+          "name": "Jeffrey Ichnowski"
+        },
+        {
+          "name": "Jean Oh"
+        }
+      ]
+    },
+    "slug": "softmap-sim2real-soft-robot-forward-modeling-via-topological-mesh-alignment-and-",
+    "dedupeKey": "39d5bb2ac4f7cce77ab4d18ba74069223a2f8b28b0c8b38b753865dd988a4c02",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.19370v1",
+    "title": "VAMPO: Policy Optimization for Improving Visual Dynamics in Video Action Models",
+    "summary": "Video action models are an appealing foundation for Vision--Language--Action systems because they can learn visual dynamics from large-scale video data and transfer this knowledge to downstream robot control. Yet current diffusion-based video predictors are trained with likelihood-surrogate objectives, which encourage globally plausible predictions without explicitly optimizing the precision-critical visual dynamics needed for manipulation. This objective mismatch often leads to subtle errors in object pose, spatial relations, and contact timing that can be amplified by downstream policies. We propose VAMPO, a post-training framework that directly improves visual dynamics in video action models through policy optimization. Our key idea is to formulate multi-step denoising as a sequential decision process and optimize the denoising policy with rewards defined over expert visual dynamics in latent space. To make this optimization practical, we introduce an Euler Hybrid sampler that injects stochasticity only at the first denoising step, enabling tractable low-variance policy-gradient estimation while preserving the coherence of the remaining denoising trajectory. We further combine this design with GRPO and a verifiable non-adversarial reward. Across diverse simulated and real-world manipulation tasks, VAMPO improves task-relevant visual dynamics, leading to better downstream action generation and stronger generalization. The homepage is https://vampo-robot.github.io/VAMPO/.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-19T18:04:03Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.19370v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.19370v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Zirui Ge",
+      "Pengxiang Ding",
+      "Baohua Yin",
+      "Qishen Wang",
+      "Zhiyong Xie",
+      "Yemin Wang",
+      "Jinbo Wang",
+      "Hengtao Li",
+      "Runze Suo",
+      "Wenxuan Song",
+      "Han Zhao",
+      "Shangke Lyu",
+      "Zhaoxin Fan",
+      "Haoang Li",
+      "Ran Cheng",
+      "Cheng Chi",
+      "Huibin Ge",
+      "Yaozhi Luo",
+      "Donglin Wang"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation"
+    ],
+    "tags": [
+      "机器人学习",
+      "机械臂操作",
+      "开源发布"
+    ],
+    "relevanceScore": 0.57,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.19370v1",
+      "title": "VAMPO: Policy Optimization for Improving Visual Dynamics in Video Action Models",
+      "updated": "2026-03-19T18:04:03Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.19370v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.19370v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Video action models are an appealing foundation for Vision--Language--Action systems because they can learn visual dynamics from large-scale video data and transfer this knowledge to downstream robot control. Yet current diffusion-based video predictors are trained with likelihood-surrogate objectives, which encourage globally plausible predictions without explicitly optimizing the precision-critical visual dynamics needed for manipulation. This objective mismatch often leads to subtle errors in object pose, spatial relations, and contact timing that can be amplified by downstream policies. We propose VAMPO, a post-training framework that directly improves visual dynamics in video action models through policy optimization. Our key idea is to formulate multi-step denoising as a sequential decision process and optimize the denoising policy with rewards defined over expert visual dynamics in latent space. To make this optimization practical, we introduce an Euler Hybrid sampler that injects stochasticity only at the first denoising step, enabling tractable low-variance policy-gradient estimation while preserving the coherence of the remaining denoising trajectory. We further combine this design with GRPO and a verifiable non-adversarial reward. Across diverse simulated and real-world manipulation tasks, VAMPO improves task-relevant visual dynamics, leading to better downstream action generation and stronger generalization. The homepage is https://vampo-robot.github.io/VAMPO/.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-19T18:04:03Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Zirui Ge"
+        },
+        {
+          "name": "Pengxiang Ding"
+        },
+        {
+          "name": "Baohua Yin"
+        },
+        {
+          "name": "Qishen Wang"
+        },
+        {
+          "name": "Zhiyong Xie"
+        },
+        {
+          "name": "Yemin Wang"
+        },
+        {
+          "name": "Jinbo Wang"
+        },
+        {
+          "name": "Hengtao Li"
+        },
+        {
+          "name": "Runze Suo"
+        },
+        {
+          "name": "Wenxuan Song"
+        },
+        {
+          "name": "Han Zhao"
+        },
+        {
+          "name": "Shangke Lyu"
+        },
+        {
+          "name": "Zhaoxin Fan"
+        },
+        {
+          "name": "Haoang Li"
+        },
+        {
+          "name": "Ran Cheng"
+        },
+        {
+          "name": "Cheng Chi"
+        },
+        {
+          "name": "Huibin Ge"
+        },
+        {
+          "name": "Yaozhi Luo"
+        },
+        {
+          "name": "Donglin Wang"
+        }
+      ]
+    },
+    "slug": "vampo-policy-optimization-for-improving-visual-dynamics-in-video-action-models",
+    "dedupeKey": "93ebce52a375c514c5ba4b101dcc3ba01c50526310f1cd5e1f9441f199918eed",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19233v1",

@@ -1,5 +1,1975 @@
 [
   {
+    "externalId": "rssing-robotics-conference",
+    "title": "Robotics / Embodied AI Conference Watch",
+    "summary": "聚合机器人、具身智能、Workshop、Call for Papers 与会议通知方向的会议信息入口。当前为过渡版 conference source，后续可替换为 OpenReview / 官网源。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:54:31.224Z",
+    "sourceType": "conference",
+    "primaryUrl": "https://roboticsconference.org/",
+    "sourceLinks": [
+      {
+        "label": "Conference Source",
+        "url": "https://roboticsconference.org/",
+        "sourceType": "conference"
+      }
+    ],
+    "authors": [],
+    "category": "conference",
+    "keywords": [
+      "conference",
+      "workshop",
+      "call for papers",
+      "robotics",
+      "embodied ai"
+    ],
+    "tags": [
+      "会议资讯"
+    ],
+    "relevanceScore": 0.78,
+    "trustScore": 0.9,
+    "raw": {
+      "id": "rssing-robotics-conference",
+      "title": "Robotics / Embodied AI Conference Watch",
+      "summary": "聚合机器人、具身智能、Workshop、Call for Papers 与会议通知方向的会议信息入口。当前为过渡版 conference source，后续可替换为 OpenReview / 官网源。",
+      "url": "https://roboticsconference.org/"
+    },
+    "slug": "robotics-embodied-ai-conference-watch",
+    "dedupeKey": "aad66ed3e549e32b6582fd434c393a3eec5f67fbae95f856ed4a57dcd6aaa0b9",
+    "mergedSourceTypes": [
+      "conference"
+    ]
+  },
+  {
+    "externalId": "openreview-robotics",
+    "title": "OpenReview Robotics & Embodied AI Watch",
+    "summary": "用于跟踪机器人、具身智能、视觉语言动作相关 workshop / conference / call for papers 的会议信息入口。当前为占位聚合源。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:54:31.224Z",
+    "sourceType": "conference",
+    "primaryUrl": "https://openreview.net/",
+    "sourceLinks": [
+      {
+        "label": "Conference Source",
+        "url": "https://openreview.net/",
+        "sourceType": "conference"
+      }
+    ],
+    "authors": [],
+    "category": "conference",
+    "keywords": [
+      "conference",
+      "workshop",
+      "call for papers",
+      "robotics",
+      "embodied ai"
+    ],
+    "tags": [
+      "会议资讯"
+    ],
+    "relevanceScore": 0.78,
+    "trustScore": 0.9,
+    "raw": {
+      "id": "openreview-robotics",
+      "title": "OpenReview Robotics & Embodied AI Watch",
+      "summary": "用于跟踪机器人、具身智能、视觉语言动作相关 workshop / conference / call for papers 的会议信息入口。当前为占位聚合源。",
+      "url": "https://openreview.net/"
+    },
+    "slug": "openreview-robotics-and-embodied-ai-watch",
+    "dedupeKey": "dbe9294baac87e7dc39c496a65e5a3c5061414324da1ffeb3c80f59886057a00",
+    "mergedSourceTypes": [
+      "conference"
+    ]
+  },
+  {
+    "externalId": "berkeley-rad-lab",
+    "title": "UC Berkeley RAIL / Robotics & Embodied AI Labs",
+    "summary": "聚焦机器人学习、具身智能、操作与泛化方向的重要实验室与研究组入口。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:54:31.224Z",
+    "sourceType": "lab",
+    "primaryUrl": "https://rail.eecs.berkeley.edu/",
+    "sourceLinks": [
+      {
+        "label": "Lab Homepage",
+        "url": "https://rail.eecs.berkeley.edu/",
+        "sourceType": "lab"
+      }
+    ],
+    "authors": [],
+    "category": "lab",
+    "keywords": [
+      "lab",
+      "research group",
+      "robotics",
+      "embodied ai"
+    ],
+    "tags": [
+      "实验室动态"
+    ],
+    "relevanceScore": 0.76,
+    "trustScore": 0.88,
+    "raw": {
+      "id": "berkeley-rad-lab",
+      "title": "UC Berkeley RAIL / Robotics & Embodied AI Labs",
+      "summary": "聚焦机器人学习、具身智能、操作与泛化方向的重要实验室与研究组入口。",
+      "url": "https://rail.eecs.berkeley.edu/"
+    },
+    "slug": "uc-berkeley-rail-robotics-and-embodied-ai-labs",
+    "dedupeKey": "6b64e2bd5750135cea49a747d56702b2464bc007eba6da45d1fdc9d5d4ead024",
+    "mergedSourceTypes": [
+      "lab"
+    ]
+  },
+  {
+    "externalId": "stanford-vision-robotics-lab",
+    "title": "Stanford Vision & Robotics Labs",
+    "summary": "聚焦机器人感知、操作、视觉语言动作与 embodied intelligence 的实验室入口。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:54:31.224Z",
+    "sourceType": "lab",
+    "primaryUrl": "https://ai.stanford.edu/",
+    "sourceLinks": [
+      {
+        "label": "Lab Homepage",
+        "url": "https://ai.stanford.edu/",
+        "sourceType": "lab"
+      }
+    ],
+    "authors": [],
+    "category": "lab",
+    "keywords": [
+      "lab",
+      "research group",
+      "robotics",
+      "embodied ai"
+    ],
+    "tags": [
+      "实验室动态"
+    ],
+    "relevanceScore": 0.76,
+    "trustScore": 0.88,
+    "raw": {
+      "id": "stanford-vision-robotics-lab",
+      "title": "Stanford Vision & Robotics Labs",
+      "summary": "聚焦机器人感知、操作、视觉语言动作与 embodied intelligence 的实验室入口。",
+      "url": "https://ai.stanford.edu/"
+    },
+    "slug": "stanford-vision-and-robotics-labs",
+    "dedupeKey": "5c759313b38c62162e705b93d5064110cf6108eefc16b1e6adbac00737bb1841",
+    "mergedSourceTypes": [
+      "lab"
+    ]
+  },
+  {
+    "externalId": "mit-robotics-lab",
+    "title": "MIT Robotics / Embodied Intelligence Labs",
+    "summary": "聚焦机器人系统、机械臂、学习控制与具身智能方向的重要实验室入口。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:54:31.224Z",
+    "sourceType": "lab",
+    "primaryUrl": "https://robotics.mit.edu/",
+    "sourceLinks": [
+      {
+        "label": "Lab Homepage",
+        "url": "https://robotics.mit.edu/",
+        "sourceType": "lab"
+      }
+    ],
+    "authors": [],
+    "category": "lab",
+    "keywords": [
+      "lab",
+      "research group",
+      "robotics",
+      "embodied ai"
+    ],
+    "tags": [
+      "实验室动态"
+    ],
+    "relevanceScore": 0.76,
+    "trustScore": 0.88,
+    "raw": {
+      "id": "mit-robotics-lab",
+      "title": "MIT Robotics / Embodied Intelligence Labs",
+      "summary": "聚焦机器人系统、机械臂、学习控制与具身智能方向的重要实验室入口。",
+      "url": "https://robotics.mit.edu/"
+    },
+    "slug": "mit-robotics-embodied-intelligence-labs",
+    "dedupeKey": "19720c77df7f7fbc32db7224e4bdbd4b21251e2196ebb12edaed5059ba8d1521",
+    "mergedSourceTypes": [
+      "lab"
+    ]
+  },
+  {
+    "externalId": "1068951466",
+    "title": "oficcejo/aiagents-stock",
+    "summary": "复合多AI智能体股票团队分析盯盘系统，基于多个ai智能体，模拟证券分析师团队分析过程，提供全方位的股票投资分析和决策建议，新增游资龙虎榜跟踪分析、板块预警轮动分析，支持批量多线程分析，支持实时监测关键点位，发送警报信息，预留miniqmt接口，支持量化交易，真正做到了ai帮你来炒股，适合大陆A股。下方测试网站请填入deepseek临时key，测试完请删除，否则有泄露风险。注：测试云服务访问过多，数据源有可能会拒绝，如需使用，请部署本地。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:54:05Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/oficcejo/aiagents-stock",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/oficcejo/aiagents-stock",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "oficcejo"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1068951466,
+      "node_id": "R_kgDOP7bnqg",
+      "name": "aiagents-stock",
+      "full_name": "oficcejo/aiagents-stock",
+      "private": false,
+      "owner": {
+        "login": "oficcejo",
+        "id": 136165145,
+        "node_id": "U_kgDOCB23GQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/136165145?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/oficcejo",
+        "html_url": "https://github.com/oficcejo",
+        "followers_url": "https://api.github.com/users/oficcejo/followers",
+        "following_url": "https://api.github.com/users/oficcejo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/oficcejo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/oficcejo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/oficcejo/subscriptions",
+        "organizations_url": "https://api.github.com/users/oficcejo/orgs",
+        "repos_url": "https://api.github.com/users/oficcejo/repos",
+        "events_url": "https://api.github.com/users/oficcejo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/oficcejo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/oficcejo/aiagents-stock",
+      "description": "复合多AI智能体股票团队分析盯盘系统，基于多个ai智能体，模拟证券分析师团队分析过程，提供全方位的股票投资分析和决策建议，新增游资龙虎榜跟踪分析、板块预警轮动分析，支持批量多线程分析，支持实时监测关键点位，发送警报信息，预留miniqmt接口，支持量化交易，真正做到了ai帮你来炒股，适合大陆A股。下方测试网站请填入deepseek临时key，测试完请删除，否则有泄露风险。注：测试云服务访问过多，数据源有可能会拒绝，如需使用，请部署本地。",
+      "fork": false,
+      "url": "https://api.github.com/repos/oficcejo/aiagents-stock",
+      "forks_url": "https://api.github.com/repos/oficcejo/aiagents-stock/forks",
+      "keys_url": "https://api.github.com/repos/oficcejo/aiagents-stock/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/oficcejo/aiagents-stock/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/oficcejo/aiagents-stock/teams",
+      "hooks_url": "https://api.github.com/repos/oficcejo/aiagents-stock/hooks",
+      "issue_events_url": "https://api.github.com/repos/oficcejo/aiagents-stock/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/oficcejo/aiagents-stock/events",
+      "assignees_url": "https://api.github.com/repos/oficcejo/aiagents-stock/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/oficcejo/aiagents-stock/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/oficcejo/aiagents-stock/tags",
+      "blobs_url": "https://api.github.com/repos/oficcejo/aiagents-stock/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/oficcejo/aiagents-stock/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/oficcejo/aiagents-stock/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/oficcejo/aiagents-stock/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/oficcejo/aiagents-stock/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/oficcejo/aiagents-stock/languages",
+      "stargazers_url": "https://api.github.com/repos/oficcejo/aiagents-stock/stargazers",
+      "contributors_url": "https://api.github.com/repos/oficcejo/aiagents-stock/contributors",
+      "subscribers_url": "https://api.github.com/repos/oficcejo/aiagents-stock/subscribers",
+      "subscription_url": "https://api.github.com/repos/oficcejo/aiagents-stock/subscription",
+      "commits_url": "https://api.github.com/repos/oficcejo/aiagents-stock/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/oficcejo/aiagents-stock/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/oficcejo/aiagents-stock/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/oficcejo/aiagents-stock/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/oficcejo/aiagents-stock/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/oficcejo/aiagents-stock/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/oficcejo/aiagents-stock/merges",
+      "archive_url": "https://api.github.com/repos/oficcejo/aiagents-stock/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/oficcejo/aiagents-stock/downloads",
+      "issues_url": "https://api.github.com/repos/oficcejo/aiagents-stock/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/oficcejo/aiagents-stock/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/oficcejo/aiagents-stock/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/oficcejo/aiagents-stock/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/oficcejo/aiagents-stock/labels{/name}",
+      "releases_url": "https://api.github.com/repos/oficcejo/aiagents-stock/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/oficcejo/aiagents-stock/deployments",
+      "created_at": "2025-10-03T07:02:26Z",
+      "updated_at": "2026-03-23T06:54:05Z",
+      "pushed_at": "2026-03-23T06:54:00Z",
+      "git_url": "git://github.com/oficcejo/aiagents-stock.git",
+      "ssh_url": "git@github.com:oficcejo/aiagents-stock.git",
+      "clone_url": "https://github.com/oficcejo/aiagents-stock.git",
+      "svn_url": "https://github.com/oficcejo/aiagents-stock",
+      "homepage": "",
+      "size": 9326,
+      "stargazers_count": 1046,
+      "watchers_count": 1046,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 340,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 39,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 340,
+      "open_issues": 39,
+      "watchers": 1046,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "oficcejoaiagents-stock",
+    "dedupeKey": "0ffb3831f5c92377f89e487cd37e2570ed2f0a5daac62e5a270050eb7c73b74d",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1102884390",
+    "title": "AMAP-EAI/SocialNav",
+    "summary": "Official implementation for \"SocialNav: Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation\"",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:53:56Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/AMAP-EAI/SocialNav",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/AMAP-EAI/SocialNav",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "AMAP-EAI"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "具身智能"
+    ],
+    "relevanceScore": 0.8500000000000001,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1102884390,
+      "node_id": "R_kgDOQbyuJg",
+      "name": "SocialNav",
+      "full_name": "AMAP-EAI/SocialNav",
+      "private": false,
+      "owner": {
+        "login": "AMAP-EAI",
+        "id": 245812709,
+        "node_id": "O_kgDODqbN5Q",
+        "avatar_url": "https://avatars.githubusercontent.com/u/245812709?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AMAP-EAI",
+        "html_url": "https://github.com/AMAP-EAI",
+        "followers_url": "https://api.github.com/users/AMAP-EAI/followers",
+        "following_url": "https://api.github.com/users/AMAP-EAI/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AMAP-EAI/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AMAP-EAI/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AMAP-EAI/subscriptions",
+        "organizations_url": "https://api.github.com/users/AMAP-EAI/orgs",
+        "repos_url": "https://api.github.com/users/AMAP-EAI/repos",
+        "events_url": "https://api.github.com/users/AMAP-EAI/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AMAP-EAI/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/AMAP-EAI/SocialNav",
+      "description": "Official implementation for \"SocialNav: Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation\"",
+      "fork": false,
+      "url": "https://api.github.com/repos/AMAP-EAI/SocialNav",
+      "forks_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/forks",
+      "keys_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/teams",
+      "hooks_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/hooks",
+      "issue_events_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/events",
+      "assignees_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/tags",
+      "blobs_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/languages",
+      "stargazers_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/stargazers",
+      "contributors_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/contributors",
+      "subscribers_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/subscribers",
+      "subscription_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/subscription",
+      "commits_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/merges",
+      "archive_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/downloads",
+      "issues_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/labels{/name}",
+      "releases_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/AMAP-EAI/SocialNav/deployments",
+      "created_at": "2025-11-24T06:58:10Z",
+      "updated_at": "2026-03-23T06:53:56Z",
+      "pushed_at": "2026-03-23T06:53:52Z",
+      "git_url": "git://github.com/AMAP-EAI/SocialNav.git",
+      "ssh_url": "git@github.com:AMAP-EAI/SocialNav.git",
+      "clone_url": "https://github.com/AMAP-EAI/SocialNav.git",
+      "svn_url": "https://github.com/AMAP-EAI/SocialNav",
+      "homepage": "https://amap-eai.github.io/SocialNav/",
+      "size": 192298,
+      "stargazers_count": 67,
+      "watchers_count": 67,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 3,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 3,
+      "watchers": 67,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "amap-eaisocialnav",
+    "dedupeKey": "81def6ca6860c8166efebd2f6a839397d9794e9d31f278f679bbebc9d6fa1a8f",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1184883747",
+    "title": "laddermoon/combatbench",
+    "summary": "An open-source platform for benchmarking humanoid robot-to-robot interaction and combat strategies.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:53:26Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/laddermoon/combatbench",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/laddermoon/combatbench",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "laddermoon"
+    ],
+    "category": "code",
+    "keywords": [
+      "humanoid"
+    ],
+    "tags": [
+      "人形机器人",
+      "开源发布",
+      "数据集"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1184883747,
+      "node_id": "R_kgDORp_kIw",
+      "name": "combatbench",
+      "full_name": "laddermoon/combatbench",
+      "private": false,
+      "owner": {
+        "login": "laddermoon",
+        "id": 231217851,
+        "node_id": "U_kgDODcgauw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/231217851?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/laddermoon",
+        "html_url": "https://github.com/laddermoon",
+        "followers_url": "https://api.github.com/users/laddermoon/followers",
+        "following_url": "https://api.github.com/users/laddermoon/following{/other_user}",
+        "gists_url": "https://api.github.com/users/laddermoon/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/laddermoon/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/laddermoon/subscriptions",
+        "organizations_url": "https://api.github.com/users/laddermoon/orgs",
+        "repos_url": "https://api.github.com/users/laddermoon/repos",
+        "events_url": "https://api.github.com/users/laddermoon/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/laddermoon/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/laddermoon/combatbench",
+      "description": "An open-source platform for benchmarking humanoid robot-to-robot interaction and combat strategies.",
+      "fork": false,
+      "url": "https://api.github.com/repos/laddermoon/combatbench",
+      "forks_url": "https://api.github.com/repos/laddermoon/combatbench/forks",
+      "keys_url": "https://api.github.com/repos/laddermoon/combatbench/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/laddermoon/combatbench/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/laddermoon/combatbench/teams",
+      "hooks_url": "https://api.github.com/repos/laddermoon/combatbench/hooks",
+      "issue_events_url": "https://api.github.com/repos/laddermoon/combatbench/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/laddermoon/combatbench/events",
+      "assignees_url": "https://api.github.com/repos/laddermoon/combatbench/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/laddermoon/combatbench/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/laddermoon/combatbench/tags",
+      "blobs_url": "https://api.github.com/repos/laddermoon/combatbench/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/laddermoon/combatbench/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/laddermoon/combatbench/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/laddermoon/combatbench/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/laddermoon/combatbench/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/laddermoon/combatbench/languages",
+      "stargazers_url": "https://api.github.com/repos/laddermoon/combatbench/stargazers",
+      "contributors_url": "https://api.github.com/repos/laddermoon/combatbench/contributors",
+      "subscribers_url": "https://api.github.com/repos/laddermoon/combatbench/subscribers",
+      "subscription_url": "https://api.github.com/repos/laddermoon/combatbench/subscription",
+      "commits_url": "https://api.github.com/repos/laddermoon/combatbench/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/laddermoon/combatbench/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/laddermoon/combatbench/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/laddermoon/combatbench/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/laddermoon/combatbench/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/laddermoon/combatbench/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/laddermoon/combatbench/merges",
+      "archive_url": "https://api.github.com/repos/laddermoon/combatbench/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/laddermoon/combatbench/downloads",
+      "issues_url": "https://api.github.com/repos/laddermoon/combatbench/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/laddermoon/combatbench/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/laddermoon/combatbench/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/laddermoon/combatbench/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/laddermoon/combatbench/labels{/name}",
+      "releases_url": "https://api.github.com/repos/laddermoon/combatbench/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/laddermoon/combatbench/deployments",
+      "created_at": "2026-03-18T02:51:46Z",
+      "updated_at": "2026-03-23T06:53:26Z",
+      "pushed_at": "2026-03-23T06:53:23Z",
+      "git_url": "git://github.com/laddermoon/combatbench.git",
+      "ssh_url": "git@github.com:laddermoon/combatbench.git",
+      "clone_url": "https://github.com/laddermoon/combatbench.git",
+      "svn_url": "https://github.com/laddermoon/combatbench",
+      "homepage": null,
+      "size": 53740,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "laddermooncombatbench",
+    "dedupeKey": "c6a3a913d5f18891e3f2af7cbadf46efe2e9b984912f77a36efa830b6a744cd6",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "475877250",
+    "title": "the-matei/FtcRobotController",
+    "summary": "🤖 Control your FIRST Tech Challenge robot with this public FTC SDK for the 2025-2026 season, designed for Android app development and easy testing.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:53:02Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/the-matei/FtcRobotController",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/the-matei/FtcRobotController",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "the-matei"
+    ],
+    "category": "code",
+    "keywords": [
+      "android",
+      "center-stage",
+      "computer-vision",
+      "first-tech-challenge",
+      "java",
+      "kinematics",
+      "kotlin",
+      "motion-profiling",
+      "power-play",
+      "robotics",
+      "simulator"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 475877250,
+      "node_id": "R_kgDOHF1Pgg",
+      "name": "FtcRobotController",
+      "full_name": "the-matei/FtcRobotController",
+      "private": false,
+      "owner": {
+        "login": "the-matei",
+        "id": 102671097,
+        "node_id": "U_kgDOBh6i-Q",
+        "avatar_url": "https://avatars.githubusercontent.com/u/102671097?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/the-matei",
+        "html_url": "https://github.com/the-matei",
+        "followers_url": "https://api.github.com/users/the-matei/followers",
+        "following_url": "https://api.github.com/users/the-matei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/the-matei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/the-matei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/the-matei/subscriptions",
+        "organizations_url": "https://api.github.com/users/the-matei/orgs",
+        "repos_url": "https://api.github.com/users/the-matei/repos",
+        "events_url": "https://api.github.com/users/the-matei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/the-matei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/the-matei/FtcRobotController",
+      "description": "🤖 Control your FIRST Tech Challenge robot with this public FTC SDK for the 2025-2026 season, designed for Android app development and easy testing.",
+      "fork": false,
+      "url": "https://api.github.com/repos/the-matei/FtcRobotController",
+      "forks_url": "https://api.github.com/repos/the-matei/FtcRobotController/forks",
+      "keys_url": "https://api.github.com/repos/the-matei/FtcRobotController/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/the-matei/FtcRobotController/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/the-matei/FtcRobotController/teams",
+      "hooks_url": "https://api.github.com/repos/the-matei/FtcRobotController/hooks",
+      "issue_events_url": "https://api.github.com/repos/the-matei/FtcRobotController/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/the-matei/FtcRobotController/events",
+      "assignees_url": "https://api.github.com/repos/the-matei/FtcRobotController/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/the-matei/FtcRobotController/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/the-matei/FtcRobotController/tags",
+      "blobs_url": "https://api.github.com/repos/the-matei/FtcRobotController/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/the-matei/FtcRobotController/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/the-matei/FtcRobotController/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/the-matei/FtcRobotController/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/the-matei/FtcRobotController/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/the-matei/FtcRobotController/languages",
+      "stargazers_url": "https://api.github.com/repos/the-matei/FtcRobotController/stargazers",
+      "contributors_url": "https://api.github.com/repos/the-matei/FtcRobotController/contributors",
+      "subscribers_url": "https://api.github.com/repos/the-matei/FtcRobotController/subscribers",
+      "subscription_url": "https://api.github.com/repos/the-matei/FtcRobotController/subscription",
+      "commits_url": "https://api.github.com/repos/the-matei/FtcRobotController/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/the-matei/FtcRobotController/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/the-matei/FtcRobotController/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/the-matei/FtcRobotController/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/the-matei/FtcRobotController/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/the-matei/FtcRobotController/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/the-matei/FtcRobotController/merges",
+      "archive_url": "https://api.github.com/repos/the-matei/FtcRobotController/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/the-matei/FtcRobotController/downloads",
+      "issues_url": "https://api.github.com/repos/the-matei/FtcRobotController/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/the-matei/FtcRobotController/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/the-matei/FtcRobotController/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/the-matei/FtcRobotController/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/the-matei/FtcRobotController/labels{/name}",
+      "releases_url": "https://api.github.com/repos/the-matei/FtcRobotController/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/the-matei/FtcRobotController/deployments",
+      "created_at": "2022-03-30T12:51:28Z",
+      "updated_at": "2026-03-23T06:53:02Z",
+      "pushed_at": "2026-03-23T06:52:59Z",
+      "git_url": "git://github.com/the-matei/FtcRobotController.git",
+      "ssh_url": "git@github.com:the-matei/FtcRobotController.git",
+      "clone_url": "https://github.com/the-matei/FtcRobotController.git",
+      "svn_url": "https://github.com/the-matei/FtcRobotController",
+      "homepage": null,
+      "size": 182440,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "CSS",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "android",
+        "center-stage",
+        "computer-vision",
+        "first-tech-challenge",
+        "java",
+        "kinematics",
+        "kotlin",
+        "motion-profiling",
+        "power-play",
+        "robotics",
+        "simulator"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "the-mateiftcrobotcontroller",
+    "dedupeKey": "84107cb181255c12955e34d28bf94d0fd65b5c2b56b7507bb68375d27efa9fe4",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1183870608",
+    "title": "EmbodiedFX/LeRobot-SO101",
+    "summary": "Run data collection, model fine-tuning, and real-world inference on the SO101 robotic arm ｜ 在 SO101 机械臂上跑通数据采集、模型微调和真机推理 ",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:53:02Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/EmbodiedFX/LeRobot-SO101",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/EmbodiedFX/LeRobot-SO101",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "EmbodiedFX"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "具身智能"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1183870608,
+      "node_id": "R_kgDORpBukA",
+      "name": "LeRobot-SO101",
+      "full_name": "EmbodiedFX/LeRobot-SO101",
+      "private": false,
+      "owner": {
+        "login": "EmbodiedFX",
+        "id": 265692682,
+        "node_id": "U_kgDOD9YmCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/265692682?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/EmbodiedFX",
+        "html_url": "https://github.com/EmbodiedFX",
+        "followers_url": "https://api.github.com/users/EmbodiedFX/followers",
+        "following_url": "https://api.github.com/users/EmbodiedFX/following{/other_user}",
+        "gists_url": "https://api.github.com/users/EmbodiedFX/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/EmbodiedFX/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/EmbodiedFX/subscriptions",
+        "organizations_url": "https://api.github.com/users/EmbodiedFX/orgs",
+        "repos_url": "https://api.github.com/users/EmbodiedFX/repos",
+        "events_url": "https://api.github.com/users/EmbodiedFX/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/EmbodiedFX/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/EmbodiedFX/LeRobot-SO101",
+      "description": "Run data collection, model fine-tuning, and real-world inference on the SO101 robotic arm ｜ 在 SO101 机械臂上跑通数据采集、模型微调和真机推理 ",
+      "fork": false,
+      "url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101",
+      "forks_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/forks",
+      "keys_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/teams",
+      "hooks_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/hooks",
+      "issue_events_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/events",
+      "assignees_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/tags",
+      "blobs_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/languages",
+      "stargazers_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/stargazers",
+      "contributors_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/contributors",
+      "subscribers_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/subscribers",
+      "subscription_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/subscription",
+      "commits_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/merges",
+      "archive_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/downloads",
+      "issues_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/labels{/name}",
+      "releases_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/EmbodiedFX/LeRobot-SO101/deployments",
+      "created_at": "2026-03-17T02:58:08Z",
+      "updated_at": "2026-03-23T06:53:02Z",
+      "pushed_at": "2026-03-23T06:52:59Z",
+      "git_url": "git://github.com/EmbodiedFX/LeRobot-SO101.git",
+      "ssh_url": "git@github.com:EmbodiedFX/LeRobot-SO101.git",
+      "clone_url": "https://github.com/EmbodiedFX/LeRobot-SO101.git",
+      "svn_url": "https://github.com/EmbodiedFX/LeRobot-SO101",
+      "homepage": "",
+      "size": 130,
+      "stargazers_count": 3,
+      "watchers_count": 3,
+      "language": "Shell",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 3,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "embodiedfxlerobot-so101",
+    "dedupeKey": "9795be10a20f5f511cf1fe632b79db23d36c4f020bb8e64ce9a10d67d0593163",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1065113550",
+    "title": "tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot",
+    "summary": "📈 Predict BNB price trends with 90% accuracy using an automated betting robot for efficient reward claiming and strategic investment decisions.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:52:36Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "tonim82"
+    ],
+    "category": "code",
+    "keywords": [
+      "automation-script",
+      "bnb",
+      "bnb-formula",
+      "bnb-indicators",
+      "bnb-prediction",
+      "bnb-rise-and-fall",
+      "bnb-rise-and-fall-prediction",
+      "bnbprediction",
+      "pancakeswap-prediction-ai-bot",
+      "pancakeswap-prediction-trade-bot",
+      "prediction",
+      "python"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1065113550,
+      "node_id": "R_kgDOP3xXzg",
+      "name": "Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot",
+      "full_name": "tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot",
+      "private": false,
+      "owner": {
+        "login": "tonim82",
+        "id": 67393107,
+        "node_id": "MDQ6VXNlcjY3MzkzMTA3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/67393107?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tonim82",
+        "html_url": "https://github.com/tonim82",
+        "followers_url": "https://api.github.com/users/tonim82/followers",
+        "following_url": "https://api.github.com/users/tonim82/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tonim82/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tonim82/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tonim82/subscriptions",
+        "organizations_url": "https://api.github.com/users/tonim82/orgs",
+        "repos_url": "https://api.github.com/users/tonim82/repos",
+        "events_url": "https://api.github.com/users/tonim82/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tonim82/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot",
+      "description": "📈 Predict BNB price trends with 90% accuracy using an automated betting robot for efficient reward claiming and strategic investment decisions.",
+      "fork": false,
+      "url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot",
+      "forks_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/forks",
+      "keys_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/teams",
+      "hooks_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/hooks",
+      "issue_events_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/events",
+      "assignees_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/tags",
+      "blobs_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/languages",
+      "stargazers_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/stargazers",
+      "contributors_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/contributors",
+      "subscribers_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/subscribers",
+      "subscription_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/subscription",
+      "commits_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/merges",
+      "archive_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/downloads",
+      "issues_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/labels{/name}",
+      "releases_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot/deployments",
+      "created_at": "2025-09-27T04:55:38Z",
+      "updated_at": "2026-03-23T06:52:36Z",
+      "pushed_at": "2026-03-23T06:52:32Z",
+      "git_url": "git://github.com/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot.git",
+      "ssh_url": "git@github.com:tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot.git",
+      "clone_url": "https://github.com/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot.git",
+      "svn_url": "https://github.com/tonim82/Pancakeswap-BNB-Prediction-AI-Automated-Betting-Robot",
+      "homepage": null,
+      "size": 42921,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "epl-2.0",
+        "name": "Eclipse Public License 2.0",
+        "spdx_id": "EPL-2.0",
+        "url": "https://api.github.com/licenses/epl-2.0",
+        "node_id": "MDc6TGljZW5zZTMy"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "automation-script",
+        "bnb",
+        "bnb-formula",
+        "bnb-indicators",
+        "bnb-prediction",
+        "bnb-rise-and-fall",
+        "bnb-rise-and-fall-prediction",
+        "bnbprediction",
+        "pancakeswap-prediction-ai-bot",
+        "pancakeswap-prediction-trade-bot",
+        "prediction",
+        "python"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "tonim82pancakeswap-bnb-prediction-ai-automated-betting-robot",
+    "dedupeKey": "a5d4735fc824998c3696443b4b9bce394afaa928d57453e5d7c326dfac42788d",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1141226836",
+    "title": "Devanik21/Lucid-Dark-Dreamer",
+    "summary": "A dark-lucid reinforcement learning architecture that learns, dreams, and acts through latent world models, causal verification, and memory-anchored adaptation under uncertainty.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:52:35Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Devanik21/Lucid-Dark-Dreamer",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Devanik21/Lucid-Dark-Dreamer",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Devanik21"
+    ],
+    "category": "code",
+    "keywords": [
+      "causal-verification",
+      "cognitive-architecture",
+      "deep-reinforcement-learning",
+      "dream-consolidation",
+      "latent-world-models",
+      "mcts",
+      "memory-anchored-adaptation",
+      "neuromorphic-continual-learning",
+      "ppo",
+      "uncertainty-estimation"
+    ],
+    "tags": [
+      "世界模型"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1141226836,
+      "node_id": "R_kgDORAW9VA",
+      "name": "Lucid-Dark-Dreamer",
+      "full_name": "Devanik21/Lucid-Dark-Dreamer",
+      "private": false,
+      "owner": {
+        "login": "Devanik21",
+        "id": 162272415,
+        "node_id": "U_kgDOCawUnw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/162272415?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Devanik21",
+        "html_url": "https://github.com/Devanik21",
+        "followers_url": "https://api.github.com/users/Devanik21/followers",
+        "following_url": "https://api.github.com/users/Devanik21/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Devanik21/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Devanik21/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Devanik21/subscriptions",
+        "organizations_url": "https://api.github.com/users/Devanik21/orgs",
+        "repos_url": "https://api.github.com/users/Devanik21/repos",
+        "events_url": "https://api.github.com/users/Devanik21/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Devanik21/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Devanik21/Lucid-Dark-Dreamer",
+      "description": "A dark-lucid reinforcement learning architecture that learns, dreams, and acts through latent world models, causal verification, and memory-anchored adaptation under uncertainty.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer",
+      "forks_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/forks",
+      "keys_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/teams",
+      "hooks_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/hooks",
+      "issue_events_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/events",
+      "assignees_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/tags",
+      "blobs_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/languages",
+      "stargazers_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/stargazers",
+      "contributors_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/contributors",
+      "subscribers_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/subscribers",
+      "subscription_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/subscription",
+      "commits_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/merges",
+      "archive_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/downloads",
+      "issues_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Devanik21/Lucid-Dark-Dreamer/deployments",
+      "created_at": "2026-01-24T13:40:56Z",
+      "updated_at": "2026-03-23T06:52:35Z",
+      "pushed_at": "2026-03-23T06:52:32Z",
+      "git_url": "git://github.com/Devanik21/Lucid-Dark-Dreamer.git",
+      "ssh_url": "git@github.com:Devanik21/Lucid-Dark-Dreamer.git",
+      "clone_url": "https://github.com/Devanik21/Lucid-Dark-Dreamer.git",
+      "svn_url": "https://github.com/Devanik21/Lucid-Dark-Dreamer",
+      "homepage": null,
+      "size": 1191,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "Jupyter Notebook",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "causal-verification",
+        "cognitive-architecture",
+        "deep-reinforcement-learning",
+        "dream-consolidation",
+        "latent-world-models",
+        "mcts",
+        "memory-anchored-adaptation",
+        "neuromorphic-continual-learning",
+        "ppo",
+        "uncertainty-estimation"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "devanik21lucid-dark-dreamer",
+    "dedupeKey": "1ae00083fd84fd6f5a87075e34d38a56ab4775f42cc98675eced491075d3e7b1",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1181727776",
+    "title": "damurka5/RL_VLA_Bootstrapping",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:52:25Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/damurka5/RL_VLA_Bootstrapping",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/damurka5/RL_VLA_Bootstrapping",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "damurka5"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics",
+      "vla"
+    ],
+    "tags": [
+      "具身智能",
+      "视觉语言动作",
+      "开源发布"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1181727776,
+      "node_id": "R_kgDORm-8IA",
+      "name": "RL_VLA_Bootstrapping",
+      "full_name": "damurka5/RL_VLA_Bootstrapping",
+      "private": false,
+      "owner": {
+        "login": "damurka5",
+        "id": 56570623,
+        "node_id": "MDQ6VXNlcjU2NTcwNjIz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56570623?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/damurka5",
+        "html_url": "https://github.com/damurka5",
+        "followers_url": "https://api.github.com/users/damurka5/followers",
+        "following_url": "https://api.github.com/users/damurka5/following{/other_user}",
+        "gists_url": "https://api.github.com/users/damurka5/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/damurka5/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/damurka5/subscriptions",
+        "organizations_url": "https://api.github.com/users/damurka5/orgs",
+        "repos_url": "https://api.github.com/users/damurka5/repos",
+        "events_url": "https://api.github.com/users/damurka5/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/damurka5/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/damurka5/RL_VLA_Bootstrapping",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping",
+      "forks_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/forks",
+      "keys_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/teams",
+      "hooks_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/hooks",
+      "issue_events_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/events",
+      "assignees_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/tags",
+      "blobs_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/languages",
+      "stargazers_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/stargazers",
+      "contributors_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/contributors",
+      "subscribers_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/subscribers",
+      "subscription_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/subscription",
+      "commits_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/merges",
+      "archive_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/downloads",
+      "issues_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/labels{/name}",
+      "releases_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/damurka5/RL_VLA_Bootstrapping/deployments",
+      "created_at": "2026-03-14T14:44:46Z",
+      "updated_at": "2026-03-23T06:52:25Z",
+      "pushed_at": "2026-03-23T06:52:19Z",
+      "git_url": "git://github.com/damurka5/RL_VLA_Bootstrapping.git",
+      "ssh_url": "git@github.com:damurka5/RL_VLA_Bootstrapping.git",
+      "clone_url": "https://github.com/damurka5/RL_VLA_Bootstrapping.git",
+      "svn_url": "https://github.com/damurka5/RL_VLA_Bootstrapping",
+      "homepage": null,
+      "size": 230,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "damurka5rlvlabootstrapping",
+    "dedupeKey": "9cac6c9420c701e0921db25195ca7bf39cc6d30106d488e68bfc67c27a686aa2",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "leninangelov/eval_act_picking_up_a_cube_v6.0",
+    "title": "leninangelov/eval_act_picking_up_a_cube_v6.0",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 37；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:52:24.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/leninangelov/eval_act_picking_up_a_cube_v6.0",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/leninangelov/eval_act_picking_up_a_cube_v6.0",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "leninangelov"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:10K<n<100K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:dask",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69b9eab6a05bf7ebeb8ee995",
+      "id": "leninangelov/eval_act_picking_up_a_cube_v6.0",
+      "author": "leninangelov",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-23T06:52:24.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "1503edb645103f531c030449595cc67718de4314",
+      "description": "This dataset was created using LeRobot.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 53,\n    \"total_frames\": 91575,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:53\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/leninangelov/eval_act_picking_up_a_cube_v6.0.",
+      "downloads": 37,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:10K<n<100K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:dask",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-17T23:58:46.000Z",
+      "key": ""
+    },
+    "slug": "leninangelovevalactpickingupacubev60",
+    "dedupeKey": "65e6d3417e7295922e66f8c483843c890db1f927382f3f05e42dd48d62c3e0d0",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "1063263306",
+    "title": "Kupotanis/wro2025-future-engineers-robot",
+    "summary": "🤖 Build an innovative robot for WRO 2025, enhancing engineering skills and promoting teamwork in educational robotics competitions.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:52:05Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Kupotanis/wro2025-future-engineers-robot",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Kupotanis/wro2025-future-engineers-robot",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Kupotanis"
+    ],
+    "category": "code",
+    "keywords": [
+      "arduino",
+      "autonomous-robot",
+      "bangladesh",
+      "computer-vision",
+      "machine-learning",
+      "obstacle-avoidance",
+      "raspberry-pi",
+      "robotics",
+      "self-driving-car",
+      "sensor-fusion",
+      "team-project",
+      "wro-2025",
+      "wro-future-engineers"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1063263306,
+      "node_id": "R_kgDOP2AcSg",
+      "name": "wro2025-future-engineers-robot",
+      "full_name": "Kupotanis/wro2025-future-engineers-robot",
+      "private": false,
+      "owner": {
+        "login": "Kupotanis",
+        "id": 156464393,
+        "node_id": "U_kgDOCVN1CQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/156464393?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Kupotanis",
+        "html_url": "https://github.com/Kupotanis",
+        "followers_url": "https://api.github.com/users/Kupotanis/followers",
+        "following_url": "https://api.github.com/users/Kupotanis/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Kupotanis/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Kupotanis/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Kupotanis/subscriptions",
+        "organizations_url": "https://api.github.com/users/Kupotanis/orgs",
+        "repos_url": "https://api.github.com/users/Kupotanis/repos",
+        "events_url": "https://api.github.com/users/Kupotanis/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Kupotanis/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Kupotanis/wro2025-future-engineers-robot",
+      "description": "🤖 Build an innovative robot for WRO 2025, enhancing engineering skills and promoting teamwork in educational robotics competitions.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot",
+      "forks_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/forks",
+      "keys_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/teams",
+      "hooks_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/hooks",
+      "issue_events_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/events",
+      "assignees_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/tags",
+      "blobs_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/languages",
+      "stargazers_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/stargazers",
+      "contributors_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/contributors",
+      "subscribers_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/subscribers",
+      "subscription_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/subscription",
+      "commits_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/merges",
+      "archive_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/downloads",
+      "issues_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Kupotanis/wro2025-future-engineers-robot/deployments",
+      "created_at": "2025-09-24T11:43:26Z",
+      "updated_at": "2026-03-23T06:52:05Z",
+      "pushed_at": "2026-03-23T06:52:02Z",
+      "git_url": "git://github.com/Kupotanis/wro2025-future-engineers-robot.git",
+      "ssh_url": "git@github.com:Kupotanis/wro2025-future-engineers-robot.git",
+      "clone_url": "https://github.com/Kupotanis/wro2025-future-engineers-robot.git",
+      "svn_url": "https://github.com/Kupotanis/wro2025-future-engineers-robot",
+      "homepage": null,
+      "size": 8133,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "arduino",
+        "autonomous-robot",
+        "bangladesh",
+        "computer-vision",
+        "machine-learning",
+        "obstacle-avoidance",
+        "raspberry-pi",
+        "robotics",
+        "self-driving-car",
+        "sensor-fusion",
+        "team-project",
+        "wro-2025",
+        "wro-future-engineers"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "kupotaniswro2025-future-engineers-robot",
+    "dedupeKey": "6d9a24f5d3bb7f49ad8e377c2c5eaf27619cf653bdce47ed468a7dc641baeed2",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "DRMNmadhan/pickdrop_best_smolvla_model",
+    "title": "DRMNmadhan/pickdrop_best_smolvla_model",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:51:29.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/DRMNmadhan/pickdrop_best_smolvla_model",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/DRMNmadhan/pickdrop_best_smolvla_model",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c0e2f17476a47d4377fd89",
+      "id": "DRMNmadhan/pickdrop_best_smolvla_model",
+      "author": "DRMNmadhan",
+      "gated": false,
+      "lastModified": "2026-03-23T06:51:29.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "7e5e45993998fff87d73f42db08ee3a833d57b31",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-23T06:51:29.000Z",
+      "modelId": "DRMNmadhan/pickdrop_best_smolvla_model",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        }
+      ]
+    },
+    "slug": "drmnmadhanpickdropbestsmolvlamodel",
+    "dedupeKey": "8556d9c67a770496bb6277dc3dea4a129351896986a3f9fd32fa3f90d61f8900",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "zzc1126/lerobot_zichao_dataset_gen3_normolized",
+    "title": "zzc1126/lerobot_zichao_dataset_gen3_normolized",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:50:49.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/zzc1126/lerobot_zichao_dataset_gen3_normolized",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/zzc1126/lerobot_zichao_dataset_gen3_normolized",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "zzc1126"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.72,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c0e2c98ef670b5bf6f2a2e",
+      "id": "zzc1126/lerobot_zichao_dataset_gen3_normolized",
+      "author": "zzc1126",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-23T06:50:49.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "d09c4067c6003657a2673bd1dc929cda78a7153b",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-23T06:50:49.000Z",
+      "key": ""
+    },
+    "slug": "zzc1126lerobotzichaodatasetgen3normolized",
+    "dedupeKey": "5c50159475e07e99e03f101fd3b729836790b1bf4c8b411f939e5c589a2fb95f",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "Ursulalala/HomeGuard-8B",
+    "title": "Ursulalala/HomeGuard-8B",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: image-text-to-text；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:48:30.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/Ursulalala/HomeGuard-8B",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/Ursulalala/HomeGuard-8B",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "vision-language",
+      "multimodal",
+      "safety",
+      "robotics",
+      "embodied-ai",
+      "qwen3-vl",
+      "conversational",
+      "en",
+      "arxiv:2603.14367",
+      "base_model:Qwen/Qwen3-VL-8B-Thinking",
+      "base_model:finetune:Qwen/Qwen3-VL-8B-Thinking",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.86,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69bc08b7e53e83b725f70dd0",
+      "id": "Ursulalala/HomeGuard-8B",
+      "author": "Ursulalala",
+      "gated": false,
+      "lastModified": "2026-03-23T06:48:30.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "0766d4cf3eadb577c23c084538aa65e36bc59dc6",
+      "downloads": 0,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_vl",
+        "image-text-to-text",
+        "vision-language",
+        "multimodal",
+        "safety",
+        "robotics",
+        "embodied-ai",
+        "qwen3-vl",
+        "conversational",
+        "en",
+        "arxiv:2603.14367",
+        "base_model:Qwen/Qwen3-VL-8B-Thinking",
+        "base_model:finetune:Qwen/Qwen3-VL-8B-Thinking",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "pipeline_tag": "image-text-to-text",
+      "library_name": "transformers",
+      "createdAt": "2026-03-19T14:31:19.000Z",
+      "modelId": "Ursulalala/HomeGuard-8B",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "added_tokens.json"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "merges.txt"
+        },
+        {
+          "rfilename": "model-00001-of-00004.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00004.safetensors"
+        },
+        {
+          "rfilename": "model-00003-of-00004.safetensors"
+        },
+        {
+          "rfilename": "model-00004-of-00004.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "preprocessor_config.json"
+        },
+        {
+          "rfilename": "special_tokens_map.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        },
+        {
+          "rfilename": "video_preprocessor_config.json"
+        },
+        {
+          "rfilename": "vocab.json"
+        }
+      ]
+    },
+    "slug": "ursulalalahomeguard-8b",
+    "dedupeKey": "212c86b0e673c160dc944d1b8e4c72b4e2a0af92ae38954961214218ac309e52",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "globcy/pi0_no_dac_no_planner",
+    "title": "globcy/pi0_no_dac_no_planner",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T06:48:18.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/globcy/pi0_no_dac_no_planner",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/globcy/pi0_no_dac_no_planner",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "pi0",
+      "dataset:globcy/libero_subtask_lerobot_v2",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c0e1e39e9ee14d337657b7",
+      "id": "globcy/pi0_no_dac_no_planner",
+      "author": "globcy",
+      "gated": false,
+      "lastModified": "2026-03-23T06:48:18.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "d52a2be2167b1ad8ac7b9b895fdee00789f37c76",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "pi0",
+        "dataset:globcy/libero_subtask_lerobot_v2",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-23T06:46:59.000Z",
+      "modelId": "globcy/pi0_no_dac_no_planner",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_5_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "globcypi0nodacnoplanner",
+    "dedupeKey": "93d455755c868cf6802f673de316b0c389a2881abaf8fe856e42dafe949f1426",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
     "externalId": "1189189147",
     "title": "laithmf/visual-verifier",
     "summary": "FANUC robotics iRVision project — object detection & 2D house drawing verification",
@@ -140,7 +2110,11 @@
     "dedupeKey": "ef08713cd46273866559a7f75d29fb02c8e5d1fce53dd457f3c17c3bf3d671d1",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "ef08713cd46273866559a7f75d29fb02c8e5d1fce53dd457f3c17c3bf3d671d1",
+    "createdAt": "2026-03-23T04:22:20Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1183062333",
@@ -275,7 +2249,11 @@
     "dedupeKey": "a517bd4c3261f289ff4bc7b542a619c9b16665a8c961071c65564e4349ea8b03",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "a517bd4c3261f289ff4bc7b542a619c9b16665a8c961071c65564e4349ea8b03",
+    "createdAt": "2026-03-23T04:21:42Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "875378461",
@@ -418,7 +2396,11 @@
     "dedupeKey": "d617024c01ccec47cf1fed374cff69d60a6fed1121a87ddbd8a1a4fa681ad03f",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "d617024c01ccec47cf1fed374cff69d60a6fed1121a87ddbd8a1a4fa681ad03f",
+    "createdAt": "2026-03-23T04:21:15Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1189193225",
@@ -579,7 +2561,11 @@
     "dedupeKey": "27a37141d4d85200f0dc00564bb2cd20c933b216764333dade741303e8e738d2",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "27a37141d4d85200f0dc00564bb2cd20c933b216764333dade741303e8e738d2",
+    "createdAt": "2026-03-23T04:21:08Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1182262319",
@@ -714,7 +2700,11 @@
     "dedupeKey": "66e44a6685d3dbfbd4a406441d0bfb9ea9eb6f68e8aa9da9a725c95daf950720",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "66e44a6685d3dbfbd4a406441d0bfb9ea9eb6f68e8aa9da9a725c95daf950720",
+    "createdAt": "2026-03-23T04:21:02Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1189193032",
@@ -855,7 +2845,11 @@
     "dedupeKey": "1dbfffe3149c544ee44bcf4a8e26b20b483033c99103e1fdfbb60bc65d0d8fb0",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "1dbfffe3149c544ee44bcf4a8e26b20b483033c99103e1fdfbb60bc65d0d8fb0",
+    "createdAt": "2026-03-23T04:20:42Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1189192926",
@@ -1014,7 +3008,11 @@
     "dedupeKey": "c2983c4e594682c50fb793ffc8020228ab0d8f65f6cd553b2e097ecbffce9071",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "c2983c4e594682c50fb793ffc8020228ab0d8f65f6cd553b2e097ecbffce9071",
+    "createdAt": "2026-03-23T04:20:33Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "easyminnn/alinvla_v131_tactile_60000",
@@ -1139,7 +3137,11 @@
     "dedupeKey": "ecc96e7b3ed045ac5bd1f10c4a3223135b850e5b80d723a2bcc1f0f57d70d0ac",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "ecc96e7b3ed045ac5bd1f10c4a3223135b850e5b80d723a2bcc1f0f57d70d0ac",
+    "createdAt": "2026-03-23T04:20:23.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "StrongRoboticsLab/pi05-so100-diverse",
@@ -1271,7 +3273,11 @@
     "dedupeKey": "365092aecca670533f4d9e3db4ef8fec7cd698f537ef8a6962b158c6581b751c",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "365092aecca670533f4d9e3db4ef8fec7cd698f537ef8a6962b158c6581b751c",
+    "createdAt": "2026-03-23T04:20:20.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1168064429",
@@ -1406,7 +3412,11 @@
     "dedupeKey": "eccfdabd65c52d029112353538b8d6a6a54f17e9c5e95e8da91f371719031ca6",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "eccfdabd65c52d029112353538b8d6a6a54f17e9c5e95e8da91f371719031ca6",
+    "createdAt": "2026-03-23T04:20:01Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Huhahahula/your_repo_id",
@@ -1508,7 +3518,11 @@
     "dedupeKey": "13c71bb1c979593ac1cf6836e2299855b1b022c4892a5e22bbafb3acd35b58cf",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "13c71bb1c979593ac1cf6836e2299855b1b022c4892a5e22bbafb3acd35b58cf",
+    "createdAt": "2026-03-23T04:12:51.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "dkhanh/pi05-fyp-3",
@@ -1598,7 +3612,11 @@
     "dedupeKey": "e26b83d7c616464225ab0b88f14f741db8e1992a7be1f1bbb1bf034af232b9af",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "e26b83d7c616464225ab0b88f14f741db8e1992a7be1f1bbb1bf034af232b9af",
+    "createdAt": "2026-03-23T04:10:59.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "taetae77/smolvla-so101-finetuned",
@@ -1694,7 +3712,11 @@
     "dedupeKey": "86d382372d4f0f97d593b6a863c6abcbe307f5494f24b21f8110c322e5ed2d4b",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "86d382372d4f0f97d593b6a863c6abcbe307f5494f24b21f8110c322e5ed2d4b",
+    "createdAt": "2026-03-23T04:06:46.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "668872180",
@@ -1858,7 +3880,7 @@
     ],
     "id": "e1e9fbd1265262c17b7816874ac4c5fff2bdc3911c5e35443691136341b40b1e",
     "createdAt": "2026-03-22T04:22:04Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1999,7 +4021,7 @@
     ],
     "id": "ab32e07af70a9bbe236b12bf5281845ddb47657af090295c9e4f3b57898c1573",
     "createdAt": "2026-03-22T04:21:44Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2144,7 +4166,7 @@
     ],
     "id": "71122fb141472dc7be41d47082f7af19cb3fe1f2b868c71a7b42f27ec1a3fd1d",
     "createdAt": "2026-03-22T04:21:19Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -6310,7 +8332,8 @@
     "tags": [
       "世界模型",
       "视觉语言动作",
-      "仿真训练"
+      "仿真训练",
+      "实验室动态"
     ],
     "relevanceScore": 0.63,
     "trustScore": 0.92,
@@ -6390,7 +8413,11 @@
     "dedupeKey": "4d926a6bc0cc14e354b4268ec3adbe37e8483cfb2506ca1b74422c48fdd00ff5",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "4d926a6bc0cc14e354b4268ec3adbe37e8483cfb2506ca1b74422c48fdd00ff5",
+    "createdAt": "2026-03-20T14:23:32Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19822v1",
@@ -6425,7 +8452,9 @@
       "vision-language-action"
     ],
     "tags": [
-      "视觉语言动作"
+      "视觉语言动作",
+      "数据集",
+      "实验室动态"
     ],
     "relevanceScore": 0.55,
     "trustScore": 0.92,
@@ -6492,7 +8521,11 @@
     "dedupeKey": "0be9d272fb0eab3355c887ad86875cdd7b275e7679dd41ea1c7272ae6d0b0039",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "0be9d272fb0eab3355c887ad86875cdd7b275e7679dd41ea1c7272ae6d0b0039",
+    "createdAt": "2026-03-20T10:08:42Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19782v1",
@@ -6606,7 +8639,11 @@
     "dedupeKey": "49bbb1ddbaa829d844c4701ba36517d88dd03053537715215f8e2bda9b9ff5c6",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "49bbb1ddbaa829d844c4701ba36517d88dd03053537715215f8e2bda9b9ff5c6",
+    "createdAt": "2026-03-20T09:20:12Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "milpdio/ablation_lora_5",
@@ -6918,7 +8955,11 @@
     "dedupeKey": "828640061cb4658e416334eac0f95719122cc507ee2454e97412f693992bacf1",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "828640061cb4658e416334eac0f95719122cc507ee2454e97412f693992bacf1",
+    "createdAt": "2026-03-20T07:27:09Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "928821065",
@@ -8627,7 +10668,9 @@
     ],
     "tags": [
       "具身智能",
-      "仿真训练"
+      "仿真训练",
+      "数据集",
+      "实验室动态"
     ],
     "relevanceScore": 0.49,
     "trustScore": 0.92,
@@ -8694,7 +10737,11 @@
     "dedupeKey": "875954d86d6e1993177531e3d048baa4604018360535adf4f25b1758e33a5b11",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "875954d86d6e1993177531e3d048baa4604018360535adf4f25b1758e33a5b11",
+    "createdAt": "2026-03-20T03:25:41Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19418v1",
@@ -8782,7 +10829,11 @@
     "dedupeKey": "9e461f4f2746160bede85bd5514c154addea0b6318923e55bd2ba6aa6a1cc7b0",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "9e461f4f2746160bede85bd5514c154addea0b6318923e55bd2ba6aa6a1cc7b0",
+    "createdAt": "2026-03-19T19:24:14Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "sample-humanoid-policy",
@@ -8912,7 +10963,11 @@
     "dedupeKey": "39d5bb2ac4f7cce77ab4d18ba74069223a2f8b28b0c8b38b753865dd988a4c02",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "39d5bb2ac4f7cce77ab4d18ba74069223a2f8b28b0c8b38b753865dd988a4c02",
+    "createdAt": "2026-03-19T18:21:44Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19370v1",
@@ -8957,7 +11012,8 @@
     "tags": [
       "机器人学习",
       "机械臂操作",
-      "开源发布"
+      "开源发布",
+      "实验室动态"
     ],
     "relevanceScore": 0.57,
     "trustScore": 0.92,
@@ -9051,7 +11107,11 @@
     "dedupeKey": "93ebce52a375c514c5ba4b101dcc3ba01c50526310f1cd5e1f9441f199918eed",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "93ebce52a375c514c5ba4b101dcc3ba01c50526310f1cd5e1f9441f199918eed",
+    "createdAt": "2026-03-19T18:04:03Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19233v1",
@@ -9084,7 +11144,8 @@
     "tags": [
       "机械臂操作",
       "视觉语言动作",
-      "机器人视觉语言模型"
+      "机器人视觉语言模型",
+      "数据集"
     ],
     "relevanceScore": 0.97,
     "trustScore": 0.92,
@@ -9165,7 +11226,8 @@
       "manipulation"
     ],
     "tags": [
-      "机械臂操作"
+      "机械臂操作",
+      "实验室动态"
     ],
     "relevanceScore": 0.57,
     "trustScore": 0.92,
@@ -9258,7 +11320,9 @@
     ],
     "tags": [
       "世界模型",
-      "视觉语言动作"
+      "视觉语言动作",
+      "数据集",
+      "实验室动态"
     ],
     "relevanceScore": 0.55,
     "trustScore": 0.92,
@@ -9370,7 +11434,9 @@
       "机器人学习",
       "机械臂操作",
       "世界模型",
-      "开源发布"
+      "开源发布",
+      "数据集",
+      "实验室动态"
     ],
     "relevanceScore": 0.71,
     "trustScore": 0.92,
@@ -9596,7 +11662,8 @@
     "tags": [
       "机械臂操作",
       "视觉语言动作",
-      "开源发布"
+      "开源发布",
+      "数据集"
     ],
     "relevanceScore": 0.83,
     "trustScore": 0.92,
@@ -9879,7 +11946,9 @@
     "tags": [
       "具身智能",
       "机械臂操作",
-      "开源发布"
+      "开源发布",
+      "数据集",
+      "实验室动态"
     ],
     "relevanceScore": 0.63,
     "trustScore": 0.92,
@@ -9977,7 +12046,8 @@
       "具身智能",
       "机械臂操作",
       "视觉语言动作",
-      "机器人视觉语言模型"
+      "机器人视觉语言模型",
+      "数据集"
     ],
     "relevanceScore": 0.91,
     "trustScore": 0.92,
@@ -10074,7 +12144,8 @@
     "tags": [
       "机器人学习",
       "人形机器人",
-      "机器人视觉语言模型"
+      "机器人视觉语言模型",
+      "实验室动态"
     ],
     "relevanceScore": 0.71,
     "trustScore": 0.92,
@@ -10162,7 +12233,8 @@
       "机器人学习",
       "视觉语言动作",
       "机器人视觉语言模型",
-      "仿真训练"
+      "仿真训练",
+      "实验室动态"
     ],
     "relevanceScore": 0.89,
     "trustScore": 0.92,

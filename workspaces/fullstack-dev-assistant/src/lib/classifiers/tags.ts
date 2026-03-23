@@ -4,9 +4,18 @@ export function inferCategory(title: string, summary: string, sourceType: Source
   const text = `${title} ${summary}`.toLowerCase();
 
   if (sourceType === 'github') return 'code';
-  if (text.includes('dataset') || text.includes('benchmark')) return 'dataset';
-  if (text.includes('workshop') || text.includes('conference') || text.includes('call for papers')) return 'conference';
-  if (text.includes('lab') || text.includes('institute') || sourceType === 'lab') return 'lab';
+  if (sourceType === 'conference') return 'conference';
+  if (sourceType === 'lab') return 'lab';
+  if (
+    text.includes('dataset') ||
+    text.includes('benchmark') ||
+    text.includes('corpus') ||
+    text.includes('hugging face dataset')
+  )
+    return 'dataset';
+  if (text.includes('workshop') || text.includes('conference') || text.includes('call for papers') || text.includes('openreview'))
+    return 'conference';
+  if (text.includes('lab') || text.includes('institute') || text.includes('research group') || text.includes('homepage')) return 'lab';
   if (text.includes('model') || text.includes('paper') || sourceType === 'arxiv') return 'paper';
   if (sourceType === 'huggingface') return 'project';
   return 'project';
@@ -26,6 +35,9 @@ export function inferTags(title: string, summary: string) {
     机器人视觉语言模型: ['robotics vlm', 'vlm'],
     仿真训练: ['sim2real', 'simulation'],
     开源发布: ['open-source', 'github'],
+    数据集: ['dataset', 'benchmark', 'corpus', 'hugging face dataset'],
+    会议资讯: ['conference', 'workshop', 'call for papers', 'openreview'],
+    实验室动态: ['lab', 'research group', 'homepage', 'institute'],
   };
 
   for (const [tag, needles] of Object.entries(rules)) {

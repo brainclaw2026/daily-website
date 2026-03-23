@@ -1,6 +1,7 @@
-name: ingest
+name: daily-ingest-and-deploy
 
 on:
+  # Runs every day at 08:00 Asia/Shanghai (00:00 UTC)
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
@@ -22,6 +23,10 @@ jobs:
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
           NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+          INGEST_LOOKBACK_DAYS: ${{ secrets.INGEST_LOOKBACK_DAYS }}
+          INGEST_MAX_ITEMS_PER_SOURCE: ${{ secrets.INGEST_MAX_ITEMS_PER_SOURCE }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ secrets.OPENROUTER_MODEL }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}

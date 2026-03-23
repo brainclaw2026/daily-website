@@ -64,3 +64,24 @@ bash scripts/remove-local-cron.sh
 - 当前采集源仍是本地 sample source，用于先打通链路
 - 下一步应替换为真实 RSS / arXiv / GitHub / Hugging Face 数据源
 - 当前存储为本地 JSON，适合单机 MVP，不适合正式多用户生产
+
+## 固定线上更新流程
+当前已固定为：
+
+1. GitHub Actions 每天北京时间 **08:00** 自动执行采集
+2. 若 `data/content-items.json` 有变化，则自动 commit 并 push 到 `main`
+3. Vercel 监听 `main`，自动部署最新提交
+4. 网站自动更新
+
+线上建议至少配置这些 GitHub Secrets：
+
+```env
+NEXT_PUBLIC_SITE_URL=https://embodied-ai-daily.vercel.app
+CRON_SECRET=<your-secret>
+INGEST_LOOKBACK_DAYS=7
+INGEST_MAX_ITEMS_PER_SOURCE=20
+OPENROUTER_API_KEY=<optional-if-needed>
+OPENROUTER_MODEL=openrouter/auto
+```
+
+如果未配置某些 Secrets，代码会回退到默认值，但定时采集的稳定性会变差。

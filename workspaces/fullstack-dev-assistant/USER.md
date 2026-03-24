@@ -10,7 +10,9 @@ _Learn about the person you're helping. Update this as you go._
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+- 用户提到“网站”时，默认指 https://embodied-ai-daily.vercel.app
+- 偏好冷静直接的交流风格。
+
 
 ---
 

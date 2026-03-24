@@ -1,5 +1,2082 @@
 [
   {
+    "externalId": "1175515478",
+    "title": "satsura/emo-server",
+    "summary": "EMO robot custom AI server - proxy, AI backend, voice",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:15:30Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/satsura/emo-server",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/satsura/emo-server",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "satsura"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1175515478,
+      "node_id": "R_kgDORhDxVg",
+      "name": "emo-server",
+      "full_name": "satsura/emo-server",
+      "private": false,
+      "owner": {
+        "login": "satsura",
+        "id": 92633,
+        "node_id": "MDQ6VXNlcjkyNjMz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/92633?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/satsura",
+        "html_url": "https://github.com/satsura",
+        "followers_url": "https://api.github.com/users/satsura/followers",
+        "following_url": "https://api.github.com/users/satsura/following{/other_user}",
+        "gists_url": "https://api.github.com/users/satsura/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/satsura/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/satsura/subscriptions",
+        "organizations_url": "https://api.github.com/users/satsura/orgs",
+        "repos_url": "https://api.github.com/users/satsura/repos",
+        "events_url": "https://api.github.com/users/satsura/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/satsura/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/satsura/emo-server",
+      "description": "EMO robot custom AI server - proxy, AI backend, voice",
+      "fork": false,
+      "url": "https://api.github.com/repos/satsura/emo-server",
+      "forks_url": "https://api.github.com/repos/satsura/emo-server/forks",
+      "keys_url": "https://api.github.com/repos/satsura/emo-server/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/satsura/emo-server/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/satsura/emo-server/teams",
+      "hooks_url": "https://api.github.com/repos/satsura/emo-server/hooks",
+      "issue_events_url": "https://api.github.com/repos/satsura/emo-server/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/satsura/emo-server/events",
+      "assignees_url": "https://api.github.com/repos/satsura/emo-server/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/satsura/emo-server/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/satsura/emo-server/tags",
+      "blobs_url": "https://api.github.com/repos/satsura/emo-server/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/satsura/emo-server/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/satsura/emo-server/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/satsura/emo-server/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/satsura/emo-server/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/satsura/emo-server/languages",
+      "stargazers_url": "https://api.github.com/repos/satsura/emo-server/stargazers",
+      "contributors_url": "https://api.github.com/repos/satsura/emo-server/contributors",
+      "subscribers_url": "https://api.github.com/repos/satsura/emo-server/subscribers",
+      "subscription_url": "https://api.github.com/repos/satsura/emo-server/subscription",
+      "commits_url": "https://api.github.com/repos/satsura/emo-server/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/satsura/emo-server/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/satsura/emo-server/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/satsura/emo-server/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/satsura/emo-server/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/satsura/emo-server/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/satsura/emo-server/merges",
+      "archive_url": "https://api.github.com/repos/satsura/emo-server/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/satsura/emo-server/downloads",
+      "issues_url": "https://api.github.com/repos/satsura/emo-server/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/satsura/emo-server/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/satsura/emo-server/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/satsura/emo-server/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/satsura/emo-server/labels{/name}",
+      "releases_url": "https://api.github.com/repos/satsura/emo-server/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/satsura/emo-server/deployments",
+      "created_at": "2026-03-07T20:18:54Z",
+      "updated_at": "2026-03-24T06:15:30Z",
+      "pushed_at": "2026-03-24T06:15:26Z",
+      "git_url": "git://github.com/satsura/emo-server.git",
+      "ssh_url": "git@github.com:satsura/emo-server.git",
+      "clone_url": "https://github.com/satsura/emo-server.git",
+      "svn_url": "https://github.com/satsura/emo-server",
+      "homepage": null,
+      "size": 163,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "satsuraemo-server",
+    "dedupeKey": "e0aaa1183da1d220b06954c1cad780bd8313805f217120e3116abb400d95a8be",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1178893337",
+    "title": "JuKimpfler/BotConectingWifiSystem",
+    "summary": "BCWS of the Roboter AG Markdorf",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:15:20Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/JuKimpfler/BotConectingWifiSystem",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/JuKimpfler/BotConectingWifiSystem",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "JuKimpfler"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1178893337,
+      "node_id": "R_kgDORkR8GQ",
+      "name": "BotConectingWifiSystem",
+      "full_name": "JuKimpfler/BotConectingWifiSystem",
+      "private": false,
+      "owner": {
+        "login": "JuKimpfler",
+        "id": 215371348,
+        "node_id": "U_kgDODNZOVA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/215371348?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/JuKimpfler",
+        "html_url": "https://github.com/JuKimpfler",
+        "followers_url": "https://api.github.com/users/JuKimpfler/followers",
+        "following_url": "https://api.github.com/users/JuKimpfler/following{/other_user}",
+        "gists_url": "https://api.github.com/users/JuKimpfler/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/JuKimpfler/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/JuKimpfler/subscriptions",
+        "organizations_url": "https://api.github.com/users/JuKimpfler/orgs",
+        "repos_url": "https://api.github.com/users/JuKimpfler/repos",
+        "events_url": "https://api.github.com/users/JuKimpfler/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/JuKimpfler/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/JuKimpfler/BotConectingWifiSystem",
+      "description": "BCWS of the Roboter AG Markdorf",
+      "fork": false,
+      "url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem",
+      "forks_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/forks",
+      "keys_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/teams",
+      "hooks_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/hooks",
+      "issue_events_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/events",
+      "assignees_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/tags",
+      "blobs_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/languages",
+      "stargazers_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/stargazers",
+      "contributors_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/contributors",
+      "subscribers_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/subscribers",
+      "subscription_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/subscription",
+      "commits_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/merges",
+      "archive_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/downloads",
+      "issues_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/labels{/name}",
+      "releases_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/JuKimpfler/BotConectingWifiSystem/deployments",
+      "created_at": "2026-03-11T13:28:44Z",
+      "updated_at": "2026-03-24T06:15:20Z",
+      "pushed_at": "2026-03-24T06:15:17Z",
+      "git_url": "git://github.com/JuKimpfler/BotConectingWifiSystem.git",
+      "ssh_url": "git@github.com:JuKimpfler/BotConectingWifiSystem.git",
+      "clone_url": "https://github.com/JuKimpfler/BotConectingWifiSystem.git",
+      "svn_url": "https://github.com/JuKimpfler/BotConectingWifiSystem",
+      "homepage": null,
+      "size": 455,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "C++",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 1,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 1,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "jukimpflerbotconectingwifisystem",
+    "dedupeKey": "142894bf05628db3f16cf564c55c264f3e6d19403a52905acbe373a3108a837b",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "moonyh1230/nc_bi_piper_folding_mj_A",
+    "title": "moonyh1230/nc_bi_piper_folding_mj_A",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:15:20.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/moonyh1230/nc_bi_piper_folding_mj_A",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/moonyh1230/nc_bi_piper_folding_mj_A",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "moonyh1230"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c22bdeab4953095ef406c3",
+      "id": "moonyh1230/nc_bi_piper_folding_mj_A",
+      "author": "moonyh1230",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-24T06:15:20.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "62e664f89cfbf531c6c984f13a5c5f3893e52a35",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"bi_piper_follower\",\n    \"total_episodes\": 20,\n    \"total_frames\": 93697,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:20\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\": \"videos/{video_key}/chunk-{chunk_index:03d}/file-{file_index:03d}.mp4\"… See the full description on the dataset page: https://huggingface.co/datasets/moonyh1230/nc_bi_piper_folding_mj_A.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-24T06:14:54.000Z",
+      "key": ""
+    },
+    "slug": "moonyh1230ncbipiperfoldingmja",
+    "dedupeKey": "712668cde6e9f9a0c6a538925d68a9f364d57a6730a9c5c601163f565f17a174",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "1115112543",
+    "title": "heslabs/NV-Robotics",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:15:19Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/heslabs/NV-Robotics",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/heslabs/NV-Robotics",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "heslabs"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1115112543,
+      "node_id": "R_kgDOQndEXw",
+      "name": "NV-Robotics",
+      "full_name": "heslabs/NV-Robotics",
+      "private": false,
+      "owner": {
+        "login": "heslabs",
+        "id": 182086115,
+        "node_id": "U_kgDOCtpp4w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/182086115?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/heslabs",
+        "html_url": "https://github.com/heslabs",
+        "followers_url": "https://api.github.com/users/heslabs/followers",
+        "following_url": "https://api.github.com/users/heslabs/following{/other_user}",
+        "gists_url": "https://api.github.com/users/heslabs/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/heslabs/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/heslabs/subscriptions",
+        "organizations_url": "https://api.github.com/users/heslabs/orgs",
+        "repos_url": "https://api.github.com/users/heslabs/repos",
+        "events_url": "https://api.github.com/users/heslabs/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/heslabs/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/heslabs/NV-Robotics",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/heslabs/NV-Robotics",
+      "forks_url": "https://api.github.com/repos/heslabs/NV-Robotics/forks",
+      "keys_url": "https://api.github.com/repos/heslabs/NV-Robotics/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/heslabs/NV-Robotics/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/heslabs/NV-Robotics/teams",
+      "hooks_url": "https://api.github.com/repos/heslabs/NV-Robotics/hooks",
+      "issue_events_url": "https://api.github.com/repos/heslabs/NV-Robotics/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/heslabs/NV-Robotics/events",
+      "assignees_url": "https://api.github.com/repos/heslabs/NV-Robotics/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/heslabs/NV-Robotics/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/heslabs/NV-Robotics/tags",
+      "blobs_url": "https://api.github.com/repos/heslabs/NV-Robotics/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/heslabs/NV-Robotics/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/heslabs/NV-Robotics/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/heslabs/NV-Robotics/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/heslabs/NV-Robotics/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/heslabs/NV-Robotics/languages",
+      "stargazers_url": "https://api.github.com/repos/heslabs/NV-Robotics/stargazers",
+      "contributors_url": "https://api.github.com/repos/heslabs/NV-Robotics/contributors",
+      "subscribers_url": "https://api.github.com/repos/heslabs/NV-Robotics/subscribers",
+      "subscription_url": "https://api.github.com/repos/heslabs/NV-Robotics/subscription",
+      "commits_url": "https://api.github.com/repos/heslabs/NV-Robotics/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/heslabs/NV-Robotics/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/heslabs/NV-Robotics/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/heslabs/NV-Robotics/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/heslabs/NV-Robotics/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/heslabs/NV-Robotics/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/heslabs/NV-Robotics/merges",
+      "archive_url": "https://api.github.com/repos/heslabs/NV-Robotics/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/heslabs/NV-Robotics/downloads",
+      "issues_url": "https://api.github.com/repos/heslabs/NV-Robotics/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/heslabs/NV-Robotics/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/heslabs/NV-Robotics/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/heslabs/NV-Robotics/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/heslabs/NV-Robotics/labels{/name}",
+      "releases_url": "https://api.github.com/repos/heslabs/NV-Robotics/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/heslabs/NV-Robotics/deployments",
+      "created_at": "2025-12-12T11:04:22Z",
+      "updated_at": "2026-03-24T06:15:19Z",
+      "pushed_at": "2026-03-24T06:15:41Z",
+      "git_url": "git://github.com/heslabs/NV-Robotics.git",
+      "ssh_url": "git@github.com:heslabs/NV-Robotics.git",
+      "clone_url": "https://github.com/heslabs/NV-Robotics.git",
+      "svn_url": "https://github.com/heslabs/NV-Robotics",
+      "homepage": null,
+      "size": 2,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "heslabsnv-robotics",
+    "dedupeKey": "137a6fbd31c33062749354ccbbb3f3d42230b097b9587f8fb3c2ede2f967e54c",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "230744355",
+    "title": "Maheee000/embodied-temporal-reasoning",
+    "summary": "🌐 Enhance embodied AI with continuous vision-language understanding for dynamic environment adaptation and achieve accurate multi-step temporal reasoning.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:15:10Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Maheee000/embodied-temporal-reasoning",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Maheee000/embodied-temporal-reasoning",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Maheee000"
+    ],
+    "category": "code",
+    "keywords": [
+      "computer-vision",
+      "embodied-agent",
+      "embodied-ai",
+      "embodied-artificial-intelligence",
+      "habitat-sim",
+      "llava",
+      "multimodal",
+      "multimodal-deep-learning",
+      "robotics",
+      "temporal-reasoning"
+    ],
+    "tags": [
+      "具身智能"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 230744355,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMzA3NDQzNTU=",
+      "name": "embodied-temporal-reasoning",
+      "full_name": "Maheee000/embodied-temporal-reasoning",
+      "private": false,
+      "owner": {
+        "login": "Maheee000",
+        "id": 59334187,
+        "node_id": "MDQ6VXNlcjU5MzM0MTg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59334187?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Maheee000",
+        "html_url": "https://github.com/Maheee000",
+        "followers_url": "https://api.github.com/users/Maheee000/followers",
+        "following_url": "https://api.github.com/users/Maheee000/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Maheee000/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Maheee000/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Maheee000/subscriptions",
+        "organizations_url": "https://api.github.com/users/Maheee000/orgs",
+        "repos_url": "https://api.github.com/users/Maheee000/repos",
+        "events_url": "https://api.github.com/users/Maheee000/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Maheee000/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Maheee000/embodied-temporal-reasoning",
+      "description": "🌐 Enhance embodied AI with continuous vision-language understanding for dynamic environment adaptation and achieve accurate multi-step temporal reasoning.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning",
+      "forks_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/forks",
+      "keys_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/teams",
+      "hooks_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/hooks",
+      "issue_events_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/events",
+      "assignees_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/tags",
+      "blobs_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/languages",
+      "stargazers_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/stargazers",
+      "contributors_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/contributors",
+      "subscribers_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/subscribers",
+      "subscription_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/subscription",
+      "commits_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/merges",
+      "archive_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/downloads",
+      "issues_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Maheee000/embodied-temporal-reasoning/deployments",
+      "created_at": "2019-12-29T12:02:55Z",
+      "updated_at": "2026-03-24T06:15:10Z",
+      "pushed_at": "2026-03-24T06:15:07Z",
+      "git_url": "git://github.com/Maheee000/embodied-temporal-reasoning.git",
+      "ssh_url": "git@github.com:Maheee000/embodied-temporal-reasoning.git",
+      "clone_url": "https://github.com/Maheee000/embodied-temporal-reasoning.git",
+      "svn_url": "https://github.com/Maheee000/embodied-temporal-reasoning",
+      "homepage": null,
+      "size": 9572,
+      "stargazers_count": 3,
+      "watchers_count": 3,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "computer-vision",
+        "embodied-agent",
+        "embodied-ai",
+        "embodied-artificial-intelligence",
+        "habitat-sim",
+        "llava",
+        "multimodal",
+        "multimodal-deep-learning",
+        "robotics",
+        "temporal-reasoning"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 3,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "maheee000embodied-temporal-reasoning",
+    "dedupeKey": "a834df7dae8977f2d1da8ac4c68784821ab631b6c2de2db6d4c84aaacd9dbe7a",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "av120/record-test-2-cameras-31",
+    "title": "av120/record-test-2-cameras-31",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:15:07.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/av120/record-test-2-cameras-31",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/av120/record-test-2-cameras-31",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "av120"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c2180019d6a09b73f7d90d",
+      "id": "av120/record-test-2-cameras-31",
+      "author": "av120",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-24T06:15:07.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "e64b67f7d118cd4382aace57df6433e39670d081",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 25,\n    \"total_frames\": 30577,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:25\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/av120/record-test-2-cameras-31.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-24T04:50:08.000Z",
+      "key": ""
+    },
+    "slug": "av120record-test-2-cameras-31",
+    "dedupeKey": "0db17c993633ef797066354b502327f8212707183b309592bf25245a5232eefe",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "439041248",
+    "title": "ainolf/PX4-ROS2-SLAM-Control",
+    "summary": "🚀 Integrate PX4, ROS 2, and Gazebo for drone SLAM, mapping, and control with LiDAR and RGBD camera support in simulation.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:15:03Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/ainolf/PX4-ROS2-SLAM-Control",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/ainolf/PX4-ROS2-SLAM-Control",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "ainolf"
+    ],
+    "category": "code",
+    "keywords": [
+      "drl",
+      "drone",
+      "gazebo",
+      "lidar",
+      "px4",
+      "px4-autopilot",
+      "reinforcement-learning",
+      "rgbd",
+      "rl",
+      "robotics",
+      "ros2",
+      "ros2-jazzy",
+      "slam",
+      "uav",
+      "yolo"
+    ],
+    "tags": [
+      "仿真训练"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 439041248,
+      "node_id": "R_kgDOGis84A",
+      "name": "PX4-ROS2-SLAM-Control",
+      "full_name": "ainolf/PX4-ROS2-SLAM-Control",
+      "private": false,
+      "owner": {
+        "login": "ainolf",
+        "id": 95849337,
+        "node_id": "U_kgDOBbaLeQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95849337?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ainolf",
+        "html_url": "https://github.com/ainolf",
+        "followers_url": "https://api.github.com/users/ainolf/followers",
+        "following_url": "https://api.github.com/users/ainolf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ainolf/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ainolf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ainolf/subscriptions",
+        "organizations_url": "https://api.github.com/users/ainolf/orgs",
+        "repos_url": "https://api.github.com/users/ainolf/repos",
+        "events_url": "https://api.github.com/users/ainolf/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ainolf/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/ainolf/PX4-ROS2-SLAM-Control",
+      "description": "🚀 Integrate PX4, ROS 2, and Gazebo for drone SLAM, mapping, and control with LiDAR and RGBD camera support in simulation.",
+      "fork": false,
+      "url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control",
+      "forks_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/forks",
+      "keys_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/teams",
+      "hooks_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/hooks",
+      "issue_events_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/events",
+      "assignees_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/tags",
+      "blobs_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/languages",
+      "stargazers_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/stargazers",
+      "contributors_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/contributors",
+      "subscribers_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/subscribers",
+      "subscription_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/subscription",
+      "commits_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/merges",
+      "archive_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/downloads",
+      "issues_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/labels{/name}",
+      "releases_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/ainolf/PX4-ROS2-SLAM-Control/deployments",
+      "created_at": "2021-12-16T15:37:18Z",
+      "updated_at": "2026-03-24T06:15:03Z",
+      "pushed_at": "2026-03-24T06:14:59Z",
+      "git_url": "git://github.com/ainolf/PX4-ROS2-SLAM-Control.git",
+      "ssh_url": "git@github.com:ainolf/PX4-ROS2-SLAM-Control.git",
+      "clone_url": "https://github.com/ainolf/PX4-ROS2-SLAM-Control.git",
+      "svn_url": "https://github.com/ainolf/PX4-ROS2-SLAM-Control",
+      "homepage": null,
+      "size": 6024,
+      "stargazers_count": 9,
+      "watchers_count": 9,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "drl",
+        "drone",
+        "gazebo",
+        "lidar",
+        "px4",
+        "px4-autopilot",
+        "reinforcement-learning",
+        "rgbd",
+        "rl",
+        "robotics",
+        "ros2",
+        "ros2-jazzy",
+        "slam",
+        "uav",
+        "yolo"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 9,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "ainolfpx4-ros2-slam-control",
+    "dedupeKey": "26873e8fc48c9eb7bfa5cfe0d23e412ec518a1d097099944ac26642722d0c081",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1190043946",
+    "title": "rajeshgupta0/Rhythm-2026",
+    "summary": "Rhythm is a vibrant technical and cultural fest that blends innovation with creativity. From coding, robotics, and e-sports to dance, music, fashion, and drama, it offers a dynamic platform for talent and ideas to shine, celebrating the perfect harmony of technology and culture.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:14:51Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/rajeshgupta0/Rhythm-2026",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/rajeshgupta0/Rhythm-2026",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "rajeshgupta0"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1190043946,
+      "node_id": "R_kgDORu6hKg",
+      "name": "Rhythm-2026",
+      "full_name": "rajeshgupta0/Rhythm-2026",
+      "private": false,
+      "owner": {
+        "login": "rajeshgupta0",
+        "id": 186720501,
+        "node_id": "U_kgDOCyEg9Q",
+        "avatar_url": "https://avatars.githubusercontent.com/u/186720501?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rajeshgupta0",
+        "html_url": "https://github.com/rajeshgupta0",
+        "followers_url": "https://api.github.com/users/rajeshgupta0/followers",
+        "following_url": "https://api.github.com/users/rajeshgupta0/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rajeshgupta0/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rajeshgupta0/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rajeshgupta0/subscriptions",
+        "organizations_url": "https://api.github.com/users/rajeshgupta0/orgs",
+        "repos_url": "https://api.github.com/users/rajeshgupta0/repos",
+        "events_url": "https://api.github.com/users/rajeshgupta0/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rajeshgupta0/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/rajeshgupta0/Rhythm-2026",
+      "description": "Rhythm is a vibrant technical and cultural fest that blends innovation with creativity. From coding, robotics, and e-sports to dance, music, fashion, and drama, it offers a dynamic platform for talent and ideas to shine, celebrating the perfect harmony of technology and culture.",
+      "fork": false,
+      "url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026",
+      "forks_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/forks",
+      "keys_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/teams",
+      "hooks_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/hooks",
+      "issue_events_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/events",
+      "assignees_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/tags",
+      "blobs_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/languages",
+      "stargazers_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/stargazers",
+      "contributors_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/contributors",
+      "subscribers_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/subscribers",
+      "subscription_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/subscription",
+      "commits_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/merges",
+      "archive_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/downloads",
+      "issues_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/labels{/name}",
+      "releases_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/rajeshgupta0/Rhythm-2026/deployments",
+      "created_at": "2026-03-23T23:11:26Z",
+      "updated_at": "2026-03-24T06:14:51Z",
+      "pushed_at": "2026-03-24T06:14:48Z",
+      "git_url": "git://github.com/rajeshgupta0/Rhythm-2026.git",
+      "ssh_url": "git@github.com:rajeshgupta0/Rhythm-2026.git",
+      "clone_url": "https://github.com/rajeshgupta0/Rhythm-2026.git",
+      "svn_url": "https://github.com/rajeshgupta0/Rhythm-2026",
+      "homepage": null,
+      "size": 36832,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 1,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 1,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "rajeshgupta0rhythm-2026",
+    "dedupeKey": "859ab79dc503189bf4284fcc62e9d29a2e8a7e883f228f691db44530519b0400",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1069172587",
+    "title": "Naqiu06/KUKA-Robotics",
+    "summary": "🤖 Streamline your KUKA robot for spot welding and handling with this complete program and configuration backup for KRC4 controllers.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:14:46Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Naqiu06/KUKA-Robotics",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Naqiu06/KUKA-Robotics",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Naqiu06"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1069172587,
+      "node_id": "R_kgDOP7pHaw",
+      "name": "KUKA-Robotics",
+      "full_name": "Naqiu06/KUKA-Robotics",
+      "private": false,
+      "owner": {
+        "login": "Naqiu06",
+        "id": 137095241,
+        "node_id": "U_kgDOCCvoSQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/137095241?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Naqiu06",
+        "html_url": "https://github.com/Naqiu06",
+        "followers_url": "https://api.github.com/users/Naqiu06/followers",
+        "following_url": "https://api.github.com/users/Naqiu06/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Naqiu06/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Naqiu06/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Naqiu06/subscriptions",
+        "organizations_url": "https://api.github.com/users/Naqiu06/orgs",
+        "repos_url": "https://api.github.com/users/Naqiu06/repos",
+        "events_url": "https://api.github.com/users/Naqiu06/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Naqiu06/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Naqiu06/KUKA-Robotics",
+      "description": "🤖 Streamline your KUKA robot for spot welding and handling with this complete program and configuration backup for KRC4 controllers.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics",
+      "forks_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/forks",
+      "keys_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/teams",
+      "hooks_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/hooks",
+      "issue_events_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/events",
+      "assignees_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/tags",
+      "blobs_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/languages",
+      "stargazers_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/stargazers",
+      "contributors_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/contributors",
+      "subscribers_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/subscribers",
+      "subscription_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/subscription",
+      "commits_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/merges",
+      "archive_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/downloads",
+      "issues_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Naqiu06/KUKA-Robotics/deployments",
+      "created_at": "2025-10-03T14:11:04Z",
+      "updated_at": "2026-03-24T06:14:46Z",
+      "pushed_at": "2026-03-24T06:14:43Z",
+      "git_url": "git://github.com/Naqiu06/KUKA-Robotics.git",
+      "ssh_url": "git@github.com:Naqiu06/KUKA-Robotics.git",
+      "clone_url": "https://github.com/Naqiu06/KUKA-Robotics.git",
+      "svn_url": "https://github.com/Naqiu06/KUKA-Robotics",
+      "homepage": null,
+      "size": 1918,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "naqiu06kuka-robotics",
+    "dedupeKey": "2f756aa5972d24e6fe21be503a92ea647ca8447a390fae0bd9f1a2d1980b09ed",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "humjie/diffusion_bimanual-so101-fold-towel_60",
+    "title": "humjie/diffusion_bimanual-so101-fold-towel_60",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:14:42.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/humjie/diffusion_bimanual-so101-fold-towel_60",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/humjie/diffusion_bimanual-so101-fold-towel_60",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "diffusion",
+      "robotics",
+      "dataset:humjie/bimanual-so101-fold-towel",
+      "arxiv:2303.04137",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c2288df6124bc9f0997532",
+      "id": "humjie/diffusion_bimanual-so101-fold-towel_60",
+      "author": "humjie",
+      "gated": false,
+      "lastModified": "2026-03-24T06:14:42.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "619acae85551f52df70fd2931339f064aa7ccaae",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "diffusion",
+        "robotics",
+        "dataset:humjie/bimanual-so101-fold-towel",
+        "arxiv:2303.04137",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-24T06:00:45.000Z",
+      "modelId": "humjie/diffusion_bimanual-so101-fold-towel_60",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "humjiediffusionbimanual-so101-fold-towel60",
+    "dedupeKey": "c0abd6889e17d0b2398193f8eca82c06df5f69fb3bbef73f5e27663bef1911c3",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "1127620405",
+    "title": "DGIST-DORI/dori",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:14:41Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/DGIST-DORI/dori",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/DGIST-DORI/dori",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "DGIST-DORI"
+    ],
+    "category": "code",
+    "keywords": [
+      "artificial-intelligence",
+      "autonomous-driving",
+      "human-robot-interaction",
+      "python",
+      "robotics",
+      "ros"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1127620405,
+      "node_id": "R_kgDOQzYfNQ",
+      "name": "dori",
+      "full_name": "DGIST-DORI/dori",
+      "private": false,
+      "owner": {
+        "login": "DGIST-DORI",
+        "id": 264155485,
+        "node_id": "O_kgDOD76xXQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/264155485?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/DGIST-DORI",
+        "html_url": "https://github.com/DGIST-DORI",
+        "followers_url": "https://api.github.com/users/DGIST-DORI/followers",
+        "following_url": "https://api.github.com/users/DGIST-DORI/following{/other_user}",
+        "gists_url": "https://api.github.com/users/DGIST-DORI/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/DGIST-DORI/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/DGIST-DORI/subscriptions",
+        "organizations_url": "https://api.github.com/users/DGIST-DORI/orgs",
+        "repos_url": "https://api.github.com/users/DGIST-DORI/repos",
+        "events_url": "https://api.github.com/users/DGIST-DORI/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/DGIST-DORI/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/DGIST-DORI/dori",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/DGIST-DORI/dori",
+      "forks_url": "https://api.github.com/repos/DGIST-DORI/dori/forks",
+      "keys_url": "https://api.github.com/repos/DGIST-DORI/dori/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/DGIST-DORI/dori/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/DGIST-DORI/dori/teams",
+      "hooks_url": "https://api.github.com/repos/DGIST-DORI/dori/hooks",
+      "issue_events_url": "https://api.github.com/repos/DGIST-DORI/dori/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/DGIST-DORI/dori/events",
+      "assignees_url": "https://api.github.com/repos/DGIST-DORI/dori/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/DGIST-DORI/dori/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/DGIST-DORI/dori/tags",
+      "blobs_url": "https://api.github.com/repos/DGIST-DORI/dori/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/DGIST-DORI/dori/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/DGIST-DORI/dori/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/DGIST-DORI/dori/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/DGIST-DORI/dori/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/DGIST-DORI/dori/languages",
+      "stargazers_url": "https://api.github.com/repos/DGIST-DORI/dori/stargazers",
+      "contributors_url": "https://api.github.com/repos/DGIST-DORI/dori/contributors",
+      "subscribers_url": "https://api.github.com/repos/DGIST-DORI/dori/subscribers",
+      "subscription_url": "https://api.github.com/repos/DGIST-DORI/dori/subscription",
+      "commits_url": "https://api.github.com/repos/DGIST-DORI/dori/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/DGIST-DORI/dori/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/DGIST-DORI/dori/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/DGIST-DORI/dori/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/DGIST-DORI/dori/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/DGIST-DORI/dori/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/DGIST-DORI/dori/merges",
+      "archive_url": "https://api.github.com/repos/DGIST-DORI/dori/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/DGIST-DORI/dori/downloads",
+      "issues_url": "https://api.github.com/repos/DGIST-DORI/dori/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/DGIST-DORI/dori/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/DGIST-DORI/dori/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/DGIST-DORI/dori/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/DGIST-DORI/dori/labels{/name}",
+      "releases_url": "https://api.github.com/repos/DGIST-DORI/dori/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/DGIST-DORI/dori/deployments",
+      "created_at": "2026-01-04T09:03:14Z",
+      "updated_at": "2026-03-24T06:14:41Z",
+      "pushed_at": "2026-03-24T06:14:38Z",
+      "git_url": "git://github.com/DGIST-DORI/dori.git",
+      "ssh_url": "git@github.com:DGIST-DORI/dori.git",
+      "clone_url": "https://github.com/DGIST-DORI/dori.git",
+      "svn_url": "https://github.com/DGIST-DORI/dori",
+      "homepage": "https://dgist-dori.xyz",
+      "size": 926,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 4,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "artificial-intelligence",
+        "autonomous-driving",
+        "human-robot-interaction",
+        "python",
+        "robotics",
+        "ros"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 4,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "dgist-doridori",
+    "dedupeKey": "aa372052efb8a6a4b6e738f33896f58a80210ec47b4aa128b7f0223acbb75f20",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1158959191",
+    "title": "isthismanas/SIDE_QUEST_ROBOTICS",
+    "summary": "Robotics Team for the SIDE QUEST experience at the Australian Rover Challenge",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:14:26Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/isthismanas/SIDE_QUEST_ROBOTICS",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/isthismanas/SIDE_QUEST_ROBOTICS",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "isthismanas"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1158959191,
+      "node_id": "R_kgDORRRQVw",
+      "name": "SIDE_QUEST_ROBOTICS",
+      "full_name": "isthismanas/SIDE_QUEST_ROBOTICS",
+      "private": false,
+      "owner": {
+        "login": "isthismanas",
+        "id": 140826943,
+        "node_id": "U_kgDOCGTZPw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/140826943?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/isthismanas",
+        "html_url": "https://github.com/isthismanas",
+        "followers_url": "https://api.github.com/users/isthismanas/followers",
+        "following_url": "https://api.github.com/users/isthismanas/following{/other_user}",
+        "gists_url": "https://api.github.com/users/isthismanas/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/isthismanas/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/isthismanas/subscriptions",
+        "organizations_url": "https://api.github.com/users/isthismanas/orgs",
+        "repos_url": "https://api.github.com/users/isthismanas/repos",
+        "events_url": "https://api.github.com/users/isthismanas/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/isthismanas/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/isthismanas/SIDE_QUEST_ROBOTICS",
+      "description": "Robotics Team for the SIDE QUEST experience at the Australian Rover Challenge",
+      "fork": false,
+      "url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS",
+      "forks_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/forks",
+      "keys_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/teams",
+      "hooks_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/hooks",
+      "issue_events_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/events",
+      "assignees_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/tags",
+      "blobs_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/languages",
+      "stargazers_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/stargazers",
+      "contributors_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/contributors",
+      "subscribers_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/subscribers",
+      "subscription_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/subscription",
+      "commits_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/merges",
+      "archive_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/downloads",
+      "issues_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/labels{/name}",
+      "releases_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/isthismanas/SIDE_QUEST_ROBOTICS/deployments",
+      "created_at": "2026-02-16T06:08:11Z",
+      "updated_at": "2026-03-24T06:14:26Z",
+      "pushed_at": "2026-03-24T06:14:19Z",
+      "git_url": "git://github.com/isthismanas/SIDE_QUEST_ROBOTICS.git",
+      "ssh_url": "git@github.com:isthismanas/SIDE_QUEST_ROBOTICS.git",
+      "clone_url": "https://github.com/isthismanas/SIDE_QUEST_ROBOTICS.git",
+      "svn_url": "https://github.com/isthismanas/SIDE_QUEST_ROBOTICS",
+      "homepage": null,
+      "size": 89735,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "isthismanassidequestrobotics",
+    "dedupeKey": "6b89275bbb03c98c6682d7ce72dd2f3c2cd923d40d427d983ab4f615b112cb60",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1168472620",
+    "title": "adityakamath/ros2-skill",
+    "summary": "Local agent skill for ROS 2 robot control",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:14:22Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/adityakamath/ros2-skill",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/adityakamath/ros2-skill",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "adityakamath"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1168472620,
+      "node_id": "R_kgDORaV6LA",
+      "name": "ros2-skill",
+      "full_name": "adityakamath/ros2-skill",
+      "private": false,
+      "owner": {
+        "login": "adityakamath",
+        "id": 2458029,
+        "node_id": "MDQ6VXNlcjI0NTgwMjk=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2458029?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/adityakamath",
+        "html_url": "https://github.com/adityakamath",
+        "followers_url": "https://api.github.com/users/adityakamath/followers",
+        "following_url": "https://api.github.com/users/adityakamath/following{/other_user}",
+        "gists_url": "https://api.github.com/users/adityakamath/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/adityakamath/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/adityakamath/subscriptions",
+        "organizations_url": "https://api.github.com/users/adityakamath/orgs",
+        "repos_url": "https://api.github.com/users/adityakamath/repos",
+        "events_url": "https://api.github.com/users/adityakamath/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/adityakamath/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/adityakamath/ros2-skill",
+      "description": "Local agent skill for ROS 2 robot control",
+      "fork": false,
+      "url": "https://api.github.com/repos/adityakamath/ros2-skill",
+      "forks_url": "https://api.github.com/repos/adityakamath/ros2-skill/forks",
+      "keys_url": "https://api.github.com/repos/adityakamath/ros2-skill/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/adityakamath/ros2-skill/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/adityakamath/ros2-skill/teams",
+      "hooks_url": "https://api.github.com/repos/adityakamath/ros2-skill/hooks",
+      "issue_events_url": "https://api.github.com/repos/adityakamath/ros2-skill/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/adityakamath/ros2-skill/events",
+      "assignees_url": "https://api.github.com/repos/adityakamath/ros2-skill/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/adityakamath/ros2-skill/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/adityakamath/ros2-skill/tags",
+      "blobs_url": "https://api.github.com/repos/adityakamath/ros2-skill/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/adityakamath/ros2-skill/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/adityakamath/ros2-skill/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/adityakamath/ros2-skill/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/adityakamath/ros2-skill/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/adityakamath/ros2-skill/languages",
+      "stargazers_url": "https://api.github.com/repos/adityakamath/ros2-skill/stargazers",
+      "contributors_url": "https://api.github.com/repos/adityakamath/ros2-skill/contributors",
+      "subscribers_url": "https://api.github.com/repos/adityakamath/ros2-skill/subscribers",
+      "subscription_url": "https://api.github.com/repos/adityakamath/ros2-skill/subscription",
+      "commits_url": "https://api.github.com/repos/adityakamath/ros2-skill/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/adityakamath/ros2-skill/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/adityakamath/ros2-skill/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/adityakamath/ros2-skill/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/adityakamath/ros2-skill/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/adityakamath/ros2-skill/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/adityakamath/ros2-skill/merges",
+      "archive_url": "https://api.github.com/repos/adityakamath/ros2-skill/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/adityakamath/ros2-skill/downloads",
+      "issues_url": "https://api.github.com/repos/adityakamath/ros2-skill/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/adityakamath/ros2-skill/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/adityakamath/ros2-skill/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/adityakamath/ros2-skill/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/adityakamath/ros2-skill/labels{/name}",
+      "releases_url": "https://api.github.com/repos/adityakamath/ros2-skill/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/adityakamath/ros2-skill/deployments",
+      "created_at": "2026-02-27T12:36:26Z",
+      "updated_at": "2026-03-24T06:14:22Z",
+      "pushed_at": "2026-03-24T06:14:17Z",
+      "git_url": "git://github.com/adityakamath/ros2-skill.git",
+      "ssh_url": "git@github.com:adityakamath/ros2-skill.git",
+      "clone_url": "https://github.com/adityakamath/ros2-skill.git",
+      "svn_url": "https://github.com/adityakamath/ros2-skill",
+      "homepage": "",
+      "size": 1001,
+      "stargazers_count": 9,
+      "watchers_count": 9,
+      "language": "Python",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 1,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 9,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "adityakamathros2-skill",
+    "dedupeKey": "bffa339fc8d84c224dac1f1c999b1313611288d0256a5318fe0f193e74bd29b7",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "445477262",
+    "title": "erlep/ppBB",
+    "summary": "Python Project Benzin Brno - Python & Streamlit application to monitor petrol prices in Brno city. The web scraping robot runs in the AWS Cloud.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:13:57Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/erlep/ppBB",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/erlep/ppBB",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "erlep"
+    ],
+    "category": "code",
+    "keywords": [
+      "python",
+      "streamlit-webapp"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 445477262,
+      "node_id": "R_kgDOGo1xjg",
+      "name": "ppBB",
+      "full_name": "erlep/ppBB",
+      "private": false,
+      "owner": {
+        "login": "erlep",
+        "id": 13781079,
+        "node_id": "MDQ6VXNlcjEzNzgxMDc5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13781079?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/erlep",
+        "html_url": "https://github.com/erlep",
+        "followers_url": "https://api.github.com/users/erlep/followers",
+        "following_url": "https://api.github.com/users/erlep/following{/other_user}",
+        "gists_url": "https://api.github.com/users/erlep/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/erlep/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/erlep/subscriptions",
+        "organizations_url": "https://api.github.com/users/erlep/orgs",
+        "repos_url": "https://api.github.com/users/erlep/repos",
+        "events_url": "https://api.github.com/users/erlep/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/erlep/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/erlep/ppBB",
+      "description": "Python Project Benzin Brno - Python & Streamlit application to monitor petrol prices in Brno city. The web scraping robot runs in the AWS Cloud.",
+      "fork": false,
+      "url": "https://api.github.com/repos/erlep/ppBB",
+      "forks_url": "https://api.github.com/repos/erlep/ppBB/forks",
+      "keys_url": "https://api.github.com/repos/erlep/ppBB/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/erlep/ppBB/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/erlep/ppBB/teams",
+      "hooks_url": "https://api.github.com/repos/erlep/ppBB/hooks",
+      "issue_events_url": "https://api.github.com/repos/erlep/ppBB/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/erlep/ppBB/events",
+      "assignees_url": "https://api.github.com/repos/erlep/ppBB/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/erlep/ppBB/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/erlep/ppBB/tags",
+      "blobs_url": "https://api.github.com/repos/erlep/ppBB/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/erlep/ppBB/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/erlep/ppBB/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/erlep/ppBB/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/erlep/ppBB/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/erlep/ppBB/languages",
+      "stargazers_url": "https://api.github.com/repos/erlep/ppBB/stargazers",
+      "contributors_url": "https://api.github.com/repos/erlep/ppBB/contributors",
+      "subscribers_url": "https://api.github.com/repos/erlep/ppBB/subscribers",
+      "subscription_url": "https://api.github.com/repos/erlep/ppBB/subscription",
+      "commits_url": "https://api.github.com/repos/erlep/ppBB/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/erlep/ppBB/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/erlep/ppBB/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/erlep/ppBB/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/erlep/ppBB/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/erlep/ppBB/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/erlep/ppBB/merges",
+      "archive_url": "https://api.github.com/repos/erlep/ppBB/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/erlep/ppBB/downloads",
+      "issues_url": "https://api.github.com/repos/erlep/ppBB/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/erlep/ppBB/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/erlep/ppBB/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/erlep/ppBB/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/erlep/ppBB/labels{/name}",
+      "releases_url": "https://api.github.com/repos/erlep/ppBB/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/erlep/ppBB/deployments",
+      "created_at": "2022-01-07T10:07:38Z",
+      "updated_at": "2026-03-24T06:13:57Z",
+      "pushed_at": "2026-03-24T06:13:52Z",
+      "git_url": "git://github.com/erlep/ppBB.git",
+      "ssh_url": "git@github.com:erlep/ppBB.git",
+      "clone_url": "https://github.com/erlep/ppBB.git",
+      "svn_url": "https://github.com/erlep/ppBB",
+      "homepage": "https://erlep.github.io/ppBB",
+      "size": 2323064,
+      "stargazers_count": 6,
+      "watchers_count": 6,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 2,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "python",
+        "streamlit-webapp"
+      ],
+      "visibility": "public",
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 6,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "erlepppbb",
+    "dedupeKey": "99f6e7b452a35d6a88544eeaf46cbce759f432ec6770d5a83db678ecb5334e6f",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1067446561",
+    "title": "Kushagra1A/openpi",
+    "summary": "🤖 Explore open-source robotics models and packages, including advanced vision-language-action systems for versatile applications and fine-tuning options.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:13:45Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Kushagra1A/openpi",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Kushagra1A/openpi",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Kushagra1A"
+    ],
+    "category": "code",
+    "keywords": [
+      "advanced-driver-assistance-systems",
+      "composite-fields",
+      "end-to-end-autonomous-driving",
+      "fpga",
+      "gpu",
+      "human-pose-estimation",
+      "javascript",
+      "llm",
+      "llmops",
+      "multicloud",
+      "openpifpaf",
+      "openpitrix",
+      "paas",
+      "perception-algorithm",
+      "pose-estimation",
+      "processor",
+      "prompt-engineering",
+      "robotics"
+    ],
+    "tags": [
+      "视觉语言动作",
+      "开源发布"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1067446561,
+      "node_id": "R_kgDOP5_xIQ",
+      "name": "openpi",
+      "full_name": "Kushagra1A/openpi",
+      "private": false,
+      "owner": {
+        "login": "Kushagra1A",
+        "id": 90435588,
+        "node_id": "MDQ6VXNlcjkwNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/90435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Kushagra1A",
+        "html_url": "https://github.com/Kushagra1A",
+        "followers_url": "https://api.github.com/users/Kushagra1A/followers",
+        "following_url": "https://api.github.com/users/Kushagra1A/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Kushagra1A/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Kushagra1A/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Kushagra1A/subscriptions",
+        "organizations_url": "https://api.github.com/users/Kushagra1A/orgs",
+        "repos_url": "https://api.github.com/users/Kushagra1A/repos",
+        "events_url": "https://api.github.com/users/Kushagra1A/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Kushagra1A/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Kushagra1A/openpi",
+      "description": "🤖 Explore open-source robotics models and packages, including advanced vision-language-action systems for versatile applications and fine-tuning options.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Kushagra1A/openpi",
+      "forks_url": "https://api.github.com/repos/Kushagra1A/openpi/forks",
+      "keys_url": "https://api.github.com/repos/Kushagra1A/openpi/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Kushagra1A/openpi/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Kushagra1A/openpi/teams",
+      "hooks_url": "https://api.github.com/repos/Kushagra1A/openpi/hooks",
+      "issue_events_url": "https://api.github.com/repos/Kushagra1A/openpi/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Kushagra1A/openpi/events",
+      "assignees_url": "https://api.github.com/repos/Kushagra1A/openpi/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Kushagra1A/openpi/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Kushagra1A/openpi/tags",
+      "blobs_url": "https://api.github.com/repos/Kushagra1A/openpi/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Kushagra1A/openpi/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Kushagra1A/openpi/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Kushagra1A/openpi/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Kushagra1A/openpi/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Kushagra1A/openpi/languages",
+      "stargazers_url": "https://api.github.com/repos/Kushagra1A/openpi/stargazers",
+      "contributors_url": "https://api.github.com/repos/Kushagra1A/openpi/contributors",
+      "subscribers_url": "https://api.github.com/repos/Kushagra1A/openpi/subscribers",
+      "subscription_url": "https://api.github.com/repos/Kushagra1A/openpi/subscription",
+      "commits_url": "https://api.github.com/repos/Kushagra1A/openpi/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Kushagra1A/openpi/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Kushagra1A/openpi/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Kushagra1A/openpi/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Kushagra1A/openpi/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Kushagra1A/openpi/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Kushagra1A/openpi/merges",
+      "archive_url": "https://api.github.com/repos/Kushagra1A/openpi/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Kushagra1A/openpi/downloads",
+      "issues_url": "https://api.github.com/repos/Kushagra1A/openpi/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Kushagra1A/openpi/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Kushagra1A/openpi/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Kushagra1A/openpi/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Kushagra1A/openpi/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Kushagra1A/openpi/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Kushagra1A/openpi/deployments",
+      "created_at": "2025-09-30T21:41:33Z",
+      "updated_at": "2026-03-24T06:13:45Z",
+      "pushed_at": "2026-03-24T06:13:41Z",
+      "git_url": "git://github.com/Kushagra1A/openpi.git",
+      "ssh_url": "git@github.com:Kushagra1A/openpi.git",
+      "clone_url": "https://github.com/Kushagra1A/openpi.git",
+      "svn_url": "https://github.com/Kushagra1A/openpi",
+      "homepage": null,
+      "size": 1377,
+      "stargazers_count": 3,
+      "watchers_count": 3,
+      "language": "Python",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "advanced-driver-assistance-systems",
+        "composite-fields",
+        "end-to-end-autonomous-driving",
+        "fpga",
+        "gpu",
+        "human-pose-estimation",
+        "javascript",
+        "llm",
+        "llmops",
+        "multicloud",
+        "openpifpaf",
+        "openpitrix",
+        "paas",
+        "perception-algorithm",
+        "pose-estimation",
+        "processor",
+        "prompt-engineering",
+        "robotics"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 3,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "kushagra1aopenpi",
+    "dedupeKey": "8b9af636fcc59d97f2fa3d27482ff4b820c43f41538a8d34357d64a83f73d61a",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "mkkimuser/data0234",
+    "title": "mkkimuser/data0234",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:12:11.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/mkkimuser/data0234",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/mkkimuser/data0234",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "mkkimuser"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "robotis",
+      "LeRobot",
+      "FFW_SG2"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c22afbf6124bc9f099ac80",
+      "id": "mkkimuser/data0234",
+      "author": "mkkimuser",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "robotis",
+          "LeRobot",
+          "FFW_SG2"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-24T06:12:11.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "7cfcdd81e4b9470eaa6e3caf5759017ed8558789",
+      "description": "This dataset was created using Physical AI Tools and LeRobot.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v2.1\",\n    \"robot_type\": \"FFW_SG2\",\n    \"total_episodes\": 500,\n    \"total_frames\": 80027,\n    \"total_tasks\": 1,\n    \"total_videos\": 500,\n    \"total_chunks\": 1,\n    \"chunks_size\": 1000,\n    \"fps\": 10,\n    \"splits\": {\n        \"train\": \"0:500\"\n    },\n    \"data_path\": \"data/chunk-{episode_chunk:03d}/episode_{episode_index:06d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/mkkimuser/data0234.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "robotis",
+        "LeRobot",
+        "FFW_SG2"
+      ],
+      "createdAt": "2026-03-24T06:11:07.000Z",
+      "key": ""
+    },
+    "slug": "mkkimuserdata0234",
+    "dedupeKey": "4c5b3b32667fa35920b73086b202176cd73deb2b833941212355bcf3937d7f35",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
     "externalId": "1163198866",
     "title": "Docprox-pixel/laproscopic_grasper",
     "summary": "ROS2 Jazzy–based gesture-controlled surgical robot enabling intuitive teleoperation of a laparoscopic manipulator using real-time hand gesture recognition, haptic force feedback, and Gazebo simulation. Designed with modular ROS2 architecture for advanced human–robot interaction research.",
@@ -133,7 +2210,11 @@
     "dedupeKey": "26f88f552c8af2350af03e316993a84f135cb2cce760d60a7f43406e60925a94",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "26f88f552c8af2350af03e316993a84f135cb2cce760d60a7f43406e60925a94",
+    "createdAt": "2026-03-24T06:06:58Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1050441503",
@@ -294,7 +2375,11 @@
     "dedupeKey": "615e3931dd9c4a7a4fb59512435e94b4464adf603d28b4629159f5cd7e3c0f33",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "615e3931dd9c4a7a4fb59512435e94b4464adf603d28b4629159f5cd7e3c0f33",
+    "createdAt": "2026-03-24T06:06:50Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1001096960",
@@ -431,7 +2516,11 @@
     "dedupeKey": "392aed46d99d07b5f1db584f1b9afd8c32fe3153b93075b849042f88f1189bb2",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "392aed46d99d07b5f1db584f1b9afd8c32fe3153b93075b849042f88f1189bb2",
+    "createdAt": "2026-03-24T06:06:42Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1170715120",
@@ -570,7 +2659,11 @@
     "dedupeKey": "1b9ff0866b537197a7fda793900b66add94441f638a54750eeecf99eaefc7c6e",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "1b9ff0866b537197a7fda793900b66add94441f638a54750eeecf99eaefc7c6e",
+    "createdAt": "2026-03-24T06:06:40Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "sini-21/SO101-record",
@@ -660,7 +2753,11 @@
     "dedupeKey": "d57832923270de2ecae9457bfddb1658c29062d31de404802e2c8233e931b4bc",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "d57832923270de2ecae9457bfddb1658c29062d31de404802e2c8233e931b4bc",
+    "createdAt": "2026-03-24T06:06:36.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1185984803",
@@ -823,7 +2920,11 @@
     "dedupeKey": "ec7992f2ef380ece878c7da295f8871bce6dff40bcb297d1131bd4a6c269d6d9",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "ec7992f2ef380ece878c7da295f8871bce6dff40bcb297d1131bd4a6c269d6d9",
+    "createdAt": "2026-03-24T06:06:05Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "smerkd/lerobotv3_bench_vortex_zed_four_stereo",
@@ -878,7 +2979,11 @@
     "dedupeKey": "16ff8462950e489c7716277d12d952f7ef023759ef038d8895071b19d6faa539",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "16ff8462950e489c7716277d12d952f7ef023759ef038d8895071b19d6faa539",
+    "createdAt": "2026-03-24T06:05:56.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "rainbowrobotics/bin_0324_dualArm_singleObj_1",
@@ -950,7 +3055,11 @@
     "dedupeKey": "1919ae84acccb3bcb1b3dc9fe3d5485a3ca0783581265e88929d037152c872a7",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "1919ae84acccb3bcb1b3dc9fe3d5485a3ca0783581265e88929d037152c872a7",
+    "createdAt": "2026-03-24T06:05:32.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1186728458",
@@ -1089,7 +3198,11 @@
     "dedupeKey": "f5d0566e76a5264265675da22c6daa7808e474b5bf6ac21b572695372f2d1ea3",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "f5d0566e76a5264265675da22c6daa7808e474b5bf6ac21b572695372f2d1ea3",
+    "createdAt": "2026-03-24T06:05:24Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1100945668",
@@ -1242,7 +3355,11 @@
     "dedupeKey": "148d2c0037817791a09bbb560fa7d103111613df8ce08f78f4447f3c5ca0273c",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "148d2c0037817791a09bbb560fa7d103111613df8ce08f78f4447f3c5ca0273c",
+    "createdAt": "2026-03-24T06:05:15Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "kemjensak/policy_act_bin_0324_20k",
@@ -1334,7 +3451,11 @@
     "dedupeKey": "c59df86b355b233b7417c73984e158dd5a83e4e9dcba0fe90b4458bc916b089f",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "c59df86b355b233b7417c73984e158dd5a83e4e9dcba0fe90b4458bc916b089f",
+    "createdAt": "2026-03-24T06:03:03.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "StrongRoboticsLab/pi05-so100-diverse-checkpoints",
@@ -1532,7 +3653,11 @@
     "dedupeKey": "1872ce8b78066923488aae5ad0e0b9cbc254a9491625d3559a72828a5d7088a0",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "1872ce8b78066923488aae5ad0e0b9cbc254a9491625d3559a72828a5d7088a0",
+    "createdAt": "2026-03-24T06:02:01.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "weeenwang/260324_color_sort_fence",
@@ -1604,7 +3729,11 @@
     "dedupeKey": "0f9490bf810c1a4f4e0f8f21a2c4036d2c2e1dc80c81912ee658d040d610bcff",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "0f9490bf810c1a4f4e0f8f21a2c4036d2c2e1dc80c81912ee658d040d610bcff",
+    "createdAt": "2026-03-24T06:01:52.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "dcrric/act_red",
@@ -1696,7 +3825,11 @@
     "dedupeKey": "20cda34a3c198eae7111180d3f46eb8636851a055fe804db5fd903f628703c49",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "20cda34a3c198eae7111180d3f46eb8636851a055fe804db5fd903f628703c49",
+    "createdAt": "2026-03-24T06:01:49.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "anthonyhchan/my_policy",
@@ -1788,7 +3921,11 @@
     "dedupeKey": "dfbe6e138084fd9154f6f7e844854e4e5db76a9a12448cebf43318a149700006",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "dfbe6e138084fd9154f6f7e844854e4e5db76a9a12448cebf43318a149700006",
+    "createdAt": "2026-03-24T06:01:39.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "weeenwang/eval_260323_color_sort_fence",
@@ -1860,7 +3997,11 @@
     "dedupeKey": "d0abe4d4b252c3614451dd4a4a36ab19c8e970df5d8139304eda3dea4118b6f8",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "d0abe4d4b252c3614451dd4a4a36ab19c8e970df5d8139304eda3dea4118b6f8",
+    "createdAt": "2026-03-24T06:01:12.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "seok7ee/test-two-cubes04",
@@ -1940,7 +4081,11 @@
     "dedupeKey": "bb8ee328c1fb13621e208da40d25f54d0f0a7ddf6c75044647b6dac0eb79aec6",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "bb8ee328c1fb13621e208da40d25f54d0f0a7ddf6c75044647b6dac0eb79aec6",
+    "createdAt": "2026-03-24T05:58:59.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22280v1",
@@ -2063,7 +4208,11 @@
     "dedupeKey": "406d833e47f8e429cb07d8ad3afcc12aeab4f1d53ed02cbdab48fa940b59e53b",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "406d833e47f8e429cb07d8ad3afcc12aeab4f1d53ed02cbdab48fa940b59e53b",
+    "createdAt": "2026-03-23T17:59:25Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22264v1",
@@ -2209,7 +4358,11 @@
     "dedupeKey": "db355b51bd5fcf0cff2ff0218cc680a8b40292d05fcce0b46094133c47285768",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "db355b51bd5fcf0cff2ff0218cc680a8b40292d05fcce0b46094133c47285768",
+    "createdAt": "2026-03-23T17:49:12Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22201v1",
@@ -2313,7 +4466,11 @@
     "dedupeKey": "e95e7af05dc39bcbd5b9bf5bd6a2dd2f112394c9a41ffad61b70131c3d572e09",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "e95e7af05dc39bcbd5b9bf5bd6a2dd2f112394c9a41ffad61b70131c3d572e09",
+    "createdAt": "2026-03-23T16:59:00Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22193v1",
@@ -2436,7 +4593,11 @@
     "dedupeKey": "a92653aadabb7549275c7afd356a9a9794fcc3793d902b5c785454af46ad8f97",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "a92653aadabb7549275c7afd356a9a9794fcc3793d902b5c785454af46ad8f97",
+    "createdAt": "2026-03-23T16:51:52Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22126v1",
@@ -2514,7 +4675,11 @@
     "dedupeKey": "c336e8ca524b29b5f14377c6b27383c994d3c32012e5db9a1790d517588f90ec",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "c336e8ca524b29b5f14377c6b27383c994d3c32012e5db9a1790d517588f90ec",
+    "createdAt": "2026-03-23T15:52:54Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22078v1",
@@ -2632,7 +4797,11 @@
     "dedupeKey": "baad78f3feb9d0228cf53b7f2ab3d00edbaeaa31779ff37f9bb468715c65fba6",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "baad78f3feb9d0228cf53b7f2ab3d00edbaeaa31779ff37f9bb468715c65fba6",
+    "createdAt": "2026-03-23T15:13:15Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22003v1",
@@ -2729,7 +4898,11 @@
     "dedupeKey": "f1091d06c9cc9a3e4abeaa48ed58f4080a95a38985a13b25f4e0f52e9ef61e8c",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "f1091d06c9cc9a3e4abeaa48ed58f4080a95a38985a13b25f4e0f52e9ef61e8c",
+    "createdAt": "2026-03-23T14:08:58Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.21723v1",
@@ -2833,7 +5006,11 @@
     "dedupeKey": "5c72ed746dfd292738ab372123f71ffab38f141791ba7566faa5142ed65c8ade",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "5c72ed746dfd292738ab372123f71ffab38f141791ba7566faa5142ed65c8ade",
+    "createdAt": "2026-03-23T09:12:45Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.21690v1",
@@ -2905,7 +5082,11 @@
     "dedupeKey": "70eeaaf94d7dd00a9fe9d2d26be7811e8fd624d20e39a16cbaeb2402bbbc789b",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "70eeaaf94d7dd00a9fe9d2d26be7811e8fd624d20e39a16cbaeb2402bbbc789b",
+    "createdAt": "2026-03-23T08:24:53Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "rssing-robotics-conference",
@@ -2949,7 +5130,7 @@
     ],
     "id": "aad66ed3e549e32b6582fd434c393a3eec5f67fbae95f856ed4a57dcd6aaa0b9",
     "createdAt": "2026-03-23T06:54:31.224Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2994,7 +5175,7 @@
     ],
     "id": "dbe9294baac87e7dc39c496a65e5a3c5061414324da1ffeb3c80f59886057a00",
     "createdAt": "2026-03-23T06:54:31.224Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -3038,7 +5219,7 @@
     ],
     "id": "6b64e2bd5750135cea49a747d56702b2464bc007eba6da45d1fdc9d5d4ead024",
     "createdAt": "2026-03-23T06:54:31.224Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -6804,7 +8985,11 @@
     "dedupeKey": "b9957593acf2404caa83d4124e72b3b3ca92425849e5ffe2c4fe5d1351eb0c87",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "b9957593acf2404caa83d4124e72b3b3ca92425849e5ffe2c4fe5d1351eb0c87",
+    "createdAt": "2026-03-22T17:57:55Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.21195v1",
@@ -6887,7 +9072,11 @@
     "dedupeKey": "e7e22ccbe98af4e9b344f3a93b7750800449dfd13ac9339bdd2caa4eb29ef750",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "e7e22ccbe98af4e9b344f3a93b7750800449dfd13ac9339bdd2caa4eb29ef750",
+    "createdAt": "2026-03-22T12:30:44Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "668872180",
@@ -8467,7 +10656,11 @@
     "dedupeKey": "c48b5cd5ba33cf59da4fb7118691192bde5a6023b2704a6bd453e580e6a58040",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "c48b5cd5ba33cf59da4fb7118691192bde5a6023b2704a6bd453e580e6a58040",
+    "createdAt": "2026-03-22T04:18:54Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Hoshipu/xvla-v5-checkpoints",
@@ -8700,7 +10893,11 @@
     "dedupeKey": "9d6863c79c5625fa7755aff17105e7e53652699afac74f8b8787f86ea830e09a",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "9d6863c79c5625fa7755aff17105e7e53652699afac74f8b8787f86ea830e09a",
+    "createdAt": "2026-03-21T08:16:10Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.20668v1",
@@ -8781,7 +10978,11 @@
     "dedupeKey": "b64b5c47941d8a0e0c580b6339f15e25d9ee00dfde4f769ef5802bf22bd1c4cc",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "b64b5c47941d8a0e0c580b6339f15e25d9ee00dfde4f769ef5802bf22bd1c4cc",
+    "createdAt": "2026-03-21T05:59:43Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.20659v1",
@@ -8864,7 +11065,11 @@
     "dedupeKey": "159461ac8ab2bf04cef7f525b7d5d9e7599baf2f34cb14c3367fe3dd73077aa3",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "159461ac8ab2bf04cef7f525b7d5d9e7599baf2f34cb14c3367fe3dd73077aa3",
+    "createdAt": "2026-03-21T05:30:15Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1183946067",
@@ -11938,7 +14143,11 @@
     "dedupeKey": "83fd38b40fee52f44647177894e91b94eab31764891c7a913ac0ae84ec996af7",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "83fd38b40fee52f44647177894e91b94eab31764891c7a913ac0ae84ec996af7",
+    "createdAt": "2026-03-21T02:44:39Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.20544v1",
@@ -12022,7 +14231,11 @@
     "dedupeKey": "2edd85e2e37544c758d89291fa8264b42aaf3b453f0dc264bc2d8210b4079cf0",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "2edd85e2e37544c758d89291fa8264b42aaf3b453f0dc264bc2d8210b4079cf0",
+    "createdAt": "2026-03-20T22:26:10Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.20538v1",
@@ -12102,7 +14315,11 @@
     "dedupeKey": "cf83a933255733915dfe8afebffee1338e9d295d31bf89fb86f723383941e750",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "cf83a933255733915dfe8afebffee1338e9d295d31bf89fb86f723383941e750",
+    "createdAt": "2026-03-20T22:22:43Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19979v1",

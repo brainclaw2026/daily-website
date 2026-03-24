@@ -36,13 +36,13 @@ jobs:
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
       - name: Commit updated content data
         run: |
-          if git diff --quiet -- workspaces/fullstack-dev-assistant/data/content-items.json; then
+          if git diff --quiet -- data/content-items.json; then
             echo "No content changes to commit"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add workspaces/fullstack-dev-assistant/data/content-items.json
+          git add data/content-items.json
           git commit -m "chore: update ingested content"
           git push

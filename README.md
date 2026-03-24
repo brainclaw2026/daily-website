@@ -1,3 +1,9 @@
+# Embodied AI Daily (deprecated root copy)
+
+> 注意：当前真实线上项目目录是 `workspaces/fullstack-dev-assistant`。
+> 根目录这份站点副本已弃用，不应再作为 Vercel 或 GitHub Actions 的更新目标。
+> 后续开发、采集、部署、排障统一以 `workspaces/fullstack-dev-assistant` 为准。
+
 # Embodied AI Daily
 
 本地可运行的具身智能信息追踪站点 MVP。

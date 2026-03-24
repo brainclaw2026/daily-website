@@ -1,5 +1,8 @@
 # Embodied AI Daily
 
+> 当前唯一有效的站点目录：`workspaces/fullstack-dev-assistant`
+> GitHub Actions 与 Vercel 现已对齐到该目录。
+
 本地可运行的具身智能信息追踪站点 MVP。
 
 ## 已实现

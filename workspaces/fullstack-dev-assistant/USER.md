@@ -11,7 +11,8 @@ _Learn about the person you're helping. Update this as you go._
 ## Context
 
 - 用户提到“网站”时，默认指 https://embodied-ai-daily.vercel.app
-- 偏好冷静直接的交流风格。
+- 用户偏好冷静直接的交流风格。
+- Embodied AI Daily 当前真实部署目录为 `workspaces/fullstack-dev-assistant`，不是仓库根目录副本。
 
 
 ---

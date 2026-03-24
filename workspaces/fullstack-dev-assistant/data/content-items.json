@@ -1,5 +1,2913 @@
 [
   {
+    "externalId": "1163198866",
+    "title": "Docprox-pixel/laproscopic_grasper",
+    "summary": "ROS2 Jazzy–based gesture-controlled surgical robot enabling intuitive teleoperation of a laparoscopic manipulator using real-time hand gesture recognition, haptic force feedback, and Gazebo simulation. Designed with modular ROS2 architecture for advanced human–robot interaction research.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:06:58Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Docprox-pixel/laproscopic_grasper",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Docprox-pixel/laproscopic_grasper",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Docprox-pixel"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "机械臂操作",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1163198866,
+      "node_id": "R_kgDORVUBkg",
+      "name": "laproscopic_grasper",
+      "full_name": "Docprox-pixel/laproscopic_grasper",
+      "private": false,
+      "owner": {
+        "login": "Docprox-pixel",
+        "id": 210122396,
+        "node_id": "U_kgDODIY2nA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210122396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Docprox-pixel",
+        "html_url": "https://github.com/Docprox-pixel",
+        "followers_url": "https://api.github.com/users/Docprox-pixel/followers",
+        "following_url": "https://api.github.com/users/Docprox-pixel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Docprox-pixel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Docprox-pixel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Docprox-pixel/subscriptions",
+        "organizations_url": "https://api.github.com/users/Docprox-pixel/orgs",
+        "repos_url": "https://api.github.com/users/Docprox-pixel/repos",
+        "events_url": "https://api.github.com/users/Docprox-pixel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Docprox-pixel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Docprox-pixel/laproscopic_grasper",
+      "description": "ROS2 Jazzy–based gesture-controlled surgical robot enabling intuitive teleoperation of a laparoscopic manipulator using real-time hand gesture recognition, haptic force feedback, and Gazebo simulation. Designed with modular ROS2 architecture for advanced human–robot interaction research.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper",
+      "forks_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/forks",
+      "keys_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/teams",
+      "hooks_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/hooks",
+      "issue_events_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/events",
+      "assignees_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/tags",
+      "blobs_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/languages",
+      "stargazers_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/stargazers",
+      "contributors_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/contributors",
+      "subscribers_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/subscribers",
+      "subscription_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/subscription",
+      "commits_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/merges",
+      "archive_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/downloads",
+      "issues_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Docprox-pixel/laproscopic_grasper/deployments",
+      "created_at": "2026-02-21T08:48:56Z",
+      "updated_at": "2026-03-24T06:06:58Z",
+      "pushed_at": "2026-03-24T06:06:54Z",
+      "git_url": "git://github.com/Docprox-pixel/laproscopic_grasper.git",
+      "ssh_url": "git@github.com:Docprox-pixel/laproscopic_grasper.git",
+      "clone_url": "https://github.com/Docprox-pixel/laproscopic_grasper.git",
+      "svn_url": "https://github.com/Docprox-pixel/laproscopic_grasper",
+      "homepage": null,
+      "size": 86,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 1,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "docprox-pixellaproscopicgrasper",
+    "dedupeKey": "26f88f552c8af2350af03e316993a84f135cb2cce760d60a7f43406e60925a94",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1050441503",
+    "title": "Emilealmayahtaym1975/STM32_L298N_DCmotorPWM",
+    "summary": "⚙️ Control DC motors with PWM using an STM32F103 Nucleo board and L298N driver, featuring speed and direction control for embedded learning.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:06:50Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Emilealmayahtaym1975"
+    ],
+    "category": "code",
+    "keywords": [
+      "dc-motor",
+      "embedded-project",
+      "embedded-systems",
+      "hal-driver",
+      "l298n",
+      "microcontroller",
+      "motor-control",
+      "pwm",
+      "real-time-control",
+      "robotics",
+      "stm32",
+      "stm32f103"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1050441503,
+      "node_id": "R_kgDOPpx3Hw",
+      "name": "STM32_L298N_DCmotorPWM",
+      "full_name": "Emilealmayahtaym1975/STM32_L298N_DCmotorPWM",
+      "private": false,
+      "owner": {
+        "login": "Emilealmayahtaym1975",
+        "id": 176973639,
+        "node_id": "U_kgDOCoxnRw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/176973639?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Emilealmayahtaym1975",
+        "html_url": "https://github.com/Emilealmayahtaym1975",
+        "followers_url": "https://api.github.com/users/Emilealmayahtaym1975/followers",
+        "following_url": "https://api.github.com/users/Emilealmayahtaym1975/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Emilealmayahtaym1975/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Emilealmayahtaym1975/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Emilealmayahtaym1975/subscriptions",
+        "organizations_url": "https://api.github.com/users/Emilealmayahtaym1975/orgs",
+        "repos_url": "https://api.github.com/users/Emilealmayahtaym1975/repos",
+        "events_url": "https://api.github.com/users/Emilealmayahtaym1975/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Emilealmayahtaym1975/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM",
+      "description": "⚙️ Control DC motors with PWM using an STM32F103 Nucleo board and L298N driver, featuring speed and direction control for embedded learning.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM",
+      "forks_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/forks",
+      "keys_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/teams",
+      "hooks_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/hooks",
+      "issue_events_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/events",
+      "assignees_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/tags",
+      "blobs_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/languages",
+      "stargazers_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/stargazers",
+      "contributors_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/contributors",
+      "subscribers_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/subscribers",
+      "subscription_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/subscription",
+      "commits_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/merges",
+      "archive_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/downloads",
+      "issues_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM/deployments",
+      "created_at": "2025-09-04T12:43:34Z",
+      "updated_at": "2026-03-24T06:06:50Z",
+      "pushed_at": "2026-03-24T06:06:46Z",
+      "git_url": "git://github.com/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM.git",
+      "ssh_url": "git@github.com:Emilealmayahtaym1975/STM32_L298N_DCmotorPWM.git",
+      "clone_url": "https://github.com/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM.git",
+      "svn_url": "https://github.com/Emilealmayahtaym1975/STM32_L298N_DCmotorPWM",
+      "homepage": null,
+      "size": 2364,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "C",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "dc-motor",
+        "embedded-project",
+        "embedded-systems",
+        "hal-driver",
+        "l298n",
+        "microcontroller",
+        "motor-control",
+        "pwm",
+        "real-time-control",
+        "robotics",
+        "stm32",
+        "stm32f103"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "emilealmayahtaym1975stm32l298ndcmotorpwm",
+    "dedupeKey": "615e3931dd9c4a7a4fb59512435e94b4464adf603d28b4629159f5cd7e3c0f33",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1001096960",
+    "title": "DominiquePaul/dreammachines",
+    "summary": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:06:42Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/DominiquePaul/dreammachines",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/DominiquePaul/dreammachines",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "DominiquePaul"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1001096960,
+      "node_id": "R_kgDOO6uHAA",
+      "name": "dreammachines",
+      "full_name": "DominiquePaul/dreammachines",
+      "private": false,
+      "owner": {
+        "login": "DominiquePaul",
+        "id": 16308215,
+        "node_id": "MDQ6VXNlcjE2MzA4MjE1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16308215?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/DominiquePaul",
+        "html_url": "https://github.com/DominiquePaul",
+        "followers_url": "https://api.github.com/users/DominiquePaul/followers",
+        "following_url": "https://api.github.com/users/DominiquePaul/following{/other_user}",
+        "gists_url": "https://api.github.com/users/DominiquePaul/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/DominiquePaul/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/DominiquePaul/subscriptions",
+        "organizations_url": "https://api.github.com/users/DominiquePaul/orgs",
+        "repos_url": "https://api.github.com/users/DominiquePaul/repos",
+        "events_url": "https://api.github.com/users/DominiquePaul/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/DominiquePaul/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/DominiquePaul/dreammachines",
+      "description": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
+      "fork": false,
+      "url": "https://api.github.com/repos/DominiquePaul/dreammachines",
+      "forks_url": "https://api.github.com/repos/DominiquePaul/dreammachines/forks",
+      "keys_url": "https://api.github.com/repos/DominiquePaul/dreammachines/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/DominiquePaul/dreammachines/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/DominiquePaul/dreammachines/teams",
+      "hooks_url": "https://api.github.com/repos/DominiquePaul/dreammachines/hooks",
+      "issue_events_url": "https://api.github.com/repos/DominiquePaul/dreammachines/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/DominiquePaul/dreammachines/events",
+      "assignees_url": "https://api.github.com/repos/DominiquePaul/dreammachines/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/DominiquePaul/dreammachines/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/DominiquePaul/dreammachines/tags",
+      "blobs_url": "https://api.github.com/repos/DominiquePaul/dreammachines/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/DominiquePaul/dreammachines/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/DominiquePaul/dreammachines/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/DominiquePaul/dreammachines/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/DominiquePaul/dreammachines/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/DominiquePaul/dreammachines/languages",
+      "stargazers_url": "https://api.github.com/repos/DominiquePaul/dreammachines/stargazers",
+      "contributors_url": "https://api.github.com/repos/DominiquePaul/dreammachines/contributors",
+      "subscribers_url": "https://api.github.com/repos/DominiquePaul/dreammachines/subscribers",
+      "subscription_url": "https://api.github.com/repos/DominiquePaul/dreammachines/subscription",
+      "commits_url": "https://api.github.com/repos/DominiquePaul/dreammachines/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/DominiquePaul/dreammachines/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/DominiquePaul/dreammachines/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/DominiquePaul/dreammachines/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/DominiquePaul/dreammachines/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/DominiquePaul/dreammachines/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/DominiquePaul/dreammachines/merges",
+      "archive_url": "https://api.github.com/repos/DominiquePaul/dreammachines/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/DominiquePaul/dreammachines/downloads",
+      "issues_url": "https://api.github.com/repos/DominiquePaul/dreammachines/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/DominiquePaul/dreammachines/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/DominiquePaul/dreammachines/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/DominiquePaul/dreammachines/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/DominiquePaul/dreammachines/labels{/name}",
+      "releases_url": "https://api.github.com/repos/DominiquePaul/dreammachines/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/DominiquePaul/dreammachines/deployments",
+      "created_at": "2025-06-12T20:19:36Z",
+      "updated_at": "2026-03-24T06:06:42Z",
+      "pushed_at": "2026-03-24T06:06:38Z",
+      "git_url": "git://github.com/DominiquePaul/dreammachines.git",
+      "ssh_url": "git@github.com:DominiquePaul/dreammachines.git",
+      "clone_url": "https://github.com/DominiquePaul/dreammachines.git",
+      "svn_url": "https://github.com/DominiquePaul/dreammachines",
+      "homepage": "https://huggingface.co/docs/lerobot",
+      "size": 121446,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "dominiquepauldreammachines",
+    "dedupeKey": "392aed46d99d07b5f1db584f1b9afd8c32fe3153b93075b849042f88f1189bb2",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1170715120",
+    "title": "Akshitvoma/kreative_robotics-main",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:06:40Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Akshitvoma/kreative_robotics-main",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Akshitvoma/kreative_robotics-main",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Akshitvoma"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1170715120,
+      "node_id": "R_kgDORcex8A",
+      "name": "kreative_robotics-main",
+      "full_name": "Akshitvoma/kreative_robotics-main",
+      "private": false,
+      "owner": {
+        "login": "Akshitvoma",
+        "id": 151039544,
+        "node_id": "U_kgDOCQCuOA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/151039544?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Akshitvoma",
+        "html_url": "https://github.com/Akshitvoma",
+        "followers_url": "https://api.github.com/users/Akshitvoma/followers",
+        "following_url": "https://api.github.com/users/Akshitvoma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Akshitvoma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Akshitvoma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Akshitvoma/subscriptions",
+        "organizations_url": "https://api.github.com/users/Akshitvoma/orgs",
+        "repos_url": "https://api.github.com/users/Akshitvoma/repos",
+        "events_url": "https://api.github.com/users/Akshitvoma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Akshitvoma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Akshitvoma/kreative_robotics-main",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main",
+      "forks_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/forks",
+      "keys_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/teams",
+      "hooks_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/hooks",
+      "issue_events_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/events",
+      "assignees_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/tags",
+      "blobs_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/languages",
+      "stargazers_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/stargazers",
+      "contributors_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/contributors",
+      "subscribers_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/subscribers",
+      "subscription_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/subscription",
+      "commits_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/merges",
+      "archive_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/downloads",
+      "issues_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Akshitvoma/kreative_robotics-main/deployments",
+      "created_at": "2026-03-02T12:40:58Z",
+      "updated_at": "2026-03-24T06:06:40Z",
+      "pushed_at": "2026-03-24T06:06:37Z",
+      "git_url": "git://github.com/Akshitvoma/kreative_robotics-main.git",
+      "ssh_url": "git@github.com:Akshitvoma/kreative_robotics-main.git",
+      "clone_url": "https://github.com/Akshitvoma/kreative_robotics-main.git",
+      "svn_url": "https://github.com/Akshitvoma/kreative_robotics-main",
+      "homepage": "https://kreative-robotics-main.vercel.app",
+      "size": 6908,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "akshitvomakreativerobotics-main",
+    "dedupeKey": "1b9ff0866b537197a7fda793900b66add94441f638a54750eeecf99eaefc7c6e",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "sini-21/SO101-record",
+    "title": "sini-21/SO101-record",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:06:36.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/sini-21/SO101-record",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/sini-21/SO101-record",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "sini-21"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:n<1K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:pandas",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c0c741e8b5f538e59131ac",
+      "id": "sini-21/SO101-record",
+      "author": "sini-21",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-24T06:06:36.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "99e581137209ae3c0b8dc58f3a9e1b50cc7b3617",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 1,\n    \"total_frames\": 3574,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:1\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/sini-21/SO101-record.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:n<1K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:pandas",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-23T04:53:21.000Z",
+      "key": ""
+    },
+    "slug": "sini-21so101-record",
+    "dedupeKey": "d57832923270de2ecae9457bfddb1658c29062d31de404802e2c8233e931b4bc",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "1185984803",
+    "title": "louiszengCN/CarlaAir",
+    "summary": "CarlaAir: A unified air-ground simulation platform integrating CARLA and AirSim",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:06:05Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/louiszengCN/CarlaAir",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/louiszengCN/CarlaAir",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "louiszengCN"
+    ],
+    "category": "code",
+    "keywords": [
+      "airsim",
+      "autonomous-driving",
+      "carla",
+      "drone",
+      "python",
+      "robotics",
+      "ros2",
+      "simulation",
+      "uav",
+      "unreal-engine"
+    ],
+    "tags": [
+      "仿真训练"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1185984803,
+      "node_id": "R_kgDORrCxIw",
+      "name": "CarlaAir",
+      "full_name": "louiszengCN/CarlaAir",
+      "private": false,
+      "owner": {
+        "login": "louiszengCN",
+        "id": 140705734,
+        "node_id": "U_kgDOCGL_xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/140705734?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/louiszengCN",
+        "html_url": "https://github.com/louiszengCN",
+        "followers_url": "https://api.github.com/users/louiszengCN/followers",
+        "following_url": "https://api.github.com/users/louiszengCN/following{/other_user}",
+        "gists_url": "https://api.github.com/users/louiszengCN/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/louiszengCN/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/louiszengCN/subscriptions",
+        "organizations_url": "https://api.github.com/users/louiszengCN/orgs",
+        "repos_url": "https://api.github.com/users/louiszengCN/repos",
+        "events_url": "https://api.github.com/users/louiszengCN/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/louiszengCN/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/louiszengCN/CarlaAir",
+      "description": "CarlaAir: A unified air-ground simulation platform integrating CARLA and AirSim",
+      "fork": false,
+      "url": "https://api.github.com/repos/louiszengCN/CarlaAir",
+      "forks_url": "https://api.github.com/repos/louiszengCN/CarlaAir/forks",
+      "keys_url": "https://api.github.com/repos/louiszengCN/CarlaAir/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/louiszengCN/CarlaAir/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/louiszengCN/CarlaAir/teams",
+      "hooks_url": "https://api.github.com/repos/louiszengCN/CarlaAir/hooks",
+      "issue_events_url": "https://api.github.com/repos/louiszengCN/CarlaAir/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/louiszengCN/CarlaAir/events",
+      "assignees_url": "https://api.github.com/repos/louiszengCN/CarlaAir/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/louiszengCN/CarlaAir/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/louiszengCN/CarlaAir/tags",
+      "blobs_url": "https://api.github.com/repos/louiszengCN/CarlaAir/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/louiszengCN/CarlaAir/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/louiszengCN/CarlaAir/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/louiszengCN/CarlaAir/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/louiszengCN/CarlaAir/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/louiszengCN/CarlaAir/languages",
+      "stargazers_url": "https://api.github.com/repos/louiszengCN/CarlaAir/stargazers",
+      "contributors_url": "https://api.github.com/repos/louiszengCN/CarlaAir/contributors",
+      "subscribers_url": "https://api.github.com/repos/louiszengCN/CarlaAir/subscribers",
+      "subscription_url": "https://api.github.com/repos/louiszengCN/CarlaAir/subscription",
+      "commits_url": "https://api.github.com/repos/louiszengCN/CarlaAir/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/louiszengCN/CarlaAir/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/louiszengCN/CarlaAir/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/louiszengCN/CarlaAir/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/louiszengCN/CarlaAir/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/louiszengCN/CarlaAir/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/louiszengCN/CarlaAir/merges",
+      "archive_url": "https://api.github.com/repos/louiszengCN/CarlaAir/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/louiszengCN/CarlaAir/downloads",
+      "issues_url": "https://api.github.com/repos/louiszengCN/CarlaAir/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/louiszengCN/CarlaAir/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/louiszengCN/CarlaAir/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/louiszengCN/CarlaAir/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/louiszengCN/CarlaAir/labels{/name}",
+      "releases_url": "https://api.github.com/repos/louiszengCN/CarlaAir/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/louiszengCN/CarlaAir/deployments",
+      "created_at": "2026-03-19T06:24:59Z",
+      "updated_at": "2026-03-24T06:06:05Z",
+      "pushed_at": "2026-03-24T06:05:54Z",
+      "git_url": "git://github.com/louiszengCN/CarlaAir.git",
+      "ssh_url": "git@github.com:louiszengCN/CarlaAir.git",
+      "clone_url": "https://github.com/louiszengCN/CarlaAir.git",
+      "svn_url": "https://github.com/louiszengCN/CarlaAir",
+      "homepage": null,
+      "size": 160091,
+      "stargazers_count": 53,
+      "watchers_count": 53,
+      "language": "C++",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 1,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "airsim",
+        "autonomous-driving",
+        "carla",
+        "drone",
+        "python",
+        "robotics",
+        "ros2",
+        "simulation",
+        "uav",
+        "unreal-engine"
+      ],
+      "visibility": "public",
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 53,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "louiszengcncarlaair",
+    "dedupeKey": "ec7992f2ef380ece878c7da295f8871bce6dff40bcb297d1131bd4a6c269d6d9",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "smerkd/lerobotv3_bench_vortex_zed_four_stereo",
+    "title": "smerkd/lerobotv3_bench_vortex_zed_four_stereo",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:05:56.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/smerkd/lerobotv3_bench_vortex_zed_four_stereo",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/smerkd/lerobotv3_bench_vortex_zed_four_stereo",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "smerkd"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "license:mit",
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.72,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c229c4730c04d6169f46b3",
+      "id": "smerkd/lerobotv3_bench_vortex_zed_four_stereo",
+      "author": "smerkd",
+      "cardData": {
+        "license": "mit"
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-24T06:05:56.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "52f43295ae355465db35a2c987bc5c309b34a449",
+      "downloads": 0,
+      "tags": [
+        "license:mit",
+        "region:us"
+      ],
+      "createdAt": "2026-03-24T06:05:56.000Z",
+      "key": ""
+    },
+    "slug": "smerkdlerobotv3benchvortexzedfourstereo",
+    "dedupeKey": "16ff8462950e489c7716277d12d952f7ef023759ef038d8895071b19d6faa539",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "rainbowrobotics/bin_0324_dualArm_singleObj_1",
+    "title": "rainbowrobotics/bin_0324_dualArm_singleObj_1",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:05:32.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/rainbowrobotics/bin_0324_dualArm_singleObj_1",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/rainbowrobotics/bin_0324_dualArm_singleObj_1",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "rainbowrobotics"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c2298e730c04d6169f3ff8",
+      "id": "rainbowrobotics/bin_0324_dualArm_singleObj_1",
+      "author": "rainbowrobotics",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-24T06:05:32.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "cfa97e6a061da3dbfaf67278e1f79fa13c89339b",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"rby1\",\n    \"total_episodes\": 45,\n    \"total_frames\": 20455,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 15,\n    \"splits\": {\n        \"train\": \"0:45\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/rainbowrobotics/bin_0324_dualArm_singleObj_1.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-24T06:05:02.000Z",
+      "key": ""
+    },
+    "slug": "rainbowroboticsbin0324dualarmsingleobj1",
+    "dedupeKey": "1919ae84acccb3bcb1b3dc9fe3d5485a3ca0783581265e88929d037152c872a7",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "1186728458",
+    "title": "jaylamping/mr_robot",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:05:24Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/jaylamping/mr_robot",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/jaylamping/mr_robot",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "jaylamping"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1186728458,
+      "node_id": "R_kgDORrwKCg",
+      "name": "mr_robot",
+      "full_name": "jaylamping/mr_robot",
+      "private": false,
+      "owner": {
+        "login": "jaylamping",
+        "id": 35737718,
+        "node_id": "MDQ6VXNlcjM1NzM3NzE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35737718?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jaylamping",
+        "html_url": "https://github.com/jaylamping",
+        "followers_url": "https://api.github.com/users/jaylamping/followers",
+        "following_url": "https://api.github.com/users/jaylamping/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jaylamping/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jaylamping/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jaylamping/subscriptions",
+        "organizations_url": "https://api.github.com/users/jaylamping/orgs",
+        "repos_url": "https://api.github.com/users/jaylamping/repos",
+        "events_url": "https://api.github.com/users/jaylamping/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jaylamping/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/jaylamping/mr_robot",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/jaylamping/mr_robot",
+      "forks_url": "https://api.github.com/repos/jaylamping/mr_robot/forks",
+      "keys_url": "https://api.github.com/repos/jaylamping/mr_robot/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/jaylamping/mr_robot/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/jaylamping/mr_robot/teams",
+      "hooks_url": "https://api.github.com/repos/jaylamping/mr_robot/hooks",
+      "issue_events_url": "https://api.github.com/repos/jaylamping/mr_robot/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/jaylamping/mr_robot/events",
+      "assignees_url": "https://api.github.com/repos/jaylamping/mr_robot/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/jaylamping/mr_robot/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/jaylamping/mr_robot/tags",
+      "blobs_url": "https://api.github.com/repos/jaylamping/mr_robot/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/jaylamping/mr_robot/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/jaylamping/mr_robot/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/jaylamping/mr_robot/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/jaylamping/mr_robot/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/jaylamping/mr_robot/languages",
+      "stargazers_url": "https://api.github.com/repos/jaylamping/mr_robot/stargazers",
+      "contributors_url": "https://api.github.com/repos/jaylamping/mr_robot/contributors",
+      "subscribers_url": "https://api.github.com/repos/jaylamping/mr_robot/subscribers",
+      "subscription_url": "https://api.github.com/repos/jaylamping/mr_robot/subscription",
+      "commits_url": "https://api.github.com/repos/jaylamping/mr_robot/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/jaylamping/mr_robot/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/jaylamping/mr_robot/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/jaylamping/mr_robot/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/jaylamping/mr_robot/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/jaylamping/mr_robot/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/jaylamping/mr_robot/merges",
+      "archive_url": "https://api.github.com/repos/jaylamping/mr_robot/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/jaylamping/mr_robot/downloads",
+      "issues_url": "https://api.github.com/repos/jaylamping/mr_robot/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/jaylamping/mr_robot/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/jaylamping/mr_robot/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/jaylamping/mr_robot/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/jaylamping/mr_robot/labels{/name}",
+      "releases_url": "https://api.github.com/repos/jaylamping/mr_robot/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/jaylamping/mr_robot/deployments",
+      "created_at": "2026-03-19T23:40:28Z",
+      "updated_at": "2026-03-24T06:05:24Z",
+      "pushed_at": "2026-03-24T06:05:20Z",
+      "git_url": "git://github.com/jaylamping/mr_robot.git",
+      "ssh_url": "git@github.com:jaylamping/mr_robot.git",
+      "clone_url": "https://github.com/jaylamping/mr_robot.git",
+      "svn_url": "https://github.com/jaylamping/mr_robot",
+      "homepage": null,
+      "size": 534,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "Rust",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "jaylampingmrrobot",
+    "dedupeKey": "f5d0566e76a5264265675da22c6daa7808e474b5bf6ac21b572695372f2d1ea3",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1100945668",
+    "title": "Dicklesworthstone/coding_agent_session_search",
+    "summary": "Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:05:15Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Dicklesworthstone/coding_agent_session_search",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Dicklesworthstone/coding_agent_session_search",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Dicklesworthstone"
+    ],
+    "category": "code",
+    "keywords": [
+      "ai-agents",
+      "developer-tools",
+      "rust",
+      "search",
+      "tui"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1100945668,
+      "node_id": "R_kgDOQZ8ZBA",
+      "name": "coding_agent_session_search",
+      "full_name": "Dicklesworthstone/coding_agent_session_search",
+      "private": false,
+      "owner": {
+        "login": "Dicklesworthstone",
+        "id": 35050222,
+        "node_id": "MDQ6VXNlcjM1MDUwMjIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Dicklesworthstone",
+        "html_url": "https://github.com/Dicklesworthstone",
+        "followers_url": "https://api.github.com/users/Dicklesworthstone/followers",
+        "following_url": "https://api.github.com/users/Dicklesworthstone/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Dicklesworthstone/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Dicklesworthstone/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Dicklesworthstone/subscriptions",
+        "organizations_url": "https://api.github.com/users/Dicklesworthstone/orgs",
+        "repos_url": "https://api.github.com/users/Dicklesworthstone/repos",
+        "events_url": "https://api.github.com/users/Dicklesworthstone/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Dicklesworthstone/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Dicklesworthstone/coding_agent_session_search",
+      "description": "Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)",
+      "fork": false,
+      "url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search",
+      "forks_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/forks",
+      "keys_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/teams",
+      "hooks_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/hooks",
+      "issue_events_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/events",
+      "assignees_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/tags",
+      "blobs_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/languages",
+      "stargazers_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/stargazers",
+      "contributors_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/contributors",
+      "subscribers_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/subscribers",
+      "subscription_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/subscription",
+      "commits_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/merges",
+      "archive_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/downloads",
+      "issues_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Dicklesworthstone/coding_agent_session_search/deployments",
+      "created_at": "2025-11-21T01:22:15Z",
+      "updated_at": "2026-03-24T06:05:15Z",
+      "pushed_at": "2026-03-24T06:05:13Z",
+      "git_url": "git://github.com/Dicklesworthstone/coding_agent_session_search.git",
+      "ssh_url": "git@github.com:Dicklesworthstone/coding_agent_session_search.git",
+      "clone_url": "https://github.com/Dicklesworthstone/coding_agent_session_search.git",
+      "svn_url": "https://github.com/Dicklesworthstone/coding_agent_session_search",
+      "homepage": null,
+      "size": 410173,
+      "stargazers_count": 619,
+      "watchers_count": 619,
+      "language": "Rust",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 85,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 1,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "ai-agents",
+        "developer-tools",
+        "rust",
+        "search",
+        "tui"
+      ],
+      "visibility": "public",
+      "forks": 85,
+      "open_issues": 1,
+      "watchers": 619,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "dicklesworthstonecodingagentsessionsearch",
+    "dedupeKey": "148d2c0037817791a09bbb560fa7d103111613df8ce08f78f4447f3c5ca0273c",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "kemjensak/policy_act_bin_0324_20k",
+    "title": "kemjensak/policy_act_bin_0324_20k",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:03:03.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/kemjensak/policy_act_bin_0324_20k",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/kemjensak/policy_act_bin_0324_20k",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "act",
+      "robotics",
+      "dataset:rainbowrobotics/bin_0318_merged_1to2",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "机器人学习"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c228eeedae571ffb17e225",
+      "id": "kemjensak/policy_act_bin_0324_20k",
+      "author": "kemjensak",
+      "gated": false,
+      "lastModified": "2026-03-24T06:03:03.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "468933e1e9dbffb88eb36b667fae5061320603be",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "act",
+        "robotics",
+        "dataset:rainbowrobotics/bin_0318_merged_1to2",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-24T06:02:22.000Z",
+      "modelId": "kemjensak/policy_act_bin_0324_20k",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "kemjensakpolicyactbin032420k",
+    "dedupeKey": "c59df86b355b233b7417c73984e158dd5a83e4e9dcba0fe90b4458bc916b089f",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "StrongRoboticsLab/pi05-so100-diverse-checkpoints",
+    "title": "StrongRoboticsLab/pi05-so100-diverse-checkpoints",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:02:01.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/StrongRoboticsLab/pi05-so100-diverse-checkpoints",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/StrongRoboticsLab/pi05-so100-diverse-checkpoints",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "safetensors",
+      "region:us"
+    ],
+    "tags": [
+      "实验室动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c222ff399701e464f2f885",
+      "id": "StrongRoboticsLab/pi05-so100-diverse-checkpoints",
+      "author": "StrongRoboticsLab",
+      "gated": false,
+      "lastModified": "2026-03-24T06:02:01.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "2ccd028ccd6ea96ba2a5a9a0c1fd6bffcd2c02ff",
+      "downloads": 0,
+      "tags": [
+        "safetensors",
+        "region:us"
+      ],
+      "createdAt": "2026-03-24T05:37:03.000Z",
+      "modelId": "StrongRoboticsLab/pi05-so100-diverse-checkpoints",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "step_000500/pretrained_model/config.json"
+        },
+        {
+          "rfilename": "step_000500/pretrained_model/model.safetensors"
+        },
+        {
+          "rfilename": "step_000500/pretrained_model/policy_postprocessor.json"
+        },
+        {
+          "rfilename": "step_000500/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "step_000500/pretrained_model/policy_preprocessor.json"
+        },
+        {
+          "rfilename": "step_000500/pretrained_model/policy_preprocessor_step_2_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "step_000500/pretrained_model/train_config.json"
+        },
+        {
+          "rfilename": "step_000500/training_state/optimizer_param_groups.json"
+        },
+        {
+          "rfilename": "step_000500/training_state/optimizer_state.safetensors"
+        },
+        {
+          "rfilename": "step_000500/training_state/rng_state.safetensors"
+        },
+        {
+          "rfilename": "step_000500/training_state/scheduler_state.json"
+        },
+        {
+          "rfilename": "step_000500/training_state/training_step.json"
+        },
+        {
+          "rfilename": "step_001000/pretrained_model/config.json"
+        },
+        {
+          "rfilename": "step_001000/pretrained_model/model.safetensors"
+        },
+        {
+          "rfilename": "step_001000/pretrained_model/policy_postprocessor.json"
+        },
+        {
+          "rfilename": "step_001000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "step_001000/pretrained_model/policy_preprocessor.json"
+        },
+        {
+          "rfilename": "step_001000/pretrained_model/policy_preprocessor_step_2_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "step_001000/pretrained_model/train_config.json"
+        },
+        {
+          "rfilename": "step_001000/training_state/optimizer_param_groups.json"
+        },
+        {
+          "rfilename": "step_001000/training_state/optimizer_state.safetensors"
+        },
+        {
+          "rfilename": "step_001000/training_state/rng_state.safetensors"
+        },
+        {
+          "rfilename": "step_001000/training_state/scheduler_state.json"
+        },
+        {
+          "rfilename": "step_001000/training_state/training_step.json"
+        },
+        {
+          "rfilename": "step_001500/pretrained_model/config.json"
+        },
+        {
+          "rfilename": "step_001500/pretrained_model/model.safetensors"
+        },
+        {
+          "rfilename": "step_001500/pretrained_model/policy_postprocessor.json"
+        },
+        {
+          "rfilename": "step_001500/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "step_001500/pretrained_model/policy_preprocessor.json"
+        },
+        {
+          "rfilename": "step_001500/pretrained_model/policy_preprocessor_step_2_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "step_001500/pretrained_model/train_config.json"
+        },
+        {
+          "rfilename": "step_001500/training_state/optimizer_param_groups.json"
+        },
+        {
+          "rfilename": "step_001500/training_state/optimizer_state.safetensors"
+        },
+        {
+          "rfilename": "step_001500/training_state/rng_state.safetensors"
+        },
+        {
+          "rfilename": "step_001500/training_state/scheduler_state.json"
+        },
+        {
+          "rfilename": "step_001500/training_state/training_step.json"
+        },
+        {
+          "rfilename": "step_002000/pretrained_model/config.json"
+        },
+        {
+          "rfilename": "step_002000/pretrained_model/model.safetensors"
+        },
+        {
+          "rfilename": "step_002000/pretrained_model/policy_postprocessor.json"
+        },
+        {
+          "rfilename": "step_002000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "step_002000/pretrained_model/policy_preprocessor.json"
+        },
+        {
+          "rfilename": "step_002000/pretrained_model/policy_preprocessor_step_2_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "step_002000/pretrained_model/train_config.json"
+        },
+        {
+          "rfilename": "step_002000/training_state/optimizer_param_groups.json"
+        },
+        {
+          "rfilename": "step_002000/training_state/optimizer_state.safetensors"
+        },
+        {
+          "rfilename": "step_002000/training_state/rng_state.safetensors"
+        },
+        {
+          "rfilename": "step_002000/training_state/scheduler_state.json"
+        },
+        {
+          "rfilename": "step_002000/training_state/training_step.json"
+        }
+      ]
+    },
+    "slug": "strongroboticslabpi05-so100-diverse-checkpoints",
+    "dedupeKey": "1872ce8b78066923488aae5ad0e0b9cbc254a9491625d3559a72828a5d7088a0",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "weeenwang/260324_color_sort_fence",
+    "title": "weeenwang/260324_color_sort_fence",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:01:52.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/weeenwang/260324_color_sort_fence",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/weeenwang/260324_color_sort_fence",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "weeenwang"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c228cc28c9000069a919b1",
+      "id": "weeenwang/260324_color_sort_fence",
+      "author": "weeenwang",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-24T06:01:52.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "19c345b2c7c1669ba581b78e6a7312a9486e2038",
+      "description": "This dataset was created using LeRobot.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 0,\n    \"total_frames\": 0,\n    \"total_tasks\": 0,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {},\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/weeenwang/260324_color_sort_fence.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-24T06:01:48.000Z",
+      "key": ""
+    },
+    "slug": "weeenwang260324colorsortfence",
+    "dedupeKey": "0f9490bf810c1a4f4e0f8f21a2c4036d2c2e1dc80c81912ee658d040d610bcff",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "dcrric/act_red",
+    "title": "dcrric/act_red",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:01:49.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/dcrric/act_red",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/dcrric/act_red",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "act",
+      "dataset:dcrric/red",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c228b8730c04d6169f2f98",
+      "id": "dcrric/act_red",
+      "author": "dcrric",
+      "gated": false,
+      "lastModified": "2026-03-24T06:01:49.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "4db3b69e51e27bb156e2c46dbc579351f32ae468",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "act",
+        "dataset:dcrric/red",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-24T06:01:28.000Z",
+      "modelId": "dcrric/act_red",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "dcrricactred",
+    "dedupeKey": "20cda34a3c198eae7111180d3f46eb8636851a055fe804db5fd903f628703c49",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "anthonyhchan/my_policy",
+    "title": "anthonyhchan/my_policy",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:01:39.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/anthonyhchan/my_policy",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/anthonyhchan/my_policy",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "act",
+      "robotics",
+      "dataset:anthonyhchan/record-test-5",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "机器人学习"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c228a10efd3fbe8b38bc29",
+      "id": "anthonyhchan/my_policy",
+      "author": "anthonyhchan",
+      "gated": false,
+      "lastModified": "2026-03-24T06:01:39.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "83b7207bbeb41373df254604561e05493c18bc22",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "act",
+        "robotics",
+        "dataset:anthonyhchan/record-test-5",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-24T06:01:05.000Z",
+      "modelId": "anthonyhchan/my_policy",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "anthonyhchanmypolicy",
+    "dedupeKey": "dfbe6e138084fd9154f6f7e844854e4e5db76a9a12448cebf43318a149700006",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "weeenwang/eval_260323_color_sort_fence",
+    "title": "weeenwang/eval_260323_color_sort_fence",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:01:12.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/weeenwang/eval_260323_color_sort_fence",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/weeenwang/eval_260323_color_sort_fence",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "weeenwang"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c2019473624555e57aeee5",
+      "id": "weeenwang/eval_260323_color_sort_fence",
+      "author": "weeenwang",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-24T06:01:12.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "dc5e41bf726fbda0d9bdaaa74e8e8f041b6d4d9d",
+      "description": "This dataset was created using LeRobot.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 0,\n    \"total_frames\": 0,\n    \"total_tasks\": 0,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {},\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/weeenwang/eval_260323_color_sort_fence.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-24T03:14:28.000Z",
+      "key": ""
+    },
+    "slug": "weeenwangeval260323colorsortfence",
+    "dedupeKey": "d0abe4d4b252c3614451dd4a4a36ab19c8e970df5d8139304eda3dea4118b6f8",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "seok7ee/test-two-cubes04",
+    "title": "seok7ee/test-two-cubes04",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T05:58:59.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/seok7ee/test-two-cubes04",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/seok7ee/test-two-cubes04",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "act",
+      "dataset:seok7ee/test-two-cubes04",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c227c728c9000069a9070e",
+      "id": "seok7ee/test-two-cubes04",
+      "author": "seok7ee",
+      "gated": false,
+      "lastModified": "2026-03-24T05:58:59.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "d577f9e441522699b3d449be4e1263df641c9179",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "act",
+        "dataset:seok7ee/test-two-cubes04",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-24T05:57:27.000Z",
+      "modelId": "seok7ee/test-two-cubes04",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "seok7eetest-two-cubes04",
+    "dedupeKey": "bb8ee328c1fb13621e208da40d25f54d0f0a7ddf6c75044647b6dac0eb79aec6",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.22280v1",
+    "title": "DualCoT-VLA: Visual-Linguistic Chain of Thought via Parallel Reasoning for Vision-Language-Action Models",
+    "summary": "Vision-Language-Action (VLA) models map visual observations and language instructions directly to robotic actions. While effective for simple tasks, standard VLA models often struggle with complex, multi-step tasks requiring logical planning, as well as precise manipulations demanding fine-grained spatial perception. Recent efforts have incorporated Chain-of-Thought (CoT) reasoning to endow VLA models with a ``thinking before acting'' capability. However, current CoT-based VLA models face two critical limitations: 1) an inability to simultaneously capture low-level visual details and high-level logical planning due to their reliance on isolated, single-modal CoT; 2) high inference latency with compounding errors caused by step-by-step autoregressive decoding. To address these limitations, we propose DualCoT-VLA, a visual-linguistic CoT method for VLA models with a parallel reasoning mechanism. To achieve comprehensive multi-modal reasoning, our method integrates a visual CoT for low-level spatial understanding and a linguistic CoT for high-level task planning. Furthermore, to overcome the latency bottleneck, we introduce a parallel CoT mechanism that incorporates two sets of learnable query tokens, shifting autoregressive reasoning to single-step forward reasoning. Extensive experiments demonstrate that our DualCoT-VLA achieves state-of-the-art performance on the LIBERO and RoboCasa GR1 benchmarks, as well as in real-world platforms.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T17:59:25Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.22280v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.22280v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Zhide Zhong",
+      "Junfeng Li",
+      "Junjie He",
+      "Haodong Yan",
+      "Xin Gong",
+      "Guanyi Zhao",
+      "Yingjie Cai",
+      "Jiantao Gao",
+      "Xu Yan",
+      "Bingbing Liu",
+      "Yingcong Chen",
+      "Liuqing Yang",
+      "Haoang Li"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "vla",
+      "vision-language-action"
+    ],
+    "tags": [
+      "机械臂操作",
+      "视觉语言动作",
+      "数据集"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.22280v1",
+      "title": "DualCoT-VLA: Visual-Linguistic Chain of Thought via Parallel Reasoning for Vision-Language-Action Models",
+      "updated": "2026-03-23T17:59:25Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.22280v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.22280v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Vision-Language-Action (VLA) models map visual observations and language instructions directly to robotic actions. While effective for simple tasks, standard VLA models often struggle with complex, multi-step tasks requiring logical planning, as well as precise manipulations demanding fine-grained spatial perception. Recent efforts have incorporated Chain-of-Thought (CoT) reasoning to endow VLA models with a ``thinking before acting'' capability. However, current CoT-based VLA models face two critical limitations: 1) an inability to simultaneously capture low-level visual details and high-level logical planning due to their reliance on isolated, single-modal CoT; 2) high inference latency with compounding errors caused by step-by-step autoregressive decoding. To address these limitations, we propose DualCoT-VLA, a visual-linguistic CoT method for VLA models with a parallel reasoning mechanism. To achieve comprehensive multi-modal reasoning, our method integrates a visual CoT for low-level spatial understanding and a linguistic CoT for high-level task planning. Furthermore, to overcome the latency bottleneck, we introduce a parallel CoT mechanism that incorporates two sets of learnable query tokens, shifting autoregressive reasoning to single-step forward reasoning. Extensive experiments demonstrate that our DualCoT-VLA achieves state-of-the-art performance on the LIBERO and RoboCasa GR1 benchmarks, as well as in real-world platforms.",
+      "category": [
+        {
+          "@_term": "cs.CV",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "cs.RO",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-23T17:59:25Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.CV"
+      },
+      "author": [
+        {
+          "name": "Zhide Zhong"
+        },
+        {
+          "name": "Junfeng Li"
+        },
+        {
+          "name": "Junjie He"
+        },
+        {
+          "name": "Haodong Yan"
+        },
+        {
+          "name": "Xin Gong"
+        },
+        {
+          "name": "Guanyi Zhao"
+        },
+        {
+          "name": "Yingjie Cai"
+        },
+        {
+          "name": "Jiantao Gao"
+        },
+        {
+          "name": "Xu Yan"
+        },
+        {
+          "name": "Bingbing Liu"
+        },
+        {
+          "name": "Yingcong Chen"
+        },
+        {
+          "name": "Liuqing Yang"
+        },
+        {
+          "name": "Haoang Li"
+        }
+      ]
+    },
+    "slug": "dualcot-vla-visual-linguistic-chain-of-thought-via-parallel-reasoning-for-vision",
+    "dedupeKey": "406d833e47f8e429cb07d8ad3afcc12aeab4f1d53ed02cbdab48fa940b59e53b",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.22264v1",
+    "title": "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos",
+    "summary": "Dexterous manipulation remains challenging due to the cost of collecting real-robot teleoperation data, the heterogeneity of hand embodiments, and the high dimensionality of control. We present UniDex, a robot foundation suite that couples a large-scale robot-centric dataset with a unified vision-language-action (VLA) policy and a practical human-data capture setup for universal dexterous hand control. First, we construct UniDex-Dataset, a robot-centric dataset over 50K trajectories across eight dexterous hands (6--24 DoFs), derived from egocentric human video datasets. To transform human data into robot-executable trajectories, we employ a human-in-the-loop retargeting procedure to align fingertip trajectories while preserving plausible hand-object contacts, and we operate on explicit 3D pointclouds with human hands masked to narrow kinematic and visual gaps. Second, we introduce the Function-Actuator-Aligned Space (FAAS), a unified action space that maps functionally similar actuators to shared coordinates, enabling cross-hand transfer. Leveraging FAAS as the action parameterization, we train UniDex-VLA, a 3D VLA policy pretrained on UniDex-Dataset and finetuned with task demonstrations. In addition, we build UniDex-Cap, a simple portable capture setup that records synchronized RGB-D streams and human hand poses and converts them into robot-executable trajectories to enable human-robot data co-training that reduces reliance on costly robot demonstrations. On challenging tool-use tasks across two different hands, UniDex-VLA achieves 81% average task progress and outperforms prior VLA baselines by a large margin, while exhibiting strong spatial, object, and zero-shot cross-hand generalization. Together, UniDex-Dataset, UniDex-VLA, and UniDex-Cap provide a scalable foundation suite for universal dexterous manipulation.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T17:49:12Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.22264v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.22264v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Gu Zhang",
+      "Qicheng Xu",
+      "Haozhe Zhang",
+      "Jianhan Ma",
+      "Long He",
+      "Yiming Bao",
+      "Zeyu Ping",
+      "Zhecheng Yuan",
+      "Chenhao Lu",
+      "Chengbo Yuan",
+      "Tianhai Liang",
+      "Xiaoyu Tian",
+      "Maanping Shao",
+      "Feihong Zhang",
+      "Mingyu Ding",
+      "Yang Gao",
+      "Hao Zhao",
+      "Hang Zhao",
+      "Huazhe Xu"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "vla",
+      "vision-language-action",
+      "dexterous"
+    ],
+    "tags": [
+      "具身智能",
+      "机器人学习",
+      "机械臂操作",
+      "视觉语言动作",
+      "数据集",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.83,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.22264v1",
+      "title": "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos",
+      "updated": "2026-03-23T17:49:12Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.22264v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.22264v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Dexterous manipulation remains challenging due to the cost of collecting real-robot teleoperation data, the heterogeneity of hand embodiments, and the high dimensionality of control. We present UniDex, a robot foundation suite that couples a large-scale robot-centric dataset with a unified vision-language-action (VLA) policy and a practical human-data capture setup for universal dexterous hand control. First, we construct UniDex-Dataset, a robot-centric dataset over 50K trajectories across eight dexterous hands (6--24 DoFs), derived from egocentric human video datasets. To transform human data into robot-executable trajectories, we employ a human-in-the-loop retargeting procedure to align fingertip trajectories while preserving plausible hand-object contacts, and we operate on explicit 3D pointclouds with human hands masked to narrow kinematic and visual gaps. Second, we introduce the Function-Actuator-Aligned Space (FAAS), a unified action space that maps functionally similar actuators to shared coordinates, enabling cross-hand transfer. Leveraging FAAS as the action parameterization, we train UniDex-VLA, a 3D VLA policy pretrained on UniDex-Dataset and finetuned with task demonstrations. In addition, we build UniDex-Cap, a simple portable capture setup that records synchronized RGB-D streams and human hand poses and converts them into robot-executable trajectories to enable human-robot data co-training that reduces reliance on costly robot demonstrations. On challenging tool-use tasks across two different hands, UniDex-VLA achieves 81% average task progress and outperforms prior VLA baselines by a large margin, while exhibiting strong spatial, object, and zero-shot cross-hand generalization. Together, UniDex-Dataset, UniDex-VLA, and UniDex-Cap provide a scalable foundation suite for universal dexterous manipulation.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-23T17:49:12Z",
+      "arxiv:comment": "Accepted by CVPR 2026",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Gu Zhang"
+        },
+        {
+          "name": "Qicheng Xu"
+        },
+        {
+          "name": "Haozhe Zhang"
+        },
+        {
+          "name": "Jianhan Ma"
+        },
+        {
+          "name": "Long He"
+        },
+        {
+          "name": "Yiming Bao"
+        },
+        {
+          "name": "Zeyu Ping"
+        },
+        {
+          "name": "Zhecheng Yuan"
+        },
+        {
+          "name": "Chenhao Lu"
+        },
+        {
+          "name": "Chengbo Yuan"
+        },
+        {
+          "name": "Tianhai Liang"
+        },
+        {
+          "name": "Xiaoyu Tian"
+        },
+        {
+          "name": "Maanping Shao"
+        },
+        {
+          "name": "Feihong Zhang"
+        },
+        {
+          "name": "Mingyu Ding"
+        },
+        {
+          "name": "Yang Gao"
+        },
+        {
+          "name": "Hao Zhao"
+        },
+        {
+          "name": "Hang Zhao"
+        },
+        {
+          "name": "Huazhe Xu"
+        }
+      ]
+    },
+    "slug": "unidex-a-robot-foundation-suite-for-universal-dexterous-hand-control-from-egocen",
+    "dedupeKey": "db355b51bd5fcf0cff2ff0218cc680a8b40292d05fcce0b46094133c47285768",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.22201v1",
+    "title": "Make Tracking Easy: Neural Motion Retargeting for Humanoid Whole-body Control",
+    "summary": "Humanoid robots require diverse motor skills to integrate into complex environments, but bridging the kinematic and dynamic embodiment gap from human data remains a major bottleneck. We demonstrate through Hessian analysis that traditional optimization-based retargeting is inherently non-convex and prone to local optima, leading to physical artifacts like joint jumps and self-penetration. To address this, we reformulate the targeting problem as learning data distribution rather than optimizing optimal solutions, where we propose NMR, a Neural Motion Retargeting framework that transforms static geometric mapping into a dynamics-aware learned process. We first propose Clustered-Expert Physics Refinement (CEPR), a hierarchical data pipeline that leverages VAE-based motion clustering to group heterogeneous movements into latent motifs. This strategy significantly reduces the computational overhead of massively parallel reinforcement learning experts, which project and repair noisy human demonstrations onto the robot's feasible motion manifold. The resulting high-fidelity data supervises a non-autoregressive CNN-Transformer architecture that reasons over global temporal context to suppress reconstruction noise and bypass geometric traps. Experiments on the Unitree G1 humanoid across diverse dynamic tasks (e.g., martial arts, dancing) show that NMR eliminates joint jumps and significantly reduces self-collisions compared to state-of-the-art baselines. Furthermore, NMR-generated references accelerate the convergence of downstream whole-body control policies, establishing a scalable path for bridging the human-robot embodiment gap.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T16:59:00Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.22201v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.22201v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Qingrui Zhao",
+      "Kaiyue Yang",
+      "Xiyu Wang",
+      "Shiqi Zhao",
+      "Yi Lu",
+      "Xinfang Zhang",
+      "Wei Yin",
+      "Qiu Shen",
+      "Xiao-Xiao Long",
+      "Xun Cao"
+    ],
+    "category": "paper",
+    "keywords": [
+      "humanoid"
+    ],
+    "tags": [
+      "具身智能",
+      "人形机器人",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.57,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.22201v1",
+      "title": "Make Tracking Easy: Neural Motion Retargeting for Humanoid Whole-body Control",
+      "updated": "2026-03-23T16:59:00Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.22201v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.22201v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Humanoid robots require diverse motor skills to integrate into complex environments, but bridging the kinematic and dynamic embodiment gap from human data remains a major bottleneck. We demonstrate through Hessian analysis that traditional optimization-based retargeting is inherently non-convex and prone to local optima, leading to physical artifacts like joint jumps and self-penetration. To address this, we reformulate the targeting problem as learning data distribution rather than optimizing optimal solutions, where we propose NMR, a Neural Motion Retargeting framework that transforms static geometric mapping into a dynamics-aware learned process. We first propose Clustered-Expert Physics Refinement (CEPR), a hierarchical data pipeline that leverages VAE-based motion clustering to group heterogeneous movements into latent motifs. This strategy significantly reduces the computational overhead of massively parallel reinforcement learning experts, which project and repair noisy human demonstrations onto the robot's feasible motion manifold. The resulting high-fidelity data supervises a non-autoregressive CNN-Transformer architecture that reasons over global temporal context to suppress reconstruction noise and bypass geometric traps. Experiments on the Unitree G1 humanoid across diverse dynamic tasks (e.g., martial arts, dancing) show that NMR eliminates joint jumps and significantly reduces self-collisions compared to state-of-the-art baselines. Furthermore, NMR-generated references accelerate the convergence of downstream whole-body control policies, establishing a scalable path for bridging the human-robot embodiment gap.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-23T16:59:00Z",
+      "arxiv:comment": "Report, 12 pages, 5 figures, 4 tables",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Qingrui Zhao"
+        },
+        {
+          "name": "Kaiyue Yang"
+        },
+        {
+          "name": "Xiyu Wang"
+        },
+        {
+          "name": "Shiqi Zhao"
+        },
+        {
+          "name": "Yi Lu"
+        },
+        {
+          "name": "Xinfang Zhang"
+        },
+        {
+          "name": "Wei Yin"
+        },
+        {
+          "name": "Qiu Shen"
+        },
+        {
+          "name": "Xiao-Xiao Long"
+        },
+        {
+          "name": "Xun Cao"
+        }
+      ]
+    },
+    "slug": "make-tracking-easy-neural-motion-retargeting-for-humanoid-whole-body-control",
+    "dedupeKey": "e95e7af05dc39bcbd5b9bf5bd6a2dd2f112394c9a41ffad61b70131c3d572e09",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.22193v1",
+    "title": "PAM: A Pose-Appearance-Motion Engine for Sim-to-Real HOI Video Generation",
+    "summary": "Hand-object interaction (HOI) reconstruction and synthesis are becoming central to embodied AI and AR/VR. Yet, despite rapid progress, existing HOI generation research remains fragmented across three disjoint tracks: (1) pose-only synthesis that predicts MANO trajectories without producing pixels; (2) single-image HOI generation that hallucinates appearance from masks or 2D cues but lacks dynamics; and (3) video generation methods that require both the entire pose sequence and the ground-truth first frame as inputs, preventing true sim-to-real deployment. Inspired by the philosophy of Joo et al. (2018), we think that HOI generation requires a unified engine that brings together pose, appearance, and motion within one coherent framework. Thus we introduce PAM: a Pose-Appearance-Motion Engine for controllable HOI video generation. The performance of our engine is validated by: (1) On DexYCB, we obtain an FVD of 29.13 (vs. 38.83 for InterDyn), and MPJPE of 19.37 mm (vs. 30.05 mm for CosHand), while generating higher-resolution 480x720 videos compared to 256x256 and 256x384 baselines. (2) On OAKINK2, our full multi-condition model improves FVD from 68.76 to 46.31. (3) An ablation over input conditions on DexYCB shows that combining depth, segmentation, and keypoints consistently yields the best results. (4) For a downstream hand pose estimation task using SimpleHand, augmenting training with 3,400 synthetic videos (207k frames) allows a model trained on only 50% of the real data plus our synthetic data to match the 100% real baseline.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T16:51:52Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.22193v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.22193v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Mingju Gao",
+      "Kaisen Yang",
+      "Huan-ang Gao",
+      "Bohan Li",
+      "Ao Ding",
+      "Wenyi Li",
+      "Yangcheng Yu",
+      "Jinkun Liu",
+      "Shaocong Xu",
+      "Yike Niu",
+      "Haohan Chi",
+      "Hao Chen",
+      "Hao Tang",
+      "Li Yi",
+      "Hao Zhao"
+    ],
+    "category": "paper",
+    "keywords": [
+      "embodied ai"
+    ],
+    "tags": [
+      "具身智能",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.49,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.22193v1",
+      "title": "PAM: A Pose-Appearance-Motion Engine for Sim-to-Real HOI Video Generation",
+      "updated": "2026-03-23T16:51:52Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.22193v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.22193v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Hand-object interaction (HOI) reconstruction and synthesis are becoming central to embodied AI and AR/VR. Yet, despite rapid progress, existing HOI generation research remains fragmented across three disjoint tracks: (1) pose-only synthesis that predicts MANO trajectories without producing pixels; (2) single-image HOI generation that hallucinates appearance from masks or 2D cues but lacks dynamics; and (3) video generation methods that require both the entire pose sequence and the ground-truth first frame as inputs, preventing true sim-to-real deployment. Inspired by the philosophy of Joo et al. (2018), we think that HOI generation requires a unified engine that brings together pose, appearance, and motion within one coherent framework. Thus we introduce PAM: a Pose-Appearance-Motion Engine for controllable HOI video generation. The performance of our engine is validated by: (1) On DexYCB, we obtain an FVD of 29.13 (vs. 38.83 for InterDyn), and MPJPE of 19.37 mm (vs. 30.05 mm for CosHand), while generating higher-resolution 480x720 videos compared to 256x256 and 256x384 baselines. (2) On OAKINK2, our full multi-condition model improves FVD from 68.76 to 46.31. (3) An ablation over input conditions on DexYCB shows that combining depth, segmentation, and keypoints consistently yields the best results. (4) For a downstream hand pose estimation task using SimpleHand, augmenting training with 3,400 synthetic videos (207k frames) allows a model trained on only 50% of the real data plus our synthetic data to match the 100% real baseline.",
+      "category": {
+        "@_term": "cs.CV",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-23T16:51:52Z",
+      "arxiv:comment": "Accepted to CVPR 2026 Code: https://github.com/GasaiYU/PAM",
+      "arxiv:primary_category": {
+        "@_term": "cs.CV"
+      },
+      "author": [
+        {
+          "name": "Mingju Gao"
+        },
+        {
+          "name": "Kaisen Yang"
+        },
+        {
+          "name": "Huan-ang Gao"
+        },
+        {
+          "name": "Bohan Li"
+        },
+        {
+          "name": "Ao Ding"
+        },
+        {
+          "name": "Wenyi Li"
+        },
+        {
+          "name": "Yangcheng Yu"
+        },
+        {
+          "name": "Jinkun Liu"
+        },
+        {
+          "name": "Shaocong Xu"
+        },
+        {
+          "name": "Yike Niu"
+        },
+        {
+          "name": "Haohan Chi"
+        },
+        {
+          "name": "Hao Chen"
+        },
+        {
+          "name": "Hao Tang"
+        },
+        {
+          "name": "Li Yi"
+        },
+        {
+          "name": "Hao Zhao"
+        }
+      ]
+    },
+    "slug": "pam-a-pose-appearance-motion-engine-for-sim-to-real-hoi-video-generation",
+    "dedupeKey": "a92653aadabb7549275c7afd356a9a9794fcc3793d902b5c785454af46ad8f97",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.22126v1",
+    "title": "ROBOGATE: Adaptive Failure Discovery for Safe Robot Policy Deployment via Two-Stage Boundary-Focused Sampling",
+    "summary": "Deploying learned robot manipulation policies in industrial settings requires rigorous pre-deployment validation, yet exhaustive testing across high-dimensional parameter spaces is intractable. We present ROBOGATE, a deployment risk management framework that combines physics-based simulation with a two-stage adaptive sampling strategy to efficiently discover failure boundaries in the operational parameter space. Stage 1 employs Latin Hypercube Sampling (LHS) across an 8-dimensional parameter space to establish a coarse failure landscape from 20,000 uniformly distributed experiments. Stage 2 applies boundary-focused sampling that concentrates 10,000 additional experiments in the 30-70% success rate transition zone, enabling precise failure boundary mapping. Using NVIDIA Isaac Sim with Newton physics, we evaluate a scripted pick-and-place controller on two robot embodiments -- Franka Panda (7-DOF) and UR5e (6-DOF) -- across 30,000 total experiments. Our logistic regression risk model achieves an AUC of 0.780 on the combined dataset (vs. 0.754 for Stage 1 alone), identifies a closed-form failure boundary equation, and reveals four universal danger zones affecting both robot platforms. We further demonstrate the framework on VLA (Vision-Language-Action) model evaluation, where Octo-Small achieves 0.0% success rate on 68 adversarial scenarios versus 100% for the scripted baseline -- a 100-point gap that underscores the challenge of deploying foundation models in industrial settings. ROBOGATE is open-source and runs on a single GPU workstation.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T15:52:54Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.22126v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.22126v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Byungjin Kim"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "vla",
+      "vision-language-action"
+    ],
+    "tags": [
+      "具身智能",
+      "机器人学习",
+      "机械臂操作",
+      "视觉语言动作",
+      "仿真训练",
+      "开源发布",
+      "数据集"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.22126v1",
+      "title": "ROBOGATE: Adaptive Failure Discovery for Safe Robot Policy Deployment via Two-Stage Boundary-Focused Sampling",
+      "updated": "2026-03-23T15:52:54Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.22126v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.22126v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        },
+        {
+          "@_rel": "related",
+          "@_href": "https://doi.org/10.5281/zenodo.19166967",
+          "@_title": "doi"
+        }
+      ],
+      "summary": "Deploying learned robot manipulation policies in industrial settings requires rigorous pre-deployment validation, yet exhaustive testing across high-dimensional parameter spaces is intractable. We present ROBOGATE, a deployment risk management framework that combines physics-based simulation with a two-stage adaptive sampling strategy to efficiently discover failure boundaries in the operational parameter space. Stage 1 employs Latin Hypercube Sampling (LHS) across an 8-dimensional parameter space to establish a coarse failure landscape from 20,000 uniformly distributed experiments. Stage 2 applies boundary-focused sampling that concentrates 10,000 additional experiments in the 30-70% success rate transition zone, enabling precise failure boundary mapping. Using NVIDIA Isaac Sim with Newton physics, we evaluate a scripted pick-and-place controller on two robot embodiments -- Franka Panda (7-DOF) and UR5e (6-DOF) -- across 30,000 total experiments. Our logistic regression risk model achieves an AUC of 0.780 on the combined dataset (vs. 0.754 for Stage 1 alone), identifies a closed-form failure boundary equation, and reveals four universal danger zones affecting both robot platforms. We further demonstrate the framework on VLA (Vision-Language-Action) model evaluation, where Octo-Small achieves 0.0% success rate on 68 adversarial scenarios versus 100% for the scripted baseline -- a 100-point gap that underscores the challenge of deploying foundation models in industrial settings. ROBOGATE is open-source and runs on a single GPU workstation.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-23T15:52:54Z",
+      "arxiv:comment": "12 pages, 5 figures, open-source code and 30K failure pattern dataset available at https://github.com/liveplex-cpu/robogate",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": {
+        "name": "Byungjin Kim"
+      },
+      "arxiv:doi": "10.5281/zenodo.19166967"
+    },
+    "slug": "robogate-adaptive-failure-discovery-for-safe-robot-policy-deployment-via-two-sta",
+    "dedupeKey": "c336e8ca524b29b5f14377c6b27383c994d3c32012e5db9a1790d517588f90ec",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.22078v1",
+    "title": "Do World Action Models Generalize Better than VLAs? A Robustness Study",
+    "summary": "Robot action planning in the real world is challenging as it requires not only understanding the current state of the environment but also predicting how it will evolve in response to actions. Vision-language-action (VLA), which repurpose large-scale vision-language models for robot action generation using action experts, have achieved notable success across a variety of robotic tasks. Nevertheless, their performance remains constrained by the scope of their training data, exhibiting limited generalization to unseen scenarios and vulnerability to diverse contextual perturbations. More recently, world models have been revisited as an alternative to VLAs. These models, referred to as world action models (WAMs), are built upon world models that are trained on large corpora of video data to predict future states. With minor adaptations, their latent representation can be decoded into robot actions. It has been suggested that their explicit dynamic prediction capacity, combined with spatiotemporal priors acquired from web-scale video pretraining, enables WAMs to generalize more effectively than VLAs. In this paper, we conduct a comparative study of prominent state-of-the-art VLA policies and recently released WAMs. We evaluate their performance on the LIBERO-Plus and RoboTwin 2.0-Plus benchmarks under various visual and language perturbations. Our results show that WAMs achieve strong robustness, with LingBot-VA reaching 74.2% success rate on RoboTwin 2.0-Plus and Cosmos-Policy achieving 82.2% on LIBERO-Plus. While VLAs such as $π_{0.5}$ can achieve comparable robustness on certain tasks, they typically require extensive training with diverse robotic datasets and varied learning objectives. Hybrid approaches that partially incorporate video-based dynamic learning exhibit intermediate robustness, highlighting the importance of how video priors are integrated.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T15:13:15Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.22078v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.22078v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Zhanguang Zhang",
+      "Zhiyuan Li",
+      "Behnam Rahmati",
+      "Rui Heng Yang",
+      "Yintao Ma",
+      "Amir Rasouli",
+      "Sajjad Pakdamansavoji",
+      "Yangzheng Wu",
+      "Lingfeng Zhang",
+      "Tongtong Cao",
+      "Feng Wen",
+      "Xingyue Quan",
+      "Yingxue Zhang"
+    ],
+    "category": "paper",
+    "keywords": [
+      "world model",
+      "vla",
+      "vision-language-action"
+    ],
+    "tags": [
+      "机器人学习",
+      "世界模型",
+      "视觉语言动作",
+      "数据集"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.22078v1",
+      "title": "Do World Action Models Generalize Better than VLAs? A Robustness Study",
+      "updated": "2026-03-23T15:13:15Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.22078v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.22078v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Robot action planning in the real world is challenging as it requires not only understanding the current state of the environment but also predicting how it will evolve in response to actions. Vision-language-action (VLA), which repurpose large-scale vision-language models for robot action generation using action experts, have achieved notable success across a variety of robotic tasks. Nevertheless, their performance remains constrained by the scope of their training data, exhibiting limited generalization to unseen scenarios and vulnerability to diverse contextual perturbations. More recently, world models have been revisited as an alternative to VLAs. These models, referred to as world action models (WAMs), are built upon world models that are trained on large corpora of video data to predict future states. With minor adaptations, their latent representation can be decoded into robot actions. It has been suggested that their explicit dynamic prediction capacity, combined with spatiotemporal priors acquired from web-scale video pretraining, enables WAMs to generalize more effectively than VLAs. In this paper, we conduct a comparative study of prominent state-of-the-art VLA policies and recently released WAMs. We evaluate their performance on the LIBERO-Plus and RoboTwin 2.0-Plus benchmarks under various visual and language perturbations. Our results show that WAMs achieve strong robustness, with LingBot-VA reaching 74.2% success rate on RoboTwin 2.0-Plus and Cosmos-Policy achieving 82.2% on LIBERO-Plus. While VLAs such as $π_{0.5}$ can achieve comparable robustness on certain tasks, they typically require extensive training with diverse robotic datasets and varied learning objectives. Hybrid approaches that partially incorporate video-based dynamic learning exhibit intermediate robustness, highlighting the importance of how video priors are integrated.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-23T15:13:15Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Zhanguang Zhang"
+        },
+        {
+          "name": "Zhiyuan Li"
+        },
+        {
+          "name": "Behnam Rahmati"
+        },
+        {
+          "name": "Rui Heng Yang"
+        },
+        {
+          "name": "Yintao Ma"
+        },
+        {
+          "name": "Amir Rasouli"
+        },
+        {
+          "name": "Sajjad Pakdamansavoji"
+        },
+        {
+          "name": "Yangzheng Wu"
+        },
+        {
+          "name": "Lingfeng Zhang"
+        },
+        {
+          "name": "Tongtong Cao"
+        },
+        {
+          "name": "Feng Wen"
+        },
+        {
+          "name": "Xingyue Quan"
+        },
+        {
+          "name": "Yingxue Zhang"
+        }
+      ]
+    },
+    "slug": "do-world-action-models-generalize-better-than-vlas-a-robustness-study",
+    "dedupeKey": "baad78f3feb9d0228cf53b7f2ab3d00edbaeaa31779ff37f9bb468715c65fba6",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.22003v1",
+    "title": "VP-VLA: Visual Prompting as an Interface for Vision-Language-Action Models",
+    "summary": "Vision-Language-Action (VLA) models typically map visual observations and linguistic instructions directly to robotic control signals. This \"black-box\" mapping forces a single forward pass to simultaneously handle instruction interpretation, spatial grounding, and low-level control, often leading to poor spatial precision and limited robustness in out-of-distribution scenarios. To address these limitations, we propose VP-VLA, a dual-system framework that decouples high-level reasoning and low-level execution via a structured visual prompting interface. Specifically, a \"System 2 Planner\" decomposes complex instructions into sub-tasks and identifies relevant target objects and goal locations. These spatial anchors are then overlaid directly onto visual observations as structured visual prompts, such as crosshairs and bounding boxes. Guided by these prompts and enhanced by a novel auxiliary visual grounding objective during training, a \"System 1 Controller\" reliably generates precise low-level execution motions. Experiments on the Robocasa-GR1-Tabletop benchmark and SimplerEnv simulation demonstrate that VP-VLA improves success rates by 5% and 8.3%, surpassing competitive baselines including QwenOFT and GR00T-N1.6.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T14:08:58Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.22003v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.22003v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Zixuan Wang",
+      "Yuxin Chen",
+      "Yuqi Liu",
+      "Jinhui Ye",
+      "Pengguang Chen",
+      "Changsheng Lu",
+      "Shu Liu",
+      "Jiaya Jia"
+    ],
+    "category": "paper",
+    "keywords": [
+      "vla",
+      "vision-language-action"
+    ],
+    "tags": [
+      "视觉语言动作",
+      "仿真训练",
+      "数据集"
+    ],
+    "relevanceScore": 0.63,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.22003v1",
+      "title": "VP-VLA: Visual Prompting as an Interface for Vision-Language-Action Models",
+      "updated": "2026-03-23T14:08:58Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.22003v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.22003v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Vision-Language-Action (VLA) models typically map visual observations and linguistic instructions directly to robotic control signals. This \"black-box\" mapping forces a single forward pass to simultaneously handle instruction interpretation, spatial grounding, and low-level control, often leading to poor spatial precision and limited robustness in out-of-distribution scenarios. To address these limitations, we propose VP-VLA, a dual-system framework that decouples high-level reasoning and low-level execution via a structured visual prompting interface. Specifically, a \"System 2 Planner\" decomposes complex instructions into sub-tasks and identifies relevant target objects and goal locations. These spatial anchors are then overlaid directly onto visual observations as structured visual prompts, such as crosshairs and bounding boxes. Guided by these prompts and enhanced by a novel auxiliary visual grounding objective during training, a \"System 1 Controller\" reliably generates precise low-level execution motions. Experiments on the Robocasa-GR1-Tabletop benchmark and SimplerEnv simulation demonstrate that VP-VLA improves success rates by 5% and 8.3%, surpassing competitive baselines including QwenOFT and GR00T-N1.6.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-23T14:08:58Z",
+      "arxiv:comment": "Project page: https://visualprompt-vla.github.io/",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Zixuan Wang"
+        },
+        {
+          "name": "Yuxin Chen"
+        },
+        {
+          "name": "Yuqi Liu"
+        },
+        {
+          "name": "Jinhui Ye"
+        },
+        {
+          "name": "Pengguang Chen"
+        },
+        {
+          "name": "Changsheng Lu"
+        },
+        {
+          "name": "Shu Liu"
+        },
+        {
+          "name": "Jiaya Jia"
+        }
+      ]
+    },
+    "slug": "vp-vla-visual-prompting-as-an-interface-for-vision-language-action-models",
+    "dedupeKey": "f1091d06c9cc9a3e4abeaa48ed58f4080a95a38985a13b25f4e0f52e9ef61e8c",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.21723v1",
+    "title": "Can a Robot Walk the Robotic Dog: Triple-Zero Collaborative Navigation for Heterogeneous Multi-Agent Systems",
+    "summary": "We present Triple Zero Path Planning (TZPP), a collaborative framework for heterogeneous multi-robot systems that requires zero training, zero prior knowledge, and zero simulation. TZPP employs a coordinator--explorer architecture: a humanoid robot handles task coordination, while a quadruped robot explores and identifies feasible paths using guidance from a multimodal large language model. We implement TZPP on Unitree G1 and Go2 robots and evaluate it across diverse indoor and outdoor environments, including obstacle-rich and landmark-sparse settings. Experiments show that TZPP achieves robust, human-comparable efficiency and strong adaptability to unseen scenarios. By eliminating reliance on training and simulation, TZPP offers a practical path toward real-world deployment of heterogeneous robot cooperation. Our code and video are provided at: https://github.com/triple-zeropp/Triple-zero-robot-agent",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T09:12:45Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.21723v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.21723v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Yaxuan Wang",
+      "Yifan Xiang",
+      "Ke Li",
+      "Xun Zhang",
+      "BoWen Ye",
+      "Zhuochen Fan",
+      "Fei Wei",
+      "Tong Yang"
+    ],
+    "category": "paper",
+    "keywords": [
+      "humanoid",
+      "multimodal"
+    ],
+    "tags": [
+      "人形机器人",
+      "仿真训练",
+      "开源发布",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.63,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.21723v1",
+      "title": "Can a Robot Walk the Robotic Dog: Triple-Zero Collaborative Navigation for Heterogeneous Multi-Agent Systems",
+      "updated": "2026-03-23T09:12:45Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.21723v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.21723v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "We present Triple Zero Path Planning (TZPP), a collaborative framework for heterogeneous multi-robot systems that requires zero training, zero prior knowledge, and zero simulation. TZPP employs a coordinator--explorer architecture: a humanoid robot handles task coordination, while a quadruped robot explores and identifies feasible paths using guidance from a multimodal large language model. We implement TZPP on Unitree G1 and Go2 robots and evaluate it across diverse indoor and outdoor environments, including obstacle-rich and landmark-sparse settings. Experiments show that TZPP achieves robust, human-comparable efficiency and strong adaptability to unseen scenarios. By eliminating reliance on training and simulation, TZPP offers a practical path toward real-world deployment of heterogeneous robot cooperation. Our code and video are provided at: https://github.com/triple-zeropp/Triple-zero-robot-agent",
+      "category": [
+        {
+          "@_term": "cs.RO",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "cs.MA",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-23T09:12:45Z",
+      "arxiv:comment": "8 pages, 2 figures",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Yaxuan Wang"
+        },
+        {
+          "name": "Yifan Xiang"
+        },
+        {
+          "name": "Ke Li"
+        },
+        {
+          "name": "Xun Zhang"
+        },
+        {
+          "name": "BoWen Ye"
+        },
+        {
+          "name": "Zhuochen Fan"
+        },
+        {
+          "name": "Fei Wei"
+        },
+        {
+          "name": "Tong Yang"
+        }
+      ]
+    },
+    "slug": "can-a-robot-walk-the-robotic-dog-triple-zero-collaborative-navigation-for-hetero",
+    "dedupeKey": "5c72ed746dfd292738ab372123f71ffab38f141791ba7566faa5142ed65c8ade",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.21690v1",
+    "title": "AI Token Futures Market: Commoditization of Compute and Derivatives Contract Design",
+    "summary": "As large language models (LLMs) and vision-language-action models (VLAs) become widely deployed, the tokens consumed by AI inference are evolving into a new type of commodity. This paper systematically analyzes the commodity attributes of tokens, arguing for their transition from intelligent service outputs to compute infrastructure raw materials, and draws comparisons with established commodities such as electricity, carbon emission allowances, and bandwidth. Building on the historical experience of electricity futures markets and the theory of commodity financialization, we propose a complete design for standardized token futures contracts, including the definition of a Standard Inference Token (SIT), contract specifications, settlement mechanisms, margin systems, and market-maker regimes. By constructing a mean-reverting jump-diffusion stochastic process model and conducting Monte Carlo simulations, we evaluate the hedging efficiency of the proposed futures contracts for application-layer enterprises. Simulation results show that, under an application-layer demand explosion scenario, token futures can reduce enterprise compute cost volatility by 62%-78%. We also explore the feasibility of GPU compute futures and discuss the regulatory framework for token futures markets, providing a theoretical foundation and practical roadmap for the financialization of compute resources.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-23T08:24:53Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.21690v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.21690v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Yicai Xing"
+    ],
+    "category": "paper",
+    "keywords": [
+      "vla",
+      "vision-language-action"
+    ],
+    "tags": [
+      "视觉语言动作",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.55,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.21690v1",
+      "title": "AI Token Futures Market: Commoditization of Compute and Derivatives Contract Design",
+      "updated": "2026-03-23T08:24:53Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.21690v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.21690v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "As large language models (LLMs) and vision-language-action models (VLAs) become widely deployed, the tokens consumed by AI inference are evolving into a new type of commodity. This paper systematically analyzes the commodity attributes of tokens, arguing for their transition from intelligent service outputs to compute infrastructure raw materials, and draws comparisons with established commodities such as electricity, carbon emission allowances, and bandwidth. Building on the historical experience of electricity futures markets and the theory of commodity financialization, we propose a complete design for standardized token futures contracts, including the definition of a Standard Inference Token (SIT), contract specifications, settlement mechanisms, margin systems, and market-maker regimes. By constructing a mean-reverting jump-diffusion stochastic process model and conducting Monte Carlo simulations, we evaluate the hedging efficiency of the proposed futures contracts for application-layer enterprises. Simulation results show that, under an application-layer demand explosion scenario, token futures can reduce enterprise compute cost volatility by 62%-78%. We also explore the feasibility of GPU compute futures and discuss the regulatory framework for token futures markets, providing a theoretical foundation and practical roadmap for the financialization of compute resources.",
+      "category": [
+        {
+          "@_term": "cs.AI",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "econ.GN",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-23T08:24:53Z",
+      "arxiv:comment": "16 pages, 7 figures, 3 tables",
+      "arxiv:primary_category": {
+        "@_term": "cs.AI"
+      },
+      "author": {
+        "name": "Yicai Xing"
+      }
+    },
+    "slug": "ai-token-futures-market-commoditization-of-compute-and-derivatives-contract-desi",
+    "dedupeKey": "70eeaaf94d7dd00a9fe9d2d26be7811e8fd624d20e39a16cbaeb2402bbbc789b",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
     "externalId": "rssing-robotics-conference",
     "title": "Robotics / Embodied AI Conference Watch",
     "summary": "聚合机器人、具身智能、Workshop、Call for Papers 与会议通知方向的会议信息入口。当前为过渡版 conference source，后续可替换为 OpenReview / 官网源。",
@@ -38,7 +2946,11 @@
     "dedupeKey": "aad66ed3e549e32b6582fd434c393a3eec5f67fbae95f856ed4a57dcd6aaa0b9",
     "mergedSourceTypes": [
       "conference"
-    ]
+    ],
+    "id": "aad66ed3e549e32b6582fd434c393a3eec5f67fbae95f856ed4a57dcd6aaa0b9",
+    "createdAt": "2026-03-23T06:54:31.224Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "openreview-robotics",
@@ -79,7 +2991,11 @@
     "dedupeKey": "dbe9294baac87e7dc39c496a65e5a3c5061414324da1ffeb3c80f59886057a00",
     "mergedSourceTypes": [
       "conference"
-    ]
+    ],
+    "id": "dbe9294baac87e7dc39c496a65e5a3c5061414324da1ffeb3c80f59886057a00",
+    "createdAt": "2026-03-23T06:54:31.224Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "berkeley-rad-lab",
@@ -119,7 +3035,11 @@
     "dedupeKey": "6b64e2bd5750135cea49a747d56702b2464bc007eba6da45d1fdc9d5d4ead024",
     "mergedSourceTypes": [
       "lab"
-    ]
+    ],
+    "id": "6b64e2bd5750135cea49a747d56702b2464bc007eba6da45d1fdc9d5d4ead024",
+    "createdAt": "2026-03-23T06:54:31.224Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "stanford-vision-robotics-lab",
@@ -159,7 +3079,11 @@
     "dedupeKey": "5c759313b38c62162e705b93d5064110cf6108eefc16b1e6adbac00737bb1841",
     "mergedSourceTypes": [
       "lab"
-    ]
+    ],
+    "id": "5c759313b38c62162e705b93d5064110cf6108eefc16b1e6adbac00737bb1841",
+    "createdAt": "2026-03-23T06:54:31.224Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "mit-robotics-lab",
@@ -199,7 +3123,11 @@
     "dedupeKey": "19720c77df7f7fbc32db7224e4bdbd4b21251e2196ebb12edaed5059ba8d1521",
     "mergedSourceTypes": [
       "lab"
-    ]
+    ],
+    "id": "19720c77df7f7fbc32db7224e4bdbd4b21251e2196ebb12edaed5059ba8d1521",
+    "createdAt": "2026-03-23T06:54:31.224Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1068951466",
@@ -334,7 +3262,11 @@
     "dedupeKey": "0ffb3831f5c92377f89e487cd37e2570ed2f0a5daac62e5a270050eb7c73b74d",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "0ffb3831f5c92377f89e487cd37e2570ed2f0a5daac62e5a270050eb7c73b74d",
+    "createdAt": "2026-03-23T06:54:05Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1102884390",
@@ -475,7 +3407,11 @@
     "dedupeKey": "81def6ca6860c8166efebd2f6a839397d9794e9d31f278f679bbebc9d6fa1a8f",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "81def6ca6860c8166efebd2f6a839397d9794e9d31f278f679bbebc9d6fa1a8f",
+    "createdAt": "2026-03-23T06:53:56Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1184883747",
@@ -614,7 +3550,11 @@
     "dedupeKey": "c6a3a913d5f18891e3f2af7cbadf46efe2e9b984912f77a36efa830b6a744cd6",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "c6a3a913d5f18891e3f2af7cbadf46efe2e9b984912f77a36efa830b6a744cd6",
+    "createdAt": "2026-03-23T06:53:26Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "475877250",
@@ -773,7 +3713,11 @@
     "dedupeKey": "84107cb181255c12955e34d28bf94d0fd65b5c2b56b7507bb68375d27efa9fe4",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "84107cb181255c12955e34d28bf94d0fd65b5c2b56b7507bb68375d27efa9fe4",
+    "createdAt": "2026-03-23T06:53:02Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1183870608",
@@ -914,7 +3858,11 @@
     "dedupeKey": "9795be10a20f5f511cf1fe632b79db23d36c4f020bb8e64ce9a10d67d0593163",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "9795be10a20f5f511cf1fe632b79db23d36c4f020bb8e64ce9a10d67d0593163",
+    "createdAt": "2026-03-23T06:53:02Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1065113550",
@@ -1081,7 +4029,11 @@
     "dedupeKey": "a5d4735fc824998c3696443b4b9bce394afaa928d57453e5d7c326dfac42788d",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "a5d4735fc824998c3696443b4b9bce394afaa928d57453e5d7c326dfac42788d",
+    "createdAt": "2026-03-23T06:52:36Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1141226836",
@@ -1244,7 +4196,11 @@
     "dedupeKey": "1ae00083fd84fd6f5a87075e34d38a56ab4775f42cc98675eced491075d3e7b1",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "1ae00083fd84fd6f5a87075e34d38a56ab4775f42cc98675eced491075d3e7b1",
+    "createdAt": "2026-03-23T06:52:35Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1181727776",
@@ -1385,7 +4341,11 @@
     "dedupeKey": "9cac6c9420c701e0921db25195ca7bf39cc6d30106d488e68bfc67c27a686aa2",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "9cac6c9420c701e0921db25195ca7bf39cc6d30106d488e68bfc67c27a686aa2",
+    "createdAt": "2026-03-23T06:52:25Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "leninangelov/eval_act_picking_up_a_cube_v6.0",
@@ -1475,7 +4435,11 @@
     "dedupeKey": "65e6d3417e7295922e66f8c483843c890db1f927382f3f05e42dd48d62c3e0d0",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "65e6d3417e7295922e66f8c483843c890db1f927382f3f05e42dd48d62c3e0d0",
+    "createdAt": "2026-03-23T06:52:24.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1063263306",
@@ -1638,7 +4602,11 @@
     "dedupeKey": "6d9a24f5d3bb7f49ad8e377c2c5eaf27619cf653bdce47ed468a7dc641baeed2",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "6d9a24f5d3bb7f49ad8e377c2c5eaf27619cf653bdce47ed468a7dc641baeed2",
+    "createdAt": "2026-03-23T06:52:05Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "DRMNmadhan/pickdrop_best_smolvla_model",
@@ -1690,7 +4658,11 @@
     "dedupeKey": "8556d9c67a770496bb6277dc3dea4a129351896986a3f9fd32fa3f90d61f8900",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "8556d9c67a770496bb6277dc3dea4a129351896986a3f9fd32fa3f90d61f8900",
+    "createdAt": "2026-03-23T06:51:29.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "zzc1126/lerobot_zichao_dataset_gen3_normolized",
@@ -1740,7 +4712,11 @@
     "dedupeKey": "5c50159475e07e99e03f101fd3b729836790b1bf4c8b411f939e5c589a2fb95f",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "5c50159475e07e99e03f101fd3b729836790b1bf4c8b411f939e5c589a2fb95f",
+    "createdAt": "2026-03-23T06:50:49.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Ursulalala/HomeGuard-8B",
@@ -1877,7 +4853,11 @@
     "dedupeKey": "212c86b0e673c160dc944d1b8e4c72b4e2a0af92ae38954961214218ac309e52",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "212c86b0e673c160dc944d1b8e4c72b4e2a0af92ae38954961214218ac309e52",
+    "createdAt": "2026-03-23T06:48:30.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "globcy/pi0_no_dac_no_planner",
@@ -1967,7 +4947,11 @@
     "dedupeKey": "93d455755c868cf6802f673de316b0c389a2881abaf8fe856e42dafe949f1426",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "93d455755c868cf6802f673de316b0c389a2881abaf8fe856e42dafe949f1426",
+    "createdAt": "2026-03-23T06:48:18.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1189189147",
@@ -2113,7 +5097,7 @@
     ],
     "id": "ef08713cd46273866559a7f75d29fb02c8e5d1fce53dd457f3c17c3bf3d671d1",
     "createdAt": "2026-03-23T04:22:20Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2252,7 +5236,7 @@
     ],
     "id": "a517bd4c3261f289ff4bc7b542a619c9b16665a8c961071c65564e4349ea8b03",
     "createdAt": "2026-03-23T04:21:42Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2399,7 +5383,7 @@
     ],
     "id": "d617024c01ccec47cf1fed374cff69d60a6fed1121a87ddbd8a1a4fa681ad03f",
     "createdAt": "2026-03-23T04:21:15Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -3165,7 +6149,8 @@
       "region:us"
     ],
     "tags": [
-      "学术动态"
+      "学术动态",
+      "实验室动态"
     ],
     "relevanceScore": 0.74,
     "trustScore": 0.8,
@@ -3717,6 +6702,192 @@
     "createdAt": "2026-03-23T04:06:46.000Z",
     "isFeatured": false,
     "sourceCount": 1
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.21341v1",
+    "title": "RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models",
+    "summary": "Improving embodied reasoning in multimodal-large-language models (MLLMs) is essential for building vision-language-action models (VLAs) on top of them to readily translate multimodal understanding into low-level actions. Accordingly, recent work has explored enhancing embodied reasoning in MLLMs through supervision of vision-question-answering type. However, these approaches have been reported to result in unstable VLA performance, often yielding only marginal or even negative gains. In this paper, we propose a more systematic MLLM training framework RoboAlign that reliably improves VLA performance. Our key idea is to sample action tokens via zero-shot natural language reasoning and refines this reasoning using reinforcement learning (RL) to improve action accuracy. As a result, RoboAlign bridges the modality gap between language and low-level actions in MLLMs, and facilitate knowledge transfer from MLLM to VLA. To validate the effectiveness of RoboAlign, we train VLAs by adding a diffusion-based action head on top of an MLLM backbone and evaluate them on major robotics benchmarks. Remarkably, by performing RL-based alignment after SFT using less than 1\\% of the data, RoboAlign achieves performance improvements of 17.5\\%, 18.9\\%, and 106.6\\% over SFT baselines on LIBERO, CALVIN, and real-world environments, respectively.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-22T17:57:55Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.21341v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.21341v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Dongyoung Kim",
+      "Sumin Park",
+      "Woomin Song",
+      "Seungku Kim",
+      "Taeyoung Kim",
+      "Huiwon Jang",
+      "Jinwoo Shin",
+      "Jaehyung Kim",
+      "Younggyo Seo"
+    ],
+    "category": "paper",
+    "keywords": [
+      "robotics",
+      "vla",
+      "vision-language-action",
+      "multimodal"
+    ],
+    "tags": [
+      "具身智能",
+      "视觉语言动作",
+      "数据集"
+    ],
+    "relevanceScore": 0.83,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.21341v1",
+      "title": "RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models",
+      "updated": "2026-03-22T17:57:55Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.21341v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.21341v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Improving embodied reasoning in multimodal-large-language models (MLLMs) is essential for building vision-language-action models (VLAs) on top of them to readily translate multimodal understanding into low-level actions. Accordingly, recent work has explored enhancing embodied reasoning in MLLMs through supervision of vision-question-answering type. However, these approaches have been reported to result in unstable VLA performance, often yielding only marginal or even negative gains. In this paper, we propose a more systematic MLLM training framework RoboAlign that reliably improves VLA performance. Our key idea is to sample action tokens via zero-shot natural language reasoning and refines this reasoning using reinforcement learning (RL) to improve action accuracy. As a result, RoboAlign bridges the modality gap between language and low-level actions in MLLMs, and facilitate knowledge transfer from MLLM to VLA. To validate the effectiveness of RoboAlign, we train VLAs by adding a diffusion-based action head on top of an MLLM backbone and evaluate them on major robotics benchmarks. Remarkably, by performing RL-based alignment after SFT using less than 1\\% of the data, RoboAlign achieves performance improvements of 17.5\\%, 18.9\\%, and 106.6\\% over SFT baselines on LIBERO, CALVIN, and real-world environments, respectively.",
+      "category": {
+        "@_term": "cs.AI",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-22T17:57:55Z",
+      "arxiv:comment": "15 pages, 7 figures, 9 Tables",
+      "arxiv:primary_category": {
+        "@_term": "cs.AI"
+      },
+      "author": [
+        {
+          "name": "Dongyoung Kim"
+        },
+        {
+          "name": "Sumin Park"
+        },
+        {
+          "name": "Woomin Song"
+        },
+        {
+          "name": "Seungku Kim"
+        },
+        {
+          "name": "Taeyoung Kim"
+        },
+        {
+          "name": "Huiwon Jang"
+        },
+        {
+          "name": "Jinwoo Shin"
+        },
+        {
+          "name": "Jaehyung Kim"
+        },
+        {
+          "name": "Younggyo Seo"
+        }
+      ]
+    },
+    "slug": "roboalign-learning-test-time-reasoning-for-language-action-alignment-in-vision-l",
+    "dedupeKey": "b9957593acf2404caa83d4124e72b3b3ca92425849e5ffe2c4fe5d1351eb0c87",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.21195v1",
+    "title": "GAPG: Geometry Aware Push-Grasping Synergy for Goal-Oriented Manipulation in Clutter",
+    "summary": "Grasping target objects is a fundamental skill for robotic manipulation, but in cluttered environments with stacked or occluded objects, a single-step grasp is often insufficient. To address this, previous work has introduced pushing as an auxiliary action to create graspable space. However, these methods often struggle with both stability and efficiency because they neglect the scene's geometric information, which is essential for evaluating grasp robustness and ensuring that pushing actions are safe and effective. To this end, we propose a geometry-aware push-grasp synergy framework that leverages point cloud data to integrate grasp and push evaluation. Specifically, the grasp evaluation module analyzes the geometric relationship between the gripper's point cloud and the points enclosed within its closing region to determine grasp feasibility and stability. Guided by this, the push evaluation module predicts how pushing actions influence future graspable space, enabling the robot to select actions that reliably transform non-graspable states into graspable ones. By jointly reasoning about geometry in both grasping and pushing, our framework achieves safer, more efficient, and more reliable manipulation in cluttered settings. Our method is extensively tested in simulation and real-world environments in various scenarios. Experimental results demonstrate that our model generalizes well to real-world scenes and unseen objects.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-22T12:30:44Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.21195v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.21195v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Lijingze Xiao",
+      "Jinhong Du",
+      "Yang Cong",
+      "Supeng Diao",
+      "Yu Ren"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation"
+    ],
+    "tags": [
+      "机械臂操作",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.57,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.21195v1",
+      "title": "GAPG: Geometry Aware Push-Grasping Synergy for Goal-Oriented Manipulation in Clutter",
+      "updated": "2026-03-22T12:30:44Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.21195v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.21195v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Grasping target objects is a fundamental skill for robotic manipulation, but in cluttered environments with stacked or occluded objects, a single-step grasp is often insufficient. To address this, previous work has introduced pushing as an auxiliary action to create graspable space. However, these methods often struggle with both stability and efficiency because they neglect the scene's geometric information, which is essential for evaluating grasp robustness and ensuring that pushing actions are safe and effective. To this end, we propose a geometry-aware push-grasp synergy framework that leverages point cloud data to integrate grasp and push evaluation. Specifically, the grasp evaluation module analyzes the geometric relationship between the gripper's point cloud and the points enclosed within its closing region to determine grasp feasibility and stability. Guided by this, the push evaluation module predicts how pushing actions influence future graspable space, enabling the robot to select actions that reliably transform non-graspable states into graspable ones. By jointly reasoning about geometry in both grasping and pushing, our framework achieves safer, more efficient, and more reliable manipulation in cluttered settings. Our method is extensively tested in simulation and real-world environments in various scenarios. Experimental results demonstrate that our model generalizes well to real-world scenes and unseen objects.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-22T12:30:44Z",
+      "arxiv:comment": "Accepted to ICRA 2026",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Lijingze Xiao"
+        },
+        {
+          "name": "Jinhong Du"
+        },
+        {
+          "name": "Yang Cong"
+        },
+        {
+          "name": "Supeng Diao"
+        },
+        {
+          "name": "Yu Ren"
+        }
+      ]
+    },
+    "slug": "gapg-geometry-aware-push-grasping-synergy-for-goal-oriented-manipulation-in-clut",
+    "dedupeKey": "e7e22ccbe98af4e9b344f3a93b7750800449dfd13ac9339bdd2caa4eb29ef750",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
   },
   {
     "externalId": "668872180",
@@ -5211,6 +8382,94 @@
     "sourceCount": 1
   },
   {
+    "externalId": "http://arxiv.org/abs/2603.21051v1",
+    "title": "Cortical Policy: A Dual-Stream View Transformer for Robotic Manipulation",
+    "summary": "View transformers process multi-view observations to predict actions and have shown impressive performance in robotic manipulation. Existing methods typically extract static visual representations in a view-specific manner, leading to inadequate 3D spatial reasoning ability and a lack of dynamic adaptation. Taking inspiration from how the human brain integrates static and dynamic views to address these challenges, we propose Cortical Policy, a novel dual-stream view transformer for robotic manipulation that jointly reasons from static-view and dynamic-view streams. The static-view stream enhances spatial understanding by aligning features of geometrically consistent keypoints extracted from a pretrained 3D foundation model. The dynamic-view stream achieves adaptive adjustment through position-aware pretraining of an egocentric gaze estimation model, computationally replicating the human cortical dorsal pathway. Subsequently, the complementary view representations of both streams are integrated to determine the final actions, enabling the model to handle spatially-complex and dynamically-changing tasks under language conditions. Empirical evaluations on RLBench, the challenging COLOSSEUM benchmark, and real-world tasks demonstrate that Cortical Policy outperforms state-of-the-art baselines substantially, validating the superiority of dual-stream design for visuomotor control. Our cortex-inspired framework offers a fresh perspective for robotic manipulation and holds potential for broader application in vision-based robot control.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-22T04:18:54Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.21051v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.21051v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Xuening Zhang",
+      "Qi Lv",
+      "Xiang Deng",
+      "Miao Zhang",
+      "Xingbo Liu",
+      "Liqiang Nie"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation"
+    ],
+    "tags": [
+      "机器人学习",
+      "机械臂操作",
+      "数据集"
+    ],
+    "relevanceScore": 0.57,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.21051v1",
+      "title": "Cortical Policy: A Dual-Stream View Transformer for Robotic Manipulation",
+      "updated": "2026-03-22T04:18:54Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.21051v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.21051v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "View transformers process multi-view observations to predict actions and have shown impressive performance in robotic manipulation. Existing methods typically extract static visual representations in a view-specific manner, leading to inadequate 3D spatial reasoning ability and a lack of dynamic adaptation. Taking inspiration from how the human brain integrates static and dynamic views to address these challenges, we propose Cortical Policy, a novel dual-stream view transformer for robotic manipulation that jointly reasons from static-view and dynamic-view streams. The static-view stream enhances spatial understanding by aligning features of geometrically consistent keypoints extracted from a pretrained 3D foundation model. The dynamic-view stream achieves adaptive adjustment through position-aware pretraining of an egocentric gaze estimation model, computationally replicating the human cortical dorsal pathway. Subsequently, the complementary view representations of both streams are integrated to determine the final actions, enabling the model to handle spatially-complex and dynamically-changing tasks under language conditions. Empirical evaluations on RLBench, the challenging COLOSSEUM benchmark, and real-world tasks demonstrate that Cortical Policy outperforms state-of-the-art baselines substantially, validating the superiority of dual-stream design for visuomotor control. Our cortex-inspired framework offers a fresh perspective for robotic manipulation and holds potential for broader application in vision-based robot control.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-22T04:18:54Z",
+      "arxiv:comment": "Published as a conference paper at ICLR 2026. 10 pages, 4 figures. Appendix included",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Xuening Zhang"
+        },
+        {
+          "name": "Qi Lv"
+        },
+        {
+          "name": "Xiang Deng"
+        },
+        {
+          "name": "Miao Zhang"
+        },
+        {
+          "name": "Xingbo Liu"
+        },
+        {
+          "name": "Liqiang Nie"
+        }
+      ]
+    },
+    "slug": "cortical-policy-a-dual-stream-view-transformer-for-robotic-manipulation",
+    "dedupeKey": "c48b5cd5ba33cf59da4fb7118691192bde5a6023b2704a6bd453e580e6a58040",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
     "externalId": "Hoshipu/xvla-v5-checkpoints",
     "title": "Hoshipu/xvla-v5-checkpoints",
     "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
@@ -5330,6 +8589,282 @@
     "createdAt": "2026-03-22T04:09:15.000Z",
     "isFeatured": false,
     "sourceCount": 1
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.20711v1",
+    "title": "RoboECC: Multi-Factor-Aware Edge-Cloud Collaborative Deployment for VLA Models",
+    "summary": "Vision-Language-Action (VLA) models are mainstream in embodied intelligence but face high inference costs. Edge-Cloud Collaborative (ECC) deployment offers an effective fix by easing edge-device computing pressure to meet real-time needs. However, existing ECC frameworks are suboptimal for VLA models due to two challenges: (1) Diverse model structures hinder optimal ECC segmentation point identification; (2) Even if the optimal split point is determined, changes in network bandwidth can cause performance drift. To address these issues, we propose a novel ECC deployment framework for various VLA models, termed RoboECC. Specifically, we propose a model-hardware co-aware segmentation strategy to help find the optimal segmentation point for various VLA models. Moreover, we propose a network-aware deployment adjustment approach to adapt to the network fluctuations for maintaining optimal performance. Experiments demonstrate that RoboECC achieves a speedup of up to 3.28x with only 2.55x~2.62x overhead.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-21T08:16:10Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.20711v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.20711v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Zihao Zheng",
+      "Hangyu Cao",
+      "Jiayu Chen",
+      "Sicheng Tian",
+      "Chenyue Li",
+      "Maoliang Li",
+      "Xinhao Sun",
+      "Guojie Luo",
+      "Xiang Chen"
+    ],
+    "category": "paper",
+    "keywords": [
+      "embodied intelligence",
+      "vla",
+      "vision-language-action"
+    ],
+    "tags": [
+      "具身智能",
+      "视觉语言动作",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.69,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.20711v1",
+      "title": "RoboECC: Multi-Factor-Aware Edge-Cloud Collaborative Deployment for VLA Models",
+      "updated": "2026-03-21T08:16:10Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.20711v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.20711v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Vision-Language-Action (VLA) models are mainstream in embodied intelligence but face high inference costs. Edge-Cloud Collaborative (ECC) deployment offers an effective fix by easing edge-device computing pressure to meet real-time needs. However, existing ECC frameworks are suboptimal for VLA models due to two challenges: (1) Diverse model structures hinder optimal ECC segmentation point identification; (2) Even if the optimal split point is determined, changes in network bandwidth can cause performance drift. To address these issues, we propose a novel ECC deployment framework for various VLA models, termed RoboECC. Specifically, we propose a model-hardware co-aware segmentation strategy to help find the optimal segmentation point for various VLA models. Moreover, we propose a network-aware deployment adjustment approach to adapt to the network fluctuations for maintaining optimal performance. Experiments demonstrate that RoboECC achieves a speedup of up to 3.28x with only 2.55x~2.62x overhead.",
+      "category": [
+        {
+          "@_term": "cs.DC",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "cs.LG",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "cs.RO",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-21T08:16:10Z",
+      "arxiv:comment": "This paper has been accepted by IJCNN 2026",
+      "arxiv:primary_category": {
+        "@_term": "cs.DC"
+      },
+      "author": [
+        {
+          "name": "Zihao Zheng"
+        },
+        {
+          "name": "Hangyu Cao"
+        },
+        {
+          "name": "Jiayu Chen"
+        },
+        {
+          "name": "Sicheng Tian"
+        },
+        {
+          "name": "Chenyue Li"
+        },
+        {
+          "name": "Maoliang Li"
+        },
+        {
+          "name": "Xinhao Sun"
+        },
+        {
+          "name": "Guojie Luo"
+        },
+        {
+          "name": "Xiang Chen"
+        }
+      ]
+    },
+    "slug": "roboecc-multi-factor-aware-edge-cloud-collaborative-deployment-for-vla-models",
+    "dedupeKey": "9d6863c79c5625fa7755aff17105e7e53652699afac74f8b8787f86ea830e09a",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.20668v1",
+    "title": "ROI-Driven Foveated Attention for Unified Egocentric Representations in Vision-Language-Action Systems",
+    "summary": "The development of embodied AI systems is increasingly constrained by the availability and structure of physical interaction data. Despite recent advances in vision-language-action (VLA) models, current pipelines suffer from high data collection cost, limited cross-embodiment alignment, and poor transfer from internet-scale visual data to robot control. We propose a region-of-interest (ROI) driven engineering workflow that introduces an egocentric, geometry-grounded data representation. By projecting end-effector poses via forward kinematics (FK) into a single external camera, we derive movement-aligned hand-centric ROIs without requiring wrist-mounted cameras or multi-view systems. Unlike directly downsampling the full frame, ROI is cropped from the original image before resizing, preserving high local information density for contact-critical regions while retaining global context. We present a reproducible pipeline covering calibration, synchronization, ROI generation, deterministic boundary handling, and metadata governance. The resulting representation is embodiment-aligned and viewpoint-normalized, enabling data reuse across heterogeneous robots. We argue that egocentric ROI serves as a practical data abstraction for scalable collection and cross-embodiment learning, bridging internet-scale perception and robot-specific control.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-21T05:59:43Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.20668v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.20668v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Xinhai Sun",
+      "Xiang Shi",
+      "Menglin Zou",
+      "Wenlong Huang"
+    ],
+    "category": "paper",
+    "keywords": [
+      "embodied ai",
+      "vla",
+      "vision-language-action"
+    ],
+    "tags": [
+      "具身智能",
+      "视觉语言动作",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.20668v1",
+      "title": "ROI-Driven Foveated Attention for Unified Egocentric Representations in Vision-Language-Action Systems",
+      "updated": "2026-03-21T05:59:43Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.20668v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.20668v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "The development of embodied AI systems is increasingly constrained by the availability and structure of physical interaction data. Despite recent advances in vision-language-action (VLA) models, current pipelines suffer from high data collection cost, limited cross-embodiment alignment, and poor transfer from internet-scale visual data to robot control.\n  We propose a region-of-interest (ROI) driven engineering workflow that introduces an egocentric, geometry-grounded data representation. By projecting end-effector poses via forward kinematics (FK) into a single external camera, we derive movement-aligned hand-centric ROIs without requiring wrist-mounted cameras or multi-view systems. Unlike directly downsampling the full frame, ROI is cropped from the original image before resizing, preserving high local information density for contact-critical regions while retaining global context.\n  We present a reproducible pipeline covering calibration, synchronization, ROI generation, deterministic boundary handling, and metadata governance. The resulting representation is embodiment-aligned and viewpoint-normalized, enabling data reuse across heterogeneous robots. We argue that egocentric ROI serves as a practical data abstraction for scalable collection and cross-embodiment learning, bridging internet-scale perception and robot-specific control.",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-21T05:59:43Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Xinhai Sun"
+        },
+        {
+          "name": "Xiang Shi"
+        },
+        {
+          "name": "Menglin Zou"
+        },
+        {
+          "name": "Wenlong Huang"
+        }
+      ]
+    },
+    "slug": "roi-driven-foveated-attention-for-unified-egocentric-representations-in-vision-l",
+    "dedupeKey": "b64b5c47941d8a0e0c580b6339f15e25d9ee00dfde4f769ef5802bf22bd1c4cc",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.20659v1",
+    "title": "StageCraft: Execution Aware Mitigation of Distractor and Obstruction Failures in VLA Models",
+    "summary": "Large scale pre-training on text and image data along with diverse robot demonstrations has helped Vision Language Action models (VLAs) to generalize to novel tasks, objects and scenes. However, these models are still susceptible to failure in the presence of execution-time impediments such as distractors and physical obstructions in the robot's workspace. Existing policy improvement methods finetune base VLAs to improve generalization, yet they still struggle in unseen distractor settings. To address this problem, we investigate whether internet-scale pretraining of large vision-language models (VLMs) can be leveraged to reason about these impediments and mitigate policy failures. To this end, we propose StageCraft, a training-free approach to improve pretrained VLA policy performance by manipulating the environment's initial state using VLM-based in-context reasoning. StageCraft takes policy rollout videos and success labels as input and leverages VLM's reasoning ability to infer which objects in the initial state need to be manipulated to avoid anticipated execution failures. StageCraft is an extensible plug-and-play module that does not introduce additional constraints on the underlying policy, and only requires a few policy rollouts to work. We evaluate performance of state-of-the-art VLA models with StageCraft and show an absolute 40% performance improvement across three real world task domains involving diverse distractors and obstructions. Our simulation experiments in RLBench empirically show that StageCraft tailors its extent of intervention based on the strength of the underlying policy and improves its performance with more in-context samples. Videos of StageCraft in effect can be found at https://stagecraft-decorator.github.io/stagecraft/ .",
+    "summaryZh": "",
+    "publishedAt": "2026-03-21T05:30:15Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.20659v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.20659v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Kartikay Milind Pangaonkar",
+      "Prabin Rath",
+      "Omkar Patil",
+      "Nakul Gopalan"
+    ],
+    "category": "paper",
+    "keywords": [
+      "vla",
+      "vlm"
+    ],
+    "tags": [
+      "机器人学习",
+      "视觉语言动作",
+      "机器人视觉语言模型",
+      "仿真训练",
+      "开源发布",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.71,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.20659v1",
+      "title": "StageCraft: Execution Aware Mitigation of Distractor and Obstruction Failures in VLA Models",
+      "updated": "2026-03-21T05:30:15Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.20659v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.20659v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Large scale pre-training on text and image data along with diverse robot demonstrations has helped Vision Language Action models (VLAs) to generalize to novel tasks, objects and scenes. However, these models are still susceptible to failure in the presence of execution-time impediments such as distractors and physical obstructions in the robot's workspace. Existing policy improvement methods finetune base VLAs to improve generalization, yet they still struggle in unseen distractor settings. To address this problem, we investigate whether internet-scale pretraining of large vision-language models (VLMs) can be leveraged to reason about these impediments and mitigate policy failures. To this end, we propose StageCraft, a training-free approach to improve pretrained VLA policy performance by manipulating the environment's initial state using VLM-based in-context reasoning. StageCraft takes policy rollout videos and success labels as input and leverages VLM's reasoning ability to infer which objects in the initial state need to be manipulated to avoid anticipated execution failures. StageCraft is an extensible plug-and-play module that does not introduce additional constraints on the underlying policy, and only requires a few policy rollouts to work. We evaluate performance of state-of-the-art VLA models with StageCraft and show an absolute 40% performance improvement across three real world task domains involving diverse distractors and obstructions. Our simulation experiments in RLBench empirically show that StageCraft tailors its extent of intervention based on the strength of the underlying policy and improves its performance with more in-context samples. Videos of StageCraft in effect can be found at https://stagecraft-decorator.github.io/stagecraft/ .",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-21T05:30:15Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Kartikay Milind Pangaonkar"
+        },
+        {
+          "name": "Prabin Rath"
+        },
+        {
+          "name": "Omkar Patil"
+        },
+        {
+          "name": "Nakul Gopalan"
+        }
+      ]
+    },
+    "slug": "stagecraft-execution-aware-mitigation-of-distractor-and-obstruction-failures-in-",
+    "dedupeKey": "159461ac8ab2bf04cef7f525b7d5d9e7599baf2f34cb14c3367fe3dd73077aa3",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
   },
   {
     "externalId": "1183946067",
@@ -8294,6 +11829,280 @@
     "createdAt": "2026-03-21T04:16:24Z",
     "isFeatured": false,
     "sourceCount": 1
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.20607v1",
+    "title": "Towards Practical World Model-based Reinforcement Learning for Vision-Language-Action Models",
+    "summary": "Vision-Language-Action (VLA) models show strong generalization for robotic control, but finetuning them with reinforcement learning (RL) is constrained by the high cost and safety risks of real-world interaction. Training VLA models in interactive world models avoids these issues but introduces several challenges, including pixel-level world modeling, multi-view consistency, and compounding errors under sparse rewards. Building on recent advances across large multimodal models and model-based RL, we propose VLA-MBPO, a practical framework to tackle these problems in VLA finetuning. Our approach has three key design choices: (i) adapting unified multimodal models (UMMs) for data-efficient world modeling; (ii) an interleaved view decoding mechanism to enforce multi-view consistency; and (iii) chunk-level branched rollout to mitigate error compounding. Theoretical analysis and experiments across simulation and real-world tasks demonstrate that VLA-MBPO significantly improves policy performance and sample efficiency, underscoring its robustness and scalability for real-world robotic deployment.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-21T02:44:39Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.20607v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.20607v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Zhilong Zhang",
+      "Haoxiang Ren",
+      "Yihao Sun",
+      "Yifei Sheng",
+      "Haonan Wang",
+      "Haoxin Lin",
+      "Zhichao Wu",
+      "Pierre-Luc Bacon",
+      "Yang Yu"
+    ],
+    "category": "paper",
+    "keywords": [
+      "world model",
+      "vla",
+      "vision-language-action",
+      "multimodal"
+    ],
+    "tags": [
+      "机器人学习",
+      "世界模型",
+      "视觉语言动作",
+      "仿真训练",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.83,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.20607v1",
+      "title": "Towards Practical World Model-based Reinforcement Learning for Vision-Language-Action Models",
+      "updated": "2026-03-21T02:44:39Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.20607v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.20607v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Vision-Language-Action (VLA) models show strong generalization for robotic control, but finetuning them with reinforcement learning (RL) is constrained by the high cost and safety risks of real-world interaction. Training VLA models in interactive world models avoids these issues but introduces several challenges, including pixel-level world modeling, multi-view consistency, and compounding errors under sparse rewards. Building on recent advances across large multimodal models and model-based RL, we propose VLA-MBPO, a practical framework to tackle these problems in VLA finetuning. Our approach has three key design choices: (i) adapting unified multimodal models (UMMs) for data-efficient world modeling; (ii) an interleaved view decoding mechanism to enforce multi-view consistency; and (iii) chunk-level branched rollout to mitigate error compounding. Theoretical analysis and experiments across simulation and real-world tasks demonstrate that VLA-MBPO significantly improves policy performance and sample efficiency, underscoring its robustness and scalability for real-world robotic deployment.",
+      "category": [
+        {
+          "@_term": "cs.RO",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "cs.LG",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-21T02:44:39Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Zhilong Zhang"
+        },
+        {
+          "name": "Haoxiang Ren"
+        },
+        {
+          "name": "Yihao Sun"
+        },
+        {
+          "name": "Yifei Sheng"
+        },
+        {
+          "name": "Haonan Wang"
+        },
+        {
+          "name": "Haoxin Lin"
+        },
+        {
+          "name": "Zhichao Wu"
+        },
+        {
+          "name": "Pierre-Luc Bacon"
+        },
+        {
+          "name": "Yang Yu"
+        }
+      ]
+    },
+    "slug": "towards-practical-world-model-based-reinforcement-learning-for-vision-language-a",
+    "dedupeKey": "83fd38b40fee52f44647177894e91b94eab31764891c7a913ac0ae84ec996af7",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.20544v1",
+    "title": "Multi-Robot Learning-Informed Task Planning Under Uncertainty",
+    "summary": "We want a multi-robot team to complete complex tasks in minimum time where the locations of task-relevant objects are not known. Effective task completion requires reasoning over long horizons about the likely locations of task-relevant objects, how individual actions contribute to overall progress, and how to coordinate team efforts. Planning in this setting is extremely challenging: even when task-relevant information is partially known, coordinating which robot performs which action and when is difficult, and uncertainty introduces a multiplicity of possible outcomes for each action, which further complicates long-horizon decision-making and coordination. To address this, we propose a multi-robot planning abstraction that integrates learning to estimate uncertain aspects of the environment with model-based planning for long-horizon coordination. We demonstrate the efficient multi-stage task planning of our approach for 1, 2, and 3 robot teams over competitive baselines in large ProcTHOR household environments. Additionally, we demonstrate the effectiveness of our approach with a team of two LoCoBot mobile robots in real household settings.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T22:26:10Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.20544v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.20544v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Abhish Khanal",
+      "Abhishek Paudel",
+      "Hung Pham",
+      "Gregory J. Stein"
+    ],
+    "category": "paper",
+    "keywords": [
+      "robot learning"
+    ],
+    "tags": [
+      "机器人学习"
+    ],
+    "relevanceScore": 0.49,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.20544v1",
+      "title": "Multi-Robot Learning-Informed Task Planning Under Uncertainty",
+      "updated": "2026-03-20T22:26:10Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.20544v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.20544v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "We want a multi-robot team to complete complex tasks in minimum time where the locations of task-relevant objects are not known. Effective task completion requires reasoning over long horizons about the likely locations of task-relevant objects, how individual actions contribute to overall progress, and how to coordinate team efforts. Planning in this setting is extremely challenging: even when task-relevant information is partially known, coordinating which robot performs which action and when is difficult, and uncertainty introduces a multiplicity of possible outcomes for each action, which further complicates long-horizon decision-making and coordination. To address this, we propose a multi-robot planning abstraction that integrates learning to estimate uncertain aspects of the environment with model-based planning for long-horizon coordination. We demonstrate the efficient multi-stage task planning of our approach for 1, 2, and 3 robot teams over competitive baselines in large ProcTHOR household environments. Additionally, we demonstrate the effectiveness of our approach with a team of two LoCoBot mobile robots in real household settings.",
+      "category": [
+        {
+          "@_term": "cs.RO",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "cs.MA",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-20T22:26:10Z",
+      "arxiv:comment": "8 pages, 8 figures. Accepted at ICRA 2026",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Abhish Khanal"
+        },
+        {
+          "name": "Abhishek Paudel"
+        },
+        {
+          "name": "Hung Pham"
+        },
+        {
+          "name": "Gregory J. Stein"
+        }
+      ]
+    },
+    "slug": "multi-robot-learning-informed-task-planning-under-uncertainty",
+    "dedupeKey": "2edd85e2e37544c758d89291fa8264b42aaf3b453f0dc264bc2d8210b4079cf0",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "http://arxiv.org/abs/2603.20538v1",
+    "title": "Understanding Behavior Cloning with Action Quantization",
+    "summary": "Behavior cloning is a fundamental paradigm in machine learning, enabling policy learning from expert demonstrations across robotics, autonomous driving, and generative models. Autoregressive models like transformer have proven remarkably effective, from large language models (LLMs) to vision-language-action systems (VLAs). However, applying autoregressive models to continuous control requires discretizing actions through quantization, a practice widely adopted yet poorly understood theoretically. This paper provides theoretical foundations for this practice. We analyze how quantization error propagates along the horizon and interacts with statistical sample complexity. We show that behavior cloning with quantized actions and log-loss achieves optimal sample complexity, matching existing lower bounds, and incurs only polynomial horizon dependence on quantization error, provided the dynamics are stable and the policy satisfies a probabilistic smoothness condition. We further characterize when different quantization schemes satisfy or violate these requirements, and propose a model-based augmentation that provably improves the error bound without requiring policy smoothness. Finally, we establish fundamental limits that jointly capture the effects of quantization error and statistical complexity.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-20T22:22:43Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.20538v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.20538v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Haoqun Cao",
+      "Tengyang Xie"
+    ],
+    "category": "paper",
+    "keywords": [
+      "robotics",
+      "vla",
+      "vision-language-action",
+      "policy learning"
+    ],
+    "tags": [
+      "机器人学习",
+      "模仿学习",
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.75,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.20538v1",
+      "title": "Understanding Behavior Cloning with Action Quantization",
+      "updated": "2026-03-20T22:22:43Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.20538v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.20538v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Behavior cloning is a fundamental paradigm in machine learning, enabling policy learning from expert demonstrations across robotics, autonomous driving, and generative models. Autoregressive models like transformer have proven remarkably effective, from large language models (LLMs) to vision-language-action systems (VLAs). However, applying autoregressive models to continuous control requires discretizing actions through quantization, a practice widely adopted yet poorly understood theoretically. This paper provides theoretical foundations for this practice. We analyze how quantization error propagates along the horizon and interacts with statistical sample complexity. We show that behavior cloning with quantized actions and log-loss achieves optimal sample complexity, matching existing lower bounds, and incurs only polynomial horizon dependence on quantization error, provided the dynamics are stable and the policy satisfies a probabilistic smoothness condition. We further characterize when different quantization schemes satisfy or violate these requirements, and propose a model-based augmentation that provably improves the error bound without requiring policy smoothness. Finally, we establish fundamental limits that jointly capture the effects of quantization error and statistical complexity.",
+      "category": [
+        {
+          "@_term": "cs.LG",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        },
+        {
+          "@_term": "stat.ML",
+          "@_scheme": "http://arxiv.org/schemas/atom"
+        }
+      ],
+      "published": "2026-03-20T22:22:43Z",
+      "arxiv:primary_category": {
+        "@_term": "cs.LG"
+      },
+      "author": [
+        {
+          "name": "Haoqun Cao"
+        },
+        {
+          "name": "Tengyang Xie"
+        }
+      ]
+    },
+    "slug": "understanding-behavior-cloning-with-action-quantization",
+    "dedupeKey": "cf83a933255733915dfe8afebffee1338e9d295d31bf89fb86f723383941e750",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19979v1",

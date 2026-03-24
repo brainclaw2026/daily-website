@@ -1,5 +1,1728 @@
 [
   {
+    "externalId": "dcrric/act_red",
+    "title": "dcrric/act_red",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:01:47.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/dcrric/act_red",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/dcrric/act_red",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "act",
+      "dataset:dcrric/red",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c228b8730c04d6169f2f98",
+      "id": "dcrric/act_red",
+      "author": "dcrric",
+      "gated": false,
+      "lastModified": "2026-03-24T06:01:47.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "f9420da4dbcd3e2f1fd08981e7c83265d924df3e",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "act",
+        "dataset:dcrric/red",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-24T06:01:28.000Z",
+      "modelId": "dcrric/act_red",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "dcrricactred",
+    "dedupeKey": "20cda34a3c198eae7111180d3f46eb8636851a055fe804db5fd903f628703c49",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "1018320360",
+    "title": "uynitsuj/robots_realtime",
+    "summary": "Realtime & high-frequency control interfaces for various robot arms including bi-manual I2RT YAM, Franka Panda, with manual tele-operation control or autonomous policy control",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:01:44Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/uynitsuj/robots_realtime",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/uynitsuj/robots_realtime",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "uynitsuj"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "机器人学习"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1018320360,
+      "node_id": "R_kgDOPLJV6A",
+      "name": "robots_realtime",
+      "full_name": "uynitsuj/robots_realtime",
+      "private": false,
+      "owner": {
+        "login": "uynitsuj",
+        "id": 13003957,
+        "node_id": "MDQ6VXNlcjEzMDAzOTU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13003957?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/uynitsuj",
+        "html_url": "https://github.com/uynitsuj",
+        "followers_url": "https://api.github.com/users/uynitsuj/followers",
+        "following_url": "https://api.github.com/users/uynitsuj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/uynitsuj/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/uynitsuj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/uynitsuj/subscriptions",
+        "organizations_url": "https://api.github.com/users/uynitsuj/orgs",
+        "repos_url": "https://api.github.com/users/uynitsuj/repos",
+        "events_url": "https://api.github.com/users/uynitsuj/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/uynitsuj/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/uynitsuj/robots_realtime",
+      "description": "Realtime & high-frequency control interfaces for various robot arms including bi-manual I2RT YAM, Franka Panda, with manual tele-operation control or autonomous policy control",
+      "fork": false,
+      "url": "https://api.github.com/repos/uynitsuj/robots_realtime",
+      "forks_url": "https://api.github.com/repos/uynitsuj/robots_realtime/forks",
+      "keys_url": "https://api.github.com/repos/uynitsuj/robots_realtime/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/uynitsuj/robots_realtime/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/uynitsuj/robots_realtime/teams",
+      "hooks_url": "https://api.github.com/repos/uynitsuj/robots_realtime/hooks",
+      "issue_events_url": "https://api.github.com/repos/uynitsuj/robots_realtime/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/uynitsuj/robots_realtime/events",
+      "assignees_url": "https://api.github.com/repos/uynitsuj/robots_realtime/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/uynitsuj/robots_realtime/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/uynitsuj/robots_realtime/tags",
+      "blobs_url": "https://api.github.com/repos/uynitsuj/robots_realtime/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/uynitsuj/robots_realtime/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/uynitsuj/robots_realtime/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/uynitsuj/robots_realtime/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/uynitsuj/robots_realtime/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/uynitsuj/robots_realtime/languages",
+      "stargazers_url": "https://api.github.com/repos/uynitsuj/robots_realtime/stargazers",
+      "contributors_url": "https://api.github.com/repos/uynitsuj/robots_realtime/contributors",
+      "subscribers_url": "https://api.github.com/repos/uynitsuj/robots_realtime/subscribers",
+      "subscription_url": "https://api.github.com/repos/uynitsuj/robots_realtime/subscription",
+      "commits_url": "https://api.github.com/repos/uynitsuj/robots_realtime/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/uynitsuj/robots_realtime/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/uynitsuj/robots_realtime/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/uynitsuj/robots_realtime/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/uynitsuj/robots_realtime/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/uynitsuj/robots_realtime/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/uynitsuj/robots_realtime/merges",
+      "archive_url": "https://api.github.com/repos/uynitsuj/robots_realtime/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/uynitsuj/robots_realtime/downloads",
+      "issues_url": "https://api.github.com/repos/uynitsuj/robots_realtime/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/uynitsuj/robots_realtime/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/uynitsuj/robots_realtime/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/uynitsuj/robots_realtime/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/uynitsuj/robots_realtime/labels{/name}",
+      "releases_url": "https://api.github.com/repos/uynitsuj/robots_realtime/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/uynitsuj/robots_realtime/deployments",
+      "created_at": "2025-07-12T02:59:27Z",
+      "updated_at": "2026-03-24T06:01:44Z",
+      "pushed_at": "2026-03-24T06:01:39Z",
+      "git_url": "git://github.com/uynitsuj/robots_realtime.git",
+      "ssh_url": "git@github.com:uynitsuj/robots_realtime.git",
+      "clone_url": "https://github.com/uynitsuj/robots_realtime.git",
+      "svn_url": "https://github.com/uynitsuj/robots_realtime",
+      "homepage": "",
+      "size": 94165,
+      "stargazers_count": 31,
+      "watchers_count": 31,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 8,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 8,
+      "open_issues": 0,
+      "watchers": 31,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "uynitsujrobotsrealtime",
+    "dedupeKey": "118489e0a7f7d41f11b3eeceab6db49115f1bddc35e69f11a861c34533653f35",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "anthonyhchan/my_policy",
+    "title": "anthonyhchan/my_policy",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:01:39.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/anthonyhchan/my_policy",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/anthonyhchan/my_policy",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "act",
+      "robotics",
+      "dataset:anthonyhchan/record-test-5",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "机器人学习"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c228a10efd3fbe8b38bc29",
+      "id": "anthonyhchan/my_policy",
+      "author": "anthonyhchan",
+      "gated": false,
+      "lastModified": "2026-03-24T06:01:39.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "83b7207bbeb41373df254604561e05493c18bc22",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "act",
+        "robotics",
+        "dataset:anthonyhchan/record-test-5",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-24T06:01:05.000Z",
+      "modelId": "anthonyhchan/my_policy",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "anthonyhchanmypolicy",
+    "dedupeKey": "dfbe6e138084fd9154f6f7e844854e4e5db76a9a12448cebf43318a149700006",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "820898375",
+    "title": "yueliu1999/Awesome-Jailbreak-on-LLMs",
+    "summary": "Awesome-Jailbreak-on-LLMs is a collection of state-of-the-art, novel, exciting jailbreak methods on LLMs. It contains papers, codes, datasets, evaluations, and analyses.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:01:26Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "yueliu1999"
+    ],
+    "category": "code",
+    "keywords": [
+      "ai",
+      "jailbreak",
+      "llm",
+      "llms",
+      "privacy",
+      "safety",
+      "security",
+      "vlm",
+      "vlms"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 820898375,
+      "node_id": "R_kgDOMO3qRw",
+      "name": "Awesome-Jailbreak-on-LLMs",
+      "full_name": "yueliu1999/Awesome-Jailbreak-on-LLMs",
+      "private": false,
+      "owner": {
+        "login": "yueliu1999",
+        "id": 41297969,
+        "node_id": "MDQ6VXNlcjQxMjk3OTY5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41297969?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yueliu1999",
+        "html_url": "https://github.com/yueliu1999",
+        "followers_url": "https://api.github.com/users/yueliu1999/followers",
+        "following_url": "https://api.github.com/users/yueliu1999/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yueliu1999/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yueliu1999/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yueliu1999/subscriptions",
+        "organizations_url": "https://api.github.com/users/yueliu1999/orgs",
+        "repos_url": "https://api.github.com/users/yueliu1999/repos",
+        "events_url": "https://api.github.com/users/yueliu1999/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yueliu1999/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs",
+      "description": "Awesome-Jailbreak-on-LLMs is a collection of state-of-the-art, novel, exciting jailbreak methods on LLMs. It contains papers, codes, datasets, evaluations, and analyses.",
+      "fork": false,
+      "url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs",
+      "forks_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/forks",
+      "keys_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/teams",
+      "hooks_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/hooks",
+      "issue_events_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/events",
+      "assignees_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/tags",
+      "blobs_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/languages",
+      "stargazers_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/stargazers",
+      "contributors_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/contributors",
+      "subscribers_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/subscribers",
+      "subscription_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/subscription",
+      "commits_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/merges",
+      "archive_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/downloads",
+      "issues_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/labels{/name}",
+      "releases_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/yueliu1999/Awesome-Jailbreak-on-LLMs/deployments",
+      "created_at": "2024-06-27T11:56:54Z",
+      "updated_at": "2026-03-24T06:01:26Z",
+      "pushed_at": "2026-03-24T06:01:22Z",
+      "git_url": "git://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs.git",
+      "ssh_url": "git@github.com:yueliu1999/Awesome-Jailbreak-on-LLMs.git",
+      "clone_url": "https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs.git",
+      "svn_url": "https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs",
+      "homepage": "",
+      "size": 544,
+      "stargazers_count": 1269,
+      "watchers_count": 1269,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 104,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "ai",
+        "jailbreak",
+        "llm",
+        "llms",
+        "privacy",
+        "safety",
+        "security",
+        "vlm",
+        "vlms"
+      ],
+      "visibility": "public",
+      "forks": 104,
+      "open_issues": 0,
+      "watchers": 1269,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "yueliu1999awesome-jailbreak-on-llms",
+    "dedupeKey": "8e7d6566548c4cf2eab198e30b9add120abe2f3efa5e925ae775ac9a2f2d2e03",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "240784119",
+    "title": "01binary/str1ker",
+    "summary": "MIDI Drumming Robot",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:01:25Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/01binary/str1ker",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/01binary/str1ker",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "01binary"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 240784119,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyNDA3ODQxMTk=",
+      "name": "str1ker",
+      "full_name": "01binary/str1ker",
+      "private": false,
+      "owner": {
+        "login": "01binary",
+        "id": 19985964,
+        "node_id": "MDQ6VXNlcjE5OTg1OTY0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19985964?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/01binary",
+        "html_url": "https://github.com/01binary",
+        "followers_url": "https://api.github.com/users/01binary/followers",
+        "following_url": "https://api.github.com/users/01binary/following{/other_user}",
+        "gists_url": "https://api.github.com/users/01binary/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/01binary/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/01binary/subscriptions",
+        "organizations_url": "https://api.github.com/users/01binary/orgs",
+        "repos_url": "https://api.github.com/users/01binary/repos",
+        "events_url": "https://api.github.com/users/01binary/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/01binary/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/01binary/str1ker",
+      "description": "MIDI Drumming Robot",
+      "fork": false,
+      "url": "https://api.github.com/repos/01binary/str1ker",
+      "forks_url": "https://api.github.com/repos/01binary/str1ker/forks",
+      "keys_url": "https://api.github.com/repos/01binary/str1ker/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/01binary/str1ker/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/01binary/str1ker/teams",
+      "hooks_url": "https://api.github.com/repos/01binary/str1ker/hooks",
+      "issue_events_url": "https://api.github.com/repos/01binary/str1ker/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/01binary/str1ker/events",
+      "assignees_url": "https://api.github.com/repos/01binary/str1ker/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/01binary/str1ker/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/01binary/str1ker/tags",
+      "blobs_url": "https://api.github.com/repos/01binary/str1ker/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/01binary/str1ker/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/01binary/str1ker/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/01binary/str1ker/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/01binary/str1ker/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/01binary/str1ker/languages",
+      "stargazers_url": "https://api.github.com/repos/01binary/str1ker/stargazers",
+      "contributors_url": "https://api.github.com/repos/01binary/str1ker/contributors",
+      "subscribers_url": "https://api.github.com/repos/01binary/str1ker/subscribers",
+      "subscription_url": "https://api.github.com/repos/01binary/str1ker/subscription",
+      "commits_url": "https://api.github.com/repos/01binary/str1ker/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/01binary/str1ker/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/01binary/str1ker/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/01binary/str1ker/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/01binary/str1ker/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/01binary/str1ker/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/01binary/str1ker/merges",
+      "archive_url": "https://api.github.com/repos/01binary/str1ker/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/01binary/str1ker/downloads",
+      "issues_url": "https://api.github.com/repos/01binary/str1ker/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/01binary/str1ker/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/01binary/str1ker/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/01binary/str1ker/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/01binary/str1ker/labels{/name}",
+      "releases_url": "https://api.github.com/repos/01binary/str1ker/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/01binary/str1ker/deployments",
+      "created_at": "2020-02-15T20:35:12Z",
+      "updated_at": "2026-03-24T06:01:25Z",
+      "pushed_at": "2026-03-24T06:01:21Z",
+      "git_url": "git://github.com/01binary/str1ker.git",
+      "ssh_url": "git@github.com:01binary/str1ker.git",
+      "clone_url": "https://github.com/01binary/str1ker.git",
+      "svn_url": "https://github.com/01binary/str1ker",
+      "homepage": "",
+      "size": 2231886,
+      "stargazers_count": 4,
+      "watchers_count": 4,
+      "language": "C++",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 1,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 4,
+      "default_branch": "master",
+      "score": 1
+    },
+    "slug": "01binarystr1ker",
+    "dedupeKey": "6b78fd48a98863e96bbbcf3c2126b6d638438bc199365554c494d0a244e1478d",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1013938303",
+    "title": "abdulhafidzri/VQ-VLA",
+    "summary": "Improve Vision-Language-Action models with VQ-VLA, a scalable vector quantization action tokenizer. Explore our innovative approach on GitHub! 🐙🌟",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:01:04Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/abdulhafidzri/VQ-VLA",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/abdulhafidzri/VQ-VLA",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "abdulhafidzri"
+    ],
+    "category": "code",
+    "keywords": [
+      "vla",
+      "vision-language-action"
+    ],
+    "tags": [
+      "视觉语言动作",
+      "开源发布"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1013938303,
+      "node_id": "R_kgDOPG94fw",
+      "name": "VQ-VLA",
+      "full_name": "abdulhafidzri/VQ-VLA",
+      "private": false,
+      "owner": {
+        "login": "abdulhafidzri",
+        "id": 186523449,
+        "node_id": "U_kgDOCx4fOQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/186523449?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/abdulhafidzri",
+        "html_url": "https://github.com/abdulhafidzri",
+        "followers_url": "https://api.github.com/users/abdulhafidzri/followers",
+        "following_url": "https://api.github.com/users/abdulhafidzri/following{/other_user}",
+        "gists_url": "https://api.github.com/users/abdulhafidzri/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/abdulhafidzri/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/abdulhafidzri/subscriptions",
+        "organizations_url": "https://api.github.com/users/abdulhafidzri/orgs",
+        "repos_url": "https://api.github.com/users/abdulhafidzri/repos",
+        "events_url": "https://api.github.com/users/abdulhafidzri/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/abdulhafidzri/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/abdulhafidzri/VQ-VLA",
+      "description": "Improve Vision-Language-Action models with VQ-VLA, a scalable vector quantization action tokenizer. Explore our innovative approach on GitHub! 🐙🌟",
+      "fork": false,
+      "url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA",
+      "forks_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/forks",
+      "keys_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/teams",
+      "hooks_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/hooks",
+      "issue_events_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/events",
+      "assignees_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/tags",
+      "blobs_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/languages",
+      "stargazers_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/stargazers",
+      "contributors_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/contributors",
+      "subscribers_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/subscribers",
+      "subscription_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/subscription",
+      "commits_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/merges",
+      "archive_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/downloads",
+      "issues_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/labels{/name}",
+      "releases_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/abdulhafidzri/VQ-VLA/deployments",
+      "created_at": "2025-07-04T18:18:14Z",
+      "updated_at": "2026-03-24T06:01:04Z",
+      "pushed_at": "2026-03-24T06:01:00Z",
+      "git_url": "git://github.com/abdulhafidzri/VQ-VLA.git",
+      "ssh_url": "git@github.com:abdulhafidzri/VQ-VLA.git",
+      "clone_url": "https://github.com/abdulhafidzri/VQ-VLA.git",
+      "svn_url": "https://github.com/abdulhafidzri/VQ-VLA",
+      "homepage": null,
+      "size": 926,
+      "stargazers_count": 7,
+      "watchers_count": 7,
+      "language": null,
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 7,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "abdulhafidzrivq-vla",
+    "dedupeKey": "b5c32d15ec498cafb684150d62abb70496a5be67b7e1ec3d0efe533465a39df3",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1037599563",
+    "title": "zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026",
+    "summary": "2026 entry-level hardware engineering jobs — EE, embedded systems & robotics US roles",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:00:54Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "zapplyjobs"
+    ],
+    "category": "code",
+    "keywords": [
+      "2026",
+      "applications",
+      "college",
+      "electrical-engineering",
+      "embedded-systems",
+      "fulltime",
+      "hardware-engineer",
+      "hiring",
+      "intern",
+      "interviews",
+      "job-search",
+      "jobs",
+      "jobs-2026",
+      "junior",
+      "new-grad",
+      "new-grad-jobs",
+      "newgrad",
+      "remote-job",
+      "robotics",
+      "university"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1037599563,
+      "node_id": "R_kgDOPdiDSw",
+      "name": "New-Grad-Hardware-Engineering-Jobs-2026",
+      "full_name": "zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026",
+      "private": false,
+      "owner": {
+        "login": "zapplyjobs",
+        "id": 217731079,
+        "node_id": "O_kgDODPpQBw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/217731079?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zapplyjobs",
+        "html_url": "https://github.com/zapplyjobs",
+        "followers_url": "https://api.github.com/users/zapplyjobs/followers",
+        "following_url": "https://api.github.com/users/zapplyjobs/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zapplyjobs/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zapplyjobs/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zapplyjobs/subscriptions",
+        "organizations_url": "https://api.github.com/users/zapplyjobs/orgs",
+        "repos_url": "https://api.github.com/users/zapplyjobs/repos",
+        "events_url": "https://api.github.com/users/zapplyjobs/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zapplyjobs/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026",
+      "description": "2026 entry-level hardware engineering jobs — EE, embedded systems & robotics US roles",
+      "fork": false,
+      "url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026",
+      "forks_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/forks",
+      "keys_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/teams",
+      "hooks_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/hooks",
+      "issue_events_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/events",
+      "assignees_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/tags",
+      "blobs_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/languages",
+      "stargazers_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/stargazers",
+      "contributors_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/contributors",
+      "subscribers_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/subscribers",
+      "subscription_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/subscription",
+      "commits_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/merges",
+      "archive_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/downloads",
+      "issues_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/labels{/name}",
+      "releases_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/deployments",
+      "created_at": "2025-08-13T20:29:23Z",
+      "updated_at": "2026-03-24T06:00:54Z",
+      "pushed_at": "2026-03-24T06:00:50Z",
+      "git_url": "git://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026.git",
+      "ssh_url": "git@github.com:zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026.git",
+      "clone_url": "https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026.git",
+      "svn_url": "https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026",
+      "homepage": "https://www.softwarejobs.dev",
+      "size": 56259,
+      "stargazers_count": 29,
+      "watchers_count": 29,
+      "language": "HTML",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "2026",
+        "applications",
+        "college",
+        "electrical-engineering",
+        "embedded-systems",
+        "fulltime",
+        "hardware-engineer",
+        "hiring",
+        "intern",
+        "interviews",
+        "job-search",
+        "jobs",
+        "jobs-2026",
+        "junior",
+        "new-grad",
+        "new-grad-jobs",
+        "newgrad",
+        "remote-job",
+        "robotics",
+        "university"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 29,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "zapplyjobsnew-grad-hardware-engineering-jobs-2026",
+    "dedupeKey": "50fed61ca58bed184e03706352869614c1e961df1821c2c56e50c1d1898535b1",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1190175298",
+    "title": "zhtsh001/latent-space-predictor",
+    "summary": "A minimal JEPA-style latent dynamics demo for robot video prediction",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:00:50Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/zhtsh001/latent-space-predictor",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/zhtsh001/latent-space-predictor",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "zhtsh001"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1190175298,
+      "node_id": "R_kgDORvCiQg",
+      "name": "latent-space-predictor",
+      "full_name": "zhtsh001/latent-space-predictor",
+      "private": false,
+      "owner": {
+        "login": "zhtsh001",
+        "id": 46565308,
+        "node_id": "MDQ6VXNlcjQ2NTY1MzA4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46565308?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhtsh001",
+        "html_url": "https://github.com/zhtsh001",
+        "followers_url": "https://api.github.com/users/zhtsh001/followers",
+        "following_url": "https://api.github.com/users/zhtsh001/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhtsh001/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhtsh001/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhtsh001/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhtsh001/orgs",
+        "repos_url": "https://api.github.com/users/zhtsh001/repos",
+        "events_url": "https://api.github.com/users/zhtsh001/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhtsh001/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/zhtsh001/latent-space-predictor",
+      "description": "A minimal JEPA-style latent dynamics demo for robot video prediction",
+      "fork": false,
+      "url": "https://api.github.com/repos/zhtsh001/latent-space-predictor",
+      "forks_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/forks",
+      "keys_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/teams",
+      "hooks_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/hooks",
+      "issue_events_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/events",
+      "assignees_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/tags",
+      "blobs_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/languages",
+      "stargazers_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/stargazers",
+      "contributors_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/contributors",
+      "subscribers_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/subscribers",
+      "subscription_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/subscription",
+      "commits_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/merges",
+      "archive_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/downloads",
+      "issues_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/labels{/name}",
+      "releases_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/zhtsh001/latent-space-predictor/deployments",
+      "created_at": "2026-03-24T03:10:34Z",
+      "updated_at": "2026-03-24T06:00:50Z",
+      "pushed_at": "2026-03-24T06:00:46Z",
+      "git_url": "git://github.com/zhtsh001/latent-space-predictor.git",
+      "ssh_url": "git@github.com:zhtsh001/latent-space-predictor.git",
+      "clone_url": "https://github.com/zhtsh001/latent-space-predictor.git",
+      "svn_url": "https://github.com/zhtsh001/latent-space-predictor",
+      "homepage": "",
+      "size": 9,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "zhtsh001latent-space-predictor",
+    "dedupeKey": "582a8b567737f39de1251f6f958f2496a97336a193611c53ce4f8c88d858777d",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1168935803",
+    "title": "adrianwedd/spark",
+    "summary": "SPARK — a Claude-powered robot companion for a neurodivergent kid. Built on SunFounder PiCar-X + Raspberry Pi.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:00:15Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/adrianwedd/spark",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/adrianwedd/spark",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "adrianwedd"
+    ],
+    "category": "code",
+    "keywords": [
+      "adhd",
+      "asd",
+      "claude",
+      "cognitive-architecture",
+      "executive-function",
+      "fastapi",
+      "i2c",
+      "neurodivergent",
+      "ollama",
+      "picar-x",
+      "python",
+      "raspberry-pi",
+      "robot",
+      "robot-companion",
+      "robotics",
+      "spark",
+      "sunfounder",
+      "text-to-speech",
+      "voice-assistant",
+      "wake-word"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1168935803,
+      "node_id": "R_kgDORayLew",
+      "name": "spark",
+      "full_name": "adrianwedd/spark",
+      "private": false,
+      "owner": {
+        "login": "adrianwedd",
+        "id": 3725784,
+        "node_id": "MDQ6VXNlcjM3MjU3ODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3725784?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/adrianwedd",
+        "html_url": "https://github.com/adrianwedd",
+        "followers_url": "https://api.github.com/users/adrianwedd/followers",
+        "following_url": "https://api.github.com/users/adrianwedd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/adrianwedd/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/adrianwedd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/adrianwedd/subscriptions",
+        "organizations_url": "https://api.github.com/users/adrianwedd/orgs",
+        "repos_url": "https://api.github.com/users/adrianwedd/repos",
+        "events_url": "https://api.github.com/users/adrianwedd/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/adrianwedd/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/adrianwedd/spark",
+      "description": "SPARK — a Claude-powered robot companion for a neurodivergent kid. Built on SunFounder PiCar-X + Raspberry Pi.",
+      "fork": false,
+      "url": "https://api.github.com/repos/adrianwedd/spark",
+      "forks_url": "https://api.github.com/repos/adrianwedd/spark/forks",
+      "keys_url": "https://api.github.com/repos/adrianwedd/spark/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/adrianwedd/spark/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/adrianwedd/spark/teams",
+      "hooks_url": "https://api.github.com/repos/adrianwedd/spark/hooks",
+      "issue_events_url": "https://api.github.com/repos/adrianwedd/spark/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/adrianwedd/spark/events",
+      "assignees_url": "https://api.github.com/repos/adrianwedd/spark/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/adrianwedd/spark/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/adrianwedd/spark/tags",
+      "blobs_url": "https://api.github.com/repos/adrianwedd/spark/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/adrianwedd/spark/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/adrianwedd/spark/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/adrianwedd/spark/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/adrianwedd/spark/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/adrianwedd/spark/languages",
+      "stargazers_url": "https://api.github.com/repos/adrianwedd/spark/stargazers",
+      "contributors_url": "https://api.github.com/repos/adrianwedd/spark/contributors",
+      "subscribers_url": "https://api.github.com/repos/adrianwedd/spark/subscribers",
+      "subscription_url": "https://api.github.com/repos/adrianwedd/spark/subscription",
+      "commits_url": "https://api.github.com/repos/adrianwedd/spark/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/adrianwedd/spark/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/adrianwedd/spark/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/adrianwedd/spark/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/adrianwedd/spark/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/adrianwedd/spark/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/adrianwedd/spark/merges",
+      "archive_url": "https://api.github.com/repos/adrianwedd/spark/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/adrianwedd/spark/downloads",
+      "issues_url": "https://api.github.com/repos/adrianwedd/spark/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/adrianwedd/spark/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/adrianwedd/spark/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/adrianwedd/spark/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/adrianwedd/spark/labels{/name}",
+      "releases_url": "https://api.github.com/repos/adrianwedd/spark/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/adrianwedd/spark/deployments",
+      "created_at": "2026-02-28T00:54:08Z",
+      "updated_at": "2026-03-24T06:00:15Z",
+      "pushed_at": "2026-03-24T06:00:10Z",
+      "git_url": "git://github.com/adrianwedd/spark.git",
+      "ssh_url": "git@github.com:adrianwedd/spark.git",
+      "clone_url": "https://github.com/adrianwedd/spark.git",
+      "svn_url": "https://github.com/adrianwedd/spark",
+      "homepage": null,
+      "size": 2540,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 11,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "adhd",
+        "asd",
+        "claude",
+        "cognitive-architecture",
+        "executive-function",
+        "fastapi",
+        "i2c",
+        "neurodivergent",
+        "ollama",
+        "picar-x",
+        "python",
+        "raspberry-pi",
+        "robot",
+        "robot-companion",
+        "robotics",
+        "spark",
+        "sunfounder",
+        "text-to-speech",
+        "voice-assistant",
+        "wake-word"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 11,
+      "watchers": 0,
+      "default_branch": "master",
+      "score": 1
+    },
+    "slug": "adrianweddspark",
+    "dedupeKey": "114f3f3489d2535ee0d269256ac067f2717e44add69237530c7b8cfacc0b80cd",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "996582021",
+    "title": "vlad1356226/svaio",
+    "summary": "Svaio is a streamlined tool designed for efficient project management and collaboration. 🌟 It simplifies workflows, making it easier for teams to stay organized and focused on their goals. 🛠️",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T06:00:01Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/vlad1356226/svaio",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/vlad1356226/svaio",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "vlad1356226"
+    ],
+    "category": "code",
+    "keywords": [
+      "i18n",
+      "manifest",
+      "pigeonposse",
+      "pp",
+      "pwa",
+      "robots",
+      "sitemap",
+      "sv",
+      "svelte",
+      "sveltekit",
+      "toolkit",
+      "unocss",
+      "vite",
+      "vite-plugin"
+    ],
+    "tags": [
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 996582021,
+      "node_id": "R_kgDOO2aihQ",
+      "name": "svaio",
+      "full_name": "vlad1356226/svaio",
+      "private": false,
+      "owner": {
+        "login": "vlad1356226",
+        "id": 201161024,
+        "node_id": "U_kgDOC_15QA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/201161024?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vlad1356226",
+        "html_url": "https://github.com/vlad1356226",
+        "followers_url": "https://api.github.com/users/vlad1356226/followers",
+        "following_url": "https://api.github.com/users/vlad1356226/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vlad1356226/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vlad1356226/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vlad1356226/subscriptions",
+        "organizations_url": "https://api.github.com/users/vlad1356226/orgs",
+        "repos_url": "https://api.github.com/users/vlad1356226/repos",
+        "events_url": "https://api.github.com/users/vlad1356226/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vlad1356226/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/vlad1356226/svaio",
+      "description": "Svaio is a streamlined tool designed for efficient project management and collaboration. 🌟 It simplifies workflows, making it easier for teams to stay organized and focused on their goals. 🛠️",
+      "fork": false,
+      "url": "https://api.github.com/repos/vlad1356226/svaio",
+      "forks_url": "https://api.github.com/repos/vlad1356226/svaio/forks",
+      "keys_url": "https://api.github.com/repos/vlad1356226/svaio/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/vlad1356226/svaio/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/vlad1356226/svaio/teams",
+      "hooks_url": "https://api.github.com/repos/vlad1356226/svaio/hooks",
+      "issue_events_url": "https://api.github.com/repos/vlad1356226/svaio/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/vlad1356226/svaio/events",
+      "assignees_url": "https://api.github.com/repos/vlad1356226/svaio/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/vlad1356226/svaio/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/vlad1356226/svaio/tags",
+      "blobs_url": "https://api.github.com/repos/vlad1356226/svaio/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/vlad1356226/svaio/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/vlad1356226/svaio/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/vlad1356226/svaio/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/vlad1356226/svaio/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/vlad1356226/svaio/languages",
+      "stargazers_url": "https://api.github.com/repos/vlad1356226/svaio/stargazers",
+      "contributors_url": "https://api.github.com/repos/vlad1356226/svaio/contributors",
+      "subscribers_url": "https://api.github.com/repos/vlad1356226/svaio/subscribers",
+      "subscription_url": "https://api.github.com/repos/vlad1356226/svaio/subscription",
+      "commits_url": "https://api.github.com/repos/vlad1356226/svaio/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/vlad1356226/svaio/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/vlad1356226/svaio/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/vlad1356226/svaio/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/vlad1356226/svaio/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/vlad1356226/svaio/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/vlad1356226/svaio/merges",
+      "archive_url": "https://api.github.com/repos/vlad1356226/svaio/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/vlad1356226/svaio/downloads",
+      "issues_url": "https://api.github.com/repos/vlad1356226/svaio/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/vlad1356226/svaio/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/vlad1356226/svaio/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/vlad1356226/svaio/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/vlad1356226/svaio/labels{/name}",
+      "releases_url": "https://api.github.com/repos/vlad1356226/svaio/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/vlad1356226/svaio/deployments",
+      "created_at": "2025-06-05T06:46:04Z",
+      "updated_at": "2026-03-24T06:00:01Z",
+      "pushed_at": "2026-03-24T05:59:57Z",
+      "git_url": "git://github.com/vlad1356226/svaio.git",
+      "ssh_url": "git@github.com:vlad1356226/svaio.git",
+      "clone_url": "https://github.com/vlad1356226/svaio.git",
+      "svn_url": "https://github.com/vlad1356226/svaio",
+      "homepage": null,
+      "size": 745,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "i18n",
+        "manifest",
+        "pigeonposse",
+        "pp",
+        "pwa",
+        "robots",
+        "sitemap",
+        "sv",
+        "svelte",
+        "sveltekit",
+        "toolkit",
+        "unocss",
+        "vite",
+        "vite-plugin"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "vlad1356226svaio",
+    "dedupeKey": "3a7fffcbfb554b2a7edaeacd639b5d8415bdc10e19a54fa2a7611fb63f575f32",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1180436096",
+    "title": "Nyan-SouthKorea/ondevice-voice-agent",
+    "summary": "Voice agent stack for robotics with on-device inference, wake word training, and Jetson deployment workflows.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T05:59:53Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Nyan-SouthKorea/ondevice-voice-agent",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Nyan-SouthKorea/ondevice-voice-agent",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Nyan-SouthKorea"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1180436096,
+      "node_id": "R_kgDORlwGgA",
+      "name": "ondevice-voice-agent",
+      "full_name": "Nyan-SouthKorea/ondevice-voice-agent",
+      "private": false,
+      "owner": {
+        "login": "Nyan-SouthKorea",
+        "id": 77263642,
+        "node_id": "MDQ6VXNlcjc3MjYzNjQy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/77263642?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Nyan-SouthKorea",
+        "html_url": "https://github.com/Nyan-SouthKorea",
+        "followers_url": "https://api.github.com/users/Nyan-SouthKorea/followers",
+        "following_url": "https://api.github.com/users/Nyan-SouthKorea/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Nyan-SouthKorea/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Nyan-SouthKorea/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Nyan-SouthKorea/subscriptions",
+        "organizations_url": "https://api.github.com/users/Nyan-SouthKorea/orgs",
+        "repos_url": "https://api.github.com/users/Nyan-SouthKorea/repos",
+        "events_url": "https://api.github.com/users/Nyan-SouthKorea/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Nyan-SouthKorea/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Nyan-SouthKorea/ondevice-voice-agent",
+      "description": "Voice agent stack for robotics with on-device inference, wake word training, and Jetson deployment workflows.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent",
+      "forks_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/forks",
+      "keys_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/teams",
+      "hooks_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/hooks",
+      "issue_events_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/events",
+      "assignees_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/tags",
+      "blobs_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/languages",
+      "stargazers_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/stargazers",
+      "contributors_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/contributors",
+      "subscribers_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/subscribers",
+      "subscription_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/subscription",
+      "commits_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/merges",
+      "archive_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/downloads",
+      "issues_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Nyan-SouthKorea/ondevice-voice-agent/deployments",
+      "created_at": "2026-03-13T03:22:30Z",
+      "updated_at": "2026-03-24T05:59:53Z",
+      "pushed_at": "2026-03-24T05:59:50Z",
+      "git_url": "git://github.com/Nyan-SouthKorea/ondevice-voice-agent.git",
+      "ssh_url": "git@github.com:Nyan-SouthKorea/ondevice-voice-agent.git",
+      "clone_url": "https://github.com/Nyan-SouthKorea/ondevice-voice-agent.git",
+      "svn_url": "https://github.com/Nyan-SouthKorea/ondevice-voice-agent",
+      "homepage": null,
+      "size": 118714,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "nyan-southkoreaondevice-voice-agent",
+    "dedupeKey": "6958152491dea53c7eb24fe85c072bff27b31001be294050c0be344f64233ece",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "seok7ee/test-two-cubes04",
+    "title": "seok7ee/test-two-cubes04",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T05:58:59.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/seok7ee/test-two-cubes04",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/seok7ee/test-two-cubes04",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "act",
+      "dataset:seok7ee/test-two-cubes04",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c227c728c9000069a9070e",
+      "id": "seok7ee/test-two-cubes04",
+      "author": "seok7ee",
+      "gated": false,
+      "lastModified": "2026-03-24T05:58:59.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "d577f9e441522699b3d449be4e1263df641c9179",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "act",
+        "dataset:seok7ee/test-two-cubes04",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-24T05:57:27.000Z",
+      "modelId": "seok7ee/test-two-cubes04",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "seok7eetest-two-cubes04",
+    "dedupeKey": "bb8ee328c1fb13621e208da40d25f54d0f0a7ddf6c75044647b6dac0eb79aec6",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "H2Ozone/stack_policy_50",
+    "title": "H2Ozone/stack_policy_50",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T05:53:56.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/H2Ozone/stack_policy_50",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/H2Ozone/stack_policy_50",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "act",
+      "dataset:H2Ozone/full_stack_dorm",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "机器人学习"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c226d5d71d70f9cc520dff",
+      "id": "H2Ozone/stack_policy_50",
+      "author": "H2Ozone",
+      "gated": false,
+      "lastModified": "2026-03-24T05:53:56.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "fccb4b946383e0f72d0b03d62986143020fee775",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "act",
+        "dataset:H2Ozone/full_stack_dorm",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-24T05:53:25.000Z",
+      "modelId": "H2Ozone/stack_policy_50",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_3_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "h2ozonestackpolicy50",
+    "dedupeKey": "f0bdb49f943e5e935a174798ca4b72334eafa10f003ca6b579c54a8a18e2f80a",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
     "externalId": "1190263506",
     "title": "beefed-up-geek/so_100_project",
     "summary": "SO-100 Robot Project",
@@ -132,7 +1855,11 @@
     "dedupeKey": "8a463b1a99d07b89ae53cdf30800bb318d40688110ef7a21f11dd7fc1a8f5183",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "8a463b1a99d07b89ae53cdf30800bb318d40688110ef7a21f11dd7fc1a8f5183",
+    "createdAt": "2026-03-24T05:40:42Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1165559547",
@@ -271,7 +1998,11 @@
     "dedupeKey": "be06e6a57c5a498b131e589139d33618dd87add48f0fd0f0a849877c256d20de",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "be06e6a57c5a498b131e589139d33618dd87add48f0fd0f0a849877c256d20de",
+    "createdAt": "2026-03-24T05:40:21Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1186728458",
@@ -410,7 +2141,11 @@
     "dedupeKey": "f5d0566e76a5264265675da22c6daa7808e474b5bf6ac21b572695372f2d1ea3",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "f5d0566e76a5264265675da22c6daa7808e474b5bf6ac21b572695372f2d1ea3",
+    "createdAt": "2026-03-24T05:40:18Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1190263189",
@@ -549,7 +2284,11 @@
     "dedupeKey": "f7c7dd144ea2941b23d69eaefaeee2cf9bb9d1819df33b315e8b84430ccfdd02",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "f7c7dd144ea2941b23d69eaefaeee2cf9bb9d1819df33b315e8b84430ccfdd02",
+    "createdAt": "2026-03-24T05:39:46Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1190251708",
@@ -684,7 +2423,11 @@
     "dedupeKey": "349c00207071f268fa73535f1df32d5475673c00b0519a2167749f03ffdd00ca",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "349c00207071f268fa73535f1df32d5475673c00b0519a2167749f03ffdd00ca",
+    "createdAt": "2026-03-24T05:38:48Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "StrongRoboticsLab/pi05-so100-diverse-checkpoints",
@@ -774,7 +2517,11 @@
     "dedupeKey": "1872ce8b78066923488aae5ad0e0b9cbc254a9491625d3559a72828a5d7088a0",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "1872ce8b78066923488aae5ad0e0b9cbc254a9491625d3559a72828a5d7088a0",
+    "createdAt": "2026-03-24T05:37:24.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22280v1",
@@ -896,7 +2643,11 @@
     "dedupeKey": "406d833e47f8e429cb07d8ad3afcc12aeab4f1d53ed02cbdab48fa940b59e53b",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "406d833e47f8e429cb07d8ad3afcc12aeab4f1d53ed02cbdab48fa940b59e53b",
+    "createdAt": "2026-03-23T17:59:25Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22264v1",
@@ -1040,7 +2791,11 @@
     "dedupeKey": "db355b51bd5fcf0cff2ff0218cc680a8b40292d05fcce0b46094133c47285768",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "db355b51bd5fcf0cff2ff0218cc680a8b40292d05fcce0b46094133c47285768",
+    "createdAt": "2026-03-23T17:49:12Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22201v1",
@@ -1143,7 +2898,11 @@
     "dedupeKey": "e95e7af05dc39bcbd5b9bf5bd6a2dd2f112394c9a41ffad61b70131c3d572e09",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "e95e7af05dc39bcbd5b9bf5bd6a2dd2f112394c9a41ffad61b70131c3d572e09",
+    "createdAt": "2026-03-23T16:59:00Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22193v1",
@@ -1265,7 +3024,11 @@
     "dedupeKey": "a92653aadabb7549275c7afd356a9a9794fcc3793d902b5c785454af46ad8f97",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "a92653aadabb7549275c7afd356a9a9794fcc3793d902b5c785454af46ad8f97",
+    "createdAt": "2026-03-23T16:51:52Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22126v1",
@@ -1342,7 +3105,11 @@
     "dedupeKey": "c336e8ca524b29b5f14377c6b27383c994d3c32012e5db9a1790d517588f90ec",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "c336e8ca524b29b5f14377c6b27383c994d3c32012e5db9a1790d517588f90ec",
+    "createdAt": "2026-03-23T15:52:54Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22078v1",
@@ -1459,7 +3226,11 @@
     "dedupeKey": "baad78f3feb9d0228cf53b7f2ab3d00edbaeaa31779ff37f9bb468715c65fba6",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "baad78f3feb9d0228cf53b7f2ab3d00edbaeaa31779ff37f9bb468715c65fba6",
+    "createdAt": "2026-03-23T15:13:15Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.22003v1",
@@ -1555,7 +3326,11 @@
     "dedupeKey": "f1091d06c9cc9a3e4abeaa48ed58f4080a95a38985a13b25f4e0f52e9ef61e8c",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "f1091d06c9cc9a3e4abeaa48ed58f4080a95a38985a13b25f4e0f52e9ef61e8c",
+    "createdAt": "2026-03-23T14:08:58Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.21723v1",
@@ -1658,7 +3433,11 @@
     "dedupeKey": "5c72ed746dfd292738ab372123f71ffab38f141791ba7566faa5142ed65c8ade",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "5c72ed746dfd292738ab372123f71ffab38f141791ba7566faa5142ed65c8ade",
+    "createdAt": "2026-03-23T09:12:45Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.21690v1",
@@ -1730,7 +3509,11 @@
     "dedupeKey": "70eeaaf94d7dd00a9fe9d2d26be7811e8fd624d20e39a16cbaeb2402bbbc789b",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "70eeaaf94d7dd00a9fe9d2d26be7811e8fd624d20e39a16cbaeb2402bbbc789b",
+    "createdAt": "2026-03-23T08:24:53Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1189246624",
@@ -1876,7 +3659,7 @@
     ],
     "id": "445037f382d2cffef8a6860423a01cb065593fd03d61e2d58952231d4fcb6f5b",
     "createdAt": "2026-03-23T05:56:28Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1970,7 +3753,7 @@
     ],
     "id": "15183e7486bd6c32753f51a65c806658867742c96dcc85f09601a95437279673",
     "createdAt": "2026-03-23T05:56:14.000Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2109,7 +3892,7 @@
     ],
     "id": "8cdd0039536ba981d4b993c0e23f316740760d4c16ff04793a589d17daf607c1",
     "createdAt": "2026-03-23T05:56:13Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -4485,7 +6268,11 @@
     "dedupeKey": "b9957593acf2404caa83d4124e72b3b3ca92425849e5ffe2c4fe5d1351eb0c87",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "b9957593acf2404caa83d4124e72b3b3ca92425849e5ffe2c4fe5d1351eb0c87",
+    "createdAt": "2026-03-22T17:57:55Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.21195v1",
@@ -4568,7 +6355,11 @@
     "dedupeKey": "e7e22ccbe98af4e9b344f3a93b7750800449dfd13ac9339bdd2caa4eb29ef750",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "e7e22ccbe98af4e9b344f3a93b7750800449dfd13ac9339bdd2caa4eb29ef750",
+    "createdAt": "2026-03-22T12:30:44Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1188464946",
@@ -5459,7 +7250,11 @@
     "dedupeKey": "c48b5cd5ba33cf59da4fb7118691192bde5a6023b2704a6bd453e580e6a58040",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "c48b5cd5ba33cf59da4fb7118691192bde5a6023b2704a6bd453e580e6a58040",
+    "createdAt": "2026-03-22T04:18:54Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.20711v1",
@@ -5570,7 +7365,11 @@
     "dedupeKey": "9d6863c79c5625fa7755aff17105e7e53652699afac74f8b8787f86ea830e09a",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "9d6863c79c5625fa7755aff17105e7e53652699afac74f8b8787f86ea830e09a",
+    "createdAt": "2026-03-21T08:16:10Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.20668v1",
@@ -5650,7 +7449,11 @@
     "dedupeKey": "b64b5c47941d8a0e0c580b6339f15e25d9ee00dfde4f769ef5802bf22bd1c4cc",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "b64b5c47941d8a0e0c580b6339f15e25d9ee00dfde4f769ef5802bf22bd1c4cc",
+    "createdAt": "2026-03-21T05:59:43Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.20659v1",
@@ -5732,7 +7535,11 @@
     "dedupeKey": "159461ac8ab2bf04cef7f525b7d5d9e7599baf2f34cb14c3367fe3dd73077aa3",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "159461ac8ab2bf04cef7f525b7d5d9e7599baf2f34cb14c3367fe3dd73077aa3",
+    "createdAt": "2026-03-21T05:30:15Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1183946067",
@@ -8805,7 +10612,11 @@
     "dedupeKey": "83fd38b40fee52f44647177894e91b94eab31764891c7a913ac0ae84ec996af7",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "83fd38b40fee52f44647177894e91b94eab31764891c7a913ac0ae84ec996af7",
+    "createdAt": "2026-03-21T02:44:39Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.20544v1",
@@ -8889,7 +10700,11 @@
     "dedupeKey": "2edd85e2e37544c758d89291fa8264b42aaf3b453f0dc264bc2d8210b4079cf0",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "2edd85e2e37544c758d89291fa8264b42aaf3b453f0dc264bc2d8210b4079cf0",
+    "createdAt": "2026-03-20T22:26:10Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.20538v1",
@@ -8969,7 +10784,11 @@
     "dedupeKey": "cf83a933255733915dfe8afebffee1338e9d295d31bf89fb86f723383941e750",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "cf83a933255733915dfe8afebffee1338e9d295d31bf89fb86f723383941e750",
+    "createdAt": "2026-03-20T22:22:43Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.19979v1",

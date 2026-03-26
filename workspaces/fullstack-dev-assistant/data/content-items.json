@@ -1,5 +1,1031 @@
 [
   {
+    "externalId": "continuallearning/eval_dit_posttrainv2_clare_dit_real_3_on_real_3_seed1000",
+    "title": "continuallearning/eval_dit_posttrainv2_clare_dit_real_3_on_real_3_seed1000",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:41:59.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/continuallearning/eval_dit_posttrainv2_clare_dit_real_3_on_real_3_seed1000",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/continuallearning/eval_dit_posttrainv2_clare_dit_real_3_on_real_3_seed1000",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "continuallearning"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:1K<n<10K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:dask",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c537a1884d10b28f1e7c24",
+      "id": "continuallearning/eval_dit_posttrainv2_clare_dit_real_3_on_real_3_seed1000",
+      "author": "continuallearning",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T13:41:59.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "f7be762484a0c209c9d173b928f09be5caa25f8f",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\"robot_type\": \"franka\",\n    \"total_episodes\": 11,\n    \"total_frames\": 2482,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 1,\n    \"video_files_size_in_mb\": 1,\n    \"fps\": 15,\n    \"splits\": {\n        \"train\": \"0:11\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/continuallearning/eval_dit_posttrainv2_clare_dit_real_3_on_real_3_seed1000.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:dask",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-26T13:41:53.000Z",
+      "key": ""
+    },
+    "slug": "continuallearningevalditposttrainv2clareditreal3onreal3seed1000",
+    "dedupeKey": "feecf548501e4f6ccd6c96bed3fcd206ec85d73e0d1ca12c4b0b3bcac6c4a93d",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "roshan-george/EE5108_Group1_supreeth_6",
+    "title": "roshan-george/EE5108_Group1_supreeth_6",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:41:56.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/roshan-george/EE5108_Group1_supreeth_6",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/roshan-george/EE5108_Group1_supreeth_6",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "roshan-george"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:1K<n<10K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:pandas",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c5379358b063a02ef72280",
+      "id": "roshan-george/EE5108_Group1_supreeth_6",
+      "author": "roshan-george",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T13:41:56.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "22bf9c0c09855b45a2ea0207f0e5381a6e95d5ea",
+      "description": "This dataset was created using LeRobot.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so101_follower\",\n    \"total_episodes\": 5,\n    \"total_frames\": 2440,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:5\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/roshan-george/EE5108_Group1_supreeth_6.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:pandas",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-26T13:41:39.000Z",
+      "key": ""
+    },
+    "slug": "roshan-georgeee5108group1supreeth6",
+    "dedupeKey": "1334d3a67be06ac13e924dcc50a01dc78ba5e69ff9a70a67c7039a9d4e6b2477",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "1050190004",
+    "title": "IsmailHossain120/vista-slam",
+    "summary": "🔍 Explore visual SLAM with ViSTA-SLAM, utilizing symmetric two-view association for accurate mapping and navigation in diverse environments.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:41:32Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/IsmailHossain120/vista-slam",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/IsmailHossain120/vista-slam",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "IsmailHossain120"
+    ],
+    "category": "code",
+    "keywords": [
+      "monocular-slam",
+      "neural-slam",
+      "slam"
+    ],
+    "tags": [
+      "SLAM与定位"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1050190004,
+      "node_id": "R_kgDOPpigtA",
+      "name": "vista-slam",
+      "full_name": "IsmailHossain120/vista-slam",
+      "private": false,
+      "owner": {
+        "login": "IsmailHossain120",
+        "id": 112944327,
+        "node_id": "U_kgDOBrtkxw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/112944327?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/IsmailHossain120",
+        "html_url": "https://github.com/IsmailHossain120",
+        "followers_url": "https://api.github.com/users/IsmailHossain120/followers",
+        "following_url": "https://api.github.com/users/IsmailHossain120/following{/other_user}",
+        "gists_url": "https://api.github.com/users/IsmailHossain120/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/IsmailHossain120/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/IsmailHossain120/subscriptions",
+        "organizations_url": "https://api.github.com/users/IsmailHossain120/orgs",
+        "repos_url": "https://api.github.com/users/IsmailHossain120/repos",
+        "events_url": "https://api.github.com/users/IsmailHossain120/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/IsmailHossain120/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/IsmailHossain120/vista-slam",
+      "description": "🔍 Explore visual SLAM with ViSTA-SLAM, utilizing symmetric two-view association for accurate mapping and navigation in diverse environments.",
+      "fork": false,
+      "url": "https://api.github.com/repos/IsmailHossain120/vista-slam",
+      "forks_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/forks",
+      "keys_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/teams",
+      "hooks_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/hooks",
+      "issue_events_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/events",
+      "assignees_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/tags",
+      "blobs_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/languages",
+      "stargazers_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/stargazers",
+      "contributors_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/contributors",
+      "subscribers_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/subscribers",
+      "subscription_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/subscription",
+      "commits_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/merges",
+      "archive_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/downloads",
+      "issues_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/labels{/name}",
+      "releases_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/IsmailHossain120/vista-slam/deployments",
+      "created_at": "2025-09-04T04:44:01Z",
+      "updated_at": "2026-03-26T13:41:32Z",
+      "pushed_at": "2026-03-26T13:41:22Z",
+      "git_url": "git://github.com/IsmailHossain120/vista-slam.git",
+      "ssh_url": "git@github.com:IsmailHossain120/vista-slam.git",
+      "clone_url": "https://github.com/IsmailHossain120/vista-slam.git",
+      "svn_url": "https://github.com/IsmailHossain120/vista-slam",
+      "homepage": null,
+      "size": 61288,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "monocular-slam",
+        "neural-slam",
+        "slam"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "ismailhossain120vista-slam",
+    "dedupeKey": "a0b42cb5a268fda49a5423fe7d3b218db6ab959e25f55749b847d1cd9b34dbcd",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1192710352",
+    "title": "florisvanlieshout/robotics-tracker",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:41:23Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/florisvanlieshout/robotics-tracker",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/florisvanlieshout/robotics-tracker",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "florisvanlieshout"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1192710352,
+      "node_id": "R_kgDORxdQ0A",
+      "name": "robotics-tracker",
+      "full_name": "florisvanlieshout/robotics-tracker",
+      "private": false,
+      "owner": {
+        "login": "florisvanlieshout",
+        "id": 17438044,
+        "node_id": "MDQ6VXNlcjE3NDM4MDQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17438044?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/florisvanlieshout",
+        "html_url": "https://github.com/florisvanlieshout",
+        "followers_url": "https://api.github.com/users/florisvanlieshout/followers",
+        "following_url": "https://api.github.com/users/florisvanlieshout/following{/other_user}",
+        "gists_url": "https://api.github.com/users/florisvanlieshout/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/florisvanlieshout/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/florisvanlieshout/subscriptions",
+        "organizations_url": "https://api.github.com/users/florisvanlieshout/orgs",
+        "repos_url": "https://api.github.com/users/florisvanlieshout/repos",
+        "events_url": "https://api.github.com/users/florisvanlieshout/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/florisvanlieshout/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/florisvanlieshout/robotics-tracker",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker",
+      "forks_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/forks",
+      "keys_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/teams",
+      "hooks_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/hooks",
+      "issue_events_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/events",
+      "assignees_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/tags",
+      "blobs_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/languages",
+      "stargazers_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/stargazers",
+      "contributors_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/contributors",
+      "subscribers_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/subscribers",
+      "subscription_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/subscription",
+      "commits_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/merges",
+      "archive_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/downloads",
+      "issues_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/labels{/name}",
+      "releases_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/florisvanlieshout/robotics-tracker/deployments",
+      "created_at": "2026-03-26T13:41:17Z",
+      "updated_at": "2026-03-26T13:41:23Z",
+      "pushed_at": "2026-03-26T13:41:20Z",
+      "git_url": "git://github.com/florisvanlieshout/robotics-tracker.git",
+      "ssh_url": "git@github.com:florisvanlieshout/robotics-tracker.git",
+      "clone_url": "https://github.com/florisvanlieshout/robotics-tracker.git",
+      "svn_url": "https://github.com/florisvanlieshout/robotics-tracker",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "HTML",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "florisvanlieshoutrobotics-tracker",
+    "dedupeKey": "0344ecec0ffac74f1b7263d00da9e2cb4bf165855a984ae8d6f26fc1aafab9f7",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "600588350",
+    "title": "RoboticAgents/roboticagents.com",
+    "summary": "Repository with website contents for roboticagents.com",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:41:18Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/RoboticAgents/roboticagents.com",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/RoboticAgents/roboticagents.com",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "RoboticAgents"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 600588350,
+      "node_id": "R_kgDOI8xAPg",
+      "name": "roboticagents.com",
+      "full_name": "RoboticAgents/roboticagents.com",
+      "private": false,
+      "owner": {
+        "login": "RoboticAgents",
+        "id": 238061952,
+        "node_id": "O_kgDODjCJgA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/238061952?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/RoboticAgents",
+        "html_url": "https://github.com/RoboticAgents",
+        "followers_url": "https://api.github.com/users/RoboticAgents/followers",
+        "following_url": "https://api.github.com/users/RoboticAgents/following{/other_user}",
+        "gists_url": "https://api.github.com/users/RoboticAgents/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/RoboticAgents/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/RoboticAgents/subscriptions",
+        "organizations_url": "https://api.github.com/users/RoboticAgents/orgs",
+        "repos_url": "https://api.github.com/users/RoboticAgents/repos",
+        "events_url": "https://api.github.com/users/RoboticAgents/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/RoboticAgents/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/RoboticAgents/roboticagents.com",
+      "description": "Repository with website contents for roboticagents.com",
+      "fork": false,
+      "url": "https://api.github.com/repos/RoboticAgents/roboticagents.com",
+      "forks_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/forks",
+      "keys_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/teams",
+      "hooks_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/hooks",
+      "issue_events_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/events",
+      "assignees_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/tags",
+      "blobs_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/languages",
+      "stargazers_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/stargazers",
+      "contributors_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/contributors",
+      "subscribers_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/subscribers",
+      "subscription_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/subscription",
+      "commits_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/merges",
+      "archive_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/downloads",
+      "issues_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/labels{/name}",
+      "releases_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/RoboticAgents/roboticagents.com/deployments",
+      "created_at": "2023-02-12T00:11:42Z",
+      "updated_at": "2026-03-26T13:41:18Z",
+      "pushed_at": "2026-03-26T13:41:13Z",
+      "git_url": "git://github.com/RoboticAgents/roboticagents.com.git",
+      "ssh_url": "git@github.com:RoboticAgents/roboticagents.com.git",
+      "clone_url": "https://github.com/RoboticAgents/roboticagents.com.git",
+      "svn_url": "https://github.com/RoboticAgents/roboticagents.com",
+      "homepage": null,
+      "size": 20970,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "HTML",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "roboticagentsroboticagentscom",
+    "dedupeKey": "fd9f3a03e524071099c43a3c0b399612cb797cb916cff9ab621f977a15bb73b8",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "994840061",
+    "title": "MattTidd/MRS_Simulation",
+    "summary": "Multi-Robot Auctioning using Behaviour Trees",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:40:53Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/MattTidd/MRS_Simulation",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/MattTidd/MRS_Simulation",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "MattTidd"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "仿真训练"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 994840061,
+      "node_id": "R_kgDOO0wN_Q",
+      "name": "MRS_Simulation",
+      "full_name": "MattTidd/MRS_Simulation",
+      "private": false,
+      "owner": {
+        "login": "MattTidd",
+        "id": 140190143,
+        "node_id": "U_kgDOCFshvw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/140190143?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MattTidd",
+        "html_url": "https://github.com/MattTidd",
+        "followers_url": "https://api.github.com/users/MattTidd/followers",
+        "following_url": "https://api.github.com/users/MattTidd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MattTidd/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MattTidd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MattTidd/subscriptions",
+        "organizations_url": "https://api.github.com/users/MattTidd/orgs",
+        "repos_url": "https://api.github.com/users/MattTidd/repos",
+        "events_url": "https://api.github.com/users/MattTidd/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MattTidd/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/MattTidd/MRS_Simulation",
+      "description": "Multi-Robot Auctioning using Behaviour Trees",
+      "fork": false,
+      "url": "https://api.github.com/repos/MattTidd/MRS_Simulation",
+      "forks_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/forks",
+      "keys_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/teams",
+      "hooks_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/hooks",
+      "issue_events_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/events",
+      "assignees_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/tags",
+      "blobs_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/languages",
+      "stargazers_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/stargazers",
+      "contributors_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/contributors",
+      "subscribers_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/subscribers",
+      "subscription_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/subscription",
+      "commits_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/merges",
+      "archive_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/downloads",
+      "issues_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/labels{/name}",
+      "releases_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/MattTidd/MRS_Simulation/deployments",
+      "created_at": "2025-06-02T15:01:37Z",
+      "updated_at": "2026-03-26T13:40:53Z",
+      "pushed_at": "2026-03-26T13:40:48Z",
+      "git_url": "git://github.com/MattTidd/MRS_Simulation.git",
+      "ssh_url": "git@github.com:MattTidd/MRS_Simulation.git",
+      "clone_url": "https://github.com/MattTidd/MRS_Simulation.git",
+      "svn_url": "https://github.com/MattTidd/MRS_Simulation",
+      "homepage": null,
+      "size": 8869,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "matttiddmrssimulation",
+    "dedupeKey": "c72d407c9112bb5d5cebabe3b8a1d15689479ce7a923940fb055f8b098702125",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "CubixFR/eval_scotch_dans_boite1774532437",
+    "title": "CubixFR/eval_scotch_dans_boite1774532437",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:40:49.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/CubixFR/eval_scotch_dans_boite1774532437",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/CubixFR/eval_scotch_dans_boite1774532437",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "CubixFR"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c5375f5ee2ee57e037c91d",
+      "id": "CubixFR/eval_scotch_dans_boite1774532437",
+      "author": "CubixFR",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T13:40:49.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "3794c2716a1901271e511ecdb72b7f51d15c9b54",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 0,\n    \"total_frames\": 0,\n    \"total_tasks\": 0,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {},\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/CubixFR/eval_scotch_dans_boite1774532437.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-26T13:40:47.000Z",
+      "key": ""
+    },
+    "slug": "cubixfrevalscotchdansboite1774532437",
+    "dedupeKey": "55b331635dd777fc56fb8254add114e1d269bd906394fe10b36acc7b91d69543",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "ChenDL09/vla_assets",
+    "title": "ChenDL09/vla_assets",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 66；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:40:15.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/ChenDL09/vla_assets",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/ChenDL09/vla_assets",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "ChenDL09"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "size_categories:1K<n<10K",
+      "format:imagefolder",
+      "modality:image",
+      "library:datasets",
+      "library:mlcroissant",
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69bfe2ae395692732fde321a",
+      "id": "ChenDL09/vla_assets",
+      "author": "ChenDL09",
+      "disabled": false,
+      "gated": "manual",
+      "lastModified": "2026-03-26T13:40:15.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "ecc32961122c1acdd1e724ab4c229436f1dcd096",
+      "downloads": 66,
+      "tags": [
+        "size_categories:1K<n<10K",
+        "format:imagefolder",
+        "modality:image",
+        "library:datasets",
+        "library:mlcroissant",
+        "region:us"
+      ],
+      "createdAt": "2026-03-22T12:38:06.000Z",
+      "key": ""
+    },
+    "slug": "chendl09vlaassets",
+    "dedupeKey": "322f23d8ec190dbf021b51f4815b53731ec662161633e6c42bdc59c96e6db115",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "kd-forge/demo_table_sort_bolts_nuts_2603",
+    "title": "kd-forge/demo_table_sort_bolts_nuts_2603",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:40:11.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/kd-forge/demo_table_sort_bolts_nuts_2603",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/kd-forge/demo_table_sort_bolts_nuts_2603",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "kd-forge"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:10K<n<100K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:dask",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c4e7a7332a4bc25360ffe6",
+      "id": "kd-forge/demo_table_sort_bolts_nuts_2603",
+      "author": "kd-forge",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T13:40:11.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "5ec7b17d5219ca3b4044653dd88128e553e2b198",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"bi_so100_k01_m2\",\n    \"total_episodes\": 170,\n    \"total_frames\": 86517,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000000,\n    \"data_files_size_in_mb\": 10000,\n    \"video_files_size_in_mb\": 50000,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:170\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\"… See the full description on the dataset page: https://huggingface.co/datasets/kd-forge/demo_table_sort_bolts_nuts_2603.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:10K<n<100K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:dask",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-26T08:00:39.000Z",
+      "key": ""
+    },
+    "slug": "kd-forgedemotablesortboltsnuts2603",
+    "dedupeKey": "8dd81a5bc4529080401fcc4963a9fb3a5fdda80403879b6018f843523e5c2b01",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "CubixFR/eval_scotch_dans_boite1774532375",
+    "title": "CubixFR/eval_scotch_dans_boite1774532375",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:39:48.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/CubixFR/eval_scotch_dans_boite1774532375",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/CubixFR/eval_scotch_dans_boite1774532375",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "CubixFR"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c537229913075330fd2b84",
+      "id": "CubixFR/eval_scotch_dans_boite1774532375",
+      "author": "CubixFR",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T13:39:48.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "ac664a0d6dbd4348fe2ad52d83388a16b87d5fc6",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 0,\n    \"total_frames\": 0,\n    \"total_tasks\": 0,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {},\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/CubixFR/eval_scotch_dans_boite1774532375.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-26T13:39:46.000Z",
+      "key": ""
+    },
+    "slug": "cubixfrevalscotchdansboite1774532375",
+    "dedupeKey": "eb07cccf30316679276ef83e5389d58d84f65d2fecfb46767fea6e24bbf3fcbf",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
     "externalId": "CubixFR/eval_scotch_dans_boite1774532282",
     "title": "CubixFR/eval_scotch_dans_boite1774532282",
     "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
@@ -69,7 +1095,11 @@
     "dedupeKey": "adf975105cf5218ba0109400b2d59b5b48628b73dd61798f8bb60c7dad166324",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "adf975105cf5218ba0109400b2d59b5b48628b73dd61798f8bb60c7dad166324",
+    "createdAt": "2026-03-26T13:38:14.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1112995464",
@@ -212,7 +1242,11 @@
     "dedupeKey": "5e8eb63b8e942c19df2e05efb3e04c51d35427b1a3b9a004ea106a59330fc36d",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "5e8eb63b8e942c19df2e05efb3e04c51d35427b1a3b9a004ea106a59330fc36d",
+    "createdAt": "2026-03-26T13:38:13Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "498366709",
@@ -347,7 +1381,11 @@
     "dedupeKey": "66c44832344f2f760b844be4eb1ada230b8f8471f29494ccd919d9ffb07fb9ac",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "66c44832344f2f760b844be4eb1ada230b8f8471f29494ccd919d9ffb07fb9ac",
+    "createdAt": "2026-03-26T13:38:05Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1151392623",
@@ -488,7 +1526,11 @@
     "dedupeKey": "090931d319fa82a6e6c7029c909807cfdcaf580def1b36e7f2bec64635a5ccd6",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "090931d319fa82a6e6c7029c909807cfdcaf580def1b36e7f2bec64635a5ccd6",
+    "createdAt": "2026-03-26T13:38:03Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1192707476",
@@ -627,7 +1669,11 @@
     "dedupeKey": "8e053088d118247ba95aa9ffed16ef547e9d537208a2cdf38a7bc44c9b161ff5",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "8e053088d118247ba95aa9ffed16ef547e9d537208a2cdf38a7bc44c9b161ff5",
+    "createdAt": "2026-03-26T13:37:58Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1162701852",
@@ -766,7 +1812,11 @@
     "dedupeKey": "530c0708ffc22638a0164060e2515df8f75c5c222a1b62e44a4e6cd7a4d84206",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "530c0708ffc22638a0164060e2515df8f75c5c222a1b62e44a4e6cd7a4d84206",
+    "createdAt": "2026-03-26T13:37:58Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1037370238",
@@ -933,7 +1983,11 @@
     "dedupeKey": "1575ddde9471a83ddc3ec060d9122d578946b289acf75f585afeacfb95d8e140",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "1575ddde9471a83ddc3ec060d9122d578946b289acf75f585afeacfb95d8e140",
+    "createdAt": "2026-03-26T13:37:57Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1037321391",
@@ -1104,7 +2158,11 @@
     "dedupeKey": "4eb6ea121f30f30c4ab9e9a249a0766c1cfedf3304f4bc667a8d2ebaa57c9aea",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "4eb6ea121f30f30c4ab9e9a249a0766c1cfedf3304f4bc667a8d2ebaa57c9aea",
+    "createdAt": "2026-03-26T13:37:51Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1189007557",
@@ -1247,7 +2305,11 @@
     "dedupeKey": "a1e005cf9022edddfc4ea403de9aaa04c8d39caecb5c5535de1203258d809520",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "a1e005cf9022edddfc4ea403de9aaa04c8d39caecb5c5535de1203258d809520",
+    "createdAt": "2026-03-26T13:37:50Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "CubixFR/eval_scotch_dans_boite1774532233",
@@ -1319,7 +2381,11 @@
     "dedupeKey": "259566011f4b3994148cf5149fc78d61678dd2a60182b1f49aa557c701d37fed",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "259566011f4b3994148cf5149fc78d61678dd2a60182b1f49aa557c701d37fed",
+    "createdAt": "2026-03-26T13:37:26.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1026955242",
@@ -1463,7 +2529,11 @@
     "dedupeKey": "ea9aebb26595799d2a5e2bca88789873e19d804868efee6ef503b0cd709e2823",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "ea9aebb26595799d2a5e2bca88789873e19d804868efee6ef503b0cd709e2823",
+    "createdAt": "2026-03-26T13:37:12Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1167668340",
@@ -1601,7 +2671,11 @@
     "dedupeKey": "d33e6edf4ebdd804395b9f5423f3f290d655565c980fdfa2f353c8d709859da9",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "d33e6edf4ebdd804395b9f5423f3f290d655565c980fdfa2f353c8d709859da9",
+    "createdAt": "2026-03-26T13:37:11Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Kota4631/pick_place_plate_pi0_10k",
@@ -1691,7 +2765,11 @@
     "dedupeKey": "eb94ae7442de8ba297b9dab822f4196c2073ee1ac2d5d46b1bb9a51424b14c0a",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "eb94ae7442de8ba297b9dab822f4196c2073ee1ac2d5d46b1bb9a51424b14c0a",
+    "createdAt": "2026-03-26T13:36:28.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "roshan-george/EE5108_Group1_supreeth_5",
@@ -1781,7 +2859,11 @@
     "dedupeKey": "a752c7ae257f852126db46ba35a6171c1b815931f347891087d80506c6880128",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "a752c7ae257f852126db46ba35a6171c1b815931f347891087d80506c6880128",
+    "createdAt": "2026-03-26T13:35:44.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Natalish/wall-paint-150",
@@ -1871,7 +2953,11 @@
     "dedupeKey": "8f8bc77c307e6ff4b6c2f56da5b89a2d32edff1616a3049d521cf135190eb6c9",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "8f8bc77c307e6ff4b6c2f56da5b89a2d32edff1616a3049d521cf135190eb6c9",
+    "createdAt": "2026-03-26T13:33:20.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Looloo1/can_task",
@@ -1946,7 +3032,7 @@
     ],
     "id": "7e50e026040151ec3a5d66dc047fc09cc6f901893a5d53dedfbf6b3946f0b7b8",
     "createdAt": "2026-03-26T13:16:51.000Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2089,7 +3175,7 @@
     ],
     "id": "f122a2838e0c1adb4a9b8a9c37dd2d0d00284c9c92a85ccd7f60e6c9119fdfeb",
     "createdAt": "2026-03-26T13:16:47Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2256,7 +3342,7 @@
     ],
     "id": "0bd774e5c833fe493df2433986255f1275f1c47ebfbd3d1a3abde15724d66a4b",
     "createdAt": "2026-03-26T13:16:37Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -12585,6 +13671,80 @@
     "sourceCount": 1
   },
   {
+    "externalId": "http://arxiv.org/abs/2603.23052v1",
+    "title": "Tightly-Coupled Radar-Visual-Inertial Odometry",
+    "summary": "Visual-Inertial Odometry (VIO) is a staple for reliable state estimation on constrained and lightweight platforms due to its versatility and demonstrated performance. However, pertinent challenges regarding robust operation in dark, low-texture, obscured environments complicate the use of such methods. Alternatively, Frequency Modulated Continuous Wave (FMCW) radars, and by extension Radar-Inertial Odometry (RIO), offer robustness to these visual challenges, albeit at the cost of reduced information density and worse long-term accuracy. To address these limitations, this work combines the two in a tightly coupled manner, enabling the resulting method to operate robustly regardless of environmental conditions or trajectory dynamics. The proposed method fuses image features, radar Doppler measurements, and Inertial Measurement Unit (IMU) measurements within an Iterated Extended Kalman Filter (IEKF) in real-time, with radar range data augmenting the visual feature depth initialization. The method is evaluated through flight experiments conducted in both indoor and outdoor environments, as well as through challenges to both exteroceptive modalities (such as darkness, fog, or fast flight), thoroughly demonstrating its robustness. The implementation of the proposed method is available at: https://github.com/ntnu-arl/radvio",
+    "summaryZh": "",
+    "publishedAt": "2026-03-24T10:47:04Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.23052v1",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.23052v1",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Morten Nissov",
+      "Mohit Singh",
+      "Kostas Alexis"
+    ],
+    "category": "paper",
+    "keywords": [],
+    "tags": [
+      "强化学习控制",
+      "开源发布",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.35,
+    "trustScore": 0.92,
+    "raw": {
+      "id": "http://arxiv.org/abs/2603.23052v1",
+      "title": "Tightly-Coupled Radar-Visual-Inertial Odometry",
+      "updated": "2026-03-24T10:47:04Z",
+      "link": [
+        {
+          "@_href": "https://arxiv.org/abs/2603.23052v1",
+          "@_rel": "alternate",
+          "@_type": "text/html"
+        },
+        {
+          "@_href": "https://arxiv.org/pdf/2603.23052v1",
+          "@_rel": "related",
+          "@_type": "application/pdf",
+          "@_title": "pdf"
+        }
+      ],
+      "summary": "Visual-Inertial Odometry (VIO) is a staple for reliable state estimation on constrained and lightweight platforms due to its versatility and demonstrated performance. However, pertinent challenges regarding robust operation in dark, low-texture, obscured environments complicate the use of such methods. Alternatively, Frequency Modulated Continuous Wave (FMCW) radars, and by extension Radar-Inertial Odometry (RIO), offer robustness to these visual challenges, albeit at the cost of reduced information density and worse long-term accuracy. To address these limitations, this work combines the two in a tightly coupled manner, enabling the resulting method to operate robustly regardless of environmental conditions or trajectory dynamics. The proposed method fuses image features, radar Doppler measurements, and Inertial Measurement Unit (IMU) measurements within an Iterated Extended Kalman Filter (IEKF) in real-time, with radar range data augmenting the visual feature depth initialization. The method is evaluated through flight experiments conducted in both indoor and outdoor environments, as well as through challenges to both exteroceptive modalities (such as darkness, fog, or fast flight), thoroughly demonstrating its robustness. The implementation of the proposed method is available at: https://github.com/ntnu-arl/radvio",
+      "category": {
+        "@_term": "cs.RO",
+        "@_scheme": "http://arxiv.org/schemas/atom"
+      },
+      "published": "2026-03-24T10:47:04Z",
+      "arxiv:comment": "8 pages, 9 figures, Accepted to the 2026 European Control Conference (ECC)",
+      "arxiv:primary_category": {
+        "@_term": "cs.RO"
+      },
+      "author": [
+        {
+          "name": "Morten Nissov"
+        },
+        {
+          "name": "Mohit Singh"
+        },
+        {
+          "name": "Kostas Alexis"
+        }
+      ]
+    },
+    "slug": "tightly-coupled-radar-visual-inertial-odometry",
+    "dedupeKey": "65b194c161dcc422b97f353cbe66a1f4e301935704cbed8d83c118cf4f11e5a7",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
     "externalId": "http://arxiv.org/abs/2603.22991v1",
     "title": "VLA-IAP: Training-Free Visual Token Pruning via Interaction Alignment for Vision-Language-Action Models",
     "summary": "Vision-Language-Action (VLA) models have rapidly advanced embodied intelligence, enabling robots to execute complex, instruction-driven tasks. However, as model capacity and visual context length grow, the inference cost of VLA systems becomes a major bottleneck for real-world deployment on resource-constrained platforms. Existing visual token pruning methods mainly rely on semantic saliency or simple temporal cues, overlooking the continuous physical interaction, a fundamental property of VLA tasks. Consequently, current approaches often prune visually sparse yet structurally critical regions that support manipulation, leading to unstable behavior during early task phases. To overcome this, we propose a shift toward an explicit Interaction-First paradigm. Our proposed \\textbf{training-free} method, VLA-IAP (Interaction-Aligned Pruning), introduces a geometric prior mechanism to preserve structural anchors and a dynamic scheduling strategy that adapts pruning intensity based on semantic-motion alignment. This enables a conservative-to-aggressive transition, ensuring robustness during early uncertainty and efficiency once interaction is locked. Extensive experiments show that VLA-IAP achieves a \\textbf{97.8\\% success rate} with a \\textbf{$1.25\\times$ speedup} on the LIBERO benchmark, and up to \\textbf{$1.54\\times$ speedup} while maintaining performance \\textbf{comparable to the unpruned backbone}. Moreover, the method demonstrates superior and consistent performance across multiple model architectures and three different simulation environments, as well as a real robot platform, validating its strong generalization capability and practical applicability. Our project website is: \\href{https://chengjt1999.github.io/VLA-IAP.github.io/}{VLA-IAP.com}.",
@@ -22776,7 +23936,11 @@
     "dedupeKey": "b0bc21a28fad385c01691cb7bc886b4edd24bb236019eab182230eedfb734286",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "b0bc21a28fad385c01691cb7bc886b4edd24bb236019eab182230eedfb734286",
+    "createdAt": "2026-03-23T00:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.21341v1",
@@ -30664,6 +31828,45 @@
     "sourceCount": 1
   },
   {
+    "externalId": "curated-slam-lunar-nav-2603-17229",
+    "title": "Visual SLAM with DEM Anchoring for Lunar Navigation",
+    "summary": "Recent localization research combining visual SLAM with terrain anchoring and elevation priors to reduce long-range drift in robotic navigation.",
+    "summaryZh": "近期定位研究，将视觉 SLAM 与地形锚定和高程先验结合，以降低机器人长距离导航中的漂移。",
+    "publishedAt": "2026-03-20T00:00:00.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://arxiv.org/abs/2603.17229",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.17229",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "arXiv"
+    ],
+    "category": "paper",
+    "keywords": [
+      "visual slam",
+      "localization",
+      "mapping"
+    ],
+    "tags": [
+      "SLAM与定位"
+    ],
+    "relevanceScore": 0.93,
+    "trustScore": 0.84,
+    "raw": {
+      "curated": true,
+      "topic": "slam"
+    },
+    "slug": "visual-slam-with-dem-anchoring-for-lunar-navigation",
+    "dedupeKey": "d95843bba3b4556c2471ce0d97b26d122d9ac64169bbf1d572547748a7552fc4",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
     "externalId": "http://arxiv.org/abs/2603.19418v1",
     "title": "Speculative Policy Orchestration: A Latency-Resilient Framework for Cloud-Robotic Manipulation",
     "summary": "Cloud robotics enables robots to offload high-dimensional motion planning and reasoning to remote servers. However, for continuous manipulation tasks requiring high-frequency control, network latency and jitter can severely destabilize the system, causing command starvation and unsafe physical execution. To address this, we propose Speculative Policy Orchestration (SPO), a latency-resilient cloud-edge framework. SPO utilizes a cloud-hosted world model to pre-compute and stream future kinematic waypoints to a local edge buffer, decoupling execution frequency from network round-trip time. To mitigate unsafe execution caused by predictive drift, the edge node employs an $ε$-tube verifier that strictly bounds kinematic execution errors. The framework is coupled with an Adaptive Horizon Scaling mechanism that dynamically expands or shrinks the speculative pre-fetch depth based on real-time tracking error. We evaluate SPO on continuous RLBench manipulation tasks under emulated network delays. Results show that even when deployed with learned models of modest accuracy, SPO reduces network-induced idle time by over 60% compared to blocking remote inference. Furthermore, SPO discards approximately 60% fewer cloud predictions than static caching baselines. Ultimately, SPO enables fluid, real-time cloud-robotic control while maintaining bounded physical safety.",
@@ -33029,7 +34232,11 @@
     "dedupeKey": "553a39435bb1f2ec0b9b418ac84393a39a4d0ed66a47c729215b88526589ab41",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "553a39435bb1f2ec0b9b418ac84393a39a4d0ed66a47c729215b88526589ab41",
+    "createdAt": "2026-03-15T00:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "slam-event-based-edged-uslam-2603-08150",
@@ -33068,6 +34275,90 @@
     },
     "slug": "edged-uslam-edge-aware-event-based-slam",
     "dedupeKey": "11d28cd58f40885e062e420ee279b701d68ee209fd2b832b0a0106866483f149",
+    "mergedSourceTypes": [
+      "other"
+    ],
+    "id": "11d28cd58f40885e062e420ee279b701d68ee209fd2b832b0a0106866483f149",
+    "createdAt": "2026-03-12T00:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
+  },
+  {
+    "externalId": "curated-slam-aim-slam-2603-05097",
+    "title": "AIM-SLAM: Dense Monocular SLAM with Adaptive Multi-View Mapping",
+    "summary": "Recent SLAM work focusing on dense monocular mapping, adaptive keyframe selection, and robust localization in visually complex robotic environments.",
+    "summaryZh": "近期 SLAM 工作，聚焦稠密单目建图、自适应关键帧选择，以及复杂机器人环境中的稳健定位。",
+    "publishedAt": "2026-03-10T00:00:00.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://arxiv.org/abs/2603.05097",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.05097",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "arXiv"
+    ],
+    "category": "paper",
+    "keywords": [
+      "slam",
+      "dense mapping",
+      "monocular slam",
+      "localization"
+    ],
+    "tags": [
+      "SLAM与定位"
+    ],
+    "relevanceScore": 0.95,
+    "trustScore": 0.84,
+    "raw": {
+      "curated": true,
+      "topic": "slam"
+    },
+    "slug": "aim-slam-dense-monocular-slam-with-adaptive-multi-view-mapping",
+    "dedupeKey": "a33e94f6814f80edf82677b23085c3b47992f7066878dfed27a2c47eb1cc35f9",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "curated-slam-consensus-admm-2603-01178",
+    "title": "Consensus ADMM for Real-World Collaborative SLAM",
+    "summary": "A recent collaborative SLAM paper addressing distributed optimization, communication limits, and robust multi-robot mapping in real-world settings.",
+    "summaryZh": "近期协同 SLAM 论文，面向真实场景下的分布式优化、通信受限与多机器人稳健建图。",
+    "publishedAt": "2026-03-04T00:00:00.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://arxiv.org/abs/2603.01178",
+    "sourceLinks": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.01178",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "arXiv"
+    ],
+    "category": "paper",
+    "keywords": [
+      "slam",
+      "distributed slam",
+      "multi-robot",
+      "mapping"
+    ],
+    "tags": [
+      "SLAM与定位"
+    ],
+    "relevanceScore": 0.94,
+    "trustScore": 0.84,
+    "raw": {
+      "curated": true,
+      "topic": "slam"
+    },
+    "slug": "consensus-admm-for-real-world-collaborative-slam",
+    "dedupeKey": "0168520b4645d92bfee1042ec89c753018ad6306258f1e142ff68cd80f109bfd",
     "mergedSourceTypes": [
       "other"
     ]

@@ -1,5 +1,1299 @@
 [
   {
+    "externalId": "887435804",
+    "title": "Drix10/ai-resources",
+    "summary": "Daily updated resources on AI across various domains including ML, development, education, healthcare, real estate, robotics, crypto, web3 and more, curated by enthusiasts.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:42:18Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Drix10/ai-resources",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Drix10/ai-resources",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Drix10"
+    ],
+    "category": "code",
+    "keywords": [
+      "ai",
+      "art",
+      "artificial-intelligence",
+      "augmented-reality",
+      "crypto",
+      "cybersecurity",
+      "developer",
+      "education",
+      "generative-ai",
+      "healthcare",
+      "investment",
+      "latest",
+      "music",
+      "news",
+      "quantum-computing",
+      "real-estate",
+      "resources",
+      "robotics",
+      "technology"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 887435804,
+      "node_id": "R_kgDONOUyHA",
+      "name": "ai-resources",
+      "full_name": "Drix10/ai-resources",
+      "private": false,
+      "owner": {
+        "login": "Drix10",
+        "id": 62929688,
+        "node_id": "MDQ6VXNlcjYyOTI5Njg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62929688?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Drix10",
+        "html_url": "https://github.com/Drix10",
+        "followers_url": "https://api.github.com/users/Drix10/followers",
+        "following_url": "https://api.github.com/users/Drix10/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Drix10/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Drix10/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Drix10/subscriptions",
+        "organizations_url": "https://api.github.com/users/Drix10/orgs",
+        "repos_url": "https://api.github.com/users/Drix10/repos",
+        "events_url": "https://api.github.com/users/Drix10/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Drix10/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Drix10/ai-resources",
+      "description": "Daily updated resources on AI across various domains including ML, development, education, healthcare, real estate, robotics, crypto, web3 and more, curated by enthusiasts.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Drix10/ai-resources",
+      "forks_url": "https://api.github.com/repos/Drix10/ai-resources/forks",
+      "keys_url": "https://api.github.com/repos/Drix10/ai-resources/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Drix10/ai-resources/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Drix10/ai-resources/teams",
+      "hooks_url": "https://api.github.com/repos/Drix10/ai-resources/hooks",
+      "issue_events_url": "https://api.github.com/repos/Drix10/ai-resources/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Drix10/ai-resources/events",
+      "assignees_url": "https://api.github.com/repos/Drix10/ai-resources/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Drix10/ai-resources/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Drix10/ai-resources/tags",
+      "blobs_url": "https://api.github.com/repos/Drix10/ai-resources/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Drix10/ai-resources/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Drix10/ai-resources/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Drix10/ai-resources/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Drix10/ai-resources/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Drix10/ai-resources/languages",
+      "stargazers_url": "https://api.github.com/repos/Drix10/ai-resources/stargazers",
+      "contributors_url": "https://api.github.com/repos/Drix10/ai-resources/contributors",
+      "subscribers_url": "https://api.github.com/repos/Drix10/ai-resources/subscribers",
+      "subscription_url": "https://api.github.com/repos/Drix10/ai-resources/subscription",
+      "commits_url": "https://api.github.com/repos/Drix10/ai-resources/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Drix10/ai-resources/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Drix10/ai-resources/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Drix10/ai-resources/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Drix10/ai-resources/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Drix10/ai-resources/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Drix10/ai-resources/merges",
+      "archive_url": "https://api.github.com/repos/Drix10/ai-resources/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Drix10/ai-resources/downloads",
+      "issues_url": "https://api.github.com/repos/Drix10/ai-resources/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Drix10/ai-resources/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Drix10/ai-resources/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Drix10/ai-resources/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Drix10/ai-resources/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Drix10/ai-resources/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Drix10/ai-resources/deployments",
+      "created_at": "2024-11-12T18:34:01Z",
+      "updated_at": "2026-03-26T10:42:18Z",
+      "pushed_at": "2026-03-26T10:42:14Z",
+      "git_url": "git://github.com/Drix10/ai-resources.git",
+      "ssh_url": "git@github.com:Drix10/ai-resources.git",
+      "clone_url": "https://github.com/Drix10/ai-resources.git",
+      "svn_url": "https://github.com/Drix10/ai-resources",
+      "homepage": "https://x.com/ai_scrapper",
+      "size": 21021,
+      "stargazers_count": 108,
+      "watchers_count": 108,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 21,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "ai",
+        "art",
+        "artificial-intelligence",
+        "augmented-reality",
+        "crypto",
+        "cybersecurity",
+        "developer",
+        "education",
+        "generative-ai",
+        "healthcare",
+        "investment",
+        "latest",
+        "music",
+        "news",
+        "quantum-computing",
+        "real-estate",
+        "resources",
+        "robotics",
+        "technology"
+      ],
+      "visibility": "public",
+      "forks": 21,
+      "open_issues": 0,
+      "watchers": 108,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "drix10ai-resources",
+    "dedupeKey": "d85529250e25833244153ab0a83f1dbb802311d0bf823360d7dc7f11f86ce875",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1187311140",
+    "title": "CodeForest-lab/micromouse-coding-challenge",
+    "summary": "This is a coding challenge adaptation of the robotic Micromouse challenge.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:42:08Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/CodeForest-lab/micromouse-coding-challenge",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/CodeForest-lab/micromouse-coding-challenge",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "CodeForest-lab"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "实验室动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1187311140,
+      "node_id": "R_kgDORsTuJA",
+      "name": "micromouse-coding-challenge",
+      "full_name": "CodeForest-lab/micromouse-coding-challenge",
+      "private": false,
+      "owner": {
+        "login": "CodeForest-lab",
+        "id": 6631335,
+        "node_id": "MDQ6VXNlcjY2MzEzMzU=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6631335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/CodeForest-lab",
+        "html_url": "https://github.com/CodeForest-lab",
+        "followers_url": "https://api.github.com/users/CodeForest-lab/followers",
+        "following_url": "https://api.github.com/users/CodeForest-lab/following{/other_user}",
+        "gists_url": "https://api.github.com/users/CodeForest-lab/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/CodeForest-lab/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/CodeForest-lab/subscriptions",
+        "organizations_url": "https://api.github.com/users/CodeForest-lab/orgs",
+        "repos_url": "https://api.github.com/users/CodeForest-lab/repos",
+        "events_url": "https://api.github.com/users/CodeForest-lab/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/CodeForest-lab/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/CodeForest-lab/micromouse-coding-challenge",
+      "description": "This is a coding challenge adaptation of the robotic Micromouse challenge.",
+      "fork": false,
+      "url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge",
+      "forks_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/forks",
+      "keys_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/teams",
+      "hooks_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/hooks",
+      "issue_events_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/events",
+      "assignees_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/tags",
+      "blobs_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/languages",
+      "stargazers_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/stargazers",
+      "contributors_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/contributors",
+      "subscribers_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/subscribers",
+      "subscription_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/subscription",
+      "commits_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/merges",
+      "archive_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/downloads",
+      "issues_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/labels{/name}",
+      "releases_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/CodeForest-lab/micromouse-coding-challenge/deployments",
+      "created_at": "2026-03-20T15:24:27Z",
+      "updated_at": "2026-03-26T10:42:08Z",
+      "pushed_at": "2026-03-26T10:42:05Z",
+      "git_url": "git://github.com/CodeForest-lab/micromouse-coding-challenge.git",
+      "ssh_url": "git@github.com:CodeForest-lab/micromouse-coding-challenge.git",
+      "clone_url": "https://github.com/CodeForest-lab/micromouse-coding-challenge.git",
+      "svn_url": "https://github.com/CodeForest-lab/micromouse-coding-challenge",
+      "homepage": null,
+      "size": 20,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "codeforest-labmicromouse-coding-challenge",
+    "dedupeKey": "74439955930fc0d88f5241ca6586c637497b8921f1c4205baa12ea71ec7f2087",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1087024019",
+    "title": "Lou-Cypher78/MT4R",
+    "summary": "🛠️ Simplify robotic math with MT4R, a comprehensive guide offering key algorithms, formula derivations, and Python implementations for various robotics domains.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:41:58Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Lou-Cypher78/MT4R",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Lou-Cypher78/MT4R",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Lou-Cypher78"
+    ],
+    "category": "code",
+    "keywords": [
+      "mt4",
+      "mt4-api"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1087024019,
+      "node_id": "R_kgDOQMqrkw",
+      "name": "MT4R",
+      "full_name": "Lou-Cypher78/MT4R",
+      "private": false,
+      "owner": {
+        "login": "Lou-Cypher78",
+        "id": 97234586,
+        "node_id": "U_kgDOBcuumg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/97234586?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Lou-Cypher78",
+        "html_url": "https://github.com/Lou-Cypher78",
+        "followers_url": "https://api.github.com/users/Lou-Cypher78/followers",
+        "following_url": "https://api.github.com/users/Lou-Cypher78/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Lou-Cypher78/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Lou-Cypher78/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Lou-Cypher78/subscriptions",
+        "organizations_url": "https://api.github.com/users/Lou-Cypher78/orgs",
+        "repos_url": "https://api.github.com/users/Lou-Cypher78/repos",
+        "events_url": "https://api.github.com/users/Lou-Cypher78/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Lou-Cypher78/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Lou-Cypher78/MT4R",
+      "description": "🛠️ Simplify robotic math with MT4R, a comprehensive guide offering key algorithms, formula derivations, and Python implementations for various robotics domains.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Lou-Cypher78/MT4R",
+      "forks_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/forks",
+      "keys_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/teams",
+      "hooks_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/hooks",
+      "issue_events_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/events",
+      "assignees_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/tags",
+      "blobs_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/languages",
+      "stargazers_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/stargazers",
+      "contributors_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/contributors",
+      "subscribers_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/subscribers",
+      "subscription_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/subscription",
+      "commits_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/merges",
+      "archive_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/downloads",
+      "issues_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Lou-Cypher78/MT4R/deployments",
+      "created_at": "2025-10-31T09:03:34Z",
+      "updated_at": "2026-03-26T10:41:58Z",
+      "pushed_at": "2026-03-26T10:41:54Z",
+      "git_url": "git://github.com/Lou-Cypher78/MT4R.git",
+      "ssh_url": "git@github.com:Lou-Cypher78/MT4R.git",
+      "clone_url": "https://github.com/Lou-Cypher78/MT4R.git",
+      "svn_url": "https://github.com/Lou-Cypher78/MT4R",
+      "homepage": null,
+      "size": 8556,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "mt4",
+        "mt4-api"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "lou-cypher78mt4r",
+    "dedupeKey": "8647b6770c6417f4406ed694709e84fb70e9d03d9fb41edb11ea8ad6b152c425",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "cbrian/env_blockscene_wristscene2_task_pickblueblock_numepisode_50_cartesian",
+    "title": "cbrian/env_blockscene_wristscene2_task_pickblueblock_numepisode_50_cartesian",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:41:56.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/cbrian/env_blockscene_wristscene2_task_pickblueblock_numepisode_50_cartesian",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/cbrian/env_blockscene_wristscene2_task_pickblueblock_numepisode_50_cartesian",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "cbrian"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:1K<n<10K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:dask",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c5077f682fd5a0fd891e79",
+      "id": "cbrian/env_blockscene_wristscene2_task_pickblueblock_numepisode_50_cartesian",
+      "author": "cbrian",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T10:41:56.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "d722328aeeaf8cf81ae04b4d3a125f8097b4ac50",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"panda\",\n    \"total_episodes\": 35,\n    \"total_frames\": 7160,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\"video_files_size_in_mb\": 200,\n    \"fps\": 15,\n    \"splits\": {\n        \"train\": \"0:35\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/cbrian/env_blockscene_wristscene2_task_pickblueblock_numepisode_50_cartesian.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:dask",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-26T10:16:31.000Z",
+      "key": ""
+    },
+    "slug": "cbrianenvblockscenewristscene2taskpickblueblocknumepisode50cartesian",
+    "dedupeKey": "02d0a74090e660d37fdf2ff808f6ede7e0da16c57a532009888edb54442832bf",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "1182180109",
+    "title": "sarthaktiwary12/fielddata-pro-plan",
+    "summary": "FieldData Pro v2 implementation plan — robotics data collection app",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:41:50Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/sarthaktiwary12/fielddata-pro-plan",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/sarthaktiwary12/fielddata-pro-plan",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "sarthaktiwary12"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1182180109,
+      "node_id": "R_kgDORnajDQ",
+      "name": "fielddata-pro-plan",
+      "full_name": "sarthaktiwary12/fielddata-pro-plan",
+      "private": false,
+      "owner": {
+        "login": "sarthaktiwary12",
+        "id": 203089448,
+        "node_id": "U_kgDODBrmKA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/203089448?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sarthaktiwary12",
+        "html_url": "https://github.com/sarthaktiwary12",
+        "followers_url": "https://api.github.com/users/sarthaktiwary12/followers",
+        "following_url": "https://api.github.com/users/sarthaktiwary12/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sarthaktiwary12/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sarthaktiwary12/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sarthaktiwary12/subscriptions",
+        "organizations_url": "https://api.github.com/users/sarthaktiwary12/orgs",
+        "repos_url": "https://api.github.com/users/sarthaktiwary12/repos",
+        "events_url": "https://api.github.com/users/sarthaktiwary12/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sarthaktiwary12/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/sarthaktiwary12/fielddata-pro-plan",
+      "description": "FieldData Pro v2 implementation plan — robotics data collection app",
+      "fork": false,
+      "url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan",
+      "forks_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/forks",
+      "keys_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/teams",
+      "hooks_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/hooks",
+      "issue_events_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/events",
+      "assignees_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/tags",
+      "blobs_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/languages",
+      "stargazers_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/stargazers",
+      "contributors_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/contributors",
+      "subscribers_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/subscribers",
+      "subscription_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/subscription",
+      "commits_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/merges",
+      "archive_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/downloads",
+      "issues_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/labels{/name}",
+      "releases_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/sarthaktiwary12/fielddata-pro-plan/deployments",
+      "created_at": "2026-03-15T06:31:11Z",
+      "updated_at": "2026-03-26T10:41:50Z",
+      "pushed_at": "2026-03-26T10:41:46Z",
+      "git_url": "git://github.com/sarthaktiwary12/fielddata-pro-plan.git",
+      "ssh_url": "git@github.com:sarthaktiwary12/fielddata-pro-plan.git",
+      "clone_url": "https://github.com/sarthaktiwary12/fielddata-pro-plan.git",
+      "svn_url": "https://github.com/sarthaktiwary12/fielddata-pro-plan",
+      "homepage": null,
+      "size": 5747,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "master",
+      "score": 1
+    },
+    "slug": "sarthaktiwary12fielddata-pro-plan",
+    "dedupeKey": "c47fd9aeecec3ae55716f175665d8f83be4c183f6d8d0988fffa842cb5a7a234",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "807909394",
+    "title": "EMI-Group/evorl",
+    "summary": "EvoRL is a fully GPU-accelerated framework for Evolutionary Reinforcement Learning, implemented with JAX. It supports Reinforcement Learning (RL), Evolutionary Computation (EC), Evolution-guided Reinforcement Learning (ERL), AutoRL, and seamless integration with GPU-optimized simulation environments.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:41:36Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/EMI-Group/evorl",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/EMI-Group/evorl",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "EMI-Group"
+    ],
+    "category": "code",
+    "keywords": [
+      "automl",
+      "evolutionary-algorithms",
+      "gpu-acceleration",
+      "hpo",
+      "jax",
+      "policy-gradient",
+      "population-based-training",
+      "ppo",
+      "reinforcement-learning",
+      "reinforcement-learning-agent",
+      "reinforcement-learning-environments",
+      "sac"
+    ],
+    "tags": [
+      "仿真训练"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 807909394,
+      "node_id": "R_kgDOMCe4Eg",
+      "name": "evorl",
+      "full_name": "EMI-Group/evorl",
+      "private": false,
+      "owner": {
+        "login": "EMI-Group",
+        "id": 67092931,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY3MDkyOTMx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/67092931?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/EMI-Group",
+        "html_url": "https://github.com/EMI-Group",
+        "followers_url": "https://api.github.com/users/EMI-Group/followers",
+        "following_url": "https://api.github.com/users/EMI-Group/following{/other_user}",
+        "gists_url": "https://api.github.com/users/EMI-Group/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/EMI-Group/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/EMI-Group/subscriptions",
+        "organizations_url": "https://api.github.com/users/EMI-Group/orgs",
+        "repos_url": "https://api.github.com/users/EMI-Group/repos",
+        "events_url": "https://api.github.com/users/EMI-Group/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/EMI-Group/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/EMI-Group/evorl",
+      "description": "EvoRL is a fully GPU-accelerated framework for Evolutionary Reinforcement Learning, implemented with JAX. It supports Reinforcement Learning (RL), Evolutionary Computation (EC), Evolution-guided Reinforcement Learning (ERL), AutoRL, and seamless integration with GPU-optimized simulation environments.",
+      "fork": false,
+      "url": "https://api.github.com/repos/EMI-Group/evorl",
+      "forks_url": "https://api.github.com/repos/EMI-Group/evorl/forks",
+      "keys_url": "https://api.github.com/repos/EMI-Group/evorl/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/EMI-Group/evorl/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/EMI-Group/evorl/teams",
+      "hooks_url": "https://api.github.com/repos/EMI-Group/evorl/hooks",
+      "issue_events_url": "https://api.github.com/repos/EMI-Group/evorl/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/EMI-Group/evorl/events",
+      "assignees_url": "https://api.github.com/repos/EMI-Group/evorl/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/EMI-Group/evorl/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/EMI-Group/evorl/tags",
+      "blobs_url": "https://api.github.com/repos/EMI-Group/evorl/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/EMI-Group/evorl/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/EMI-Group/evorl/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/EMI-Group/evorl/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/EMI-Group/evorl/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/EMI-Group/evorl/languages",
+      "stargazers_url": "https://api.github.com/repos/EMI-Group/evorl/stargazers",
+      "contributors_url": "https://api.github.com/repos/EMI-Group/evorl/contributors",
+      "subscribers_url": "https://api.github.com/repos/EMI-Group/evorl/subscribers",
+      "subscription_url": "https://api.github.com/repos/EMI-Group/evorl/subscription",
+      "commits_url": "https://api.github.com/repos/EMI-Group/evorl/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/EMI-Group/evorl/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/EMI-Group/evorl/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/EMI-Group/evorl/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/EMI-Group/evorl/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/EMI-Group/evorl/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/EMI-Group/evorl/merges",
+      "archive_url": "https://api.github.com/repos/EMI-Group/evorl/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/EMI-Group/evorl/downloads",
+      "issues_url": "https://api.github.com/repos/EMI-Group/evorl/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/EMI-Group/evorl/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/EMI-Group/evorl/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/EMI-Group/evorl/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/EMI-Group/evorl/labels{/name}",
+      "releases_url": "https://api.github.com/repos/EMI-Group/evorl/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/EMI-Group/evorl/deployments",
+      "created_at": "2024-05-30T02:29:45Z",
+      "updated_at": "2026-03-26T10:41:36Z",
+      "pushed_at": "2026-03-26T10:41:32Z",
+      "git_url": "git://github.com/EMI-Group/evorl.git",
+      "ssh_url": "git@github.com:EMI-Group/evorl.git",
+      "clone_url": "https://github.com/EMI-Group/evorl.git",
+      "svn_url": "https://github.com/EMI-Group/evorl",
+      "homepage": "",
+      "size": 2817,
+      "stargazers_count": 279,
+      "watchers_count": 279,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": true,
+      "forks_count": 39,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 1,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "automl",
+        "evolutionary-algorithms",
+        "gpu-acceleration",
+        "hpo",
+        "jax",
+        "policy-gradient",
+        "population-based-training",
+        "ppo",
+        "reinforcement-learning",
+        "reinforcement-learning-agent",
+        "reinforcement-learning-environments",
+        "sac"
+      ],
+      "visibility": "public",
+      "forks": 39,
+      "open_issues": 1,
+      "watchers": 279,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "emi-groupevorl",
+    "dedupeKey": "78ba02232ace49794bc4c504c35fd6b88d1eb11e0f0453bff5dd5e929b5cb1bb",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1017289093",
+    "title": "ferdaousmasmoudi/ferdaousmasmoudi.github.io",
+    "summary": "Official website of Dr. Eng. Ferdaous Masmoudi—R&D AgriTech innovator in embedded systems, robotics, and renewable energy. Built with the al-folio template to showcase the academic portfolio, professional projects, and scientific publications.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:40:42Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/ferdaousmasmoudi/ferdaousmasmoudi.github.io",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/ferdaousmasmoudi/ferdaousmasmoudi.github.io",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "ferdaousmasmoudi"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "开源发布"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1017289093,
+      "node_id": "R_kgDOPKKZhQ",
+      "name": "ferdaousmasmoudi.github.io",
+      "full_name": "ferdaousmasmoudi/ferdaousmasmoudi.github.io",
+      "private": false,
+      "owner": {
+        "login": "ferdaousmasmoudi",
+        "id": 34039665,
+        "node_id": "MDQ6VXNlcjM0MDM5NjY1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/34039665?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ferdaousmasmoudi",
+        "html_url": "https://github.com/ferdaousmasmoudi",
+        "followers_url": "https://api.github.com/users/ferdaousmasmoudi/followers",
+        "following_url": "https://api.github.com/users/ferdaousmasmoudi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ferdaousmasmoudi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ferdaousmasmoudi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ferdaousmasmoudi/subscriptions",
+        "organizations_url": "https://api.github.com/users/ferdaousmasmoudi/orgs",
+        "repos_url": "https://api.github.com/users/ferdaousmasmoudi/repos",
+        "events_url": "https://api.github.com/users/ferdaousmasmoudi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ferdaousmasmoudi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/ferdaousmasmoudi/ferdaousmasmoudi.github.io",
+      "description": "Official website of Dr. Eng. Ferdaous Masmoudi—R&D AgriTech innovator in embedded systems, robotics, and renewable energy. Built with the al-folio template to showcase the academic portfolio, professional projects, and scientific publications.",
+      "fork": false,
+      "url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io",
+      "forks_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/forks",
+      "keys_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/teams",
+      "hooks_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/hooks",
+      "issue_events_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/events",
+      "assignees_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/tags",
+      "blobs_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/languages",
+      "stargazers_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/stargazers",
+      "contributors_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/contributors",
+      "subscribers_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/subscribers",
+      "subscription_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/subscription",
+      "commits_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/merges",
+      "archive_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/downloads",
+      "issues_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/labels{/name}",
+      "releases_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/ferdaousmasmoudi/ferdaousmasmoudi.github.io/deployments",
+      "created_at": "2025-07-10T09:58:51Z",
+      "updated_at": "2026-03-26T10:40:42Z",
+      "pushed_at": "2026-03-26T10:41:58Z",
+      "git_url": "git://github.com/ferdaousmasmoudi/ferdaousmasmoudi.github.io.git",
+      "ssh_url": "git@github.com:ferdaousmasmoudi/ferdaousmasmoudi.github.io.git",
+      "clone_url": "https://github.com/ferdaousmasmoudi/ferdaousmasmoudi.github.io.git",
+      "svn_url": "https://github.com/ferdaousmasmoudi/ferdaousmasmoudi.github.io",
+      "homepage": "https://ferdaousmasmoudi.github.io/",
+      "size": 147592,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "HTML",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "ferdaousmasmoudiferdaousmasmoudigithubio",
+    "dedupeKey": "9e1707167929742f6949ab6c02c48408903803199d4c2f30f5f5e1e1a0df2d03",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "Thomas-Yip/merge_ds_final_1_v2.0",
+    "title": "Thomas-Yip/merge_ds_final_1_v2.0",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:38:06.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/Thomas-Yip/merge_ds_final_1_v2.0",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/Thomas-Yip/merge_ds_final_1_v2.0",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "Thomas-Yip"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:mit",
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.72,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c4f87e6ded4e6c9a83b7ca",
+      "id": "Thomas-Yip/merge_ds_final_1_v2.0",
+      "author": "Thomas-Yip",
+      "cardData": {
+        "license": "mit",
+        "task_categories": [
+          "robotics"
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T10:38:06.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "f459b04ff5f0925ebeca3b179378d51fc5edf139",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:mit",
+        "region:us"
+      ],
+      "createdAt": "2026-03-26T09:12:30.000Z",
+      "key": ""
+    },
+    "slug": "thomas-yipmergedsfinal1v20",
+    "dedupeKey": "214ff6a5f64cbfd982c6b128b6f4bd1c89df13a37b97e1b4251cc0e645e14283",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "juyoungggg/lerobot-dataset-yellow-cup-0326-4",
+    "title": "juyoungggg/lerobot-dataset-yellow-cup-0326-4",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:38:01.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/juyoungggg/lerobot-dataset-yellow-cup-0326-4",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/juyoungggg/lerobot-dataset-yellow-cup-0326-4",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "juyoungggg"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:1K<n<10K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:pandas",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c50c77d085aa3ab6022fa7",
+      "id": "juyoungggg/lerobot-dataset-yellow-cup-0326-4",
+      "author": "juyoungggg",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T10:38:01.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "f1c5e6f7d9deb1a81bc5622d6273d3394effcb34",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 15,\n    \"total_frames\": 7509,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:15\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/juyoungggg/lerobot-dataset-yellow-cup-0326-4.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:pandas",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-26T10:37:43.000Z",
+      "key": ""
+    },
+    "slug": "juyoungggglerobot-dataset-yellow-cup-0326-4",
+    "dedupeKey": "18aad60ed8f07620a56f8c472cfb0d5468ef21f274a2a728b8bba09548033d40",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "Thomas-Yip/merge_ds_4",
+    "title": "Thomas-Yip/merge_ds_4",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 526；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:37:21.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/Thomas-Yip/merge_ds_4",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/Thomas-Yip/merge_ds_4",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "Thomas-Yip"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:mit",
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.72,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69b81c94a1fdc8cf6334316a",
+      "id": "Thomas-Yip/merge_ds_4",
+      "author": "Thomas-Yip",
+      "cardData": {
+        "license": "mit",
+        "task_categories": [
+          "robotics"
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T10:37:21.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "bd7de4f4a0407404a841942bf3193b3d78a44aa8",
+      "downloads": 526,
+      "tags": [
+        "task_categories:robotics",
+        "license:mit",
+        "region:us"
+      ],
+      "createdAt": "2026-03-16T15:07:00.000Z",
+      "key": ""
+    },
+    "slug": "thomas-yipmergeds4",
+    "dedupeKey": "3b31b12fbc4c8c50a014459154cc5b046bcbae2b7cb9506f020cdd43123d809c",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "ansocho/gym_hil_arrange_boxes_test",
+    "title": "ansocho/gym_hil_arrange_boxes_test",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 40；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T10:36:58.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/ansocho/gym_hil_arrange_boxes_test",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/ansocho/gym_hil_arrange_boxes_test",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "ansocho"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:n<1K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:pandas",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c3c9b08c1ad4c95cd06f2e",
+      "id": "ansocho/gym_hil_arrange_boxes_test",
+      "author": "ansocho",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T10:36:58.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "88cdefe71d871d86bae1138a9f81c510a62e52c2",
+      "description": "This dataset was created using LeRobot.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": null,\n    \"total_episodes\": 15,\n    \"total_frames\": 887,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 10,\n    \"splits\": {\n        \"train\": \"0:15\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/ansocho/gym_hil_arrange_boxes_test.",
+      "downloads": 40,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:n<1K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:pandas",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-25T11:40:32.000Z",
+      "key": ""
+    },
+    "slug": "ansochogymhilarrangeboxestest",
+    "dedupeKey": "ccedfa1ea587b108e78783d6254da4f6323aca5fec6ad15b88bfb86dc3a368ce",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
     "externalId": "1050365777",
     "title": "cpmk-vsosh/vsosh_site_robotics",
     "summary": "GitHub repository related to embodied AI or robotics.",
@@ -136,7 +1430,11 @@
     "dedupeKey": "0b49045bb7f16a985e52d9bed9a9c56d0a1951b3977f79d8a607bcab8d7081c7",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "0b49045bb7f16a985e52d9bed9a9c56d0a1951b3977f79d8a607bcab8d7081c7",
+    "createdAt": "2026-03-26T10:05:48Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "982232537",
@@ -307,7 +1605,11 @@
     "dedupeKey": "9d0b27115d780cd7f3cf3546c071dea4d0e9e5abb3681765cf8516906874edbb",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "9d0b27115d780cd7f3cf3546c071dea4d0e9e5abb3681765cf8516906874edbb",
+    "createdAt": "2026-03-26T10:05:35Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "continuallearning/eval_dit_posttrainv2_er_dit_real_3_on_real_0_seed1000",
@@ -379,7 +1681,11 @@
     "dedupeKey": "a2281eceace0eb192551581ed132f509702b6b34e0cb776b631a175d24d6059a",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "a2281eceace0eb192551581ed132f509702b6b34e0cb776b631a175d24d6059a",
+    "createdAt": "2026-03-26T10:05:35.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1177533437",
@@ -522,7 +1828,11 @@
     "dedupeKey": "6d9feff1a036101bada9cc37ab25b5a793a2b99c099f5fcadf5249f535dc6a4c",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "6d9feff1a036101bada9cc37ab25b5a793a2b99c099f5fcadf5249f535dc6a4c",
+    "createdAt": "2026-03-26T10:05:24Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "kmg0620/so101_bomb_pick_place_v1",
@@ -612,7 +1922,11 @@
     "dedupeKey": "b4d1bc45adaaed94e8600762611b82f9c6e8689d298195235536dda810f3d29e",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "b4d1bc45adaaed94e8600762611b82f9c6e8689d298195235536dda810f3d29e",
+    "createdAt": "2026-03-26T10:05:11.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "540616786",
@@ -764,7 +2078,11 @@
     "dedupeKey": "ced48592e58a2288dcae73437e1953b1f174348453ea149d75b54b711e97c783",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "ced48592e58a2288dcae73437e1953b1f174348453ea149d75b54b711e97c783",
+    "createdAt": "2026-03-26T10:05:03Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Bene813/record-test5-policy",
@@ -856,7 +2174,11 @@
     "dedupeKey": "a93e1d500d66691fb8445632b485d532947b6115287350b24dcd32175fe65548",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "a93e1d500d66691fb8445632b485d532947b6115287350b24dcd32175fe65548",
+    "createdAt": "2026-03-26T10:04:43.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1192501258",
@@ -991,7 +2313,11 @@
     "dedupeKey": "5591c9906f9b51c7aea7e144f187bbaa8efa836f4b0bc6756f4fe9615ea9c584",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "5591c9906f9b51c7aea7e144f187bbaa8efa836f4b0bc6756f4fe9615ea9c584",
+    "createdAt": "2026-03-26T10:04:40Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Kota4631/pick_place_plate_pi0",
@@ -1081,7 +2407,11 @@
     "dedupeKey": "84a2ec5948a1fd4fb346dfd566e14122416d0d0e3ff1b94358334333c57069c6",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "84a2ec5948a1fd4fb346dfd566e14122416d0d0e3ff1b94358334333c57069c6",
+    "createdAt": "2026-03-26T10:04:27.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1169320696",
@@ -1220,7 +2550,11 @@
     "dedupeKey": "11aecccaae71250692db638e82c90448a11758e50eb938f99a4a90462c38f7ee",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "11aecccaae71250692db638e82c90448a11758e50eb938f99a4a90462c38f7ee",
+    "createdAt": "2026-03-26T10:04:26Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1140213561",
@@ -1361,7 +2695,11 @@
     "dedupeKey": "01c30f5d9baf73700780fe2f5c7c247a31cd1cfddeadc8237682cb1fc2151bdd",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "01c30f5d9baf73700780fe2f5c7c247a31cd1cfddeadc8237682cb1fc2151bdd",
+    "createdAt": "2026-03-26T10:04:22Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "aaawangge/eval_act_so101",
@@ -1433,7 +2771,11 @@
     "dedupeKey": "e448098556ff7a96658bdc07c4ccbb3df795f92359c80839e06e91e0c95a73fa",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "e448098556ff7a96658bdc07c4ccbb3df795f92359c80839e06e91e0c95a73fa",
+    "createdAt": "2026-03-26T10:04:22.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "JoSTR/move_cup",
@@ -1523,7 +2865,11 @@
     "dedupeKey": "ab3ffe7d08694ce44b6a4c41a5c477a054835c69226fab3fadca879dcb5d340c",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "ab3ffe7d08694ce44b6a4c41a5c477a054835c69226fab3fadca879dcb5d340c",
+    "createdAt": "2026-03-26T10:04:14.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "OSResight/tartanair-episodes-v3-parquet",
@@ -1678,7 +3024,11 @@
     "dedupeKey": "8b20e651606062f05fc96c86fe65635a5ed298d13e8978bc433de172094a40c0",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "8b20e651606062f05fc96c86fe65635a5ed298d13e8978bc433de172094a40c0",
+    "createdAt": "2026-03-26T10:03:56.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1175203956",
@@ -1817,7 +3167,11 @@
     "dedupeKey": "cf138cd0ba235c104de7b2fbacf701d37b9a83c7ba202fc7e3fae6f750690521",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "cf138cd0ba235c104de7b2fbacf701d37b9a83c7ba202fc7e3fae6f750690521",
+    "createdAt": "2026-03-26T10:03:51Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "onground/robot3dv",
@@ -1881,7 +3235,11 @@
     "dedupeKey": "fcdf512f165e9a433ddc05246b0d8b1279ec1f1a18c5e1198e7fc7dc4b77628d",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "fcdf512f165e9a433ddc05246b0d8b1279ec1f1a18c5e1198e7fc7dc4b77628d",
+    "createdAt": "2026-03-26T10:03:26.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "posky02/dataset35",
@@ -1971,7 +3329,11 @@
     "dedupeKey": "a69a5e789c1cad2ca7358b34a904fade1b87b0796984e49f2ccc535a1bf1b921",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "a69a5e789c1cad2ca7358b34a904fade1b87b0796984e49f2ccc535a1bf1b921",
+    "createdAt": "2026-03-26T10:03:18.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "tarmus/memory-smolvla-injection-quarter",
@@ -2065,7 +3427,11 @@
     "dedupeKey": "7e52da965f5dadfcaafedbba55ff429f6590e6e5afa366fbe878b66a093948bb",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "7e52da965f5dadfcaafedbba55ff429f6590e6e5afa366fbe878b66a093948bb",
+    "createdAt": "2026-03-26T10:02:54.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "bartoszlach/eval_pickandplacered-combined",
@@ -2155,7 +3521,11 @@
     "dedupeKey": "5377125a93d78b3c7bd1f92f1b62cf6d683aecf665c06471b8ef795f36141c12",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "5377125a93d78b3c7bd1f92f1b62cf6d683aecf665c06471b8ef795f36141c12",
+    "createdAt": "2026-03-26T10:02:05.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Mimic-Robotics/full_ttt_redx_stable_fixed_short_labels",
@@ -2230,7 +3600,7 @@
     ],
     "id": "661696d500af41b57270e78e3180ed53304d2b3ddaab0810e68259153c32b284",
     "createdAt": "2026-03-26T04:23:11.000Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2315,7 +3685,7 @@
     ],
     "id": "66ce0eb484ad46867b2abb369f73af8a333dc52daec6f071e443a8a504deb337",
     "createdAt": "2026-03-26T04:23:11.000Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2456,7 +3826,7 @@
     ],
     "id": "6cd6ad8e02cfd8c9ff371bd44ad2917ab119838a3f4f122670c930ee1b118f37",
     "createdAt": "2026-03-26T04:22:53Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {

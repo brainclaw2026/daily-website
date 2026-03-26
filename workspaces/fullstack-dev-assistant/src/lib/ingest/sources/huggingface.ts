@@ -11,7 +11,29 @@ interface HfModel {
   tags?: string[];
 }
 
-const mustMatch = ['robot', 'robotics', 'embodied', 'humanoid', 'manipulation', 'grasp', 'vla', 'vision-language-action'];
+const mustMatch = [
+  'robot',
+  'robotics',
+  'embodied',
+  'humanoid',
+  'manipulation',
+  'grasp',
+  'vla',
+  'vision-language-action',
+  'vlm',
+  'world model',
+  'teleoperation',
+  'teleop',
+  'visual language navigation',
+  'vln',
+  'slam',
+  'semantic slam',
+  'sensor fusion',
+  'localization',
+  'underwater',
+  'auv',
+  'rov',
+];
 const bannedTerms = ['sdxl', 'flux', 'image-generation', 'text-to-image', 'llm', 'roleplay'];
 
 export const huggingFaceSource: SourceAdapter = {

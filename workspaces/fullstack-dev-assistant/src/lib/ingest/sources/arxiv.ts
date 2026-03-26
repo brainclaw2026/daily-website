@@ -29,6 +29,17 @@ export const arxivSource: SourceAdapter = {
       'all:"vision-language-action"',
       'all:"world model robotics"',
       'all:"robot manipulation"',
+      'all:"reinforcement learning robotics"',
+      'all:"robot locomotion"',
+      'all:"robot control"',
+      'all:"robot teleoperation"',
+      'all:"visual language navigation"',
+      'all:"semantic slam"',
+      'all:"distributed slam"',
+      'all:"multi-sensor fusion localization"',
+      'all:"underwater robot"',
+      'all:"auv"',
+      'all:"rov"',
     ].join(' OR ');
 
     const url = `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(query)}&sortBy=submittedDate&sortOrder=descending&start=0&max_results=${maxResults}`;

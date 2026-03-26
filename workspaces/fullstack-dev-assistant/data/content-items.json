@@ -1,5 +1,286 @@
 [
   {
+    "externalId": "Winniechen2002/TexasPokerRobot",
+    "title": "Winniechen2002/TexasPokerRobot",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 60；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:10:58.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/Winniechen2002/TexasPokerRobot",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/Winniechen2002/TexasPokerRobot",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "Winniechen2002"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "license:cc-by-4.0",
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69ba8450a08ed79d434edca7",
+      "id": "Winniechen2002/TexasPokerRobot",
+      "author": "Winniechen2002",
+      "cardData": {
+        "license": "cc-by-4.0"
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T13:10:58.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "f6a6ffd39a06c1e6c31a3e8cf2a22a3ccc21016d",
+      "downloads": 60,
+      "tags": [
+        "license:cc-by-4.0",
+        "region:us"
+      ],
+      "createdAt": "2026-03-18T10:54:08.000Z",
+      "key": ""
+    },
+    "slug": "winniechen2002texaspokerrobot",
+    "dedupeKey": "ec775255625cbcab27c2bcb42badfe8d4dd6e9b3523674b850cb23ac4027dd11",
+    "mergedSourceTypes": [
+      "other"
+    ],
+    "id": "ec775255625cbcab27c2bcb42badfe8d4dd6e9b3523674b850cb23ac4027dd11",
+    "createdAt": "2026-03-26T13:10:58.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
+  },
+  {
+    "externalId": "shay28/D1",
+    "title": "shay28/D1",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:09:41.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/shay28/D1",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/shay28/D1",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "shay28"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:1K<n<10K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:text",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:dask",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "lerobot",
+      "robotics",
+      "cable-insertion",
+      "manipulation",
+      "imitation-learning",
+      "vision-language-action",
+      "intrinsic",
+      "ai-for-industry-challenge",
+      "ur5e",
+      "sim-to-real"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.92,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c5164658b063a02ef4043b",
+      "id": "shay28/D1",
+      "author": "shay28",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "lerobot",
+          "robotics",
+          "cable-insertion",
+          "manipulation",
+          "imitation-learning",
+          "vision-language-action",
+          "intrinsic",
+          "ai-for-industry-challenge",
+          "ur5e",
+          "sim-to-real"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": [
+              {
+                "split": "train",
+                "path": "data/**/*.parquet"
+              }
+            ]
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-26T13:09:41.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "41cd5f38c5b0a1c71ba83c31ed86c0031348fc57",
+      "description": "\n\t\n\t\t\n\t\tAIC Cable Insertion Dataset\n\t\n\n\n\t\n\t\t\n\t\tAbout the AI for Industry Challenge\n\t\n\nThis dataset was collected for the AI for Industry Challenge (AIC), an open competition by Intrinsic (an Alphabet company) for developers and roboticists aimed at solving high-impact problems in robotics and manufacturing.\nThe challenge task is cable insertion — commanding a UR5e robot arm to insert fiber-optic cable plugs (SFP modules and SC connectors) into ports on a configurable task board in simulation… See the full description on the dataset page: https://huggingface.co/datasets/shay28/D1.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:text",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:dask",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "lerobot",
+        "robotics",
+        "cable-insertion",
+        "manipulation",
+        "imitation-learning",
+        "vision-language-action",
+        "intrinsic",
+        "ai-for-industry-challenge",
+        "ur5e",
+        "sim-to-real"
+      ],
+      "createdAt": "2026-03-26T11:19:34.000Z",
+      "key": ""
+    },
+    "slug": "shay28d1",
+    "dedupeKey": "29ac223837a69320ad57500a7e7e7c92c96b3baf939ccdfa34b4f9ba1a728703",
+    "mergedSourceTypes": [
+      "other"
+    ],
+    "id": "29ac223837a69320ad57500a7e7e7c92c96b3baf939ccdfa34b4f9ba1a728703",
+    "createdAt": "2026-03-26T13:09:41.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
+  },
+  {
+    "externalId": "ludde73865/pi05-oneepisode-08d71d75",
+    "title": "ludde73865/pi05-oneepisode-08d71d75",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-26T13:08:01.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/ludde73865/pi05-oneepisode-08d71d75",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/ludde73865/pi05-oneepisode-08d71d75",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "pi05",
+      "robotics",
+      "dataset:qualiaadmin/oneepisode",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.74,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c52f769913075330fca57d",
+      "id": "ludde73865/pi05-oneepisode-08d71d75",
+      "author": "ludde73865",
+      "gated": false,
+      "lastModified": "2026-03-26T13:08:01.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "1cc2b95b0c6b12925bca2318554b67d195ea339e",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "pi05",
+        "robotics",
+        "dataset:qualiaadmin/oneepisode",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-26T13:07:02.000Z",
+      "modelId": "ludde73865/pi05-oneepisode-08d71d75",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_2_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "ludde73865pi05-oneepisode-08d71d75",
+    "dedupeKey": "70346bec9c1d50fd6a2b8db748f34149d0aa84d9c030fb6f352437132243e98a",
+    "mergedSourceTypes": [
+      "huggingface"
+    ],
+    "id": "70346bec9c1d50fd6a2b8db748f34149d0aa84d9c030fb6f352437132243e98a",
+    "createdAt": "2026-03-26T13:08:01.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
+  },
+  {
     "externalId": "887435804",
     "title": "Drix10/ai-resources",
     "summary": "Daily updated resources on AI across various domains including ML, development, education, healthcare, real estate, robotics, crypto, web3 and more, curated by enthusiasts.",
@@ -172,7 +453,11 @@
     "dedupeKey": "d85529250e25833244153ab0a83f1dbb802311d0bf823360d7dc7f11f86ce875",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "d85529250e25833244153ab0a83f1dbb802311d0bf823360d7dc7f11f86ce875",
+    "createdAt": "2026-03-26T10:42:18Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1187311140",
@@ -307,7 +592,11 @@
     "dedupeKey": "74439955930fc0d88f5241ca6586c637497b8921f1c4205baa12ea71ec7f2087",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "74439955930fc0d88f5241ca6586c637497b8921f1c4205baa12ea71ec7f2087",
+    "createdAt": "2026-03-26T10:42:08Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1087024019",
@@ -454,7 +743,11 @@
     "dedupeKey": "8647b6770c6417f4406ed694709e84fb70e9d03d9fb41edb11ea8ad6b152c425",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "8647b6770c6417f4406ed694709e84fb70e9d03d9fb41edb11ea8ad6b152c425",
+    "createdAt": "2026-03-26T10:41:58Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "cbrian/env_blockscene_wristscene2_task_pickblueblock_numepisode_50_cartesian",
@@ -544,7 +837,11 @@
     "dedupeKey": "02d0a74090e660d37fdf2ff808f6ede7e0da16c57a532009888edb54442832bf",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "02d0a74090e660d37fdf2ff808f6ede7e0da16c57a532009888edb54442832bf",
+    "createdAt": "2026-03-26T10:41:56.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1182180109",
@@ -681,7 +978,11 @@
     "dedupeKey": "c47fd9aeecec3ae55716f175665d8f83be4c183f6d8d0988fffa842cb5a7a234",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "c47fd9aeecec3ae55716f175665d8f83be4c183f6d8d0988fffa842cb5a7a234",
+    "createdAt": "2026-03-26T10:41:50Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "807909394",
@@ -848,7 +1149,11 @@
     "dedupeKey": "78ba02232ace49794bc4c504c35fd6b88d1eb11e0f0453bff5dd5e929b5cb1bb",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "78ba02232ace49794bc4c504c35fd6b88d1eb11e0f0453bff5dd5e929b5cb1bb",
+    "createdAt": "2026-03-26T10:41:36Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1017289093",
@@ -991,7 +1296,11 @@
     "dedupeKey": "9e1707167929742f6949ab6c02c48408903803199d4c2f30f5f5e1e1a0df2d03",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "9e1707167929742f6949ab6c02c48408903803199d4c2f30f5f5e1e1a0df2d03",
+    "createdAt": "2026-03-26T10:40:42Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Thomas-Yip/merge_ds_final_1_v2.0",
@@ -1051,7 +1360,11 @@
     "dedupeKey": "214ff6a5f64cbfd982c6b128b6f4bd1c89df13a37b97e1b4251cc0e645e14283",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "214ff6a5f64cbfd982c6b128b6f4bd1c89df13a37b97e1b4251cc0e645e14283",
+    "createdAt": "2026-03-26T10:38:06.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "juyoungggg/lerobot-dataset-yellow-cup-0326-4",
@@ -1141,7 +1454,11 @@
     "dedupeKey": "18aad60ed8f07620a56f8c472cfb0d5468ef21f274a2a728b8bba09548033d40",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "18aad60ed8f07620a56f8c472cfb0d5468ef21f274a2a728b8bba09548033d40",
+    "createdAt": "2026-03-26T10:38:01.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Thomas-Yip/merge_ds_4",
@@ -1201,7 +1518,11 @@
     "dedupeKey": "3b31b12fbc4c8c50a014459154cc5b046bcbae2b7cb9506f020cdd43123d809c",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "3b31b12fbc4c8c50a014459154cc5b046bcbae2b7cb9506f020cdd43123d809c",
+    "createdAt": "2026-03-26T10:37:21.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "ansocho/gym_hil_arrange_boxes_test",
@@ -1291,7 +1612,11 @@
     "dedupeKey": "ccedfa1ea587b108e78783d6254da4f6323aca5fec6ad15b88bfb86dc3a368ce",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "ccedfa1ea587b108e78783d6254da4f6323aca5fec6ad15b88bfb86dc3a368ce",
+    "createdAt": "2026-03-26T10:36:58.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1050365777",
@@ -1433,7 +1758,7 @@
     ],
     "id": "0b49045bb7f16a985e52d9bed9a9c56d0a1951b3977f79d8a607bcab8d7081c7",
     "createdAt": "2026-03-26T10:05:48Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1608,7 +1933,7 @@
     ],
     "id": "9d0b27115d780cd7f3cf3546c071dea4d0e9e5abb3681765cf8516906874edbb",
     "createdAt": "2026-03-26T10:05:35Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1684,7 +2009,7 @@
     ],
     "id": "a2281eceace0eb192551581ed132f509702b6b34e0cb776b631a175d24d6059a",
     "createdAt": "2026-03-26T10:05:35.000Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {

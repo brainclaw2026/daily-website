@@ -24,6 +24,17 @@ const mustMatch = [
   'vla',
   'world model',
   'lerobot',
+  'teleoperation',
+  'teleop',
+  'visual language navigation',
+  'vln',
+  'slam',
+  'semantic slam',
+  'sensor fusion',
+  'localization',
+  'underwater',
+  'auv',
+  'rov',
 ];
 
 const bannedTerms = ['image-generation', 'text-to-image', 'roleplay', 'llm', 'diffusion'];

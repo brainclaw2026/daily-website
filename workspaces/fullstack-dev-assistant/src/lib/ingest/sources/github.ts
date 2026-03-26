@@ -73,7 +73,7 @@ export const githubSource: SourceAdapter = {
     const perPage = Math.min(Math.max(env.ingestMaxItemsPerSource * 3, 20), 100);
     const updatedAfter = sevenDaysAgo().slice(0, 10);
     const query = [
-      '(robotics OR robot OR humanoid OR embodied OR teleoperation OR vla OR vlm OR slam OR localization OR underwater OR auv OR rov)',
+      '(robotics OR robot OR humanoid OR embodied)',
       'in:name,description,readme',
       `pushed:>=${updatedAfter}`,
       'archived:false',

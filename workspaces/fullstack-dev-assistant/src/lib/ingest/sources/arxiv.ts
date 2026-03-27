@@ -12,9 +12,60 @@ interface ArxivEntry {
   link?: { '@_href'?: string; '@_title'?: string } | Array<{ '@_href'?: string; '@_title'?: string }>;
 }
 
+const RETRYABLE_STATUSES = new Set([429, 500, 502, 503, 504]);
+const MAX_RETRIES = 3;
+const BASE_DELAY_MS = 1500;
+
 function asArray<T>(value: T | T[] | undefined): T[] {
   if (!value) return [];
   return Array.isArray(value) ? value : [value];
+}
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function getRetryDelayMs(response: Response, attempt: number) {
+  const retryAfter = response.headers.get('retry-after');
+  if (retryAfter) {
+    const seconds = Number(retryAfter);
+    if (Number.isFinite(seconds) && seconds >= 0) {
+      return seconds * 1000;
+    }
+
+    const dateMs = Date.parse(retryAfter);
+    if (!Number.isNaN(dateMs)) {
+      return Math.max(0, dateMs - Date.now());
+    }
+  }
+
+  return BASE_DELAY_MS * 2 ** (attempt - 1);
+}
+
+async function fetchArxivXml(url: string) {
+  let lastError: string | null = null;
+
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt += 1) {
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': 'embodied-ai-daily/0.1 (+local ingest)',
+      },
+      cache: 'no-store',
+    });
+
+    if (response.ok) {
+      return response.text();
+    }
+
+    lastError = `arXiv request failed: ${response.status}`;
+    if (!RETRYABLE_STATUSES.has(response.status) || attempt === MAX_RETRIES) {
+      break;
+    }
+
+    await sleep(getRetryDelayMs(response, attempt));
+  }
+
+  throw new Error(lastError ?? 'arXiv request failed');
 }
 
 export const arxivSource: SourceAdapter = {
@@ -51,18 +102,7 @@ export const arxivSource: SourceAdapter = {
     ].join(' OR ');
 
     const url = `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(query)}&sortBy=submittedDate&sortOrder=descending&start=0&max_results=${maxResults}`;
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': 'embodied-ai-daily/0.1 (+local ingest)',
-      },
-      cache: 'no-store',
-    });
-
-    if (!response.ok) {
-      throw new Error(`arXiv request failed: ${response.status}`);
-    }
-
-    const xml = await response.text();
+    const xml = await fetchArxivXml(url);
     const parser = new XMLParser({ ignoreAttributes: false });
     const parsed = parser.parse(xml) as { feed?: { entry?: ArxivEntry | ArxivEntry[] } };
     const entries = asArray(parsed.feed?.entry);

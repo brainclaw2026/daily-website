@@ -135,13 +135,10 @@ curl -X POST http://localhost:3000/api/ingest \
 对应 cron：
 
 ```yaml
-0 5 * * *
-45 5 * * *
+0 0 * * *
 ```
 
-其中：
-- `0 5 * * *` = UTC 05:00 = Asia/Shanghai 13:00
-- `45 5 * * *` = UTC 05:45 = Asia/Shanghai 13:45（临时验证）
+这是 UTC 00:00，对应 Asia/Shanghai 的 08:00。
 
 ### 第 2 步：工作流切到真实站点目录执行
 虽然 workflow 文件放在仓库根目录，但真正执行目录是：

@@ -1,9 +1,11 @@
 name: ingest
 
 on:
-  # Runs every day at 13:00 Asia/Shanghai (05:00 UTC)
+  # Regular run: every day at 13:00 Asia/Shanghai (05:00 UTC)
+  # Temporary verification run: every day at 13:45 Asia/Shanghai (05:45 UTC)
   schedule:
     - cron: '0 5 * * *'
+    - cron: '45 5 * * *'
   workflow_dispatch:
 
 permissions:

@@ -21,17 +21,17 @@ const labs = [
   },
 ];
 
+const STABLE_PUBLISHED_AT = '2026-03-23T00:00:00.000Z';
+
 export const labSource: SourceAdapter = {
   sourceType: 'lab',
   async fetchItems() {
-    const now = new Date().toISOString();
-
     return labs.map((item) => ({
       externalId: item.id,
       title: item.title,
       summary: item.summary,
       summaryZh: '',
-      publishedAt: now,
+      publishedAt: STABLE_PUBLISHED_AT,
       sourceType: 'lab' as const,
       primaryUrl: item.url,
       sourceLinks: [

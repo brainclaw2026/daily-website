@@ -17,17 +17,17 @@ const conferenceFeeds = [
   },
 ];
 
+const STABLE_PUBLISHED_AT = '2026-03-23T00:00:00.000Z';
+
 export const conferenceSource: SourceAdapter = {
   sourceType: 'conference',
   async fetchItems() {
-    const now = new Date().toISOString();
-
     return conferenceFeeds.map((item) => ({
       externalId: item.id,
       title: item.title,
       summary: item.summary,
       summaryZh: '',
-      publishedAt: now,
+      publishedAt: STABLE_PUBLISHED_AT,
       sourceType: 'conference' as const,
       primaryUrl: item.url,
       sourceLinks: [

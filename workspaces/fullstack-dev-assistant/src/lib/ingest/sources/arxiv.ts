@@ -3,18 +3,55 @@ import type { SourceAdapter } from '@/lib/ingest/types';
 import { getEnv } from '@/lib/utils/env';
 import { sevenDaysAgo } from '@/lib/utils/date';
 
-interface ArxivEntry {
-  id?: string;
-  title?: string;
-  summary?: string;
-  published?: string;
-  author?: { name?: string } | Array<{ name?: string }>;
-  link?: { '@_href'?: string; '@_title'?: string } | Array<{ '@_href'?: string; '@_title'?: string }>;
+interface RssGuid {
+  '#text'?: string;
 }
 
-const RETRYABLE_STATUSES = new Set([429, 500, 502, 503, 504]);
-const MAX_RETRIES = 3;
-const BASE_DELAY_MS = 1500;
+interface RssItem {
+  title?: string;
+  description?: string;
+  link?: string;
+  pubDate?: string;
+  guid?: string | RssGuid;
+  'dc:creator'?: string;
+}
+
+interface ParsedRssFeed {
+  rss?: {
+    channel?: {
+      item?: RssItem | RssItem[];
+    };
+  };
+}
+
+const RSS_FEEDS = ['cs.RO', 'cs.AI', 'cs.CV', 'cs.LG', 'eess.SY'] as const;
+
+const STRONG_TERMS = [
+  'embodied',
+  'robot',
+  'robotics',
+  'humanoid',
+  'manipulation',
+  'grasp',
+  'locomotion',
+  'teleoperation',
+  'teleop',
+  'navigation',
+  'vision-language-action',
+  'vla',
+  'vlm',
+  'world model',
+  'slam',
+  'localization',
+  'odometry',
+  'sensor fusion',
+  'underwater',
+  'auv',
+  'rov',
+];
+
+const BANNED_TERMS = ['quantum', 'protein', 'medical imaging', 'stock prediction', 'finance', 'cryptocurrency'];
+const FETCH_GAP_MS = 4000;
 
 function asArray<T>(value: T | T[] | undefined): T[] {
   if (!value) return [];
@@ -25,122 +62,154 @@ function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function getRetryDelayMs(response: Response, attempt: number) {
-  const retryAfter = response.headers.get('retry-after');
-  if (retryAfter) {
-    const seconds = Number(retryAfter);
-    if (Number.isFinite(seconds) && seconds >= 0) {
-      return seconds * 1000;
-    }
-
-    const dateMs = Date.parse(retryAfter);
-    if (!Number.isNaN(dateMs)) {
-      return Math.max(0, dateMs - Date.now());
-    }
-  }
-
-  return BASE_DELAY_MS * 2 ** (attempt - 1);
+function stripHtml(input: string) {
+  return input.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-async function fetchArxivXml(url: string) {
-  let lastError: string | null = null;
+function toGuidString(guid?: string | RssGuid) {
+  if (!guid) return '';
+  if (typeof guid === 'string') return guid.trim();
+  return guid['#text']?.trim() || '';
+}
 
-  for (let attempt = 1; attempt <= MAX_RETRIES; attempt += 1) {
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': 'embodied-ai-daily/0.1 (+local ingest)',
-      },
-      cache: 'no-store',
-    });
+function normalizeArxivLink(link: string) {
+  return link.replace('http://arxiv.org/abs/', '').replace('https://arxiv.org/abs/', '').trim();
+}
 
-    if (response.ok) {
-      return response.text();
-    }
+function scoreItem(title: string, summary: string) {
+  const haystack = `${title} ${summary}`.toLowerCase();
+  const strongHits = STRONG_TERMS.filter((term) => haystack.includes(term)).length;
+  const banned = BANNED_TERMS.some((term) => haystack.includes(term));
+  let score = strongHits * 2;
+  if (haystack.includes('visual language navigation')) score += 2;
+  if (haystack.includes('reinforcement learning')) score += 1;
+  if (haystack.includes('policy')) score += 1;
+  if (haystack.includes('control')) score += 1;
+  if (haystack.includes('multi-robot')) score += 1;
+  if (banned) score -= 5;
+  return { score, banned };
+}
 
-    lastError = `arXiv request failed: ${response.status}`;
-    if (!RETRYABLE_STATUSES.has(response.status) || attempt === MAX_RETRIES) {
-      break;
-    }
+async function fetchRssFeed(category: string) {
+  const url = `https://export.arxiv.org/rss/${category}`;
+  const response = await fetch(url, {
+    headers: {
+      'User-Agent': 'embodied-ai-daily/0.1 (+rss ingest)',
+    },
+    cache: 'no-store',
+  });
 
-    await sleep(getRetryDelayMs(response, attempt));
+  if (!response.ok) {
+    throw new Error(`arXiv RSS request failed for ${category}: ${response.status}`);
   }
 
-  throw new Error(lastError ?? 'arXiv request failed');
+  const xml = await response.text();
+  const parser = new XMLParser({
+    ignoreAttributes: false,
+    parseTagValue: true,
+    trimValues: true,
+  });
+  const parsed = parser.parse(xml) as ParsedRssFeed;
+  return asArray(parsed.rss?.channel?.item);
 }
 
 export const arxivSource: SourceAdapter = {
   sourceType: 'arxiv',
   async fetchItems() {
     const env = getEnv();
-    const maxResults = Math.min(Math.max(env.ingestMaxItemsPerSource, 1), 50);
-    const query = [
-      'all:"embodied ai"',
-      'all:"robot learning"',
-      'all:"humanoid robot"',
-      'all:"vision-language-action"',
-      'all:"world model robotics"',
-      'all:"robot manipulation"',
-      'all:"reinforcement learning robotics"',
-      'all:"robot locomotion"',
-      'all:"robot control"',
-      'all:"robot teleoperation"',
-      'all:"visual language navigation"',
-      'all:"semantic slam"',
-      'all:"distributed slam"',
-      'all:"multi-sensor fusion localization"',
-      'all:"visual slam"',
-      'all:"visual inertial odometry"',
-      'all:"visual odometry"',
-      'all:"lidar slam"',
-      'all:"rgb-d slam"',
-      'all:"loop closure"',
-      'all:"mapping localization"',
-      'all:"sensor fusion robotics"',
-      'all:"underwater robot"',
-      'all:"auv"',
-      'all:"rov"',
-    ].join(' OR ');
-
-    const url = `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(query)}&sortBy=submittedDate&sortOrder=descending&start=0&max_results=${maxResults}`;
-    const xml = await fetchArxivXml(url);
-    const parser = new XMLParser({ ignoreAttributes: false });
-    const parsed = parser.parse(xml) as { feed?: { entry?: ArxivEntry | ArxivEntry[] } };
-    const entries = asArray(parsed.feed?.entry);
     const lookbackFrom = new Date(sevenDaysAgo());
+    const candidates: Array<{
+      title: string;
+      summary: string;
+      publishedAt: string;
+      link: string;
+      externalId: string;
+      authors: string[];
+      score: number;
+      category: string;
+    }> = [];
 
-    return entries
-      .filter((entry) => entry.title && entry.summary && entry.published && entry.id)
-      .filter((entry) => new Date(entry.published as string) >= lookbackFrom)
-      .map((entry) => {
-        const links = asArray(entry.link);
-        const alternate = links.find((link) => !link['@_title'] || link['@_title'] === 'pdf') ?? links[0];
-        const authors = asArray(entry.author)
-          .map((author) => author.name?.trim())
-          .filter((author): author is string => Boolean(author));
+    for (const category of RSS_FEEDS) {
+      const items = await fetchRssFeed(category);
 
-        return {
-          externalId: entry.id as string,
-          title: (entry.title as string).replace(/\s+/g, ' ').trim(),
-          summary: (entry.summary as string).replace(/\s+/g, ' ').trim(),
-          summaryZh: '',
-          publishedAt: entry.published as string,
-          sourceType: 'arxiv' as const,
-          primaryUrl: alternate?.['@_href'] || (entry.id as string),
-          sourceLinks: [
-            {
-              label: 'arXiv',
-              url: alternate?.['@_href'] || (entry.id as string),
-              sourceType: 'arxiv' as const,
-            },
-          ],
-          authors,
-          category: 'paper' as const,
-          keywords: [],
-          tags: [],
-          relevanceScore: 0,
-          trustScore: 0,
-          raw: entry as Record<string, unknown>,
-        };
-      });
+      for (const item of items) {
+        const title = item.title?.trim();
+        const summary = stripHtml(item.description || '');
+        const guid = toGuidString(item.guid);
+        const link = item.link?.trim() || guid;
+        const pubDate = item.pubDate ? new Date(item.pubDate) : null;
+
+        if (!title || !summary || !link || !pubDate || Number.isNaN(pubDate.getTime())) {
+          continue;
+        }
+
+        if (pubDate < lookbackFrom) {
+          continue;
+        }
+
+        const { score, banned } = scoreItem(title, summary);
+        if (banned || score < 3) {
+          continue;
+        }
+
+        const externalId = normalizeArxivLink(guid || link);
+
+        candidates.push({
+          title,
+          summary,
+          publishedAt: pubDate.toISOString(),
+          link,
+          externalId,
+          authors: item['dc:creator'] ? [item['dc:creator']] : [],
+          score,
+          category,
+        });
+      }
+
+      await sleep(FETCH_GAP_MS);
+    }
+
+    const deduped = new Map<string, (typeof candidates)[number]>();
+    for (const item of candidates) {
+      const existing = deduped.get(item.externalId);
+      if (!existing || item.score > existing.score) {
+        deduped.set(item.externalId, item);
+      }
+    }
+
+    return Array.from(deduped.values())
+      .sort((a, b) => {
+        if (+new Date(b.publishedAt) !== +new Date(a.publishedAt)) {
+          return +new Date(b.publishedAt) - +new Date(a.publishedAt);
+        }
+        return b.score - a.score;
+      })
+      .slice(0, env.ingestMaxItemsPerSource)
+      .map((item) => ({
+        externalId: item.externalId,
+        title: item.title,
+        summary: item.summary,
+        summaryZh: '',
+        publishedAt: item.publishedAt,
+        sourceType: 'arxiv' as const,
+        primaryUrl: item.link,
+        sourceLinks: [
+          {
+            label: `arXiv (${item.category})`,
+            url: item.link,
+            sourceType: 'arxiv' as const,
+          },
+        ],
+        authors: item.authors,
+        category: 'paper' as const,
+        keywords: [],
+        tags: [],
+        relevanceScore: Math.min(0.98, 0.5 + item.score * 0.06),
+        trustScore: 0.9,
+        raw: {
+          category: item.category,
+          source: 'rss',
+        } as Record<string, unknown>,
+      }));
   },
 };

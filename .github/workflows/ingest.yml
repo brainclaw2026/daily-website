@@ -17,13 +17,17 @@ jobs:
         working-directory: workspaces/fullstack-dev-assistant
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: workspaces/fullstack-dev-assistant/package-lock.json
-      - run: npm ci
-      - run: npm run ingest
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ingest
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
           NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
@@ -34,6 +38,29 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          set -o pipefail
+          npm run ingest | tee ingest-output.log
+
+          echo ""
+          echo "--- ingest summary ---"
+          grep 'INGEST_SUMMARY' ingest-output.log || true
+
+          if grep -q 'INGEST_FAILED_SOURCES' ingest-output.log; then
+            echo ""
+            echo "--- failed sources ---"
+            sed -n '/INGEST_FAILED_SOURCES/,$p' ingest-output.log
+          fi
+
+      - name: Show content diff status
+        run: |
+          echo ""
+          echo "--- git status ---"
+          git status --short
+          echo ""
+          echo "--- data diff stat ---"
+          git diff --stat -- data/content-items.json || true
+
       - name: Commit updated content data
         run: |
           if git diff --quiet -- data/content-items.json; then

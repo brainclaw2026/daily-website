@@ -1,10 +1,9 @@
 name: ingest
 
 on:
-  # Runs every day at 10:00 and 15:00 Asia/Shanghai (02:00 and 07:00 UTC)
+  # Runs every day at 07:00 Asia/Shanghai (23:00 UTC previous day)
   schedule:
-    - cron: '0 2 * * *'
-    - cron: '0 7 * * *'
+    - cron: '0 23 * * *'
   workflow_dispatch:
 
 permissions:

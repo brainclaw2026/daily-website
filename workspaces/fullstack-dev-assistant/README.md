@@ -130,16 +130,15 @@ curl -X POST http://localhost:3000/api/ingest \
 
 - `.github/workflows/ingest.yml`
 
-会在每天北京时间 **10:00、15:00** 自动执行。
+会在每天北京时间 **07:00** 自动执行。
 
 对应 cron：
 
 ```yaml
-0 2 * * *
-0 7 * * *
+0 23 * * *
 ```
 
-这是 UTC 02:00 / 07:00，对应 Asia/Shanghai 的 10:00 / 15:00。
+这是 UTC 前一天 23:00，对应 Asia/Shanghai 的 07:00。
 
 ### 第 2 步：工作流切到真实站点目录执行
 虽然 workflow 文件放在仓库根目录，但真正执行目录是：

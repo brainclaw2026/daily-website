@@ -9,8 +9,8 @@
 - 当前唯一有效的站点目录：`workspaces/fullstack-dev-assistant`
 - GitHub Actions 与 Vercel 已对齐到该目录
 - 自动采集与自动部署已恢复正常
-- 当前定时更新：**每天北京时间 08:00**
-- 当前 workflow cron：`0 0 * * *`（UTC 00:00 = Asia/Shanghai 08:00）
+- 当前定时更新：**每天北京时间 10:00、15:00**
+- 当前 workflow cron：`0 2 * * *`、`0 7 * * *`（UTC 02:00 / 07:00 = Asia/Shanghai 10:00 / 15:00）
 
 ## 项目目标
 
@@ -130,15 +130,16 @@ curl -X POST http://localhost:3000/api/ingest \
 
 - `.github/workflows/ingest.yml`
 
-会在每天北京时间 **10:00** 自动执行。
+会在每天北京时间 **10:00、15:00** 自动执行。
 
 对应 cron：
 
 ```yaml
 0 2 * * *
+0 7 * * *
 ```
 
-这是 UTC 02:00，对应 Asia/Shanghai 的 10:00。
+这是 UTC 02:00 / 07:00，对应 Asia/Shanghai 的 10:00 / 15:00。
 
 ### 第 2 步：工作流切到真实站点目录执行
 虽然 workflow 文件放在仓库根目录，但真正执行目录是：

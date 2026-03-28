@@ -1,5 +1,1598 @@
 [
   {
+    "externalId": "1190464765",
+    "title": "kamathrobotics/playground",
+    "summary": "Playground for my robotics projects",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T09:02:38Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/kamathrobotics/playground",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/kamathrobotics/playground",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "kamathrobotics"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1190464765,
+      "node_id": "R_kgDORvUM_Q",
+      "name": "playground",
+      "full_name": "kamathrobotics/playground",
+      "private": false,
+      "owner": {
+        "login": "kamathrobotics",
+        "id": 4397919,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQzOTc5MTk=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4397919?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kamathrobotics",
+        "html_url": "https://github.com/kamathrobotics",
+        "followers_url": "https://api.github.com/users/kamathrobotics/followers",
+        "following_url": "https://api.github.com/users/kamathrobotics/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kamathrobotics/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kamathrobotics/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kamathrobotics/subscriptions",
+        "organizations_url": "https://api.github.com/users/kamathrobotics/orgs",
+        "repos_url": "https://api.github.com/users/kamathrobotics/repos",
+        "events_url": "https://api.github.com/users/kamathrobotics/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kamathrobotics/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/kamathrobotics/playground",
+      "description": "Playground for my robotics projects",
+      "fork": false,
+      "url": "https://api.github.com/repos/kamathrobotics/playground",
+      "forks_url": "https://api.github.com/repos/kamathrobotics/playground/forks",
+      "keys_url": "https://api.github.com/repos/kamathrobotics/playground/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/kamathrobotics/playground/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/kamathrobotics/playground/teams",
+      "hooks_url": "https://api.github.com/repos/kamathrobotics/playground/hooks",
+      "issue_events_url": "https://api.github.com/repos/kamathrobotics/playground/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/kamathrobotics/playground/events",
+      "assignees_url": "https://api.github.com/repos/kamathrobotics/playground/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/kamathrobotics/playground/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/kamathrobotics/playground/tags",
+      "blobs_url": "https://api.github.com/repos/kamathrobotics/playground/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/kamathrobotics/playground/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/kamathrobotics/playground/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/kamathrobotics/playground/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/kamathrobotics/playground/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/kamathrobotics/playground/languages",
+      "stargazers_url": "https://api.github.com/repos/kamathrobotics/playground/stargazers",
+      "contributors_url": "https://api.github.com/repos/kamathrobotics/playground/contributors",
+      "subscribers_url": "https://api.github.com/repos/kamathrobotics/playground/subscribers",
+      "subscription_url": "https://api.github.com/repos/kamathrobotics/playground/subscription",
+      "commits_url": "https://api.github.com/repos/kamathrobotics/playground/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/kamathrobotics/playground/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/kamathrobotics/playground/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/kamathrobotics/playground/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/kamathrobotics/playground/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/kamathrobotics/playground/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/kamathrobotics/playground/merges",
+      "archive_url": "https://api.github.com/repos/kamathrobotics/playground/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/kamathrobotics/playground/downloads",
+      "issues_url": "https://api.github.com/repos/kamathrobotics/playground/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/kamathrobotics/playground/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/kamathrobotics/playground/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/kamathrobotics/playground/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/kamathrobotics/playground/labels{/name}",
+      "releases_url": "https://api.github.com/repos/kamathrobotics/playground/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/kamathrobotics/playground/deployments",
+      "created_at": "2026-03-24T10:02:10Z",
+      "updated_at": "2026-03-28T09:02:38Z",
+      "pushed_at": "2026-03-28T09:03:06Z",
+      "git_url": "git://github.com/kamathrobotics/playground.git",
+      "ssh_url": "git@github.com:kamathrobotics/playground.git",
+      "clone_url": "https://github.com/kamathrobotics/playground.git",
+      "svn_url": "https://github.com/kamathrobotics/playground",
+      "homepage": null,
+      "size": 723,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 2,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 2,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "kamathroboticsplayground",
+    "dedupeKey": "c6d38c5303fb232864448960ad3d187d90af76516006b24a38c47ca0a2f671bb",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "PID0930/sarm-handkercheif-val-20260328",
+    "title": "PID0930/sarm-handkercheif-val-20260328",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 5；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T09:02:20.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/PID0930/sarm-handkercheif-val-20260328",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/PID0930/sarm-handkercheif-val-20260328",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "PID0930"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:1K<n<10K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:pandas",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c73c7a3ad3787d6d6bdbc1",
+      "id": "PID0930/sarm-handkercheif-val-20260328",
+      "author": "PID0930",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-28T09:02:20.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "98db954f4ea17204d39571b4a6410262419372e8",
+      "description": "This dataset was created using LeRobot.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"bi_so_follower\",\n    \"total_episodes\": 2,\n    \"total_frames\": 3124,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:2\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/PID0930/sarm-handkercheif-val-20260328.",
+      "downloads": 5,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:pandas",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-28T02:27:06.000Z",
+      "key": ""
+    },
+    "slug": "pid0930sarm-handkercheif-val-20260328",
+    "dedupeKey": "fb19104d0a72e1f6f7ccbc765676479e856bb474f62cc83b3cedd740087c6048",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "1194366041",
+    "title": "Astrallite-Soham/hand-gesture-robot-opencv",
+    "summary": "Real-time hand gesture recognition using OpenCV to control a robot via computer vision and microcontroller interface",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T09:02:19Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Astrallite-Soham/hand-gesture-robot-opencv",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Astrallite-Soham/hand-gesture-robot-opencv",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Astrallite-Soham"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.8500000000000001,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1194366041,
+      "node_id": "R_kgDORzCUWQ",
+      "name": "hand-gesture-robot-opencv",
+      "full_name": "Astrallite-Soham/hand-gesture-robot-opencv",
+      "private": false,
+      "owner": {
+        "login": "Astrallite-Soham",
+        "id": 145312050,
+        "node_id": "U_kgDOCKlJMg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/145312050?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Astrallite-Soham",
+        "html_url": "https://github.com/Astrallite-Soham",
+        "followers_url": "https://api.github.com/users/Astrallite-Soham/followers",
+        "following_url": "https://api.github.com/users/Astrallite-Soham/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Astrallite-Soham/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Astrallite-Soham/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Astrallite-Soham/subscriptions",
+        "organizations_url": "https://api.github.com/users/Astrallite-Soham/orgs",
+        "repos_url": "https://api.github.com/users/Astrallite-Soham/repos",
+        "events_url": "https://api.github.com/users/Astrallite-Soham/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Astrallite-Soham/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Astrallite-Soham/hand-gesture-robot-opencv",
+      "description": "Real-time hand gesture recognition using OpenCV to control a robot via computer vision and microcontroller interface",
+      "fork": false,
+      "url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv",
+      "forks_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/forks",
+      "keys_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/teams",
+      "hooks_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/hooks",
+      "issue_events_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/events",
+      "assignees_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/tags",
+      "blobs_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/languages",
+      "stargazers_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/stargazers",
+      "contributors_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/contributors",
+      "subscribers_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/subscribers",
+      "subscription_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/subscription",
+      "commits_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/merges",
+      "archive_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/downloads",
+      "issues_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Astrallite-Soham/hand-gesture-robot-opencv/deployments",
+      "created_at": "2026-03-28T08:56:22Z",
+      "updated_at": "2026-03-28T09:02:19Z",
+      "pushed_at": "2026-03-28T09:02:16Z",
+      "git_url": "git://github.com/Astrallite-Soham/hand-gesture-robot-opencv.git",
+      "ssh_url": "git@github.com:Astrallite-Soham/hand-gesture-robot-opencv.git",
+      "clone_url": "https://github.com/Astrallite-Soham/hand-gesture-robot-opencv.git",
+      "svn_url": "https://github.com/Astrallite-Soham/hand-gesture-robot-opencv",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "astrallite-sohamhand-gesture-robot-opencv",
+    "dedupeKey": "3eeb47a3338030bc3545791d3e471e3f5760e26c86de19805ba4b29a515bc217",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1191292727",
+    "title": "vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T09:01:50Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "vj473"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "仿真训练",
+      "开源发布",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1191292727,
+      "node_id": "R_kgDORwGvNw",
+      "name": "Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026",
+      "full_name": "vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026",
+      "private": false,
+      "owner": {
+        "login": "vj473",
+        "id": 180807391,
+        "node_id": "U_kgDOCsbm3w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/180807391?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vj473",
+        "html_url": "https://github.com/vj473",
+        "followers_url": "https://api.github.com/users/vj473/followers",
+        "following_url": "https://api.github.com/users/vj473/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vj473/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vj473/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vj473/subscriptions",
+        "organizations_url": "https://api.github.com/users/vj473/orgs",
+        "repos_url": "https://api.github.com/users/vj473/repos",
+        "events_url": "https://api.github.com/users/vj473/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vj473/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026",
+      "forks_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/forks",
+      "keys_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/teams",
+      "hooks_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/hooks",
+      "issue_events_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/events",
+      "assignees_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/tags",
+      "blobs_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/languages",
+      "stargazers_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/stargazers",
+      "contributors_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/contributors",
+      "subscribers_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/subscribers",
+      "subscription_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/subscription",
+      "commits_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/merges",
+      "archive_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/downloads",
+      "issues_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/labels{/name}",
+      "releases_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026/deployments",
+      "created_at": "2026-03-25T05:14:19Z",
+      "updated_at": "2026-03-28T09:01:50Z",
+      "pushed_at": "2026-03-28T09:01:47Z",
+      "git_url": "git://github.com/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026.git",
+      "ssh_url": "git@github.com:vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026.git",
+      "clone_url": "https://github.com/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026.git",
+      "svn_url": "https://github.com/vj473/Robotics2_Mechanical_Manipulator_Simulation_Section_Group-13_Laboratory2_2026",
+      "homepage": null,
+      "size": 633,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "MATLAB",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "vj473robotics2mechanicalmanipulatorsimulationsectiongroup-13laboratory22026",
+    "dedupeKey": "8983577cfc2d17c57fbce974962cf84bb5bc30d615711dbb41ca0a95e1dbc011",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1194301404",
+    "title": "SpaceSQ/s2-embodied-robot-gateway",
+    "summary": "The official hardware authentication and immigration gateway for Embodied Robots entering S2 spatial grids. Mints E-prefix 22-digit S2-DIDs.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T09:01:47Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/SpaceSQ/s2-embodied-robot-gateway",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/SpaceSQ/s2-embodied-robot-gateway",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "SpaceSQ"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "具身智能"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1194301404,
+      "node_id": "R_kgDORy-X3A",
+      "name": "s2-embodied-robot-gateway",
+      "full_name": "SpaceSQ/s2-embodied-robot-gateway",
+      "private": false,
+      "owner": {
+        "login": "SpaceSQ",
+        "id": 259359437,
+        "node_id": "U_kgDOD3WCzQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/259359437?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SpaceSQ",
+        "html_url": "https://github.com/SpaceSQ",
+        "followers_url": "https://api.github.com/users/SpaceSQ/followers",
+        "following_url": "https://api.github.com/users/SpaceSQ/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SpaceSQ/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SpaceSQ/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SpaceSQ/subscriptions",
+        "organizations_url": "https://api.github.com/users/SpaceSQ/orgs",
+        "repos_url": "https://api.github.com/users/SpaceSQ/repos",
+        "events_url": "https://api.github.com/users/SpaceSQ/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SpaceSQ/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/SpaceSQ/s2-embodied-robot-gateway",
+      "description": "The official hardware authentication and immigration gateway for Embodied Robots entering S2 spatial grids. Mints E-prefix 22-digit S2-DIDs.",
+      "fork": false,
+      "url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway",
+      "forks_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/forks",
+      "keys_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/teams",
+      "hooks_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/hooks",
+      "issue_events_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/events",
+      "assignees_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/tags",
+      "blobs_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/languages",
+      "stargazers_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/stargazers",
+      "contributors_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/contributors",
+      "subscribers_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/subscribers",
+      "subscription_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/subscription",
+      "commits_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/merges",
+      "archive_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/downloads",
+      "issues_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/labels{/name}",
+      "releases_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/SpaceSQ/s2-embodied-robot-gateway/deployments",
+      "created_at": "2026-03-28T06:54:40Z",
+      "updated_at": "2026-03-28T09:01:47Z",
+      "pushed_at": "2026-03-28T09:01:43Z",
+      "git_url": "git://github.com/SpaceSQ/s2-embodied-robot-gateway.git",
+      "ssh_url": "git@github.com:SpaceSQ/s2-embodied-robot-gateway.git",
+      "clone_url": "https://github.com/SpaceSQ/s2-embodied-robot-gateway.git",
+      "svn_url": "https://github.com/SpaceSQ/s2-embodied-robot-gateway",
+      "homepage": null,
+      "size": 9,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "spacesqs2-embodied-robot-gateway",
+    "dedupeKey": "c6f474048cbf596b05db5ead7251083aa4c8c3e81185d3a44d42bc5d5e1db8b4",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1189601107",
+    "title": "mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D",
+    "summary": "Visualize and interact with 3D models of subsea ROV and AUV plots in your browser using this Python-based web tool.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T09:01:34Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "mohammedwritten616"
+    ],
+    "category": "code",
+    "keywords": [
+      "3d-visualization",
+      "auv",
+      "cad",
+      "cad-visualization",
+      "data-engineering",
+      "energy-industry",
+      "machine",
+      "offshore",
+      "oil-and-gas",
+      "python",
+      "robotics",
+      "rov",
+      "step",
+      "subsea",
+      "subsea-engineering"
+    ],
+    "tags": [
+      "水下机器人"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1189601107,
+      "node_id": "R_kgDORuffUw",
+      "name": "Integrated-Subsea-ROV-and-AUV-Visualization-3D",
+      "full_name": "mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D",
+      "private": false,
+      "owner": {
+        "login": "mohammedwritten616",
+        "id": 266386710,
+        "node_id": "U_kgDOD-C9Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/266386710?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mohammedwritten616",
+        "html_url": "https://github.com/mohammedwritten616",
+        "followers_url": "https://api.github.com/users/mohammedwritten616/followers",
+        "following_url": "https://api.github.com/users/mohammedwritten616/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mohammedwritten616/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mohammedwritten616/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mohammedwritten616/subscriptions",
+        "organizations_url": "https://api.github.com/users/mohammedwritten616/orgs",
+        "repos_url": "https://api.github.com/users/mohammedwritten616/repos",
+        "events_url": "https://api.github.com/users/mohammedwritten616/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mohammedwritten616/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D",
+      "description": "Visualize and interact with 3D models of subsea ROV and AUV plots in your browser using this Python-based web tool.",
+      "fork": false,
+      "url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D",
+      "forks_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/forks",
+      "keys_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/teams",
+      "hooks_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/hooks",
+      "issue_events_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/events",
+      "assignees_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/tags",
+      "blobs_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/languages",
+      "stargazers_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/stargazers",
+      "contributors_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/contributors",
+      "subscribers_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/subscribers",
+      "subscription_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/subscription",
+      "commits_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/merges",
+      "archive_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/downloads",
+      "issues_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/labels{/name}",
+      "releases_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D/deployments",
+      "created_at": "2026-03-23T13:39:39Z",
+      "updated_at": "2026-03-28T09:01:34Z",
+      "pushed_at": "2026-03-28T09:01:30Z",
+      "git_url": "git://github.com/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D.git",
+      "ssh_url": "git@github.com:mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D.git",
+      "clone_url": "https://github.com/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D.git",
+      "svn_url": "https://github.com/mohammedwritten616/Integrated-Subsea-ROV-and-AUV-Visualization-3D",
+      "homepage": null,
+      "size": 578,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "3d-visualization",
+        "auv",
+        "cad",
+        "cad-visualization",
+        "data-engineering",
+        "energy-industry",
+        "machine",
+        "offshore",
+        "oil-and-gas",
+        "python",
+        "robotics",
+        "rov",
+        "step",
+        "subsea",
+        "subsea-engineering"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "mohammedwritten616integrated-subsea-rov-and-auv-visualization-3d",
+    "dedupeKey": "7b25279e8148db090101b33f66a0f1ce3681a315f7b8e773ed358ac40b0550cd",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "AeiROBOT/EDIE-SenseVoice-Noise-Dataset",
+    "title": "AeiROBOT/EDIE-SenseVoice-Noise-Dataset",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 14；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T09:01:31.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/AeiROBOT/EDIE-SenseVoice-Noise-Dataset",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/AeiROBOT/EDIE-SenseVoice-Noise-Dataset",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "AeiROBOT"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "size_categories:1K<n<10K",
+      "format:text",
+      "modality:audio",
+      "modality:text",
+      "library:datasets",
+      "library:mlcroissant",
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c641c0080327f65173d8a6",
+      "id": "AeiROBOT/EDIE-SenseVoice-Noise-Dataset",
+      "author": "AeiROBOT",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-28T09:01:31.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "e8aa2420ac770cd88f64f41e83689eb841e559c0",
+      "downloads": 14,
+      "tags": [
+        "size_categories:1K<n<10K",
+        "format:text",
+        "modality:audio",
+        "modality:text",
+        "library:datasets",
+        "library:mlcroissant",
+        "region:us"
+      ],
+      "createdAt": "2026-03-27T08:37:20.000Z",
+      "key": ""
+    },
+    "slug": "aeirobotedie-sensevoice-noise-dataset",
+    "dedupeKey": "d85626ea57ad2826ad5fa8dfd25bd42302665d32d9ca5403759188104d6c8f81",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "941935105",
+    "title": "silenzio777/silenzio_robot_library",
+    "summary": "Library of software and hardware setup for robotics applications",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T09:01:29Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/silenzio777/silenzio_robot_library",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/silenzio777/silenzio_robot_library",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "silenzio777"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 941935105,
+      "node_id": "R_kgDOOCTKAQ",
+      "name": "silenzio_robot_library",
+      "full_name": "silenzio777/silenzio_robot_library",
+      "private": false,
+      "owner": {
+        "login": "silenzio777",
+        "id": 7931919,
+        "node_id": "MDQ6VXNlcjc5MzE5MTk=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7931919?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/silenzio777",
+        "html_url": "https://github.com/silenzio777",
+        "followers_url": "https://api.github.com/users/silenzio777/followers",
+        "following_url": "https://api.github.com/users/silenzio777/following{/other_user}",
+        "gists_url": "https://api.github.com/users/silenzio777/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/silenzio777/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/silenzio777/subscriptions",
+        "organizations_url": "https://api.github.com/users/silenzio777/orgs",
+        "repos_url": "https://api.github.com/users/silenzio777/repos",
+        "events_url": "https://api.github.com/users/silenzio777/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/silenzio777/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/silenzio777/silenzio_robot_library",
+      "description": "Library of software and hardware setup for robotics applications",
+      "fork": false,
+      "url": "https://api.github.com/repos/silenzio777/silenzio_robot_library",
+      "forks_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/forks",
+      "keys_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/teams",
+      "hooks_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/hooks",
+      "issue_events_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/events",
+      "assignees_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/tags",
+      "blobs_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/languages",
+      "stargazers_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/stargazers",
+      "contributors_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/contributors",
+      "subscribers_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/subscribers",
+      "subscription_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/subscription",
+      "commits_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/merges",
+      "archive_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/downloads",
+      "issues_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/labels{/name}",
+      "releases_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/silenzio777/silenzio_robot_library/deployments",
+      "created_at": "2025-03-03T09:52:52Z",
+      "updated_at": "2026-03-28T09:01:29Z",
+      "pushed_at": "2026-03-28T09:01:25Z",
+      "git_url": "git://github.com/silenzio777/silenzio_robot_library.git",
+      "ssh_url": "git@github.com:silenzio777/silenzio_robot_library.git",
+      "clone_url": "https://github.com/silenzio777/silenzio_robot_library.git",
+      "svn_url": "https://github.com/silenzio777/silenzio_robot_library",
+      "homepage": "",
+      "size": 89255,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Dockerfile",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "silenzio777silenziorobotlibrary",
+    "dedupeKey": "30b69e54d7eb6d7cf55b34f54c8c032603e696022112e99ab94f858c514b5eab",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1166480360",
+    "title": "PixelmateLive/PixelmateLive",
+    "summary": "About Me - Section",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T09:00:49Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/PixelmateLive/PixelmateLive",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/PixelmateLive/PixelmateLive",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "PixelmateLive"
+    ],
+    "category": "code",
+    "keywords": [
+      "game-development",
+      "live-streaming",
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1166480360,
+      "node_id": "R_kgDORYcT6A",
+      "name": "PixelmateLive",
+      "full_name": "PixelmateLive/PixelmateLive",
+      "private": false,
+      "owner": {
+        "login": "PixelmateLive",
+        "id": 263324343,
+        "node_id": "U_kgDOD7ICtw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/263324343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PixelmateLive",
+        "html_url": "https://github.com/PixelmateLive",
+        "followers_url": "https://api.github.com/users/PixelmateLive/followers",
+        "following_url": "https://api.github.com/users/PixelmateLive/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PixelmateLive/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PixelmateLive/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PixelmateLive/subscriptions",
+        "organizations_url": "https://api.github.com/users/PixelmateLive/orgs",
+        "repos_url": "https://api.github.com/users/PixelmateLive/repos",
+        "events_url": "https://api.github.com/users/PixelmateLive/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PixelmateLive/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/PixelmateLive/PixelmateLive",
+      "description": "About Me - Section",
+      "fork": false,
+      "url": "https://api.github.com/repos/PixelmateLive/PixelmateLive",
+      "forks_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/forks",
+      "keys_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/teams",
+      "hooks_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/hooks",
+      "issue_events_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/events",
+      "assignees_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/tags",
+      "blobs_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/languages",
+      "stargazers_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/stargazers",
+      "contributors_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/contributors",
+      "subscribers_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/subscribers",
+      "subscription_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/subscription",
+      "commits_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/merges",
+      "archive_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/downloads",
+      "issues_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/labels{/name}",
+      "releases_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/PixelmateLive/PixelmateLive/deployments",
+      "created_at": "2026-02-25T09:14:09Z",
+      "updated_at": "2026-03-28T09:00:49Z",
+      "pushed_at": "2026-03-28T09:00:46Z",
+      "git_url": "git://github.com/PixelmateLive/PixelmateLive.git",
+      "ssh_url": "git@github.com:PixelmateLive/PixelmateLive.git",
+      "clone_url": "https://github.com/PixelmateLive/PixelmateLive.git",
+      "svn_url": "https://github.com/PixelmateLive/PixelmateLive",
+      "homepage": "https://www.twitch.tv/PixelmateLive",
+      "size": 18,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "game-development",
+        "live-streaming",
+        "robotics"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "pixelmatelivepixelmatelive",
+    "dedupeKey": "6947607d85d8360615441b2c14390677aded85d3c510e43428e994cbe71342ee",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1088266349",
+    "title": "marunigno-ship-it/QERRA-v2",
+    "summary": "QAI PROJECT IS A UNIQUE QUANTUM PROJECT FOR MORE ETHICAL, FASTER ,CAPABLE HUMANOID ROBOTS. AIDED BY GROK!A BLEND OF ADVANCED AI WITH QUANTUM COMPUTING PRINCIPLES. THE REAL KICKER... QERRA HYBRID ALGORITHM BASES ON STRICT ETHICAL FRAMEWORKS. THIS TECH PROJECT REALY BRINGS THE FUTURE INTO THE PRESENT!",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T09:00:48Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/marunigno-ship-it/QERRA-v2",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/marunigno-ship-it/QERRA-v2",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "marunigno-ship-it"
+    ],
+    "category": "code",
+    "keywords": [
+      "ai",
+      "ethics",
+      "humanoid-robots",
+      "qiskit",
+      "quantum-computing",
+      "robotics",
+      "xai"
+    ],
+    "tags": [
+      "人形机器人"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1088266349,
+      "node_id": "R_kgDOQN2gbQ",
+      "name": "QERRA-v2",
+      "full_name": "marunigno-ship-it/QERRA-v2",
+      "private": false,
+      "owner": {
+        "login": "marunigno-ship-it",
+        "id": 229301193,
+        "node_id": "U_kgDODarbyQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/229301193?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/marunigno-ship-it",
+        "html_url": "https://github.com/marunigno-ship-it",
+        "followers_url": "https://api.github.com/users/marunigno-ship-it/followers",
+        "following_url": "https://api.github.com/users/marunigno-ship-it/following{/other_user}",
+        "gists_url": "https://api.github.com/users/marunigno-ship-it/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/marunigno-ship-it/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/marunigno-ship-it/subscriptions",
+        "organizations_url": "https://api.github.com/users/marunigno-ship-it/orgs",
+        "repos_url": "https://api.github.com/users/marunigno-ship-it/repos",
+        "events_url": "https://api.github.com/users/marunigno-ship-it/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/marunigno-ship-it/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/marunigno-ship-it/QERRA-v2",
+      "description": "QAI PROJECT IS A UNIQUE QUANTUM PROJECT FOR MORE ETHICAL, FASTER ,CAPABLE HUMANOID ROBOTS. AIDED BY GROK!A BLEND OF ADVANCED AI WITH QUANTUM COMPUTING PRINCIPLES. THE REAL KICKER... QERRA HYBRID ALGORITHM BASES ON STRICT ETHICAL FRAMEWORKS. THIS TECH PROJECT REALY BRINGS THE FUTURE INTO THE PRESENT!",
+      "fork": false,
+      "url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2",
+      "forks_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/forks",
+      "keys_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/teams",
+      "hooks_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/hooks",
+      "issue_events_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/events",
+      "assignees_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/tags",
+      "blobs_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/languages",
+      "stargazers_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/stargazers",
+      "contributors_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/contributors",
+      "subscribers_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/subscribers",
+      "subscription_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/subscription",
+      "commits_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/merges",
+      "archive_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/downloads",
+      "issues_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/labels{/name}",
+      "releases_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/marunigno-ship-it/QERRA-v2/deployments",
+      "created_at": "2025-11-02T16:34:01Z",
+      "updated_at": "2026-03-28T09:00:48Z",
+      "pushed_at": "2026-03-28T09:00:45Z",
+      "git_url": "git://github.com/marunigno-ship-it/QERRA-v2.git",
+      "ssh_url": "git@github.com:marunigno-ship-it/QERRA-v2.git",
+      "clone_url": "https://github.com/marunigno-ship-it/QERRA-v2.git",
+      "svn_url": "https://github.com/marunigno-ship-it/QERRA-v2",
+      "homepage": "",
+      "size": 245,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "ai",
+        "ethics",
+        "humanoid-robots",
+        "qiskit",
+        "quantum-computing",
+        "robotics",
+        "xai"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "marunigno-ship-itqerra-v2",
+    "dedupeKey": "05ab931f3534acbd24d17e3bd35852d6a7db8c6f5964e64a743ae6bc91543713",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "fireowl-sw/lerobot_1",
+    "title": "fireowl-sw/lerobot_1",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T08:59:55.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/fireowl-sw/lerobot_1",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/fireowl-sw/lerobot_1",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c7988b0c0307283d312ea7",
+      "id": "fireowl-sw/lerobot_1",
+      "author": "fireowl-sw",
+      "gated": false,
+      "lastModified": "2026-03-28T08:59:55.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "4fdc95213d27c01506877848f550cc7915dee784",
+      "downloads": 0,
+      "tags": [
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "createdAt": "2026-03-28T08:59:55.000Z",
+      "modelId": "fireowl-sw/lerobot_1",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        }
+      ]
+    },
+    "slug": "fireowl-swlerobot1",
+    "dedupeKey": "da261c1c80912da6cda17341b08ff700f6457b1d874d6e1dd68b74c26990b6bb",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "yixuan-tan/InternData-A1-LeRobot-v3.0-by-embodiment",
+    "title": "yixuan-tan/InternData-A1-LeRobot-v3.0-by-embodiment",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T08:58:56.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/yixuan-tan/InternData-A1-LeRobot-v3.0-by-embodiment",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/yixuan-tan/InternData-A1-LeRobot-v3.0-by-embodiment",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "yixuan-tan"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "language:en",
+      "license:cc-by-nc-sa-4.0",
+      "size_categories:n>1T",
+      "region:us",
+      "Embodied-AI",
+      "Robotic manipulation"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.96,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c7967efe447dce1a661879",
+      "id": "yixuan-tan/InternData-A1-LeRobot-v3.0-by-embodiment",
+      "author": "yixuan-tan",
+      "cardData": {
+        "license": "cc-by-nc-sa-4.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "language": [
+          "en"
+        ],
+        "tags": [
+          "Embodied-AI",
+          "Robotic manipulation"
+        ],
+        "size_categories": [
+          "n>1T"
+        ],
+        "pretty_name": "InternData-A1 (LeRobot v3.0; by embodiment)"
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-28T08:58:56.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "d223199b11f3e552a3865152f1bd94f3b19f765f",
+      "description": "InternData-A1 dataset taken from InternRobotics/InternData-A1,\nwith the tarballs extracted and directory structure \"transposed\" so that the top-level subdirectories are the four embodiments.\n\n\t\n\t\t\n\t\tMinor fixes\n\t\n\nThe basic_tasks/split_aloha/make_a_sandwich_language subset's original tarball file had extra nested directories that did not line up with\nthe other subsets. We have realigned its directory structure with the rest.\n\n\t\n\t\t\n\t\tDirty episodes\n\t\n\nThe subset lift2/basic_tasks/fold_towels… See the full description on the dataset page: https://huggingface.co/datasets/yixuan-tan/InternData-A1-LeRobot-v3.0-by-embodiment.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "language:en",
+        "license:cc-by-nc-sa-4.0",
+        "size_categories:n>1T",
+        "region:us",
+        "Embodied-AI",
+        "Robotic manipulation"
+      ],
+      "createdAt": "2026-03-28T08:51:10.000Z",
+      "key": ""
+    },
+    "slug": "yixuan-taninterndata-a1-lerobot-v30-by-embodiment",
+    "dedupeKey": "c4f7c991d2df181bf0fe5780e09f5c4da2ce083ea085b778e166e7e0a4dfca5b",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "Joe-lau/xlerobot_bimanual",
+    "title": "Joe-lau/xlerobot_bimanual",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T08:58:53.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/Joe-lau/xlerobot_bimanual",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/Joe-lau/xlerobot_bimanual",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "Joe-lau"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.72,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c7984d1d66f718b2762dfc",
+      "id": "Joe-lau/xlerobot_bimanual",
+      "author": "Joe-lau",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-28T08:58:53.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "df5b96fc833496a5ce2729950e2d845b77cbeb7c",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-28T08:58:53.000Z",
+      "key": ""
+    },
+    "slug": "joe-lauxlerobotbimanual",
+    "dedupeKey": "073dfda76f7bd9141867d36c0c36ee5459151c2863de6b64758688234e1e4b97",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "hs4449889/xvla-so101-bottle-v7",
+    "title": "hs4449889/xvla-so101-bottle-v7",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T08:55:06.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/hs4449889/xvla-so101-bottle-v7",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/hs4449889/xvla-so101-bottle-v7",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "xvla",
+      "dataset:hs4449889/so101_bottle_in_plate",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.86,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c7975184192f23a7f2a7df",
+      "id": "hs4449889/xvla-so101-bottle-v7",
+      "author": "hs4449889",
+      "gated": false,
+      "lastModified": "2026-03-28T08:55:06.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "7f017a4516a411e658a0d0685829f0d0da303c58",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "xvla",
+        "dataset:hs4449889/so101_bottle_in_plate",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-28T08:54:41.000Z",
+      "modelId": "hs4449889/xvla-so101-bottle-v7",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_7_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "hs4449889xvla-so101-bottle-v7",
+    "dedupeKey": "e0363692dc9cb52f7225f58152b34f89578fc999353e49b3e520bfe338a52eb4",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
     "externalId": "yixuan-tan/InternData-LeRobot-v3.0-A1-flattened-per-embodiment",
     "title": "yixuan-tan/InternData-LeRobot-v3.0-A1-flattened-per-embodiment",
     "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
@@ -52,7 +1645,11 @@
     "dedupeKey": "7a0e5afb9b4ca91737ae768fe823e37cd9e9510237b7dc8165650011442747fd",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "7a0e5afb9b4ca91737ae768fe823e37cd9e9510237b7dc8165650011442747fd",
+    "createdAt": "2026-03-28T03:09:46.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "892241193",
@@ -217,7 +1814,11 @@
     "dedupeKey": "59da2afaa77fc43259b8f50302b4457bc7d289bc9cc3ab10db9208c3e65a8a5b",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "59da2afaa77fc43259b8f50302b4457bc7d289bc9cc3ab10db9208c3e65a8a5b",
+    "createdAt": "2026-03-28T03:09:28Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "594765232",
@@ -400,7 +2001,11 @@
     "dedupeKey": "e517887814c5679cb336dbe35536e299ac95d5157ca1bb2ac20ae21c6bc5339b",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "e517887814c5679cb336dbe35536e299ac95d5157ca1bb2ac20ae21c6bc5339b",
+    "createdAt": "2026-03-28T03:09:19Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "827843543",
@@ -565,7 +2170,11 @@
     "dedupeKey": "b78c32d242e684fcea4371fd3f1947f732f4ea1b93dd3e8f92aded07b926916e",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "b78c32d242e684fcea4371fd3f1947f732f4ea1b93dd3e8f92aded07b926916e",
+    "createdAt": "2026-03-28T03:09:13Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "annieamorim/bernice-tupy-checkpoint-1116-prov-hate-speech",
@@ -660,7 +2269,11 @@
     "dedupeKey": "27b005bcfa9b823d4bf033c66239cf96ccd902b7a92c3213f0398bd9da6c6670",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "27b005bcfa9b823d4bf033c66239cf96ccd902b7a92c3213f0398bd9da6c6670",
+    "createdAt": "2026-03-28T03:08:32.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1154916997",
@@ -803,7 +2416,11 @@
     "dedupeKey": "6974731bf8b9762d8bea9a31cad1a787d8b1b476a62e7ef2098e74a4b7846b23",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "6974731bf8b9762d8bea9a31cad1a787d8b1b476a62e7ef2098e74a4b7846b23",
+    "createdAt": "2026-03-28T03:08:21Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1104260008",
@@ -948,7 +2565,11 @@
     "dedupeKey": "e19c65f74505ce56453abefef7648c40eb838f960a79411bec635f517a86d3d9",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "e19c65f74505ce56453abefef7648c40eb838f960a79411bec635f517a86d3d9",
+    "createdAt": "2026-03-28T03:08:18Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "883265068",
@@ -1105,7 +2726,11 @@
     "dedupeKey": "ee3914d34fa268d6e677f84f99f4aff6e637a6532e5626652d5c7e82bd96ea2a",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "ee3914d34fa268d6e677f84f99f4aff6e637a6532e5626652d5c7e82bd96ea2a",
+    "createdAt": "2026-03-28T03:08:01Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "864170872",
@@ -1258,7 +2883,11 @@
     "dedupeKey": "235709f31ed5784b6d6f2ac97c402a8226882797cd751e4cde985735460a7712",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "235709f31ed5784b6d6f2ac97c402a8226882797cd751e4cde985735460a7712",
+    "createdAt": "2026-03-28T03:07:55Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "747820322",
@@ -1427,7 +3056,11 @@
     "dedupeKey": "4e188775fb962406e3bd37ffe323e2cc141e2d37231be8cf115b1f32d7e53952",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "4e188775fb962406e3bd37ffe323e2cc141e2d37231be8cf115b1f32d7e53952",
+    "createdAt": "2026-03-28T03:07:50Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1150241404",
@@ -1568,7 +3201,11 @@
     "dedupeKey": "a798bd66a9e930d5c4941a09e7e332c75e6ad681b2920647cc2aeb74a3caa00a",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "a798bd66a9e930d5c4941a09e7e332c75e6ad681b2920647cc2aeb74a3caa00a",
+    "createdAt": "2026-03-28T03:07:08Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1054366322",
@@ -1725,7 +3362,11 @@
     "dedupeKey": "c49f2c80efbe7397d00c846f8def9f44706b8fa9d1fb1ea3fae9cbb3d960e969",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "c49f2c80efbe7397d00c846f8def9f44706b8fa9d1fb1ea3fae9cbb3d960e969",
+    "createdAt": "2026-03-28T03:06:53Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1194142846",
@@ -1860,7 +3501,11 @@
     "dedupeKey": "1e6c5e59dc730c8d33d75b2d828d7bca2d5ed3a721aa0b7b6f69e1856edce7a9",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "1e6c5e59dc730c8d33d75b2d828d7bca2d5ed3a721aa0b7b6f69e1856edce7a9",
+    "createdAt": "2026-03-28T03:06:51Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "annieamorim/bernice-tupy-checkpoint-744-prov-hate-speech",
@@ -1955,7 +3600,11 @@
     "dedupeKey": "23e011fe57c40fc8d66f265a405bc7f9a305933bd74508e348913b98f91bf381",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "23e011fe57c40fc8d66f265a405bc7f9a305933bd74508e348913b98f91bf381",
+    "createdAt": "2026-03-28T03:05:58.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "annieamorim/bernice-tupy-checkpoint-372-prov-hate-speech",
@@ -2050,7 +3699,11 @@
     "dedupeKey": "2d7b0bb6c94d68904354085b1c92dd149d55ae444301064794d37c1d4d4b1a52",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "2d7b0bb6c94d68904354085b1c92dd149d55ae444301064794d37c1d4d4b1a52",
+    "createdAt": "2026-03-28T03:03:20.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "annieamorim/bertweetbr-tupy-checkpoint-1488-prov-hate-speech",
@@ -2148,7 +3801,11 @@
     "dedupeKey": "2a9829e4ab636179fdce5a08ba2f700a5f06418f2504ab0f56330a3f5e748fd7",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "2a9829e4ab636179fdce5a08ba2f700a5f06418f2504ab0f56330a3f5e748fd7",
+    "createdAt": "2026-03-28T02:59:23.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "PengTianxiang/eval_20260327_act_try2",
@@ -2223,7 +3880,7 @@
     ],
     "id": "9850b1634178b82972109838ab93773054f360075d2a1aa88297c5cb6a88c92b",
     "createdAt": "2026-03-27T06:34:26.000Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2366,7 +4023,7 @@
     ],
     "id": "0b3f80eb499247f13b042a7a4a1d0a313973198cf6255a30029538990eeb250b",
     "createdAt": "2026-03-27T06:34:01Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2541,7 +4198,7 @@
     ],
     "id": "32e4f3a403313eb6938cc9607810dcff03b7d63e4e18bf952a29f45073f74d39",
     "createdAt": "2026-03-27T06:33:57Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {

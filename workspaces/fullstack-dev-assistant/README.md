@@ -9,8 +9,8 @@
 - 当前唯一有效的站点目录：`workspaces/fullstack-dev-assistant`
 - GitHub Actions 与 Vercel 已对齐到该目录
 - 自动采集与自动部署已恢复正常
-- 当前定时更新：**每天北京时间 13:00**
-- 临时验证定时：**每天北京时间 13:45**
+- 当前定时更新：**每天北京时间 08:00**
+- 当前 workflow cron：`0 0 * * *`（UTC 00:00 = Asia/Shanghai 08:00）
 
 ## 项目目标
 

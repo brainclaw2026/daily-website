@@ -1,5 +1,576 @@
 [
   {
+    "externalId": "arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_b21_03282026165012",
+    "title": "arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_b21_03282026165012",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T23:59:18.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_b21_03282026165012",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_b21_03282026165012",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "arjunsinghyadav2"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c86b211da833290acd3f53",
+      "id": "arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_b21_03282026165012",
+      "author": "arjunsinghyadav2",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-28T23:59:18.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "99cdb5d72922552457e9dfc6423672323d272e07",
+      "description": "This dataset was created using LeRobot.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 20,\n    \"total_frames\": 5979,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:20\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_b21_03282026165012.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-28T23:58:25.000Z",
+      "key": ""
+    },
+    "slug": "arjunsinghyadav2bluesortblackbgcoloredcupsv1b2103282026165012",
+    "dedupeKey": "0ef9faa3ff12d3ee224bb59665ec400294a5c4ec77f4399cd8f58853c4f1c417",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "1160422156",
+    "title": "hephaes-ai/hephaes",
+    "summary": "Turn robot data into reproducible training & eval datasets",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T23:59:01Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/hephaes-ai/hephaes",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/hephaes-ai/hephaes",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "hephaes-ai"
+    ],
+    "category": "code",
+    "keywords": [
+      "datasets-preparation",
+      "robotics"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1160422156,
+      "node_id": "R_kgDORSqjDA",
+      "name": "hephaes",
+      "full_name": "hephaes-ai/hephaes",
+      "private": false,
+      "owner": {
+        "login": "hephaes-ai",
+        "id": 258094342,
+        "node_id": "O_kgDOD2I1Bg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/258094342?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hephaes-ai",
+        "html_url": "https://github.com/hephaes-ai",
+        "followers_url": "https://api.github.com/users/hephaes-ai/followers",
+        "following_url": "https://api.github.com/users/hephaes-ai/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hephaes-ai/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hephaes-ai/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hephaes-ai/subscriptions",
+        "organizations_url": "https://api.github.com/users/hephaes-ai/orgs",
+        "repos_url": "https://api.github.com/users/hephaes-ai/repos",
+        "events_url": "https://api.github.com/users/hephaes-ai/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hephaes-ai/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/hephaes-ai/hephaes",
+      "description": "Turn robot data into reproducible training & eval datasets",
+      "fork": false,
+      "url": "https://api.github.com/repos/hephaes-ai/hephaes",
+      "forks_url": "https://api.github.com/repos/hephaes-ai/hephaes/forks",
+      "keys_url": "https://api.github.com/repos/hephaes-ai/hephaes/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/hephaes-ai/hephaes/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/hephaes-ai/hephaes/teams",
+      "hooks_url": "https://api.github.com/repos/hephaes-ai/hephaes/hooks",
+      "issue_events_url": "https://api.github.com/repos/hephaes-ai/hephaes/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/hephaes-ai/hephaes/events",
+      "assignees_url": "https://api.github.com/repos/hephaes-ai/hephaes/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/hephaes-ai/hephaes/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/hephaes-ai/hephaes/tags",
+      "blobs_url": "https://api.github.com/repos/hephaes-ai/hephaes/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/hephaes-ai/hephaes/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/hephaes-ai/hephaes/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/hephaes-ai/hephaes/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/hephaes-ai/hephaes/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/hephaes-ai/hephaes/languages",
+      "stargazers_url": "https://api.github.com/repos/hephaes-ai/hephaes/stargazers",
+      "contributors_url": "https://api.github.com/repos/hephaes-ai/hephaes/contributors",
+      "subscribers_url": "https://api.github.com/repos/hephaes-ai/hephaes/subscribers",
+      "subscription_url": "https://api.github.com/repos/hephaes-ai/hephaes/subscription",
+      "commits_url": "https://api.github.com/repos/hephaes-ai/hephaes/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/hephaes-ai/hephaes/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/hephaes-ai/hephaes/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/hephaes-ai/hephaes/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/hephaes-ai/hephaes/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/hephaes-ai/hephaes/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/hephaes-ai/hephaes/merges",
+      "archive_url": "https://api.github.com/repos/hephaes-ai/hephaes/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/hephaes-ai/hephaes/downloads",
+      "issues_url": "https://api.github.com/repos/hephaes-ai/hephaes/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/hephaes-ai/hephaes/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/hephaes-ai/hephaes/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/hephaes-ai/hephaes/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/hephaes-ai/hephaes/labels{/name}",
+      "releases_url": "https://api.github.com/repos/hephaes-ai/hephaes/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/hephaes-ai/hephaes/deployments",
+      "created_at": "2026-02-17T23:15:14Z",
+      "updated_at": "2026-03-28T23:59:01Z",
+      "pushed_at": "2026-03-28T23:58:56Z",
+      "git_url": "git://github.com/hephaes-ai/hephaes.git",
+      "ssh_url": "git@github.com:hephaes-ai/hephaes.git",
+      "clone_url": "https://github.com/hephaes-ai/hephaes.git",
+      "svn_url": "https://github.com/hephaes-ai/hephaes",
+      "homepage": "https://hephaes.ai",
+      "size": 14888,
+      "stargazers_count": 2,
+      "watchers_count": 2,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "datasets-preparation",
+        "robotics"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 2,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "hephaes-aihephaes",
+    "dedupeKey": "71f463f6291a18786ad7eb1bae609d4cd1f593e8e261a5fe2f121e373968c0fb",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "Lalla-SouSou/Islam-datasets-Edit",
+    "title": "Lalla-SouSou/Islam-datasets-Edit",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T23:58:42.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/Lalla-SouSou/Islam-datasets-Edit",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/Lalla-SouSou/Islam-datasets-Edit",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "Lalla-SouSou"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c85e7330a60773d6d5c854",
+      "id": "Lalla-SouSou/Islam-datasets-Edit",
+      "author": "Lalla-SouSou",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-28T23:58:42.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "bcd76219ba0b8e57edeca87b3f9d8b68b9f7066a",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-28T23:04:19.000Z",
+      "key": ""
+    },
+    "slug": "lalla-sousouislam-datasets-edit",
+    "dedupeKey": "f8a81ee2cc6c8969c86cb0e1e06de0c11f4873860c4d08200c0a507d63a75f14",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "1166203076",
+    "title": "Alex8791-cyber/cognithor",
+    "summary": "Cognithor - Agent OS: Local-first autonomous agent operating system. 16 LLM providers, 17 channels, 112+ MCP tools, 5-tier memory, A2A protocol, knowledge vault, voice, browser automation, Computer-use, self-healing, self-improving. Python 3.12+, Apache 2.0.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T23:57:49Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Alex8791-cyber/cognithor",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Alex8791-cyber/cognithor",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Alex8791-cyber"
+    ],
+    "category": "code",
+    "keywords": [
+      "agent-os",
+      "ai-agent",
+      "anthropic",
+      "autonomous-agent",
+      "discord-bot",
+      "document-analysis",
+      "gdpr-compliant",
+      "gemini",
+      "knowledge-graph",
+      "knowledge-synthesis",
+      "knowledge-vault",
+      "llm",
+      "local-first",
+      "mcp",
+      "multi-llm",
+      "obsidian",
+      "ollama",
+      "openai",
+      "telegram-bot"
+    ],
+    "tags": [
+      "水下机器人"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1166203076,
+      "node_id": "R_kgDORYLYxA",
+      "name": "cognithor",
+      "full_name": "Alex8791-cyber/cognithor",
+      "private": false,
+      "owner": {
+        "login": "Alex8791-cyber",
+        "id": 220949858,
+        "node_id": "U_kgDODSttYg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/220949858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Alex8791-cyber",
+        "html_url": "https://github.com/Alex8791-cyber",
+        "followers_url": "https://api.github.com/users/Alex8791-cyber/followers",
+        "following_url": "https://api.github.com/users/Alex8791-cyber/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Alex8791-cyber/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Alex8791-cyber/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Alex8791-cyber/subscriptions",
+        "organizations_url": "https://api.github.com/users/Alex8791-cyber/orgs",
+        "repos_url": "https://api.github.com/users/Alex8791-cyber/repos",
+        "events_url": "https://api.github.com/users/Alex8791-cyber/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Alex8791-cyber/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Alex8791-cyber/cognithor",
+      "description": "Cognithor - Agent OS: Local-first autonomous agent operating system. 16 LLM providers, 17 channels, 112+ MCP tools, 5-tier memory, A2A protocol, knowledge vault, voice, browser automation, Computer-use, self-healing, self-improving. Python 3.12+, Apache 2.0.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Alex8791-cyber/cognithor",
+      "forks_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/forks",
+      "keys_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/teams",
+      "hooks_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/hooks",
+      "issue_events_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/events",
+      "assignees_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/tags",
+      "blobs_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/languages",
+      "stargazers_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/stargazers",
+      "contributors_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/contributors",
+      "subscribers_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/subscribers",
+      "subscription_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/subscription",
+      "commits_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/merges",
+      "archive_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/downloads",
+      "issues_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Alex8791-cyber/cognithor/deployments",
+      "created_at": "2026-02-25T01:24:40Z",
+      "updated_at": "2026-03-28T23:57:49Z",
+      "pushed_at": "2026-03-28T23:57:45Z",
+      "git_url": "git://github.com/Alex8791-cyber/cognithor.git",
+      "ssh_url": "git@github.com:Alex8791-cyber/cognithor.git",
+      "clone_url": "https://github.com/Alex8791-cyber/cognithor.git",
+      "svn_url": "https://github.com/Alex8791-cyber/cognithor",
+      "homepage": "https://alex8791-cyber.github.io/cognithor/",
+      "size": 28915,
+      "stargazers_count": 48,
+      "watchers_count": 48,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": true,
+      "forks_count": 5,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 1,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "agent-os",
+        "ai-agent",
+        "anthropic",
+        "autonomous-agent",
+        "discord-bot",
+        "document-analysis",
+        "gdpr-compliant",
+        "gemini",
+        "knowledge-graph",
+        "knowledge-synthesis",
+        "knowledge-vault",
+        "llm",
+        "local-first",
+        "mcp",
+        "multi-llm",
+        "obsidian",
+        "ollama",
+        "openai",
+        "telegram-bot"
+      ],
+      "visibility": "public",
+      "forks": 5,
+      "open_issues": 1,
+      "watchers": 48,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "alex8791-cybercognithor",
+    "dedupeKey": "a8274f722378a151fb762154e2bd71c410cd7ba89254c11ee681d16240ad1645",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "aivanni/eval_pi05_algebra",
+    "title": "aivanni/eval_pi05_algebra",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T23:52:09.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/aivanni/eval_pi05_algebra",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/aivanni/eval_pi05_algebra",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "aivanni"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c861defc5631a422c389b7",
+      "id": "aivanni/eval_pi05_algebra",
+      "author": "aivanni",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-28T23:52:09.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "d0ff2406859e1d125231c7f886ffeba318a67165",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 0,\n    \"total_frames\": 0,\n    \"total_tasks\": 0,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 15,\n    \"splits\": {},\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/aivanni/eval_pi05_algebra.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-28T23:18:54.000Z",
+      "key": ""
+    },
+    "slug": "aivannievalpi05algebra",
+    "dedupeKey": "ecc2bd63ad47f84cc19420e03340ea1473a903b8e316c878972b9107953e7f5d",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "andreacecchin/bert-as-vlm-artpricer-25k",
+    "title": "andreacecchin/bert-as-vlm-artpricer-25k",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-28T23:48:54.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/andreacecchin/bert-as-vlm-artpricer-25k",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/andreacecchin/bert-as-vlm-artpricer-25k",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "机器人视觉语言模型"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c846d4664affbf5565969b",
+      "id": "andreacecchin/bert-as-vlm-artpricer-25k",
+      "author": "andreacecchin",
+      "gated": false,
+      "lastModified": "2026-03-28T23:48:54.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "3570a490027996e3fe87e5e90ff3b565b2191770",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-28T21:23:32.000Z",
+      "modelId": "andreacecchin/bert-as-vlm-artpricer-25k",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "pytorch_model_80bins.bin"
+        }
+      ]
+    },
+    "slug": "andreacecchinbert-as-vlm-artpricer-25k",
+    "dedupeKey": "4c44628a9ffa7b48a339331ab1244f84dfdeb18d983e0b9e63c6ae5f62e39ff6",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
     "externalId": "1190464765",
     "title": "kamathrobotics/playground",
     "summary": "Playground for my robotics projects",
@@ -140,7 +711,11 @@
     "dedupeKey": "c6d38c5303fb232864448960ad3d187d90af76516006b24a38c47ca0a2f671bb",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "c6d38c5303fb232864448960ad3d187d90af76516006b24a38c47ca0a2f671bb",
+    "createdAt": "2026-03-28T09:02:38Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "PID0930/sarm-handkercheif-val-20260328",
@@ -230,7 +805,11 @@
     "dedupeKey": "fb19104d0a72e1f6f7ccbc765676479e856bb474f62cc83b3cedd740087c6048",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "fb19104d0a72e1f6f7ccbc765676479e856bb474f62cc83b3cedd740087c6048",
+    "createdAt": "2026-03-28T09:02:20.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1194366041",
@@ -365,7 +944,11 @@
     "dedupeKey": "3eeb47a3338030bc3545791d3e471e3f5760e26c86de19805ba4b29a515bc217",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "3eeb47a3338030bc3545791d3e471e3f5760e26c86de19805ba4b29a515bc217",
+    "createdAt": "2026-03-28T09:02:19Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1191292727",
@@ -512,7 +1095,11 @@
     "dedupeKey": "8983577cfc2d17c57fbce974962cf84bb5bc30d615711dbb41ca0a95e1dbc011",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "8983577cfc2d17c57fbce974962cf84bb5bc30d615711dbb41ca0a95e1dbc011",
+    "createdAt": "2026-03-28T09:01:50Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1194301404",
@@ -647,7 +1234,11 @@
     "dedupeKey": "c6f474048cbf596b05db5ead7251083aa4c8c3e81185d3a44d42bc5d5e1db8b4",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "c6f474048cbf596b05db5ead7251083aa4c8c3e81185d3a44d42bc5d5e1db8b4",
+    "createdAt": "2026-03-28T09:01:47Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1189601107",
@@ -814,7 +1405,11 @@
     "dedupeKey": "7b25279e8148db090101b33f66a0f1ce3681a315f7b8e773ed358ac40b0550cd",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "7b25279e8148db090101b33f66a0f1ce3681a315f7b8e773ed358ac40b0550cd",
+    "createdAt": "2026-03-28T09:01:34Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "AeiROBOT/EDIE-SenseVoice-Noise-Dataset",
@@ -876,7 +1471,11 @@
     "dedupeKey": "d85626ea57ad2826ad5fa8dfd25bd42302665d32d9ca5403759188104d6c8f81",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "d85626ea57ad2826ad5fa8dfd25bd42302665d32d9ca5403759188104d6c8f81",
+    "createdAt": "2026-03-28T09:01:31.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "941935105",
@@ -1013,7 +1612,11 @@
     "dedupeKey": "30b69e54d7eb6d7cf55b34f54c8c032603e696022112e99ab94f858c514b5eab",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "30b69e54d7eb6d7cf55b34f54c8c032603e696022112e99ab94f858c514b5eab",
+    "createdAt": "2026-03-28T09:01:29Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1166480360",
@@ -1156,7 +1759,11 @@
     "dedupeKey": "6947607d85d8360615441b2c14390677aded85d3c510e43428e994cbe71342ee",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "6947607d85d8360615441b2c14390677aded85d3c510e43428e994cbe71342ee",
+    "createdAt": "2026-03-28T09:00:49Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1088266349",
@@ -1313,7 +1920,11 @@
     "dedupeKey": "05ab931f3534acbd24d17e3bd35852d6a7db8c6f5964e64a743ae6bc91543713",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "05ab931f3534acbd24d17e3bd35852d6a7db8c6f5964e64a743ae6bc91543713",
+    "createdAt": "2026-03-28T09:00:48Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "fireowl-sw/lerobot_1",
@@ -1370,7 +1981,11 @@
     "dedupeKey": "da261c1c80912da6cda17341b08ff700f6457b1d874d6e1dd68b74c26990b6bb",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "da261c1c80912da6cda17341b08ff700f6457b1d874d6e1dd68b74c26990b6bb",
+    "createdAt": "2026-03-28T08:59:55.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "yixuan-tan/InternData-A1-LeRobot-v3.0-by-embodiment",
@@ -1450,7 +2065,11 @@
     "dedupeKey": "c4f7c991d2df181bf0fe5780e09f5c4da2ce083ea085b778e166e7e0a4dfca5b",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "c4f7c991d2df181bf0fe5780e09f5c4da2ce083ea085b778e166e7e0a4dfca5b",
+    "createdAt": "2026-03-28T08:58:56.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Joe-lau/xlerobot_bimanual",
@@ -1500,7 +2119,11 @@
     "dedupeKey": "073dfda76f7bd9141867d36c0c36ee5459151c2863de6b64758688234e1e4b97",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "073dfda76f7bd9141867d36c0c36ee5459151c2863de6b64758688234e1e4b97",
+    "createdAt": "2026-03-28T08:58:53.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "hs4449889/xvla-so101-bottle-v7",
@@ -1590,7 +2213,11 @@
     "dedupeKey": "e0363692dc9cb52f7225f58152b34f89578fc999353e49b3e520bfe338a52eb4",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "e0363692dc9cb52f7225f58152b34f89578fc999353e49b3e520bfe338a52eb4",
+    "createdAt": "2026-03-28T08:55:06.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "yixuan-tan/InternData-LeRobot-v3.0-A1-flattened-per-embodiment",
@@ -1648,7 +2275,7 @@
     ],
     "id": "7a0e5afb9b4ca91737ae768fe823e37cd9e9510237b7dc8165650011442747fd",
     "createdAt": "2026-03-28T03:09:46.000Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1817,7 +2444,7 @@
     ],
     "id": "59da2afaa77fc43259b8f50302b4457bc7d289bc9cc3ab10db9208c3e65a8a5b",
     "createdAt": "2026-03-28T03:09:28Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2004,7 +2631,7 @@
     ],
     "id": "e517887814c5679cb336dbe35536e299ac95d5157ca1bb2ac20ae21c6bc5339b",
     "createdAt": "2026-03-28T03:09:19Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {

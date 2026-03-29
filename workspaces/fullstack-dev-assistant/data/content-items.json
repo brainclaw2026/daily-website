@@ -1,5 +1,2183 @@
 [
   {
+    "externalId": "1082278442",
+    "title": "NancyLis1/Autonomous-Maze-Navigator-SLAM",
+    "summary": "An autonomous robot maze exploration and global path planning system based on the Frontier Detection algorithm and SLAM technology.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:38:21Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/NancyLis1/Autonomous-Maze-Navigator-SLAM",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/NancyLis1/Autonomous-Maze-Navigator-SLAM",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "NancyLis1"
+    ],
+    "category": "code",
+    "keywords": [
+      "slam"
+    ],
+    "tags": [
+      "SLAM与定位"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1082278442,
+      "node_id": "R_kgDOQIJCKg",
+      "name": "Autonomous-Maze-Navigator-SLAM",
+      "full_name": "NancyLis1/Autonomous-Maze-Navigator-SLAM",
+      "private": false,
+      "owner": {
+        "login": "NancyLis1",
+        "id": 153059406,
+        "node_id": "U_kgDOCR-ATg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/153059406?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/NancyLis1",
+        "html_url": "https://github.com/NancyLis1",
+        "followers_url": "https://api.github.com/users/NancyLis1/followers",
+        "following_url": "https://api.github.com/users/NancyLis1/following{/other_user}",
+        "gists_url": "https://api.github.com/users/NancyLis1/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/NancyLis1/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/NancyLis1/subscriptions",
+        "organizations_url": "https://api.github.com/users/NancyLis1/orgs",
+        "repos_url": "https://api.github.com/users/NancyLis1/repos",
+        "events_url": "https://api.github.com/users/NancyLis1/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/NancyLis1/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/NancyLis1/Autonomous-Maze-Navigator-SLAM",
+      "description": "An autonomous robot maze exploration and global path planning system based on the Frontier Detection algorithm and SLAM technology.",
+      "fork": false,
+      "url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM",
+      "forks_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/forks",
+      "keys_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/teams",
+      "hooks_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/hooks",
+      "issue_events_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/events",
+      "assignees_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/tags",
+      "blobs_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/languages",
+      "stargazers_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/stargazers",
+      "contributors_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/contributors",
+      "subscribers_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/subscribers",
+      "subscription_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/subscription",
+      "commits_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/merges",
+      "archive_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/downloads",
+      "issues_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/labels{/name}",
+      "releases_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/NancyLis1/Autonomous-Maze-Navigator-SLAM/deployments",
+      "created_at": "2025-10-24T02:14:29Z",
+      "updated_at": "2026-03-29T04:38:21Z",
+      "pushed_at": "2026-03-29T04:38:12Z",
+      "git_url": "git://github.com/NancyLis1/Autonomous-Maze-Navigator-SLAM.git",
+      "ssh_url": "git@github.com:NancyLis1/Autonomous-Maze-Navigator-SLAM.git",
+      "clone_url": "https://github.com/NancyLis1/Autonomous-Maze-Navigator-SLAM.git",
+      "svn_url": "https://github.com/NancyLis1/Autonomous-Maze-Navigator-SLAM",
+      "homepage": "",
+      "size": 20127,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "C",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "nancylis1autonomous-maze-navigator-slam",
+    "dedupeKey": "f90c03aceb69b95c6cf6c53798050228629deb634789493ce953ac052a44241b",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1144656951",
+    "title": "frc2881/2026-Robot",
+    "summary": "Source code for the 2026 season (Rebuilt) competition robot",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:38:15Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/frc2881/2026-Robot",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/frc2881/2026-Robot",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "frc2881"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1144656951,
+      "node_id": "R_kgDORDoUNw",
+      "name": "2026-Robot",
+      "full_name": "frc2881/2026-Robot",
+      "private": false,
+      "owner": {
+        "login": "frc2881",
+        "id": 26798207,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjI2Nzk4MjA3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26798207?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/frc2881",
+        "html_url": "https://github.com/frc2881",
+        "followers_url": "https://api.github.com/users/frc2881/followers",
+        "following_url": "https://api.github.com/users/frc2881/following{/other_user}",
+        "gists_url": "https://api.github.com/users/frc2881/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/frc2881/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/frc2881/subscriptions",
+        "organizations_url": "https://api.github.com/users/frc2881/orgs",
+        "repos_url": "https://api.github.com/users/frc2881/repos",
+        "events_url": "https://api.github.com/users/frc2881/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/frc2881/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/frc2881/2026-Robot",
+      "description": "Source code for the 2026 season (Rebuilt) competition robot",
+      "fork": false,
+      "url": "https://api.github.com/repos/frc2881/2026-Robot",
+      "forks_url": "https://api.github.com/repos/frc2881/2026-Robot/forks",
+      "keys_url": "https://api.github.com/repos/frc2881/2026-Robot/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/frc2881/2026-Robot/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/frc2881/2026-Robot/teams",
+      "hooks_url": "https://api.github.com/repos/frc2881/2026-Robot/hooks",
+      "issue_events_url": "https://api.github.com/repos/frc2881/2026-Robot/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/frc2881/2026-Robot/events",
+      "assignees_url": "https://api.github.com/repos/frc2881/2026-Robot/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/frc2881/2026-Robot/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/frc2881/2026-Robot/tags",
+      "blobs_url": "https://api.github.com/repos/frc2881/2026-Robot/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/frc2881/2026-Robot/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/frc2881/2026-Robot/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/frc2881/2026-Robot/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/frc2881/2026-Robot/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/frc2881/2026-Robot/languages",
+      "stargazers_url": "https://api.github.com/repos/frc2881/2026-Robot/stargazers",
+      "contributors_url": "https://api.github.com/repos/frc2881/2026-Robot/contributors",
+      "subscribers_url": "https://api.github.com/repos/frc2881/2026-Robot/subscribers",
+      "subscription_url": "https://api.github.com/repos/frc2881/2026-Robot/subscription",
+      "commits_url": "https://api.github.com/repos/frc2881/2026-Robot/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/frc2881/2026-Robot/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/frc2881/2026-Robot/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/frc2881/2026-Robot/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/frc2881/2026-Robot/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/frc2881/2026-Robot/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/frc2881/2026-Robot/merges",
+      "archive_url": "https://api.github.com/repos/frc2881/2026-Robot/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/frc2881/2026-Robot/downloads",
+      "issues_url": "https://api.github.com/repos/frc2881/2026-Robot/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/frc2881/2026-Robot/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/frc2881/2026-Robot/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/frc2881/2026-Robot/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/frc2881/2026-Robot/labels{/name}",
+      "releases_url": "https://api.github.com/repos/frc2881/2026-Robot/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/frc2881/2026-Robot/deployments",
+      "created_at": "2026-01-28T22:39:35Z",
+      "updated_at": "2026-03-29T04:38:15Z",
+      "pushed_at": "2026-03-29T04:38:12Z",
+      "git_url": "git://github.com/frc2881/2026-Robot.git",
+      "ssh_url": "git@github.com:frc2881/2026-Robot.git",
+      "clone_url": "https://github.com/frc2881/2026-Robot.git",
+      "svn_url": "https://github.com/frc2881/2026-Robot",
+      "homepage": "",
+      "size": 169,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": false,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "frc28812026-robot",
+    "dedupeKey": "adf6cb546a9caf654822890449f65f550cc87dd006759f4f59e6b4c3dda8dc9d",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1194911449",
+    "title": "synthreason-source/robotics",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:38:00Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/synthreason-source/robotics",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/synthreason-source/robotics",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "synthreason-source"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1194911449,
+      "node_id": "R_kgDORzjm2Q",
+      "name": "robotics",
+      "full_name": "synthreason-source/robotics",
+      "private": false,
+      "owner": {
+        "login": "synthreason-source",
+        "id": 258394825,
+        "node_id": "U_kgDOD2bKyQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/258394825?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/synthreason-source",
+        "html_url": "https://github.com/synthreason-source",
+        "followers_url": "https://api.github.com/users/synthreason-source/followers",
+        "following_url": "https://api.github.com/users/synthreason-source/following{/other_user}",
+        "gists_url": "https://api.github.com/users/synthreason-source/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/synthreason-source/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/synthreason-source/subscriptions",
+        "organizations_url": "https://api.github.com/users/synthreason-source/orgs",
+        "repos_url": "https://api.github.com/users/synthreason-source/repos",
+        "events_url": "https://api.github.com/users/synthreason-source/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/synthreason-source/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/synthreason-source/robotics",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/synthreason-source/robotics",
+      "forks_url": "https://api.github.com/repos/synthreason-source/robotics/forks",
+      "keys_url": "https://api.github.com/repos/synthreason-source/robotics/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/synthreason-source/robotics/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/synthreason-source/robotics/teams",
+      "hooks_url": "https://api.github.com/repos/synthreason-source/robotics/hooks",
+      "issue_events_url": "https://api.github.com/repos/synthreason-source/robotics/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/synthreason-source/robotics/events",
+      "assignees_url": "https://api.github.com/repos/synthreason-source/robotics/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/synthreason-source/robotics/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/synthreason-source/robotics/tags",
+      "blobs_url": "https://api.github.com/repos/synthreason-source/robotics/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/synthreason-source/robotics/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/synthreason-source/robotics/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/synthreason-source/robotics/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/synthreason-source/robotics/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/synthreason-source/robotics/languages",
+      "stargazers_url": "https://api.github.com/repos/synthreason-source/robotics/stargazers",
+      "contributors_url": "https://api.github.com/repos/synthreason-source/robotics/contributors",
+      "subscribers_url": "https://api.github.com/repos/synthreason-source/robotics/subscribers",
+      "subscription_url": "https://api.github.com/repos/synthreason-source/robotics/subscription",
+      "commits_url": "https://api.github.com/repos/synthreason-source/robotics/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/synthreason-source/robotics/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/synthreason-source/robotics/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/synthreason-source/robotics/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/synthreason-source/robotics/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/synthreason-source/robotics/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/synthreason-source/robotics/merges",
+      "archive_url": "https://api.github.com/repos/synthreason-source/robotics/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/synthreason-source/robotics/downloads",
+      "issues_url": "https://api.github.com/repos/synthreason-source/robotics/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/synthreason-source/robotics/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/synthreason-source/robotics/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/synthreason-source/robotics/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/synthreason-source/robotics/labels{/name}",
+      "releases_url": "https://api.github.com/repos/synthreason-source/robotics/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/synthreason-source/robotics/deployments",
+      "created_at": "2026-03-29T01:11:09Z",
+      "updated_at": "2026-03-29T04:38:00Z",
+      "pushed_at": "2026-03-29T04:37:57Z",
+      "git_url": "git://github.com/synthreason-source/robotics.git",
+      "ssh_url": "git@github.com:synthreason-source/robotics.git",
+      "clone_url": "https://github.com/synthreason-source/robotics.git",
+      "svn_url": "https://github.com/synthreason-source/robotics",
+      "homepage": null,
+      "size": 39,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "synthreason-sourcerobotics",
+    "dedupeKey": "9fad2b11d9be5099cfd73c973fd0374ade3dbc87e21fae1df1a16eef3d08d608",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1194995935",
+    "title": "KowshikRaj001/robotics-cpp-foundations-main",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:37:29Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/KowshikRaj001/robotics-cpp-foundations-main",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/KowshikRaj001/robotics-cpp-foundations-main",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "KowshikRaj001"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1194995935,
+      "node_id": "R_kgDORzow3w",
+      "name": "robotics-cpp-foundations-main",
+      "full_name": "KowshikRaj001/robotics-cpp-foundations-main",
+      "private": false,
+      "owner": {
+        "login": "KowshikRaj001",
+        "id": 138418873,
+        "node_id": "U_kgDOCEAauQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138418873?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/KowshikRaj001",
+        "html_url": "https://github.com/KowshikRaj001",
+        "followers_url": "https://api.github.com/users/KowshikRaj001/followers",
+        "following_url": "https://api.github.com/users/KowshikRaj001/following{/other_user}",
+        "gists_url": "https://api.github.com/users/KowshikRaj001/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/KowshikRaj001/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/KowshikRaj001/subscriptions",
+        "organizations_url": "https://api.github.com/users/KowshikRaj001/orgs",
+        "repos_url": "https://api.github.com/users/KowshikRaj001/repos",
+        "events_url": "https://api.github.com/users/KowshikRaj001/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/KowshikRaj001/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/KowshikRaj001/robotics-cpp-foundations-main",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main",
+      "forks_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/forks",
+      "keys_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/teams",
+      "hooks_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/hooks",
+      "issue_events_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/events",
+      "assignees_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/tags",
+      "blobs_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/languages",
+      "stargazers_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/stargazers",
+      "contributors_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/contributors",
+      "subscribers_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/subscribers",
+      "subscription_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/subscription",
+      "commits_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/merges",
+      "archive_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/downloads",
+      "issues_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/labels{/name}",
+      "releases_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/KowshikRaj001/robotics-cpp-foundations-main/deployments",
+      "created_at": "2026-03-29T04:30:51Z",
+      "updated_at": "2026-03-29T04:37:29Z",
+      "pushed_at": "2026-03-29T04:37:26Z",
+      "git_url": "git://github.com/KowshikRaj001/robotics-cpp-foundations-main.git",
+      "ssh_url": "git@github.com:KowshikRaj001/robotics-cpp-foundations-main.git",
+      "clone_url": "https://github.com/KowshikRaj001/robotics-cpp-foundations-main.git",
+      "svn_url": "https://github.com/KowshikRaj001/robotics-cpp-foundations-main",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "C++",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "kowshikraj001robotics-cpp-foundations-main",
+    "dedupeKey": "3892fab1533e088a5b9842e1de4d9921275845b98e990ac79261ebe181b985f5",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1194955302",
+    "title": "whitbrunn/ME5413_Assignments_Final-Collection",
+    "summary": "This repo is an individual collection of the code & reports of assignment 1-3, from ME5413 Autonomous Mobile Robotics @NUS, ay 2024/2025. Inspired by Jiayi Weng @THU, hope this repo could inspire your studying through this cource.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:37:27Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/whitbrunn/ME5413_Assignments_Final-Collection",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/whitbrunn/ME5413_Assignments_Final-Collection",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "whitbrunn"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1194955302,
+      "node_id": "R_kgDORzmSJg",
+      "name": "ME5413_Assignments_Final-Collection",
+      "full_name": "whitbrunn/ME5413_Assignments_Final-Collection",
+      "private": false,
+      "owner": {
+        "login": "whitbrunn",
+        "id": 181350472,
+        "node_id": "U_kgDOCs8wSA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181350472?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/whitbrunn",
+        "html_url": "https://github.com/whitbrunn",
+        "followers_url": "https://api.github.com/users/whitbrunn/followers",
+        "following_url": "https://api.github.com/users/whitbrunn/following{/other_user}",
+        "gists_url": "https://api.github.com/users/whitbrunn/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/whitbrunn/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/whitbrunn/subscriptions",
+        "organizations_url": "https://api.github.com/users/whitbrunn/orgs",
+        "repos_url": "https://api.github.com/users/whitbrunn/repos",
+        "events_url": "https://api.github.com/users/whitbrunn/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/whitbrunn/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/whitbrunn/ME5413_Assignments_Final-Collection",
+      "description": "This repo is an individual collection of the code & reports of assignment 1-3, from ME5413 Autonomous Mobile Robotics @NUS, ay 2024/2025. Inspired by Jiayi Weng @THU, hope this repo could inspire your studying through this cource.",
+      "fork": false,
+      "url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection",
+      "forks_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/forks",
+      "keys_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/teams",
+      "hooks_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/hooks",
+      "issue_events_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/events",
+      "assignees_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/tags",
+      "blobs_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/languages",
+      "stargazers_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/stargazers",
+      "contributors_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/contributors",
+      "subscribers_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/subscribers",
+      "subscription_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/subscription",
+      "commits_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/merges",
+      "archive_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/downloads",
+      "issues_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/labels{/name}",
+      "releases_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/whitbrunn/ME5413_Assignments_Final-Collection/deployments",
+      "created_at": "2026-03-29T02:56:44Z",
+      "updated_at": "2026-03-29T04:37:27Z",
+      "pushed_at": "2026-03-29T04:37:24Z",
+      "git_url": "git://github.com/whitbrunn/ME5413_Assignments_Final-Collection.git",
+      "ssh_url": "git@github.com:whitbrunn/ME5413_Assignments_Final-Collection.git",
+      "clone_url": "https://github.com/whitbrunn/ME5413_Assignments_Final-Collection.git",
+      "svn_url": "https://github.com/whitbrunn/ME5413_Assignments_Final-Collection",
+      "homepage": "",
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Jupyter Notebook",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "whitbrunnme5413assignmentsfinal-collection",
+    "dedupeKey": "8ef256fad0912300f938bf47b9b5a7500e45f5b02ef2295233a29c012e2bd3cf",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1022689569",
+    "title": "pgmonitorbrasil/nav2_hybrid_A_star",
+    "summary": "🌟 Implement hybrid A* for modular robot navigation simulation and compare with Nav2 algorithms for performance insights.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:37:24Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/pgmonitorbrasil/nav2_hybrid_A_star",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/pgmonitorbrasil/nav2_hybrid_A_star",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "pgmonitorbrasil"
+    ],
+    "category": "code",
+    "keywords": [
+      "astar-algorithm",
+      "gazebo",
+      "gazebo-simulator",
+      "hybridastar",
+      "nav2",
+      "nav2-plugins",
+      "navigation2",
+      "path-planning",
+      "robot",
+      "robotics",
+      "robotsimulation",
+      "ros2",
+      "ros2-humble",
+      "rviz2"
+    ],
+    "tags": [
+      "仿真训练"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1022689569,
+      "node_id": "R_kgDOPPUBIQ",
+      "name": "nav2_hybrid_A_star",
+      "full_name": "pgmonitorbrasil/nav2_hybrid_A_star",
+      "private": false,
+      "owner": {
+        "login": "pgmonitorbrasil",
+        "id": 221731777,
+        "node_id": "U_kgDODTdbwQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/221731777?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pgmonitorbrasil",
+        "html_url": "https://github.com/pgmonitorbrasil",
+        "followers_url": "https://api.github.com/users/pgmonitorbrasil/followers",
+        "following_url": "https://api.github.com/users/pgmonitorbrasil/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pgmonitorbrasil/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pgmonitorbrasil/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pgmonitorbrasil/subscriptions",
+        "organizations_url": "https://api.github.com/users/pgmonitorbrasil/orgs",
+        "repos_url": "https://api.github.com/users/pgmonitorbrasil/repos",
+        "events_url": "https://api.github.com/users/pgmonitorbrasil/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pgmonitorbrasil/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/pgmonitorbrasil/nav2_hybrid_A_star",
+      "description": "🌟 Implement hybrid A* for modular robot navigation simulation and compare with Nav2 algorithms for performance insights.",
+      "fork": false,
+      "url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star",
+      "forks_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/forks",
+      "keys_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/teams",
+      "hooks_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/hooks",
+      "issue_events_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/events",
+      "assignees_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/tags",
+      "blobs_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/languages",
+      "stargazers_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/stargazers",
+      "contributors_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/contributors",
+      "subscribers_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/subscribers",
+      "subscription_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/subscription",
+      "commits_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/merges",
+      "archive_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/downloads",
+      "issues_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/labels{/name}",
+      "releases_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/pgmonitorbrasil/nav2_hybrid_A_star/deployments",
+      "created_at": "2025-07-19T16:03:33Z",
+      "updated_at": "2026-03-29T04:37:24Z",
+      "pushed_at": "2026-03-29T04:37:21Z",
+      "git_url": "git://github.com/pgmonitorbrasil/nav2_hybrid_A_star.git",
+      "ssh_url": "git@github.com:pgmonitorbrasil/nav2_hybrid_A_star.git",
+      "clone_url": "https://github.com/pgmonitorbrasil/nav2_hybrid_A_star.git",
+      "svn_url": "https://github.com/pgmonitorbrasil/nav2_hybrid_A_star",
+      "homepage": "https://pgmonitorbrasil.github.io",
+      "size": 2586,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "TypeScript",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 1,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "astar-algorithm",
+        "gazebo",
+        "gazebo-simulator",
+        "hybridastar",
+        "nav2",
+        "nav2-plugins",
+        "navigation2",
+        "path-planning",
+        "robot",
+        "robotics",
+        "robotsimulation",
+        "ros2",
+        "ros2-humble",
+        "rviz2"
+      ],
+      "visibility": "public",
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "pgmonitorbrasilnav2hybridastar",
+    "dedupeKey": "b83b66b585fc22602222662313b3fb824596d4b7a4b3bfd518f72fce438acfbc",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1134869233",
+    "title": "piroto1234/DepthBot-STM32-Core",
+    "summary": "🤖 Control motors with STM32 using PWM, integrate RealSense and QT for advanced robotics applications, and access essential code and libraries.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:37:22Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/piroto1234/DepthBot-STM32-Core",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/piroto1234/DepthBot-STM32-Core",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "piroto1234"
+    ],
+    "category": "code",
+    "keywords": [
+      "ch340",
+      "keil",
+      "opencv",
+      "pwm",
+      "pwm-controller",
+      "pwm-driver",
+      "qt",
+      "qtcreator",
+      "realsense",
+      "realsense-camera",
+      "stm32",
+      "stm32cubemx",
+      "stm32cubeprogrammer",
+      "stm32f4"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1134869233,
+      "node_id": "R_kgDOQ6S68Q",
+      "name": "DepthBot-STM32-Core",
+      "full_name": "piroto1234/DepthBot-STM32-Core",
+      "private": false,
+      "owner": {
+        "login": "piroto1234",
+        "id": 195364828,
+        "node_id": "U_kgDOC6UH3A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/195364828?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/piroto1234",
+        "html_url": "https://github.com/piroto1234",
+        "followers_url": "https://api.github.com/users/piroto1234/followers",
+        "following_url": "https://api.github.com/users/piroto1234/following{/other_user}",
+        "gists_url": "https://api.github.com/users/piroto1234/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/piroto1234/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/piroto1234/subscriptions",
+        "organizations_url": "https://api.github.com/users/piroto1234/orgs",
+        "repos_url": "https://api.github.com/users/piroto1234/repos",
+        "events_url": "https://api.github.com/users/piroto1234/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/piroto1234/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/piroto1234/DepthBot-STM32-Core",
+      "description": "🤖 Control motors with STM32 using PWM, integrate RealSense and QT for advanced robotics applications, and access essential code and libraries.",
+      "fork": false,
+      "url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core",
+      "forks_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/forks",
+      "keys_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/teams",
+      "hooks_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/hooks",
+      "issue_events_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/events",
+      "assignees_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/tags",
+      "blobs_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/languages",
+      "stargazers_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/stargazers",
+      "contributors_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/contributors",
+      "subscribers_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/subscribers",
+      "subscription_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/subscription",
+      "commits_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/merges",
+      "archive_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/downloads",
+      "issues_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/labels{/name}",
+      "releases_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/piroto1234/DepthBot-STM32-Core/deployments",
+      "created_at": "2026-01-15T10:15:58Z",
+      "updated_at": "2026-03-29T04:37:22Z",
+      "pushed_at": "2026-03-29T04:37:19Z",
+      "git_url": "git://github.com/piroto1234/DepthBot-STM32-Core.git",
+      "ssh_url": "git@github.com:piroto1234/DepthBot-STM32-Core.git",
+      "clone_url": "https://github.com/piroto1234/DepthBot-STM32-Core.git",
+      "svn_url": "https://github.com/piroto1234/DepthBot-STM32-Core",
+      "homepage": "https://piroto1234.github.io",
+      "size": 32315,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "C",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "ch340",
+        "keil",
+        "opencv",
+        "pwm",
+        "pwm-controller",
+        "pwm-driver",
+        "qt",
+        "qtcreator",
+        "realsense",
+        "realsense-camera",
+        "stm32",
+        "stm32cubemx",
+        "stm32cubeprogrammer",
+        "stm32f4"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "piroto1234depthbot-stm32-core",
+    "dedupeKey": "1b5063c8c42fbae4d1fbaa582b780c90dedb9059e7fd8a23f20866ffcdd9835a",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1134778374",
+    "title": "Samirasis/Robo-Dopamine",
+    "summary": "🤖 Enhance robotic manipulation with Robo-Dopamine, a process for modeling rewards that improves precision and efficiency in tasks.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:37:21Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Samirasis/Robo-Dopamine",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Samirasis/Robo-Dopamine",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Samirasis"
+    ],
+    "category": "code",
+    "keywords": [
+      "animation",
+      "attd",
+      "automation",
+      "autonomous-navigation",
+      "autonomous-vehicles",
+      "federated-learning",
+      "linux",
+      "medical-image-processing",
+      "music-player",
+      "path-planning",
+      "robot",
+      "robotics",
+      "secure-multi-party-computation",
+      "slam",
+      "testing"
+    ],
+    "tags": [
+      "机械臂操作",
+      "水下机器人"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1134778374,
+      "node_id": "R_kgDOQ6NYBg",
+      "name": "Robo-Dopamine",
+      "full_name": "Samirasis/Robo-Dopamine",
+      "private": false,
+      "owner": {
+        "login": "Samirasis",
+        "id": 193298570,
+        "node_id": "U_kgDOC4WAig",
+        "avatar_url": "https://avatars.githubusercontent.com/u/193298570?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Samirasis",
+        "html_url": "https://github.com/Samirasis",
+        "followers_url": "https://api.github.com/users/Samirasis/followers",
+        "following_url": "https://api.github.com/users/Samirasis/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Samirasis/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Samirasis/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Samirasis/subscriptions",
+        "organizations_url": "https://api.github.com/users/Samirasis/orgs",
+        "repos_url": "https://api.github.com/users/Samirasis/repos",
+        "events_url": "https://api.github.com/users/Samirasis/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Samirasis/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Samirasis/Robo-Dopamine",
+      "description": "🤖 Enhance robotic manipulation with Robo-Dopamine, a process for modeling rewards that improves precision and efficiency in tasks.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Samirasis/Robo-Dopamine",
+      "forks_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/forks",
+      "keys_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/teams",
+      "hooks_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/hooks",
+      "issue_events_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/events",
+      "assignees_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/tags",
+      "blobs_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/languages",
+      "stargazers_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/stargazers",
+      "contributors_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/contributors",
+      "subscribers_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/subscribers",
+      "subscription_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/subscription",
+      "commits_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/merges",
+      "archive_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/downloads",
+      "issues_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Samirasis/Robo-Dopamine/deployments",
+      "created_at": "2026-01-15T07:31:12Z",
+      "updated_at": "2026-03-29T04:37:21Z",
+      "pushed_at": "2026-03-29T04:37:18Z",
+      "git_url": "git://github.com/Samirasis/Robo-Dopamine.git",
+      "ssh_url": "git@github.com:Samirasis/Robo-Dopamine.git",
+      "clone_url": "https://github.com/Samirasis/Robo-Dopamine.git",
+      "svn_url": "https://github.com/Samirasis/Robo-Dopamine",
+      "homepage": "https://samirasis.github.io",
+      "size": 55560,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "animation",
+        "attd",
+        "automation",
+        "autonomous-navigation",
+        "autonomous-vehicles",
+        "federated-learning",
+        "linux",
+        "medical-image-processing",
+        "music-player",
+        "path-planning",
+        "robot",
+        "robotics",
+        "secure-multi-party-computation",
+        "slam",
+        "testing"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "samirasisrobo-dopamine",
+    "dedupeKey": "4334c2e70d180f99d6e22935afff07e856a2d6da2f5b818e383382e4a820857d",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "EZCon/SmolVLM2-2.2B-Instruct-4bit-g32-mxfp4-mixed_4_8-mlx",
+    "title": "EZCon/SmolVLM2-2.2B-Instruct-4bit-g32-mxfp4-mixed_4_8-mlx",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: image-text-to-text；Downloads: 107；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:36:07.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/EZCon/SmolVLM2-2.2B-Instruct-4bit-g32-mxfp4-mixed_4_8-mlx",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/EZCon/SmolVLM2-2.2B-Instruct-4bit-g32-mxfp4-mixed_4_8-mlx",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "mlx",
+      "safetensors",
+      "smolvlm",
+      "video-text-to-text",
+      "image-text-to-text",
+      "conversational",
+      "en",
+      "dataset:HuggingFaceM4/the_cauldron",
+      "dataset:HuggingFaceM4/Docmatix",
+      "dataset:lmms-lab/LLaVA-OneVision-Data",
+      "dataset:lmms-lab/M4-Instruct-Data",
+      "dataset:HuggingFaceFV/finevideo",
+      "dataset:MAmmoTH-VL/MAmmoTH-VL-Instruct-12M",
+      "dataset:lmms-lab/LLaVA-Video-178K",
+      "dataset:orrzohar/Video-STaR",
+      "dataset:Mutonix/Vript",
+      "dataset:TIGER-Lab/VISTA-400K",
+      "dataset:Enxin/MovieChat-1K_train",
+      "dataset:ShareGPT4Video/ShareGPT4Video",
+      "base_model:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "base_model:quantized:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "license:apache-2.0",
+      "4-bit",
+      "region:us"
+    ],
+    "tags": [
+      "机器人视觉语言模型"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "6983ddec1d823e0cdd8ea351",
+      "id": "EZCon/SmolVLM2-2.2B-Instruct-4bit-g32-mxfp4-mixed_4_8-mlx",
+      "author": "EZCon",
+      "gated": false,
+      "lastModified": "2026-03-29T04:36:07.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "27e74a340a51b8ba99189f199ec6395b677f83b9",
+      "downloads": 107,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "smolvlm",
+        "video-text-to-text",
+        "image-text-to-text",
+        "conversational",
+        "en",
+        "dataset:HuggingFaceM4/the_cauldron",
+        "dataset:HuggingFaceM4/Docmatix",
+        "dataset:lmms-lab/LLaVA-OneVision-Data",
+        "dataset:lmms-lab/M4-Instruct-Data",
+        "dataset:HuggingFaceFV/finevideo",
+        "dataset:MAmmoTH-VL/MAmmoTH-VL-Instruct-12M",
+        "dataset:lmms-lab/LLaVA-Video-178K",
+        "dataset:orrzohar/Video-STaR",
+        "dataset:Mutonix/Vript",
+        "dataset:TIGER-Lab/VISTA-400K",
+        "dataset:Enxin/MovieChat-1K_train",
+        "dataset:ShareGPT4Video/ShareGPT4Video",
+        "base_model:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "base_model:quantized:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "license:apache-2.0",
+        "4-bit",
+        "region:us"
+      ],
+      "pipeline_tag": "image-text-to-text",
+      "library_name": "mlx",
+      "createdAt": "2026-02-05T00:01:48.000Z",
+      "modelId": "EZCon/SmolVLM2-2.2B-Instruct-4bit-g32-mxfp4-mixed_4_8-mlx",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "added_tokens.json"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "chat_template.json"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "preprocessor_config.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "special_tokens_map.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        },
+        {
+          "rfilename": "vocab.json"
+        }
+      ]
+    },
+    "slug": "ezconsmolvlm2-22b-instruct-4bit-g32-mxfp4-mixed48-mlx",
+    "dedupeKey": "e373c6fa87f30782b193e82bf82091acbf62394f4aa80c623aac740573719d09",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "1071545511",
+    "title": "Vic-GoodLuck/PaperRobot",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:36:05Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Vic-GoodLuck/PaperRobot",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Vic-GoodLuck/PaperRobot",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Vic-GoodLuck"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1071545511,
+      "node_id": "R_kgDOP958pw",
+      "name": "PaperRobot",
+      "full_name": "Vic-GoodLuck/PaperRobot",
+      "private": false,
+      "owner": {
+        "login": "Vic-GoodLuck",
+        "id": 88023303,
+        "node_id": "MDQ6VXNlcjg4MDIzMzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/88023303?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Vic-GoodLuck",
+        "html_url": "https://github.com/Vic-GoodLuck",
+        "followers_url": "https://api.github.com/users/Vic-GoodLuck/followers",
+        "following_url": "https://api.github.com/users/Vic-GoodLuck/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Vic-GoodLuck/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Vic-GoodLuck/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Vic-GoodLuck/subscriptions",
+        "organizations_url": "https://api.github.com/users/Vic-GoodLuck/orgs",
+        "repos_url": "https://api.github.com/users/Vic-GoodLuck/repos",
+        "events_url": "https://api.github.com/users/Vic-GoodLuck/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Vic-GoodLuck/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Vic-GoodLuck/PaperRobot",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot",
+      "forks_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/forks",
+      "keys_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/teams",
+      "hooks_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/hooks",
+      "issue_events_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/events",
+      "assignees_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/tags",
+      "blobs_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/languages",
+      "stargazers_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/stargazers",
+      "contributors_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/contributors",
+      "subscribers_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/subscribers",
+      "subscription_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/subscription",
+      "commits_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/merges",
+      "archive_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/downloads",
+      "issues_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Vic-GoodLuck/PaperRobot/deployments",
+      "created_at": "2025-10-07T13:46:27Z",
+      "updated_at": "2026-03-29T04:36:05Z",
+      "pushed_at": "2026-03-29T04:36:01Z",
+      "git_url": "git://github.com/Vic-GoodLuck/PaperRobot.git",
+      "ssh_url": "git@github.com:Vic-GoodLuck/PaperRobot.git",
+      "clone_url": "https://github.com/Vic-GoodLuck/PaperRobot.git",
+      "svn_url": "https://github.com/Vic-GoodLuck/PaperRobot",
+      "homepage": null,
+      "size": 114,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "vic-goodluckpaperrobot",
+    "dedupeKey": "cf90b5af43c64353b877d6a7a0e31ed86622f1f7b7d17a3ce077d77449f8aa2c",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "roboseasy/eval_pick_and_place",
+    "title": "roboseasy/eval_pick_and_place",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:36:04.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/roboseasy/eval_pick_and_place",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/roboseasy/eval_pick_and_place",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "roboseasy"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c8a89dd6b79eb7fa69e0f6",
+      "id": "roboseasy/eval_pick_and_place",
+      "author": "roboseasy",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-29T04:36:04.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "f30b6343b1510c81870ab8665beff5927a23acac",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 2,\n    \"total_frames\": 3277,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:2\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/roboseasy/eval_pick_and_place.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-29T04:20:45.000Z",
+      "key": ""
+    },
+    "slug": "roboseasyevalpickandplace",
+    "dedupeKey": "d3e128bbc643d74dd8f3d40ca04c2346f6d268385d91f96aa92888750936d09a",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "EZCon/SmolVLM2-2.2B-Instruct-8bit-mlx",
+    "title": "EZCon/SmolVLM2-2.2B-Instruct-8bit-mlx",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: image-text-to-text；Downloads: 61；Likes: 1。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:35:52.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/EZCon/SmolVLM2-2.2B-Instruct-8bit-mlx",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/EZCon/SmolVLM2-2.2B-Instruct-8bit-mlx",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "mlx",
+      "safetensors",
+      "smolvlm",
+      "video-text-to-text",
+      "image-text-to-text",
+      "conversational",
+      "en",
+      "dataset:HuggingFaceM4/the_cauldron",
+      "dataset:HuggingFaceM4/Docmatix",
+      "dataset:lmms-lab/LLaVA-OneVision-Data",
+      "dataset:lmms-lab/M4-Instruct-Data",
+      "dataset:HuggingFaceFV/finevideo",
+      "dataset:MAmmoTH-VL/MAmmoTH-VL-Instruct-12M",
+      "dataset:lmms-lab/LLaVA-Video-178K",
+      "dataset:orrzohar/Video-STaR",
+      "dataset:Mutonix/Vript",
+      "dataset:TIGER-Lab/VISTA-400K",
+      "dataset:Enxin/MovieChat-1K_train",
+      "dataset:ShareGPT4Video/ShareGPT4Video",
+      "base_model:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "base_model:quantized:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "license:apache-2.0",
+      "8-bit",
+      "region:us"
+    ],
+    "tags": [
+      "机器人视觉语言模型"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "688cfc3d4237fb28a0b2c7a1",
+      "id": "EZCon/SmolVLM2-2.2B-Instruct-8bit-mlx",
+      "author": "EZCon",
+      "gated": false,
+      "lastModified": "2026-03-29T04:35:52.000Z",
+      "likes": 1,
+      "private": false,
+      "sha": "dbb1cf16ee715f8b7884d9c486acdc8071628c95",
+      "downloads": 61,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "smolvlm",
+        "video-text-to-text",
+        "image-text-to-text",
+        "conversational",
+        "en",
+        "dataset:HuggingFaceM4/the_cauldron",
+        "dataset:HuggingFaceM4/Docmatix",
+        "dataset:lmms-lab/LLaVA-OneVision-Data",
+        "dataset:lmms-lab/M4-Instruct-Data",
+        "dataset:HuggingFaceFV/finevideo",
+        "dataset:MAmmoTH-VL/MAmmoTH-VL-Instruct-12M",
+        "dataset:lmms-lab/LLaVA-Video-178K",
+        "dataset:orrzohar/Video-STaR",
+        "dataset:Mutonix/Vript",
+        "dataset:TIGER-Lab/VISTA-400K",
+        "dataset:Enxin/MovieChat-1K_train",
+        "dataset:ShareGPT4Video/ShareGPT4Video",
+        "base_model:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "base_model:quantized:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "pipeline_tag": "image-text-to-text",
+      "library_name": "mlx",
+      "createdAt": "2025-08-01T17:41:17.000Z",
+      "modelId": "EZCon/SmolVLM2-2.2B-Instruct-8bit-mlx",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "added_tokens.json"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "chat_template.json"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "merges.txt"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "preprocessor_config.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "special_tokens_map.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        },
+        {
+          "rfilename": "video_preprocessor_config.json"
+        },
+        {
+          "rfilename": "vocab.json"
+        }
+      ]
+    },
+    "slug": "ezconsmolvlm2-22b-instruct-8bit-mlx",
+    "dedupeKey": "b170dc271fe0b2cdf1821e696b42911dcd6a9eedace59b1354313aba7dc85858",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "EZCon/SmolVLM2-2.2B-Instruct-4bit-mlx",
+    "title": "EZCon/SmolVLM2-2.2B-Instruct-4bit-mlx",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: image-text-to-text；Downloads: 56；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:35:34.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/EZCon/SmolVLM2-2.2B-Instruct-4bit-mlx",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/EZCon/SmolVLM2-2.2B-Instruct-4bit-mlx",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "mlx",
+      "safetensors",
+      "smolvlm",
+      "video-text-to-text",
+      "image-text-to-text",
+      "conversational",
+      "en",
+      "dataset:HuggingFaceM4/the_cauldron",
+      "dataset:HuggingFaceM4/Docmatix",
+      "dataset:lmms-lab/LLaVA-OneVision-Data",
+      "dataset:lmms-lab/M4-Instruct-Data",
+      "dataset:HuggingFaceFV/finevideo",
+      "dataset:MAmmoTH-VL/MAmmoTH-VL-Instruct-12M",
+      "dataset:lmms-lab/LLaVA-Video-178K",
+      "dataset:orrzohar/Video-STaR",
+      "dataset:Mutonix/Vript",
+      "dataset:TIGER-Lab/VISTA-400K",
+      "dataset:Enxin/MovieChat-1K_train",
+      "dataset:ShareGPT4Video/ShareGPT4Video",
+      "base_model:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "base_model:quantized:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "license:apache-2.0",
+      "4-bit",
+      "region:us"
+    ],
+    "tags": [
+      "机器人视觉语言模型"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "688c2968e0e32bf9e57349a5",
+      "id": "EZCon/SmolVLM2-2.2B-Instruct-4bit-mlx",
+      "author": "EZCon",
+      "gated": false,
+      "lastModified": "2026-03-29T04:35:34.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "8a350f4be9c18541876b7acdc18bdc14fb9f81e6",
+      "downloads": 56,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "smolvlm",
+        "video-text-to-text",
+        "image-text-to-text",
+        "conversational",
+        "en",
+        "dataset:HuggingFaceM4/the_cauldron",
+        "dataset:HuggingFaceM4/Docmatix",
+        "dataset:lmms-lab/LLaVA-OneVision-Data",
+        "dataset:lmms-lab/M4-Instruct-Data",
+        "dataset:HuggingFaceFV/finevideo",
+        "dataset:MAmmoTH-VL/MAmmoTH-VL-Instruct-12M",
+        "dataset:lmms-lab/LLaVA-Video-178K",
+        "dataset:orrzohar/Video-STaR",
+        "dataset:Mutonix/Vript",
+        "dataset:TIGER-Lab/VISTA-400K",
+        "dataset:Enxin/MovieChat-1K_train",
+        "dataset:ShareGPT4Video/ShareGPT4Video",
+        "base_model:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "base_model:quantized:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "license:apache-2.0",
+        "4-bit",
+        "region:us"
+      ],
+      "pipeline_tag": "image-text-to-text",
+      "library_name": "mlx",
+      "createdAt": "2025-08-01T02:41:44.000Z",
+      "modelId": "EZCon/SmolVLM2-2.2B-Instruct-4bit-mlx",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "added_tokens.json"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "chat_template.json"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "merges.txt"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "preprocessor_config.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "special_tokens_map.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        },
+        {
+          "rfilename": "video_preprocessor_config.json"
+        },
+        {
+          "rfilename": "vocab.json"
+        }
+      ]
+    },
+    "slug": "ezconsmolvlm2-22b-instruct-4bit-mlx",
+    "dedupeKey": "14ecceed4e2c6e7e3f006dc0066f322887e4cab92036a554c29c1bb7522a94a7",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "EZCon/SmolVLM2-2.2B-Instruct-mlx",
+    "title": "EZCon/SmolVLM2-2.2B-Instruct-mlx",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: image-text-to-text；Downloads: 49；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:35:18.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/EZCon/SmolVLM2-2.2B-Instruct-mlx",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/EZCon/SmolVLM2-2.2B-Instruct-mlx",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "mlx",
+      "safetensors",
+      "smolvlm",
+      "video-text-to-text",
+      "image-text-to-text",
+      "conversational",
+      "en",
+      "dataset:HuggingFaceM4/the_cauldron",
+      "dataset:HuggingFaceM4/Docmatix",
+      "dataset:lmms-lab/LLaVA-OneVision-Data",
+      "dataset:lmms-lab/M4-Instruct-Data",
+      "dataset:HuggingFaceFV/finevideo",
+      "dataset:MAmmoTH-VL/MAmmoTH-VL-Instruct-12M",
+      "dataset:lmms-lab/LLaVA-Video-178K",
+      "dataset:orrzohar/Video-STaR",
+      "dataset:Mutonix/Vript",
+      "dataset:TIGER-Lab/VISTA-400K",
+      "dataset:Enxin/MovieChat-1K_train",
+      "dataset:ShareGPT4Video/ShareGPT4Video",
+      "base_model:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "base_model:finetune:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "tags": [
+      "机器人视觉语言模型"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "688d0996a830926c3aa24f37",
+      "id": "EZCon/SmolVLM2-2.2B-Instruct-mlx",
+      "author": "EZCon",
+      "gated": false,
+      "lastModified": "2026-03-29T04:35:18.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "cf2ee6e027f5179d7d85f92d59a776f0d3f0491e",
+      "downloads": 49,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "smolvlm",
+        "video-text-to-text",
+        "image-text-to-text",
+        "conversational",
+        "en",
+        "dataset:HuggingFaceM4/the_cauldron",
+        "dataset:HuggingFaceM4/Docmatix",
+        "dataset:lmms-lab/LLaVA-OneVision-Data",
+        "dataset:lmms-lab/M4-Instruct-Data",
+        "dataset:HuggingFaceFV/finevideo",
+        "dataset:MAmmoTH-VL/MAmmoTH-VL-Instruct-12M",
+        "dataset:lmms-lab/LLaVA-Video-178K",
+        "dataset:orrzohar/Video-STaR",
+        "dataset:Mutonix/Vript",
+        "dataset:TIGER-Lab/VISTA-400K",
+        "dataset:Enxin/MovieChat-1K_train",
+        "dataset:ShareGPT4Video/ShareGPT4Video",
+        "base_model:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "base_model:finetune:HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "pipeline_tag": "image-text-to-text",
+      "library_name": "mlx",
+      "createdAt": "2025-08-01T18:38:14.000Z",
+      "modelId": "EZCon/SmolVLM2-2.2B-Instruct-mlx",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "added_tokens.json"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "chat_template.json"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "merges.txt"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "preprocessor_config.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "special_tokens_map.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        },
+        {
+          "rfilename": "video_preprocessor_config.json"
+        },
+        {
+          "rfilename": "vocab.json"
+        }
+      ]
+    },
+    "slug": "ezconsmolvlm2-22b-instruct-mlx",
+    "dedupeKey": "fec82cfa59f82b5d5df8bb875dcd4aee87a45003dcc350fce49b4044fb3b621f",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "qualia-robotics/smolvla-xlerobot-a4a443df",
+    "title": "qualia-robotics/smolvla-xlerobot-a4a443df",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:34:38.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/qualia-robotics/smolvla-xlerobot-a4a443df",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/qualia-robotics/smolvla-xlerobot-a4a443df",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "lerobot",
+      "safetensors",
+      "smolvla",
+      "robotics",
+      "dataset:hotpotfishsummer/xlerobot",
+      "arxiv:2506.01844",
+      "base_model:lerobot/smolvla_base",
+      "base_model:finetune:lerobot/smolvla_base",
+      "license:apache-2.0",
+      "region:eu"
+    ],
+    "tags": [
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.86,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c8abc929756bd8b2a1f3b3",
+      "id": "qualia-robotics/smolvla-xlerobot-a4a443df",
+      "author": "qualia-robotics",
+      "gated": false,
+      "lastModified": "2026-03-29T04:34:38.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "9c51202f50fcbc2c74e92bf77960d60ef746920c",
+      "downloads": 0,
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "smolvla",
+        "robotics",
+        "dataset:hotpotfishsummer/xlerobot",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
+        "license:apache-2.0",
+        "region:eu"
+      ],
+      "pipeline_tag": "robotics",
+      "library_name": "lerobot",
+      "createdAt": "2026-03-29T04:34:17.000Z",
+      "modelId": "qualia-robotics/smolvla-xlerobot-a4a443df",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "policy_postprocessor.json"
+        },
+        {
+          "rfilename": "policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "policy_preprocessor.json"
+        },
+        {
+          "rfilename": "policy_preprocessor_step_5_normalizer_processor.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        }
+      ]
+    },
+    "slug": "qualia-roboticssmolvla-xlerobot-a4a443df",
+    "dedupeKey": "7b0e3335345a35aee5ea41973023979ace9e173cac41775bbf49bfe23acea615",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_440ep",
+    "title": "arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_440ep",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T04:33:02.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_440ep",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_440ep",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "arjunsinghyadav2"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c8ab738c6e79ecc692e92f",
+      "id": "arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_440ep",
+      "author": "arjunsinghyadav2",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-29T04:33:02.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "59ee9c54ab75d7cb218a06adefc8b1d9fda9c251",
+      "description": "This dataset was created using LeRobot.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 440,\n    \"total_frames\": 162221,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:440\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_440ep.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-29T04:32:51.000Z",
+      "key": ""
+    },
+    "slug": "arjunsinghyadav2bluesortblackbgcoloredcupsv1440ep",
+    "dedupeKey": "cd8b64ca437b5530bc1ea49a29b2c1df844bd7168edb09d770104696765a5110",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
     "externalId": "arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_b21_03282026165012",
     "title": "arjunsinghyadav2/blue_sort_black_bg_colored_cups_v1_b21_03282026165012",
     "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
@@ -69,7 +2247,11 @@
     "dedupeKey": "0ef9faa3ff12d3ee224bb59665ec400294a5c4ec77f4399cd8f58853c4f1c417",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "0ef9faa3ff12d3ee224bb59665ec400294a5c4ec77f4399cd8f58853c4f1c417",
+    "createdAt": "2026-03-28T23:59:18.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1160422156",
@@ -210,7 +2392,11 @@
     "dedupeKey": "71f463f6291a18786ad7eb1bae609d4cd1f593e8e261a5fe2f121e373968c0fb",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "71f463f6291a18786ad7eb1bae609d4cd1f593e8e261a5fe2f121e373968c0fb",
+    "createdAt": "2026-03-28T23:59:01Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "Lalla-SouSou/Islam-datasets-Edit",
@@ -260,7 +2446,11 @@
     "dedupeKey": "f8a81ee2cc6c8969c86cb0e1e06de0c11f4873860c4d08200c0a507d63a75f14",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "f8a81ee2cc6c8969c86cb0e1e06de0c11f4873860c4d08200c0a507d63a75f14",
+    "createdAt": "2026-03-28T23:58:42.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1166203076",
@@ -441,7 +2631,11 @@
     "dedupeKey": "a8274f722378a151fb762154e2bd71c410cd7ba89254c11ee681d16240ad1645",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "a8274f722378a151fb762154e2bd71c410cd7ba89254c11ee681d16240ad1645",
+    "createdAt": "2026-03-28T23:57:49Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "aivanni/eval_pi05_algebra",
@@ -513,7 +2707,11 @@
     "dedupeKey": "ecc2bd63ad47f84cc19420e03340ea1473a903b8e316c878972b9107953e7f5d",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "ecc2bd63ad47f84cc19420e03340ea1473a903b8e316c878972b9107953e7f5d",
+    "createdAt": "2026-03-28T23:52:09.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "andreacecchin/bert-as-vlm-artpricer-25k",
@@ -568,7 +2766,11 @@
     "dedupeKey": "4c44628a9ffa7b48a339331ab1244f84dfdeb18d983e0b9e63c6ae5f62e39ff6",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "4c44628a9ffa7b48a339331ab1244f84dfdeb18d983e0b9e63c6ae5f62e39ff6",
+    "createdAt": "2026-03-28T23:48:54.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1190464765",
@@ -714,7 +2916,7 @@
     ],
     "id": "c6d38c5303fb232864448960ad3d187d90af76516006b24a38c47ca0a2f671bb",
     "createdAt": "2026-03-28T09:02:38Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -808,7 +3010,7 @@
     ],
     "id": "fb19104d0a72e1f6f7ccbc765676479e856bb474f62cc83b3cedd740087c6048",
     "createdAt": "2026-03-28T09:02:20.000Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -947,7 +3149,7 @@
     ],
     "id": "3eeb47a3338030bc3545791d3e471e3f5760e26c86de19805ba4b29a515bc217",
     "createdAt": "2026-03-28T09:02:19Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {

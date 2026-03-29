@@ -1,5 +1,997 @@
 [
   {
+    "externalId": "1195305023",
+    "title": "bopi-bot/bopi-research",
+    "summary": "Daily AI & Robotics paper digest and research direction finder",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T14:04:51Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/bopi-bot/bopi-research",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/bopi-bot/bopi-research",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "bopi-bot"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1195305023,
+      "node_id": "R_kgDORz7oPw",
+      "name": "bopi-research",
+      "full_name": "bopi-bot/bopi-research",
+      "private": false,
+      "owner": {
+        "login": "bopi-bot",
+        "id": 23610468,
+        "node_id": "MDQ6VXNlcjIzNjEwNDY4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23610468?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/bopi-bot",
+        "html_url": "https://github.com/bopi-bot",
+        "followers_url": "https://api.github.com/users/bopi-bot/followers",
+        "following_url": "https://api.github.com/users/bopi-bot/following{/other_user}",
+        "gists_url": "https://api.github.com/users/bopi-bot/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/bopi-bot/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/bopi-bot/subscriptions",
+        "organizations_url": "https://api.github.com/users/bopi-bot/orgs",
+        "repos_url": "https://api.github.com/users/bopi-bot/repos",
+        "events_url": "https://api.github.com/users/bopi-bot/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/bopi-bot/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/bopi-bot/bopi-research",
+      "description": "Daily AI & Robotics paper digest and research direction finder",
+      "fork": false,
+      "url": "https://api.github.com/repos/bopi-bot/bopi-research",
+      "forks_url": "https://api.github.com/repos/bopi-bot/bopi-research/forks",
+      "keys_url": "https://api.github.com/repos/bopi-bot/bopi-research/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/bopi-bot/bopi-research/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/bopi-bot/bopi-research/teams",
+      "hooks_url": "https://api.github.com/repos/bopi-bot/bopi-research/hooks",
+      "issue_events_url": "https://api.github.com/repos/bopi-bot/bopi-research/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/bopi-bot/bopi-research/events",
+      "assignees_url": "https://api.github.com/repos/bopi-bot/bopi-research/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/bopi-bot/bopi-research/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/bopi-bot/bopi-research/tags",
+      "blobs_url": "https://api.github.com/repos/bopi-bot/bopi-research/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/bopi-bot/bopi-research/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/bopi-bot/bopi-research/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/bopi-bot/bopi-research/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/bopi-bot/bopi-research/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/bopi-bot/bopi-research/languages",
+      "stargazers_url": "https://api.github.com/repos/bopi-bot/bopi-research/stargazers",
+      "contributors_url": "https://api.github.com/repos/bopi-bot/bopi-research/contributors",
+      "subscribers_url": "https://api.github.com/repos/bopi-bot/bopi-research/subscribers",
+      "subscription_url": "https://api.github.com/repos/bopi-bot/bopi-research/subscription",
+      "commits_url": "https://api.github.com/repos/bopi-bot/bopi-research/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/bopi-bot/bopi-research/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/bopi-bot/bopi-research/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/bopi-bot/bopi-research/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/bopi-bot/bopi-research/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/bopi-bot/bopi-research/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/bopi-bot/bopi-research/merges",
+      "archive_url": "https://api.github.com/repos/bopi-bot/bopi-research/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/bopi-bot/bopi-research/downloads",
+      "issues_url": "https://api.github.com/repos/bopi-bot/bopi-research/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/bopi-bot/bopi-research/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/bopi-bot/bopi-research/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/bopi-bot/bopi-research/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/bopi-bot/bopi-research/labels{/name}",
+      "releases_url": "https://api.github.com/repos/bopi-bot/bopi-research/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/bopi-bot/bopi-research/deployments",
+      "created_at": "2026-03-29T14:04:23Z",
+      "updated_at": "2026-03-29T14:04:51Z",
+      "pushed_at": "2026-03-29T14:04:48Z",
+      "git_url": "git://github.com/bopi-bot/bopi-research.git",
+      "ssh_url": "git@github.com:bopi-bot/bopi-research.git",
+      "clone_url": "https://github.com/bopi-bot/bopi-research.git",
+      "svn_url": "https://github.com/bopi-bot/bopi-research",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "bopi-botbopi-research",
+    "dedupeKey": "ab32da55becad7a2b474b0554b8ef01868eb0b18995af38af008091c35190593",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "Popcorn32/eval_record_test",
+    "title": "Popcorn32/eval_record_test",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 67；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T14:04:45.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/Popcorn32/eval_record_test",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/Popcorn32/eval_record_test",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "Popcorn32"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "size_categories:n<1K",
+      "format:parquet",
+      "modality:tabular",
+      "modality:timeseries",
+      "modality:video",
+      "library:datasets",
+      "library:dask",
+      "library:polars",
+      "library:mlcroissant",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69becde905a4f1fa942ee374",
+      "id": "Popcorn32/eval_record_test",
+      "author": "Popcorn32",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-29T14:04:45.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "7d92d2c99dcc1b228a19d526208b6a89b15af803",
+      "description": "This dataset was created using LeRobot.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 6,\n    \"total_frames\": 438,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:6\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/Popcorn32/eval_record_test.",
+      "downloads": 67,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "size_categories:n<1K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:timeseries",
+        "modality:video",
+        "library:datasets",
+        "library:dask",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-21T16:57:13.000Z",
+      "key": ""
+    },
+    "slug": "popcorn32evalrecordtest",
+    "dedupeKey": "a61191608e776f0ba9da28fdbdf1d85bb7ff01f10c374630f225b9f4f9af4051",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "1137771326",
+    "title": "Team2556/FRC-2026",
+    "summary": "2026 FRC Rebuilt Robot Code",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T14:04:38Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Team2556/FRC-2026",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Team2556/FRC-2026",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Team2556"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1137771326,
+      "node_id": "R_kgDOQ9EDPg",
+      "name": "FRC-2026",
+      "full_name": "Team2556/FRC-2026",
+      "private": false,
+      "owner": {
+        "login": "Team2556",
+        "id": 10345343,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjEwMzQ1MzQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10345343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Team2556",
+        "html_url": "https://github.com/Team2556",
+        "followers_url": "https://api.github.com/users/Team2556/followers",
+        "following_url": "https://api.github.com/users/Team2556/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Team2556/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Team2556/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Team2556/subscriptions",
+        "organizations_url": "https://api.github.com/users/Team2556/orgs",
+        "repos_url": "https://api.github.com/users/Team2556/repos",
+        "events_url": "https://api.github.com/users/Team2556/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Team2556/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Team2556/FRC-2026",
+      "description": "2026 FRC Rebuilt Robot Code",
+      "fork": false,
+      "url": "https://api.github.com/repos/Team2556/FRC-2026",
+      "forks_url": "https://api.github.com/repos/Team2556/FRC-2026/forks",
+      "keys_url": "https://api.github.com/repos/Team2556/FRC-2026/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Team2556/FRC-2026/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Team2556/FRC-2026/teams",
+      "hooks_url": "https://api.github.com/repos/Team2556/FRC-2026/hooks",
+      "issue_events_url": "https://api.github.com/repos/Team2556/FRC-2026/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Team2556/FRC-2026/events",
+      "assignees_url": "https://api.github.com/repos/Team2556/FRC-2026/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Team2556/FRC-2026/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Team2556/FRC-2026/tags",
+      "blobs_url": "https://api.github.com/repos/Team2556/FRC-2026/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Team2556/FRC-2026/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Team2556/FRC-2026/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Team2556/FRC-2026/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Team2556/FRC-2026/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Team2556/FRC-2026/languages",
+      "stargazers_url": "https://api.github.com/repos/Team2556/FRC-2026/stargazers",
+      "contributors_url": "https://api.github.com/repos/Team2556/FRC-2026/contributors",
+      "subscribers_url": "https://api.github.com/repos/Team2556/FRC-2026/subscribers",
+      "subscription_url": "https://api.github.com/repos/Team2556/FRC-2026/subscription",
+      "commits_url": "https://api.github.com/repos/Team2556/FRC-2026/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Team2556/FRC-2026/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Team2556/FRC-2026/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Team2556/FRC-2026/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Team2556/FRC-2026/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Team2556/FRC-2026/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Team2556/FRC-2026/merges",
+      "archive_url": "https://api.github.com/repos/Team2556/FRC-2026/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Team2556/FRC-2026/downloads",
+      "issues_url": "https://api.github.com/repos/Team2556/FRC-2026/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Team2556/FRC-2026/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Team2556/FRC-2026/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Team2556/FRC-2026/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Team2556/FRC-2026/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Team2556/FRC-2026/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Team2556/FRC-2026/deployments",
+      "created_at": "2026-01-19T20:15:48Z",
+      "updated_at": "2026-03-29T14:04:38Z",
+      "pushed_at": "2026-03-29T14:04:34Z",
+      "git_url": "git://github.com/Team2556/FRC-2026.git",
+      "ssh_url": "git@github.com:Team2556/FRC-2026.git",
+      "clone_url": "https://github.com/Team2556/FRC-2026.git",
+      "svn_url": "https://github.com/Team2556/FRC-2026",
+      "homepage": "",
+      "size": 2051,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 1,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 14,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 1,
+      "open_issues": 14,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "team2556frc-2026",
+    "dedupeKey": "f4a5981530114c0c738a3b235d3351daca6583a98c9367639288a0f6a9a17f19",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1037832503",
+    "title": "Miousik974/LeLamp",
+    "summary": "Open-source robot lamp LeLamp fuses Apple’s Elegnt-inspired motion with a modular SO101 arm for quick prototyping and community-driven improvements, collaborations and feedback from community. 🐙",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T14:04:22Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Miousik974/LeLamp",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Miousik974/LeLamp",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Miousik974"
+    ],
+    "category": "code",
+    "keywords": [
+      "le-lamp-smart",
+      "lelamp"
+    ],
+    "tags": [
+      "水下机器人",
+      "开源发布",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1037832503,
+      "node_id": "R_kgDOPdwRNw",
+      "name": "LeLamp",
+      "full_name": "Miousik974/LeLamp",
+      "private": false,
+      "owner": {
+        "login": "Miousik974",
+        "id": 200626104,
+        "node_id": "U_kgDOC_VPuA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/200626104?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Miousik974",
+        "html_url": "https://github.com/Miousik974",
+        "followers_url": "https://api.github.com/users/Miousik974/followers",
+        "following_url": "https://api.github.com/users/Miousik974/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Miousik974/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Miousik974/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Miousik974/subscriptions",
+        "organizations_url": "https://api.github.com/users/Miousik974/orgs",
+        "repos_url": "https://api.github.com/users/Miousik974/repos",
+        "events_url": "https://api.github.com/users/Miousik974/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Miousik974/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Miousik974/LeLamp",
+      "description": "Open-source robot lamp LeLamp fuses Apple’s Elegnt-inspired motion with a modular SO101 arm for quick prototyping and community-driven improvements, collaborations and feedback from community. 🐙",
+      "fork": false,
+      "url": "https://api.github.com/repos/Miousik974/LeLamp",
+      "forks_url": "https://api.github.com/repos/Miousik974/LeLamp/forks",
+      "keys_url": "https://api.github.com/repos/Miousik974/LeLamp/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Miousik974/LeLamp/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Miousik974/LeLamp/teams",
+      "hooks_url": "https://api.github.com/repos/Miousik974/LeLamp/hooks",
+      "issue_events_url": "https://api.github.com/repos/Miousik974/LeLamp/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Miousik974/LeLamp/events",
+      "assignees_url": "https://api.github.com/repos/Miousik974/LeLamp/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Miousik974/LeLamp/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Miousik974/LeLamp/tags",
+      "blobs_url": "https://api.github.com/repos/Miousik974/LeLamp/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Miousik974/LeLamp/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Miousik974/LeLamp/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Miousik974/LeLamp/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Miousik974/LeLamp/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Miousik974/LeLamp/languages",
+      "stargazers_url": "https://api.github.com/repos/Miousik974/LeLamp/stargazers",
+      "contributors_url": "https://api.github.com/repos/Miousik974/LeLamp/contributors",
+      "subscribers_url": "https://api.github.com/repos/Miousik974/LeLamp/subscribers",
+      "subscription_url": "https://api.github.com/repos/Miousik974/LeLamp/subscription",
+      "commits_url": "https://api.github.com/repos/Miousik974/LeLamp/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Miousik974/LeLamp/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Miousik974/LeLamp/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Miousik974/LeLamp/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Miousik974/LeLamp/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Miousik974/LeLamp/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Miousik974/LeLamp/merges",
+      "archive_url": "https://api.github.com/repos/Miousik974/LeLamp/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Miousik974/LeLamp/downloads",
+      "issues_url": "https://api.github.com/repos/Miousik974/LeLamp/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Miousik974/LeLamp/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Miousik974/LeLamp/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Miousik974/LeLamp/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Miousik974/LeLamp/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Miousik974/LeLamp/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Miousik974/LeLamp/deployments",
+      "created_at": "2025-08-14T07:31:39Z",
+      "updated_at": "2026-03-29T14:04:22Z",
+      "pushed_at": "2026-03-29T14:04:18Z",
+      "git_url": "git://github.com/Miousik974/LeLamp.git",
+      "ssh_url": "git@github.com:Miousik974/LeLamp.git",
+      "clone_url": "https://github.com/Miousik974/LeLamp.git",
+      "svn_url": "https://github.com/Miousik974/LeLamp",
+      "homepage": null,
+      "size": 34591,
+      "stargazers_count": 25,
+      "watchers_count": 25,
+      "language": "Jupyter Notebook",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 6,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "le-lamp-smart",
+        "lelamp"
+      ],
+      "visibility": "public",
+      "forks": 6,
+      "open_issues": 0,
+      "watchers": 25,
+      "default_branch": "master",
+      "score": 1
+    },
+    "slug": "miousik974lelamp",
+    "dedupeKey": "afdb63a7f7ecd3a69b261540b1e52f8788e4717aaa70f62696e1cec21cd8cbb3",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1149991443",
+    "title": "mees-robot-learning-course/ethz-course-2026",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T14:04:04Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/mees-robot-learning-course/ethz-course-2026",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/mees-robot-learning-course/ethz-course-2026",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "mees-robot-learning-course"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.8500000000000001,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1149991443,
+      "node_id": "R_kgDORIt6Ew",
+      "name": "ethz-course-2026",
+      "full_name": "mees-robot-learning-course/ethz-course-2026",
+      "private": false,
+      "owner": {
+        "login": "mees-robot-learning-course",
+        "id": 259417462,
+        "node_id": "O_kgDOD3Zldg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/259417462?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mees-robot-learning-course",
+        "html_url": "https://github.com/mees-robot-learning-course",
+        "followers_url": "https://api.github.com/users/mees-robot-learning-course/followers",
+        "following_url": "https://api.github.com/users/mees-robot-learning-course/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mees-robot-learning-course/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mees-robot-learning-course/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mees-robot-learning-course/subscriptions",
+        "organizations_url": "https://api.github.com/users/mees-robot-learning-course/orgs",
+        "repos_url": "https://api.github.com/users/mees-robot-learning-course/repos",
+        "events_url": "https://api.github.com/users/mees-robot-learning-course/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mees-robot-learning-course/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/mees-robot-learning-course/ethz-course-2026",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026",
+      "forks_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/forks",
+      "keys_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/teams",
+      "hooks_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/hooks",
+      "issue_events_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/events",
+      "assignees_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/tags",
+      "blobs_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/languages",
+      "stargazers_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/stargazers",
+      "contributors_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/contributors",
+      "subscribers_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/subscribers",
+      "subscription_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/subscription",
+      "commits_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/merges",
+      "archive_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/downloads",
+      "issues_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/labels{/name}",
+      "releases_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/mees-robot-learning-course/ethz-course-2026/deployments",
+      "created_at": "2026-02-04T18:55:15Z",
+      "updated_at": "2026-03-29T14:04:04Z",
+      "pushed_at": "2026-03-29T14:03:59Z",
+      "git_url": "git://github.com/mees-robot-learning-course/ethz-course-2026.git",
+      "ssh_url": "git@github.com:mees-robot-learning-course/ethz-course-2026.git",
+      "clone_url": "https://github.com/mees-robot-learning-course/ethz-course-2026.git",
+      "svn_url": "https://github.com/mees-robot-learning-course/ethz-course-2026",
+      "homepage": null,
+      "size": 3290,
+      "stargazers_count": 97,
+      "watchers_count": 97,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 56,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 2,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 56,
+      "open_issues": 2,
+      "watchers": 97,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "mees-robot-learning-courseethz-course-2026",
+    "dedupeKey": "d17ea1cb0e1710fccdcd4dd0d1ac7285334cef4ff95c0c3f89a48d5f03014c3b",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1158445078",
+    "title": "Kodo-Robotics/kodo-robotics.github.io",
+    "summary": "Official website for Kodo Robotics",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T14:03:24Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Kodo-Robotics/kodo-robotics.github.io",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Kodo-Robotics/kodo-robotics.github.io",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Kodo-Robotics"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "开源发布"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1158445078,
+      "node_id": "R_kgDORQx4Fg",
+      "name": "kodo-robotics.github.io",
+      "full_name": "Kodo-Robotics/kodo-robotics.github.io",
+      "private": false,
+      "owner": {
+        "login": "Kodo-Robotics",
+        "id": 211377598,
+        "node_id": "O_kgDODJldvg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211377598?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Kodo-Robotics",
+        "html_url": "https://github.com/Kodo-Robotics",
+        "followers_url": "https://api.github.com/users/Kodo-Robotics/followers",
+        "following_url": "https://api.github.com/users/Kodo-Robotics/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Kodo-Robotics/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Kodo-Robotics/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Kodo-Robotics/subscriptions",
+        "organizations_url": "https://api.github.com/users/Kodo-Robotics/orgs",
+        "repos_url": "https://api.github.com/users/Kodo-Robotics/repos",
+        "events_url": "https://api.github.com/users/Kodo-Robotics/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Kodo-Robotics/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Kodo-Robotics/kodo-robotics.github.io",
+      "description": "Official website for Kodo Robotics",
+      "fork": false,
+      "url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io",
+      "forks_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/forks",
+      "keys_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/teams",
+      "hooks_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/hooks",
+      "issue_events_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/events",
+      "assignees_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/tags",
+      "blobs_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/languages",
+      "stargazers_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/stargazers",
+      "contributors_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/contributors",
+      "subscribers_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/subscribers",
+      "subscription_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/subscription",
+      "commits_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/merges",
+      "archive_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/downloads",
+      "issues_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Kodo-Robotics/kodo-robotics.github.io/deployments",
+      "created_at": "2026-02-15T11:39:32Z",
+      "updated_at": "2026-03-29T14:03:24Z",
+      "pushed_at": "2026-03-29T14:03:20Z",
+      "git_url": "git://github.com/Kodo-Robotics/kodo-robotics.github.io.git",
+      "ssh_url": "git@github.com:Kodo-Robotics/kodo-robotics.github.io.git",
+      "clone_url": "https://github.com/Kodo-Robotics/kodo-robotics.github.io.git",
+      "svn_url": "https://github.com/Kodo-Robotics/kodo-robotics.github.io",
+      "homepage": null,
+      "size": 17480,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "kodo-roboticskodo-roboticsgithubio",
+    "dedupeKey": "9a4f0387564d51d84df7636a10c89f338824ddd1e73deab5f24cf9f37c958ef2",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1118965785",
+    "title": "anumby-source/RobotServiceJeunesse2026",
+    "summary": "Robot Service Jeunesse 2026",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T14:03:10Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/anumby-source/RobotServiceJeunesse2026",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/anumby-source/RobotServiceJeunesse2026",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "anumby-source"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1118965785,
+      "node_id": "R_kgDOQrIQGQ",
+      "name": "RobotServiceJeunesse2026",
+      "full_name": "anumby-source/RobotServiceJeunesse2026",
+      "private": false,
+      "owner": {
+        "login": "anumby-source",
+        "id": 46561357,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ2NTYxMzU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46561357?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/anumby-source",
+        "html_url": "https://github.com/anumby-source",
+        "followers_url": "https://api.github.com/users/anumby-source/followers",
+        "following_url": "https://api.github.com/users/anumby-source/following{/other_user}",
+        "gists_url": "https://api.github.com/users/anumby-source/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/anumby-source/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/anumby-source/subscriptions",
+        "organizations_url": "https://api.github.com/users/anumby-source/orgs",
+        "repos_url": "https://api.github.com/users/anumby-source/repos",
+        "events_url": "https://api.github.com/users/anumby-source/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/anumby-source/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/anumby-source/RobotServiceJeunesse2026",
+      "description": "Robot Service Jeunesse 2026",
+      "fork": false,
+      "url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026",
+      "forks_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/forks",
+      "keys_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/teams",
+      "hooks_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/hooks",
+      "issue_events_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/events",
+      "assignees_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/tags",
+      "blobs_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/languages",
+      "stargazers_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/stargazers",
+      "contributors_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/contributors",
+      "subscribers_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/subscribers",
+      "subscription_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/subscription",
+      "commits_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/merges",
+      "archive_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/downloads",
+      "issues_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/labels{/name}",
+      "releases_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/anumby-source/RobotServiceJeunesse2026/deployments",
+      "created_at": "2025-12-18T14:42:09Z",
+      "updated_at": "2026-03-29T14:03:10Z",
+      "pushed_at": "2026-03-29T14:03:06Z",
+      "git_url": "git://github.com/anumby-source/RobotServiceJeunesse2026.git",
+      "ssh_url": "git@github.com:anumby-source/RobotServiceJeunesse2026.git",
+      "clone_url": "https://github.com/anumby-source/RobotServiceJeunesse2026.git",
+      "svn_url": "https://github.com/anumby-source/RobotServiceJeunesse2026",
+      "homepage": null,
+      "size": 26336,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "anumby-sourcerobotservicejeunesse2026",
+    "dedupeKey": "0477e2d3bb781273c9f73d60c38d1c715acc652f77ee841a9dc3a68802c255a4",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "hkx2023/simvla_weight_20260329",
+    "title": "hkx2023/simvla_weight_20260329",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T14:01:04.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/hkx2023/simvla_weight_20260329",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/hkx2023/simvla_weight_20260329",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "视觉语言动作"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c8dd5c7393eef98f11a31d",
+      "id": "hkx2023/simvla_weight_20260329",
+      "author": "hkx2023",
+      "gated": false,
+      "lastModified": "2026-03-29T14:01:04.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "d3e6593bc8e1fac0e605a27d2f0b50ea61a178fc",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-29T08:05:48.000Z",
+      "modelId": "hkx2023/simvla_weight_20260329",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "ckpt-20"
+        },
+        {
+          "rfilename": "ckpt-20.zip"
+        },
+        {
+          "rfilename": "ckpt-20000.zip"
+        },
+        {
+          "rfilename": "ckpt-40"
+        },
+        {
+          "rfilename": "ckpt-40.zip"
+        },
+        {
+          "rfilename": "ckpt-40000.zip"
+        }
+      ]
+    },
+    "slug": "hkx2023simvlaweight20260329",
+    "dedupeKey": "ad3ad32b8a89b59e675e599718999a28ce49e9a86602a8db264f25eb92bd5f5d",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
     "externalId": "1195152607",
     "title": "MarLuar/5-DOF-Robot-Arm-Trash-Sorter",
     "summary": "GitHub repository related to embodied AI or robotics.",
@@ -137,7 +1129,11 @@
     "dedupeKey": "e852d6d61e7a7377caefc93d3fc5b297e119711f0873eaa4ab5e9f1d0e6a3cfe",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "e852d6d61e7a7377caefc93d3fc5b297e119711f0873eaa4ab5e9f1d0e6a3cfe",
+    "createdAt": "2026-03-29T09:56:26Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "Sri-Ram-A/pnp1",
@@ -206,7 +1202,11 @@
     "dedupeKey": "bbd3cef27cefdc3014beab328e8368e8fd36e94c50f024843f97230880036af5",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "bbd3cef27cefdc3014beab328e8368e8fd36e94c50f024843f97230880036af5",
+    "createdAt": "2026-03-29T09:56:06.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1195122398",
@@ -347,7 +1347,11 @@
     "dedupeKey": "a6c8c697255ac169a52de21aa09c203784afa45f873714bb09a755cec2c887c8",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "a6c8c697255ac169a52de21aa09c203784afa45f873714bb09a755cec2c887c8",
+    "createdAt": "2026-03-29T09:56:05Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1195155322",
@@ -486,7 +1490,11 @@
     "dedupeKey": "da3d20f54e2cd425a250fbd22aee984a893206ff7163e890bc87af15eec6334c",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "da3d20f54e2cd425a250fbd22aee984a893206ff7163e890bc87af15eec6334c",
+    "createdAt": "2026-03-29T09:56:04Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1082204751",
@@ -629,7 +1637,11 @@
     "dedupeKey": "9d81318aedae936c0dec09672705a4cd5098515573f29d0f1aab9c70eb11bf6d",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "9d81318aedae936c0dec09672705a4cd5098515573f29d0f1aab9c70eb11bf6d",
+    "createdAt": "2026-03-29T09:55:53Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1194940243",
@@ -766,7 +1778,11 @@
     "dedupeKey": "62fe359b22fd23f8f9de664120e76272cf795925f6aae2701d407dfc9764276c",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "62fe359b22fd23f8f9de664120e76272cf795925f6aae2701d407dfc9764276c",
+    "createdAt": "2026-03-29T09:55:17Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "jiduster/SIRIUS_LAB_Pika_TeleOp_Unimanual",
@@ -821,7 +1837,11 @@
     "dedupeKey": "2e7810ea9f34095624590759b3957240eb4d76e45b287ba3db3306c90953bf62",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "2e7810ea9f34095624590759b3957240eb4d76e45b287ba3db3306c90953bf62",
+    "createdAt": "2026-03-29T09:54:53.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "122512069",
@@ -974,7 +1994,11 @@
     "dedupeKey": "d52990e3a363cf87ccc3e594441fe9a1d3f27be4d27a879f5dca8bd0850ac9e7",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "d52990e3a363cf87ccc3e594441fe9a1d3f27be4d27a879f5dca8bd0850ac9e7",
+    "createdAt": "2026-03-29T09:54:37Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1159802626",
@@ -1111,7 +2135,11 @@
     "dedupeKey": "6326bead8e7553b03fd53362bd23e2006d89ea556b3fd871416bcf39bc44f3d3",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "6326bead8e7553b03fd53362bd23e2006d89ea556b3fd871416bcf39bc44f3d3",
+    "createdAt": "2026-03-29T09:54:37Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1175335227",
@@ -1250,7 +2278,11 @@
     "dedupeKey": "8b3184c9bf34d70af8b2286483037aa1ceffcabb081e035181bd8d982264e571",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "8b3184c9bf34d70af8b2286483037aa1ceffcabb081e035181bd8d982264e571",
+    "createdAt": "2026-03-29T09:54:37Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1096183898",
@@ -1430,7 +2462,11 @@
     "dedupeKey": "cdaf87ae3e86dad4e9d8127d2f9ef3ed04ba95cb65c147af7e2301ae30c7a8fa",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "cdaf87ae3e86dad4e9d8127d2f9ef3ed04ba95cb65c147af7e2301ae30c7a8fa",
+    "createdAt": "2026-03-29T09:53:53Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "ryanlinjui/darkchess-robot-brain-DRL-small3x4",
@@ -1750,7 +2786,11 @@
     "dedupeKey": "6a64a1a31333247717ca0d29d2cd0c9613a56d054adbe3401df679f5faaeaca0",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "6a64a1a31333247717ca0d29d2cd0c9613a56d054adbe3401df679f5faaeaca0",
+    "createdAt": "2026-03-29T09:51:53.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "roboseasy/pick_and_place_aug_act",
@@ -1842,7 +2882,11 @@
     "dedupeKey": "d13b561e28414d59a2fc7cc85d9e681f2234e2b32cbe62593c7f7bc7e83fb1cb",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "d13b561e28414d59a2fc7cc85d9e681f2234e2b32cbe62593c7f7bc7e83fb1cb",
+    "createdAt": "2026-03-29T09:51:08.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "CollisionCode/calvin_abc_d_lerobot_v2.1",
@@ -1898,7 +2942,11 @@
     "dedupeKey": "f284de81058efc1421d952b0ec52ce38e94796ce0c3670e2b6db940f9b051d64",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "f284de81058efc1421d952b0ec52ce38e94796ce0c3670e2b6db940f9b051d64",
+    "createdAt": "2026-03-29T09:50:40.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "yuyan0828/eval_dataset7",
@@ -1970,7 +3018,11 @@
     "dedupeKey": "e37436ae27b44cd33edac654d7898dd1d96eb19f0b8f2c8ec76666a76cbf0572",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "e37436ae27b44cd33edac654d7898dd1d96eb19f0b8f2c8ec76666a76cbf0572",
+    "createdAt": "2026-03-29T09:48:29.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "taetae77/smolvla-tomato-hc_fine_4_10000",
@@ -2066,7 +3118,11 @@
     "dedupeKey": "c0bdfa0a042ecabb44a3b443343ac6ce3393dff801f70593e75a4b997e0fcca0",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "c0bdfa0a042ecabb44a3b443343ac6ce3393dff801f70593e75a4b997e0fcca0",
+    "createdAt": "2026-03-29T09:46:36.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "ivlabs/fine-tune-v-0-93-1",
@@ -2179,7 +3235,11 @@
     "dedupeKey": "83d0a6c9c8f76cc218edf756823db61dcd815d3abe44e5e4d02d22a39b620bf9",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "83d0a6c9c8f76cc218edf756823db61dcd815d3abe44e5e4d02d22a39b620bf9",
+    "createdAt": "2026-03-29T09:45:33.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1082278442",
@@ -2319,7 +3379,7 @@
     ],
     "id": "f90c03aceb69b95c6cf6c53798050228629deb634789493ce953ac052a44241b",
     "createdAt": "2026-03-29T04:38:21Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2464,7 +3524,7 @@
     ],
     "id": "adf6cb546a9caf654822890449f65f550cc87dd006759f4f59e6b4c3dda8dc9d",
     "createdAt": "2026-03-29T04:38:15Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2613,7 +3673,7 @@
     ],
     "id": "9fad2b11d9be5099cfd73c973fd0374ade3dbc87e21fae1df1a16eef3d08d608",
     "createdAt": "2026-03-29T04:38:00Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {

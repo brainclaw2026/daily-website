@@ -20,7 +20,25 @@ jobs:
       run:
         working-directory: workspaces/fullstack-dev-assistant
     steps:
+      - name: Show trigger context
+        run: |
+          echo "event_name=${{ github.event_name }}"
+          echo "ref=${{ github.ref }}"
+          echo "sha=${{ github.sha }}"
+          echo "actor=${{ github.actor }}"
+          echo "repository=${{ github.repository }}"
+          echo "run_id=${{ github.run_id }}"
+          echo "run_number=${{ github.run_number }}"
+          echo "workflow=${{ github.workflow }}"
+          echo "server_time_utc=$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "server_time_shanghai=$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S %Z')"
+
       - uses: actions/checkout@v4
+
+      - name: Show checked out revision
+        run: |
+          git status --short --branch
+          git log --oneline -n 3
 
       - uses: actions/setup-node@v4
         with:
@@ -29,7 +47,10 @@ jobs:
           cache-dependency-path: workspaces/fullstack-dev-assistant/package-lock.json
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          echo "install_started_utc=$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          npm ci
+          echo "install_finished_utc=$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
 
       - name: Run ingest
         env:
@@ -64,6 +85,9 @@ jobs:
           echo ""
           echo "--- data diff stat ---"
           git diff --stat -- data/content-items.json || true
+          echo ""
+          echo "--- data diff preview ---"
+          git diff -- data/content-items.json | sed -n '1,200p' || true
 
       - name: Commit updated content data
         run: |
@@ -76,4 +100,19 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/content-items.json
           git commit -m "chore: update ingested content"
+          echo "push_started_utc=$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
           git push
+          echo "push_finished_utc=$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+
+      - name: Final job summary
+        if: always()
+        run: |
+          echo ""
+          echo "--- final git status ---"
+          git status --short --branch
+          echo ""
+          echo "--- final latest commit ---"
+          git log --oneline -n 1
+          echo ""
+          echo "job_finished_utc=$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "job_finished_shanghai=$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S %Z')"

@@ -1,5 +1,627 @@
 [
   {
+    "externalId": "916633561",
+    "title": "isapedraza/AIST-hand",
+    "summary": " GCN model able to identify the type of human's grasp uses to grab some common objects from a picture and to translate them in joint coordinates to be able to control a robot hand.",
+    "summaryZh": "",
+    "publishedAt": "2026-03-30T00:02:23Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/isapedraza/AIST-hand",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/isapedraza/AIST-hand",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "isapedraza"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "机械臂操作"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 916633561,
+      "node_id": "R_kgDONqK32Q",
+      "name": "AIST-hand",
+      "full_name": "isapedraza/AIST-hand",
+      "private": false,
+      "owner": {
+        "login": "isapedraza",
+        "id": 6817043,
+        "node_id": "MDQ6VXNlcjY4MTcwNDM=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6817043?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/isapedraza",
+        "html_url": "https://github.com/isapedraza",
+        "followers_url": "https://api.github.com/users/isapedraza/followers",
+        "following_url": "https://api.github.com/users/isapedraza/following{/other_user}",
+        "gists_url": "https://api.github.com/users/isapedraza/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/isapedraza/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/isapedraza/subscriptions",
+        "organizations_url": "https://api.github.com/users/isapedraza/orgs",
+        "repos_url": "https://api.github.com/users/isapedraza/repos",
+        "events_url": "https://api.github.com/users/isapedraza/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/isapedraza/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/isapedraza/AIST-hand",
+      "description": " GCN model able to identify the type of human's grasp uses to grab some common objects from a picture and to translate them in joint coordinates to be able to control a robot hand.",
+      "fork": false,
+      "url": "https://api.github.com/repos/isapedraza/AIST-hand",
+      "forks_url": "https://api.github.com/repos/isapedraza/AIST-hand/forks",
+      "keys_url": "https://api.github.com/repos/isapedraza/AIST-hand/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/isapedraza/AIST-hand/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/isapedraza/AIST-hand/teams",
+      "hooks_url": "https://api.github.com/repos/isapedraza/AIST-hand/hooks",
+      "issue_events_url": "https://api.github.com/repos/isapedraza/AIST-hand/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/isapedraza/AIST-hand/events",
+      "assignees_url": "https://api.github.com/repos/isapedraza/AIST-hand/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/isapedraza/AIST-hand/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/isapedraza/AIST-hand/tags",
+      "blobs_url": "https://api.github.com/repos/isapedraza/AIST-hand/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/isapedraza/AIST-hand/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/isapedraza/AIST-hand/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/isapedraza/AIST-hand/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/isapedraza/AIST-hand/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/isapedraza/AIST-hand/languages",
+      "stargazers_url": "https://api.github.com/repos/isapedraza/AIST-hand/stargazers",
+      "contributors_url": "https://api.github.com/repos/isapedraza/AIST-hand/contributors",
+      "subscribers_url": "https://api.github.com/repos/isapedraza/AIST-hand/subscribers",
+      "subscription_url": "https://api.github.com/repos/isapedraza/AIST-hand/subscription",
+      "commits_url": "https://api.github.com/repos/isapedraza/AIST-hand/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/isapedraza/AIST-hand/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/isapedraza/AIST-hand/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/isapedraza/AIST-hand/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/isapedraza/AIST-hand/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/isapedraza/AIST-hand/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/isapedraza/AIST-hand/merges",
+      "archive_url": "https://api.github.com/repos/isapedraza/AIST-hand/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/isapedraza/AIST-hand/downloads",
+      "issues_url": "https://api.github.com/repos/isapedraza/AIST-hand/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/isapedraza/AIST-hand/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/isapedraza/AIST-hand/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/isapedraza/AIST-hand/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/isapedraza/AIST-hand/labels{/name}",
+      "releases_url": "https://api.github.com/repos/isapedraza/AIST-hand/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/isapedraza/AIST-hand/deployments",
+      "created_at": "2025-01-14T13:36:11Z",
+      "updated_at": "2026-03-30T00:02:23Z",
+      "pushed_at": "2026-03-30T00:02:17Z",
+      "git_url": "git://github.com/isapedraza/AIST-hand.git",
+      "ssh_url": "git@github.com:isapedraza/AIST-hand.git",
+      "clone_url": "https://github.com/isapedraza/AIST-hand.git",
+      "svn_url": "https://github.com/isapedraza/AIST-hand",
+      "homepage": null,
+      "size": 209252,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 1,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "isapedrazaaist-hand",
+    "dedupeKey": "0441e3d3c72384d25b5054b4e3a3e2151543b7f1baaa431a3797604c0cca39c8",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1195493281",
+    "title": "luisitolabitajr/Robot-Enterprise",
+    "summary": "Learning Ai trader bot",
+    "summaryZh": "",
+    "publishedAt": "2026-03-30T00:01:34Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/luisitolabitajr/Robot-Enterprise",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/luisitolabitajr/Robot-Enterprise",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "luisitolabitajr"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "实验室动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1195493281,
+      "node_id": "R_kgDOR0HHoQ",
+      "name": "Robot-Enterprise",
+      "full_name": "luisitolabitajr/Robot-Enterprise",
+      "private": false,
+      "owner": {
+        "login": "luisitolabitajr",
+        "id": 271429508,
+        "node_id": "U_kgDOEC2vhA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/271429508?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/luisitolabitajr",
+        "html_url": "https://github.com/luisitolabitajr",
+        "followers_url": "https://api.github.com/users/luisitolabitajr/followers",
+        "following_url": "https://api.github.com/users/luisitolabitajr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/luisitolabitajr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/luisitolabitajr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/luisitolabitajr/subscriptions",
+        "organizations_url": "https://api.github.com/users/luisitolabitajr/orgs",
+        "repos_url": "https://api.github.com/users/luisitolabitajr/repos",
+        "events_url": "https://api.github.com/users/luisitolabitajr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/luisitolabitajr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/luisitolabitajr/Robot-Enterprise",
+      "description": "Learning Ai trader bot",
+      "fork": false,
+      "url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise",
+      "forks_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/forks",
+      "keys_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/teams",
+      "hooks_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/hooks",
+      "issue_events_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/events",
+      "assignees_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/tags",
+      "blobs_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/languages",
+      "stargazers_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/stargazers",
+      "contributors_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/contributors",
+      "subscribers_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/subscribers",
+      "subscription_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/subscription",
+      "commits_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/merges",
+      "archive_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/downloads",
+      "issues_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/labels{/name}",
+      "releases_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/luisitolabitajr/Robot-Enterprise/deployments",
+      "created_at": "2026-03-29T18:23:42Z",
+      "updated_at": "2026-03-30T00:01:34Z",
+      "pushed_at": "2026-03-30T00:01:30Z",
+      "git_url": "git://github.com/luisitolabitajr/Robot-Enterprise.git",
+      "ssh_url": "git@github.com:luisitolabitajr/Robot-Enterprise.git",
+      "clone_url": "https://github.com/luisitolabitajr/Robot-Enterprise.git",
+      "svn_url": "https://github.com/luisitolabitajr/Robot-Enterprise",
+      "homepage": null,
+      "size": 42,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "luisitolabitajrrobot-enterprise",
+    "dedupeKey": "a190316fd5823f82b750db2104316cc4c12e06c3595dd0fa16bb990e6666dba3",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "nhmacwan/Cube_Stacking_Dataset_1",
+    "title": "nhmacwan/Cube_Stacking_Dataset_1",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-30T00:01:14.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/nhmacwan/Cube_Stacking_Dataset_1",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/nhmacwan/Cube_Stacking_Dataset_1",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "nhmacwan"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:robotics",
+      "license:apache-2.0",
+      "region:us",
+      "LeRobot"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.8200000000000001,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c9b2f08c6e79ecc6a3e09e",
+      "id": "nhmacwan/Cube_Stacking_Dataset_1",
+      "author": "nhmacwan",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "robotics"
+        ],
+        "tags": [
+          "LeRobot"
+        ],
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": "data/*/*.parquet"
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-30T00:01:14.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "c59b9287f320491ef2ae884c7c3bb0f20f557934",
+      "description": "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\": \"v3.0\",\n    \"robot_type\": \"dual_so101_follower\",\n    \"total_episodes\": 30,\n    \"total_frames\": 35380,\n    \"total_tasks\": 1,\n    \"chunks_size\": 1000,\n    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n    \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:30\"\n    },\n    \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\",\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/nhmacwan/Cube_Stacking_Dataset_1.",
+      "downloads": 0,
+      "tags": [
+        "task_categories:robotics",
+        "license:apache-2.0",
+        "region:us",
+        "LeRobot"
+      ],
+      "createdAt": "2026-03-29T23:17:04.000Z",
+      "key": ""
+    },
+    "slug": "nhmacwancubestackingdataset1",
+    "dedupeKey": "02b660c102a7baa7b1a4e8059461afba8753e17cc5ccc82b8d94f8f2ea5b3bfe",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "LSY-lab/simple_tasks_teleop_v1_cup_to_basket",
+    "title": "LSY-lab/simple_tasks_teleop_v1_cup_to_basket",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-30T00:00:31.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/LSY-lab/simple_tasks_teleop_v1_cup_to_basket",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/LSY-lab/simple_tasks_teleop_v1_cup_to_basket",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "LSY-lab"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c9bd182686cc5b26d28a23",
+      "id": "LSY-lab/simple_tasks_teleop_v1_cup_to_basket",
+      "author": "LSY-lab",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-30T00:00:31.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "6d32df41dfbc5b119d330adeaf931d9d59ee904f",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-30T00:00:24.000Z",
+      "key": ""
+    },
+    "slug": "lsy-labsimpletasksteleopv1cuptobasket",
+    "dedupeKey": "7d20ac279837945c48f3b9c8a98ad6581dba7763cc74fa3639b74c5e72f65713",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "LSY-lab/simple_tasks_teleop_v1_syringe_plate_to_cup",
+    "title": "LSY-lab/simple_tasks_teleop_v1_syringe_plate_to_cup",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-30T00:00:18.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/LSY-lab/simple_tasks_teleop_v1_syringe_plate_to_cup",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/LSY-lab/simple_tasks_teleop_v1_syringe_plate_to_cup",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "LSY-lab"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c9bd0b8c6e79ecc6a4812f",
+      "id": "LSY-lab/simple_tasks_teleop_v1_syringe_plate_to_cup",
+      "author": "LSY-lab",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-30T00:00:18.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "c8fa1c4dcb1249353ff951e3b5000b7bc0a516e7",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-30T00:00:11.000Z",
+      "key": ""
+    },
+    "slug": "lsy-labsimpletasksteleopv1syringeplatetocup",
+    "dedupeKey": "2553cf1b85a17a7fd9270d38a0fef650ae2d56920860dc51fb5104b8c7df1c71",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "LSY-lab/simple_tasks_teleop_v1_syringe_table_to_plate",
+    "title": "LSY-lab/simple_tasks_teleop_v1_syringe_table_to_plate",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-30T00:00:04.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/LSY-lab/simple_tasks_teleop_v1_syringe_table_to_plate",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/LSY-lab/simple_tasks_teleop_v1_syringe_table_to_plate",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "LSY-lab"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "region:us"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69c9bcfefc5631a422d9fd0e",
+      "id": "LSY-lab/simple_tasks_teleop_v1_syringe_table_to_plate",
+      "author": "LSY-lab",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-03-30T00:00:04.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "83d269dda4c815299fd11266b817bd3ce69f97e6",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-03-29T23:59:58.000Z",
+      "key": ""
+    },
+    "slug": "lsy-labsimpletasksteleopv1syringetabletoplate",
+    "dedupeKey": "9b40c4e3128f019fe45d7cd870b21c64373edacc2d34aab21f96a12eb7abe7de",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "patrickamadeus/adapt-distill-460m-ltemp-2000-student",
+    "title": "patrickamadeus/adapt-distill-460m-ltemp-2000-student",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T23:45:32.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/patrickamadeus/adapt-distill-460m-ltemp-2000-student",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/patrickamadeus/adapt-distill-460m-ltemp-2000-student",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "safetensors",
+      "nanovlm_distilled",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c9b993fc5631a422d9c64b",
+      "id": "patrickamadeus/adapt-distill-460m-ltemp-2000-student",
+      "author": "patrickamadeus",
+      "gated": false,
+      "lastModified": "2026-03-29T23:45:32.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "1965a42f94238d0f9e76acc85b35cc2f3e78f6fc",
+      "downloads": 0,
+      "tags": [
+        "safetensors",
+        "nanovlm_distilled",
+        "region:us"
+      ],
+      "createdAt": "2026-03-29T23:45:23.000Z",
+      "modelId": "patrickamadeus/adapt-distill-460m-ltemp-2000-student",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        }
+      ]
+    },
+    "slug": "patrickamadeusadapt-distill-460m-ltemp-2000-student",
+    "dedupeKey": "8a248bcc05c2c6adf2226a5d62a8f918e4d2d0015f2b6c060967e993018b350c",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
+    "externalId": "patrickamadeus/adapt-distill-460m-ltemp-2000",
+    "title": "patrickamadeus/adapt-distill-460m-ltemp-2000",
+    "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: unknown；Downloads: 0；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-03-29T23:45:18.000Z",
+    "sourceType": "huggingface",
+    "primaryUrl": "https://huggingface.co/patrickamadeus/adapt-distill-460m-ltemp-2000",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Model",
+        "url": "https://huggingface.co/patrickamadeus/adapt-distill-460m-ltemp-2000",
+        "sourceType": "huggingface"
+      }
+    ],
+    "authors": [],
+    "category": "project",
+    "keywords": [
+      "safetensors",
+      "prefixvlm_distill",
+      "region:us"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.8,
+    "raw": {
+      "_id": "69c9b9809721b98fee212963",
+      "id": "patrickamadeus/adapt-distill-460m-ltemp-2000",
+      "author": "patrickamadeus",
+      "gated": false,
+      "lastModified": "2026-03-29T23:45:18.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "da55399c09d22cd292b2d38ccddd72df2a3c8c9e",
+      "downloads": 0,
+      "tags": [
+        "safetensors",
+        "prefixvlm_distill",
+        "region:us"
+      ],
+      "createdAt": "2026-03-29T23:45:04.000Z",
+      "modelId": "patrickamadeus/adapt-distill-460m-ltemp-2000",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "model.safetensors"
+        },
+        {
+          "rfilename": "train_config.json"
+        },
+        {
+          "rfilename": "training_state.pt"
+        }
+      ]
+    },
+    "slug": "patrickamadeusadapt-distill-460m-ltemp-2000",
+    "dedupeKey": "9330fa3c12d3ab84ca0c565b78fb8e7b9999e59d1a089943f11a65488002ce28",
+    "mergedSourceTypes": [
+      "huggingface"
+    ]
+  },
+  {
     "externalId": "1195305023",
     "title": "bopi-bot/bopi-research",
     "summary": "Daily AI & Robotics paper digest and research direction finder",
@@ -134,7 +756,11 @@
     "dedupeKey": "ab32da55becad7a2b474b0554b8ef01868eb0b18995af38af008091c35190593",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "ab32da55becad7a2b474b0554b8ef01868eb0b18995af38af008091c35190593",
+    "createdAt": "2026-03-29T14:04:51Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "Popcorn32/eval_record_test",
@@ -224,7 +850,11 @@
     "dedupeKey": "a61191608e776f0ba9da28fdbdf1d85bb7ff01f10c374630f225b9f4f9af4051",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "a61191608e776f0ba9da28fdbdf1d85bb7ff01f10c374630f225b9f4f9af4051",
+    "createdAt": "2026-03-29T14:04:45.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1137771326",
@@ -359,7 +989,11 @@
     "dedupeKey": "f4a5981530114c0c738a3b235d3351daca6583a98c9367639288a0f6a9a17f19",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "f4a5981530114c0c738a3b235d3351daca6583a98c9367639288a0f6a9a17f19",
+    "createdAt": "2026-03-29T14:04:38Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1037832503",
@@ -508,7 +1142,11 @@
     "dedupeKey": "afdb63a7f7ecd3a69b261540b1e52f8788e4717aaa70f62696e1cec21cd8cbb3",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "afdb63a7f7ecd3a69b261540b1e52f8788e4717aaa70f62696e1cec21cd8cbb3",
+    "createdAt": "2026-03-29T14:04:22Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1149991443",
@@ -647,7 +1285,11 @@
     "dedupeKey": "d17ea1cb0e1710fccdcd4dd0d1ac7285334cef4ff95c0c3f89a48d5f03014c3b",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "d17ea1cb0e1710fccdcd4dd0d1ac7285334cef4ff95c0c3f89a48d5f03014c3b",
+    "createdAt": "2026-03-29T14:04:04Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1158445078",
@@ -784,7 +1426,11 @@
     "dedupeKey": "9a4f0387564d51d84df7636a10c89f338824ddd1e73deab5f24cf9f37c958ef2",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "9a4f0387564d51d84df7636a10c89f338824ddd1e73deab5f24cf9f37c958ef2",
+    "createdAt": "2026-03-29T14:03:24Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1118965785",
@@ -919,7 +1565,11 @@
     "dedupeKey": "0477e2d3bb781273c9f73d60c38d1c715acc652f77ee841a9dc3a68802c255a4",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "0477e2d3bb781273c9f73d60c38d1c715acc652f77ee841a9dc3a68802c255a4",
+    "createdAt": "2026-03-29T14:03:10Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "hkx2023/simvla_weight_20260329",
@@ -989,7 +1639,11 @@
     "dedupeKey": "ad3ad32b8a89b59e675e599718999a28ce49e9a86602a8db264f25eb92bd5f5d",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "ad3ad32b8a89b59e675e599718999a28ce49e9a86602a8db264f25eb92bd5f5d",
+    "createdAt": "2026-03-29T14:01:04.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1195152607",
@@ -1132,7 +1786,7 @@
     ],
     "id": "e852d6d61e7a7377caefc93d3fc5b297e119711f0873eaa4ab5e9f1d0e6a3cfe",
     "createdAt": "2026-03-29T09:56:26Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1205,7 +1859,7 @@
     ],
     "id": "bbd3cef27cefdc3014beab328e8368e8fd36e94c50f024843f97230880036af5",
     "createdAt": "2026-03-29T09:56:06.000Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -1350,7 +2004,7 @@
     ],
     "id": "a6c8c697255ac169a52de21aa09c203784afa45f873714bb09a755cec2c887c8",
     "createdAt": "2026-03-29T09:56:05Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {

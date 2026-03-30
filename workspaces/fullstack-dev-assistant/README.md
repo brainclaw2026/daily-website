@@ -7,10 +7,10 @@
 ## 当前状态
 
 - 当前唯一有效的站点目录：`workspaces/fullstack-dev-assistant`
-- GitHub Actions 与 Vercel 已对齐到该目录
-- 自动采集与自动部署已恢复正常
-- 当前定时更新：**每天北京时间 08:00、12:00、16:00、20:00**
-- 当前 workflow cron：`0 0 * * *`、`0 4 * * *`、`0 8 * * *`、`0 12 * * *`（UTC 00:00 / 04:00 / 08:00 / 12:00 = Asia/Shanghai 08:00 / 12:00 / 16:00 / 20:00）
+- Vercel 已对齐到该目录
+- 当前自动更新策略：**由 OpenClaw 在本机每天北京时间 08:00、12:00 定时检查并补跑 ingest**
+- GitHub Actions 保留 `workflow_dispatch` 手动触发能力，但**不再承担定时调度**
+- 线上部署仍然保持：**本机 ingest / commit / push → Vercel 自动部署**
 
 ## 项目目标
 
@@ -31,7 +31,8 @@
 - 本地 JSON 数据存储：`data/content-items.json`
 - 采集脚本：`npm run ingest`
 - API 触发入口：`POST /api/ingest`
-- GitHub Actions 定时采集
+- OpenClaw 定时检查 / 补跑
+- GitHub Actions 手动触发 ingest
 - Vercel 自动部署
 - 首页筛选：关键词 / 分类 / 标签
 
@@ -125,51 +126,44 @@ curl -X POST http://localhost:3000/api/ingest \
 
 当前线上自动更新采用下面这条链路：
 
-### 第 1 步：GitHub Actions 定时触发
-仓库根目录的工作流文件：
+### 第 1 步：OpenClaw 在本机定时检查
+当前由 OpenClaw 在每天北京时间 **08:00、12:00** 执行检查任务。
 
-- `.github/workflows/ingest.yml`
+检查目标：
 
-会在每天北京时间 **08:00、12:00、16:00、20:00** 自动执行。
+- 仓库：`brainclaw2026/daily-website`
+- 站点：<https://embodied-ai-daily.vercel.app>
+- 本地实际工作目录：`/Users/brain/.openclaw/daily-website-clean/workspaces/fullstack-dev-assistant`
 
-对应 cron：
+### 第 2 步：拉取最新主分支并检查工作区
+每次检查前，先确保：
 
-```yaml
-0 0 * * *
-0 4 * * *
-0 8 * * *
-0 12 * * *
-```
+- 本地仓库处于干净状态
+- `main` 已同步到远端最新提交
 
-分别对应 UTC 00:00 / 04:00 / 08:00 / 12:00，也就是 Asia/Shanghai 的 08:00 / 12:00 / 16:00 / 20:00。
+避免在脏工作区或落后分支上直接跑 ingest。
 
-### 第 2 步：工作流切到真实站点目录执行
-虽然 workflow 文件放在仓库根目录，但真正执行目录是：
+### 第 3 步：在真实站点目录执行 ingest
+实际执行目录是：
 
 - `workspaces/fullstack-dev-assistant`
 
-也就是说，下面这些命令实际都在当前目录下执行：
+核心命令：
 
 ```bash
-npm ci
 npm run ingest
 ```
 
-### 第 3 步：采集脚本更新数据文件
-采集成功后，会更新：
-
-- `data/content-items.json`
-
-这份文件就是当前网站首页和详情页实际读取的数据源。
-
-### 第 4 步：如果有变化，自动提交到 main
-如果 `data/content-items.json` 有变化，workflow 会自动执行：
+### 第 4 步：如果内容有变化，则提交并推送
+采集成功后，如果 `data/content-items.json` 有变化，则执行：
 
 ```bash
-git add data/content-items.json
+git add workspaces/fullstack-dev-assistant/data/content-items.json
 git commit -m "chore: update ingested content"
-git push
+git push origin main
 ```
+
+如果没有变化，则记录“已检查，无新增内容”，不产生空提交。
 
 ### 第 5 步：Vercel 自动部署
 Vercel 当前应配置为：
@@ -186,6 +180,21 @@ Vercel 部署完成后，线上网站：
 - <https://embodied-ai-daily.vercel.app>
 
 就会显示新的数据数量和最新条目。
+
+## GitHub Actions 当前角色
+
+仓库根目录仍保留工作流文件：
+
+- `.github/workflows/ingest.yml`
+
+但当前只保留：
+
+- `workflow_dispatch`
+
+也就是说：
+
+- **可以手动点 Run workflow 触发 ingest**
+- **不再依赖 GitHub Actions schedule 做定时更新**
 
 ## 本地手动跑完整流程
 
@@ -220,17 +229,19 @@ git push origin main
 
 按这个顺序查最快：
 
-1. GitHub Actions 是否在 08:00 左右成功执行
-2. 是否生成了新的 `chore: update ingested content` 提交
-3. Vercel 是否部署了对应 commit
-4. 网站首页总条目数是否变化
+1. OpenClaw 的 08:00 / 12:00 检查任务是否执行
+2. 本地 ingest 是否成功跑完
+3. 是否生成了新的 `chore: update ingested content` 提交
+4. Vercel 是否部署了对应 commit
+5. 网站首页总条目数是否变化
 
 ## 维护约定
 
 - 所有站点相关改动都在当前目录进行
 - 根目录不是站点源码目录
 - 不要再创建第二套重复站点目录
-- 如果网站未更新，优先检查 GitHub Actions 与 Vercel 部署状态
+- 当前定时检查以 OpenClaw 本机任务为准，不再依赖 GitHub Actions schedule
+- 如果网站未更新，优先检查 OpenClaw 任务执行状态与 Vercel 部署状态
 
 ## 当前结论
 
@@ -239,5 +250,6 @@ git push origin main
 - 清理了错误/重复目录问题
 - 清理了仓库里与网站无关的内容
 - 修正了 GitHub Actions 的执行目录与提交路径
-- 修正了自动采集与自动部署链路
+- 确认 GitHub Actions 手动触发链路可用
+- 将定时更新职责从 GitHub Actions schedule 切换到 OpenClaw 本机定时任务
 - 已验证“重新采集 → push → Vercel → 线上数量变化”完整可用

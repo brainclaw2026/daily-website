@@ -1,5 +1,2252 @@
 [
   {
+    "externalId": "1023024385",
+    "title": "galallord/norma-core",
+    "summary": "🤖 Build and manage physical systems seamlessly with NormaCore, the unified toolkit for robotics, sensors, and hobby projects.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:13:41Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/galallord/norma-core",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/galallord/norma-core",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "galallord"
+    ],
+    "category": "code",
+    "keywords": [
+      "asyncio",
+      "css-reset",
+      "data-science",
+      "file-sharing",
+      "flux",
+      "geoscience",
+      "javascript",
+      "mqtt",
+      "neovim-config",
+      "neovim-configuration",
+      "neovim-dotfiles",
+      "normalizr",
+      "petrophysical-rock-types",
+      "php",
+      "platform",
+      "python",
+      "rock-types",
+      "tutorial",
+      "unity",
+      "youtube"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1023024385,
+      "node_id": "R_kgDOPPodAQ",
+      "name": "norma-core",
+      "full_name": "galallord/norma-core",
+      "private": false,
+      "owner": {
+        "login": "galallord",
+        "id": 221728560,
+        "node_id": "U_kgDODTdPMA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/221728560?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/galallord",
+        "html_url": "https://github.com/galallord",
+        "followers_url": "https://api.github.com/users/galallord/followers",
+        "following_url": "https://api.github.com/users/galallord/following{/other_user}",
+        "gists_url": "https://api.github.com/users/galallord/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/galallord/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/galallord/subscriptions",
+        "organizations_url": "https://api.github.com/users/galallord/orgs",
+        "repos_url": "https://api.github.com/users/galallord/repos",
+        "events_url": "https://api.github.com/users/galallord/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/galallord/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/galallord/norma-core",
+      "description": "🤖 Build and manage physical systems seamlessly with NormaCore, the unified toolkit for robotics, sensors, and hobby projects.",
+      "fork": false,
+      "url": "https://api.github.com/repos/galallord/norma-core",
+      "forks_url": "https://api.github.com/repos/galallord/norma-core/forks",
+      "keys_url": "https://api.github.com/repos/galallord/norma-core/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/galallord/norma-core/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/galallord/norma-core/teams",
+      "hooks_url": "https://api.github.com/repos/galallord/norma-core/hooks",
+      "issue_events_url": "https://api.github.com/repos/galallord/norma-core/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/galallord/norma-core/events",
+      "assignees_url": "https://api.github.com/repos/galallord/norma-core/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/galallord/norma-core/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/galallord/norma-core/tags",
+      "blobs_url": "https://api.github.com/repos/galallord/norma-core/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/galallord/norma-core/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/galallord/norma-core/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/galallord/norma-core/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/galallord/norma-core/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/galallord/norma-core/languages",
+      "stargazers_url": "https://api.github.com/repos/galallord/norma-core/stargazers",
+      "contributors_url": "https://api.github.com/repos/galallord/norma-core/contributors",
+      "subscribers_url": "https://api.github.com/repos/galallord/norma-core/subscribers",
+      "subscription_url": "https://api.github.com/repos/galallord/norma-core/subscription",
+      "commits_url": "https://api.github.com/repos/galallord/norma-core/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/galallord/norma-core/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/galallord/norma-core/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/galallord/norma-core/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/galallord/norma-core/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/galallord/norma-core/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/galallord/norma-core/merges",
+      "archive_url": "https://api.github.com/repos/galallord/norma-core/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/galallord/norma-core/downloads",
+      "issues_url": "https://api.github.com/repos/galallord/norma-core/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/galallord/norma-core/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/galallord/norma-core/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/galallord/norma-core/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/galallord/norma-core/labels{/name}",
+      "releases_url": "https://api.github.com/repos/galallord/norma-core/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/galallord/norma-core/deployments",
+      "created_at": "2025-07-20T11:14:54Z",
+      "updated_at": "2026-04-01T04:13:41Z",
+      "pushed_at": "2026-04-01T04:13:38Z",
+      "git_url": "git://github.com/galallord/norma-core.git",
+      "ssh_url": "git@github.com:galallord/norma-core.git",
+      "clone_url": "https://github.com/galallord/norma-core.git",
+      "svn_url": "https://github.com/galallord/norma-core",
+      "homepage": "https://galallord.github.io",
+      "size": 7178,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Go",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "asyncio",
+        "css-reset",
+        "data-science",
+        "file-sharing",
+        "flux",
+        "geoscience",
+        "javascript",
+        "mqtt",
+        "neovim-config",
+        "neovim-configuration",
+        "neovim-dotfiles",
+        "normalizr",
+        "petrophysical-rock-types",
+        "php",
+        "platform",
+        "python",
+        "rock-types",
+        "tutorial",
+        "unity",
+        "youtube"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "galallordnorma-core",
+    "dedupeKey": "178a86658c9bc695b0c822da2c62b4d8363237e50323d6553aa78a7f5cd3733c",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1118075366",
+    "title": "d7pj9kj4pq-hash/-ai-robotics-daily",
+    "summary": "自动生成AI与机器人日报系统",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:13:24Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/d7pj9kj4pq-hash/-ai-robotics-daily",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/d7pj9kj4pq-hash/-ai-robotics-daily",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "d7pj9kj4pq-hash"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1118075366,
+      "node_id": "R_kgDOQqR55g",
+      "name": "-ai-robotics-daily",
+      "full_name": "d7pj9kj4pq-hash/-ai-robotics-daily",
+      "private": false,
+      "owner": {
+        "login": "d7pj9kj4pq-hash",
+        "id": 250100853,
+        "node_id": "U_kgDODug8dQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/250100853?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/d7pj9kj4pq-hash",
+        "html_url": "https://github.com/d7pj9kj4pq-hash",
+        "followers_url": "https://api.github.com/users/d7pj9kj4pq-hash/followers",
+        "following_url": "https://api.github.com/users/d7pj9kj4pq-hash/following{/other_user}",
+        "gists_url": "https://api.github.com/users/d7pj9kj4pq-hash/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/d7pj9kj4pq-hash/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/d7pj9kj4pq-hash/subscriptions",
+        "organizations_url": "https://api.github.com/users/d7pj9kj4pq-hash/orgs",
+        "repos_url": "https://api.github.com/users/d7pj9kj4pq-hash/repos",
+        "events_url": "https://api.github.com/users/d7pj9kj4pq-hash/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/d7pj9kj4pq-hash/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/d7pj9kj4pq-hash/-ai-robotics-daily",
+      "description": "自动生成AI与机器人日报系统",
+      "fork": false,
+      "url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily",
+      "forks_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/forks",
+      "keys_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/teams",
+      "hooks_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/hooks",
+      "issue_events_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/events",
+      "assignees_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/tags",
+      "blobs_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/languages",
+      "stargazers_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/stargazers",
+      "contributors_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/contributors",
+      "subscribers_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/subscribers",
+      "subscription_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/subscription",
+      "commits_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/merges",
+      "archive_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/downloads",
+      "issues_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/labels{/name}",
+      "releases_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/d7pj9kj4pq-hash/-ai-robotics-daily/deployments",
+      "created_at": "2025-12-17T08:21:32Z",
+      "updated_at": "2026-04-01T04:13:24Z",
+      "pushed_at": "2026-04-01T04:13:20Z",
+      "git_url": "git://github.com/d7pj9kj4pq-hash/-ai-robotics-daily.git",
+      "ssh_url": "git@github.com:d7pj9kj4pq-hash/-ai-robotics-daily.git",
+      "clone_url": "https://github.com/d7pj9kj4pq-hash/-ai-robotics-daily.git",
+      "svn_url": "https://github.com/d7pj9kj4pq-hash/-ai-robotics-daily",
+      "homepage": null,
+      "size": 3583,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "d7pj9kj4pq-hash-ai-robotics-daily",
+    "dedupeKey": "bb2d1782ae6be8351edf92193bc08dee01cb4df961474204a97ff3458c3774b4",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "136778353",
+    "title": "cubopez48/algorithm-11",
+    "summary": "🚀 Develop a universal, interpretable decision-making architecture to enhance the reliability of AI in critical environments like robotics and autonomous systems.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:13:16Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/cubopez48/algorithm-11",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/cubopez48/algorithm-11",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "cubopez48"
+    ],
+    "category": "code",
+    "keywords": [
+      "astar",
+      "audio",
+      "audio-processing",
+      "boost",
+      "challenges-solved",
+      "concepts",
+      "curve-fitting",
+      "library",
+      "matching",
+      "opencv",
+      "pygame",
+      "python",
+      "shape",
+      "shape-based",
+      "source-audio",
+      "voice",
+      "workshop"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 136778353,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxMzY3NzgzNTM=",
+      "name": "algorithm-11",
+      "full_name": "cubopez48/algorithm-11",
+      "private": false,
+      "owner": {
+        "login": "cubopez48",
+        "id": 40133203,
+        "node_id": "MDQ6VXNlcjQwMTMzMjAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40133203?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/cubopez48",
+        "html_url": "https://github.com/cubopez48",
+        "followers_url": "https://api.github.com/users/cubopez48/followers",
+        "following_url": "https://api.github.com/users/cubopez48/following{/other_user}",
+        "gists_url": "https://api.github.com/users/cubopez48/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/cubopez48/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/cubopez48/subscriptions",
+        "organizations_url": "https://api.github.com/users/cubopez48/orgs",
+        "repos_url": "https://api.github.com/users/cubopez48/repos",
+        "events_url": "https://api.github.com/users/cubopez48/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/cubopez48/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/cubopez48/algorithm-11",
+      "description": "🚀 Develop a universal, interpretable decision-making architecture to enhance the reliability of AI in critical environments like robotics and autonomous systems.",
+      "fork": false,
+      "url": "https://api.github.com/repos/cubopez48/algorithm-11",
+      "forks_url": "https://api.github.com/repos/cubopez48/algorithm-11/forks",
+      "keys_url": "https://api.github.com/repos/cubopez48/algorithm-11/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/cubopez48/algorithm-11/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/cubopez48/algorithm-11/teams",
+      "hooks_url": "https://api.github.com/repos/cubopez48/algorithm-11/hooks",
+      "issue_events_url": "https://api.github.com/repos/cubopez48/algorithm-11/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/cubopez48/algorithm-11/events",
+      "assignees_url": "https://api.github.com/repos/cubopez48/algorithm-11/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/cubopez48/algorithm-11/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/cubopez48/algorithm-11/tags",
+      "blobs_url": "https://api.github.com/repos/cubopez48/algorithm-11/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/cubopez48/algorithm-11/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/cubopez48/algorithm-11/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/cubopez48/algorithm-11/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/cubopez48/algorithm-11/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/cubopez48/algorithm-11/languages",
+      "stargazers_url": "https://api.github.com/repos/cubopez48/algorithm-11/stargazers",
+      "contributors_url": "https://api.github.com/repos/cubopez48/algorithm-11/contributors",
+      "subscribers_url": "https://api.github.com/repos/cubopez48/algorithm-11/subscribers",
+      "subscription_url": "https://api.github.com/repos/cubopez48/algorithm-11/subscription",
+      "commits_url": "https://api.github.com/repos/cubopez48/algorithm-11/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/cubopez48/algorithm-11/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/cubopez48/algorithm-11/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/cubopez48/algorithm-11/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/cubopez48/algorithm-11/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/cubopez48/algorithm-11/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/cubopez48/algorithm-11/merges",
+      "archive_url": "https://api.github.com/repos/cubopez48/algorithm-11/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/cubopez48/algorithm-11/downloads",
+      "issues_url": "https://api.github.com/repos/cubopez48/algorithm-11/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/cubopez48/algorithm-11/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/cubopez48/algorithm-11/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/cubopez48/algorithm-11/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/cubopez48/algorithm-11/labels{/name}",
+      "releases_url": "https://api.github.com/repos/cubopez48/algorithm-11/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/cubopez48/algorithm-11/deployments",
+      "created_at": "2018-06-10T04:11:44Z",
+      "updated_at": "2026-04-01T04:13:16Z",
+      "pushed_at": "2026-04-01T04:13:13Z",
+      "git_url": "git://github.com/cubopez48/algorithm-11.git",
+      "ssh_url": "git@github.com:cubopez48/algorithm-11.git",
+      "clone_url": "https://github.com/cubopez48/algorithm-11.git",
+      "svn_url": "https://github.com/cubopez48/algorithm-11",
+      "homepage": "https://cubopez48.github.io",
+      "size": 2354,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "astar",
+        "audio",
+        "audio-processing",
+        "boost",
+        "challenges-solved",
+        "concepts",
+        "curve-fitting",
+        "library",
+        "matching",
+        "opencv",
+        "pygame",
+        "python",
+        "shape",
+        "shape-based",
+        "source-audio",
+        "voice",
+        "workshop"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "cubopez48algorithm-11",
+    "dedupeKey": "97645b0504732750eb76c90263e25c6cd52f11ef0b153088847b49ca4a20af34",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1156487120",
+    "title": "carlossuarez091011-lgtm/pidog-embodiment",
+    "summary": "🐕 Connect your AI brain to a robot body, enabling it to see, hear, speak, and move through a versatile open-source framework.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:13:13Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/carlossuarez091011-lgtm/pidog-embodiment",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/carlossuarez091011-lgtm/pidog-embodiment",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "carlossuarez091011-lgtm"
+    ],
+    "category": "code",
+    "keywords": [
+      "ai",
+      "autonomous",
+      "embodied-ai",
+      "face-recognition",
+      "iot",
+      "llm",
+      "pidog",
+      "python",
+      "raspberry-pi",
+      "robot",
+      "voice-control"
+    ],
+    "tags": [
+      "具身智能",
+      "强化学习控制",
+      "开源发布"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1156487120,
+      "node_id": "R_kgDORO6X0A",
+      "name": "pidog-embodiment",
+      "full_name": "carlossuarez091011-lgtm/pidog-embodiment",
+      "private": false,
+      "owner": {
+        "login": "carlossuarez091011-lgtm",
+        "id": 254228104,
+        "node_id": "U_kgDODyc2iA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/254228104?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/carlossuarez091011-lgtm",
+        "html_url": "https://github.com/carlossuarez091011-lgtm",
+        "followers_url": "https://api.github.com/users/carlossuarez091011-lgtm/followers",
+        "following_url": "https://api.github.com/users/carlossuarez091011-lgtm/following{/other_user}",
+        "gists_url": "https://api.github.com/users/carlossuarez091011-lgtm/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/carlossuarez091011-lgtm/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/carlossuarez091011-lgtm/subscriptions",
+        "organizations_url": "https://api.github.com/users/carlossuarez091011-lgtm/orgs",
+        "repos_url": "https://api.github.com/users/carlossuarez091011-lgtm/repos",
+        "events_url": "https://api.github.com/users/carlossuarez091011-lgtm/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/carlossuarez091011-lgtm/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/carlossuarez091011-lgtm/pidog-embodiment",
+      "description": "🐕 Connect your AI brain to a robot body, enabling it to see, hear, speak, and move through a versatile open-source framework.",
+      "fork": false,
+      "url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment",
+      "forks_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/forks",
+      "keys_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/teams",
+      "hooks_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/hooks",
+      "issue_events_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/events",
+      "assignees_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/tags",
+      "blobs_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/languages",
+      "stargazers_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/stargazers",
+      "contributors_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/contributors",
+      "subscribers_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/subscribers",
+      "subscription_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/subscription",
+      "commits_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/merges",
+      "archive_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/downloads",
+      "issues_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/labels{/name}",
+      "releases_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/carlossuarez091011-lgtm/pidog-embodiment/deployments",
+      "created_at": "2026-02-12T17:49:34Z",
+      "updated_at": "2026-04-01T04:13:13Z",
+      "pushed_at": "2026-04-01T04:13:09Z",
+      "git_url": "git://github.com/carlossuarez091011-lgtm/pidog-embodiment.git",
+      "ssh_url": "git@github.com:carlossuarez091011-lgtm/pidog-embodiment.git",
+      "clone_url": "https://github.com/carlossuarez091011-lgtm/pidog-embodiment.git",
+      "svn_url": "https://github.com/carlossuarez091011-lgtm/pidog-embodiment",
+      "homepage": "https://carlossuarez091011-lgtm.github.io",
+      "size": 1235,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "ai",
+        "autonomous",
+        "embodied-ai",
+        "face-recognition",
+        "iot",
+        "llm",
+        "pidog",
+        "python",
+        "raspberry-pi",
+        "robot",
+        "voice-control"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "carlossuarez091011-lgtmpidog-embodiment",
+    "dedupeKey": "8e80ffd83602a408c14d2ea840e618836bc667a63e1ae72ee92053a203847b17",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1192525840",
+    "title": "quantumified/engg1500-robot-project",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:13:10Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/quantumified/engg1500-robot-project",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/quantumified/engg1500-robot-project",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "quantumified"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1192525840,
+      "node_id": "R_kgDORxSAEA",
+      "name": "engg1500-robot-project",
+      "full_name": "quantumified/engg1500-robot-project",
+      "private": false,
+      "owner": {
+        "login": "quantumified",
+        "id": 170865747,
+        "node_id": "U_kgDOCi80Uw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/170865747?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/quantumified",
+        "html_url": "https://github.com/quantumified",
+        "followers_url": "https://api.github.com/users/quantumified/followers",
+        "following_url": "https://api.github.com/users/quantumified/following{/other_user}",
+        "gists_url": "https://api.github.com/users/quantumified/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/quantumified/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/quantumified/subscriptions",
+        "organizations_url": "https://api.github.com/users/quantumified/orgs",
+        "repos_url": "https://api.github.com/users/quantumified/repos",
+        "events_url": "https://api.github.com/users/quantumified/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/quantumified/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/quantumified/engg1500-robot-project",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/quantumified/engg1500-robot-project",
+      "forks_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/forks",
+      "keys_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/teams",
+      "hooks_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/hooks",
+      "issue_events_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/events",
+      "assignees_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/tags",
+      "blobs_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/languages",
+      "stargazers_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/stargazers",
+      "contributors_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/contributors",
+      "subscribers_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/subscribers",
+      "subscription_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/subscription",
+      "commits_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/merges",
+      "archive_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/downloads",
+      "issues_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/labels{/name}",
+      "releases_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/quantumified/engg1500-robot-project/deployments",
+      "created_at": "2026-03-26T09:56:54Z",
+      "updated_at": "2026-04-01T04:13:10Z",
+      "pushed_at": "2026-04-01T04:13:07Z",
+      "git_url": "git://github.com/quantumified/engg1500-robot-project.git",
+      "ssh_url": "git@github.com:quantumified/engg1500-robot-project.git",
+      "clone_url": "https://github.com/quantumified/engg1500-robot-project.git",
+      "svn_url": "https://github.com/quantumified/engg1500-robot-project",
+      "homepage": null,
+      "size": 662,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "quantumifiedengg1500-robot-project",
+    "dedupeKey": "80cdeb77f9f06dda225a90e26231a323d88f5a90896134f8b3e79e05ecdbf931",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1156572992",
+    "title": "BOODY2209/anymal_c_velocity",
+    "summary": "🚶♂️ Train ANYmal C to walk and track body velocities by integrating a custom robot with mjlab tasks for effective locomotion modeling.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:13:09Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/BOODY2209/anymal_c_velocity",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/BOODY2209/anymal_c_velocity",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "BOODY2209"
+    ],
+    "category": "code",
+    "keywords": [
+      "algorithm-challenges",
+      "algorithm-competitions",
+      "aliengo",
+      "anymal",
+      "data-structures",
+      "framework",
+      "interview",
+      "lidar",
+      "littledog",
+      "machine-learning",
+      "mjlab",
+      "mujoco-warp",
+      "quadruped",
+      "ros",
+      "ros2"
+    ],
+    "tags": [
+      "实验室动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1156572992,
+      "node_id": "R_kgDORO_nQA",
+      "name": "anymal_c_velocity",
+      "full_name": "BOODY2209/anymal_c_velocity",
+      "private": false,
+      "owner": {
+        "login": "BOODY2209",
+        "id": 181205356,
+        "node_id": "U_kgDOCsz5bA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181205356?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/BOODY2209",
+        "html_url": "https://github.com/BOODY2209",
+        "followers_url": "https://api.github.com/users/BOODY2209/followers",
+        "following_url": "https://api.github.com/users/BOODY2209/following{/other_user}",
+        "gists_url": "https://api.github.com/users/BOODY2209/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/BOODY2209/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/BOODY2209/subscriptions",
+        "organizations_url": "https://api.github.com/users/BOODY2209/orgs",
+        "repos_url": "https://api.github.com/users/BOODY2209/repos",
+        "events_url": "https://api.github.com/users/BOODY2209/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/BOODY2209/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/BOODY2209/anymal_c_velocity",
+      "description": "🚶♂️ Train ANYmal C to walk and track body velocities by integrating a custom robot with mjlab tasks for effective locomotion modeling.",
+      "fork": false,
+      "url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity",
+      "forks_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/forks",
+      "keys_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/teams",
+      "hooks_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/hooks",
+      "issue_events_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/events",
+      "assignees_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/tags",
+      "blobs_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/languages",
+      "stargazers_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/stargazers",
+      "contributors_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/contributors",
+      "subscribers_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/subscribers",
+      "subscription_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/subscription",
+      "commits_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/merges",
+      "archive_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/downloads",
+      "issues_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/labels{/name}",
+      "releases_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/BOODY2209/anymal_c_velocity/deployments",
+      "created_at": "2026-02-12T19:59:25Z",
+      "updated_at": "2026-04-01T04:13:09Z",
+      "pushed_at": "2026-04-01T04:13:06Z",
+      "git_url": "git://github.com/BOODY2209/anymal_c_velocity.git",
+      "ssh_url": "git@github.com:BOODY2209/anymal_c_velocity.git",
+      "clone_url": "https://github.com/BOODY2209/anymal_c_velocity.git",
+      "svn_url": "https://github.com/BOODY2209/anymal_c_velocity",
+      "homepage": "https://boody2209.github.io",
+      "size": 19991,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "algorithm-challenges",
+        "algorithm-competitions",
+        "aliengo",
+        "anymal",
+        "data-structures",
+        "framework",
+        "interview",
+        "lidar",
+        "littledog",
+        "machine-learning",
+        "mjlab",
+        "mujoco-warp",
+        "quadruped",
+        "ros",
+        "ros2"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "boody2209anymalcvelocity",
+    "dedupeKey": "2cd413d61110dd7f7a35f68e206f1330dacdb944b02f414f88b9647033239aba",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1197975526",
+    "title": "DaedalusDelta/conference_calendar",
+    "summary": "An AI powered website hosting paper submission deadlines for robotics conferences and workshops. An agent periodically updates the calendar by searching through conference portals and workshop websites to fetch the latest information on dates.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:13:05Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/DaedalusDelta/conference_calendar",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/DaedalusDelta/conference_calendar",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "DaedalusDelta"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "会议资讯"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1197975526,
+      "node_id": "R_kgDOR2en5g",
+      "name": "conference_calendar",
+      "full_name": "DaedalusDelta/conference_calendar",
+      "private": false,
+      "owner": {
+        "login": "DaedalusDelta",
+        "id": 122567421,
+        "node_id": "U_kgDOB046_Q",
+        "avatar_url": "https://avatars.githubusercontent.com/u/122567421?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/DaedalusDelta",
+        "html_url": "https://github.com/DaedalusDelta",
+        "followers_url": "https://api.github.com/users/DaedalusDelta/followers",
+        "following_url": "https://api.github.com/users/DaedalusDelta/following{/other_user}",
+        "gists_url": "https://api.github.com/users/DaedalusDelta/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/DaedalusDelta/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/DaedalusDelta/subscriptions",
+        "organizations_url": "https://api.github.com/users/DaedalusDelta/orgs",
+        "repos_url": "https://api.github.com/users/DaedalusDelta/repos",
+        "events_url": "https://api.github.com/users/DaedalusDelta/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/DaedalusDelta/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/DaedalusDelta/conference_calendar",
+      "description": "An AI powered website hosting paper submission deadlines for robotics conferences and workshops. An agent periodically updates the calendar by searching through conference portals and workshop websites to fetch the latest information on dates.",
+      "fork": false,
+      "url": "https://api.github.com/repos/DaedalusDelta/conference_calendar",
+      "forks_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/forks",
+      "keys_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/teams",
+      "hooks_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/hooks",
+      "issue_events_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/events",
+      "assignees_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/tags",
+      "blobs_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/languages",
+      "stargazers_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/stargazers",
+      "contributors_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/contributors",
+      "subscribers_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/subscribers",
+      "subscription_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/subscription",
+      "commits_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/merges",
+      "archive_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/downloads",
+      "issues_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/labels{/name}",
+      "releases_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/DaedalusDelta/conference_calendar/deployments",
+      "created_at": "2026-04-01T02:54:29Z",
+      "updated_at": "2026-04-01T04:13:05Z",
+      "pushed_at": "2026-04-01T04:13:02Z",
+      "git_url": "git://github.com/DaedalusDelta/conference_calendar.git",
+      "ssh_url": "git@github.com:DaedalusDelta/conference_calendar.git",
+      "clone_url": "https://github.com/DaedalusDelta/conference_calendar.git",
+      "svn_url": "https://github.com/DaedalusDelta/conference_calendar",
+      "homepage": null,
+      "size": 6,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "daedalusdeltaconferencecalendar",
+    "dedupeKey": "7f6516dc23480b92ea58c94d54befc68f822f49ef9ab0704878f40814c2531a3",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1136411062",
+    "title": "igKnightion-Robotics/2026-Varsity",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:12:35Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/igKnightion-Robotics/2026-Varsity",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/igKnightion-Robotics/2026-Varsity",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "igKnightion-Robotics"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics"
+    ],
+    "tags": [
+      "具身智能",
+      "开源发布"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1136411062,
+      "node_id": "R_kgDOQ7xBtg",
+      "name": "2026-Varsity",
+      "full_name": "igKnightion-Robotics/2026-Varsity",
+      "private": false,
+      "owner": {
+        "login": "igKnightion-Robotics",
+        "id": 255557869,
+        "node_id": "O_kgDODzuA7Q",
+        "avatar_url": "https://avatars.githubusercontent.com/u/255557869?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/igKnightion-Robotics",
+        "html_url": "https://github.com/igKnightion-Robotics",
+        "followers_url": "https://api.github.com/users/igKnightion-Robotics/followers",
+        "following_url": "https://api.github.com/users/igKnightion-Robotics/following{/other_user}",
+        "gists_url": "https://api.github.com/users/igKnightion-Robotics/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/igKnightion-Robotics/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/igKnightion-Robotics/subscriptions",
+        "organizations_url": "https://api.github.com/users/igKnightion-Robotics/orgs",
+        "repos_url": "https://api.github.com/users/igKnightion-Robotics/repos",
+        "events_url": "https://api.github.com/users/igKnightion-Robotics/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/igKnightion-Robotics/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/igKnightion-Robotics/2026-Varsity",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity",
+      "forks_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/forks",
+      "keys_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/teams",
+      "hooks_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/hooks",
+      "issue_events_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/events",
+      "assignees_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/tags",
+      "blobs_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/languages",
+      "stargazers_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/stargazers",
+      "contributors_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/contributors",
+      "subscribers_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/subscribers",
+      "subscription_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/subscription",
+      "commits_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/merges",
+      "archive_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/downloads",
+      "issues_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/labels{/name}",
+      "releases_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/igKnightion-Robotics/2026-Varsity/deployments",
+      "created_at": "2026-01-17T16:38:21Z",
+      "updated_at": "2026-04-01T04:12:35Z",
+      "pushed_at": "2026-04-01T04:12:31Z",
+      "git_url": "git://github.com/igKnightion-Robotics/2026-Varsity.git",
+      "ssh_url": "git@github.com:igKnightion-Robotics/2026-Varsity.git",
+      "clone_url": "https://github.com/igKnightion-Robotics/2026-Varsity.git",
+      "svn_url": "https://github.com/igKnightion-Robotics/2026-Varsity",
+      "homepage": null,
+      "size": 482,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Java",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 16,
+      "license": {
+        "key": "bsd-3-clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdx_id": "BSD-3-Clause",
+        "url": "https://api.github.com/licenses/bsd-3-clause",
+        "node_id": "MDc6TGljZW5zZTU="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 16,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "igknightion-robotics2026-varsity",
+    "dedupeKey": "e2a4e1acc5e7b9bfe62ef3b787b3684cb780be22ff46aa10ca45e1121cac0be8",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "889817700",
+    "title": "Matrix-Robotics/MATRIX-Studio2.0-parts",
+    "summary": "MATRIX Parts packs for Studio 2.0.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:12:25Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Matrix-Robotics/MATRIX-Studio2.0-parts",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Matrix-Robotics/MATRIX-Studio2.0-parts",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Matrix-Robotics"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 889817700,
+      "node_id": "R_kgDONQmKZA",
+      "name": "MATRIX-Studio2.0-parts",
+      "full_name": "Matrix-Robotics/MATRIX-Studio2.0-parts",
+      "private": false,
+      "owner": {
+        "login": "Matrix-Robotics",
+        "id": 50657080,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjUwNjU3MDgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/50657080?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Matrix-Robotics",
+        "html_url": "https://github.com/Matrix-Robotics",
+        "followers_url": "https://api.github.com/users/Matrix-Robotics/followers",
+        "following_url": "https://api.github.com/users/Matrix-Robotics/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Matrix-Robotics/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Matrix-Robotics/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Matrix-Robotics/subscriptions",
+        "organizations_url": "https://api.github.com/users/Matrix-Robotics/orgs",
+        "repos_url": "https://api.github.com/users/Matrix-Robotics/repos",
+        "events_url": "https://api.github.com/users/Matrix-Robotics/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Matrix-Robotics/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Matrix-Robotics/MATRIX-Studio2.0-parts",
+      "description": "MATRIX Parts packs for Studio 2.0.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts",
+      "forks_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/forks",
+      "keys_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/teams",
+      "hooks_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/hooks",
+      "issue_events_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/events",
+      "assignees_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/tags",
+      "blobs_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/languages",
+      "stargazers_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/stargazers",
+      "contributors_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/contributors",
+      "subscribers_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/subscribers",
+      "subscription_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/subscription",
+      "commits_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/merges",
+      "archive_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/downloads",
+      "issues_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Matrix-Robotics/MATRIX-Studio2.0-parts/deployments",
+      "created_at": "2024-11-17T10:16:40Z",
+      "updated_at": "2026-04-01T04:12:25Z",
+      "pushed_at": "2026-04-01T04:14:07Z",
+      "git_url": "git://github.com/Matrix-Robotics/MATRIX-Studio2.0-parts.git",
+      "ssh_url": "git@github.com:Matrix-Robotics/MATRIX-Studio2.0-parts.git",
+      "clone_url": "https://github.com/Matrix-Robotics/MATRIX-Studio2.0-parts.git",
+      "svn_url": "https://github.com/Matrix-Robotics/MATRIX-Studio2.0-parts",
+      "homepage": "",
+      "size": 31664,
+      "stargazers_count": 2,
+      "watchers_count": 2,
+      "language": null,
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 1,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 2,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "matrix-roboticsmatrix-studio20-parts",
+    "dedupeKey": "f36821f03af4f180cce54b57e781e1c38ef5a0c999cbc2e0f2127c6b6e244481",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.29844v1",
+    "title": "DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA",
+    "summary": "arXiv:2603.29844v1 Announce Type: new Abstract: The development of Vision-Language-Action (VLA) models has been significantly accelerated by pre-trained Vision-Language Models (VLMs). However, most existing end-to-end VLAs treat the VLM primarily as a multimodal encoder, directly mapping vision-language features to low-level actions. This paradigm underutilizes the VLM's potential in high-level decision making and introduces training instability, frequently degrading its rich semantic representations. To address these limitations, we introduce DIAL, a framework bridging high-level decision making and low-level motor execution through a differentiable latent intent bottleneck. Specifically, a VLM-based System-2 performs latent world modeling by synthesizing latent visual foresight within the VLM's native feature space; this foresight explicitly encodes intent and serves as the structural bottleneck. A lightweight System-1 policy then decodes this predicted intent together with the current observation into precise robot actions via latent inverse dynamics. To ensure optimization stability, we employ a two-stage training paradigm: a decoupled warmup phase where System-2 learns to predict latent futures while System-1 learns motor control under ground-truth future guidance within a unified feature space, followed by seamless end-to-end joint optimization. This enables action-aware gradients to refine the VLM backbone in a controlled manner, preserving pre-trained knowledge. Extensive experiments on the RoboCasa GR1 Tabletop benchmark show that DIAL establishes a new state-of-the-art, achieving superior performance with 10x fewer demonstrations than prior methods. Furthermore, by leveraging heterogeneous human demonstrations, DIAL learns physically grounded manipulation priors and exhibits robust zero-shot generalization to unseen objects and novel configurations during real-world deployment on a humanoid robot.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.29844",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.29844",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Yi Chen, Yuying Ge, Hui Zhou, Mingyu Ding, Yixiao Ge, Xihui Liu"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "humanoid",
+      "world model",
+      "vla",
+      "vlm",
+      "vision-language-action",
+      "multimodal"
+    ],
+    "tags": [
+      "机器人学习",
+      "强化学习控制",
+      "机械臂操作",
+      "人形机器人",
+      "世界模型",
+      "视觉语言动作",
+      "机器人视觉语言模型",
+      "数据集"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "dial-decoupling-intent-and-action-via-latent-world-modeling-for-end-to-end-vla",
+    "dedupeKey": "57b78cb2b2e147587c44d2a506fbe2ba40016b9efd57f5a2bb4e4a908eca46d3",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.30042v1",
+    "title": "HapCompass: A Rotational Haptic Device for Contact-Rich Robotic Teleoperation",
+    "summary": "arXiv:2603.30042v1 Announce Type: new Abstract: The contact-rich nature of manipulation makes it a significant challenge for robotic teleoperation. While haptic feedback is critical for contact-rich tasks, providing intuitive directional cues within wearable teleoperation interfaces remains a bottleneck. Existing solutions, such as non-directional vibrations from handheld controllers, provide limited information, while vibrotactile arrays are prone to perceptual interference. To address these limitations, we propose HapCompass, a novel, low-cost wearable haptic device that renders 2D directional cues by mechanically rotating a single linear resonant actuator (LRA). We evaluated HapCompass's ability to convey directional cues to human operators and showed that it increased the success rate, decreased the completion time and the maximum contact force for teleoperated manipulation tasks when compared to vision-only and non-directional feedback baselines. Furthermore, we conducted a preliminary imitation-learning evaluation, suggesting that the directional feedback provided by HapCompass enhances the quality of demonstration data and, in turn, the trained policy. We release the design of the HapCompass device along with the code that implements our teleoperation interface: https://ripl.github.io/HapCompass/.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.30042",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.30042",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Xiangshan Tan, Jingtian Ji, Tianchong Jiang, Pedro Lopes, Matthew R. Walter"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "teleoperation",
+      "teleop",
+      "rov"
+    ],
+    "tags": [
+      "机器人学习",
+      "机器人遥操作",
+      "机械臂操作",
+      "水下机器人",
+      "开源发布"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "hapcompass-a-rotational-haptic-device-for-contact-rich-robotic-teleoperation",
+    "dedupeKey": "2a9bdc97118deaabb051aeb080ec01ec99d7bdc71e537b3c149f372397248ea8",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.28831v1",
+    "title": "A Classification of Heterogeneity in Uncrewed Vehicle Swarms and the Effects of Its Inclusion on Overall Swarm Resilience",
+    "summary": "arXiv:2603.28831v1 Announce Type: new Abstract: Combining different types of agents in uncrewed vehicle (UV) swarms has emerged as an approach to enhance mission resilience and operational capabilities across a wide range of applications. This study offers a systematic framework for grouping different types of swarms based on three main factors: agent nature (behavior and function), hardware structure (physical configuration and sensing capabilities), and operational space (domain of operation). A literature review indicates that strategic heterogeneity significantly improves swarm performance. Operational challenges, including communication architecture constraints, energy-aware coordination strategies, and control system integration, are also discussed. The analysis shows that heterogeneous swarms are more resilient because they can leverage diverse capabilities, adapt roles on the fly, and integrate data from multidimensional sensor feeds. Some important factors to consider when implementing are sim-to-real-world transfer for learned policies, standardized evaluation metrics, and control architectures that can work together. Learning-based coordination, GPS (Global Positioning System)-denied multi-robot SLAM (Simultaneous Localization and Mapping), and domain-specific commercial deployments collectively demonstrate that heterogeneous swarm technology is moving closer to readiness for high-value applications. This study offers a single taxonomy and evidence-based observations on methods for designing mission-ready heterogeneous swarms that balance complexity and increased capability.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.28831",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.28831",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Abhishek Joshi, Abhishek Phadke, Tianxing Chu, F. Antonio Medrano"
+    ],
+    "category": "paper",
+    "keywords": [
+      "slam",
+      "localization",
+      "rov"
+    ],
+    "tags": [
+      "强化学习控制",
+      "SLAM与定位",
+      "水下机器人"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "a-classification-of-heterogeneity-in-uncrewed-vehicle-swarms-and-the-effects-of-",
+    "dedupeKey": "1cf9a071e59f46bbb5475432dda5f6da5b2b777b1a8d9c641c24abcee1b06b75",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.29227v1",
+    "title": "Kernel-SDF: An Open-Source Library for Real-Time Signed Distance Function Estimation using Kernel Regression",
+    "summary": "arXiv:2603.29227v1 Announce Type: new Abstract: Accurate and efficient environment representation is crucial for robotic applications such as motion planning, manipulation, and navigation. Signed distance functions (SDFs) have emerged as a powerful representation for encoding distance to obstacle boundaries, enabling efficient collision-checking and trajectory optimization techniques. However, existing SDF reconstruction methods have limitations when it comes to large-scale uncertainty-aware SDF estimation from streaming sensor data. Voxel-based approaches are limited by fixed resolution and lack uncertainty quantification, neural network methods require significant training time, while Gaussian process (GP) methods struggle with scalability, sign estimation, and uncertainty calibration. In this letter, we develop an open-source library, Kernel-SDF, which uses kernel regression to learn SDF with calibrated uncertainty quantification in real-time. Our approach consists of a front-end that learns a continuous occupancy field via kernel regression, and a back-end that estimates accurate SDF via GP regression using samples from the front-end surface boundaries. Kernel-SDF provides accurate SDF, SDF gradient, SDF uncertainty, and mesh construction in real-time. Evaluation results show that Kernel-SDF achieves superior accuracy compared to existing methods, while maintaining real-time performance, making it suitable for various robotics applications requiring reliable uncertainty-aware geometric information.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.29227",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.29227",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Zhirui Dai, Tianxing Fan, Mani Amani, Jaemin Seo, Ki Myung Brian Lee, Hyondong Oh, Nikolay Atanasov"
+    ],
+    "category": "paper",
+    "keywords": [
+      "robotics",
+      "manipulation",
+      "rov"
+    ],
+    "tags": [
+      "机械臂操作",
+      "水下机器人",
+      "开源发布",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "kernel-sdf-an-open-source-library-for-real-time-signed-distance-function-estimat",
+    "dedupeKey": "7e89213f20e20953b40061eebc0057fdc0a694c2e18128774cdf591714f38db2",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.29627v1",
+    "title": "Semantic Zone-Based Map Management for Stable AI-Integrated Mobile Robots",
+    "summary": "arXiv:2603.29627v1 Announce Type: new Abstract: Recent advances in large AI models (VLMs and LLMs) and joint use of the 3D dense maps, enable mobile robots to provide more powerful and interactive services grounded in rich spatial context. However, deploying both heavy AI models and dense maps on edge robots is challenging under strict memory budgets. When the memory budget is exceeded, required keyframes may not be loaded in time, which can degrade the stability of position estimation and interfering model performance. We proposes a semantic zone-based map management approach to stabilize dense-map utilization under memory constraints. We associate keyframes with semantic indoor regions (e.g., rooms and corridors) and keyframe management at the semantic zone level prioritizes spatially relevant map content while respecting memory constraints. This reduces keyframe loading and unloading frequency and memory usage. We evaluate the proposed approach in large-scale simulated indoor environments and on an NVIDIA Jetson Orin Nano under concurrent SLAM-VLM execution. With Qwen3.5:0.8b, the proposed method improves throughput by 3.3 tokens/s and reduces latency by 21.7% relative to a geometric map-management strategy. Furthermore, while the geometric strategy suffers from out-of-memory failures and stalled execution under memory pressure, the proposed method eliminates both issues, preserving localization stability and enabling robust VLM operation. These results demonstrate that the proposed approach enables efficient dense map utilization for memory constrained, AI-integrated mobile robots. Code is available at: https://github.com/huichangs/rtabmap/tree/segment",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.29627",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.29627",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Huichang Yun, Seungho Yoo"
+    ],
+    "category": "paper",
+    "keywords": [
+      "vlm",
+      "slam",
+      "localization",
+      "rov"
+    ],
+    "tags": [
+      "机器人视觉语言模型",
+      "SLAM与定位",
+      "水下机器人",
+      "开源发布",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "semantic-zone-based-map-management-for-stable-ai-integrated-mobile-robots",
+    "dedupeKey": "8eeaf878253715a7c17c6c1760d68f47a2e729b744ccaa84064ddfe75a0614fa",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2512.05955v2",
+    "title": "SIMPACT: Simulation-Enabled Action Planning using Vision-Language Models",
+    "summary": "arXiv:2512.05955v2 Announce Type: replace Abstract: Vision-Language Models (VLMs) exhibit remarkable common-sense and semantic reasoning capabilities. However, they lack a grounded understanding of physical dynamics. This limitation arises from training VLMs on static internet-scale visual-language data that contain no causal interactions or action-conditioned changes. Consequently, it remains challenging to leverage VLMs for fine-grained robotic manipulation tasks that require physical understanding, reasoning, and corresponding action planning. To overcome this, we present SIMPACT, a test-time, SIMulation-enabled ACTion Planning framework that equips VLMs with physical reasoning through simulation-in-the-loop world modeling, without requiring any additional training. From a single RGB-D observation, SIMPACT efficiently constructs physics simulations, enabling the VLM to propose informed actions, observe simulated rollouts, and iteratively refine its reasoning. By integrating language reasoning with physics prediction, our simulation-enabled VLM can understand contact dynamics and action outcomes in a physically grounded way. Our method demonstrates state-of-the-art performance on five challenging, real-world rigid-body and deformable manipulation tasks that require fine-grained physical reasoning, outperforming existing general-purpose robotic manipulation models. Our results demonstrate that embedding physics understanding via efficient simulation into VLM reasoning at test time offers a promising path towards generalizable embodied intelligence. Project webpage can be found at https://simpact-bot.github.io",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2512.05955",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2512.05955",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Haowen Liu, Shaoxiong Yao, Haonan Chen, Jiawei Gao, Jiayuan Mao, Jia-Bin Huang, Yilun Du"
+    ],
+    "category": "paper",
+    "keywords": [
+      "embodied intelligence",
+      "manipulation",
+      "world model",
+      "vlm"
+    ],
+    "tags": [
+      "具身智能",
+      "强化学习控制",
+      "机械臂操作",
+      "世界模型",
+      "机器人视觉语言模型",
+      "仿真训练",
+      "开源发布"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "simpact-simulation-enabled-action-planning-using-vision-language-models",
+    "dedupeKey": "9d4fd7e990be8429a02c1cc7e0f13980b95f81cc9476d6e562f2a4253b14f321",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.29213v1",
+    "title": "Kilohertz-Safe: A Scalable Framework for Constrained Dexterous Retargeting",
+    "summary": "arXiv:2603.29213v1 Announce Type: new Abstract: Dexterous hand teleoperation requires motion re-targeting methods that simultaneously achieve high-frequency real-time performance and enforcement of heterogeneous kinematic and safety constraints. Existing nonlinear optimization-based approaches often incur prohibitive computational cost, limiting their applicability to kilohertz-level control, while learning-based methods typically lack formal safety guarantees. This paper proposes a scalable motion retargeting framework that reformulates the nonlinear retargeting problem into a convex quadratic program in joint differential space. Heterogeneous constraints, including kinematic limits and collision avoidance, are incorporated through systematic linearization, resulting in improved computational efficiency and numerical stability. Control barrier functions are further integrated to provide formal safety guarantees during the retargeting process. The proposed framework is validated through simulations and hardware experiments on the Wuji Hand platform, outperforming state-of-the-art methods such as Dex-Retargeting and GeoRT. The framework achieves high-frequency operation with an average latency of 9.05 ms, while over 95% of retargeted frames satisfy the safety criteria, effectively mitigating self-collision and penetration during complex manipulation tasks.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.29213",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.29213",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Yinxiao Tian, Ziyi Yang, Zinan Zhao, Zhen Kan"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "teleoperation",
+      "teleop",
+      "rov",
+      "dexterous"
+    ],
+    "tags": [
+      "机器人遥操作",
+      "机械臂操作",
+      "水下机器人",
+      "仿真训练",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "kilohertz-safe-a-scalable-framework-for-constrained-dexterous-retargeting",
+    "dedupeKey": "534317842b7a4420a8e3a61c9266b0ef09d9d977ec5437172f77f1b953431f89",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.29452v1",
+    "title": "CReF: Cross-modal and Recurrent Fusion for Depth-conditioned Humanoid Locomotion",
+    "summary": "arXiv:2603.29452v1 Announce Type: new Abstract: Stable traversal over geometrically complex terrain increasingly requires exteroceptive perception, yet prior perceptive humanoid locomotion methods often remain tied to explicit geometric abstractions, either by mediating control through robot-centric 2.5D terrain representations or by shaping depth learning with auxiliary geometry-related targets. Such designs inherit the representational bias of the intermediate or supervisory target and can be restrictive for vertical structures, perforated obstacles, and complex real-world clutter. We propose CReF (Cross-modal and Recurrent Fusion), a single-stage depth-conditioned humanoid locomotion framework that learns locomotion-relevant features directly from raw forward-facing depth without explicit geometric intermediates. CReF couples proprioception and depth tokens through proprioception-queried cross-modal attention, fuses the resulting representation with a gated residual fusion block, and performs temporal integration with a Gated Recurrent Unit (GRU) regulated by a highway-style output gate for state-dependent blending of recurrent and feedforward features. To further improve terrain interaction, we introduce a terrain-aware foothold placement reward that extracts supportable foothold candidates from foot-end point-cloud samples and rewards touchdown locations that lie close to the nearest supportable candidate. Experiments in simulation and on a physical humanoid demonstrate robust traversal over diverse terrains and effective zero-shot transfer to real-world scenes containing handrails, hollow pallet assemblies, severe reflective interference, and visually cluttered outdoor surroundings.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.29452",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.29452",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Yuan Hao, Ruiqi Yu, Shixin Luo, Guoteng Zhang, Jun Wu, Qiuguo Zhu"
+    ],
+    "category": "paper",
+    "keywords": [
+      "humanoid",
+      "locomotion",
+      "rov"
+    ],
+    "tags": [
+      "强化学习控制",
+      "人形机器人",
+      "水下机器人",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "cref-cross-modal-and-recurrent-fusion-for-depth-conditioned-humanoid-locomotion",
+    "dedupeKey": "e9ec47d63427c9831d4aaeefb3405bb7e90efe084ac59001b385cb7f6855a7c4",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.30022v1",
+    "title": "Hybrid Framework for Robotic Manipulation: Integrating Reinforcement Learning and Large Language Models",
+    "summary": "arXiv:2603.30022v1 Announce Type: new Abstract: This paper introduces a new hybrid framework that combines Reinforcement Learning (RL) and Large Language Models (LLMs) to improve robotic manipulation tasks. By utilizing RL for accurate low-level control and LLMs for high level task planning and understanding of natural language, the proposed framework effectively connects low-level execution with high-level reasoning in robotic systems. This integration allows robots to understand and carry out complex, human-like instructions while adapting to changing environments in real time. The framework is tested in a PyBullet-based simulation environment using the Franka Emika Panda robotic arm, with various manipulation scenarios as benchmarks. The results show a 33.5% decrease in task completion time and enhancements of 18.1% and 36.4% in accuracy and adaptability, respectively, when compared to systems that use only RL. These results underscore the potential of LLM-enhanced robotic systems for practical applications, making them more efficient, adaptable, and capable of interacting with humans. Future research will aim to explore sim-to-real transfer, scalability, and multi-robot systems to further broaden the framework's applicability.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.30022",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.30022",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Md Saad, Sajjad Hussain, Mohd Suhaib"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "reinforcement learning",
+      "rov"
+    ],
+    "tags": [
+      "强化学习控制",
+      "机械臂操作",
+      "水下机器人",
+      "仿真训练",
+      "数据集",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "hybrid-framework-for-robotic-manipulation-integrating-reinforcement-learning-and",
+    "dedupeKey": "9f8214802f54a5ea27cbbe2927b042e54194c67468b5d255cf1e825372715826",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2512.01946v3",
+    "title": "Scaling Cross-Environment Failure Reasoning Data for Vision-Language Robotic Manipulation",
+    "summary": "arXiv:2512.01946v3 Announce Type: replace Abstract: Robust robotic manipulation requires reliable failure detection and recovery. Although recent Vision-Language Models (VLMs) show promise in robot failure detection, their generalization is severely limited by the scarcity and narrow coverage of failure data. To address this bottleneck, we propose an automatic framework for generating diverse robotic planning and execution failures across both simulated and real-world environments. Our approach perturbs successful manipulation trajectories to synthesize failures that reflect realistic failure distributions, and leverages VLMs to produce structured step-by-step reasoning traces. This yields FailCoT, a large-scale failure reasoning dataset built upon the RLBench simulator and the BridgeDataV2 real-robot dataset. Using FailCoT, we train Guardian, a multi-view reasoning VLM for unified planning and execution verification. Guardian achieves state-of-the-art performance on three unseen real-world benchmarks: RoboFail, RoboVQA, and our newly introduced UR5-Fail. When integrated with a state-of-the-art LLM-based manipulation policy, it consistently boosts task success rates in both simulation and real-world deployment. These results demonstrate that scaling high-quality failure reasoning data is critical for improving generalization in robotic failure detection. Code, Data, and Models available at https://www.di.ens.fr/willow/research/guardian/.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2512.01946",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2512.01946",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Paul Pacaud, Ricardo Garcia, Shizhe Chen, Cordelia Schmid"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "vlm",
+      "rov"
+    ],
+    "tags": [
+      "机器人学习",
+      "强化学习控制",
+      "机械臂操作",
+      "机器人视觉语言模型",
+      "水下机器人",
+      "仿真训练",
+      "数据集",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "scaling-cross-environment-failure-reasoning-data-for-vision-language-robotic-man",
+    "dedupeKey": "6ad1b6e25c0c7639b8057cc3a81aceaa4e6cdc215c354f60972e8ebe0d63c5cc",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2507.00552v3",
+    "title": "Generation of Indoor Open Street Maps for Robot Navigation from CAD Files",
+    "summary": "arXiv:2507.00552v3 Announce Type: replace Abstract: The deployment of autonomous mobile robots is predicated on the availability of environmental maps, yet conventional generation via SLAM (Simultaneous Localization and Mapping) suffers from significant limitations in time, labor, and robustness, particularly in dynamic, large-scale indoor environments where map obsolescence can lead to critical localization failures. To address these challenges, this paper presents a complete and automated system for converting architectural Computer-Aided Design (CAD) files into a hierarchical topometric OpenStreetMap (OSM) representation, tailored for robust life-long robot navigation. Our core methodology involves a multi-stage pipeline that first isolates key structural layers from the raw CAD data and then employs an AreaGraph-based topological segmentation to partition the building layout into a hierarchical graph of navigable spaces. This process yields a comprehensive and semantically rich map, further enhanced by automatically associating textual labels from the CAD source and cohesively merging multiple building floors into a unified, topologically-correct model. By leveraging the permanent structural information inherent in CAD files, our system circumvents the inefficiencies and fragility of SLAM, offering a practical and scalable solution for deploying robots in complex indoor spaces. The software is encapsulated within an intuitive Graphical User Interface (GUI) to facilitate practical use. The code and dataset are available at https://github.com/jiajiezhang7/osmAG-from-cad.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2507.00552",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2507.00552",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Jiajie Zhang, Shenrui Wu, Xu Ma, S\\\"oren Schwertfeger"
+    ],
+    "category": "paper",
+    "keywords": [
+      "slam",
+      "localization"
+    ],
+    "tags": [
+      "强化学习控制",
+      "SLAM与定位",
+      "开源发布",
+      "数据集",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "generation-of-indoor-open-street-maps-for-robot-navigation-from-cad-files",
+    "dedupeKey": "338bd06d6475746af925784c67c8db00f0a5acc7443186629741755ed4aeb579",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2509.06285v2",
+    "title": "DCReg: Decoupled Characterization for Efficient Degenerate LiDAR Registration",
+    "summary": "arXiv:2509.06285v2 Announce Type: replace Abstract: LiDAR point cloud registration is fundamental to robotic perception and navigation. In geometrically degenerate environments (e.g., corridors), registration becomes ill-conditioned: certain motion directions are weakly constrained, causing unstable solutions and degraded accuracy. Existing detect-then-mitigate methods fail to reliably detect, physically interpret, and stabilize this ill-conditioning without corrupting the optimization. We introduce DCReg (Decoupled Characterization for Ill-conditioned Registration), establishing a detect-characterize-mitigate paradigm that systematically addresses ill-conditioned registration via three innovations. First, DCReg achieves reliable ill-conditioning detection by employing Schur complement decomposition on the Hessian matrix. This decouples the 6-DoF registration into 3-DoF clean rotational and translational subspaces, eliminating coupling effects that mask degeneracy in full-Hessian analyses. Second, within these subspaces, we develop interpretable characterization techniques resolving eigen-basis ambiguities via basis alignment. This establishes stable mappings between eigenspaces and physical motion directions, providing actionable insights on which motions lack constraints and to what extent. Third, leveraging this spectral information, we design a targeted mitigation via a structured preconditioner. Guided by MAP regularization, we implement eigenvalue clamping exclusively within the preconditioner rather than modifying the original problem. This preserves the least-squares objective and minimizer, enabling efficient optimization via Preconditioned Conjugate Gradient with a single interpretable parameter. Experiments demonstrate DCReg achieves 20-50% higher long-duration localization accuracy and 5-30x speedups (up to 116x) over degeneracy-aware baselines across diverse environments. Code: https://github.com/JokerJohn/DCReg",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2509.06285",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2509.06285",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Xiangcheng Hu, Xieyuanli Chen, Mingkai Jia, Jin Wu, Ping Tan, Steven L. Waslander"
+    ],
+    "category": "paper",
+    "keywords": [
+      "localization",
+      "rov"
+    ],
+    "tags": [
+      "SLAM与定位",
+      "水下机器人",
+      "开源发布"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "dcreg-decoupled-characterization-for-efficient-degenerate-lidar-registration",
+    "dedupeKey": "ac1e6a0bfc66a2325b3a7661954c0fa1fa04162a209daf553ccbdd71c6bea39d",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2602.12724v2",
+    "title": "TRANS: Terrain-aware Reinforcement Learning for Agile Navigation of Quadruped Robots under Social Interactions",
+    "summary": "arXiv:2602.12724v2 Announce Type: replace Abstract: This study introduces TRANS: Terrain-aware Reinforcement learning for Agile Navigation under Social interactions, a deep reinforcement learning (DRL) framework for quadrupedal social navigation over unstructured terrains. Conventional quadrupedal navigation typically separates motion planning from locomotion control, neglecting whole-body constraints and terrain awareness. On the other hand, end-to-end methods are more integrated but require high-frequency sensing, which is often noisy and computationally costly. In addition, most existing approaches assume static environments, limiting their use in human-populated settings. To address these limitations, we propose a two-stage training framework with three DRL pipelines. (1) TRANS-Loco employs an asymmetric actor-critic (AC) model for quadrupedal locomotion, enabling traversal of uneven terrains without explicit terrain or contact observations. (2) TRANS-Nav applies a symmetric AC framework for social navigation, directly mapping transformed LiDAR data to ego-agent actions under differential-drive kinematics. (3) A unified pipeline, TRANS, integrates TRANS-Loco and TRANS-Nav, supporting terrain-aware quadrupedal navigation in uneven and socially interactive environments. Comprehensive benchmarks against locomotion and social navigation baselines demonstrate the effectiveness of TRANS. Hardware experiments further confirm its potential for sim-to-real transfer.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2602.12724",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2602.12724",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Wei Zhu, Irfan Tito Kurniawan, Ye Zhao, Mitsuhiro Hayashibe"
+    ],
+    "category": "paper",
+    "keywords": [
+      "reinforcement learning",
+      "locomotion"
+    ],
+    "tags": [
+      "强化学习控制",
+      "数据集"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "trans-terrain-aware-reinforcement-learning-for-agile-navigation-of-quadruped-rob",
+    "dedupeKey": "d3f1a0e282a3d287d887e10210e3f92a5aa6c88f4ef3ed09421a9370949a2ee3",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2602.04672v2",
+    "title": "AGILE: Hand-Object Interaction Reconstruction from Video via Agentic Generation",
+    "summary": "arXiv:2602.04672v2 Announce Type: replace-cross Abstract: Reconstructing dynamic hand-object interactions from monocular videos is critical for dexterous manipulation data collection and creating realistic digital twins for robotics and VR. However, current methods face two prohibitive barriers: (1) reliance on neural rendering often yields fragmented, non-simulation-ready geometries under heavy occlusion, and (2) dependence on brittle Structure-from-Motion (SfM) initialization leads to frequent failures on in-the-wild footage. To overcome these limitations, we introduce AGILE, a robust framework that shifts the paradigm from reconstruction to agentic generation for interaction learning. First, we employ an agentic pipeline where a Vision-Language Model (VLM) guides a generative model to synthesize a complete, watertight object mesh with high-fidelity texture, independent of video occlusions. Second, bypassing fragile SfM entirely, we propose a robust anchor-and-track strategy. We initialize the object pose at a single interaction onset frame using a foundation model and propagate it temporally by leveraging the strong visual similarity between our generated asset and video observations. Finally, a contact-aware optimization integrates semantic, geometric, and interaction stability constraints to enforce physical plausibility. Extensive experiments on HO3D, DexYCB, and in-the-wild videos reveal that AGILE outperforms baselines in global geometric accuracy while demonstrating exceptional robustness on challenging sequences where prior art frequently collapses. By prioritizing physical validity, our method produces simulation-ready assets validated via real-to-sim retargeting for robotic applications.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2602.04672",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2602.04672",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Jin-Chuan Shi, Binhong Ye, Tao Liu, Xiaoyang Liu, Yangjinhui Xu, Junzhe He, Zeju Li, Hao Chen, Chunhua Shen"
+    ],
+    "category": "paper",
+    "keywords": [
+      "robotics",
+      "manipulation",
+      "vlm",
+      "dexterous"
+    ],
+    "tags": [
+      "机械臂操作",
+      "机器人视觉语言模型",
+      "仿真训练"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "agile-hand-object-interaction-reconstruction-from-video-via-agentic-generation",
+    "dedupeKey": "592679a6ef623de8c2a5d86e50bc9062abf8a31ae4add804fbfaf58351ca4a3c",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.28955v1",
+    "title": "Enhancing Policy Learning with World-Action Model",
+    "summary": "arXiv:2603.28955v1 Announce Type: new Abstract: This paper presents the World-Action Model (WAM), an action-regularized world model that jointly reasons over future visual observations and the actions that drive state transitions. Unlike conventional world models trained solely via image prediction, WAM incorporates an inverse dynamics objective into DreamerV2 that predicts actions from latent state transitions, encouraging the learned representations to capture action-relevant structure critical for downstream control. We evaluate WAM on enhancing policy learning across eight manipulation tasks from the CALVIN benchmark. We first pretrain a diffusion policy via behavioral cloning on world model latents, then refine it with model-based PPO inside the frozen world model. Without modifying the policy architecture or training procedure, WAM improves average behavioral cloning success from 59.4% to 71.2% over DreamerV2 and DiWA baselines. After PPO fine-tuning, WAM achieves 92.8% average success versus 79.8% for the baseline, with two tasks reaching 100%, using 8.7x fewer training steps.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.28955",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.AI)",
+        "url": "https://arxiv.org/abs/2603.28955",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Yuci Han, Alper Yilmaz"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "world model",
+      "rov",
+      "policy learning"
+    ],
+    "tags": [
+      "机器人学习",
+      "强化学习控制",
+      "机械臂操作",
+      "世界模型",
+      "水下机器人",
+      "数据集"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.AI",
+      "source": "rss"
+    },
+    "slug": "enhancing-policy-learning-with-world-action-model",
+    "dedupeKey": "f84b241cf36e295206a6e3fe9cf35d536371bddb71796a474eee7c5153b04c56",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2509.15695v5",
+    "title": "ORIC: Benchmarking Object Recognition under Contextual Incongruity in Large Vision-Language Models",
+    "summary": "arXiv:2509.15695v5 Announce Type: replace Abstract: Large Vision-Language Models (LVLMs) excel at captioning, visual question answering, and robotics by combining vision and language, yet they often miss obvious objects or hallucinate nonexistent ones in atypical scenes. We examine these failures through the lens of uncertainty, focusing on contextual incongruity, where objects appear unexpectedly or fail to appear in expected contexts, and show that such cases increase recognition difficulty for state-of-the-art LVLMs. To study this regime, we introduce the Object Recognition in Incongruous Context (ORIC) framework, which constructs incongruous object-context pairs through two complementary strategies: (1) LLM-guided sampling to identify hard-to-recognize objects present in the image and (2) CLIP-guided sampling to mine plausible but absent ones. Applied to MSCOCO, ORIC creates ORIC-Bench and ORIC-style training data. Evaluating 18 LVLMs and 2 open-vocabulary detectors reveals significant degradation and bias under incongruous contexts. Visual Reinforcement Fine-Tuning of Qwen3-VL-8B-Instruct on 600 ORIC samples improves performance on ORIC-Bench, AMBER, and HallusionBench. Overall, we show that contextual incongruity is a key source of uncertainty and provide tools for more reliable LVLMs. The dataset and code are publicly available at https://github.com/ZhaoyangLi-1/ORIC.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2509.15695",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.CV)",
+        "url": "https://arxiv.org/abs/2509.15695",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Zhaoyang Li, Zhan Ling, Yuchen Zhou, Litian Gong, Erdem B{\\i}y{\\i}k, Hao Su"
+    ],
+    "category": "paper",
+    "keywords": [
+      "robotics",
+      "vlm",
+      "rov"
+    ],
+    "tags": [
+      "机器人视觉语言模型",
+      "水下机器人",
+      "开源发布",
+      "数据集",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.98,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.CV",
+      "source": "rss"
+    },
+    "slug": "oric-benchmarking-object-recognition-under-contextual-incongruity-in-large-visio",
+    "dedupeKey": "a1c3878631cf1a41e873cfa1324e847905d377d8b869312a83a96e522a2554d3",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.29240v1",
+    "title": "Long-Reach Robotic Cleaning for Lunar Solar Arrays",
+    "summary": "arXiv:2603.29240v1 Announce Type: new Abstract: Commercial lunar activity is accelerating the need for reliable surface infrastructure and routine operations to keep it functioning. Maintenance tasks such as inspection, cleaning, dust mitigation, and minor repair are essential to preserve performance and extend system life. A specific application is the cleaning of lunar solar arrays. Solar arrays are expected to provide substantial fraction of lunar surface power and operate for months to years, supplying continuous energy to landers, habitats, and surface assets, making sustained output mission-critical. However, over time lunar dust accumulates on these large solar arrays, which can rapidly degrade panel output and reduce mission lifetime. We propose a small mobile robot equipped with a long-reach, lightweight deployable boom and interchangeable cleaning tool to perform gentle cleaning over meter-scale workspaces with minimal human involvement. Building on prior vision-guided long-reach manipulation, we add a compliant wrist with distal force sensing and a velocity-based admittance controller to regulate stable contact during surface cleaning. In preliminary benchtop experiments on a planar surface, the system maintained approximately 2 N normal force while executing a simple cleaning motion over boom lengths from 0.3 m to 1.0 m, with RMS force error of approximately 0.2 N after initial contact. These early results suggest that deployable long-reach manipulators are a promising architecture for robotic maintenance of lunar infrastructure such as solar arrays, radiators, and optical surfaces.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.29240",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.29240",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Stanley Wang, Velin Kojouharov, Long Yin Chung, Daniel Morton, Mark Cutkosky"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "rov"
+    ],
+    "tags": [
+      "强化学习控制",
+      "机械臂操作",
+      "水下机器人"
+    ],
+    "relevanceScore": 0.9199999999999999,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "long-reach-robotic-cleaning-for-lunar-solar-arrays",
+    "dedupeKey": "aa6e45462548a7710284275c52abe35d79189f32c74d8801f16f5aaa031a39b2",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.29409v1",
+    "title": "CLaD: Planning with Grounded Foresight via Cross-Modal Latent Dynamics",
+    "summary": "arXiv:2603.29409v1 Announce Type: new Abstract: Robotic manipulation involves kinematic and semantic transitions that are inherently coupled via underlying actions. However, existing approaches plan within either semantic or latent space without explicitly aligning these cross-modal transitions. To address this, we propose CLaD, a framework that models how proprioceptive and semantic states jointly evolve under actions through asymmetric cross-attention that allows kinematic transitions to query semantic ones. CLaD predicts grounded latent foresights via self-supervised objectives with EMA target encoders and auxiliary reconstruction losses, preventing representation collapse while anchoring predictions to observable states. Predicted foresights are modulated with observations to condition a diffusion policy for action generation. On LIBERO-LONG benchmark, CLaD achieves 94.7\\% success rate, competitive with large VLAs with significantly fewer parameters.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.29409",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.29409",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Andrew Jeong, Jaemin Kim, Sebin Lee, Sung-Eui Yoon"
+    ],
+    "category": "paper",
+    "keywords": [
+      "manipulation",
+      "vla"
+    ],
+    "tags": [
+      "机器人学习",
+      "强化学习控制",
+      "机械臂操作",
+      "视觉语言动作",
+      "数据集"
+    ],
+    "relevanceScore": 0.9199999999999999,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "clad-planning-with-grounded-foresight-via-cross-modal-latent-dynamics",
+    "dedupeKey": "e3d382c31f1bbd4cdc5ba81a65d7ba26ccc1d8523a5ee856deda58dfebc384eb",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.29708v1",
+    "title": "SafeDMPs: Integrating Formal Safety with DMPs for Adaptive HRI",
+    "summary": "arXiv:2603.29708v1 Announce Type: new Abstract: Robots operating in human-centric environments must be both robust to disturbances and provably safe from collisions. Achieving these properties simultaneously and efficiently remains a central challenge. While Dynamic Movement Primitives (DMPs) offer inherent stability and generalization from single demonstrations, they lack formal safety guarantees. Conversely, formal methods like Control Barrier Functions (CBFs) provide provable safety but often rely on computationally expensive, real-time optimization, hindering their use in high-frequency control. This paper introduces SafeDMPs, a novel framework that resolves this trade-off. We integrate the closed-form efficiency and dynamic robustness of DMPs with a provably safe, non-optimization-based control law derived from Spatio-Temporal Tubes (STTs). This synergy allows us to generate motions that are not only robust to perturbations and adaptable to new goals, but also guaranteed to avoid static and dynamic obstacles. Our approach achieves a closed-form solution for a problem that traditionally requires online optimization. Experimental results on a 7-DOF robot manipulator demonstrate that SafeDMPs is orders of magnitude faster and more accurate than optimization-based baselines, making it an ideal solution for real-time, safe, and collaborative robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.29708",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.29708",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Soumyodipta Nath, Pranav Tiwari, Ravi Prakash"
+    ],
+    "category": "paper",
+    "keywords": [
+      "robotics",
+      "rov"
+    ],
+    "tags": [
+      "水下机器人",
+      "实验室动态"
+    ],
+    "relevanceScore": 0.9199999999999999,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "safedmps-integrating-formal-safety-with-dmps-for-adaptive-hri",
+    "dedupeKey": "14b375420bd97358cf895dcd72b21cff416cff0ebde7e07d8222f584c2040b7b",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
+    "externalId": "oai:arXiv.org:2603.29165v1",
+    "title": "LatentPilot: Scene-Aware Vision-and-Language Navigation by Dreaming Ahead with Latent Visual Reasoning",
+    "summary": "arXiv:2603.29165v1 Announce Type: cross Abstract: Existing vision-and-language navigation (VLN) models primarily reason over past and current visual observations, while largely ignoring the future visual dynamics induced by actions. As a result, they often lack an effective understanding of the causal relationship between actions and how the visual world changes, limiting robust decision-making. Humans, in contrast, can imagine the near future by leveraging action-dynamics causality, which improves both environmental understanding and navigation choices. Inspired by this capability, we propose LatentPilot, a new paradigm that exploits future observations during training as a valuable data source to learn action-conditioned visual dynamics, while requiring no access to future frames at inference. Concretely, we propose a flywheel-style training mechanism that iteratively collects on-policy trajectories and retrains the model to better match the agent's behavior distribution, with an expert takeover triggered when the agent deviates excessively. LatentPilot further learns visual latent tokens without explicit supervision; these latent tokens attend globally in a continuous latent space and are carried across steps, serving as both the current output and the next input, thereby enabling the agent to dream ahead and reason about how actions will affect subsequent observations. Experiments on R2R-CE, RxR-CE, and R2R-PE benchmarks achieve new SOTA results, and real-robot tests across diverse environments demonstrate LatentPilot's superior understanding of environment-action dynamics in scene. Project page:https://abdd.top/latentpilot/",
+    "summaryZh": "",
+    "publishedAt": "2026-04-01T04:00:00.000Z",
+    "sourceType": "arxiv",
+    "primaryUrl": "https://arxiv.org/abs/2603.29165",
+    "sourceLinks": [
+      {
+        "label": "arXiv (cs.RO)",
+        "url": "https://arxiv.org/abs/2603.29165",
+        "sourceType": "arxiv"
+      }
+    ],
+    "authors": [
+      "Haihong Hao, Lei Chen, Mingfei Han, Changlin Li, Dong An, Yuqiang Yang, Zhihui Li, Xiaojun Chang"
+    ],
+    "category": "paper",
+    "keywords": [
+      "vln",
+      "rov"
+    ],
+    "tags": [
+      "机器人学习",
+      "强化学习控制",
+      "视觉语言导航",
+      "水下机器人",
+      "数据集"
+    ],
+    "relevanceScore": 0.9199999999999999,
+    "trustScore": 0.9,
+    "raw": {
+      "category": "cs.RO",
+      "source": "rss"
+    },
+    "slug": "latentpilot-scene-aware-vision-and-language-navigation-by-dreaming-ahead-with-la",
+    "dedupeKey": "b8670d683adf8435fb43ab64616a7e0846f075c6655a4d2fd48a8e14fc7a702f",
+    "mergedSourceTypes": [
+      "arxiv"
+    ]
+  },
+  {
     "externalId": "1196735446",
     "title": "therealwestninja/Sweet-Freedom_for_CERBERUS",
     "summary": "An attempt to cobble together the Sweetie-Bot Plugin adaptive learning Ai system and the CERBERUS Web Controller into a single, seamless experience.",
@@ -150,7 +2397,11 @@
     "dedupeKey": "322d53ca9cba4e5d8a9d2205fc8208e665bb6707c5aeb82edfa237fdfc7e1334",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "322d53ca9cba4e5d8a9d2205fc8208e665bb6707c5aeb82edfa237fdfc7e1334",
+    "createdAt": "2026-03-31T04:00:39Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "psw5495/hf_act_recordpolicy0",
@@ -242,7 +2493,11 @@
     "dedupeKey": "0a40937c74ce8a9d5df489caf0fd98203ff36cb133c185042bcc58cb49abbc47",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "0a40937c74ce8a9d5df489caf0fd98203ff36cb133c185042bcc58cb49abbc47",
+    "createdAt": "2026-03-31T04:00:24.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1196781479",
@@ -377,7 +2632,11 @@
     "dedupeKey": "a89740dc21c8fc4083accbb6ee9c4a6c5300266145896054ec61efe026ae991c",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "a89740dc21c8fc4083accbb6ee9c4a6c5300266145896054ec61efe026ae991c",
+    "createdAt": "2026-03-31T04:00:21Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1188573844",
@@ -554,7 +2813,11 @@
     "dedupeKey": "327c858b26e09d10d220babad950cf4cd588446484d0c210d0e935f27860c5c4",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "327c858b26e09d10d220babad950cf4cd588446484d0c210d0e935f27860c5c4",
+    "createdAt": "2026-03-31T04:00:13Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1188453186",
@@ -729,7 +2992,11 @@
     "dedupeKey": "4cc5ec687d8bffb375ef795dba53621f07415ca2dd04f18e09369f52ff831128",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "4cc5ec687d8bffb375ef795dba53621f07415ca2dd04f18e09369f52ff831128",
+    "createdAt": "2026-03-31T04:00:02Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "235427051",
@@ -915,7 +3182,11 @@
     "dedupeKey": "df63436dd2388889a4a67ea413b878f2b07a0ee6ba166afbd5fc33614327d355",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "df63436dd2388889a4a67ea413b878f2b07a0ee6ba166afbd5fc33614327d355",
+    "createdAt": "2026-03-31T04:00:01Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.26690v1",
@@ -961,7 +3232,11 @@
     "dedupeKey": "62f57c05416331c0a0427d4530b5c695dc99b86190f64c427899beacccf50dfe",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "62f57c05416331c0a0427d4530b5c695dc99b86190f64c427899beacccf50dfe",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.27012v1",
@@ -1007,7 +3282,11 @@
     "dedupeKey": "ed65351e5396d55ed43fb3a7848cce4b29c88560390a582b121b9f3c890ac2a2",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "ed65351e5396d55ed43fb3a7848cce4b29c88560390a582b121b9f3c890ac2a2",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.28545v1",
@@ -1057,7 +3336,11 @@
     "dedupeKey": "c62f4059edaaed4a76f458db97bae1a5e208507cb97cc702ce9561651a929065",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "c62f4059edaaed4a76f458db97bae1a5e208507cb97cc702ce9561651a929065",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2506.23919v3",
@@ -1107,7 +3390,11 @@
     "dedupeKey": "e2788d9ebd6031fbfe95351a62f013b8bf9736fcbfe9ddd34afd74417233bab4",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "e2788d9ebd6031fbfe95351a62f013b8bf9736fcbfe9ddd34afd74417233bab4",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.28427v1",
@@ -1153,7 +3440,11 @@
     "dedupeKey": "f93b5d00ba8a212cd70c73d33573584271f8b08a33bf9a13feacf3014dabf4c6",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "f93b5d00ba8a212cd70c73d33573584271f8b08a33bf9a13feacf3014dabf4c6",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.18532v2",
@@ -1202,7 +3493,11 @@
     "dedupeKey": "bee4bac3e2648439f2b3e1f7d597dbc725de80154f7eb8ab89f28c8dac265681",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "bee4bac3e2648439f2b3e1f7d597dbc725de80154f7eb8ab89f28c8dac265681",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.26660v2",
@@ -1250,7 +3545,11 @@
     "dedupeKey": "75b9abf3e2f33f58566ed424e46191f5f6b29d919495b4b86dccf6ab5f99e041",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "75b9abf3e2f33f58566ed424e46191f5f6b29d919495b4b86dccf6ab5f99e041",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.27967v1",
@@ -1299,7 +3598,11 @@
     "dedupeKey": "050d4b38ca49d554574dd900c13355f24c570c119d2923d7e0d780d59583a7ee",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "050d4b38ca49d554574dd900c13355f24c570c119d2923d7e0d780d59583a7ee",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.27670v1",
@@ -1347,7 +3650,11 @@
     "dedupeKey": "67ff788d677cfe5545637d7f0e246c66af743339d39028ad28761a8d18b72eb6",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "67ff788d677cfe5545637d7f0e246c66af743339d39028ad28761a8d18b72eb6",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2505.05800v2",
@@ -1395,7 +3702,11 @@
     "dedupeKey": "30cac040e60354a22df1f3b789547fef589008d45926ca0f0253eda9fb9c1564",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "30cac040e60354a22df1f3b789547fef589008d45926ca0f0253eda9fb9c1564",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2512.01022v2",
@@ -1443,7 +3754,11 @@
     "dedupeKey": "a956a3ba09a478e9445c50c2149577919cdae3c8788e09db84e146e4ebfca40a",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "a956a3ba09a478e9445c50c2149577919cdae3c8788e09db84e146e4ebfca40a",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2601.05248v3",
@@ -1488,7 +3803,11 @@
     "dedupeKey": "ef7a5a5fbc38d89199c918c640b0084298775cb2559ea42c3cf104d219ef6515",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "ef7a5a5fbc38d89199c918c640b0084298775cb2559ea42c3cf104d219ef6515",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2602.16898v4",
@@ -1536,7 +3855,11 @@
     "dedupeKey": "a8db7ea654be94b61fdf72496e70ae6ab0095611e19f152429e2018cdb04ffea",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "a8db7ea654be94b61fdf72496e70ae6ab0095611e19f152429e2018cdb04ffea",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.28740v1",
@@ -1581,7 +3904,11 @@
     "dedupeKey": "a3775e69693253fd13c3d8addbb9cd7d0144593125c067224673335d31a6516d",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "a3775e69693253fd13c3d8addbb9cd7d0144593125c067224673335d31a6516d",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.27450v1",
@@ -1626,7 +3953,11 @@
     "dedupeKey": "4c6168a31fe3974bb87abfafcae48e90d8cc0c954d66f5c70e7dde63655292f9",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "4c6168a31fe3974bb87abfafcae48e90d8cc0c954d66f5c70e7dde63655292f9",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.26997v1",
@@ -1670,7 +4001,11 @@
     "dedupeKey": "ba102cd5f39d5b66373079b11e520520eb7534de7382a426b006f62e05557c6b",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "ba102cd5f39d5b66373079b11e520520eb7534de7382a426b006f62e05557c6b",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.27416v1",
@@ -1713,7 +4048,11 @@
     "dedupeKey": "53dbea6826a389b6510d495854e3c32e3e16de07b5d072ad2cf5c6aec611b4b0",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "53dbea6826a389b6510d495854e3c32e3e16de07b5d072ad2cf5c6aec611b4b0",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.27422v1",
@@ -1753,7 +4092,11 @@
     "dedupeKey": "aa0410e41291984ebb4ee0640060f465afacc13349d3b4ae73f057dbd5753e32",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "aa0410e41291984ebb4ee0640060f465afacc13349d3b4ae73f057dbd5753e32",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.27797v1",
@@ -1795,7 +4138,11 @@
     "dedupeKey": "f249a4d9e534b48ae5cce75ba6dcf058f4561f2a8a706bd893d14a623d4b76c5",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "f249a4d9e534b48ae5cce75ba6dcf058f4561f2a8a706bd893d14a623d4b76c5",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.28542v1",
@@ -1839,7 +4186,11 @@
     "dedupeKey": "be21ca3d4dab16ca42ae7357b231f767e41fbcfa9ab771d6a83ee352be2e81d4",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "be21ca3d4dab16ca42ae7357b231f767e41fbcfa9ab771d6a83ee352be2e81d4",
+    "createdAt": "2026-03-31T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "982056444",
@@ -2019,7 +4370,11 @@
     "dedupeKey": "fc2453d77dc1b0b5c04a1c6ce65bcf0d6956b1d145f56bfb9e5e27cd56e53fda",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "fc2453d77dc1b0b5c04a1c6ce65bcf0d6956b1d145f56bfb9e5e27cd56e53fda",
+    "createdAt": "2026-03-31T03:59:27Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1195292675",
@@ -2154,7 +4509,11 @@
     "dedupeKey": "e6ad7f8cd29c824c35d091fc71941801b522307c94fd4596103ef8faba5aa56d",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "e6ad7f8cd29c824c35d091fc71941801b522307c94fd4596103ef8faba5aa56d",
+    "createdAt": "2026-03-31T03:59:09Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1187868043",
@@ -2331,7 +4690,11 @@
     "dedupeKey": "0e7ce3bd0043d173bd97e01e173faf2e5865f7f0782fdb02f468f7240be51617",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "0e7ce3bd0043d173bd97e01e173faf2e5865f7f0782fdb02f468f7240be51617",
+    "createdAt": "2026-03-31T03:59:08Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1196794025",
@@ -2474,7 +4837,11 @@
     "dedupeKey": "622367fa0f759d19e96195bd62609971d306631d236bd7aff8e80c09ebeeda10",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "622367fa0f759d19e96195bd62609971d306631d236bd7aff8e80c09ebeeda10",
+    "createdAt": "2026-03-31T03:58:50Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "645236311",
@@ -2639,7 +5006,11 @@
     "dedupeKey": "8beff40abdd37dd6268342ad634ec6e9e4d7ef0c3fd985ee348dd6277b7eee38",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "8beff40abdd37dd6268342ad634ec6e9e4d7ef0c3fd985ee348dd6277b7eee38",
+    "createdAt": "2026-03-31T03:58:46Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1166782356",
@@ -2776,7 +5147,11 @@
     "dedupeKey": "366abb0b8fc62d7ce5721d2738a0bd6e1d06097e33bbee35888ba54bfd24af54",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "366abb0b8fc62d7ce5721d2738a0bd6e1d06097e33bbee35888ba54bfd24af54",
+    "createdAt": "2026-03-31T03:58:34Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1183390065",
@@ -2913,7 +5288,11 @@
     "dedupeKey": "c64732890cb648c9a6d6d6f70d01adee465944b8320ef7e6875ff17b1b805a3d",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "c64732890cb648c9a6d6d6f70d01adee465944b8320ef7e6875ff17b1b805a3d",
+    "createdAt": "2026-03-31T03:58:20Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1185815425",
@@ -3070,7 +5449,11 @@
     "dedupeKey": "fb1b6c0c3bd016877131857643bff0652357a604ba0d6d4366c8b916016bfb15",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "fb1b6c0c3bd016877131857643bff0652357a604ba0d6d4366c8b916016bfb15",
+    "createdAt": "2026-03-31T03:58:06Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1185785072",
@@ -3209,7 +5592,11 @@
     "dedupeKey": "71dcdc644f0684e33f0d9fea6bd09af278a1a44a882541abc9c724d7d2c083c3",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "71dcdc644f0684e33f0d9fea6bd09af278a1a44a882541abc9c724d7d2c083c3",
+    "createdAt": "2026-03-31T03:58:01Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1196805173",
@@ -3344,7 +5731,11 @@
     "dedupeKey": "32e03a74c6c4705d638a55f960dd9ea8159fc3dfa688fb4492e7a9fc54975e03",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "32e03a74c6c4705d638a55f960dd9ea8159fc3dfa688fb4492e7a9fc54975e03",
+    "createdAt": "2026-03-31T03:57:58Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "sylvanbrook/grasp-dataset",
@@ -3394,7 +5785,11 @@
     "dedupeKey": "3ba1aae44f7c0f6914abc4913bcef08afedf422eaf0d77f912e9027b5fa4fcb9",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "3ba1aae44f7c0f6914abc4913bcef08afedf422eaf0d77f912e9027b5fa4fcb9",
+    "createdAt": "2026-03-31T03:56:21.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "dddw123/vqbet-so101-grab-pull",
@@ -3486,7 +5881,11 @@
     "dedupeKey": "a6fcebdadeae94fbf676309e6c5acaba293478959f75f1536186058a0fba94d4",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "a6fcebdadeae94fbf676309e6c5acaba293478959f75f1536186058a0fba94d4",
+    "createdAt": "2026-03-31T03:50:20.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "VincentNi/EmbodiedVideoRL",
@@ -3548,7 +5947,11 @@
     "dedupeKey": "6262d10765435961395e02cb27c360679fe8fa3db4f739f89f2d4a680096ba68",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "6262d10765435961395e02cb27c360679fe8fa3db4f739f89f2d4a680096ba68",
+    "createdAt": "2026-03-31T03:47:01.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Jianshu001/wavlm-phoneme-scorer",
@@ -3636,7 +6039,11 @@
     "dedupeKey": "4a9eafe6b7bbdd24274dd19faaa833bd723a76d5f96fe676f85ac00f271f2b5f",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "4a9eafe6b7bbdd24274dd19faaa833bd723a76d5f96fe676f85ac00f271f2b5f",
+    "createdAt": "2026-03-31T03:42:34.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1130032760",
@@ -3776,7 +6183,7 @@
     ],
     "id": "802bd258fc6809800d9c0360ee199d500d5d9aaea39292f9d3b75eab9ab1a040",
     "createdAt": "2026-03-31T00:00:32Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -3933,7 +6340,7 @@
     ],
     "id": "463723481d873806c194cc551ab39a216ed3ba46e1a5e687b45c23196155c4af",
     "createdAt": "2026-03-31T00:00:11Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -4063,7 +6470,7 @@
     ],
     "id": "57a195c9b3d3e84bfea50868cd520ae23c00eb54940841432265b303c2fb8f67",
     "createdAt": "2026-03-30T23:59:59.000Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {

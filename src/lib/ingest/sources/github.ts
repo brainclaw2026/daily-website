@@ -93,8 +93,9 @@ export const githubSource: SourceAdapter = {
       .map(({ repo, quality }) => ({
         externalId: String(repo.id),
         title: repo.full_name,
+        // Use a local variable for the description so we can reuse it for the Chinese summary placeholder
         summary: repo.description || 'GitHub repository related to embodied AI or robotics.',
-        summaryZh: summary,
+        summaryZh: repo.description || 'GitHub repository related to embodied AI or robotics.',
         publishedAt: repo.updated_at || repo.created_at,
         sourceType: 'github' as const,
         primaryUrl: repo.html_url,

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { ContentCategory } from '@/types/content';
 
 const categories: Array<ContentCategory | 'all'> = [
@@ -24,9 +25,10 @@ return (
 <input
 name="q"
 defaultValue={q}
-placeholder="搜索标题、摘要、标签"
+placeholder="Search titles, summaries, tags"
 className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm outline-none placeholder:text-slate-400 focus:border-sky-400 focus:bg-white"
 />
+
 <select
 name="category"
 defaultValue={category}
@@ -34,25 +36,35 @@ className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm out
 >
 {categories.map((item) => (
 <option key={item} value={item}>
-{item === 'all' ? '全部分类' : item}
+{item}
 </option>
 ))}
 </select>
+
 <select
 name="tag"
 defaultValue={tag}
 className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm outline-none focus:border-sky-400 focus:bg-white"
 >
-<option value="all">全部标签</option>
+<option value="all">all tags</option>
 {tags.map((item) => (
 <option key={item} value={item}>
 {item}
 </option>
 ))}
 </select>
+
+<div className="flex items-center gap-3">
 <button className="rounded-2xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:bg-slate-700">
-应用筛选
+Apply filters
 </button>
+<Link
+href="/"
+className="rounded-2xl border border-slate-200 bg-white px-5 py-3 text-sm font-medium text-slate-600 hover:bg-slate-50 hover:text-slate-900"
+>
+Reset
+</Link>
+</div>
 </form>
 );
 }

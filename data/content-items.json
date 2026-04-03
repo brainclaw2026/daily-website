@@ -1,5 +1,300 @@
 [
   {
+    "externalId": "manual-orb-slam3",
+    "title": "ORB-SLAM3",
+    "summary": "A widely used visual SLAM system supporting monocular, stereo, RGB-D, visual-inertial, and multi-map SLAM.",
+    "summaryZh": "A widely used visual SLAM system supporting monocular, stereo, RGB-D, visual-inertial, and multi-map SLAM.",
+    "publishedAt": "2026-04-03T12:00:00.000Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/UZ-SLAMLab/ORB_SLAM3",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/UZ-SLAMLab/ORB_SLAM3",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "UZ-SLAMLab"
+    ],
+    "category": "slam",
+    "keywords": [
+      "SLAM",
+      "Visual SLAM",
+      "Visual-Inertial",
+      "ORB-SLAM3"
+    ],
+    "tags": [
+      "slam",
+      "visual-slam",
+      "github"
+    ],
+    "relevanceScore": 0.95,
+    "trustScore": 0.9,
+    "raw": {
+      "manualSeed": true,
+      "note": "Curated SLAM seed item"
+    },
+    "slug": "orb-slam3",
+    "dedupeKey": "1995145f4055d908738f9cd7e3cab2d5e647cc59aa0896d29b376a89f758c058",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "manual-rtab-map",
+    "title": "RTAB-Map",
+    "summary": "A graph-based RGB-D, stereo, and LiDAR SLAM framework with strong loop closure support and broad ROS adoption.",
+    "summaryZh": "A graph-based RGB-D, stereo, and LiDAR SLAM framework with strong loop closure support and broad ROS adoption.",
+    "publishedAt": "2026-04-03T11:59:00.000Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/introlab/rtabmap",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/introlab/rtabmap",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "introlab"
+    ],
+    "category": "slam",
+    "keywords": [
+      "SLAM",
+      "RGB-D",
+      "LiDAR",
+      "Graph SLAM",
+      "RTAB-Map"
+    ],
+    "tags": [
+      "slam",
+      "rgb-d",
+      "lidar"
+    ],
+    "relevanceScore": 0.95,
+    "trustScore": 0.9,
+    "raw": {
+      "manualSeed": true,
+      "note": "Curated SLAM seed item"
+    },
+    "slug": "rtab-map",
+    "dedupeKey": "cb547858e8ac193d0de7fd888e0f2f33ce6d0715bc1d1bfe961e819b67162c6b",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "manual-openvslam",
+    "title": "OpenVSLAM",
+    "summary": "A general-purpose visual SLAM framework for monocular, stereo, and RGB-D cameras, suitable for research and extension.",
+    "summaryZh": "A general-purpose visual SLAM framework for monocular, stereo, and RGB-D cameras, suitable for research and extension.",
+    "publishedAt": "2026-04-03T11:58:00.000Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/xdspacelab/openvslam",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/xdspacelab/openvslam",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "xdspacelab"
+    ],
+    "category": "slam",
+    "keywords": [
+      "SLAM",
+      "Visual SLAM",
+      "RGB-D",
+      "OpenVSLAM"
+    ],
+    "tags": [
+      "slam",
+      "visual-slam",
+      "framework"
+    ],
+    "relevanceScore": 0.95,
+    "trustScore": 0.9,
+    "raw": {
+      "manualSeed": true,
+      "note": "Curated SLAM seed item"
+    },
+    "slug": "openvslam",
+    "dedupeKey": "1a32b05a2324d2a457f4d0b96305fe0cb649ed957a621ffdab22707cb9257924",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "manual-vins-mono",
+    "title": "VINS-Mono",
+    "summary": "A classic monocular visual-inertial SLAM and VIO system based on sliding-window optimization and loop closure.",
+    "summaryZh": "A classic monocular visual-inertial SLAM and VIO system based on sliding-window optimization and loop closure.",
+    "publishedAt": "2026-04-03T11:57:00.000Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/HKUST-Aerial-Robotics/VINS-Mono",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/HKUST-Aerial-Robotics/VINS-Mono",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "HKUST-Aerial-Robotics"
+    ],
+    "category": "slam",
+    "keywords": [
+      "SLAM",
+      "VIO",
+      "Visual-Inertial",
+      "VINS-Mono"
+    ],
+    "tags": [
+      "slam",
+      "vio",
+      "classic"
+    ],
+    "relevanceScore": 0.95,
+    "trustScore": 0.9,
+    "raw": {
+      "manualSeed": true,
+      "note": "Curated SLAM seed item"
+    },
+    "slug": "vins-mono",
+    "dedupeKey": "f64131e489b3e9679486805585310c61db8b903a901c0a5d8a56802ba89ec3b6",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "manual-fast-livo2",
+    "title": "FAST-LIVO2",
+    "summary": "A high-performance LiDAR-inertial-visual odometry and mapping system designed for real-time robotics scenarios.",
+    "summaryZh": "A high-performance LiDAR-inertial-visual odometry and mapping system designed for real-time robotics scenarios.",
+    "publishedAt": "2026-04-03T11:56:00.000Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/hku-mars/FAST-LIVO2",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/hku-mars/FAST-LIVO2",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "hku-mars"
+    ],
+    "category": "slam",
+    "keywords": [
+      "SLAM",
+      "LIVO",
+      "LiDAR",
+      "Visual-Inertial",
+      "FAST-LIVO2"
+    ],
+    "tags": [
+      "slam",
+      "lidar",
+      "sensor-fusion"
+    ],
+    "relevanceScore": 0.95,
+    "trustScore": 0.9,
+    "raw": {
+      "manualSeed": true,
+      "note": "Curated SLAM seed item"
+    },
+    "slug": "fast-livo2",
+    "dedupeKey": "4b8f14848415137a287e5822984919f9bb73c3d6a5095ce016453decae0c5751",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "manual-lio-sam",
+    "title": "LIO-SAM",
+    "summary": "A popular real-time LiDAR-inertial odometry and mapping system often used for engineering validation and robotics prototyping.",
+    "summaryZh": "A popular real-time LiDAR-inertial odometry and mapping system often used for engineering validation and robotics prototyping.",
+    "publishedAt": "2026-04-03T11:55:00.000Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/TixiaoShan/LIO-SAM",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/TixiaoShan/LIO-SAM",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "TixiaoShan"
+    ],
+    "category": "slam",
+    "keywords": [
+      "SLAM",
+      "LIO",
+      "LiDAR",
+      "LIO-SAM"
+    ],
+    "tags": [
+      "slam",
+      "lidar",
+      "odometry"
+    ],
+    "relevanceScore": 0.95,
+    "trustScore": 0.9,
+    "raw": {
+      "manualSeed": true,
+      "note": "Curated SLAM seed item"
+    },
+    "slug": "lio-sam",
+    "dedupeKey": "61c0b7c596a9ac96a4528949a93c120f98a31d93a03b18fad5541c618be64843",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "manual-droid-slam",
+    "title": "DROID-SLAM",
+    "summary": "A learning-based SLAM system that complements classical geometry-first pipelines with deep visual motion estimation.",
+    "summaryZh": "A learning-based SLAM system that complements classical geometry-first pipelines with deep visual motion estimation.",
+    "publishedAt": "2026-04-03T11:54:00.000Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/princeton-vl/DROID-SLAM",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/princeton-vl/DROID-SLAM",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "princeton-vl"
+    ],
+    "category": "slam",
+    "keywords": [
+      "SLAM",
+      "Deep Learning",
+      "DROID-SLAM"
+    ],
+    "tags": [
+      "slam",
+      "deep-learning",
+      "frontier"
+    ],
+    "relevanceScore": 0.95,
+    "trustScore": 0.9,
+    "raw": {
+      "manualSeed": true,
+      "note": "Curated SLAM seed item"
+    },
+    "slug": "droid-slam",
+    "dedupeKey": "0645469c17b05bf4cb3fb4d2e3ab9511c61b5607fbb517bcecce0de06743b070",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
     "externalId": "1174009836",
     "title": "Vendning-Machine-Team/Vending_Machine_Robot-Hardware",
     "summary": "(where the edge A.I. and hardware code lives)",

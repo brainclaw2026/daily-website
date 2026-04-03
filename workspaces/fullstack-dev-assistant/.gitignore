@@ -1,9 +1,0 @@
-node_modules
-.next
-.env
-.env.local
-coverage
-logs
-.DS_Store
-*.tsbuildinfo
-=

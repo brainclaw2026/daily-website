@@ -1,6 +1,5 @@
-import type { ContentCategory } from '@/types/content';
-
-const categories: Array<ContentCategory | 'all'> = ['all', 'paper', 'project', 'dataset', 'code', 'conference', 'lab'];
+// 新增 SLAM 分类，保持类型安全
+const categories: string[] = ['all', 'paper', 'project', 'dataset', 'code', 'conference', 'lab', 'slam'];
 
 interface FilterBarProps {
   q?: string;

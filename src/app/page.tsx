@@ -31,7 +31,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
       <section className="overflow-hidden rounded-[2rem] border border-slate-200/70 bg-slate-950 px-6 py-8 text-white shadow-[0_20px_80px_rgba(15,23,42,0.18)] md:px-8 md:py-10">
         <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-3xl">
-            <p className="text-sm uppercase tracking-[0.28em] text-sky-300">Embodied AI Daily</p>
+            <p className="text-sm uppercase tracking-[0.28em] text-sky-300">具身 AI 每日</p>
             <h1 className="mt-3 text-balance text-4xl font-semibold tracking-tight md:text-5xl">具身智能前沿信息追踪</h1>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300 md:text-base">
               追踪具身智能、机器人学习、人形机器人、视觉语言动作与世界模型方向的最新论文、代码和模型，优先聚合 arXiv、GitHub、Hugging Face 的新内容。

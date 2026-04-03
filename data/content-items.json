@@ -1,5 +1,1130 @@
 [
   {
+    "externalId": "1174009836",
+    "title": "Vendning-Machine-Team/Vending_Machine_Robot-Hardware",
+    "summary": "(where the edge A.I. and hardware code lives)",
+    "summaryZh": "(where the edge A.I. and hardware code lives)",
+    "publishedAt": "2026-04-03T06:19:09Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Vendning-Machine-Team/Vending_Machine_Robot-Hardware",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Vendning-Machine-Team/Vending_Machine_Robot-Hardware",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Vendning-Machine-Team"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1174009836,
+      "node_id": "R_kgDORfn37A",
+      "name": "Vending_Machine_Robot-Hardware",
+      "full_name": "Vendning-Machine-Team/Vending_Machine_Robot-Hardware",
+      "private": false,
+      "owner": {
+        "login": "Vendning-Machine-Team",
+        "id": 232937187,
+        "node_id": "O_kgDODeJW4w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/232937187?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Vendning-Machine-Team",
+        "html_url": "https://github.com/Vendning-Machine-Team",
+        "followers_url": "https://api.github.com/users/Vendning-Machine-Team/followers",
+        "following_url": "https://api.github.com/users/Vendning-Machine-Team/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Vendning-Machine-Team/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Vendning-Machine-Team/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Vendning-Machine-Team/subscriptions",
+        "organizations_url": "https://api.github.com/users/Vendning-Machine-Team/orgs",
+        "repos_url": "https://api.github.com/users/Vendning-Machine-Team/repos",
+        "events_url": "https://api.github.com/users/Vendning-Machine-Team/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Vendning-Machine-Team/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Vendning-Machine-Team/Vending_Machine_Robot-Hardware",
+      "description": "(where the edge A.I. and hardware code lives)",
+      "fork": false,
+      "url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware",
+      "forks_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/forks",
+      "keys_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/teams",
+      "hooks_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/hooks",
+      "issue_events_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/events",
+      "assignees_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/tags",
+      "blobs_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/languages",
+      "stargazers_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/stargazers",
+      "contributors_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/contributors",
+      "subscribers_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/subscribers",
+      "subscription_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/subscription",
+      "commits_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/merges",
+      "archive_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/downloads",
+      "issues_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Vendning-Machine-Team/Vending_Machine_Robot-Hardware/deployments",
+      "created_at": "2026-03-06T01:19:38Z",
+      "updated_at": "2026-04-03T06:19:09Z",
+      "pushed_at": "2026-04-03T06:19:05Z",
+      "git_url": "git://github.com/Vendning-Machine-Team/Vending_Machine_Robot-Hardware.git",
+      "ssh_url": "git@github.com:Vendning-Machine-Team/Vending_Machine_Robot-Hardware.git",
+      "clone_url": "https://github.com/Vendning-Machine-Team/Vending_Machine_Robot-Hardware.git",
+      "svn_url": "https://github.com/Vendning-Machine-Team/Vending_Machine_Robot-Hardware",
+      "homepage": null,
+      "size": 135424,
+      "stargazers_count": 3,
+      "watchers_count": 3,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 3,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "vendning-machine-teamvendingmachinerobot-hardware",
+    "dedupeKey": "a104c1beaac57a4fb46e3cafdc92619c44794d2e09439eb444ade37511d4b817",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1177608268",
+    "title": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "summary": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+    "summaryZh": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+    "publishedAt": "2026-04-03T06:17:41Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "wanshuiyin"
+    ],
+    "category": "code",
+    "keywords": [
+      "ai-research",
+      "ai-tools",
+      "aris",
+      "autonomous-agent",
+      "claude",
+      "claude-code",
+      "claude-code-skills",
+      "codex",
+      "deep-learning",
+      "gpt",
+      "idea-generation",
+      "llm",
+      "machine-learning",
+      "mcp",
+      "mcp-server",
+      "ml-research",
+      "openai",
+      "paper-review",
+      "paper-writing",
+      "research-automation"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.8500000000000001,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1177608268,
+      "node_id": "R_kgDORjDgTA",
+      "name": "Auto-claude-code-research-in-sleep",
+      "full_name": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "private": false,
+      "owner": {
+        "login": "wanshuiyin",
+        "id": 76990859,
+        "node_id": "MDQ6VXNlcjc2OTkwODU5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76990859?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wanshuiyin",
+        "html_url": "https://github.com/wanshuiyin",
+        "followers_url": "https://api.github.com/users/wanshuiyin/followers",
+        "following_url": "https://api.github.com/users/wanshuiyin/following{/other_user}",
+        "gists_url": "https://api.github.com/users/wanshuiyin/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/wanshuiyin/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/wanshuiyin/subscriptions",
+        "organizations_url": "https://api.github.com/users/wanshuiyin/orgs",
+        "repos_url": "https://api.github.com/users/wanshuiyin/repos",
+        "events_url": "https://api.github.com/users/wanshuiyin/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/wanshuiyin/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+      "fork": false,
+      "url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "forks_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/forks",
+      "keys_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/teams",
+      "hooks_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/hooks",
+      "issue_events_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/events",
+      "assignees_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/tags",
+      "blobs_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/languages",
+      "stargazers_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/stargazers",
+      "contributors_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/contributors",
+      "subscribers_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/subscribers",
+      "subscription_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/subscription",
+      "commits_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/merges",
+      "archive_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/downloads",
+      "issues_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/labels{/name}",
+      "releases_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/wanshuiyin/Auto-claude-code-research-in-sleep/deployments",
+      "created_at": "2026-03-10T07:31:45Z",
+      "updated_at": "2026-04-03T06:17:41Z",
+      "pushed_at": "2026-04-03T06:17:38Z",
+      "git_url": "git://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git",
+      "ssh_url": "git@github.com:wanshuiyin/Auto-claude-code-research-in-sleep.git",
+      "clone_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git",
+      "svn_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "homepage": null,
+      "size": 9913,
+      "stargazers_count": 5340,
+      "watchers_count": 5340,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 445,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 14,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "ai-research",
+        "ai-tools",
+        "aris",
+        "autonomous-agent",
+        "claude",
+        "claude-code",
+        "claude-code-skills",
+        "codex",
+        "deep-learning",
+        "gpt",
+        "idea-generation",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "mcp-server",
+        "ml-research",
+        "openai",
+        "paper-review",
+        "paper-writing",
+        "research-automation"
+      ],
+      "visibility": "public",
+      "forks": 445,
+      "open_issues": 14,
+      "watchers": 5340,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "wanshuiyinauto-claude-code-research-in-sleep",
+    "dedupeKey": "fa12bd4efa80636398e9e76f17673a3770616611756bb3d7e4938ce69e0b1cbf",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1188101108",
+    "title": "alexjunholee/robotics-practice",
+    "summary": "Interactive examples for Spatial AI robotics guide",
+    "summaryZh": "Interactive examples for Spatial AI robotics guide",
+    "publishedAt": "2026-04-03T06:17:33Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/alexjunholee/robotics-practice",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/alexjunholee/robotics-practice",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "alexjunholee"
+    ],
+    "category": "code",
+    "keywords": [
+      "robotics"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1188101108,
+      "node_id": "R_kgDORtD79A",
+      "name": "robotics-practice",
+      "full_name": "alexjunholee/robotics-practice",
+      "private": false,
+      "owner": {
+        "login": "alexjunholee",
+        "id": 28898455,
+        "node_id": "MDQ6VXNlcjI4ODk4NDU1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28898455?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexjunholee",
+        "html_url": "https://github.com/alexjunholee",
+        "followers_url": "https://api.github.com/users/alexjunholee/followers",
+        "following_url": "https://api.github.com/users/alexjunholee/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexjunholee/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexjunholee/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexjunholee/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexjunholee/orgs",
+        "repos_url": "https://api.github.com/users/alexjunholee/repos",
+        "events_url": "https://api.github.com/users/alexjunholee/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexjunholee/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/alexjunholee/robotics-practice",
+      "description": "Interactive examples for Spatial AI robotics guide",
+      "fork": false,
+      "url": "https://api.github.com/repos/alexjunholee/robotics-practice",
+      "forks_url": "https://api.github.com/repos/alexjunholee/robotics-practice/forks",
+      "keys_url": "https://api.github.com/repos/alexjunholee/robotics-practice/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/alexjunholee/robotics-practice/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/alexjunholee/robotics-practice/teams",
+      "hooks_url": "https://api.github.com/repos/alexjunholee/robotics-practice/hooks",
+      "issue_events_url": "https://api.github.com/repos/alexjunholee/robotics-practice/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/alexjunholee/robotics-practice/events",
+      "assignees_url": "https://api.github.com/repos/alexjunholee/robotics-practice/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/alexjunholee/robotics-practice/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/alexjunholee/robotics-practice/tags",
+      "blobs_url": "https://api.github.com/repos/alexjunholee/robotics-practice/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/alexjunholee/robotics-practice/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/alexjunholee/robotics-practice/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/alexjunholee/robotics-practice/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/alexjunholee/robotics-practice/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/alexjunholee/robotics-practice/languages",
+      "stargazers_url": "https://api.github.com/repos/alexjunholee/robotics-practice/stargazers",
+      "contributors_url": "https://api.github.com/repos/alexjunholee/robotics-practice/contributors",
+      "subscribers_url": "https://api.github.com/repos/alexjunholee/robotics-practice/subscribers",
+      "subscription_url": "https://api.github.com/repos/alexjunholee/robotics-practice/subscription",
+      "commits_url": "https://api.github.com/repos/alexjunholee/robotics-practice/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/alexjunholee/robotics-practice/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/alexjunholee/robotics-practice/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/alexjunholee/robotics-practice/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/alexjunholee/robotics-practice/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/alexjunholee/robotics-practice/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/alexjunholee/robotics-practice/merges",
+      "archive_url": "https://api.github.com/repos/alexjunholee/robotics-practice/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/alexjunholee/robotics-practice/downloads",
+      "issues_url": "https://api.github.com/repos/alexjunholee/robotics-practice/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/alexjunholee/robotics-practice/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/alexjunholee/robotics-practice/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/alexjunholee/robotics-practice/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/alexjunholee/robotics-practice/labels{/name}",
+      "releases_url": "https://api.github.com/repos/alexjunholee/robotics-practice/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/alexjunholee/robotics-practice/deployments",
+      "created_at": "2026-03-21T16:10:13Z",
+      "updated_at": "2026-04-03T06:17:33Z",
+      "pushed_at": "2026-04-03T06:17:29Z",
+      "git_url": "git://github.com/alexjunholee/robotics-practice.git",
+      "ssh_url": "git@github.com:alexjunholee/robotics-practice.git",
+      "clone_url": "https://github.com/alexjunholee/robotics-practice.git",
+      "svn_url": "https://github.com/alexjunholee/robotics-practice",
+      "homepage": null,
+      "size": 4241,
+      "stargazers_count": 5,
+      "watchers_count": 5,
+      "language": "HTML",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 5,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "alexjunholeerobotics-practice",
+    "dedupeKey": "9fa5ba4391432fa7bfc5890ed5980981a968d82cf27c9c24d76b9e3fdca5b5e9",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "899857580",
+    "title": "aldidan/asimov-v0",
+    "summary": "🤖 Build advanced bipedal legs for humanoid robots using off-the-shelf components, designed for low-volume manufacturing and high mobility.",
+    "summaryZh": "🤖 Build advanced bipedal legs for humanoid robots using off-the-shelf components, designed for low-volume manufacturing and high mobility.",
+    "publishedAt": "2026-04-03T06:17:17Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/aldidan/asimov-v0",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/aldidan/asimov-v0",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "aldidan"
+    ],
+    "category": "code",
+    "keywords": [
+      "asimov",
+      "audiobooks",
+      "compiler",
+      "earth",
+      "fiction",
+      "homebrew",
+      "humanoid",
+      "humanoid-robots",
+      "humanoid-walking",
+      "isaac",
+      "itch",
+      "listen",
+      "macos",
+      "programming-language",
+      "read",
+      "sci-fi",
+      "science",
+      "strategy-game",
+      "text-editor",
+      "time-machine"
+    ],
+    "tags": [
+      "人形机器人"
+    ],
+    "relevanceScore": 0.9299999999999999,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 899857580,
+      "node_id": "R_kgDONaK8rA",
+      "name": "asimov-v0",
+      "full_name": "aldidan/asimov-v0",
+      "private": false,
+      "owner": {
+        "login": "aldidan",
+        "id": 178147524,
+        "node_id": "U_kgDOCp5QxA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/178147524?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/aldidan",
+        "html_url": "https://github.com/aldidan",
+        "followers_url": "https://api.github.com/users/aldidan/followers",
+        "following_url": "https://api.github.com/users/aldidan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/aldidan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/aldidan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/aldidan/subscriptions",
+        "organizations_url": "https://api.github.com/users/aldidan/orgs",
+        "repos_url": "https://api.github.com/users/aldidan/repos",
+        "events_url": "https://api.github.com/users/aldidan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/aldidan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/aldidan/asimov-v0",
+      "description": "🤖 Build advanced bipedal legs for humanoid robots using off-the-shelf components, designed for low-volume manufacturing and high mobility.",
+      "fork": false,
+      "url": "https://api.github.com/repos/aldidan/asimov-v0",
+      "forks_url": "https://api.github.com/repos/aldidan/asimov-v0/forks",
+      "keys_url": "https://api.github.com/repos/aldidan/asimov-v0/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/aldidan/asimov-v0/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/aldidan/asimov-v0/teams",
+      "hooks_url": "https://api.github.com/repos/aldidan/asimov-v0/hooks",
+      "issue_events_url": "https://api.github.com/repos/aldidan/asimov-v0/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/aldidan/asimov-v0/events",
+      "assignees_url": "https://api.github.com/repos/aldidan/asimov-v0/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/aldidan/asimov-v0/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/aldidan/asimov-v0/tags",
+      "blobs_url": "https://api.github.com/repos/aldidan/asimov-v0/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/aldidan/asimov-v0/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/aldidan/asimov-v0/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/aldidan/asimov-v0/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/aldidan/asimov-v0/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/aldidan/asimov-v0/languages",
+      "stargazers_url": "https://api.github.com/repos/aldidan/asimov-v0/stargazers",
+      "contributors_url": "https://api.github.com/repos/aldidan/asimov-v0/contributors",
+      "subscribers_url": "https://api.github.com/repos/aldidan/asimov-v0/subscribers",
+      "subscription_url": "https://api.github.com/repos/aldidan/asimov-v0/subscription",
+      "commits_url": "https://api.github.com/repos/aldidan/asimov-v0/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/aldidan/asimov-v0/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/aldidan/asimov-v0/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/aldidan/asimov-v0/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/aldidan/asimov-v0/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/aldidan/asimov-v0/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/aldidan/asimov-v0/merges",
+      "archive_url": "https://api.github.com/repos/aldidan/asimov-v0/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/aldidan/asimov-v0/downloads",
+      "issues_url": "https://api.github.com/repos/aldidan/asimov-v0/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/aldidan/asimov-v0/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/aldidan/asimov-v0/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/aldidan/asimov-v0/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/aldidan/asimov-v0/labels{/name}",
+      "releases_url": "https://api.github.com/repos/aldidan/asimov-v0/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/aldidan/asimov-v0/deployments",
+      "created_at": "2024-12-07T07:40:41Z",
+      "updated_at": "2026-04-03T06:17:17Z",
+      "pushed_at": "2026-04-03T06:17:13Z",
+      "git_url": "git://github.com/aldidan/asimov-v0.git",
+      "ssh_url": "git@github.com:aldidan/asimov-v0.git",
+      "clone_url": "https://github.com/aldidan/asimov-v0.git",
+      "svn_url": "https://github.com/aldidan/asimov-v0",
+      "homepage": "https://aldidan.github.io",
+      "size": 20408,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": null,
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "cern-ohl-s-2.0",
+        "name": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
+        "spdx_id": "CERN-OHL-S-2.0",
+        "url": "https://api.github.com/licenses/cern-ohl-s-2.0",
+        "node_id": "L_kgCuY2Vybi1vaGwtcy0yLjA"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "asimov",
+        "audiobooks",
+        "compiler",
+        "earth",
+        "fiction",
+        "homebrew",
+        "humanoid",
+        "humanoid-robots",
+        "humanoid-walking",
+        "isaac",
+        "itch",
+        "listen",
+        "macos",
+        "programming-language",
+        "read",
+        "sci-fi",
+        "science",
+        "strategy-game",
+        "text-editor",
+        "time-machine"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "aldidanasimov-v0",
+    "dedupeKey": "90d76926a4b597ea7a18821fdbe71f9f4435458a7e7479850efa31c0bae5e59e",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1200118114",
+    "title": "taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1",
+    "summary": "An amphibious rescue robot featuring dual-ESP32 architecture, real-time video telemetry, and PS3 controller integration. Developed for KOSSMI 2026.",
+    "summaryZh": "An amphibious rescue robot featuring dual-ESP32 architecture, real-time video telemetry, and PS3 controller integration. Developed for KOSSMI 2026.",
+    "publishedAt": "2026-04-03T06:16:22Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "taqy-raifa-tsaqif"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.8500000000000001,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1200118114,
+      "node_id": "R_kgDOR4hZYg",
+      "name": "VISTRA-BOT-Rescue-Robot-V1",
+      "full_name": "taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1",
+      "private": false,
+      "owner": {
+        "login": "taqy-raifa-tsaqif",
+        "id": 215244403,
+        "node_id": "U_kgDODNRecw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/215244403?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/taqy-raifa-tsaqif",
+        "html_url": "https://github.com/taqy-raifa-tsaqif",
+        "followers_url": "https://api.github.com/users/taqy-raifa-tsaqif/followers",
+        "following_url": "https://api.github.com/users/taqy-raifa-tsaqif/following{/other_user}",
+        "gists_url": "https://api.github.com/users/taqy-raifa-tsaqif/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/taqy-raifa-tsaqif/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/taqy-raifa-tsaqif/subscriptions",
+        "organizations_url": "https://api.github.com/users/taqy-raifa-tsaqif/orgs",
+        "repos_url": "https://api.github.com/users/taqy-raifa-tsaqif/repos",
+        "events_url": "https://api.github.com/users/taqy-raifa-tsaqif/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/taqy-raifa-tsaqif/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1",
+      "description": "An amphibious rescue robot featuring dual-ESP32 architecture, real-time video telemetry, and PS3 controller integration. Developed for KOSSMI 2026.",
+      "fork": false,
+      "url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1",
+      "forks_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/forks",
+      "keys_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/teams",
+      "hooks_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/hooks",
+      "issue_events_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/events",
+      "assignees_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/tags",
+      "blobs_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/languages",
+      "stargazers_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/stargazers",
+      "contributors_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/contributors",
+      "subscribers_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/subscribers",
+      "subscription_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/subscription",
+      "commits_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/merges",
+      "archive_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/downloads",
+      "issues_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/labels{/name}",
+      "releases_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1/deployments",
+      "created_at": "2026-04-03T03:54:56Z",
+      "updated_at": "2026-04-03T06:16:22Z",
+      "pushed_at": "2026-04-03T06:16:18Z",
+      "git_url": "git://github.com/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1.git",
+      "ssh_url": "git@github.com:taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1.git",
+      "clone_url": "https://github.com/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1.git",
+      "svn_url": "https://github.com/taqy-raifa-tsaqif/VISTRA-BOT-Rescue-Robot-V1",
+      "homepage": null,
+      "size": 412,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "C++",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "taqy-raifa-tsaqifvistra-bot-rescue-robot-v1",
+    "dedupeKey": "9f29a161e50e9aac4c0d80e8e7653854c74bb9a8bfc5987cbce22bbc43fdbd62",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1149761301",
+    "title": "xFoXuSx/Arduino-joystick-and-servo-control",
+    "summary": "🎮 Control two servo motors with an Arduino using a joystick, enhancing your skills in input handling and servo movement in a simple, engaging project.",
+    "summaryZh": "🎮 Control two servo motors with an Arduino using a joystick, enhancing your skills in input handling and servo movement in a simple, engaging project.",
+    "publishedAt": "2026-04-03T06:15:46Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/xFoXuSx/Arduino-joystick-and-servo-control",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/xFoXuSx/Arduino-joystick-and-servo-control",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "xFoXuSx"
+    ],
+    "category": "code",
+    "keywords": [
+      "arduino",
+      "arduino-library",
+      "arduino-platform",
+      "arduino-project",
+      "arduino-uno",
+      "ardunio",
+      "buzzer",
+      "embedded-systems",
+      "gobabygo",
+      "joystick",
+      "joystick-control",
+      "joystick-device",
+      "project",
+      "robotics",
+      "servo-motor"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1149761301,
+      "node_id": "R_kgDORIf3FQ",
+      "name": "Arduino-joystick-and-servo-control",
+      "full_name": "xFoXuSx/Arduino-joystick-and-servo-control",
+      "private": false,
+      "owner": {
+        "login": "xFoXuSx",
+        "id": 125706472,
+        "node_id": "U_kgDOB34g6A",
+        "avatar_url": "https://avatars.githubusercontent.com/u/125706472?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/xFoXuSx",
+        "html_url": "https://github.com/xFoXuSx",
+        "followers_url": "https://api.github.com/users/xFoXuSx/followers",
+        "following_url": "https://api.github.com/users/xFoXuSx/following{/other_user}",
+        "gists_url": "https://api.github.com/users/xFoXuSx/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/xFoXuSx/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/xFoXuSx/subscriptions",
+        "organizations_url": "https://api.github.com/users/xFoXuSx/orgs",
+        "repos_url": "https://api.github.com/users/xFoXuSx/repos",
+        "events_url": "https://api.github.com/users/xFoXuSx/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/xFoXuSx/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/xFoXuSx/Arduino-joystick-and-servo-control",
+      "description": "🎮 Control two servo motors with an Arduino using a joystick, enhancing your skills in input handling and servo movement in a simple, engaging project.",
+      "fork": false,
+      "url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control",
+      "forks_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/forks",
+      "keys_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/teams",
+      "hooks_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/hooks",
+      "issue_events_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/events",
+      "assignees_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/tags",
+      "blobs_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/languages",
+      "stargazers_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/stargazers",
+      "contributors_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/contributors",
+      "subscribers_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/subscribers",
+      "subscription_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/subscription",
+      "commits_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/merges",
+      "archive_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/downloads",
+      "issues_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/labels{/name}",
+      "releases_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/xFoXuSx/Arduino-joystick-and-servo-control/deployments",
+      "created_at": "2026-02-04T13:47:28Z",
+      "updated_at": "2026-04-03T06:15:46Z",
+      "pushed_at": "2026-04-03T06:15:43Z",
+      "git_url": "git://github.com/xFoXuSx/Arduino-joystick-and-servo-control.git",
+      "ssh_url": "git@github.com:xFoXuSx/Arduino-joystick-and-servo-control.git",
+      "clone_url": "https://github.com/xFoXuSx/Arduino-joystick-and-servo-control.git",
+      "svn_url": "https://github.com/xFoXuSx/Arduino-joystick-and-servo-control",
+      "homepage": "https://xfoxusx.github.io",
+      "size": 1905,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "C++",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "arduino",
+        "arduino-library",
+        "arduino-platform",
+        "arduino-project",
+        "arduino-uno",
+        "ardunio",
+        "buzzer",
+        "embedded-systems",
+        "gobabygo",
+        "joystick",
+        "joystick-control",
+        "joystick-device",
+        "project",
+        "robotics",
+        "servo-motor"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "xfoxusxarduino-joystick-and-servo-control",
+    "dedupeKey": "4b6b2d23513d63ac59746992abe7bc8a2e8c4fc20c1dac7fec5662f9a90b9614",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "926291559",
+    "title": "Samuel76844/tesla-swarm-integrity-protocol",
+    "summary": "🤖 Enhance autonomous fleets with TSIP, a decentralized protocol that resolves conflicts in real-time, ensuring efficient and reliable robotic coordination.",
+    "summaryZh": "🤖 Enhance autonomous fleets with TSIP, a decentralized protocol that resolves conflicts in real-time, ensuring efficient and reliable robotic coordination.",
+    "publishedAt": "2026-04-03T06:15:37Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/Samuel76844/tesla-swarm-integrity-protocol",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/Samuel76844/tesla-swarm-integrity-protocol",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "Samuel76844"
+    ],
+    "category": "code",
+    "keywords": [
+      "autonomy-balance",
+      "consensus-vector",
+      "decentralized-consensus",
+      "multi-agent-systems",
+      "noise-suppression",
+      "p2p-robotics",
+      "peer-to-peer-robotics",
+      "resonance-11-used",
+      "resonance-stability",
+      "robot-cluster",
+      "swarm-intelligence",
+      "swarm-robotics",
+      "tesla-optimus",
+      "tesla-swarm-integrity-protocol",
+      "tsip"
+    ],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 926291559,
+      "node_id": "R_kgDONzYWZw",
+      "name": "tesla-swarm-integrity-protocol",
+      "full_name": "Samuel76844/tesla-swarm-integrity-protocol",
+      "private": false,
+      "owner": {
+        "login": "Samuel76844",
+        "id": 191538492,
+        "node_id": "U_kgDOC2qlPA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/191538492?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Samuel76844",
+        "html_url": "https://github.com/Samuel76844",
+        "followers_url": "https://api.github.com/users/Samuel76844/followers",
+        "following_url": "https://api.github.com/users/Samuel76844/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Samuel76844/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Samuel76844/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Samuel76844/subscriptions",
+        "organizations_url": "https://api.github.com/users/Samuel76844/orgs",
+        "repos_url": "https://api.github.com/users/Samuel76844/repos",
+        "events_url": "https://api.github.com/users/Samuel76844/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Samuel76844/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Samuel76844/tesla-swarm-integrity-protocol",
+      "description": "🤖 Enhance autonomous fleets with TSIP, a decentralized protocol that resolves conflicts in real-time, ensuring efficient and reliable robotic coordination.",
+      "fork": false,
+      "url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol",
+      "forks_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/forks",
+      "keys_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/teams",
+      "hooks_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/hooks",
+      "issue_events_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/events",
+      "assignees_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/tags",
+      "blobs_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/languages",
+      "stargazers_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/stargazers",
+      "contributors_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/contributors",
+      "subscribers_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/subscribers",
+      "subscription_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/subscription",
+      "commits_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/merges",
+      "archive_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/downloads",
+      "issues_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Samuel76844/tesla-swarm-integrity-protocol/deployments",
+      "created_at": "2025-02-03T01:11:51Z",
+      "updated_at": "2026-04-03T06:15:37Z",
+      "pushed_at": "2026-04-03T06:15:33Z",
+      "git_url": "git://github.com/Samuel76844/tesla-swarm-integrity-protocol.git",
+      "ssh_url": "git@github.com:Samuel76844/tesla-swarm-integrity-protocol.git",
+      "clone_url": "https://github.com/Samuel76844/tesla-swarm-integrity-protocol.git",
+      "svn_url": "https://github.com/Samuel76844/tesla-swarm-integrity-protocol",
+      "homepage": "https://samuel76844.github.io",
+      "size": 1851,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "autonomy-balance",
+        "consensus-vector",
+        "decentralized-consensus",
+        "multi-agent-systems",
+        "noise-suppression",
+        "p2p-robotics",
+        "peer-to-peer-robotics",
+        "resonance-11-used",
+        "resonance-stability",
+        "robot-cluster",
+        "swarm-intelligence",
+        "swarm-robotics",
+        "tesla-optimus",
+        "tesla-swarm-integrity-protocol",
+        "tsip"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "samuel76844tesla-swarm-integrity-protocol",
+    "dedupeKey": "f11b5cb985ec68ca53c9cd3f5674ba8a2064c9a9035538b88370ee1761387f5a",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
     "externalId": "1199653182",
     "title": "EazyLife-electronics/eazylife.ng",
     "summary": "EazyLife Robotics & Electronics Solutions",
@@ -134,7 +1259,11 @@
     "dedupeKey": "3c9c495cbe1ef93746faaf48f5cf6a917b11ea8fc20bbf357652f804535d5b17",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "3c9c495cbe1ef93746faaf48f5cf6a917b11ea8fc20bbf357652f804535d5b17",
+    "createdAt": "2026-04-03T05:53:26Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1127480195",
@@ -317,7 +1446,11 @@
     "dedupeKey": "4c20f842259538f23e8dbab80ab0b060c254e2c5d4b6ec05914c6b96d3665980",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "4c20f842259538f23e8dbab80ab0b060c254e2c5d4b6ec05914c6b96d3665980",
+    "createdAt": "2026-04-03T05:53:24Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1127173168",
@@ -484,7 +1617,11 @@
     "dedupeKey": "f10eec98595be18b8d451f954d65dc630ca085d7a8a2b4b62e550c4884a55a72",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "f10eec98595be18b8d451f954d65dc630ca085d7a8a2b4b62e550c4884a55a72",
+    "createdAt": "2026-04-03T05:53:07Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1197309467",
@@ -631,7 +1768,11 @@
     "dedupeKey": "a2dbffdabda88b6d9131d597519bb85b6005c43becddcc0f318ec63a466656e1",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "a2dbffdabda88b6d9131d597519bb85b6005c43becddcc0f318ec63a466656e1",
+    "createdAt": "2026-04-03T05:53:02Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1183851984",
@@ -766,7 +1907,11 @@
     "dedupeKey": "d4273419d7792df9b993b64371374fe85b9afa4f62f209af2d36118c1143b9a0",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "d4273419d7792df9b993b64371374fe85b9afa4f62f209af2d36118c1143b9a0",
+    "createdAt": "2026-04-03T05:52:45Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "576756256",
@@ -939,7 +2084,11 @@
     "dedupeKey": "75b614d30f06d8794b68b0f7aade1f0e46ecd789f8cd6954d2bf8c75e7e76daa",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "75b614d30f06d8794b68b0f7aade1f0e46ecd789f8cd6954d2bf8c75e7e76daa",
+    "createdAt": "2026-04-03T05:51:49Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1126340375",
@@ -1110,13 +2259,17 @@
     "dedupeKey": "eafcfddbbdf5e4c6ac3bd3583ab6de1a11a205e58cc1e3fe4b71fa0430d8ef81",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "eafcfddbbdf5e4c6ac3bd3583ab6de1a11a205e58cc1e3fe4b71fa0430d8ef81",
+    "createdAt": "2026-04-03T05:51:36Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1198448214",
     "title": "PKUSAIIC/embodied-ai-research",
     "summary": "This repository contains research reports and explorations on embodied AI, robotics, and real-world intelligent systems.",
-    "summaryZh": "",
+    "summaryZh": "This repository contains research reports and explorations on embodied AI, robotics, and real-world intelligent systems.",
     "publishedAt": "2026-04-03T05:51:32Z",
     "sourceType": "github",
     "primaryUrl": "https://github.com/PKUSAIIC/embodied-ai-research",
@@ -1248,7 +2401,11 @@
     "dedupeKey": "4512a8bb6ded883d28209fc0d86247c590e525eb6e34989b6b22c1b69fe25112",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "4512a8bb6ded883d28209fc0d86247c590e525eb6e34989b6b22c1b69fe25112",
+    "createdAt": "2026-04-03T05:51:32Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1175214672",
@@ -1392,7 +2549,11 @@
     "dedupeKey": "01a576c4b5e67dad3b2ead29d03a8997a6840b91eac0e0f21c29ad1800e0f9ca",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "01a576c4b5e67dad3b2ead29d03a8997a6840b91eac0e0f21c29ad1800e0f9ca",
+    "createdAt": "2026-04-03T05:51:22Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1125818493",
@@ -1563,7 +2724,11 @@
     "dedupeKey": "a70b76d87c2aca3b4e82b2d7ad0f51e4d0c9b1d0cf890b1bec506cca4e3f8609",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "a70b76d87c2aca3b4e82b2d7ad0f51e4d0c9b1d0cf890b1bec506cca4e3f8609",
+    "createdAt": "2026-04-03T05:51:06Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1175060603",
@@ -1700,7 +2865,11 @@
     "dedupeKey": "15feacbfb7d00a13b818c7ca84ce1c463d1060206920cf4c4e3181d567df9c10",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "15feacbfb7d00a13b818c7ca84ce1c463d1060206920cf4c4e3181d567df9c10",
+    "createdAt": "2026-04-03T05:51:05Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "937047322",
@@ -1875,7 +3044,11 @@
     "dedupeKey": "06fe07fa8bad7df6bcb818136907a6d6b5c621c4cfde62c31502eef8dc1f4b3c",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "06fe07fa8bad7df6bcb818136907a6d6b5c621c4cfde62c31502eef8dc1f4b3c",
+    "createdAt": "2026-04-03T05:50:29Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1182371941",
@@ -2014,7 +3187,11 @@
     "dedupeKey": "8c646f1c0bc466210780a588d72f88d01c8516566f7f9ae23dccee925c6932f5",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "8c646f1c0bc466210780a588d72f88d01c8516566f7f9ae23dccee925c6932f5",
+    "createdAt": "2026-04-03T05:49:57Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1124927853",
@@ -2189,7 +3366,11 @@
     "dedupeKey": "f8bc488e507e5256a5c7a371db792db12cfbcae9c16c405f27cadddb8abe7893",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "f8bc488e507e5256a5c7a371db792db12cfbcae9c16c405f27cadddb8abe7893",
+    "createdAt": "2026-04-03T05:49:52Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1023263272",
@@ -2326,7 +3507,11 @@
     "dedupeKey": "e0e7409ff908a6eda99c3b639335d33f0b13ce2eb96558f23b9ed445f7bc5e25",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "e0e7409ff908a6eda99c3b639335d33f0b13ce2eb96558f23b9ed445f7bc5e25",
+    "createdAt": "2026-04-03T05:49:39Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1197088494",
@@ -2466,7 +3651,7 @@
     ],
     "id": "dd6cb5c33dae55c4b28fe4829029f763de78275f5301f2b4ab91bcb7a378e61b",
     "createdAt": "2026-04-03T05:45:53Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2605,7 +3790,7 @@
     ],
     "id": "cea37f0926ff67bf7e7826adf8fb65a0a68220f8afc988922357913565f67be2",
     "createdAt": "2026-04-03T05:45:48Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2752,7 +3937,7 @@
     ],
     "id": "16c7eff9ae19cacaffdf46e35bd57aaed4914f3e765462934abac6dfc8d3c5ed",
     "createdAt": "2026-04-03T05:45:40Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -6906,7 +8091,7 @@
     "externalId": "1037599563",
     "title": "zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026",
     "summary": "2026 entry-level hardware engineering jobs — EE, embedded systems & robotics US roles",
-    "summaryZh": "",
+    "summaryZh": "2026 entry-level hardware engineering jobs — EE, embedded systems & robotics US roles",
     "publishedAt": "2026-04-03T03:15:52Z",
     "sourceType": "github",
     "primaryUrl": "https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026",
@@ -9536,7 +10721,11 @@
     "dedupeKey": "65d86fb3cf210484ab8cc6ae3ea3a9172447bc3adb8672b0297c619c1e647139",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "65d86fb3cf210484ab8cc6ae3ea3a9172447bc3adb8672b0297c619c1e647139",
+    "createdAt": "2026-04-01T02:59:42Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2604.00202v1",
@@ -9640,7 +10829,11 @@
     "dedupeKey": "5356a76a2198c4054678fde12364102744e7c37ec7575b2186e42e9f3f4d0097",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "5356a76a2198c4054678fde12364102744e7c37ec7575b2186e42e9f3f4d0097",
+    "createdAt": "2026-03-31T20:11:49Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.30022v1",
@@ -9722,7 +10915,11 @@
     "dedupeKey": "9cd77468d0946658a10bce38d2dab42d557a65bf86ce550780323685a1ac001f",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "9cd77468d0946658a10bce38d2dab42d557a65bf86ce550780323685a1ac001f",
+    "createdAt": "2026-03-31T17:19:34Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.29882v1",
@@ -9801,7 +10998,11 @@
     "dedupeKey": "32cf6239a5da3360dd3de3a269e5e4c8900ded4f7ff0e062a6f25a486aea3eb4",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "32cf6239a5da3360dd3de3a269e5e4c8900ded4f7ff0e062a6f25a486aea3eb4",
+    "createdAt": "2026-03-31T15:34:36Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.29844v1",
@@ -9913,7 +11114,11 @@
     "dedupeKey": "2a654a8cb24eea1455cd0770e8cfb35a1d837923d82c0c400e017a2755c89b5d",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "2a654a8cb24eea1455cd0770e8cfb35a1d837923d82c0c400e017a2755c89b5d",
+    "createdAt": "2026-03-31T15:02:27Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.29798v1",
@@ -10011,7 +11216,11 @@
     "dedupeKey": "439bbf1a1350ae76766dedbd1a15a7ada6bf02ed032b9ce1816162d500af9dc4",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "439bbf1a1350ae76766dedbd1a15a7ada6bf02ed032b9ce1816162d500af9dc4",
+    "createdAt": "2026-03-31T14:31:18Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.29708v1",
@@ -10096,7 +11305,11 @@
     "dedupeKey": "7b60afa2f77e7389f88e9104baf2fbffa16788317a5c3314443642a9f47c6c1e",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "7b60afa2f77e7389f88e9104baf2fbffa16788317a5c3314443642a9f47c6c1e",
+    "createdAt": "2026-03-31T13:09:43Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.29419v1",
@@ -10194,7 +11407,11 @@
     "dedupeKey": "09153d963ede6a894ade8e1ebd3b38d25b674d07d504cadbc1402174595fd2ab",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "09153d963ede6a894ade8e1ebd3b38d25b674d07d504cadbc1402174595fd2ab",
+    "createdAt": "2026-03-31T08:25:22Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2603.29409v1",
@@ -10276,7 +11493,11 @@
     "dedupeKey": "a1ddd9e56c9ec8c5cfc15039f8aef96270f7f0e7349ed82b005a5665b6b8d141",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "a1ddd9e56c9ec8c5cfc15039f8aef96270f7f0e7349ed82b005a5665b6b8d141",
+    "createdAt": "2026-03-31T08:13:45Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "http://arxiv.org/abs/2604.00061v1",
@@ -10400,7 +11621,11 @@
     "dedupeKey": "1549247486a6920af132738cb9ba61558d020125fc27ae9a55878a16fee887b3",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "1549247486a6920af132738cb9ba61558d020125fc27ae9a55878a16fee887b3",
+    "createdAt": "2026-03-31T06:26:53Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1050365777",

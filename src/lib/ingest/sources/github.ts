@@ -94,7 +94,7 @@ export const githubSource: SourceAdapter = {
         externalId: String(repo.id),
         title: repo.full_name,
         summary: repo.description || 'GitHub repository related to embodied AI or robotics.',
-        summaryZh: '',
+        summaryZh: summary,
         publishedAt: repo.updated_at || repo.created_at,
         sourceType: 'github' as const,
         primaryUrl: repo.html_url,

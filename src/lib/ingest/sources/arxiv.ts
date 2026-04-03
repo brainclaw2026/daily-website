@@ -22,6 +22,7 @@ export const arxivSource: SourceAdapter = {
   async fetchItems() {
     const env = getEnv();
     const maxResults = Math.min(Math.max(env.ingestMaxItemsPerSource, 1), 50);
+    // Expanded query to also capture SLAM related papers
     const query = [
       'all:"embodied ai"',
       'all:"robot learning"',
@@ -29,6 +30,7 @@ export const arxivSource: SourceAdapter = {
       'all:"vision-language-action"',
       'all:"world model robotics"',
       'all:"robot manipulation"',
+      'all:"slam"', // SLAM specific term
     ].join(' OR ');
 
     const url = `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(query)}&sortBy=submittedDate&sortOrder=descending&start=0&max_results=${maxResults}`;

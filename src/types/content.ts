@@ -1,4 +1,4 @@
-export type ContentCategory = 'paper' | 'project' | 'dataset' | 'code' | 'conference' | 'lab';
+export type ContentCategory = 'paper' | 'project' | 'dataset' | 'code' | 'conference' | 'lab' | 'slam';
 
 export type SourceType = 'arxiv' | 'huggingface' | 'github' | 'lab' | 'conference' | 'other';
 

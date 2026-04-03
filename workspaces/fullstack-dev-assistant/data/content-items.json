@@ -1,5 +1,667 @@
 [
   {
+    "externalId": "1162610718",
+    "title": "deepanmpc/LaRa",
+    "summary": "LaRa is a safety-first, offline-capable adaptive robotic AI platform engineered for therapeutic engagement with neurodiverse children, integrating real-time speech processing, emotion modeling, deterministic state control, and constrained language generation.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-03T05:23:46Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/deepanmpc/LaRa",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/deepanmpc/LaRa",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "deepanmpc"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.8500000000000001,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1162610718,
+      "node_id": "R_kgDORUwIHg",
+      "name": "LaRa",
+      "full_name": "deepanmpc/LaRa",
+      "private": false,
+      "owner": {
+        "login": "deepanmpc",
+        "id": 141644376,
+        "node_id": "U_kgDOCHFSWA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/141644376?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/deepanmpc",
+        "html_url": "https://github.com/deepanmpc",
+        "followers_url": "https://api.github.com/users/deepanmpc/followers",
+        "following_url": "https://api.github.com/users/deepanmpc/following{/other_user}",
+        "gists_url": "https://api.github.com/users/deepanmpc/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/deepanmpc/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/deepanmpc/subscriptions",
+        "organizations_url": "https://api.github.com/users/deepanmpc/orgs",
+        "repos_url": "https://api.github.com/users/deepanmpc/repos",
+        "events_url": "https://api.github.com/users/deepanmpc/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/deepanmpc/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/deepanmpc/LaRa",
+      "description": "LaRa is a safety-first, offline-capable adaptive robotic AI platform engineered for therapeutic engagement with neurodiverse children, integrating real-time speech processing, emotion modeling, deterministic state control, and constrained language generation.",
+      "fork": false,
+      "url": "https://api.github.com/repos/deepanmpc/LaRa",
+      "forks_url": "https://api.github.com/repos/deepanmpc/LaRa/forks",
+      "keys_url": "https://api.github.com/repos/deepanmpc/LaRa/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/deepanmpc/LaRa/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/deepanmpc/LaRa/teams",
+      "hooks_url": "https://api.github.com/repos/deepanmpc/LaRa/hooks",
+      "issue_events_url": "https://api.github.com/repos/deepanmpc/LaRa/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/deepanmpc/LaRa/events",
+      "assignees_url": "https://api.github.com/repos/deepanmpc/LaRa/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/deepanmpc/LaRa/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/deepanmpc/LaRa/tags",
+      "blobs_url": "https://api.github.com/repos/deepanmpc/LaRa/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/deepanmpc/LaRa/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/deepanmpc/LaRa/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/deepanmpc/LaRa/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/deepanmpc/LaRa/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/deepanmpc/LaRa/languages",
+      "stargazers_url": "https://api.github.com/repos/deepanmpc/LaRa/stargazers",
+      "contributors_url": "https://api.github.com/repos/deepanmpc/LaRa/contributors",
+      "subscribers_url": "https://api.github.com/repos/deepanmpc/LaRa/subscribers",
+      "subscription_url": "https://api.github.com/repos/deepanmpc/LaRa/subscription",
+      "commits_url": "https://api.github.com/repos/deepanmpc/LaRa/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/deepanmpc/LaRa/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/deepanmpc/LaRa/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/deepanmpc/LaRa/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/deepanmpc/LaRa/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/deepanmpc/LaRa/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/deepanmpc/LaRa/merges",
+      "archive_url": "https://api.github.com/repos/deepanmpc/LaRa/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/deepanmpc/LaRa/downloads",
+      "issues_url": "https://api.github.com/repos/deepanmpc/LaRa/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/deepanmpc/LaRa/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/deepanmpc/LaRa/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/deepanmpc/LaRa/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/deepanmpc/LaRa/labels{/name}",
+      "releases_url": "https://api.github.com/repos/deepanmpc/LaRa/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/deepanmpc/LaRa/deployments",
+      "created_at": "2026-02-20T13:31:52Z",
+      "updated_at": "2026-04-03T05:23:46Z",
+      "pushed_at": "2026-04-03T05:23:41Z",
+      "git_url": "git://github.com/deepanmpc/LaRa.git",
+      "ssh_url": "git@github.com:deepanmpc/LaRa.git",
+      "clone_url": "https://github.com/deepanmpc/LaRa.git",
+      "svn_url": "https://github.com/deepanmpc/LaRa",
+      "homepage": "",
+      "size": 65277,
+      "stargazers_count": 2,
+      "watchers_count": 2,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 10,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 10,
+      "watchers": 2,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "deepanmpclara",
+    "dedupeKey": "fe1fee74f016b5b297c99a4cc50ebb0eed47a30555ae78206c3bee58c1dc9219",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "OpenEnvisionLab/WMBench",
+    "title": "OpenEnvisionLab/WMBench",
+    "summary": "Hugging Face 数据集，方向与具身智能/机器人相关。Downloads: 11；Likes: 0。",
+    "summaryZh": "",
+    "publishedAt": "2026-04-03T05:23:38.000Z",
+    "sourceType": "other",
+    "primaryUrl": "https://huggingface.co/datasets/OpenEnvisionLab/WMBench",
+    "sourceLinks": [
+      {
+        "label": "Hugging Face Dataset",
+        "url": "https://huggingface.co/datasets/OpenEnvisionLab/WMBench",
+        "sourceType": "other"
+      }
+    ],
+    "authors": [
+      "OpenEnvisionLab"
+    ],
+    "category": "dataset",
+    "keywords": [
+      "task_categories:reinforcement-learning",
+      "task_categories:video-classification",
+      "task_categories:text-to-video",
+      "task_categories:text-to-3d",
+      "language:en",
+      "license:apache-2.0",
+      "size_categories:10K<n<100K",
+      "region:us",
+      "game-agents",
+      "gameplay",
+      "reinforcement-learning",
+      "world-models",
+      "video-generation",
+      "multimodal",
+      "embodied-ai"
+    ],
+    "tags": [
+      "数据集"
+    ],
+    "relevanceScore": 0.62,
+    "trustScore": 0.82,
+    "raw": {
+      "_id": "69bfd5d39e9ee14d335ed000",
+      "id": "OpenEnvisionLab/WMBench",
+      "author": "OpenEnvisionLab",
+      "cardData": {
+        "license": "apache-2.0",
+        "task_categories": [
+          "reinforcement-learning",
+          "video-classification",
+          "text-to-video",
+          "text-to-3d"
+        ],
+        "language": [
+          "en"
+        ],
+        "tags": [
+          "game-agents",
+          "gameplay",
+          "reinforcement-learning",
+          "world-models",
+          "video-generation",
+          "multimodal",
+          "embodied-ai"
+        ],
+        "pretty_name": "Sunain Gameplay",
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      "disabled": false,
+      "gated": "manual",
+      "lastModified": "2026-04-03T05:23:38.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "6fbd0826f8a7c6893986f21fc07d728cf24aa039",
+      "description": "\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\nSunain Gameplay is a large-scale multimodal dataset containing synchronized gameplay videos and player input actions from 12 popular video games. The dataset comprises over 1000 curated clips (10-50 seconds each) with 2M+ frames and frame-level action annotations, designed specifically for training embodied AI agents, world models, and video generation systems. This release represents a curated sample of the full Sunain gameplay dataset. For access to the complete… See the full description on the dataset page: https://huggingface.co/datasets/OpenEnvisionLab/WMBench.",
+      "downloads": 11,
+      "tags": [
+        "task_categories:reinforcement-learning",
+        "task_categories:video-classification",
+        "task_categories:text-to-video",
+        "task_categories:text-to-3d",
+        "language:en",
+        "license:apache-2.0",
+        "size_categories:10K<n<100K",
+        "region:us",
+        "game-agents",
+        "gameplay",
+        "reinforcement-learning",
+        "world-models",
+        "video-generation",
+        "multimodal",
+        "embodied-ai"
+      ],
+      "createdAt": "2026-03-22T11:43:15.000Z",
+      "key": ""
+    },
+    "slug": "openenvisionlabwmbench",
+    "dedupeKey": "5aef156df7d940ae5b3b699959059e86035d546a1af1b1b59cfa9c3b6b65d48e",
+    "mergedSourceTypes": [
+      "other"
+    ]
+  },
+  {
+    "externalId": "927290945",
+    "title": "averyizatt/COSGC-ROBOT",
+    "summary": "Colorado Space Grant Consortium Autonomous Robot Competition ",
+    "summaryZh": "",
+    "publishedAt": "2026-04-03T05:23:32Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/averyizatt/COSGC-ROBOT",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/averyizatt/COSGC-ROBOT",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "averyizatt"
+    ],
+    "category": "code",
+    "keywords": [],
+    "tags": [
+      "学术动态"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 927290945,
+      "node_id": "R_kgDON0VWQQ",
+      "name": "COSGC-ROBOT",
+      "full_name": "averyizatt/COSGC-ROBOT",
+      "private": false,
+      "owner": {
+        "login": "averyizatt",
+        "id": 194205696,
+        "node_id": "U_kgDOC5NYAA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/194205696?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/averyizatt",
+        "html_url": "https://github.com/averyizatt",
+        "followers_url": "https://api.github.com/users/averyizatt/followers",
+        "following_url": "https://api.github.com/users/averyizatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/averyizatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/averyizatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/averyizatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/averyizatt/orgs",
+        "repos_url": "https://api.github.com/users/averyizatt/repos",
+        "events_url": "https://api.github.com/users/averyizatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/averyizatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/averyizatt/COSGC-ROBOT",
+      "description": "Colorado Space Grant Consortium Autonomous Robot Competition ",
+      "fork": false,
+      "url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT",
+      "forks_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/forks",
+      "keys_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/teams",
+      "hooks_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/hooks",
+      "issue_events_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/events",
+      "assignees_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/tags",
+      "blobs_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/languages",
+      "stargazers_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/stargazers",
+      "contributors_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/contributors",
+      "subscribers_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/subscribers",
+      "subscription_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/subscription",
+      "commits_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/merges",
+      "archive_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/downloads",
+      "issues_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/labels{/name}",
+      "releases_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/averyizatt/COSGC-ROBOT/deployments",
+      "created_at": "2025-02-04T18:06:47Z",
+      "updated_at": "2026-04-03T05:23:32Z",
+      "pushed_at": "2026-04-03T05:23:28Z",
+      "git_url": "git://github.com/averyizatt/COSGC-ROBOT.git",
+      "ssh_url": "git@github.com:averyizatt/COSGC-ROBOT.git",
+      "clone_url": "https://github.com/averyizatt/COSGC-ROBOT.git",
+      "svn_url": "https://github.com/averyizatt/COSGC-ROBOT",
+      "homepage": "https://www.colorado.edu/center/spacegrant/",
+      "size": 1093,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "averyizattcosgc-robot",
+    "dedupeKey": "11703d9cfec592ef2568a32498222ab4048d6235903b90bc7b2af0140ee14c68",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1199568740",
+    "title": "jaehyeokoh/rby1_2607_humanoid_contest",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-03T05:23:06Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/jaehyeokoh/rby1_2607_humanoid_contest",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/jaehyeokoh/rby1_2607_humanoid_contest",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "jaehyeokoh"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics",
+      "humanoid"
+    ],
+    "tags": [
+      "具身智能",
+      "人形机器人",
+      "开源发布"
+    ],
+    "relevanceScore": 0.77,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1199568740,
+      "node_id": "R_kgDOR3_3ZA",
+      "name": "rby1_2607_humanoid_contest",
+      "full_name": "jaehyeokoh/rby1_2607_humanoid_contest",
+      "private": false,
+      "owner": {
+        "login": "jaehyeokoh",
+        "id": 180750642,
+        "node_id": "U_kgDOCsYJMg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/180750642?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jaehyeokoh",
+        "html_url": "https://github.com/jaehyeokoh",
+        "followers_url": "https://api.github.com/users/jaehyeokoh/followers",
+        "following_url": "https://api.github.com/users/jaehyeokoh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jaehyeokoh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jaehyeokoh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jaehyeokoh/subscriptions",
+        "organizations_url": "https://api.github.com/users/jaehyeokoh/orgs",
+        "repos_url": "https://api.github.com/users/jaehyeokoh/repos",
+        "events_url": "https://api.github.com/users/jaehyeokoh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jaehyeokoh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/jaehyeokoh/rby1_2607_humanoid_contest",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest",
+      "forks_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/forks",
+      "keys_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/teams",
+      "hooks_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/hooks",
+      "issue_events_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/events",
+      "assignees_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/tags",
+      "blobs_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/languages",
+      "stargazers_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/stargazers",
+      "contributors_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/contributors",
+      "subscribers_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/subscribers",
+      "subscription_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/subscription",
+      "commits_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/merges",
+      "archive_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/downloads",
+      "issues_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/labels{/name}",
+      "releases_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/jaehyeokoh/rby1_2607_humanoid_contest/deployments",
+      "created_at": "2026-04-02T13:34:07Z",
+      "updated_at": "2026-04-03T05:23:06Z",
+      "pushed_at": "2026-04-03T05:23:02Z",
+      "git_url": "git://github.com/jaehyeokoh/rby1_2607_humanoid_contest.git",
+      "ssh_url": "git@github.com:jaehyeokoh/rby1_2607_humanoid_contest.git",
+      "clone_url": "https://github.com/jaehyeokoh/rby1_2607_humanoid_contest.git",
+      "svn_url": "https://github.com/jaehyeokoh/rby1_2607_humanoid_contest",
+      "homepage": null,
+      "size": 9267,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "version_1_initial_version",
+      "score": 1
+    },
+    "slug": "jaehyeokohrby12607humanoidcontest",
+    "dedupeKey": "072cdf90ce3eb50f0247bee7309a77a5e3e18613f78ca222c6aa8ae324e8b731",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
+    "externalId": "1200138065",
+    "title": "grboguz21/vla_for_robotics",
+    "summary": "GitHub repository related to embodied AI or robotics.",
+    "summaryZh": "",
+    "publishedAt": "2026-04-03T05:23:02Z",
+    "sourceType": "github",
+    "primaryUrl": "https://github.com/grboguz21/vla_for_robotics",
+    "sourceLinks": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/grboguz21/vla_for_robotics",
+        "sourceType": "github"
+      }
+    ],
+    "authors": [
+      "grboguz21"
+    ],
+    "category": "code",
+    "keywords": [
+      "embodied ai",
+      "robotics",
+      "vla"
+    ],
+    "tags": [
+      "具身智能",
+      "视觉语言动作",
+      "开源发布"
+    ],
+    "relevanceScore": 0.99,
+    "trustScore": 0.76,
+    "raw": {
+      "id": 1200138065,
+      "node_id": "R_kgDOR4inUQ",
+      "name": "vla_for_robotics",
+      "full_name": "grboguz21/vla_for_robotics",
+      "private": false,
+      "owner": {
+        "login": "grboguz21",
+        "id": 170757002,
+        "node_id": "U_kgDOCi2Lig",
+        "avatar_url": "https://avatars.githubusercontent.com/u/170757002?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/grboguz21",
+        "html_url": "https://github.com/grboguz21",
+        "followers_url": "https://api.github.com/users/grboguz21/followers",
+        "following_url": "https://api.github.com/users/grboguz21/following{/other_user}",
+        "gists_url": "https://api.github.com/users/grboguz21/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/grboguz21/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/grboguz21/subscriptions",
+        "organizations_url": "https://api.github.com/users/grboguz21/orgs",
+        "repos_url": "https://api.github.com/users/grboguz21/repos",
+        "events_url": "https://api.github.com/users/grboguz21/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/grboguz21/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/grboguz21/vla_for_robotics",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/grboguz21/vla_for_robotics",
+      "forks_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/forks",
+      "keys_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/teams",
+      "hooks_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/hooks",
+      "issue_events_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/events",
+      "assignees_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/tags",
+      "blobs_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/languages",
+      "stargazers_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/stargazers",
+      "contributors_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/contributors",
+      "subscribers_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/subscribers",
+      "subscription_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/subscription",
+      "commits_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/merges",
+      "archive_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/downloads",
+      "issues_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/labels{/name}",
+      "releases_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/grboguz21/vla_for_robotics/deployments",
+      "created_at": "2026-04-03T04:35:11Z",
+      "updated_at": "2026-04-03T05:23:02Z",
+      "pushed_at": "2026-04-03T05:22:58Z",
+      "git_url": "git://github.com/grboguz21/vla_for_robotics.git",
+      "ssh_url": "git@github.com:grboguz21/vla_for_robotics.git",
+      "clone_url": "https://github.com/grboguz21/vla_for_robotics.git",
+      "svn_url": "https://github.com/grboguz21/vla_for_robotics",
+      "homepage": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Jupyter Notebook",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main",
+      "score": 1
+    },
+    "slug": "grboguz21vlaforrobotics",
+    "dedupeKey": "8538ec21d1ee6016a6925b42a77c41f5e4913458c26670ebd1b5b54f2d3d1947",
+    "mergedSourceTypes": [
+      "github"
+    ]
+  },
+  {
     "externalId": "YSanYi/act_songling_plate_stack_v1",
     "title": "YSanYi/act_songling_plate_stack_v1",
     "summary": "Hugging Face 模型，方向与具身智能相关。Pipeline: robotics；Downloads: 14；Likes: 0。",
@@ -83,7 +745,11 @@
     "dedupeKey": "74037fb037a4ff432ed521ea37978394deecc666ad5f7442847f368d69aa54b5",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "74037fb037a4ff432ed521ea37978394deecc666ad5f7442847f368d69aa54b5",
+    "createdAt": "2026-04-03T04:03:07.000Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1199467321",
@@ -230,7 +896,11 @@
     "dedupeKey": "35e30f583b43f14789d7ef39d65e4df451a9754bee0914a4bef9d810eb448b0c",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "35e30f583b43f14789d7ef39d65e4df451a9754bee0914a4bef9d810eb448b0c",
+    "createdAt": "2026-04-03T04:02:57Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "1194973223",
@@ -371,7 +1041,11 @@
     "dedupeKey": "04120631124be37f32594fd103c2a7690236c186c8a9de8ee9c901cdda9d0f14",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "04120631124be37f32594fd103c2a7690236c186c8a9de8ee9c901cdda9d0f14",
+    "createdAt": "2026-04-03T04:02:34Z",
+    "isFeatured": true,
+    "sourceCount": 1
   },
   {
     "externalId": "williamdgomez/SNOW.SB",
@@ -443,7 +1117,11 @@
     "dedupeKey": "608b1571a2fd6f0decbca7b73a9e89caf514d3c4d948cc96c097877367429460",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "608b1571a2fd6f0decbca7b73a9e89caf514d3c4d948cc96c097877367429460",
+    "createdAt": "2026-04-03T04:02:31.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1200121634",
@@ -580,7 +1258,11 @@
     "dedupeKey": "a4e75afe0c9ee9a3ddbb4c9a3c5b93c51b0559778f53d8ca420d360991f31566",
     "mergedSourceTypes": [
       "github"
-    ]
+    ],
+    "id": "a4e75afe0c9ee9a3ddbb4c9a3c5b93c51b0559778f53d8ca420d360991f31566",
+    "createdAt": "2026-04-03T04:02:07Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "shivakanthsujit/aloha_sim_demos",
@@ -658,7 +1340,11 @@
     "dedupeKey": "5c6f63eeb51941a833b39276cda23f58afd3892fce59db3daecdd28b98b0b4f1",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "5c6f63eeb51941a833b39276cda23f58afd3892fce59db3daecdd28b98b0b4f1",
+    "createdAt": "2026-04-03T04:00:52.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.11558v3",
@@ -707,7 +1393,11 @@
     "dedupeKey": "6a11937c672ffcb13d43dacaf79c211605d11e95200850f7ac14acb2d9112a18",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "6a11937c672ffcb13d43dacaf79c211605d11e95200850f7ac14acb2d9112a18",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.01765v1",
@@ -754,7 +1444,11 @@
     "dedupeKey": "c3c8abcf2e011300fe770b67f29609289fe9ce1ebd8aa18e18917249ed88decd",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "c3c8abcf2e011300fe770b67f29609289fe9ce1ebd8aa18e18917249ed88decd",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.01659v1",
@@ -799,7 +1493,11 @@
     "dedupeKey": "2ddba89b506207944ff5c0b9f2802932c35cd414ce20bb0a15cef77f7b1a60c8",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "2ddba89b506207944ff5c0b9f2802932c35cd414ce20bb0a15cef77f7b1a60c8",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.01567v1",
@@ -844,7 +1542,11 @@
     "dedupeKey": "524c107578b33a20375b1cb0b907ff388d3a9fc39749a67439368e74f98ec162",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "524c107578b33a20375b1cb0b907ff388d3a9fc39749a67439368e74f98ec162",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.01570v1",
@@ -887,7 +1589,11 @@
     "dedupeKey": "a067067fa7ca16239d59ab38e08efdf487afc5d4ed6b7c44843bfd58f0148bce",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "a067067fa7ca16239d59ab38e08efdf487afc5d4ed6b7c44843bfd58f0148bce",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.01720v1",
@@ -927,7 +1633,11 @@
     "dedupeKey": "6a3a87c6ee87de556ba123b6a0ef1775a8ca1c8beed51a8103849e0d268622f6",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "6a3a87c6ee87de556ba123b6a0ef1775a8ca1c8beed51a8103849e0d268622f6",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.02107v1",
@@ -970,7 +1680,11 @@
     "dedupeKey": "23a9929208c6a72177848d520bccad63ce206f173a2f530bc8fedb629ac13f1b",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "23a9929208c6a72177848d520bccad63ce206f173a2f530bc8fedb629ac13f1b",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.01371v1",
@@ -1017,7 +1731,11 @@
     "dedupeKey": "5065a0ce5179df65d51288c412b6ec4979ac6307146c9390ad2512e453694eb6",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "5065a0ce5179df65d51288c412b6ec4979ac6307146c9390ad2512e453694eb6",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.01618v1",
@@ -1061,7 +1779,11 @@
     "dedupeKey": "3978e6cb1649d5ab919b6edd35c0989eaeb07d4bd3d04d2b5f42fcd1d1bc0628",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "3978e6cb1649d5ab919b6edd35c0989eaeb07d4bd3d04d2b5f42fcd1d1bc0628",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.01723v1",
@@ -1102,7 +1824,11 @@
     "dedupeKey": "f71aa3c2b2faf32d15d436277635080d7d542139c95eda9336f24edb1a053acd",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "f71aa3c2b2faf32d15d436277635080d7d542139c95eda9336f24edb1a053acd",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.01860v1",
@@ -1150,7 +1876,11 @@
     "dedupeKey": "5baf09940e11acd08f8d273296ffa53d09472f3ba0caf5fa6ac4e8aab9789114",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "5baf09940e11acd08f8d273296ffa53d09472f3ba0caf5fa6ac4e8aab9789114",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.01346v1",
@@ -1191,7 +1921,11 @@
     "dedupeKey": "420bd314cab3bd41ea937c6c8fdc7b52958456a427300c8a8d1760fe5b9e7391",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "420bd314cab3bd41ea937c6c8fdc7b52958456a427300c8a8d1760fe5b9e7391",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.02241v1",
@@ -1237,7 +1971,11 @@
     "dedupeKey": "0d86f826db07820f4eeda121625efbb525888a63fb82413812d7a2cf64bee4dc",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "0d86f826db07820f4eeda121625efbb525888a63fb82413812d7a2cf64bee4dc",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2501.03971v2",
@@ -1276,7 +2014,11 @@
     "dedupeKey": "53d4813eb4e9cf1bc7ab5d4c10fcf208319b1ad66294fe302035eebcb75a898a",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "53d4813eb4e9cf1bc7ab5d4c10fcf208319b1ad66294fe302035eebcb75a898a",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.16673v3",
@@ -1318,7 +2060,11 @@
     "dedupeKey": "00b6aea29d16a4f9f5f16b3879dcae0f1e436f7e9a5fb46d3a9b2b811bf9f8ba",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "00b6aea29d16a4f9f5f16b3879dcae0f1e436f7e9a5fb46d3a9b2b811bf9f8ba",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2505.19574v3",
@@ -1359,7 +2105,11 @@
     "dedupeKey": "7147fa72dc4d7bfa9b2bcd6f886ec6e8103c5967d0094c1a91c29dc53f7614f8",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "7147fa72dc4d7bfa9b2bcd6f886ec6e8103c5967d0094c1a91c29dc53f7614f8",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2602.23205v2",
@@ -1401,7 +2151,11 @@
     "dedupeKey": "d612aca8186d827d5cebfe9e04628062c5893537110d1bc882dce537584950b6",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "d612aca8186d827d5cebfe9e04628062c5893537110d1bc882dce537584950b6",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.02108v1",
@@ -1443,7 +2197,11 @@
     "dedupeKey": "0687f12a8630db0781606a0ebbf5b734e81f99bc812d524bd43645260729c326",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "0687f12a8630db0781606a0ebbf5b734e81f99bc812d524bd43645260729c326",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2604.02190v1",
@@ -1487,7 +2245,11 @@
     "dedupeKey": "afd0711cc22f44fe019ed8470142da8fe557ffb564d499689a3ddd7794af6374",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "afd0711cc22f44fe019ed8470142da8fe557ffb564d499689a3ddd7794af6374",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "oai:arXiv.org:2603.27346v2",
@@ -1531,7 +2293,11 @@
     "dedupeKey": "4c76a7688ab3b79d4fdd376e827ab94da06e5234fc3b8079ff0e118b0d31637b",
     "mergedSourceTypes": [
       "arxiv"
-    ]
+    ],
+    "id": "4c76a7688ab3b79d4fdd376e827ab94da06e5234fc3b8079ff0e118b0d31637b",
+    "createdAt": "2026-04-03T04:00:00.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "wheattoast11/OmniCoder-9B-Zero-Phase2",
@@ -1627,7 +2393,11 @@
     "dedupeKey": "ebceb6b79674fe2f90dcd1407cabb25ea53119350deff3cd71b5e22c1be61b1d",
     "mergedSourceTypes": [
       "huggingface"
-    ]
+    ],
+    "id": "ebceb6b79674fe2f90dcd1407cabb25ea53119350deff3cd71b5e22c1be61b1d",
+    "createdAt": "2026-04-03T03:59:36.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "Nipun/crcs-provenance-trail",
@@ -1693,7 +2463,11 @@
     "dedupeKey": "d90c5c4fc09d968aa0da8db34fce407dd6aa74752ccde02e68659c7a8239da94",
     "mergedSourceTypes": [
       "other"
-    ]
+    ],
+    "id": "d90c5c4fc09d968aa0da8db34fce407dd6aa74752ccde02e68659c7a8239da94",
+    "createdAt": "2026-04-03T03:58:58.000Z",
+    "isFeatured": false,
+    "sourceCount": 1
   },
   {
     "externalId": "1023024385",
@@ -1873,7 +2647,7 @@
     ],
     "id": "178a86658c9bc695b0c822da2c62b4d8363237e50323d6553aa78a7f5cd3733c",
     "createdAt": "2026-04-01T04:13:41Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2014,7 +2788,7 @@
     ],
     "id": "bb2d1782ae6be8351edf92193bc08dee01cb4df961474204a97ff3458c3774b4",
     "createdAt": "2026-04-01T04:13:24Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
@@ -2195,7 +2969,7 @@
     ],
     "id": "97645b0504732750eb76c90263e25c6cd52f11ef0b153088847b49ca4a20af34",
     "createdAt": "2026-04-01T04:13:16Z",
-    "isFeatured": true,
+    "isFeatured": false,
     "sourceCount": 1
   },
   {
